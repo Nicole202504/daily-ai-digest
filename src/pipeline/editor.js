@@ -55,6 +55,70 @@ function userNeed(item) {
   return "降低信息获取、工具搭建或重复工作的成本。";
 }
 
+function productWhat(item) {
+  const text = `${item.title} ${item.summary ?? ""} ${item.body ?? ""}`.toLowerCase();
+  if (/mcp|context|memory|re-explain|explain yourself/.test(text)) {
+    return "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。";
+  }
+  if (/personal website|link-in-bio|bento|creator|founder/.test(text)) {
+    return "用 bento tiles 快速生成个人主页或 link-in-bio 页面，支持组件、集成、访客分析和受众增长入口。";
+  }
+  if (/learns how you work|repeated tasks|workflow|automation|internal tools|no-code/.test(text)) {
+    return "观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。";
+  }
+  if (/data analyst|dashboard|analytics|business|revenue|stripe|posthog/.test(text)) {
+    return "用自然语言分析业务数据并生成 dashboard，把分散在产品、收入和运营工具里的指标集中到一个视图。";
+  }
+  if (/twitter|tweet|thread|markdown|x\/twitter/.test(text)) {
+    return "把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。";
+  }
+  if (/resume|cv|career|hiring/.test(text)) {
+    return "把 Markdown 简历生成一页 PDF 和公开链接，并支持按岗位快速维护不同版本。";
+  }
+  if (/coding agent|terminal|harness|prompt template|extension/.test(text)) {
+    return "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。";
+  }
+  if (/music|audio|stem|wav|instrument/.test(text)) {
+    return "把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。";
+  }
+  if (/fallback|provider|model|llm|json/.test(text)) {
+    return "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。";
+  }
+  return features(item);
+}
+
+function productWhy(item) {
+  const text = `${item.title} ${item.summary ?? ""} ${item.body ?? ""}`.toLowerCase();
+  if (/mcp|context|memory|re-explain|explain yourself/.test(text)) {
+    return "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。";
+  }
+  if (/personal website|link-in-bio|bento|creator|founder/.test(text)) {
+    return "面向创作者、founder 和个人品牌经营者，解决传统链接页太单薄、个人网站又太重，且难追踪访问和转化的问题。";
+  }
+  if (/learns how you work|repeated tasks|workflow|automation|internal tools|no-code/.test(text)) {
+    return "面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。";
+  }
+  if (/data analyst|dashboard|analytics|business|revenue|stripe|posthog/.test(text)) {
+    return "面向增长、运营、销售和创始人，解决不会 SQL、等数据团队排期太慢、业务问题无法及时自查的问题。";
+  }
+  if (/twitter|tweet|thread|markdown|x\/twitter/.test(text)) {
+    return "面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。";
+  }
+  if (/resume|cv|career|hiring/.test(text)) {
+    return "面向求职者、学生和自由职业者，解决简历过长、版本混乱、针对不同岗位改写成本高的问题。";
+  }
+  if (/coding agent|terminal|harness|prompt template|extension/.test(text)) {
+    return "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。";
+  }
+  if (/music|audio|stem|wav|instrument/.test(text)) {
+    return "面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。";
+  }
+  if (/fallback|provider|model|llm|json/.test(text)) {
+    return "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。";
+  }
+  return `${targetUsers(item)}${userNeed(item)}`;
+}
+
 function features(item) {
   const text = firstSentence(item.body, item.summary);
   if (text) return text;
@@ -70,19 +134,31 @@ function whyItMatters(item) {
   return "该条目在多个源中出现或具备明确行业信号。";
 }
 
+function sourceLabel(item) {
+  if (item.source === "product_hunt") return "Product Hunt";
+  if (item.source === "github_trending") return "GitHub Trending";
+  if (item.source === "aihot") return item.sourceName || "AI HOT";
+  if (item.source?.startsWith("follow_builders")) return item.authorName ? `Follow Builders / ${item.authorName}` : "Follow Builders";
+  return item.sourceName || item.source || "Unknown";
+}
+
 function toDigestItem(item) {
   const summary = firstSentence(item.summary, item.body);
   const keyPoints = [features(item)].filter(Boolean);
   const audience = targetUsers(item);
   const pain = userNeed(item);
   const insight = whyItMatters(item);
+  const what = item.source === "product_hunt" ? productWhat(item) : summary;
+  const why = item.source === "product_hunt" ? productWhy(item) : `${audience}${pain}`;
   return {
     title: item.title,
     url: item.canonicalUrl || item.url,
     sources: item.sources ?? [item.source],
     metricsText: metricsText(item),
-    sourceLabel: item.sourceName || item.source,
+    sourceLabel: sourceLabel(item),
     tags: [item.sourceCategory, item.metadata?.language].filter(Boolean).slice(0, 3),
+    what,
+    why,
     summary,
     keyPoints,
     audience,

@@ -154,6 +154,30 @@ test("buildDigestWithOptionalLlm falls back without API key", async () => {
   assert.match(digest.markdown, /GitHub 动态/);
 });
 
+test("rules fallback keeps Product Hunt items readable", async () => {
+  const digest = await buildDigestWithOptionalLlm({
+    date: "2026-05-26",
+    items: [
+      {
+        source: "product_hunt",
+        title: "Unabyss",
+        summary: "MCP-native self-updating context layer for your AI",
+        body:
+          "Set it up once and never re-explain yourself to AI again. Connect the apps you use daily - Unabyss will extract, structure, and update your context automatically. Share it with any AI tool via MCP.",
+        url: "https://www.producthunt.com/products/unabyss",
+        systemCategory: "product",
+        metrics: { rank: 1, votes: 603, comments: 127 }
+      }
+    ],
+    apiKey: ""
+  });
+  const product = digest.sections.find((section) => section.key === "product").items[0];
+  assert.equal(product.sourceLabel, "Product Hunt");
+  assert.match(product.what, /自动抽取、结构化并更新/);
+  assert.match(product.why, /反复向不同 AI 解释/);
+  assert.doesNotMatch(product.why, /前一天高票产品/);
+});
+
 test("buildDigestWithOptionalLlm accepts OpenAI-compatible JSON output", async () => {
   const digest = await buildDigestWithOptionalLlm({
     date: "2026-05-26",
