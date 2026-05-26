@@ -1,0 +1,26 @@
+stages:
+  - deploy
+
+pages:
+  image: node:22
+  stage: deploy
+  variables:
+    AI_EDITOR_PROVIDER: openai
+    AI_EDITOR_MODEL: gpt-5.4-mini
+    AI_EDITOR_TIMEOUT_MS: "90000"
+    SOURCE_FETCH_TIMEOUT_MS: "10000"
+    DATA_DIR: ./data
+    STATIC_DIR: ./public
+    PUBLIC_BASE_PATH: /daily-news
+  rules:
+    - if: '$CI_PIPELINE_SOURCE == "schedule"'
+    - if: '$CI_PIPELINE_SOURCE == "web"'
+  script:
+    - npm install
+    - npm run build
+    - node src/cli.js run
+    - npm run export:static
+  artifacts:
+    paths:
+      - public
+    expire_in: 7 days

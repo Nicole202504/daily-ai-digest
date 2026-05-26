@@ -25,6 +25,16 @@ function escapeHtml(value) {
     .replace(/"/g, "&quot;");
 }
 
+function normalizeBasePath(value) {
+  const raw = String(value ?? "").trim();
+  if (!raw || raw === "/") return "";
+  return `/${raw.replace(/^\/+|\/+$/g, "")}`;
+}
+
+function withBasePath(basePath, path) {
+  return `${basePath}${path}`;
+}
+
 function markdownToHtml(markdown) {
   const lines = markdown.split("\n");
   const html = [];
@@ -196,7 +206,8 @@ function digestToHtml(digest) {
   `;
 }
 
-export function pageHtml(digest, dates = []) {
+export function pageHtml(digest, dates = [], options = {}) {
+  const basePath = normalizeBasePath(options.basePath ?? process.env.PUBLIC_BASE_PATH);
   const body = digestToHtml(digest);
   return `<!doctype html>
 <html lang="zh-CN">
@@ -270,7 +281,10 @@ export function pageHtml(digest, dates = []) {
 <body>
   <main>
     <header>
-      <div class="dates">历史：${dates.slice(0, 8).map((date) => `<a href="/daily/${date}">${date}</a>`).join(" · ")}</div>
+      <div class="dates">历史：${dates
+        .slice(0, 8)
+        .map((date) => `<a href="${withBasePath(basePath, `/daily/${date}`)}">${date}</a>`)
+        .join(" · ")}</div>
     </header>
     ${body}
   </main>

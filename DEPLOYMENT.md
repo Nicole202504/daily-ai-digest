@@ -149,3 +149,65 @@ http://localhost:3100/
 - 要做后台人工审核和修改日报。
 - 要做搜索、统计、推荐。
 - 要把抓取源和生成结果结构化查询。
+
+## 公司内网 PlatGit / GitLab 部署
+
+如果公司仓库是 GitLab 类平台，MVP 可以继续不用 Supabase，直接用 **GitLab Pages + Pipeline Schedule**。
+
+本项目已提供：
+
+```text
+.gitlab-ci.yml
+```
+
+它会在 scheduled pipeline 或手动 pipeline 中执行：
+
+```text
+npm install
+npm run build
+node src/cli.js run
+npm run export:static
+```
+
+然后把 `public/` 作为 Pages artifact 发布。
+
+### CI Variables
+
+在 PlatGit 仓库设置里添加 CI/CD Variables：
+
+```text
+PRODUCT_HUNT_TOKEN=Product Hunt Developer Token
+OPENAI_API_KEY=OpenAI-compatible AI editor key
+OPENAI_BASE_URL=https://athenai.mihoyo.com/v1
+AI_EDITOR_MODEL=gpt-5.4-mini
+```
+
+这些变量必须设成 masked/protected 能力允许的安全变量，不要写入代码。
+
+### 定时任务
+
+在仓库页面进入：
+
+```text
+Build -> Pipeline schedules
+```
+
+新建 schedule：
+
+```text
+Cron: 30 16 * * *
+Timezone: Asia/Shanghai
+Target branch: main
+```
+
+这样就是每天北京时间 16:30 自动跑。
+
+### 子路径
+
+GitLab Pages 通常挂在项目路径下，因此 `.gitlab-ci.yml` 默认设置：
+
+```text
+PUBLIC_BASE_PATH=/daily-news
+```
+
+如果公司 Pages 的实际访问路径不是 `/daily-news`，把这个变量改成实际路径即可。

@@ -32,6 +32,7 @@ jobs:
       SOURCE_FETCH_TIMEOUT_MS: "10000"
       DATA_DIR: ./data
       STATIC_DIR: ./public
+      PUBLIC_BASE_PATH: /daily-ai-digest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
