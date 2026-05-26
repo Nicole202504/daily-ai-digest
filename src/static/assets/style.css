@@ -41,6 +41,7 @@ h2 { font-size:34px; line-height:1.1; margin: 4px 0 0; letter-spacing:0; }
 .card-copy p { margin: 10px 0 0; color:#3f4046; }
 .card-copy b { display:block; color:#111; font-size:13px; margin-bottom:2px; }
 .empty { min-height: 360px; display:grid; place-content:center; text-align:center; }
+.empty-strip { min-height: 140px; display:grid; place-items:center; border-radius:8px; background:var(--soft); color:#71717a; font-weight:850; }
 .error { color:#9f1239; background:#fff1f2; border-radius:8px; padding:18px 20px; }
 @media (max-width: 860px) {
   main { padding: 20px 14px 48px; }

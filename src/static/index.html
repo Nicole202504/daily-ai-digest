@@ -12,9 +12,35 @@
       <div class="dates" id="date-list"></div>
     </header>
     <div id="app">
-      <section class="empty">
-        <h1>每日 AI/产品/开源动态</h1>
-        <p>正在加载今天的日报。</p>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="brand">AIHot Daily</div>
+          <div class="date-badge">等待生成</div>
+          <h1>Everything is<br />AI-readable</h1>
+          <p>今天的日报还没有生成；页面结构已经就绪，生成任务完成后会自动展示最新内容。</p>
+        </div>
+        <div class="brand-mark" aria-hidden="true">
+          <span class="mark-large"></span>
+          <span class="mark-small"></span>
+        </div>
+      </section>
+      <section class="digest-tabs">
+        <div class="tab-list" role="tablist" aria-label="日报栏目">
+          <button class="tab active" type="button"><span>✦</span>产品动态<em>0</em></button>
+          <button class="tab" type="button"><span>⌘</span>GitHub 动态<em>0</em></button>
+          <button class="tab" type="button"><span>◈</span>模型/技术发展<em>0</em></button>
+          <button class="tab" type="button"><span>✺</span>新闻/观点<em>0</em></button>
+        </div>
+        <section class="tab-panel active">
+          <div class="section-head">
+            <div>
+              <span class="eyebrow">Product Hunt</span>
+              <h2>产品动态</h2>
+            </div>
+            <p>等待下一次日报任务写入产品数据。</p>
+          </div>
+          <div class="empty-strip">暂无内容</div>
+        </section>
       </section>
     </div>
   </main>

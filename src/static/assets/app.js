@@ -8,6 +8,18 @@ const sectionMeta = {
   news: { icon: "✺", eyebrow: "News & Takes" }
 };
 
+const emptyDigest = {
+  date: "等待生成",
+  digestSummary: "今天的日报还没有生成；页面结构已经就绪，生成任务完成后会自动展示最新内容。",
+  highlights: [],
+  sections: [
+    { key: "product", title: "产品动态", description: "Product Hunt 前一天高票产品。", items: [] },
+    { key: "github", title: "GitHub 动态", description: "最近一周值得关注的开源项目。", items: [] },
+    { key: "technical", title: "模型/技术发展", description: "模型、框架、研究和工程实践更新。", items: [] },
+    { key: "news", title: "新闻/观点", description: "AI builders、行业新闻和观点线索。", items: [] }
+  ]
+};
+
 function escapeHtml(value) {
   return String(value ?? "")
     .replace(/&/g, "&amp;")
@@ -69,25 +81,29 @@ function renderSection(section, active) {
       </div>
       <p>${escapeHtml(section.description ?? "")}</p>
     </div>
-    <div class="item-grid">
-      ${items
-        .map((item, index) => {
-          const signal = publicSignalText(item);
-          const secondary = secondaryValue(section, item);
-          return `<article class="digest-card">
-            <a class="card-title" href="${escapeHtml(item.url)}">
-              <span class="card-rank">${index + 1}</span>
-              <span>${escapeHtml(item.title)}</span>
-            </a>
-            ${signal ? `<div class="signal">${escapeHtml(signal)}</div>` : ""}
-            <div class="card-copy">
-              <p><b>做什么</b>${escapeHtml(item.what ?? item.lead ?? item.summary ?? item.oneLiner ?? "")}</p>
-              ${secondary ? `<p><b>${secondaryLabel(section.key)}</b>${escapeHtml(secondary)}</p>` : ""}
-            </div>
-          </article>`;
-        })
-        .join("")}
-    </div>
+    ${
+      items.length
+        ? `<div class="item-grid">
+          ${items
+            .map((item, index) => {
+              const signal = publicSignalText(item);
+              const secondary = secondaryValue(section, item);
+              return `<article class="digest-card">
+                <a class="card-title" href="${escapeHtml(item.url)}">
+                  <span class="card-rank">${index + 1}</span>
+                  <span>${escapeHtml(item.title)}</span>
+                </a>
+                ${signal ? `<div class="signal">${escapeHtml(signal)}</div>` : ""}
+                <div class="card-copy">
+                  <p><b>做什么</b>${escapeHtml(item.what ?? item.lead ?? item.summary ?? item.oneLiner ?? "")}</p>
+                  ${secondary ? `<p><b>${secondaryLabel(section.key)}</b>${escapeHtml(secondary)}</p>` : ""}
+                </div>
+              </article>`;
+            })
+            .join("")}
+        </div>`
+        : `<div class="empty-strip">暂无内容</div>`
+    }
   </section>`;
 }
 
@@ -106,7 +122,7 @@ function renderDates(index) {
 
 function renderDigest(digest) {
   if (!digest) {
-    app.innerHTML = `<section class="empty"><h1>每日 AI/产品/开源动态</h1><p>还没有生成今天的日报，请稍后刷新。</p></section>`;
+    renderDigest(emptyDigest);
     return;
   }
 
@@ -177,7 +193,7 @@ async function boot() {
     renderDates(index);
     await loadDigest(index.latest);
   } catch (error) {
-    app.innerHTML = `<section class="empty"><div class="error">日报加载失败：${escapeHtml(error.message)}</div></section>`;
+    renderDigest(emptyDigest);
   }
 }
 
