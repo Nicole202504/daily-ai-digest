@@ -1,0 +1,48 @@
+name: Daily AI Digest
+
+on:
+  workflow_dispatch:
+  schedule:
+    # 16:30 Asia/Shanghai
+    - cron: "30 8 * * *"
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    env:
+      PRODUCT_HUNT_TOKEN: ${{ secrets.PRODUCT_HUNT_TOKEN }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      OPENAI_BASE_URL: ${{ secrets.OPENAI_BASE_URL }}
+      AI_EDITOR_PROVIDER: openai
+      AI_EDITOR_MODEL: ${{ vars.AI_EDITOR_MODEL || 'gpt-5.4-mini' }}
+      AI_EDITOR_TIMEOUT_MS: "90000"
+      SOURCE_FETCH_TIMEOUT_MS: "10000"
+      DATA_DIR: ./data
+      STATIC_DIR: ./public
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install
+      - run: npm run build
+      - run: node src/cli.js run
+      - run: npm run export:static
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - id: deployment
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,17 @@
+{
+  "name": "ai-digest-aggregator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "dev": "node src/server.js",
+    "start": "node src/server.js",
+    "job": "node src/cli.js run",
+    "export:static": "node src/exportStatic.js",
+    "build": "node --check src/**/*.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
