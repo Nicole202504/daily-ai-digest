@@ -7,6 +7,10 @@ stages:
   - test
   - deploy
 
+default:
+  tags:
+    - frontend-docker
+
 sast:
   stage: test
 
