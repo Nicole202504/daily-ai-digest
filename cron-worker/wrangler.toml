@@ -3,8 +3,8 @@ main = "src/index.js"
 compatibility_date = "2024-12-01"
 
 [triggers]
-# 北京时间 15:00 = UTC 07:00
-crons = ["0 7 * * *"]
+# 北京时间 17:30 = UTC 09:30
+crons = ["30 9 * * *"]
 
 [vars]
 TARGETS = '[{"repo":"Nicole202504/daily-ai-digest","workflow":"pages.yml","ref":"main"}]'

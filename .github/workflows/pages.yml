@@ -3,10 +3,10 @@ name: Daily AI Digest
 on:
   workflow_dispatch:
   schedule:
-    # 15:00 Asia/Shanghai (primary, triggered by Cloudflare Worker)
-    - cron: "0 7 * * *"
-    # 16:00 Asia/Shanghai (backup in case primary is skipped)
-    - cron: "0 8 * * *"
+    # 17:30 Asia/Shanghai (primary, triggered by Cloudflare Worker)
+    - cron: "30 9 * * *"
+    # 18:30 Asia/Shanghai (backup in case primary is skipped)
+    - cron: "30 10 * * *"
 
 permissions:
   contents: read
