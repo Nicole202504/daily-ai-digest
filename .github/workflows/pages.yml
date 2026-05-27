@@ -3,8 +3,8 @@ name: Daily AI Digest
 on:
   workflow_dispatch:
   schedule:
-    # 11:00 Asia/Shanghai
-    - cron: "0 3 * * *"
+    # 13:00 Asia/Shanghai
+    - cron: "0 5 * * *"
 
 permissions:
   contents: read
