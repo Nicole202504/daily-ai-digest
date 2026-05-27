@@ -59,14 +59,17 @@ export function parseGithubTrendingRss(xml, variant = "rsshub") {
 
 export async function collectGithubTrendingWeekly({ fetcher = fetch, limit = 20 } = {}) {
   const sources = [
-    { url: "https://rsshub.rssforever.com/github/trending/monthly/any", variant: "rsshub" },
-    { url: "https://mshibanami.github.io/GitHubTrendingRSS/monthly/all.xml", variant: "github_trending_rss" }
+    { url: "https://mshibanami.github.io/GitHubTrendingRSS/monthly/all.xml", variant: "github_trending_rss" },
+    { url: "https://rsshub.rssforever.com/github/trending/monthly/any", variant: "rsshub" }
   ];
   const errors = [];
 
   for (const source of sources) {
     try {
-      const response = await fetcher(source.url, { headers: { "User-Agent": "Mozilla/5.0 daily-ai-digest/0.1" } });
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 15000);
+      const response = await fetcher(source.url, { headers: { "User-Agent": "Mozilla/5.0 daily-ai-digest/0.1" }, signal: controller.signal });
+      clearTimeout(timer);
       if (!response.ok) throw new Error(`HTTP ${response.status}`);
       const xml = await response.text();
       const items = parseGithubTrendingRss(xml, source.variant).slice(0, limit);
