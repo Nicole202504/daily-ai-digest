@@ -11,7 +11,7 @@ const SECTION_CONFIG = {
     title: "产品动态",
     limit: 10,
     guide:
-      "产品条目只解释两点：1）做什么/功能是什么；2）为什么做/谁有这个问题。不要写产品判断，不要散列过多功能。"
+      "产品条目的 what 字段：直接根据输入中的 body/summary 原文翻译成中文，保留产品的核心功能描述，不要自己重新解读或概括。如果原文是英文就翻译，如果是中文就精简。why 字段：说明目标用户和解决的具体问题。不要写产品判断，不要散列过多功能。"
   },
   github: {
     title: "GitHub 动态",
@@ -68,6 +68,7 @@ async function withTimeout(fetcher, url, init, timeoutMs) {
 }
 
 function compactItem(item) {
+  const bodyLimit = item.source === "product_hunt" ? 800 : 400;
   return {
     title: item.title,
     url: item.canonicalUrl || item.url,
@@ -76,7 +77,7 @@ function compactItem(item) {
     sources: item.sources ?? [item.source],
     systemCategory: item.systemCategory,
     summary: item.summary?.slice(0, 500),
-    body: item.body?.slice(0, 400),
+    body: item.body?.slice(0, bodyLimit),
     authorName: item.authorName,
     sourceName: item.sourceName,
     sourceCategory: item.sourceCategory,
