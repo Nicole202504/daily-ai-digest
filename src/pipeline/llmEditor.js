@@ -291,6 +291,7 @@ async function callOpenAiChat({ fetcher, baseUrl, apiKey, model, messages, timeo
       body: JSON.stringify({
         model,
         temperature: 0.2,
+        stream: false,
         ...(!/claude/i.test(model) ? { response_format: { type: "json_object" } } : {}),
         messages
       })
