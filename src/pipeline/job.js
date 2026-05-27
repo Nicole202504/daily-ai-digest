@@ -25,7 +25,8 @@ export async function runDailyJob({
   onProgress?.({ stage: "collect", status: "done", sourceCount: results.length });
 
   onProgress?.({ stage: "normalize", status: "start" });
-  const items = summarizeSourceItems(normalizeCollectorResults(results));
+  const historicalUrls = await store.recentItemUrls(7);
+  const items = summarizeSourceItems(normalizeCollectorResults(results, { historicalUrls }));
   onProgress?.({ stage: "normalize", status: "done", itemCount: items.length });
 
   onProgress?.({ stage: "edit", status: "start" });
@@ -40,6 +41,13 @@ export async function runDailyJob({
   onProgress?.({ stage: "status", status: "start" });
   const status = sourceStatusFromResults(results);
   onProgress?.({ stage: "status", status: "done" });
+
+  const failedSources = status
+    .filter((s) => s.itemCount === 0 || s.errors.length > 0)
+    .map((s) => s.source);
+  if (failedSources.length) {
+    digest.sourceWarnings = failedSources.map((source) => `${source}: 无数据或采集失败`);
+  }
 
   if (!dryRun) {
     onProgress?.({ stage: "save", status: "start" });

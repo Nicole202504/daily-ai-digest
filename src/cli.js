@@ -1,5 +1,7 @@
 import { runDailyJob } from "./pipeline/job.js";
 import { loadDotEnv } from "./core/env.js";
+import { getTodayWindow } from "./core/date.js";
+import { JsonStore } from "./store/jsonStore.js";
 
 const command = process.argv[2] ?? "help";
 
@@ -37,8 +39,20 @@ function logProgress(event) {
 
 if (command === "run") {
   const dryRun = process.argv.includes("--dry-run");
+  const force = process.argv.includes("--force");
   const dateArg = process.argv.find((arg) => arg.startsWith("--date="));
   const date = dateArg?.split("=")[1];
+
+  if (!force && !dryRun && !date) {
+    const store = new JsonStore();
+    const today = getTodayWindow("Asia/Shanghai");
+    const existing = await store.digest(today.date);
+    if (existing) {
+      console.error(`[skip] digest for ${today.date} already exists. Use --force to regenerate.`);
+      process.exit(0);
+    }
+  }
+
   const result = await runDailyJob({ date, dryRun, onProgress: logProgress });
   console.log(result.digest.markdown);
   if (result.status.some((source) => source.errors?.length)) {

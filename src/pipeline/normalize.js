@@ -9,13 +9,13 @@ function isLowSignalFollowBuilderItem(item) {
   if (/(bjj|join the cult|having the time of my life|wdyt\?|also available on:|spotify:|apple:|newsletter:)/i.test(text)) {
     return true;
   }
-  if ((item.metrics?.likes ?? 0) < 10 && !/(agent|model|llm|ai|startup|product|github|codex|claude|openai)/i.test(compact)) {
+  if ((item.metrics?.likes ?? 0) < 3 && !/(agent|model|llm|ai|startup|product|github|codex|claude|openai|mcp|anthropic|gemini|gpt)/i.test(compact)) {
     return true;
   }
   return false;
 }
 
-export function normalizeCollectorResults(results) {
+export function normalizeCollectorResults(results, { historicalUrls = new Set() } = {}) {
   const items = [];
   for (const result of results) {
     for (const item of result.items ?? []) {
@@ -42,7 +42,7 @@ export function normalizeCollectorResults(results) {
       });
     }
   }
-  return dedupeItems(items);
+  return dedupeItems(items, { historicalUrls });
 }
 
 export function sourceStatusFromResults(results) {

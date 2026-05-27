@@ -54,6 +54,25 @@ function secondaryValue(section, item) {
   return item.why ?? item.takeaway ?? item.insight ?? item.whyItMatters;
 }
 
+function isStaleDigest(digest) {
+  if (!digest?.generatedAt) return false;
+  const generated = new Date(digest.generatedAt).getTime();
+  const now = Date.now();
+  return now - generated > 36 * 60 * 60 * 1000;
+}
+
+function renderStaleWarning(digest) {
+  if (!isStaleDigest(digest)) return "";
+  return `<div class="stale-banner">数据已超过 36 小时未更新，可能是定时任务未触发。</div>`;
+}
+
+function renderSourceWarnings(digest) {
+  if (!digest?.sourceWarnings?.length) return "";
+  return `<div class="source-warnings">
+    <span>部分数据源异常：</span>${digest.sourceWarnings.map((w) => escapeHtml(w)).join("；")}
+  </div>`;
+}
+
 function renderHighlights(highlights = []) {
   if (!highlights.length) return "";
   return `<section class="highlights" aria-label="今日先看">
@@ -130,6 +149,8 @@ function renderDigest(digest) {
   const sections = digest.sections ?? [];
   const firstKey = sections[0]?.key ?? "product";
   app.innerHTML = `
+    ${renderStaleWarning(digest)}
+    ${renderSourceWarnings(digest)}
     <section class="hero">
       <div class="hero-copy">
         <div class="brand">AIHot Daily</div>

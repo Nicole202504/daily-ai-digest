@@ -70,4 +70,17 @@ export class JsonStore {
       throw error;
     }
   }
+
+  async recentItemUrls(days = 3) {
+    const dates = await this.digestDates();
+    const urls = new Set();
+    for (const date of dates.slice(0, days)) {
+      const items = await this.items(date);
+      for (const item of items) {
+        if (item.canonicalUrl) urls.add(item.canonicalUrl);
+        else if (item.url) urls.add(item.url);
+      }
+    }
+    return urls;
+  }
 }

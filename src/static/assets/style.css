@@ -43,6 +43,8 @@ h2 { font-size:34px; line-height:1.1; margin: 4px 0 0; letter-spacing:0; }
 .empty { min-height: 360px; display:grid; place-content:center; text-align:center; }
 .empty-strip { min-height: 140px; display:grid; place-items:center; border-radius:8px; background:var(--soft); color:#71717a; font-weight:850; }
 .error { color:#9f1239; background:#fff1f2; border-radius:8px; padding:18px 20px; }
+.stale-banner { background:#fef3c7; color:#92400e; padding:12px 20px; border-radius:8px; font-weight:700; font-size:14px; margin-bottom:16px; }
+.source-warnings { background:#fef2f2; color:#991b1b; padding:10px 20px; border-radius:8px; font-size:13px; font-weight:600; margin-bottom:12px; }
 @media (max-width: 860px) {
   main { padding: 20px 14px 48px; }
   header { align-items:flex-start; flex-direction:column; }

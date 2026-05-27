@@ -59,14 +59,16 @@ function dedupeKey(item) {
   return `title:${titleKey(item.title)}`;
 }
 
-export function dedupeItems(items) {
+export function dedupeItems(items, { historicalUrls = new Set() } = {}) {
   const map = new Map();
   for (const item of items) {
     const key = dedupeKey(item);
+    const canonical = canonicalUrl(item.url);
+    if (canonical && historicalUrls.has(canonical)) continue;
     const existing = map.get(key);
     const normalized = {
       ...item,
-      canonicalUrl: canonicalUrl(item.url),
+      canonicalUrl: canonical,
       systemCategory: inferSystemCategory(item),
       sources: item.sources ? [...item.sources] : [item.source].filter(Boolean),
       sourceLinks: item.sourceLinks ?? [{ source: item.source, url: item.url }]

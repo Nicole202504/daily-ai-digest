@@ -59,8 +59,8 @@ export function parseGithubTrendingRss(xml, variant = "rsshub") {
 
 export async function collectGithubTrendingWeekly({ fetcher = fetch, limit = 20 } = {}) {
   const sources = [
-    { url: "https://rsshub.rssforever.com/github/trending/weekly/any", variant: "rsshub" },
-    { url: "https://mshibanami.github.io/GitHubTrendingRSS/weekly/all.xml", variant: "github_trending_rss" }
+    { url: "https://rsshub.rssforever.com/github/trending/monthly/any", variant: "rsshub" },
+    { url: "https://mshibanami.github.io/GitHubTrendingRSS/monthly/all.xml", variant: "github_trending_rss" }
   ];
   const errors = [];
 
