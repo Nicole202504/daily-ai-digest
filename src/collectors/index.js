@@ -1,9 +1,5 @@
 import { collectAihotItems } from "./aihot.js";
-import {
-  collectFollowBuildersBlogs,
-  collectFollowBuildersPodcasts,
-  collectFollowBuildersX
-} from "./followBuilders.js";
+import { collectBuilderFeeds } from "./builderFeeds.js";
 import { collectGithubTrendingWeekly } from "./githubTrending.js";
 import { collectProductHuntTop10 } from "./productHunt.js";
 
@@ -12,9 +8,7 @@ export async function runCollectors(options = {}) {
     ["aihot", () => collectAihotItems(options.aihot)],
     ["product_hunt", () => collectProductHuntTop10(options.productHunt)],
     ["github_trending", () => collectGithubTrendingWeekly(options.githubTrending)],
-    ["follow_builders_x", () => collectFollowBuildersX()],
-    ["follow_builders_podcast", () => collectFollowBuildersPodcasts()],
-    ["follow_builders_blog", () => collectFollowBuildersBlogs()]
+    ["builder_feeds", () => collectBuilderFeeds()]
   ];
 
   const results = [];

@@ -42,6 +42,10 @@ export function inferSystemCategory(item) {
     }
     if (/(launch|released|shipping|new product|startup)/.test(text)) return SYSTEM_CATEGORIES.news;
   }
+  if (item.source?.startsWith("builder_")) {
+    if (item.sourceCategory === "technical") return SYSTEM_CATEGORIES.technical;
+    return SYSTEM_CATEGORIES.news;
+  }
   return SYSTEM_CATEGORIES.news;
 }
 
