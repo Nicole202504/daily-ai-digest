@@ -19,17 +19,23 @@ const SECTION_CONFIG = {
     guide:
       "GitHub 条目只解释两点：1）这个项目做什么/核心机制；2）为什么需要它/解决哪个工程问题。不要写采用判断。"
   },
-  technical: {
-    title: "模型/技术发展动态",
+  company: {
+    title: "公司动态",
     limit: 8,
     guide:
-      "技术条目不要写“为什么需要”。只解释两点：1）发生了什么/能力变化；2）影响与背景。内容要比产品更具体，必须保留关键数字、限制或不确定性。"
+      "公司动态条目来自 OpenAI、Anthropic、DeepMind 官方博客。只解释两点：1）发布/更新了什么；2）影响与背景。保留关键数字和具体产品名。"
+  },
+  technical: {
+    title: "技术前沿",
+    limit: 8,
+    guide:
+      "技术条目不要写「为什么需要」。只解释两点：1）发生了什么/能力变化；2）影响与背景。内容要比产品更具体，必须保留关键数字、限制或不确定性。"
   },
   news: {
-    title: "新闻/观点",
+    title: "行业观点",
     limit: 8,
     guide:
-      "新闻观点条目不要写“为什么需要”。只解释两点：1）事件/观点是什么；2）影响与背景。builder 观点的标题必须提炼观点，不准写“某某的 builder 观点”。观点不能写成事实。"
+      "新闻观点条目不要写「为什么需要」。只解释两点：1）事件/观点是什么；2）影响与背景。builder 观点的标题必须提炼观点，不准写「某某的 builder 观点」。观点不能写成事实。"
   }
 };
 
@@ -89,8 +95,11 @@ function compactItem(item) {
 function sourceLabel(item) {
   if (item.source === "product_hunt") return "Product Hunt";
   if (item.source === "github_trending") return "GitHub Trending";
+  if (item.source === "builder_openai") return "OpenAI Blog";
+  if (item.source === "builder_anthropic") return "Anthropic";
+  if (item.source === "builder_deepmind") return "DeepMind";
   if (item.source === "aihot") return item.sourceName || "AI HOT";
-  if (item.source?.startsWith("follow_builders")) return item.authorName ? `Follow Builders / ${item.authorName}` : "Follow Builders";
+  if (item.source?.startsWith("builder_")) return item.authorName || item.sourceName || item.source;
   return item.sourceName || item.source || "Unknown";
 }
 
@@ -140,6 +149,11 @@ function takeCandidates(items) {
   const github = rankSourceItems(items.filter((item) => item.source === "github_trending")).slice(0, 10);
   github.forEach(reserve);
 
+  const company = rankSourceItems(
+    items.filter((item) => item.systemCategory === "company" && !isReserved(item))
+  ).slice(0, 8);
+  company.forEach(reserve);
+
   const technical = rankSourceItems(
     items.filter((item) => item.systemCategory === "technical" && !isReserved(item) && item.source !== "product_hunt")
   ).slice(0, 8);
@@ -152,6 +166,7 @@ function takeCandidates(items) {
   return {
     product: product.map(compactItem),
     github: github.map(compactItem),
+    company: company.map(compactItem),
     technical: technical.map(compactItem),
     news: news.map(compactItem)
   };
@@ -163,7 +178,7 @@ export function promptFor(date, items) {
     {
       role: "system",
       content:
-        "你是一个中文 AI/产品/开源日报主编，读者是产品经理、创业者、AI 工程师。只根据输入写作，不编造事实。输出必须是 JSON，不要 markdown。产品和 GitHub 讲清“做什么/为什么需要”；技术和新闻讲清“发生了什么/影响与背景”。"
+        "你是一个中文 AI 日报主编，读者是产品经理、创业者、AI 工程师。所有输出必须是中文（英文标题保留原文，描述翻译为中文）。只根据输入写作，不编造事实。输出必须是 JSON，不要 markdown。每条内容要尽可能完整，包含具体细节、数字和背景信息。"
     },
     {
       role: "user",
@@ -171,18 +186,19 @@ export function promptFor(date, items) {
         {
           date,
           requiredOutput:
-            "必须返回单个 JSON object，顶层只能包含 digestSummary, highlights, sections 三个主要字段。sections 必须是数组，包含 product、github、technical、news 四个 section。不要只返回数组，不要返回空数组。",
+            "必须返回单个 JSON object，顶层只能包含 digestSummary, highlights, sections 三个主要字段。sections 必须是数组，包含 product、github、company、technical、news 五个 section。不要只返回数组，不要返回空数组。",
           editorialRules: [
-            "不要重新发明栏目。严格使用 candidates.product/github/technical/news 四个候选池。",
-            "产品动态：优先并完整保留 Product Hunt Top 10，按 rank 顺序；不要把普通 AI 新闻放进产品动态。",
-            "GitHub 动态：只写 GitHub Trending 候选，按 rank 顺序。",
-            "技术发展：写模型、开源、工程、安全、研究进展；不要重复产品栏和 GitHub 栏条目。",
-            "新闻/观点：写行业新闻、治理、安全、builder 观点和播客观点；不要重复其他栏目。",
+            "不要重新发明栏目。严格使用 candidates.product/github/company/technical/news 五个候选池。",
+            "产品上新：优先并完整保留 Product Hunt Top 10，按 rank 顺序；不要把普通 AI 新闻放进产品动态。",
+            "开源热门：只写 GitHub Trending 候选，按 rank 顺序。",
+            "公司动态：只写来自 OpenAI/Anthropic/DeepMind 官方博客的内容。",
+            "技术前沿：写模型、框架、论文、工程实践；不要重复产品栏和 GitHub 栏条目。",
+            "行业观点：写行业新闻、治理、安全、builder 观点；不要重复其他栏目。",
             "产品和 GitHub：每条只写 what 和 why。what 讲功能闭环，不要只写定位；why 讲具体用户和原始问题，不要只写人群名。",
             "技术和新闻：每条只写 what 和 context，不要写 why。what 讲发生了什么；context 讲影响、背景、限制或不确定性。",
-            "所有 builder 观点的 title 必须提炼观点本身，例如“Guillermo Rauch：伟大品牌来自产品、审美和分发的一致性”，不准输出“Guillermo Rauch 的 builder 观点”。",
-            "避免万能句：不要写“降低信息获取成本”“值得关注”“反映趋势”这类空话，除非说明具体趋势。",
-            "如果输入信息不足，明确写“信息有限”，不要补不存在的功能。"
+            "所有 builder 观点的 title 必须提炼观点本身，例如「Guillermo Rauch：伟大品牌来自产品、审美和分发的一致性」，不准输出「Guillermo Rauch 的 builder 观点」。",
+            "避免万能句：不要写「降低信息获取成本」「值得关注」「反映趋势」这类空话，除非说明具体趋势。",
+            "如果输入信息不足，明确写「信息有限」，不要补不存在的功能。"
           ],
           outputSchema: {
             digestSummary: "string，80字以内，概括今天最重要的2-3个信号",
@@ -195,20 +211,21 @@ export function promptFor(date, items) {
             ],
             sections: [
               {
-                key: "product|github|technical|news",
+                key: "product|github|company|technical|news",
                 title: "栏目中文名",
                 description: "一句话说明这个栏目今天的主线，可为空",
                 items: [
                   {
-                    title: "string",
+                    title: "中文标题（产品名/项目名可保留英文）",
                     url: "string",
                     sources: ["string"],
                     metricsText: "string",
                     sourceLabel: "string",
+                    image: "如果输入metadata中有image则原样传递，否则省略",
                     tags: ["string，最多3个"],
-                    what: "做什么/功能是什么，45-80字",
-                    why: "仅 product/github 使用：为什么做/谁有这个问题，60-110字",
-                    context: "仅 technical/news 使用：影响、背景、限制或不确定性，60-120字"
+                    what: "完整描述，100-200字。翻译为中文，保留关键细节、数字、产品名。",
+                    why: "仅 product/github 使用：为什么做/谁有这个问题，80-150字",
+                    context: "仅 company/technical/news 使用：影响、背景、限制或不确定性，80-150字"
                   }
                 ]
               }
@@ -237,7 +254,7 @@ function promptForSection(date, key, items) {
     {
       role: "system",
       content:
-        "你是中文 AI/产品/开源日报的分栏目主编。只根据输入写作，不编造事实。输出必须是 JSON，不要 markdown。产品和 GitHub 讲清“做什么/为什么需要”；技术和新闻讲清“发生了什么/影响与背景”。"
+        "你是中文 AI 日报的分栏目主编。所有输出必须是中文（英文标题保留原文，描述翻译为中文）。只根据输入写作，不编造事实。输出必须是 JSON，不要 markdown。每条内容要尽可能完整，包含具体细节、数字和背景信息。"
     },
     {
       role: "user",
@@ -249,15 +266,16 @@ function promptForSection(date, key, items) {
             "返回单个 JSON object：{section:{key,title,description,items:[...]}, highlights:[...] }。不要返回数组，不要返回空对象。",
           writingGuide: config.guide,
           itemSchema: {
-            title: "编辑后的可读标题。产品可以保留产品名；GitHub 可以保留 repo 名。",
+            title: "中文标题（产品名/项目名可保留英文）",
             url: "string",
             sources: ["string"],
             metricsText: "string",
             sourceLabel: "string",
+            image: "如果输入metadata中有image则原样传递，否则省略",
             tags: ["最多3个"],
-            what: "做什么/功能是什么，60-100字",
-            why: "仅 product/github 使用：为什么做/谁有这个问题，60-110字",
-            context: "仅 technical/news 使用：影响、背景、限制或不确定性，60-120字"
+            what: "完整描述，100-200字。翻译为中文，保留关键细节、数字、产品名。",
+            why: "仅 product/github 使用：为什么做/谁有这个问题，80-150字",
+            context: "仅 company/technical/news 使用：影响、背景、限制或不确定性，80-150字"
           },
           rules: [
             "严格使用输入 items，不要新增条目。",
@@ -265,9 +283,9 @@ function promptForSection(date, key, items) {
             "product/github 只输出 what 和 why；technical/news 只输出 what 和 context，不要输出 details、lead、takeaway。",
             "what 要细一点，保留关键功能、指标、机制或证据，不要一句泛泛定位。",
             "why/context 要讲具体用户、原始问题、影响对象、限制或不确定性，不要只写人群名。",
-            "所有 builder 观点的 title 必须提炼观点本身，不准输出“某某的 builder 观点”。",
+            "所有 builder 观点的 title 必须提炼观点本身，不准输出「某某的 builder 观点」。",
             "JSON 字符串内部不要使用英文双引号；需要引用短语时用中文引号「」或直接改写。",
-            "不要写空话，比如“降低信息获取成本”“值得关注”。",
+            "不要写空话，比如「降低信息获取成本」「值得关注」。",
             "信息有限就明确写信息有限，并说明缺什么。"
           ],
           items
@@ -308,7 +326,7 @@ async function callOpenAiChat({ fetcher, baseUrl, apiKey, model, messages, timeo
 
 async function buildDigestSectionWise({ date, items, fetcher, baseUrl, apiKey, model, timeoutMs }) {
   const candidates = takeCandidates(items);
-  const keys = ["product", "github", "technical", "news"];
+  const keys = ["product", "github", "company", "technical", "news"];
   const parsedSections = await Promise.all(
     keys.map(async (key) => {
       const parsed = await callOpenAiChat({
@@ -350,11 +368,13 @@ function summarizeSectionDescriptions(sections) {
   const pick = (key) => sections.find((section) => section.key === key)?.description?.replace(/\s+/g, " ").trim();
   const product = pick("product");
   const github = pick("github");
+  const company = pick("company");
   const technical = pick("technical");
   const news = pick("news");
   const summary = [
     product ? `产品：${product}` : "",
     github ? `GitHub：${github}` : "",
+    company ? `公司：${company}` : "",
     technical || news ? `技术/观点：${[technical, news].filter(Boolean).join("；")}` : ""
   ]
     .filter(Boolean)

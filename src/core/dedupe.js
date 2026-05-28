@@ -1,6 +1,7 @@
 const SYSTEM_CATEGORIES = {
   product: "product",
   github: "github",
+  company: "company",
   technical: "technical",
   news: "news"
 };
@@ -43,6 +44,7 @@ export function inferSystemCategory(item) {
     if (/(launch|released|shipping|new product|startup)/.test(text)) return SYSTEM_CATEGORIES.news;
   }
   if (item.source?.startsWith("builder_")) {
+    if (["builder_openai", "builder_anthropic", "builder_deepmind"].includes(item.source)) return SYSTEM_CATEGORIES.company;
     if (item.sourceCategory === "technical") return SYSTEM_CATEGORIES.technical;
     return SYSTEM_CATEGORIES.news;
   }
