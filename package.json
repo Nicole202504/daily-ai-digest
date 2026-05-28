@@ -10,7 +10,7 @@
     "job": "node src/cli.js run",
     "export:static": "node src/exportStatic.js",
     "validate": "node src/validate.js",
-    "build": "node --check src/**/*.js"
+    "build": "find src -name '*.js' -exec node --check {} +"
   },
   "engines": {
     "node": ">=20"
