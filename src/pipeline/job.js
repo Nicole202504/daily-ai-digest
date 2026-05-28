@@ -43,7 +43,7 @@ export async function runDailyJob({
   onProgress?.({ stage: "status", status: "done" });
 
   const failedSources = status
-    .filter((s) => s.itemCount === 0 || s.errors.length > 0)
+    .filter((s) => s.itemCount === 0)
     .map((s) => s.source);
   if (failedSources.length) {
     digest.sourceWarnings = failedSources.map((source) => `${source}: 无数据或采集失败`);

@@ -35,14 +35,6 @@ export function inferSystemCategory(item) {
     if (["ai-models", "paper"].includes(item.sourceCategory)) return SYSTEM_CATEGORIES.technical;
     return SYSTEM_CATEGORIES.news;
   }
-  if (item.source === "follow_builders_podcast") return SYSTEM_CATEGORIES.news;
-  if (item.source === "follow_builders_x") {
-    const text = `${item.title ?? ""} ${item.body ?? ""}`.toLowerCase();
-    if (/(github|open source|repo|code|developer|agent|mcp|api|model|llm|benchmark|codex|claude|devin|automation)/.test(text)) {
-      return SYSTEM_CATEGORIES.technical;
-    }
-    if (/(launch|released|shipping|new product|startup)/.test(text)) return SYSTEM_CATEGORIES.news;
-  }
   if (item.source?.startsWith("builder_")) {
     if (["builder_openai", "builder_anthropic", "builder_deepmind"].includes(item.source)) return SYSTEM_CATEGORIES.company;
     if (item.sourceCategory === "technical") return SYSTEM_CATEGORIES.technical;

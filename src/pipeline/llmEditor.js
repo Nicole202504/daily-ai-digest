@@ -115,13 +115,6 @@ function metricsText(item) {
     if (item.metadata?.language) bits.push(item.metadata.language);
     return bits.join(" · ");
   }
-  if (item.source?.startsWith("follow_builders")) {
-    const bits = [];
-    if (metrics.likes != null) bits.push(`${metrics.likes} likes`);
-    if (metrics.retweets != null) bits.push(`${metrics.retweets} retweets`);
-    if (metrics.replies != null) bits.push(`${metrics.replies} replies`);
-    return bits.join(" · ");
-  }
   return "";
 }
 
@@ -397,10 +390,11 @@ function normalizeLlmDigest(date, parsed) {
             ? parsed.output
             : parsed;
   const required = [
-    ["product", "产品动态"],
-    ["github", "GitHub 动态"],
-    ["technical", "模型/技术发展动态"],
-    ["news", "新闻/观点"]
+    ["product", "产品上新"],
+    ["github", "开源热门"],
+    ["company", "公司动态"],
+    ["technical", "技术前沿"],
+    ["news", "行业观点"]
   ];
   const sourceSections = Array.isArray(root.sections)
     ? root.sections

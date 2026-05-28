@@ -9,6 +9,7 @@
     "start": "node src/server.js",
     "job": "node src/cli.js run",
     "export:static": "node src/exportStatic.js",
+    "validate": "node src/validate.js",
     "build": "node --check src/**/*.js"
   },
   "engines": {

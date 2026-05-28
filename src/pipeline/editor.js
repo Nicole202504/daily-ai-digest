@@ -1,6 +1,6 @@
 import { SECTION_TITLES, renderDigestMarkdown } from "../core/render.js";
 
-const CATEGORY_KEYS = ["product", "github", "technical", "news"];
+const CATEGORY_KEYS = ["product", "github", "company", "technical", "news"];
 
 function firstSentence(text, fallback = "") {
   const value = String(text ?? fallback ?? "").replace(/\s+/g, " ").trim();
@@ -15,12 +15,6 @@ function metricsText(item) {
     const bits = [];
     if (m.stars) bits.push(`${m.stars.toLocaleString("en-US")} stars`);
     if (m.forks) bits.push(`${m.forks.toLocaleString("en-US")} forks`);
-    return bits.join(" / ");
-  }
-  if (item.source === "follow_builders_x") {
-    const bits = [];
-    if (m.likes != null) bits.push(`${m.likes} likes`);
-    if (m.retweets != null) bits.push(`${m.retweets} retweets`);
     return bits.join(" / ");
   }
   return "";
@@ -129,8 +123,8 @@ function features(item) {
 function whyItMatters(item) {
   if (item.source === "product_hunt") return "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。";
   if (item.source === "github_trending") return "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。";
-  if (item.source?.startsWith("follow_builders")) return "来自 builder 一线观点，适合捕捉还没进入正式新闻的早期信号。";
   if (item.source === "aihot") return "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。";
+  if (item.source?.startsWith("builder_")) return "AI 行业一线博客/论文，反映前沿技术和产品动态。";
   return "该条目在多个源中出现或具备明确行业信号。";
 }
 
@@ -138,7 +132,7 @@ function sourceLabel(item) {
   if (item.source === "product_hunt") return "Product Hunt";
   if (item.source === "github_trending") return "GitHub Trending";
   if (item.source === "aihot") return item.sourceName || "AI HOT";
-  if (item.source?.startsWith("follow_builders")) return item.authorName ? `Follow Builders / ${item.authorName}` : "Follow Builders";
+  if (item.source?.startsWith("builder_")) return item.authorName || item.sourceName || item.source;
   return item.sourceName || item.source || "Unknown";
 }
 

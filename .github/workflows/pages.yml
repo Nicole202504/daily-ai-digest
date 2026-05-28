@@ -43,6 +43,7 @@ jobs:
       - run: npm install
       - run: npm run build
       - run: node src/cli.js run --force
+      - run: node src/validate.js
       - run: npm run export:static
       - name: Commit and push data to repo
         run: |
