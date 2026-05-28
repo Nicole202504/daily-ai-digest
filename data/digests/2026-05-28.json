@@ -1,330 +1,265 @@
 {
   "date": "2026-05-28",
-  "generatedAt": "2026-05-28T07:01:02.182Z",
-  "digestSummary": "今天产品榜被 AI 基础设施和“让 AI 进入真实工作流”占据；技术侧两篇 RL 论文都在解决推理训练中的噪声与不稳定；行业新闻则集中在开源竞赛工具与 Zig 社区立场。",
+  "generatedAt": "2026-05-28T07:51:00.713Z",
+  "digestSummary": "OpenAI、Anthropic都在强化企业与智能体基础设施安全；GitHub Trending 则几乎被代码智能体、记忆、视频生成工具占满。产品侧出现数据智能体、MCP 私有连接和 AI 劳动力等面向企业落地的新包装。",
   "highlights": [
     {
-      "title": "Powabase",
-      "url": "https://www.producthunt.com/products/powabase",
-      "reason": "把 Postgres、RAG、agents 和工作流合到一层后端里"
+      "title": "OpenAI产品支持私有MCP服务器安全连接",
+      "url": "https://x.com/OpenAIDevs/status/2059703536825565499",
+      "reason": "直接解决企业内网接入外部模型的安全顾虑"
     },
     {
-      "title": "Bluedot 2.1",
-      "url": "https://www.producthunt.com/products/bluedot-2",
-      "reason": "把线下对话直接变成 Claude 可用的上下文"
+      "title": "OpenRouter 获得1.13亿美元B轮融资",
+      "url": "https://openrouter.ai/announcements/series-b",
+      "reason": "模型聚合层继续拿到大额资本支持"
     },
     {
-      "title": "DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes",
-      "url": "https://arxiv.org/abs/2605.28421",
-      "reason": "用弱模型失败样本做恢复式强化学习"
-    },
-    {
-      "title": "Show HN: Open-Source AI Racing Harness",
-      "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
-      "reason": "AI Grand Prix 参赛者的仿真工具，贴近比赛约束"
+      "title": "ITBench-AA：前沿大模型在首个智能体企业IT任务基准测试中得分均低于50%",
+      "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+      "reason": "第一次把企业IT智能体能力量化到可对比"
     }
   ],
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
-      "description": "今天的 Product Hunt 前十几乎都围绕 AI 应用底座、上下文接入和自动化工作流，重点不是“又一个聊天框”，而是把 AI 嵌进数据库、浏览器、CRM 和系统集成里。",
+      "description": "今天的产品动态集中在企业数据、智能体工作流和开发者工具的能力补丁上。",
       "items": [
         {
-          "title": "Powabase",
-          "url": "https://www.producthunt.com/products/powabase",
+          "title": "阿里云DataWorks推出AI数据智能体",
+          "url": "https://x.com/alibaba_cloud/status/2059840407618396391",
           "sources": [
-            "product_hunt"
+            "aihot"
           ],
-          "metricsText": "Product Hunt #1 · 410 votes · 75 comments",
-          "sourceLabel": "Product Hunt",
+          "metricsText": "",
+          "sourceLabel": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
           "tags": [
-            "开发工具",
-            "数据库",
-            "AI"
-          ],
-          "what": "Powabase 是面向 AI 原生应用的后端即服务，把 Postgres、RAG、agents、memory、workflows 和自动化原语放在同一平台里。它强调能和现代 coding agent 顺滑协作，帮助团队在不拼接碎片化基础设施的前提下，既能新建 AI 应用，也能给既有产品补上 AI 自动化。",
-          "why": "它面向的是代理公司和内部 IT 团队这类需要快速交付 AI 功能的人：他们常见问题不是“有没有模型”，而是数据库、检索、记忆、流程编排和自动化要分别选型、集成、维护，导致上线慢、上下文断裂、token 开销高。",
-          "context": "",
-          "lead": "Powabase 是面向 AI 原生应用的后端即服务，把 Postgres、RAG、agents、memory、workflows 和自动化原语放在同一平台里。它强调能和现代 coding agent 顺滑协作，帮助团队在不拼接碎片化基础设施的前提下，既能新建 AI 应用，也能给既有产品补上 AI 自动化。",
-          "summary": "Powabase 是面向 AI 原生应用的后端即服务，把 Postgres、RAG、agents、memory、workflows 和自动化原语放在同一平台里。它强调能和现代 coding agent 顺滑协作，帮助团队在不拼接碎片化基础设施的前提下，既能新建 AI 应用，也能给既有产品补上 AI 自动化。",
-          "details": [],
-          "keyPoints": [],
-          "audience": "",
-          "pain": "",
-          "insight": "它面向的是代理公司和内部 IT 团队这类需要快速交付 AI 功能的人：他们常见问题不是“有没有模型”，而是数据库、检索、记忆、流程编排和自动化要分别选型、集成、维护，导致上线慢、上下文断裂、token 开销高。",
-          "takeaway": "它面向的是代理公司和内部 IT 团队这类需要快速交付 AI 功能的人：他们常见问题不是“有没有模型”，而是数据库、检索、记忆、流程编排和自动化要分别选型、集成、维护，导致上线慢、上下文断裂、token 开销高。",
-          "oneLiner": "Powabase 是面向 AI 原生应用的后端即服务，把 Postgres、RAG、agents、memory、workflows 和自动化原语放在同一平台里。它强调能和现代 coding agent 顺滑协作，帮助团队在不拼接碎片化基础设施的前提下，既能新建 AI 应用，也能给既有产品补上 AI 自动化。",
-          "features": "",
-          "targetUsers": "",
-          "userNeed": "",
-          "whyItMatters": ""
-        },
-        {
-          "title": "Bluedot 2.1",
-          "url": "https://www.producthunt.com/products/bluedot-2",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "Product Hunt #2 · 401 votes · 38 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [
-            "苹果手表",
-            "生产力",
-            "Claude"
-          ],
-          "what": "Bluedot 2.1 把现实中的对话接入 Claude：用户可以直接用 Apple Watch 录音，再通过 MCP 同步到 Claude。它覆盖客户电话、走廊闲聊、采访、咖啡会面和面对面交流，不依赖笔记本电脑或会议机器人，并把这些内容转成可搜索、可总结、可执行的 AI 上下文。",
-          "why": "它针对的是经常在非会议室场景获取信息的人，比如销售、研究员、顾问和创始人。他们的问题不是开会没记录，而是大量关键细节发生在线下，之后很难整理进 AI 工具继续用。",
-          "context": "",
-          "lead": "Bluedot 2.1 把现实中的对话接入 Claude：用户可以直接用 Apple Watch 录音，再通过 MCP 同步到 Claude。它覆盖客户电话、走廊闲聊、采访、咖啡会面和面对面交流，不依赖笔记本电脑或会议机器人，并把这些内容转成可搜索、可总结、可执行的 AI 上下文。",
-          "summary": "Bluedot 2.1 把现实中的对话接入 Claude：用户可以直接用 Apple Watch 录音，再通过 MCP 同步到 Claude。它覆盖客户电话、走廊闲聊、采访、咖啡会面和面对面交流，不依赖笔记本电脑或会议机器人，并把这些内容转成可搜索、可总结、可执行的 AI 上下文。",
-          "details": [],
-          "keyPoints": [],
-          "audience": "",
-          "pain": "",
-          "insight": "它针对的是经常在非会议室场景获取信息的人，比如销售、研究员、顾问和创始人。他们的问题不是开会没记录，而是大量关键细节发生在线下，之后很难整理进 AI 工具继续用。",
-          "takeaway": "它针对的是经常在非会议室场景获取信息的人，比如销售、研究员、顾问和创始人。他们的问题不是开会没记录，而是大量关键细节发生在线下，之后很难整理进 AI 工具继续用。",
-          "oneLiner": "Bluedot 2.1 把现实中的对话接入 Claude：用户可以直接用 Apple Watch 录音，再通过 MCP 同步到 Claude。它覆盖客户电话、走廊闲聊、采访、咖啡会面和面对面交流，不依赖笔记本电脑或会议机器人，并把这些内容转成可搜索、可总结、可执行的 AI 上下文。",
-          "features": "",
-          "targetUsers": "",
-          "userNeed": "",
-          "whyItMatters": ""
-        },
-        {
-          "title": "zero.xyz",
-          "url": "https://www.producthunt.com/products/zero-xyz",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "Product Hunt #3 · 276 votes · 70 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [
-            "AI 代理",
-            "工具接入",
-            "开发者工具"
-          ],
-          "what": "zero.xyz 让 AI agent 发现并使用大约 8k 个工具、API 和服务，不需要 API key 或额外配置。它兼容 Claude Code、Codex、Gemini、OpenClaw、Hermes 等大多数 CLI agents，目标是让代理直接找到完成任务所需的服务并调用。",
-          "why": "它解决的是 agent 能“会想”但“不会接工具”的问题。对使用 CLI agent 的开发者来说，常见阻碍不是推理能力，而是每个服务都要单独接入、配 key、做配置，导致任务链条断开。",
-          "context": "",
-          "lead": "zero.xyz 让 AI agent 发现并使用大约 8k 个工具、API 和服务，不需要 API key 或额外配置。它兼容 Claude Code、Codex、Gemini、OpenClaw、Hermes 等大多数 CLI agents，目标是让代理直接找到完成任务所需的服务并调用。",
-          "summary": "zero.xyz 让 AI agent 发现并使用大约 8k 个工具、API 和服务，不需要 API key 或额外配置。它兼容 Claude Code、Codex、Gemini、OpenClaw、Hermes 等大多数 CLI agents，目标是让代理直接找到完成任务所需的服务并调用。",
-          "details": [],
-          "keyPoints": [],
-          "audience": "",
-          "pain": "",
-          "insight": "它解决的是 agent 能“会想”但“不会接工具”的问题。对使用 CLI agent 的开发者来说，常见阻碍不是推理能力，而是每个服务都要单独接入、配 key、做配置，导致任务链条断开。",
-          "takeaway": "它解决的是 agent 能“会想”但“不会接工具”的问题。对使用 CLI agent 的开发者来说，常见阻碍不是推理能力，而是每个服务都要单独接入、配 key、做配置，导致任务链条断开。",
-          "oneLiner": "zero.xyz 让 AI agent 发现并使用大约 8k 个工具、API 和服务，不需要 API key 或额外配置。它兼容 Claude Code、Codex、Gemini、OpenClaw、Hermes 等大多数 CLI agents，目标是让代理直接找到完成任务所需的服务并调用。",
-          "features": "",
-          "targetUsers": "",
-          "userNeed": "",
-          "whyItMatters": ""
-        },
-        {
-          "title": "Oasis Browser for Mac",
-          "url": "https://www.producthunt.com/products/kahana",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "Product Hunt #4 · 242 votes · 76 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [
-            "隐私",
-            "浏览器",
-            "AI"
-          ],
-          "what": "Oasis 是一款面向 Mac 的隐私优先 AI 浏览器，主打“你可以匿名训练它”。它强调数据归用户自己所有，界面尽量简洁，随着用户把重要内容喂给它，浏览器会逐渐更懂个人偏好和日常流程。",
-          "why": "它面向的是既想让浏览器记住偏好、又不愿把全部浏览轨迹交出去的人。当前很多 AI 浏览器的核心问题是数据使用方式不透明，用户在“更聪明”和“更私密”之间只能二选一。",
-          "context": "",
-          "lead": "Oasis 是一款面向 Mac 的隐私优先 AI 浏览器，主打“你可以匿名训练它”。它强调数据归用户自己所有，界面尽量简洁，随着用户把重要内容喂给它，浏览器会逐渐更懂个人偏好和日常流程。",
-          "summary": "Oasis 是一款面向 Mac 的隐私优先 AI 浏览器，主打“你可以匿名训练它”。它强调数据归用户自己所有，界面尽量简洁，随着用户把重要内容喂给它，浏览器会逐渐更懂个人偏好和日常流程。",
-          "details": [],
-          "keyPoints": [],
-          "audience": "",
-          "pain": "",
-          "insight": "它面向的是既想让浏览器记住偏好、又不愿把全部浏览轨迹交出去的人。当前很多 AI 浏览器的核心问题是数据使用方式不透明，用户在“更聪明”和“更私密”之间只能二选一。",
-          "takeaway": "它面向的是既想让浏览器记住偏好、又不愿把全部浏览轨迹交出去的人。当前很多 AI 浏览器的核心问题是数据使用方式不透明，用户在“更聪明”和“更私密”之间只能二选一。",
-          "oneLiner": "Oasis 是一款面向 Mac 的隐私优先 AI 浏览器，主打“你可以匿名训练它”。它强调数据归用户自己所有，界面尽量简洁，随着用户把重要内容喂给它，浏览器会逐渐更懂个人偏好和日常流程。",
-          "features": "",
-          "targetUsers": "",
-          "userNeed": "",
-          "whyItMatters": ""
-        },
-        {
-          "title": "Coworker AI",
-          "url": "https://www.producthunt.com/products/coworker-ai",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "Product Hunt #5 · 205 votes · 49 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [
-            "模型路由",
-            "企业上下文",
-            "SaaS"
-          ],
-          "what": "Coworker AI 提供深度公司上下文，并会为每个任务自动路由到合适的模型。产品的卖点是“同样的 AI，5 倍 token”，让用户在聊天、协作和写代码时，用相近的预算获得更多输出。",
-          "why": "它瞄准的是在企业里同时使用多种模型的人，尤其是需要在公司知识、代码仓库和任务场景间来回切换的团队。痛点不是单个模型不够强，而是任务不同、成本不同，若手动选模型很容易浪费 token 或效果不稳。",
-          "context": "",
-          "lead": "Coworker AI 提供深度公司上下文，并会为每个任务自动路由到合适的模型。产品的卖点是“同样的 AI，5 倍 token”，让用户在聊天、协作和写代码时，用相近的预算获得更多输出。",
-          "summary": "Coworker AI 提供深度公司上下文，并会为每个任务自动路由到合适的模型。产品的卖点是“同样的 AI，5 倍 token”，让用户在聊天、协作和写代码时，用相近的预算获得更多输出。",
-          "details": [],
-          "keyPoints": [],
-          "audience": "",
-          "pain": "",
-          "insight": "它瞄准的是在企业里同时使用多种模型的人，尤其是需要在公司知识、代码仓库和任务场景间来回切换的团队。痛点不是单个模型不够强，而是任务不同、成本不同，若手动选模型很容易浪费 token 或效果不稳。",
-          "takeaway": "它瞄准的是在企业里同时使用多种模型的人，尤其是需要在公司知识、代码仓库和任务场景间来回切换的团队。痛点不是单个模型不够强，而是任务不同、成本不同，若手动选模型很容易浪费 token 或效果不稳。",
-          "oneLiner": "Coworker AI 提供深度公司上下文，并会为每个任务自动路由到合适的模型。产品的卖点是“同样的 AI，5 倍 token”，让用户在聊天、协作和写代码时，用相近的预算获得更多输出。",
-          "features": "",
-          "targetUsers": "",
-          "userNeed": "",
-          "whyItMatters": ""
-        },
-        {
-          "title": "Octolane",
-          "url": "https://www.producthunt.com/products/octolane",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "Product Hunt #6 · 159 votes · 23 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [
-            "CRM",
-            "销售",
+            "数据智能体",
+            "企业数据",
             "自动化"
           ],
-          "what": "Octolane 是一个聊天优先的自驱动 AI CRM。用户可以直接说“跟进 David”或“看看哪些成交卡住了”，系统会读取 Gmail 和日历、自动识别商机、起草跟进内容并更新字段；它还新增了斜杠命令聊天、会议录音、访客信号、看板管道和约 60 个工具的 MCP 服务器。",
-          "why": "它面向销售和运营团队，尤其是那些 CRM 录入和跟进分散在邮件、日历和通话里的使用者。真正的问题不是没有 CRM，而是线索识别、状态更新和跟进动作都靠人工补录，容易漏单和拖延。",
+          "what": "阿里云在 DataWorks 里推出 Data Agent，主打用 AI 简化数据工作流、加速洞察，并让数据管理更智能。公开信息没有给出更细的功能拆分，信息有限，至少可以确认它被包装成数据处理与分析流程中的智能体入口，而不是单一问答工具。",
+          "why": "这类产品主要面向经常要在表、数仓、指标、报表之间来回切换的数据团队，尤其是需要从零搭建分析链路、手工整理口径、反复追问数据的人。原始问题不是“想用 AI”，而是数据工作流太碎、跨系统操作成本高，导致洞察出来得慢。",
           "context": "",
-          "lead": "Octolane 是一个聊天优先的自驱动 AI CRM。用户可以直接说“跟进 David”或“看看哪些成交卡住了”，系统会读取 Gmail 和日历、自动识别商机、起草跟进内容并更新字段；它还新增了斜杠命令聊天、会议录音、访客信号、看板管道和约 60 个工具的 MCP 服务器。",
-          "summary": "Octolane 是一个聊天优先的自驱动 AI CRM。用户可以直接说“跟进 David”或“看看哪些成交卡住了”，系统会读取 Gmail 和日历、自动识别商机、起草跟进内容并更新字段；它还新增了斜杠命令聊天、会议录音、访客信号、看板管道和约 60 个工具的 MCP 服务器。",
+          "lead": "阿里云在 DataWorks 里推出 Data Agent，主打用 AI 简化数据工作流、加速洞察，并让数据管理更智能。公开信息没有给出更细的功能拆分，信息有限，至少可以确认它被包装成数据处理与分析流程中的智能体入口，而不是单一问答工具。",
+          "summary": "阿里云在 DataWorks 里推出 Data Agent，主打用 AI 简化数据工作流、加速洞察，并让数据管理更智能。公开信息没有给出更细的功能拆分，信息有限，至少可以确认它被包装成数据处理与分析流程中的智能体入口，而不是单一问答工具。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "它面向销售和运营团队，尤其是那些 CRM 录入和跟进分散在邮件、日历和通话里的使用者。真正的问题不是没有 CRM，而是线索识别、状态更新和跟进动作都靠人工补录，容易漏单和拖延。",
-          "takeaway": "它面向销售和运营团队，尤其是那些 CRM 录入和跟进分散在邮件、日历和通话里的使用者。真正的问题不是没有 CRM，而是线索识别、状态更新和跟进动作都靠人工补录，容易漏单和拖延。",
-          "oneLiner": "Octolane 是一个聊天优先的自驱动 AI CRM。用户可以直接说“跟进 David”或“看看哪些成交卡住了”，系统会读取 Gmail 和日历、自动识别商机、起草跟进内容并更新字段；它还新增了斜杠命令聊天、会议录音、访客信号、看板管道和约 60 个工具的 MCP 服务器。",
+          "insight": "这类产品主要面向经常要在表、数仓、指标、报表之间来回切换的数据团队，尤其是需要从零搭建分析链路、手工整理口径、反复追问数据的人。原始问题不是“想用 AI”，而是数据工作流太碎、跨系统操作成本高，导致洞察出来得慢。",
+          "takeaway": "这类产品主要面向经常要在表、数仓、指标、报表之间来回切换的数据团队，尤其是需要从零搭建分析链路、手工整理口径、反复追问数据的人。原始问题不是“想用 AI”，而是数据工作流太碎、跨系统操作成本高，导致洞察出来得慢。",
+          "oneLiner": "阿里云在 DataWorks 里推出 Data Agent，主打用 AI 简化数据工作流、加速洞察，并让数据管理更智能。公开信息没有给出更细的功能拆分，信息有限，至少可以确认它被包装成数据处理与分析流程中的智能体入口，而不是单一问答工具。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
           "whyItMatters": ""
         },
         {
-          "title": "Mojito",
-          "url": "https://www.producthunt.com/products/mojito-2",
+          "title": "MuleRun登陆阿里云市场，提供全天候AI劳动力",
+          "url": "https://x.com/alibaba_cloud/status/2059821825140367565",
           "sources": [
-            "product_hunt"
+            "aihot"
           ],
-          "metricsText": "Product Hunt #7 · 147 votes · 16 comments",
-          "sourceLabel": "Product Hunt",
+          "metricsText": "",
+          "sourceLabel": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)",
           "tags": [
-            "Mac",
-            "emoji",
-            "开源"
+            "AI劳动力",
+            "企业协作",
+            "智能体"
           ],
-          "what": "Mojito 是一个 macOS 上的全局表情符号自动补全工具：用户输入冒号后，可以在 TextEdit、iMessage、Terminal 等任意应用中搜索 emoji、symbol 或 shortcode，并自动替换成对应字符。它还会识别那些本身已经支持该能力的应用并自动跳过，且是免费、开源、靠捐赠支持的工具。",
-          "why": "它解决的是跨应用输入表情时体验不统一的问题。很多场景下用户不是不会找 emoji，而是需要在没有原生支持的编辑器、终端或第三方应用里也能快速输入。",
+          "what": "MuleRun 上线阿里云市场，被描述为一个可 7x24 小时工作的 AI 劳动力，覆盖研究、报告、代码、设计等任务。它同时强调个人版和企业版能力，企业侧支持 SSO、RBAC、私有网络、团队知识管理和集成，起价为 20 美元/月。",
+          "why": "它面向的不是“想聊聊天”的用户，而是需要把重复性知识工作外包给软件的人：要写报告、做调研、产出代码或设计稿的个人，以及要把这些任务接入权限、网络和知识库的团队。原始问题是人力不够持续、任务种类杂且交付路径分散。",
           "context": "",
-          "lead": "Mojito 是一个 macOS 上的全局表情符号自动补全工具：用户输入冒号后，可以在 TextEdit、iMessage、Terminal 等任意应用中搜索 emoji、symbol 或 shortcode，并自动替换成对应字符。它还会识别那些本身已经支持该能力的应用并自动跳过，且是免费、开源、靠捐赠支持的工具。",
-          "summary": "Mojito 是一个 macOS 上的全局表情符号自动补全工具：用户输入冒号后，可以在 TextEdit、iMessage、Terminal 等任意应用中搜索 emoji、symbol 或 shortcode，并自动替换成对应字符。它还会识别那些本身已经支持该能力的应用并自动跳过，且是免费、开源、靠捐赠支持的工具。",
+          "lead": "MuleRun 上线阿里云市场，被描述为一个可 7x24 小时工作的 AI 劳动力，覆盖研究、报告、代码、设计等任务。它同时强调个人版和企业版能力，企业侧支持 SSO、RBAC、私有网络、团队知识管理和集成，起价为 20 美元/月。",
+          "summary": "MuleRun 上线阿里云市场，被描述为一个可 7x24 小时工作的 AI 劳动力，覆盖研究、报告、代码、设计等任务。它同时强调个人版和企业版能力，企业侧支持 SSO、RBAC、私有网络、团队知识管理和集成，起价为 20 美元/月。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "它解决的是跨应用输入表情时体验不统一的问题。很多场景下用户不是不会找 emoji，而是需要在没有原生支持的编辑器、终端或第三方应用里也能快速输入。",
-          "takeaway": "它解决的是跨应用输入表情时体验不统一的问题。很多场景下用户不是不会找 emoji，而是需要在没有原生支持的编辑器、终端或第三方应用里也能快速输入。",
-          "oneLiner": "Mojito 是一个 macOS 上的全局表情符号自动补全工具：用户输入冒号后，可以在 TextEdit、iMessage、Terminal 等任意应用中搜索 emoji、symbol 或 shortcode，并自动替换成对应字符。它还会识别那些本身已经支持该能力的应用并自动跳过，且是免费、开源、靠捐赠支持的工具。",
+          "insight": "它面向的不是“想聊聊天”的用户，而是需要把重复性知识工作外包给软件的人：要写报告、做调研、产出代码或设计稿的个人，以及要把这些任务接入权限、网络和知识库的团队。原始问题是人力不够持续、任务种类杂且交付路径分散。",
+          "takeaway": "它面向的不是“想聊聊天”的用户，而是需要把重复性知识工作外包给软件的人：要写报告、做调研、产出代码或设计稿的个人，以及要把这些任务接入权限、网络和知识库的团队。原始问题是人力不够持续、任务种类杂且交付路径分散。",
+          "oneLiner": "MuleRun 上线阿里云市场，被描述为一个可 7x24 小时工作的 AI 劳动力，覆盖研究、报告、代码、设计等任务。它同时强调个人版和企业版能力，企业侧支持 SSO、RBAC、私有网络、团队知识管理和集成，起价为 20 美元/月。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
           "whyItMatters": ""
         },
         {
-          "title": "Layers",
-          "url": "https://www.producthunt.com/products/layers-8",
+          "title": "Web 更新",
+          "url": "https://updates.midjourney.com/web-updates-5",
           "sources": [
-            "product_hunt"
+            "aihot"
           ],
-          "metricsText": "Product Hunt #8 · 113 votes · 13 comments",
-          "sourceLabel": "Product Hunt",
+          "metricsText": "",
+          "sourceLabel": "Midjourney：Updates（RSS）",
           "tags": [
-            "开发者工具",
-            "动画",
-            "视频"
+            "Web体验",
+            "语音",
+            "图像提示"
           ],
-          "what": "Layers 是一个免费网页工具，用来制作美观的代码片段动画视频。它支持可定制代码编辑器、主流语言、多种画幅比例，以及纹理超采样和视角/方向调整，方便把代码片段做成更有动感的演示素材。",
-          "why": "它面向内容创作者、开发者布道和需要做技术短视频的人。常见问题不是不会截图，而是希望把代码展示做得更适合社媒、演示和教学，却又不想自己搭完整的动效流程。",
+          "what": "Midjourney 的 Web 更新改进了对话模式中的文本和语音输入。语音会话开始时，可以访问用户的图像提示、风格参考、侧边栏设置和最近任务；图像提示也可以从托盘和侧边栏直接使用，并且在语音提交过程中托盘里的图像会保持不变，直到用户手动移除。",
+          "why": "这类更新主要服务于已经把 Midjourney 当作创作工作台使用的用户，他们往往同时维护参考图、风格和历史任务，最怕切换输入方式时上下文丢失。原始问题是创作连续性和控制感不足，尤其在语音交互里更明显。",
           "context": "",
-          "lead": "Layers 是一个免费网页工具，用来制作美观的代码片段动画视频。它支持可定制代码编辑器、主流语言、多种画幅比例，以及纹理超采样和视角/方向调整，方便把代码片段做成更有动感的演示素材。",
-          "summary": "Layers 是一个免费网页工具，用来制作美观的代码片段动画视频。它支持可定制代码编辑器、主流语言、多种画幅比例，以及纹理超采样和视角/方向调整，方便把代码片段做成更有动感的演示素材。",
+          "lead": "Midjourney 的 Web 更新改进了对话模式中的文本和语音输入。语音会话开始时，可以访问用户的图像提示、风格参考、侧边栏设置和最近任务；图像提示也可以从托盘和侧边栏直接使用，并且在语音提交过程中托盘里的图像会保持不变，直到用户手动移除。",
+          "summary": "Midjourney 的 Web 更新改进了对话模式中的文本和语音输入。语音会话开始时，可以访问用户的图像提示、风格参考、侧边栏设置和最近任务；图像提示也可以从托盘和侧边栏直接使用，并且在语音提交过程中托盘里的图像会保持不变，直到用户手动移除。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "它面向内容创作者、开发者布道和需要做技术短视频的人。常见问题不是不会截图，而是希望把代码展示做得更适合社媒、演示和教学，却又不想自己搭完整的动效流程。",
-          "takeaway": "它面向内容创作者、开发者布道和需要做技术短视频的人。常见问题不是不会截图，而是希望把代码展示做得更适合社媒、演示和教学，却又不想自己搭完整的动效流程。",
-          "oneLiner": "Layers 是一个免费网页工具，用来制作美观的代码片段动画视频。它支持可定制代码编辑器、主流语言、多种画幅比例，以及纹理超采样和视角/方向调整，方便把代码片段做成更有动感的演示素材。",
+          "insight": "这类更新主要服务于已经把 Midjourney 当作创作工作台使用的用户，他们往往同时维护参考图、风格和历史任务，最怕切换输入方式时上下文丢失。原始问题是创作连续性和控制感不足，尤其在语音交互里更明显。",
+          "takeaway": "这类更新主要服务于已经把 Midjourney 当作创作工作台使用的用户，他们往往同时维护参考图、风格和历史任务，最怕切换输入方式时上下文丢失。原始问题是创作连续性和控制感不足，尤其在语音交互里更明显。",
+          "oneLiner": "Midjourney 的 Web 更新改进了对话模式中的文本和语音输入。语音会话开始时，可以访问用户的图像提示、风格参考、侧边栏设置和最近任务；图像提示也可以从托盘和侧边栏直接使用，并且在语音提交过程中托盘里的图像会保持不变，直到用户手动移除。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
           "whyItMatters": ""
         },
         {
-          "title": "Pawse.ai",
-          "url": "https://www.producthunt.com/products/pawse-ai",
+          "title": "OpenAI产品支持私有MCP服务器安全连接",
+          "url": "https://x.com/OpenAIDevs/status/2059703536825565499",
           "sources": [
-            "product_hunt"
+            "aihot"
           ],
-          "metricsText": "Product Hunt #9 · 106 votes · 16 comments",
-          "sourceLabel": "Product Hunt",
+          "metricsText": "",
+          "sourceLabel": "X：OpenAI Developers (@OpenAIDevs)",
           "tags": [
-            "宠物",
-            "iOS",
-            "音频"
+            "MCP",
+            "企业安全",
+            "连接方式"
           ],
-          "what": "Pawse.ai 是一个面向狗狗的声学调节系统。它通过 Apple TV 或 iPad 播放按犬类听觉特性校准的结构化音频，提供 Sleep、Home Alone、Loud Noise、Travel、Vet Visit 五种模式，用户可以在手机上远程控制开关。",
-          "why": "它面向的是需要长时间把狗单独留在家里、或在噪声、旅行、看兽医等场景中安抚宠物的主人。问题不是播放普通音乐，而是宠物在特定环境下会出现可测量的压力反应。",
+          "what": "OpenAI 表示，团队可以把 MCP 服务器保留在内部网络中，同时让 ChatGPT、Codex 和 Responses API 通过仅出站 HTTPS 连接访问。公开信息没有展开部署细节，但核心是把内部服务暴露面降到更窄。",
+          "why": "这条更适合有内网系统、权限边界和合规要求的团队，特别是已经有大量内部工具，却不想把服务直接暴露到公网的企业。原始问题是智能体要接工具，但企业又不愿意为了接入模型而放弃网络隔离。",
           "context": "",
-          "lead": "Pawse.ai 是一个面向狗狗的声学调节系统。它通过 Apple TV 或 iPad 播放按犬类听觉特性校准的结构化音频，提供 Sleep、Home Alone、Loud Noise、Travel、Vet Visit 五种模式，用户可以在手机上远程控制开关。",
-          "summary": "Pawse.ai 是一个面向狗狗的声学调节系统。它通过 Apple TV 或 iPad 播放按犬类听觉特性校准的结构化音频，提供 Sleep、Home Alone、Loud Noise、Travel、Vet Visit 五种模式，用户可以在手机上远程控制开关。",
+          "lead": "OpenAI 表示，团队可以把 MCP 服务器保留在内部网络中，同时让 ChatGPT、Codex 和 Responses API 通过仅出站 HTTPS 连接访问。公开信息没有展开部署细节，但核心是把内部服务暴露面降到更窄。",
+          "summary": "OpenAI 表示，团队可以把 MCP 服务器保留在内部网络中，同时让 ChatGPT、Codex 和 Responses API 通过仅出站 HTTPS 连接访问。公开信息没有展开部署细节，但核心是把内部服务暴露面降到更窄。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "它面向的是需要长时间把狗单独留在家里、或在噪声、旅行、看兽医等场景中安抚宠物的主人。问题不是播放普通音乐，而是宠物在特定环境下会出现可测量的压力反应。",
-          "takeaway": "它面向的是需要长时间把狗单独留在家里、或在噪声、旅行、看兽医等场景中安抚宠物的主人。问题不是播放普通音乐，而是宠物在特定环境下会出现可测量的压力反应。",
-          "oneLiner": "Pawse.ai 是一个面向狗狗的声学调节系统。它通过 Apple TV 或 iPad 播放按犬类听觉特性校准的结构化音频，提供 Sleep、Home Alone、Loud Noise、Travel、Vet Visit 五种模式，用户可以在手机上远程控制开关。",
+          "insight": "这条更适合有内网系统、权限边界和合规要求的团队，特别是已经有大量内部工具，却不想把服务直接暴露到公网的企业。原始问题是智能体要接工具，但企业又不愿意为了接入模型而放弃网络隔离。",
+          "takeaway": "这条更适合有内网系统、权限边界和合规要求的团队，特别是已经有大量内部工具，却不想把服务直接暴露到公网的企业。原始问题是智能体要接工具，但企业又不愿意为了接入模型而放弃网络隔离。",
+          "oneLiner": "OpenAI 表示，团队可以把 MCP 服务器保留在内部网络中，同时让 ChatGPT、Codex 和 Responses API 通过仅出站 HTTPS 连接访问。公开信息没有展开部署细节，但核心是把内部服务暴露面降到更窄。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
           "whyItMatters": ""
         },
         {
-          "title": "Calling Skills for AI Agents",
-          "url": "https://www.producthunt.com/products/cometchat-skills",
+          "title": "OpenCode与MiMo V2.5限时免费开放",
+          "url": "https://x.com/opencode/status/2059696100626297225",
           "sources": [
-            "product_hunt"
+            "aihot"
           ],
-          "metricsText": "Product Hunt #10 · 105 votes · 9 comments",
-          "sourceLabel": "Product Hunt",
+          "metricsText": "",
+          "sourceLabel": "X：opencode (@opencode)",
           "tags": [
-            "语音通话",
-            "视频通话",
-            "开发工具"
+            "代码模型",
+            "限时免费",
+            "长上下文"
           ],
-          "what": "Calling Skills for AI Agents 是 CometChat 提供的语音和视频通话能力包，包含录制、屏幕共享、通话日志、举手、广播模式、画中画等功能。它可以通过 UI Kit、SDK 或一条 npx 命令集成，并强调可承载高带宽、符合全球标准。",
-          "why": "它针对的是要把实时通话能力嵌进产品的开发者。常见问题不是“能不能通”，而是通话链路、记录、协作控制和扩展能力都要自己搭建，集成成本高。",
+          "what": "OpenCode 宣布与 MiMo V2.5 限时免费合作，公开信息显示支持 1M 上下文、推理、文本和图像。信息有限，未见更完整的产品说明，只能确认它把长上下文和多模态能力作为卖点。",
+          "why": "对需要一次性塞进大量代码、文档或设计上下文的开发者来说，1M 上下文的价值在于减少拆分输入和多轮搬运。原始问题不是“模型能不能看图”，而是能否把复杂工程任务放进一次会话里处理。",
           "context": "",
-          "lead": "Calling Skills for AI Agents 是 CometChat 提供的语音和视频通话能力包，包含录制、屏幕共享、通话日志、举手、广播模式、画中画等功能。它可以通过 UI Kit、SDK 或一条 npx 命令集成，并强调可承载高带宽、符合全球标准。",
-          "summary": "Calling Skills for AI Agents 是 CometChat 提供的语音和视频通话能力包，包含录制、屏幕共享、通话日志、举手、广播模式、画中画等功能。它可以通过 UI Kit、SDK 或一条 npx 命令集成，并强调可承载高带宽、符合全球标准。",
+          "lead": "OpenCode 宣布与 MiMo V2.5 限时免费合作，公开信息显示支持 1M 上下文、推理、文本和图像。信息有限，未见更完整的产品说明，只能确认它把长上下文和多模态能力作为卖点。",
+          "summary": "OpenCode 宣布与 MiMo V2.5 限时免费合作，公开信息显示支持 1M 上下文、推理、文本和图像。信息有限，未见更完整的产品说明，只能确认它把长上下文和多模态能力作为卖点。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "它针对的是要把实时通话能力嵌进产品的开发者。常见问题不是“能不能通”，而是通话链路、记录、协作控制和扩展能力都要自己搭建，集成成本高。",
-          "takeaway": "它针对的是要把实时通话能力嵌进产品的开发者。常见问题不是“能不能通”，而是通话链路、记录、协作控制和扩展能力都要自己搭建，集成成本高。",
-          "oneLiner": "Calling Skills for AI Agents 是 CometChat 提供的语音和视频通话能力包，包含录制、屏幕共享、通话日志、举手、广播模式、画中画等功能。它可以通过 UI Kit、SDK 或一条 npx 命令集成，并强调可承载高带宽、符合全球标准。",
+          "insight": "对需要一次性塞进大量代码、文档或设计上下文的开发者来说，1M 上下文的价值在于减少拆分输入和多轮搬运。原始问题不是“模型能不能看图”，而是能否把复杂工程任务放进一次会话里处理。",
+          "takeaway": "对需要一次性塞进大量代码、文档或设计上下文的开发者来说，1M 上下文的价值在于减少拆分输入和多轮搬运。原始问题不是“模型能不能看图”，而是能否把复杂工程任务放进一次会话里处理。",
+          "oneLiner": "OpenCode 宣布与 MiMo V2.5 限时免费合作，公开信息显示支持 1M 上下文、推理、文本和图像。信息有限，未见更完整的产品说明，只能确认它把长上下文和多模态能力作为卖点。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Google Pay 最新更新",
+          "url": "https://developers.googleblog.com/the-latest-updates-to-google-pay",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Google Developers Blog（RSS）",
+          "tags": [
+            "支付",
+            "智能体商务",
+            "MCP"
+          ],
+          "what": "Google Pay 发布最新更新，方向是向“智能体商务”演进，加入通用商务协议和新的 MCP 服务器，让 AI 智能体能够管理集成并分析趋势。Android 侧还新增动态回调以支持快速结账，通过 WebView 扩展到社交媒体应用，并提供跨设备生物认证和新的交易信号。",
+          "why": "它面向的是支付链路里最怕摩擦的商家和平台：结账步骤越多，转化越容易掉。原始问题是如何把支付能力嵌进更多应用形态，同时让智能体有足够接口去处理交易与分析。",
+          "context": "",
+          "lead": "Google Pay 发布最新更新，方向是向“智能体商务”演进，加入通用商务协议和新的 MCP 服务器，让 AI 智能体能够管理集成并分析趋势。Android 侧还新增动态回调以支持快速结账，通过 WebView 扩展到社交媒体应用，并提供跨设备生物认证和新的交易信号。",
+          "summary": "Google Pay 发布最新更新，方向是向“智能体商务”演进，加入通用商务协议和新的 MCP 服务器，让 AI 智能体能够管理集成并分析趋势。Android 侧还新增动态回调以支持快速结账，通过 WebView 扩展到社交媒体应用，并提供跨设备生物认证和新的交易信号。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向的是支付链路里最怕摩擦的商家和平台：结账步骤越多，转化越容易掉。原始问题是如何把支付能力嵌进更多应用形态，同时让智能体有足够接口去处理交易与分析。",
+          "takeaway": "它面向的是支付链路里最怕摩擦的商家和平台：结账步骤越多，转化越容易掉。原始问题是如何把支付能力嵌进更多应用形态，同时让智能体有足够接口去处理交易与分析。",
+          "oneLiner": "Google Pay 发布最新更新，方向是向“智能体商务”演进，加入通用商务协议和新的 MCP 服务器，让 AI 智能体能够管理集成并分析趋势。Android 侧还新增动态回调以支持快速结账，通过 WebView 扩展到社交媒体应用，并提供跨设备生物认证和新的交易信号。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Grok编程智能体登陆Kilo IDE平台",
+          "url": "https://x.com/xai/status/2059666227115819149",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：xAI (@xai)",
+          "tags": [
+            "编程智能体",
+            "IDE",
+            "订阅复用"
+          ],
+          "what": "xAI 宣布可以在 Kilo IDE 中使用 SuperGrok 或 X Premium+ 订阅，调用 grok-build-0.1，在 IDE 扩展或 CLI 里获得高速的智能体编程能力。信息有限，公开内容主要强调订阅打通与开发者场景。",
+          "why": "它面向已经在 IDE 里写代码、又希望直接在编辑器或命令行里调用编程智能体的开发者。原始问题是工具切换和订阅割裂，用户不想为了试一个编码智能体再额外买一套账户。",
+          "context": "",
+          "lead": "xAI 宣布可以在 Kilo IDE 中使用 SuperGrok 或 X Premium+ 订阅，调用 grok-build-0.1，在 IDE 扩展或 CLI 里获得高速的智能体编程能力。信息有限，公开内容主要强调订阅打通与开发者场景。",
+          "summary": "xAI 宣布可以在 Kilo IDE 中使用 SuperGrok 或 X Premium+ 订阅，调用 grok-build-0.1，在 IDE 扩展或 CLI 里获得高速的智能体编程能力。信息有限，公开内容主要强调订阅打通与开发者场景。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向已经在 IDE 里写代码、又希望直接在编辑器或命令行里调用编程智能体的开发者。原始问题是工具切换和订阅割裂，用户不想为了试一个编码智能体再额外买一套账户。",
+          "takeaway": "它面向已经在 IDE 里写代码、又希望直接在编辑器或命令行里调用编程智能体的开发者。原始问题是工具切换和订阅割裂，用户不想为了试一个编码智能体再额外买一套账户。",
+          "oneLiner": "xAI 宣布可以在 Kilo IDE 中使用 SuperGrok 或 X Premium+ 订阅，调用 grok-build-0.1，在 IDE 扩展或 CLI 里获得高速的智能体编程能力。信息有限，公开内容主要强调订阅打通与开发者场景。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Claude Marketplace 新增五家合作伙伴",
+          "url": "https://x.com/claudeai/status/2059662933924123044",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：Claude (@claudeai)",
+          "tags": [
+            "市场",
+            "合作伙伴",
+            "企业采购"
+          ],
+          "what": "Claude Marketplace 新增 @augmentcode、@boltdotnew、@coderabbitai、@hebbia 和 @WeAreLegora 五家合作伙伴，Anthropic 现有的消费承诺可用于购买这些 Claude 驱动的产品。公开信息没有展开每家合作伙伴的具体功能细节。",
+          "why": "它主要服务于已经在 Anthropic 体系里采购额度、并希望顺手购买周边工具的企业用户。原始问题是企业买模型和买应用常常分开，结算、额度和工具生态割裂。",
+          "context": "",
+          "lead": "Claude Marketplace 新增 @augmentcode、@boltdotnew、@coderabbitai、@hebbia 和 @WeAreLegora 五家合作伙伴，Anthropic 现有的消费承诺可用于购买这些 Claude 驱动的产品。公开信息没有展开每家合作伙伴的具体功能细节。",
+          "summary": "Claude Marketplace 新增 @augmentcode、@boltdotnew、@coderabbitai、@hebbia 和 @WeAreLegora 五家合作伙伴，Anthropic 现有的消费承诺可用于购买这些 Claude 驱动的产品。公开信息没有展开每家合作伙伴的具体功能细节。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它主要服务于已经在 Anthropic 体系里采购额度、并希望顺手购买周边工具的企业用户。原始问题是企业买模型和买应用常常分开，结算、额度和工具生态割裂。",
+          "takeaway": "它主要服务于已经在 Anthropic 体系里采购额度、并希望顺手购买周边工具的企业用户。原始问题是企业买模型和买应用常常分开，结算、额度和工具生态割裂。",
+          "oneLiner": "Claude Marketplace 新增 @augmentcode、@boltdotnew、@coderabbitai、@hebbia 和 @WeAreLegora 五家合作伙伴，Anthropic 现有的消费承诺可用于购买这些 Claude 驱动的产品。公开信息没有展开每家合作伙伴的具体功能细节。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
@@ -334,76 +269,648 @@
     },
     {
       "key": "github",
-      "title": "开源热门",
-      "description": "信息有限：输入中没有 GitHub Trending 候选，因此本栏保留但不填入条目。",
-      "items": []
-    },
-    {
-      "key": "company",
-      "title": "公司动态",
-      "description": "信息有限：输入中没有 OpenAI、Anthropic、DeepMind 官方博客内容，因此本栏保留但不填入条目。",
-      "items": []
-    },
-    {
-      "key": "technical",
-      "title": "技术前沿",
-      "description": "今天的技术条目都在强化大模型推理训练：一篇从“弱模型出错后如何恢复”切入，一篇从探索-利用平衡切入，都是在解决在线 RL 训练不稳定的问题。",
+      "title": "GitHub 热门",
+      "description": "Trending 里几乎都是围绕编码智能体、记忆系统、代码知识图谱和视频生成的基础设施。",
       "items": [
         {
-          "title": "DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes",
-          "url": "https://arxiv.org/abs/2605.28421",
+          "title": "colbymchenry/codegraph",
+          "url": "https://github.com/colbymchenry/codegraph",
           "sources": [
-            "builder_huggingface"
+            "github_trending"
           ],
-          "metricsText": "HuggingFace Papers",
-          "sourceLabel": "HuggingFace Papers",
+          "metricsText": "weekly #1",
+          "sourceLabel": "GitHub Trending",
           "tags": [
-            "强化学习",
-            "推理模型",
-            "论文"
+            "知识图谱",
+            "本地化",
+            "编码智能体"
           ],
-          "what": "这篇论文提出 DenoiseRL，一种面向大语言模型推理能力的强化学习框架。它不再依赖更强的教师模型或人工精筛的困难样本，而是把弱模型产生的失败轨迹当作训练对象，围绕“从噪声前缀中恢复”的目标做优化，试图在缺少外部强监督时继续提升推理能力。",
-          "why": "",
-          "context": "论文指出，现有很多推理训练方法都依赖更强教师或高度筛选的数据，这限制了扩展性。DenoiseRL 改为利用失败样本，意味着训练信号更接近真实模型会遇到的错误分布，但是否能稳定提升，以及对不同推理任务的泛化效果，仍有待后续验证。",
-          "lead": "这篇论文提出 DenoiseRL，一种面向大语言模型推理能力的强化学习框架。它不再依赖更强的教师模型或人工精筛的困难样本，而是把弱模型产生的失败轨迹当作训练对象，围绕“从噪声前缀中恢复”的目标做优化，试图在缺少外部强监督时继续提升推理能力。",
-          "summary": "这篇论文提出 DenoiseRL，一种面向大语言模型推理能力的强化学习框架。它不再依赖更强的教师模型或人工精筛的困难样本，而是把弱模型产生的失败轨迹当作训练对象，围绕“从噪声前缀中恢复”的目标做优化，试图在缺少外部强监督时继续提升推理能力。",
+          "what": "这是一个为 Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro 和 Hermes Agent 预先索引好的代码知识图谱，强调更少 token、更少工具调用、100% 本地。它把代码库结构和关联关系提前整理好，供智能体直接检索。",
+          "why": "它面向那些希望让代码智能体少翻文件、少发工具请求的团队和个人，尤其是大仓库、文档碎、上下文成本高的项目。原始问题是智能体每次从头扫仓库太慢，而且很容易漏掉关键关联。",
+          "context": "",
+          "lead": "这是一个为 Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro 和 Hermes Agent 预先索引好的代码知识图谱，强调更少 token、更少工具调用、100% 本地。它把代码库结构和关联关系提前整理好，供智能体直接检索。",
+          "summary": "这是一个为 Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro 和 Hermes Agent 预先索引好的代码知识图谱，强调更少 token、更少工具调用、100% 本地。它把代码库结构和关联关系提前整理好，供智能体直接检索。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "论文指出，现有很多推理训练方法都依赖更强教师或高度筛选的数据，这限制了扩展性。DenoiseRL 改为利用失败样本，意味着训练信号更接近真实模型会遇到的错误分布，但是否能稳定提升，以及对不同推理任务的泛化效果，仍有待后续验证。",
-          "takeaway": "论文指出，现有很多推理训练方法都依赖更强教师或高度筛选的数据，这限制了扩展性。DenoiseRL 改为利用失败样本，意味着训练信号更接近真实模型会遇到的错误分布，但是否能稳定提升，以及对不同推理任务的泛化效果，仍有待后续验证。",
-          "oneLiner": "这篇论文提出 DenoiseRL，一种面向大语言模型推理能力的强化学习框架。它不再依赖更强的教师模型或人工精筛的困难样本，而是把弱模型产生的失败轨迹当作训练对象，围绕“从噪声前缀中恢复”的目标做优化，试图在缺少外部强监督时继续提升推理能力。",
+          "insight": "它面向那些希望让代码智能体少翻文件、少发工具请求的团队和个人，尤其是大仓库、文档碎、上下文成本高的项目。原始问题是智能体每次从头扫仓库太慢，而且很容易漏掉关键关联。",
+          "takeaway": "它面向那些希望让代码智能体少翻文件、少发工具请求的团队和个人，尤其是大仓库、文档碎、上下文成本高的项目。原始问题是智能体每次从头扫仓库太慢，而且很容易漏掉关键关联。",
+          "oneLiner": "这是一个为 Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro 和 Hermes Agent 预先索引好的代码知识图谱，强调更少 token、更少工具调用、100% 本地。它把代码库结构和关联关系提前整理好，供智能体直接检索。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
           "whyItMatters": ""
         },
         {
-          "title": "Long Live The Balance: Information Bottleneck Driven Tree-based Policy Optimization",
-          "url": "https://arxiv.org/abs/2605.28109",
+          "title": "anthropics/financial-services",
+          "url": "https://github.com/anthropics/financial-services",
           "sources": [
-            "builder_huggingface"
+            "github_trending"
           ],
-          "metricsText": "HuggingFace Papers",
-          "sourceLabel": "HuggingFace Papers",
+          "metricsText": "weekly #2",
+          "sourceLabel": "GitHub Trending",
           "tags": [
-            "在线强化学习",
-            "信息瓶颈",
-            "推理"
+            "金融服务",
+            "参考实现",
+            "智能体"
           ],
-          "what": "这篇论文提出 IB-Score，用信息瓶颈理论来衡量策略的探索与利用平衡，并据此改进树状策略优化。作者认为，在线 RL 在复杂推理任务上虽然有效，但常出现探索和利用失衡，导致优化过程不稳定、最终表现不理想。",
-          "why": "",
-          "context": "它试图把“平衡好不好”从经验判断变成可量化指标，以便更精细地调节训练过程。背景是近来的 LLM 在线 RL 进展很快，但在长推理链中很容易出现局部探索不足或过度发散的问题；论文提供的是一个方法框架，实际收益仍取决于任务设置和训练实现。",
-          "lead": "这篇论文提出 IB-Score，用信息瓶颈理论来衡量策略的探索与利用平衡，并据此改进树状策略优化。作者认为，在线 RL 在复杂推理任务上虽然有效，但常出现探索和利用失衡，导致优化过程不稳定、最终表现不理想。",
-          "summary": "这篇论文提出 IB-Score，用信息瓶颈理论来衡量策略的探索与利用平衡，并据此改进树状策略优化。作者认为，在线 RL 在复杂推理任务上虽然有效，但常出现探索和利用失衡，导致优化过程不稳定、最终表现不理想。",
+          "what": "Anthropic 发布了面向金融服务的参考仓库，包含 agents、skills 和 data connectors，覆盖投行、股票研究、私募股权和财富管理等常见工作流。它更像一套行业化骨架，而不是单点 demo。",
+          "why": "它面向已经把 Claude 用进金融工作流的团队，需要把模型接到行业数据源、固定流程和合规要求里。原始问题是通用智能体离金融实务太远，缺少可直接参考的工作流模板。",
+          "context": "",
+          "lead": "Anthropic 发布了面向金融服务的参考仓库，包含 agents、skills 和 data connectors，覆盖投行、股票研究、私募股权和财富管理等常见工作流。它更像一套行业化骨架，而不是单点 demo。",
+          "summary": "Anthropic 发布了面向金融服务的参考仓库，包含 agents、skills 和 data connectors，覆盖投行、股票研究、私募股权和财富管理等常见工作流。它更像一套行业化骨架，而不是单点 demo。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "它试图把“平衡好不好”从经验判断变成可量化指标，以便更精细地调节训练过程。背景是近来的 LLM 在线 RL 进展很快，但在长推理链中很容易出现局部探索不足或过度发散的问题；论文提供的是一个方法框架，实际收益仍取决于任务设置和训练实现。",
-          "takeaway": "它试图把“平衡好不好”从经验判断变成可量化指标，以便更精细地调节训练过程。背景是近来的 LLM 在线 RL 进展很快，但在长推理链中很容易出现局部探索不足或过度发散的问题；论文提供的是一个方法框架，实际收益仍取决于任务设置和训练实现。",
-          "oneLiner": "这篇论文提出 IB-Score，用信息瓶颈理论来衡量策略的探索与利用平衡，并据此改进树状策略优化。作者认为，在线 RL 在复杂推理任务上虽然有效，但常出现探索和利用失衡，导致优化过程不稳定、最终表现不理想。",
+          "insight": "它面向已经把 Claude 用进金融工作流的团队，需要把模型接到行业数据源、固定流程和合规要求里。原始问题是通用智能体离金融实务太远，缺少可直接参考的工作流模板。",
+          "takeaway": "它面向已经把 Claude 用进金融工作流的团队，需要把模型接到行业数据源、固定流程和合规要求里。原始问题是通用智能体离金融实务太远，缺少可直接参考的工作流模板。",
+          "oneLiner": "Anthropic 发布了面向金融服务的参考仓库，包含 agents、skills 和 data connectors，覆盖投行、股票研究、私募股权和财富管理等常见工作流。它更像一套行业化骨架，而不是单点 demo。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "CloakHQ/CloakBrowser",
+          "url": "https://github.com/CloakHQ/CloakBrowser",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #3",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "浏览器",
+            "反检测",
+            "Chromium"
+          ],
+          "what": "这是一个主打“Stealth Chromium”的项目，说明其目标是通过各种 bot detection 测试。它本质上是在标准 Chromium 基础上做隐身和指纹规避能力。",
+          "why": "它面向需要批量自动化访问网页、但经常被风控拦截的开发者和运营团队。原始问题不是浏览器功能不够，而是自动化流量在很多站点上根本过不了检测。",
+          "context": "",
+          "lead": "这是一个主打“Stealth Chromium”的项目，说明其目标是通过各种 bot detection 测试。它本质上是在标准 Chromium 基础上做隐身和指纹规避能力。",
+          "summary": "这是一个主打“Stealth Chromium”的项目，说明其目标是通过各种 bot detection 测试。它本质上是在标准 Chromium 基础上做隐身和指纹规避能力。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向需要批量自动化访问网页、但经常被风控拦截的开发者和运营团队。原始问题不是浏览器功能不够，而是自动化流量在很多站点上根本过不了检测。",
+          "takeaway": "它面向需要批量自动化访问网页、但经常被风控拦截的开发者和运营团队。原始问题不是浏览器功能不够，而是自动化流量在很多站点上根本过不了检测。",
+          "oneLiner": "这是一个主打“Stealth Chromium”的项目，说明其目标是通过各种 bot detection 测试。它本质上是在标准 Chromium 基础上做隐身和指纹规避能力。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "mattpocock/skills",
+          "url": "https://github.com/mattpocock/skills",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #4",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "技能包",
+            "工程实践",
+            "开发者"
+          ],
+          "what": "仓库标题直接指向“Skills for Real Engineers”，说明它是在整理面向工程师的技能包或工作流模块。公开摘要信息较少，信息有限，无法确认更细的组织方式。",
+          "why": "它面向想把经验固化成可复用步骤的开发者，尤其是在智能体工具时代，需要把“怎么做”变成能被系统调用的规则。原始问题是个人经验难以在团队里规模化复制。",
+          "context": "",
+          "lead": "仓库标题直接指向“Skills for Real Engineers”，说明它是在整理面向工程师的技能包或工作流模块。公开摘要信息较少，信息有限，无法确认更细的组织方式。",
+          "summary": "仓库标题直接指向“Skills for Real Engineers”，说明它是在整理面向工程师的技能包或工作流模块。公开摘要信息较少，信息有限，无法确认更细的组织方式。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向想把经验固化成可复用步骤的开发者，尤其是在智能体工具时代，需要把“怎么做”变成能被系统调用的规则。原始问题是个人经验难以在团队里规模化复制。",
+          "takeaway": "它面向想把经验固化成可复用步骤的开发者，尤其是在智能体工具时代，需要把“怎么做”变成能被系统调用的规则。原始问题是个人经验难以在团队里规模化复制。",
+          "oneLiner": "仓库标题直接指向“Skills for Real Engineers”，说明它是在整理面向工程师的技能包或工作流模块。公开摘要信息较少，信息有限，无法确认更细的组织方式。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "warpdotdev/warp",
+          "url": "https://github.com/warpdotdev/warp",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #5",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "终端",
+            "智能体开发",
+            "开发环境"
+          ],
+          "what": "Warp 自称是一个从终端生长出来的 agentic development environment，说明它把终端、命令执行和智能体工作流合成到一起。公开描述较短，但方向很明确：把开发环境做成智能体入口。",
+          "why": "它面向重度终端用户和需要把命令行工作流交给智能体协作的开发者。原始问题是传统终端只适合手动输入，不适合把一部分开发任务交给 AI 来协同完成。",
+          "context": "",
+          "lead": "Warp 自称是一个从终端生长出来的 agentic development environment，说明它把终端、命令执行和智能体工作流合成到一起。公开描述较短，但方向很明确：把开发环境做成智能体入口。",
+          "summary": "Warp 自称是一个从终端生长出来的 agentic development environment，说明它把终端、命令执行和智能体工作流合成到一起。公开描述较短，但方向很明确：把开发环境做成智能体入口。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向重度终端用户和需要把命令行工作流交给智能体协作的开发者。原始问题是传统终端只适合手动输入，不适合把一部分开发任务交给 AI 来协同完成。",
+          "takeaway": "它面向重度终端用户和需要把命令行工作流交给智能体协作的开发者。原始问题是传统终端只适合手动输入，不适合把一部分开发任务交给 AI 来协同完成。",
+          "oneLiner": "Warp 自称是一个从终端生长出来的 agentic development environment，说明它把终端、命令执行和智能体工作流合成到一起。公开描述较短，但方向很明确：把开发环境做成智能体入口。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "rohitg00/agentmemory",
+          "url": "https://github.com/rohitg00/agentmemory",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #6",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "长期记忆",
+            "编码智能体",
+            "基准"
+          ],
+          "what": "这是一个面向 AI 编码智能体的持久记忆项目，标题里直接强调基于真实世界基准测试，主张让编码智能体“记住一切”。它的核心是给智能体补长期状态，而不是每次只靠当前上下文。",
+          "why": "它面向那些发现智能体每次开工都像失忆的开发者，尤其是长期维护同一代码库、同一任务链路的人。原始问题是上下文窗口有限，导致智能体无法记住项目历史和决策。",
+          "context": "",
+          "lead": "这是一个面向 AI 编码智能体的持久记忆项目，标题里直接强调基于真实世界基准测试，主张让编码智能体“记住一切”。它的核心是给智能体补长期状态，而不是每次只靠当前上下文。",
+          "summary": "这是一个面向 AI 编码智能体的持久记忆项目，标题里直接强调基于真实世界基准测试，主张让编码智能体“记住一切”。它的核心是给智能体补长期状态，而不是每次只靠当前上下文。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向那些发现智能体每次开工都像失忆的开发者，尤其是长期维护同一代码库、同一任务链路的人。原始问题是上下文窗口有限，导致智能体无法记住项目历史和决策。",
+          "takeaway": "它面向那些发现智能体每次开工都像失忆的开发者，尤其是长期维护同一代码库、同一任务链路的人。原始问题是上下文窗口有限，导致智能体无法记住项目历史和决策。",
+          "oneLiner": "这是一个面向 AI 编码智能体的持久记忆项目，标题里直接强调基于真实世界基准测试，主张让编码智能体“记住一切”。它的核心是给智能体补长期状态，而不是每次只靠当前上下文。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Lum1104/Understand-Anything",
+          "url": "https://github.com/Lum1104/Understand-Anything",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #7",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "图谱",
+            "理解系统",
+            "知识表达"
+          ],
+          "what": "仓库口号是“Graphs that teach > graphs that impress.”，说明它更重视能帮助理解的图，而不是只是展示效果的图。公开摘要信息有限，信息有限，无法确认具体实现和输入输出。",
+          "why": "它面向要把复杂信息结构化给人看、同时还希望机器可读的开发者或研究者。原始问题是很多图表只能“看起来高级”，却不能真正帮助用户理解系统关系。",
+          "context": "",
+          "lead": "仓库口号是“Graphs that teach > graphs that impress.”，说明它更重视能帮助理解的图，而不是只是展示效果的图。公开摘要信息有限，信息有限，无法确认具体实现和输入输出。",
+          "summary": "仓库口号是“Graphs that teach > graphs that impress.”，说明它更重视能帮助理解的图，而不是只是展示效果的图。公开摘要信息有限，信息有限，无法确认具体实现和输入输出。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向要把复杂信息结构化给人看、同时还希望机器可读的开发者或研究者。原始问题是很多图表只能“看起来高级”，却不能真正帮助用户理解系统关系。",
+          "takeaway": "它面向要把复杂信息结构化给人看、同时还希望机器可读的开发者或研究者。原始问题是很多图表只能“看起来高级”，却不能真正帮助用户理解系统关系。",
+          "oneLiner": "仓库口号是“Graphs that teach > graphs that impress.”，说明它更重视能帮助理解的图，而不是只是展示效果的图。公开摘要信息有限，信息有限，无法确认具体实现和输入输出。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Imbad0202/academic-research-skills",
+          "url": "https://github.com/Imbad0202/academic-research-skills",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #8",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "学术研究",
+            "Claude Code",
+            "工作流"
+          ],
+          "what": "这是一个为 Claude Code 准备的学术研究技能集合，覆盖 research、write、review、revise、finalize 的完整流程，并提供简中、繁中和日文版本。它把学术写作与研究流程拆成可复用步骤。",
+          "why": "它面向研究生、科研人员和需要频繁写论文的人，尤其是想把 AI 变成“从检索到定稿”的稳定助手。原始问题是学术工作链条长，单轮对话很难覆盖完整流程。",
+          "context": "",
+          "lead": "这是一个为 Claude Code 准备的学术研究技能集合，覆盖 research、write、review、revise、finalize 的完整流程，并提供简中、繁中和日文版本。它把学术写作与研究流程拆成可复用步骤。",
+          "summary": "这是一个为 Claude Code 准备的学术研究技能集合，覆盖 research、write、review、revise、finalize 的完整流程，并提供简中、繁中和日文版本。它把学术写作与研究流程拆成可复用步骤。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向研究生、科研人员和需要频繁写论文的人，尤其是想把 AI 变成“从检索到定稿”的稳定助手。原始问题是学术工作链条长，单轮对话很难覆盖完整流程。",
+          "takeaway": "它面向研究生、科研人员和需要频繁写论文的人，尤其是想把 AI 变成“从检索到定稿”的稳定助手。原始问题是学术工作链条长，单轮对话很难覆盖完整流程。",
+          "oneLiner": "这是一个为 Claude Code 准备的学术研究技能集合，覆盖 research、write、review、revise、finalize 的完整流程，并提供简中、繁中和日文版本。它把学术写作与研究流程拆成可复用步骤。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #9",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "Agent Harness",
+            "编码智能体",
+            "工程框架"
+          ],
+          "what": "jcode 被描述为“Coding Agent Harness”，目标是把下一代编码智能体的执行框架做得更强、提高 skill ceiling。公开摘要很短，但可以判断它是在搭建智能体运行与评测的底座。",
+          "why": "它面向想自建编码智能体流程、而不是只调用现成产品的工程师。原始问题是模型能力不断上升，但承载和编排这些能力的外壳还不够成熟。",
+          "context": "",
+          "lead": "jcode 被描述为“Coding Agent Harness”，目标是把下一代编码智能体的执行框架做得更强、提高 skill ceiling。公开摘要很短，但可以判断它是在搭建智能体运行与评测的底座。",
+          "summary": "jcode 被描述为“Coding Agent Harness”，目标是把下一代编码智能体的执行框架做得更强、提高 skill ceiling。公开摘要很短，但可以判断它是在搭建智能体运行与评测的底座。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向想自建编码智能体流程、而不是只调用现成产品的工程师。原始问题是模型能力不断上升，但承载和编排这些能力的外壳还不够成熟。",
+          "takeaway": "它面向想自建编码智能体流程、而不是只调用现成产品的工程师。原始问题是模型能力不断上升，但承载和编排这些能力的外壳还不够成熟。",
+          "oneLiner": "jcode 被描述为“Coding Agent Harness”，目标是把下一代编码智能体的执行框架做得更强、提高 skill ceiling。公开摘要很短，但可以判断它是在搭建智能体运行与评测的底座。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "HKUDS/ViMax",
+          "url": "https://github.com/HKUDS/ViMax",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "weekly #10",
+          "sourceLabel": "GitHub Trending",
+          "tags": [
+            "视频生成",
+            "智能体工作流",
+            "多角色"
+          ],
+          "what": "ViMax 号称是 Agentic Video Generation，把 Director、Screenwriter、Producer 和 Video Generator 合成到一个系统里，目标是端到端生成视频。仓库摘要还指出当前视频生成常受限于只能产出几秒短片，这是它要解决的问题。",
+          "why": "它面向想把视频生成从“单次出图”升级到“可编排制作流程”的团队和创作者。原始问题是现有 AI 视频工具通常只能生成很短的片段，难以承担完整内容生产。",
+          "context": "",
+          "lead": "ViMax 号称是 Agentic Video Generation，把 Director、Screenwriter、Producer 和 Video Generator 合成到一个系统里，目标是端到端生成视频。仓库摘要还指出当前视频生成常受限于只能产出几秒短片，这是它要解决的问题。",
+          "summary": "ViMax 号称是 Agentic Video Generation，把 Director、Screenwriter、Producer 和 Video Generator 合成到一个系统里，目标是端到端生成视频。仓库摘要还指出当前视频生成常受限于只能产出几秒短片，这是它要解决的问题。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "它面向想把视频生成从“单次出图”升级到“可编排制作流程”的团队和创作者。原始问题是现有 AI 视频工具通常只能生成很短的片段，难以承担完整内容生产。",
+          "takeaway": "它面向想把视频生成从“单次出图”升级到“可编排制作流程”的团队和创作者。原始问题是现有 AI 视频工具通常只能生成很短的片段，难以承担完整内容生产。",
+          "oneLiner": "ViMax 号称是 Agentic Video Generation，把 Director、Screenwriter、Producer 和 Video Generator 合成到一个系统里，目标是端到端生成视频。仓库摘要还指出当前视频生成常受限于只能产出几秒短片，这是它要解决的问题。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        }
+      ]
+    },
+    {
+      "key": "company",
+      "title": "公司动态",
+      "description": "今天官方博客里最清晰的主线是：智能体进入真实业务后，安全、合规和可控部署成了第一优先级。",
+      "items": [
+        {
+          "title": "Building self-improving tax agents with Codex",
+          "url": "https://openai.com/index/building-self-improving-tax-agents-with-codex",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI Blog",
+          "tags": [
+            "Codex",
+            "税务代理",
+            "业务自动化"
+          ],
+          "what": "OpenAI 介绍了与 Thrive、Crete 一起用 Codex 搭建自我改进的税务智能体，覆盖申报自动化、准确率提升和工作流加速。文章强调这是面向真实税务流程的系统，而不是单次演示。",
+          "why": "",
+          "context": "这说明 OpenAI 正在把 Codex 往行业业务流程里推进，尤其是高规则、可审计、重复性强的税务场景。它的意义不在于“能写代码”，而在于模型开始进入需要持续改进和流程闭环的企业任务。",
+          "lead": "OpenAI 介绍了与 Thrive、Crete 一起用 Codex 搭建自我改进的税务智能体，覆盖申报自动化、准确率提升和工作流加速。文章强调这是面向真实税务流程的系统，而不是单次演示。",
+          "summary": "OpenAI 介绍了与 Thrive、Crete 一起用 Codex 搭建自我改进的税务智能体，覆盖申报自动化、准确率提升和工作流加速。文章强调这是面向真实税务流程的系统，而不是单次演示。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这说明 OpenAI 正在把 Codex 往行业业务流程里推进，尤其是高规则、可审计、重复性强的税务场景。它的意义不在于“能写代码”，而在于模型开始进入需要持续改进和流程闭环的企业任务。",
+          "takeaway": "这说明 OpenAI 正在把 Codex 往行业业务流程里推进，尤其是高规则、可审计、重复性强的税务场景。它的意义不在于“能写代码”，而在于模型开始进入需要持续改进和流程闭环的企业任务。",
+          "oneLiner": "OpenAI 介绍了与 Thrive、Crete 一起用 Codex 搭建自我改进的税务智能体，覆盖申报自动化、准确率提升和工作流加速。文章强调这是面向真实税务流程的系统，而不是单次演示。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Election information and safeguards in 2026",
+          "url": "https://openai.com/index/election-safeguards-2026",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI Blog",
+          "tags": [
+            "选举安全",
+            "透明度",
+            "防滥用"
+          ],
+          "what": "OpenAI 公布了 2026 年全球选举相关的信息与防护措施，重点包括帮助人们获取信息、支持网络防御者，以及提高 AI 透明度。文章属于治理与安全类更新。",
+          "why": "",
+          "context": "这反映出模型厂商在选举年会继续加强内容安全和滥用防护，但公开内容通常不会披露全部检测逻辑和执行细节。实际效果还取决于平台配合、攻击方式变化以及不同语言地区的覆盖程度。",
+          "lead": "OpenAI 公布了 2026 年全球选举相关的信息与防护措施，重点包括帮助人们获取信息、支持网络防御者，以及提高 AI 透明度。文章属于治理与安全类更新。",
+          "summary": "OpenAI 公布了 2026 年全球选举相关的信息与防护措施，重点包括帮助人们获取信息、支持网络防御者，以及提高 AI 透明度。文章属于治理与安全类更新。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这反映出模型厂商在选举年会继续加强内容安全和滥用防护，但公开内容通常不会披露全部检测逻辑和执行细节。实际效果还取决于平台配合、攻击方式变化以及不同语言地区的覆盖程度。",
+          "takeaway": "这反映出模型厂商在选举年会继续加强内容安全和滥用防护，但公开内容通常不会披露全部检测逻辑和执行细节。实际效果还取决于平台配合、攻击方式变化以及不同语言地区的覆盖程度。",
+          "oneLiner": "OpenAI 公布了 2026 年全球选举相关的信息与防护措施，重点包括帮助人们获取信息、支持网络防御者，以及提高 AI 透明度。文章属于治理与安全类更新。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Warp’s big bet on building open source with GPT-5.5",
+          "url": "https://openai.com/index/warp",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI Blog",
+          "tags": [
+            "Warp",
+            "GPT-5.5",
+            "开源开发"
+          ],
+          "what": "OpenAI 介绍 Warp 如何使用 GPT-5.5 以及其他 OpenAI 模型，协调本地、云端和开源开发工作流中的编码智能体。内容把 Warp 的开发环境定位与 OpenAI 模型能力结合起来。",
+          "why": "",
+          "context": "这类案例说明 OpenAI 仍在推动“模型 + 开发环境”的组合，而不是只卖 API 能力。背景是编码智能体越来越依赖工作流编排、权限和多环境协同，单纯的模型分数已经不足以说明实际生产力。",
+          "lead": "OpenAI 介绍 Warp 如何使用 GPT-5.5 以及其他 OpenAI 模型，协调本地、云端和开源开发工作流中的编码智能体。内容把 Warp 的开发环境定位与 OpenAI 模型能力结合起来。",
+          "summary": "OpenAI 介绍 Warp 如何使用 GPT-5.5 以及其他 OpenAI 模型，协调本地、云端和开源开发工作流中的编码智能体。内容把 Warp 的开发环境定位与 OpenAI 模型能力结合起来。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这类案例说明 OpenAI 仍在推动“模型 + 开发环境”的组合，而不是只卖 API 能力。背景是编码智能体越来越依赖工作流编排、权限和多环境协同，单纯的模型分数已经不足以说明实际生产力。",
+          "takeaway": "这类案例说明 OpenAI 仍在推动“模型 + 开发环境”的组合，而不是只卖 API 能力。背景是编码智能体越来越依赖工作流编排、权限和多环境协同，单纯的模型分数已经不足以说明实际生产力。",
+          "oneLiner": "OpenAI 介绍 Warp 如何使用 GPT-5.5 以及其他 OpenAI 模型，协调本地、云端和开源开发工作流中的编码智能体。内容把 Warp 的开发环境定位与 OpenAI 模型能力结合起来。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening",
+          "url": "https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea",
+          "sources": [
+            "builder_anthropic"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Anthropic News",
+          "tags": [
+            "韩国",
+            "本地化",
+            "组织扩张"
+          ],
+          "what": "Anthropic 宣布任命 KiYoung Choi 为韩国代表董事，并为即将在首尔开设办公室做准备。公开内容显示这是一次区域组织与本地市场布局动作。",
+          "why": "",
+          "context": "这表明 Anthropic 在亚洲市场继续推进本地化组织建设，但公告本身没有披露首尔办公室的具体业务范围、时间表或人员规模。对于企业用户来说，这类动作通常意味着销售、支持和生态合作会进一步贴近当地市场。",
+          "lead": "Anthropic 宣布任命 KiYoung Choi 为韩国代表董事，并为即将在首尔开设办公室做准备。公开内容显示这是一次区域组织与本地市场布局动作。",
+          "summary": "Anthropic 宣布任命 KiYoung Choi 为韩国代表董事，并为即将在首尔开设办公室做准备。公开内容显示这是一次区域组织与本地市场布局动作。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这表明 Anthropic 在亚洲市场继续推进本地化组织建设，但公告本身没有披露首尔办公室的具体业务范围、时间表或人员规模。对于企业用户来说，这类动作通常意味着销售、支持和生态合作会进一步贴近当地市场。",
+          "takeaway": "这表明 Anthropic 在亚洲市场继续推进本地化组织建设，但公告本身没有披露首尔办公室的具体业务范围、时间表或人员规模。对于企业用户来说，这类动作通常意味着销售、支持和生态合作会进一步贴近当地市场。",
+          "oneLiner": "Anthropic 宣布任命 KiYoung Choi 为韩国代表董事，并为即将在首尔开设办公室做准备。公开内容显示这是一次区域组织与本地市场布局动作。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        }
+      ]
+    },
+    {
+      "key": "technical",
+      "title": "技术前沿",
+      "description": "这一栏聚焦模型、基准、架构与工程实践；今天最突出的主题是智能体安全、企业基准和推理效率。",
+      "items": [
+        {
+          "title": "sqlite AGENTS.md",
+          "url": "https://simonwillison.net/2026/May/27/sqlite-agents",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "AGENTS.md",
+            "代码库规范",
+            "智能体使用"
+          ],
+          "what": "SQLite 最近新增了 AGENTS.md 文件，但作者指出它不是给 SQLite 自己开发团队看的，而是给会把智能体指向 SQLite 代码库的人看的。文件内容强调 SQLite 不接受没有事先约定或法律文件配套的 pull request，说明这是一份面向外部智能体和贡献者的操作说明。",
+          "why": "",
+          "context": "这件事说明越来越多成熟开源项目开始为“被智能体阅读”单独写规范，而不是只服务人类维护者。它的影响在于，AI 参与代码库时，协作边界、贡献路径和法律约束都需要被显式写清。",
+          "lead": "SQLite 最近新增了 AGENTS.md 文件，但作者指出它不是给 SQLite 自己开发团队看的，而是给会把智能体指向 SQLite 代码库的人看的。文件内容强调 SQLite 不接受没有事先约定或法律文件配套的 pull request，说明这是一份面向外部智能体和贡献者的操作说明。",
+          "summary": "SQLite 最近新增了 AGENTS.md 文件，但作者指出它不是给 SQLite 自己开发团队看的，而是给会把智能体指向 SQLite 代码库的人看的。文件内容强调 SQLite 不接受没有事先约定或法律文件配套的 pull request，说明这是一份面向外部智能体和贡献者的操作说明。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这件事说明越来越多成熟开源项目开始为“被智能体阅读”单独写规范，而不是只服务人类维护者。它的影响在于，AI 参与代码库时，协作边界、贡献路径和法律约束都需要被显式写清。",
+          "takeaway": "这件事说明越来越多成熟开源项目开始为“被智能体阅读”单独写规范，而不是只服务人类维护者。它的影响在于，AI 参与代码库时，协作边界、贡献路径和法律约束都需要被显式写清。",
+          "oneLiner": "SQLite 最近新增了 AGENTS.md 文件，但作者指出它不是给 SQLite 自己开发团队看的，而是给会把智能体指向 SQLite 代码库的人看的。文件内容强调 SQLite 不接受没有事先约定或法律文件配套的 pull request，说明这是一份面向外部智能体和贡献者的操作说明。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "社会科学中的编码智能体",
+          "url": "https://www.anthropic.com/research/coding-agents-social-sciences",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Anthropic：Research（发表成果 · 网页）",
+          "tags": [
+            "调研",
+            "采用率",
+            "学术工作流"
+          ],
+          "what": "Anthropic 对 1260 名定量社会科学家做了调查：81% 用过 AI 聊天机器人，但只有 20% 将 Claude Code、Codex 等编码智能体常规用于工作。研究还发现，男性名字研究者的使用率是女性研究者的两倍，顶尖大学研究者的采用概率高 40%。",
+          "why": "",
+          "context": "这说明“聊天机器人已普及”不等于“编码智能体已进入正式工作流”。结果同时暴露出采用差异和样本偏差的可能性，作者也明确表示这是初步调查，后续还需要更深入研究来验证原因与因果关系。",
+          "lead": "Anthropic 对 1260 名定量社会科学家做了调查：81% 用过 AI 聊天机器人，但只有 20% 将 Claude Code、Codex 等编码智能体常规用于工作。研究还发现，男性名字研究者的使用率是女性研究者的两倍，顶尖大学研究者的采用概率高 40%。",
+          "summary": "Anthropic 对 1260 名定量社会科学家做了调查：81% 用过 AI 聊天机器人，但只有 20% 将 Claude Code、Codex 等编码智能体常规用于工作。研究还发现，男性名字研究者的使用率是女性研究者的两倍，顶尖大学研究者的采用概率高 40%。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这说明“聊天机器人已普及”不等于“编码智能体已进入正式工作流”。结果同时暴露出采用差异和样本偏差的可能性，作者也明确表示这是初步调查，后续还需要更深入研究来验证原因与因果关系。",
+          "takeaway": "这说明“聊天机器人已普及”不等于“编码智能体已进入正式工作流”。结果同时暴露出采用差异和样本偏差的可能性，作者也明确表示这是初步调查，后续还需要更深入研究来验证原因与因果关系。",
+          "oneLiner": "Anthropic 对 1260 名定量社会科学家做了调查：81% 用过 AI 聊天机器人，但只有 20% 将 Claude Code、Codex 等编码智能体常规用于工作。研究还发现，男性名字研究者的使用率是女性研究者的两倍，顶尖大学研究者的采用概率高 40%。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "通过零信任聚合实现的隐私分析",
+          "url": "https://research.google/blog/private-analytics-via-zero-trust-aggregation",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Google Research：Blog（网页）",
+          "tags": [
+            "隐私计算",
+            "TEE",
+            "安全聚合"
+          ],
+          "what": "Google Research 发布了一种隐私分析方案，把新的密码学安全聚合协议和可信执行环境（TEE）的透明性结合起来。方案基于零信任原则，目标是让系统只能看到群体级、匿名化的聚合洞察。",
+          "why": "",
+          "context": "这类方案对应的是既想做分析、又不能泄露单个用户数据的场景。限制在于，它依赖协议设计、硬件信任边界和部署条件，现实可用性要看成本、性能以及是否能落到大规模生产系统。",
+          "lead": "Google Research 发布了一种隐私分析方案，把新的密码学安全聚合协议和可信执行环境（TEE）的透明性结合起来。方案基于零信任原则，目标是让系统只能看到群体级、匿名化的聚合洞察。",
+          "summary": "Google Research 发布了一种隐私分析方案，把新的密码学安全聚合协议和可信执行环境（TEE）的透明性结合起来。方案基于零信任原则，目标是让系统只能看到群体级、匿名化的聚合洞察。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这类方案对应的是既想做分析、又不能泄露单个用户数据的场景。限制在于，它依赖协议设计、硬件信任边界和部署条件，现实可用性要看成本、性能以及是否能落到大规模生产系统。",
+          "takeaway": "这类方案对应的是既想做分析、又不能泄露单个用户数据的场景。限制在于，它依赖协议设计、硬件信任边界和部署条件，现实可用性要看成本、性能以及是否能落到大规模生产系统。",
+          "oneLiner": "Google Research 发布了一种隐私分析方案，把新的密码学安全聚合协议和可信执行环境（TEE）的透明性结合起来。方案基于零信任原则，目标是让系统只能看到群体级、匿名化的聚合洞察。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "ITBench-AA：前沿大模型在首个智能体企业IT任务基准测试中得分均低于50%",
+          "url": "https://huggingface.co/blog/ibm-research/itbench-aa",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hugging Face：Blog（RSS）",
+          "tags": [
+            "基准测试",
+            "企业IT",
+            "SRE"
+          ],
+          "what": "Artificial Analysis 和 IBM 发布 ITBench-AA SRE 基准，59 个任务要求智能体通过 Shell 命令调查 Kubernetes 事件快照并提交根因诊断。结果显示，Claude Opus 4.7 以 47% 领先，GPT-5.5 为 46%，Qwen3.7 Max 为 42%，没有任何前沿模型超过 50%。",
+          "why": "",
+          "context": "这项测试直接把模型放进企业 IT/SRE 场景，显示“长链条推理”并不自动转化为更高准确率；有些模型轮次更多，但会因为误报被扣分。它也给出了成本对比：Gemma 4 31B（Reasoning）每任务 0.14 美元、得分 37%，说明开源模型在某些成本区间已经具备竞争力。",
+          "lead": "Artificial Analysis 和 IBM 发布 ITBench-AA SRE 基准，59 个任务要求智能体通过 Shell 命令调查 Kubernetes 事件快照并提交根因诊断。结果显示，Claude Opus 4.7 以 47% 领先，GPT-5.5 为 46%，Qwen3.7 Max 为 42%，没有任何前沿模型超过 50%。",
+          "summary": "Artificial Analysis 和 IBM 发布 ITBench-AA SRE 基准，59 个任务要求智能体通过 Shell 命令调查 Kubernetes 事件快照并提交根因诊断。结果显示，Claude Opus 4.7 以 47% 领先，GPT-5.5 为 46%，Qwen3.7 Max 为 42%，没有任何前沿模型超过 50%。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这项测试直接把模型放进企业 IT/SRE 场景，显示“长链条推理”并不自动转化为更高准确率；有些模型轮次更多，但会因为误报被扣分。它也给出了成本对比：Gemma 4 31B（Reasoning）每任务 0.14 美元、得分 37%，说明开源模型在某些成本区间已经具备竞争力。",
+          "takeaway": "这项测试直接把模型放进企业 IT/SRE 场景，显示“长链条推理”并不自动转化为更高准确率；有些模型轮次更多，但会因为误报被扣分。它也给出了成本对比：Gemma 4 31B（Reasoning）每任务 0.14 美元、得分 37%，说明开源模型在某些成本区间已经具备竞争力。",
+          "oneLiner": "Artificial Analysis 和 IBM 发布 ITBench-AA SRE 基准，59 个任务要求智能体通过 Shell 命令调查 Kubernetes 事件快照并提交根因诊断。结果显示，Claude Opus 4.7 以 47% 领先，GPT-5.5 为 46%，Qwen3.7 Max 为 42%，没有任何前沿模型超过 50%。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Fast， faster， Qwen. 🚀",
+          "url": "https://x.com/Alibaba_Qwen/status/2059674574397313277",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "tags": [
+            "推理速度",
+            "FlashAttention-4",
+            "智能体"
+          ],
+          "what": "Qwen3.5 在 TokenSpeed 推理引擎上，针对智能体工作负载达到 580 tokens/s 的速度。该结果由通义千问推理团队、lightseekorg Foundation TokenSpeed 团队、NVIDIA 和 Mooncake 团队共同完成，并使用了 FlashAttention-4 优化。",
+          "why": "",
+          "context": "这说明开源模型在推理吞吐上的优化还在继续往前推，特别是面向智能体工作负载时，速度会直接影响交互体验和成本。公开信息引用了 PyTorch 社区博客作为进一步详情入口，但这里没有展示完整实验条件，具体可比性仍需看上下文。",
+          "lead": "Qwen3.5 在 TokenSpeed 推理引擎上，针对智能体工作负载达到 580 tokens/s 的速度。该结果由通义千问推理团队、lightseekorg Foundation TokenSpeed 团队、NVIDIA 和 Mooncake 团队共同完成，并使用了 FlashAttention-4 优化。",
+          "summary": "Qwen3.5 在 TokenSpeed 推理引擎上，针对智能体工作负载达到 580 tokens/s 的速度。该结果由通义千问推理团队、lightseekorg Foundation TokenSpeed 团队、NVIDIA 和 Mooncake 团队共同完成，并使用了 FlashAttention-4 优化。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这说明开源模型在推理吞吐上的优化还在继续往前推，特别是面向智能体工作负载时，速度会直接影响交互体验和成本。公开信息引用了 PyTorch 社区博客作为进一步详情入口，但这里没有展示完整实验条件，具体可比性仍需看上下文。",
+          "takeaway": "这说明开源模型在推理吞吐上的优化还在继续往前推，特别是面向智能体工作负载时，速度会直接影响交互体验和成本。公开信息引用了 PyTorch 社区博客作为进一步详情入口，但这里没有展示完整实验条件，具体可比性仍需看上下文。",
+          "oneLiner": "Qwen3.5 在 TokenSpeed 推理引擎上，针对智能体工作负载达到 580 tokens/s 的速度。该结果由通义千问推理团队、lightseekorg Foundation TokenSpeed 团队、NVIDIA 和 Mooncake 团队共同完成，并使用了 FlashAttention-4 优化。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Quoting Kyle Ferrana",
+          "url": "https://simonwillison.net/2026/May/27/kyle-ferrana",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "工程态度",
+            "风控",
+            "类比"
+          ],
+          "what": "Simon Willison 转引了一段关于“raise shields”的对话，核心意思是：防护措施不能保证免疫，但它们是策略而不是胆怯。文章用《星际迷航》式比喻强调，不执行防护指令会直接导致更大损失。",
+          "why": "",
+          "context": "这不是技术发布，而是对工程安全心态的提醒：在面对风险时，防护不是可选项。它和今天多篇关于零信任、智能体安全的文章形成呼应，说明“先设防再放权”正在成为主流工程叙事。",
+          "lead": "Simon Willison 转引了一段关于“raise shields”的对话，核心意思是：防护措施不能保证免疫，但它们是策略而不是胆怯。文章用《星际迷航》式比喻强调，不执行防护指令会直接导致更大损失。",
+          "summary": "Simon Willison 转引了一段关于“raise shields”的对话，核心意思是：防护措施不能保证免疫，但它们是策略而不是胆怯。文章用《星际迷航》式比喻强调，不执行防护指令会直接导致更大损失。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这不是技术发布，而是对工程安全心态的提醒：在面对风险时，防护不是可选项。它和今天多篇关于零信任、智能体安全的文章形成呼应，说明“先设防再放权”正在成为主流工程叙事。",
+          "takeaway": "这不是技术发布，而是对工程安全心态的提醒：在面对风险时，防护不是可选项。它和今天多篇关于零信任、智能体安全的文章形成呼应，说明“先设防再放权”正在成为主流工程叙事。",
+          "oneLiner": "Simon Willison 转引了一段关于“raise shields”的对话，核心意思是：防护措施不能保证免疫，但它们是策略而不是胆怯。文章用《星际迷航》式比喻强调，不执行防护指令会直接导致更大损失。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "The pressure",
+          "url": "https://simonwillison.net/2026/May/26/the-pressure",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "安全报告",
+            "漏洞压力",
+            "开源维护"
+          ],
+          "what": "Daniel Stenberg 讨论了 curl 团队正在承受的异常压力：因为 AI 辅助安全问题报告激增，收到的可信安全报告速率比 2024 年高 4-5 倍、比 2025 年快一倍，平均已经超过每天一条。",
+          "why": "",
+          "context": "这说明 AI 不只是帮助发现漏洞，也在显著放大开源项目的安全审查负担。限制在于，更多报告并不等于更多高质量报告，维护者接下来面对的是筛选、验证和处理能力的瓶颈。",
+          "lead": "Daniel Stenberg 讨论了 curl 团队正在承受的异常压力：因为 AI 辅助安全问题报告激增，收到的可信安全报告速率比 2024 年高 4-5 倍、比 2025 年快一倍，平均已经超过每天一条。",
+          "summary": "Daniel Stenberg 讨论了 curl 团队正在承受的异常压力：因为 AI 辅助安全问题报告激增，收到的可信安全报告速率比 2024 年高 4-5 倍、比 2025 年快一倍，平均已经超过每天一条。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这说明 AI 不只是帮助发现漏洞，也在显著放大开源项目的安全审查负担。限制在于，更多报告并不等于更多高质量报告，维护者接下来面对的是筛选、验证和处理能力的瓶颈。",
+          "takeaway": "这说明 AI 不只是帮助发现漏洞，也在显著放大开源项目的安全审查负担。限制在于，更多报告并不等于更多高质量报告，维护者接下来面对的是筛选、验证和处理能力的瓶颈。",
+          "oneLiner": "Daniel Stenberg 讨论了 curl 团队正在承受的异常压力：因为 AI 辅助安全问题报告激增，收到的可信安全报告速率比 2024 年高 4-5 倍、比 2025 年快一倍，平均已经超过每天一条。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
@@ -414,63 +921,243 @@
     {
       "key": "news",
       "title": "行业观点",
-      "description": "今天的行业信息主要来自 Hacker News 的讨论：一条是 Zig 的 No-AI 立场与基金会进展，另一条是面向 AI Grand Prix 的开源赛车仿真工具，体现出开源社区对 AI 的不同接纳方式。",
+      "description": "今天的行业面主要围绕融资、平台治理、AI 安全和智能体落地后的社会影响展开。",
       "items": [
         {
-          "title": "Zig 2026: No-AI Policy, $670K Foundation, Left GitHub and Why Zig Isn't 1.0 [video]",
-          "url": "https://www.youtube.com/watch?v=iqddnwKF8HQ",
+          "title": "OpenRouter 获得1.13亿美元B轮融资",
+          "url": "https://openrouter.ai/announcements/series-b",
           "sources": [
-            "builder_hackernews"
+            "aihot"
           ],
-          "metricsText": "Hacker News AI · 40 points · 2 comments",
-          "sourceLabel": "Hacker News AI",
+          "metricsText": "",
+          "sourceLabel": "OpenRouter：Announcements（RSS）",
           "tags": [
-            "Zig",
-            "开源治理",
-            "社区"
+            "融资",
+            "模型聚合",
+            "基础设施"
           ],
-          "what": "Hacker News 上出现了一条指向 YouTube 视频的讨论，标题聚焦 Zig 2026、No-AI Policy、基金会获得 67 万美元、退出 GitHub 以及“为什么 Zig 还不是 1.0”。当前可见信息只有链接、标题和讨论数据，缺少视频正文细节。",
+          "what": "OpenRouter 宣布完成 1.13 亿美元 B 轮融资，由 CapitalG 领投，NVentures、ServiceNow Ventures 等参与，老股东 Andreessen Horowitz 和 Menlo Ventures 也继续跟投。它的定位是 AI 模型聚合平台。",
           "why": "",
-          "context": "这条信息反映出开源语言社区正在同时处理三件事：对 AI 的使用边界、项目资金安排，以及代码托管平台选择。由于只有标题和少量讨论数据，具体立场和结论信息有限。",
-          "lead": "Hacker News 上出现了一条指向 YouTube 视频的讨论，标题聚焦 Zig 2026、No-AI Policy、基金会获得 67 万美元、退出 GitHub 以及“为什么 Zig 还不是 1.0”。当前可见信息只有链接、标题和讨论数据，缺少视频正文细节。",
-          "summary": "Hacker News 上出现了一条指向 YouTube 视频的讨论，标题聚焦 Zig 2026、No-AI Policy、基金会获得 67 万美元、退出 GitHub 以及“为什么 Zig 还不是 1.0”。当前可见信息只有链接、标题和讨论数据，缺少视频正文细节。",
+          "context": "这笔融资说明模型路由与聚合层仍被资本看作重要基础设施，尤其是在多模型并存、企业需要统一接入的阶段。公开信息没有披露估值和资金用途细节，因此还无法判断它会更偏向 API 供给、企业分发还是生态合作。",
+          "lead": "OpenRouter 宣布完成 1.13 亿美元 B 轮融资，由 CapitalG 领投，NVentures、ServiceNow Ventures 等参与，老股东 Andreessen Horowitz 和 Menlo Ventures 也继续跟投。它的定位是 AI 模型聚合平台。",
+          "summary": "OpenRouter 宣布完成 1.13 亿美元 B 轮融资，由 CapitalG 领投，NVentures、ServiceNow Ventures 等参与，老股东 Andreessen Horowitz 和 Menlo Ventures 也继续跟投。它的定位是 AI 模型聚合平台。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "这条信息反映出开源语言社区正在同时处理三件事：对 AI 的使用边界、项目资金安排，以及代码托管平台选择。由于只有标题和少量讨论数据，具体立场和结论信息有限。",
-          "takeaway": "这条信息反映出开源语言社区正在同时处理三件事：对 AI 的使用边界、项目资金安排，以及代码托管平台选择。由于只有标题和少量讨论数据，具体立场和结论信息有限。",
-          "oneLiner": "Hacker News 上出现了一条指向 YouTube 视频的讨论，标题聚焦 Zig 2026、No-AI Policy、基金会获得 67 万美元、退出 GitHub 以及“为什么 Zig 还不是 1.0”。当前可见信息只有链接、标题和讨论数据，缺少视频正文细节。",
+          "insight": "这笔融资说明模型路由与聚合层仍被资本看作重要基础设施，尤其是在多模型并存、企业需要统一接入的阶段。公开信息没有披露估值和资金用途细节，因此还无法判断它会更偏向 API 供给、企业分发还是生态合作。",
+          "takeaway": "这笔融资说明模型路由与聚合层仍被资本看作重要基础设施，尤其是在多模型并存、企业需要统一接入的阶段。公开信息没有披露估值和资金用途细节，因此还无法判断它会更偏向 API 供给、企业分发还是生态合作。",
+          "oneLiner": "OpenRouter 宣布完成 1.13 亿美元 B 轮融资，由 CapitalG 领投，NVentures、ServiceNow Ventures 等参与，老股东 Andreessen Horowitz 和 Menlo Ventures 也继续跟投。它的定位是 AI 模型聚合平台。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
           "whyItMatters": ""
         },
         {
-          "title": "Show HN: Open-Source AI Racing Harness",
-          "url": "https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness",
+          "title": "英伟达推出 AI 框架 Polar，让 Codex 跑分暴涨 594.74%",
+          "url": "https://www.ithome.com/0/956/293.htm",
           "sources": [
-            "builder_hackernews"
+            "aihot"
           ],
-          "metricsText": "Hacker News AI · 公开展示帖",
-          "sourceLabel": "Hacker News AI",
+          "metricsText": "",
+          "sourceLabel": "IT之家（RSS）",
           "tags": [
-            "仿真工具",
-            "开源",
-            "竞赛"
+            "强化学习",
+            "智能体训练",
+            "SWE-Bench"
           ],
-          "what": "Elodin 发布了一个开源的 AI Grand Prix 赛车/飞控仿真 harness，用来给参赛者在 Round 1 虚拟资格赛模拟环境未上线前先做测试。作者提到，该工具按已公布的竞赛约束和消息格式构建，并且会直接跑在真实 Betaflight 上；他们还观察到，要让系统实时正确运行，至少需要每秒 1000 个传感器样本。",
+          "what": "英伟达研究团队开源智能体强化学习框架 Polar，允许在不重写现有智能体执行框架的情况下，通过在模型 API 边界放置智能体接入 GRPO 训练。文章给出的实验结果显示，基于 Qwen3.5-4B 时，Codex 在 SWE-Bench Verified 上的 pass@1 从 3.8% 提升到 26.4%。",
           "why": "",
-          "context": "这说明 AI 竞赛的基础设施正在从“算法演示”走向“实时系统验证”。但信息有限，当前只知道它是为比赛临时补位的开源工具，具体可复用性、性能边界和是否会影响正式赛题环境，还需要进一步看项目细节。",
-          "lead": "Elodin 发布了一个开源的 AI Grand Prix 赛车/飞控仿真 harness，用来给参赛者在 Round 1 虚拟资格赛模拟环境未上线前先做测试。作者提到，该工具按已公布的竞赛约束和消息格式构建，并且会直接跑在真实 Betaflight 上；他们还观察到，要让系统实时正确运行，至少需要每秒 1000 个传感器样本。",
-          "summary": "Elodin 发布了一个开源的 AI Grand Prix 赛车/飞控仿真 harness，用来给参赛者在 Round 1 虚拟资格赛模拟环境未上线前先做测试。作者提到，该工具按已公布的竞赛约束和消息格式构建，并且会直接跑在真实 Betaflight 上；他们还观察到，要让系统实时正确运行，至少需要每秒 1000 个传感器样本。",
+          "context": "这类框架的意义在于，它试图把训练和现有智能体工作流解耦，减少改造成本。限制是这些数字来自特定实验设置，是否能在更广泛任务和模型上复现，还需要看后续独立验证。",
+          "lead": "英伟达研究团队开源智能体强化学习框架 Polar，允许在不重写现有智能体执行框架的情况下，通过在模型 API 边界放置智能体接入 GRPO 训练。文章给出的实验结果显示，基于 Qwen3.5-4B 时，Codex 在 SWE-Bench Verified 上的 pass@1 从 3.8% 提升到 26.4%。",
+          "summary": "英伟达研究团队开源智能体强化学习框架 Polar，允许在不重写现有智能体执行框架的情况下，通过在模型 API 边界放置智能体接入 GRPO 训练。文章给出的实验结果显示，基于 Qwen3.5-4B 时，Codex 在 SWE-Bench Verified 上的 pass@1 从 3.8% 提升到 26.4%。",
           "details": [],
           "keyPoints": [],
           "audience": "",
           "pain": "",
-          "insight": "这说明 AI 竞赛的基础设施正在从“算法演示”走向“实时系统验证”。但信息有限，当前只知道它是为比赛临时补位的开源工具，具体可复用性、性能边界和是否会影响正式赛题环境，还需要进一步看项目细节。",
-          "takeaway": "这说明 AI 竞赛的基础设施正在从“算法演示”走向“实时系统验证”。但信息有限，当前只知道它是为比赛临时补位的开源工具，具体可复用性、性能边界和是否会影响正式赛题环境，还需要进一步看项目细节。",
-          "oneLiner": "Elodin 发布了一个开源的 AI Grand Prix 赛车/飞控仿真 harness，用来给参赛者在 Round 1 虚拟资格赛模拟环境未上线前先做测试。作者提到，该工具按已公布的竞赛约束和消息格式构建，并且会直接跑在真实 Betaflight 上；他们还观察到，要让系统实时正确运行，至少需要每秒 1000 个传感器样本。",
+          "insight": "这类框架的意义在于，它试图把训练和现有智能体工作流解耦，减少改造成本。限制是这些数字来自特定实验设置，是否能在更广泛任务和模型上复现，还需要看后续独立验证。",
+          "takeaway": "这类框架的意义在于，它试图把训练和现有智能体工作流解耦，减少改造成本。限制是这些数字来自特定实验设置，是否能在更广泛任务和模型上复现，还需要看后续独立验证。",
+          "oneLiner": "英伟达研究团队开源智能体强化学习框架 Polar，允许在不重写现有智能体执行框架的情况下，通过在模型 API 边界放置智能体接入 GRPO 训练。文章给出的实验结果显示，基于 Qwen3.5-4B 时，Codex 在 SWE-Bench Verified 上的 pass@1 从 3.8% 提升到 26.4%。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "人民日报专访华为何庭波：今年秋季的新麒麟手机芯片，性能等相比去年是\"跳跃性\"提升",
+          "url": "https://www.ithome.com/0/956/274.htm",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "IT之家（RSS）",
+          "tags": [
+            "芯片",
+            "麒麟",
+            "华为"
+          ],
+          "what": "报道援引华为何庭波提出半导体新演进路径“韬（τ）定律”，用“时间缩微”而不是传统“几何缩微”作为新指导原则。她表示，华为过去 6 年已基于此自主研发 381 款芯片，今年秋季将发布新的麒麟手机芯片，称其性能和集成度相比去年有“跳跃性”提升。",
+          "why": "",
+          "context": "这条消息更像是对华为自研芯片路线的阶段性释放，但当前公开信息仍主要来自专访表述，缺少可独立核验的技术细节。它的背景是先进制程受限下，芯片设计与系统级优化被放到更前面。",
+          "lead": "报道援引华为何庭波提出半导体新演进路径“韬（τ）定律”，用“时间缩微”而不是传统“几何缩微”作为新指导原则。她表示，华为过去 6 年已基于此自主研发 381 款芯片，今年秋季将发布新的麒麟手机芯片，称其性能和集成度相比去年有“跳跃性”提升。",
+          "summary": "报道援引华为何庭波提出半导体新演进路径“韬（τ）定律”，用“时间缩微”而不是传统“几何缩微”作为新指导原则。她表示，华为过去 6 年已基于此自主研发 381 款芯片，今年秋季将发布新的麒麟手机芯片，称其性能和集成度相比去年有“跳跃性”提升。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这条消息更像是对华为自研芯片路线的阶段性释放，但当前公开信息仍主要来自专访表述，缺少可独立核验的技术细节。它的背景是先进制程受限下，芯片设计与系统级优化被放到更前面。",
+          "takeaway": "这条消息更像是对华为自研芯片路线的阶段性释放，但当前公开信息仍主要来自专访表述，缺少可独立核验的技术细节。它的背景是先进制程受限下，芯片设计与系统级优化被放到更前面。",
+          "oneLiner": "报道援引华为何庭波提出半导体新演进路径“韬（τ）定律”，用“时间缩微”而不是传统“几何缩微”作为新指导原则。她表示，华为过去 6 年已基于此自主研发 381 款芯片，今年秋季将发布新的麒麟手机芯片，称其性能和集成度相比去年有“跳跃性”提升。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "用好 Coding Agent，重点是两头，尤其是开头的部分，如果一开始就走偏了后面怎么改都改不好。",
+          "url": "https://x.com/dotey/status/2059773942500298934",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：宝玉 (@dotey)",
+          "tags": [
+            "代码智能体",
+            "工作流",
+            "实践"
+          ],
+          "what": "宝玉分享了使用 Coding Agent 的方法论：先整理需求，再分别用 GPT-5.5、Claude Opus 4.7 等最强模型在 Codex、Claude Code、Cursor 的 Plan 模式生成方案，选最优并借鉴其他版本；复杂任务要拆成多个 Phases，明确验证标准，最后用 GPT-5.5 做 Code Review。",
+          "why": "",
+          "context": "这反映出智能体开发已从“会不会写”转向“如何设计划分、如何人工校正”。他同时提醒不要让多个智能体交叉 Review，因为可能导致越改越乱，这也说明多智能体协作并不天然更好。",
+          "lead": "宝玉分享了使用 Coding Agent 的方法论：先整理需求，再分别用 GPT-5.5、Claude Opus 4.7 等最强模型在 Codex、Claude Code、Cursor 的 Plan 模式生成方案，选最优并借鉴其他版本；复杂任务要拆成多个 Phases，明确验证标准，最后用 GPT-5.5 做 Code Review。",
+          "summary": "宝玉分享了使用 Coding Agent 的方法论：先整理需求，再分别用 GPT-5.5、Claude Opus 4.7 等最强模型在 Codex、Claude Code、Cursor 的 Plan 模式生成方案，选最优并借鉴其他版本；复杂任务要拆成多个 Phases，明确验证标准，最后用 GPT-5.5 做 Code Review。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这反映出智能体开发已从“会不会写”转向“如何设计划分、如何人工校正”。他同时提醒不要让多个智能体交叉 Review，因为可能导致越改越乱，这也说明多智能体协作并不天然更好。",
+          "takeaway": "这反映出智能体开发已从“会不会写”转向“如何设计划分、如何人工校正”。他同时提醒不要让多个智能体交叉 Review，因为可能导致越改越乱，这也说明多智能体协作并不天然更好。",
+          "oneLiner": "宝玉分享了使用 Coding Agent 的方法论：先整理需求，再分别用 GPT-5.5、Claude Opus 4.7 等最强模型在 Codex、Claude Code、Cursor 的 Plan 模式生成方案，选最优并借鉴其他版本；复杂任务要拆成多个 Phases，明确验证标准，最后用 GPT-5.5 做 Code Review。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "使用大语言模型保障源代码安全",
+          "url": "https://claude.com/blog/using-llms-to-secure-source-code",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Claude：Blog（网页）",
+          "tags": [
+            "代码安全",
+            "漏洞发现",
+            "威胁建模"
+          ],
+          "what": "Anthropic 分享了用 Claude Opus 做源代码安全的实践：通过威胁建模、沙箱隔离、漏洞发现、验证、分类和修复的六步循环来处理问题。文章称漏洞发现已经可以并行化，瓶颈转移到后续验证和处理，截至 2026 年 5 月 22 日已披露 1,596 个漏洞，其中 97 个已修补。",
+          "why": "",
+          "context": "这表明 LLM 在安全领域的价值正在从“帮忙找问题”向“组织完整处置流程”迁移。限制在于，找到漏洞只是开始，真正消耗人力的是验证误报、判断可利用性以及与维护者协作修复。",
+          "lead": "Anthropic 分享了用 Claude Opus 做源代码安全的实践：通过威胁建模、沙箱隔离、漏洞发现、验证、分类和修复的六步循环来处理问题。文章称漏洞发现已经可以并行化，瓶颈转移到后续验证和处理，截至 2026 年 5 月 22 日已披露 1,596 个漏洞，其中 97 个已修补。",
+          "summary": "Anthropic 分享了用 Claude Opus 做源代码安全的实践：通过威胁建模、沙箱隔离、漏洞发现、验证、分类和修复的六步循环来处理问题。文章称漏洞发现已经可以并行化，瓶颈转移到后续验证和处理，截至 2026 年 5 月 22 日已披露 1,596 个漏洞，其中 97 个已修补。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这表明 LLM 在安全领域的价值正在从“帮忙找问题”向“组织完整处置流程”迁移。限制在于，找到漏洞只是开始，真正消耗人力的是验证误报、判断可利用性以及与维护者协作修复。",
+          "takeaway": "这表明 LLM 在安全领域的价值正在从“帮忙找问题”向“组织完整处置流程”迁移。限制在于，找到漏洞只是开始，真正消耗人力的是验证误报、判断可利用性以及与维护者协作修复。",
+          "oneLiner": "Anthropic 分享了用 Claude Opus 做源代码安全的实践：通过威胁建模、沙箱隔离、漏洞发现、验证、分类和修复的六步循环来处理问题。文章称漏洞发现已经可以并行化，瓶颈转移到后续验证和处理，截至 2026 年 5 月 22 日已披露 1,596 个漏洞，其中 97 个已修补。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "AI智能体的零信任安全框架",
+          "url": "https://claude.com/blog/zero-trust-for-ai-agents",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Claude：Blog（网页）",
+          "tags": [
+            "零信任",
+            "智能体安全",
+            "企业部署"
+          ],
+          "what": "Anthropic 发布了面向企业自主 AI 智能体部署的安全框架，指出前沿大模型正把漏洞利用周期从数月压缩到数小时。文章提出三层零信任架构（基础、高级、优化级）和八阶段实施流程，并列出提示注入、工具投毒、记忆投毒等特有威胁。",
+          "why": "",
+          "context": "这类框架把智能体安全从传统应用安全扩展到“模型会主动执行动作”的新边界。背景是企业一边想上智能体，一边又担心它连工具、记忆和外部系统后会带来新的攻击面。",
+          "lead": "Anthropic 发布了面向企业自主 AI 智能体部署的安全框架，指出前沿大模型正把漏洞利用周期从数月压缩到数小时。文章提出三层零信任架构（基础、高级、优化级）和八阶段实施流程，并列出提示注入、工具投毒、记忆投毒等特有威胁。",
+          "summary": "Anthropic 发布了面向企业自主 AI 智能体部署的安全框架，指出前沿大模型正把漏洞利用周期从数月压缩到数小时。文章提出三层零信任架构（基础、高级、优化级）和八阶段实施流程，并列出提示注入、工具投毒、记忆投毒等特有威胁。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这类框架把智能体安全从传统应用安全扩展到“模型会主动执行动作”的新边界。背景是企业一边想上智能体，一边又担心它连工具、记忆和外部系统后会带来新的攻击面。",
+          "takeaway": "这类框架把智能体安全从传统应用安全扩展到“模型会主动执行动作”的新边界。背景是企业一边想上智能体，一边又担心它连工具、记忆和外部系统后会带来新的攻击面。",
+          "oneLiner": "Anthropic 发布了面向企业自主 AI 智能体部署的安全框架，指出前沿大模型正把漏洞利用周期从数月压缩到数小时。文章提出三层零信任架构（基础、高级、优化级）和八阶段实施流程，并列出提示注入、工具投毒、记忆投毒等特有威胁。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "Cognition成为全球最大独立智能体实验室",
+          "url": "https://x.com/swyx/status/2059717021944926238",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：swyx (@swyx)",
+          "tags": [
+            "融资",
+            "编码智能体",
+            "独立实验室"
+          ],
+          "what": "Cognition 被描述为全球最大的独立智能体实验室，信息中提到公司完成超过 10 亿美元融资、估值 260 亿美元，企业使用量自年初增长超过 10 倍，年化收入达到 4.92 亿美元。它两年前推出了 Devin，定位为首个 AI 软件工程师。",
+          "why": "",
+          "context": "这说明市场对“独立智能体公司”仍有很强定价意愿，但消息源是社交媒体转述，具体财务与经营细节没有完整披露。背景上，这也反映编码智能体赛道正从概念验证进入大规模商业化竞争。",
+          "lead": "Cognition 被描述为全球最大的独立智能体实验室，信息中提到公司完成超过 10 亿美元融资、估值 260 亿美元，企业使用量自年初增长超过 10 倍，年化收入达到 4.92 亿美元。它两年前推出了 Devin，定位为首个 AI 软件工程师。",
+          "summary": "Cognition 被描述为全球最大的独立智能体实验室，信息中提到公司完成超过 10 亿美元融资、估值 260 亿美元，企业使用量自年初增长超过 10 倍，年化收入达到 4.92 亿美元。它两年前推出了 Devin，定位为首个 AI 软件工程师。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这说明市场对“独立智能体公司”仍有很强定价意愿，但消息源是社交媒体转述，具体财务与经营细节没有完整披露。背景上，这也反映编码智能体赛道正从概念验证进入大规模商业化竞争。",
+          "takeaway": "这说明市场对“独立智能体公司”仍有很强定价意愿，但消息源是社交媒体转述，具体财务与经营细节没有完整披露。背景上，这也反映编码智能体赛道正从概念验证进入大规模商业化竞争。",
+          "oneLiner": "Cognition 被描述为全球最大的独立智能体实验室，信息中提到公司完成超过 10 亿美元融资、估值 260 亿美元，企业使用量自年初增长超过 10 倍，年化收入达到 4.92 亿美元。它两年前推出了 Devin，定位为首个 AI 软件工程师。",
+          "features": "",
+          "targetUsers": "",
+          "userNeed": "",
+          "whyItMatters": ""
+        },
+        {
+          "title": "YouTube to automatically label AI-generated videos",
+          "url": "https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "内容标注",
+            "平台治理",
+            "AI视频"
+          ],
+          "what": "YouTube 将自动为 AI 生成视频打标签的消息在 Hacker News 上引发大量讨论，原帖链接显示获得 814 个 points、469 条评论。内容本身指向平台对 AI 内容标识的进一步自动化。",
+          "why": "",
+          "context": "这件事的核心不只是“要不要标注 AI 内容”，而是平台如何在海量上传中自动识别并标记，同时尽量减少误伤和漏标。公开信息在这里较少，具体标签标准、识别精度和创作者申诉机制仍待观察。",
+          "lead": "YouTube 将自动为 AI 生成视频打标签的消息在 Hacker News 上引发大量讨论，原帖链接显示获得 814 个 points、469 条评论。内容本身指向平台对 AI 内容标识的进一步自动化。",
+          "summary": "YouTube 将自动为 AI 生成视频打标签的消息在 Hacker News 上引发大量讨论，原帖链接显示获得 814 个 points、469 条评论。内容本身指向平台对 AI 内容标识的进一步自动化。",
+          "details": [],
+          "keyPoints": [],
+          "audience": "",
+          "pain": "",
+          "insight": "这件事的核心不只是“要不要标注 AI 内容”，而是平台如何在海量上传中自动识别并标记，同时尽量减少误伤和漏标。公开信息在这里较少，具体标签标准、识别精度和创作者申诉机制仍待观察。",
+          "takeaway": "这件事的核心不只是“要不要标注 AI 内容”，而是平台如何在海量上传中自动识别并标记，同时尽量减少误伤和漏标。公开信息在这里较少，具体标签标准、识别精度和创作者申诉机制仍待观察。",
+          "oneLiner": "YouTube 将自动为 AI 生成视频打标签的消息在 Hacker News 上引发大量讨论，原帖链接显示获得 814 个 points、469 条评论。内容本身指向平台对 AI 内容标识的进一步自动化。",
           "features": "",
           "targetUsers": "",
           "userNeed": "",
@@ -480,5 +1167,5 @@
     }
   ],
   "editor": "llm",
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-05-28\n\n> 今天产品榜被 AI 基础设施和“让 AI 进入真实工作流”占据；技术侧两篇 RL 论文都在解决推理训练中的噪声与不稳定；行业新闻则集中在开源竞赛工具与 Zig 社区立场。\n\n## 今日先看\n\n1. [Powabase](https://www.producthunt.com/products/powabase)\n   - 理由：把 Postgres、RAG、agents 和工作流合到一层后端里\n2. [Bluedot 2.1](https://www.producthunt.com/products/bluedot-2)\n   - 理由：把线下对话直接变成 Claude 可用的上下文\n3. [DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes](https://arxiv.org/abs/2605.28421)\n   - 理由：用弱模型失败样本做恢复式强化学习\n4. [Show HN: Open-Source AI Racing Harness](https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness)\n   - 理由：AI Grand Prix 参赛者的仿真工具，贴近比赛约束\n\n## 产品上新\n\n今天的 Product Hunt 前十几乎都围绕 AI 应用底座、上下文接入和自动化工作流，重点不是“又一个聊天框”，而是把 AI 嵌进数据库、浏览器、CRM 和系统集成里。\n\n1. [Powabase](https://www.producthunt.com/products/powabase)\n   - 信号：Product Hunt · Product Hunt #1 · 410 votes · 75 comments\n   - 做什么：Powabase 是面向 AI 原生应用的后端即服务，把 Postgres、RAG、agents、memory、workflows 和自动化原语放在同一平台里。它强调能和现代 coding agent 顺滑协作，帮助团队在不拼接碎片化基础设施的前提下，既能新建 AI 应用，也能给既有产品补上 AI 自动化。\n   - 为什么需要：它面向的是代理公司和内部 IT 团队这类需要快速交付 AI 功能的人：他们常见问题不是“有没有模型”，而是数据库、检索、记忆、流程编排和自动化要分别选型、集成、维护，导致上线慢、上下文断裂、token 开销高。\n\n2. [Bluedot 2.1](https://www.producthunt.com/products/bluedot-2)\n   - 信号：Product Hunt · Product Hunt #2 · 401 votes · 38 comments\n   - 做什么：Bluedot 2.1 把现实中的对话接入 Claude：用户可以直接用 Apple Watch 录音，再通过 MCP 同步到 Claude。它覆盖客户电话、走廊闲聊、采访、咖啡会面和面对面交流，不依赖笔记本电脑或会议机器人，并把这些内容转成可搜索、可总结、可执行的 AI 上下文。\n   - 为什么需要：它针对的是经常在非会议室场景获取信息的人，比如销售、研究员、顾问和创始人。他们的问题不是开会没记录，而是大量关键细节发生在线下，之后很难整理进 AI 工具继续用。\n\n3. [zero.xyz](https://www.producthunt.com/products/zero-xyz)\n   - 信号：Product Hunt · Product Hunt #3 · 276 votes · 70 comments\n   - 做什么：zero.xyz 让 AI agent 发现并使用大约 8k 个工具、API 和服务，不需要 API key 或额外配置。它兼容 Claude Code、Codex、Gemini、OpenClaw、Hermes 等大多数 CLI agents，目标是让代理直接找到完成任务所需的服务并调用。\n   - 为什么需要：它解决的是 agent 能“会想”但“不会接工具”的问题。对使用 CLI agent 的开发者来说，常见阻碍不是推理能力，而是每个服务都要单独接入、配 key、做配置，导致任务链条断开。\n\n4. [Oasis Browser for Mac](https://www.producthunt.com/products/kahana)\n   - 信号：Product Hunt · Product Hunt #4 · 242 votes · 76 comments\n   - 做什么：Oasis 是一款面向 Mac 的隐私优先 AI 浏览器，主打“你可以匿名训练它”。它强调数据归用户自己所有，界面尽量简洁，随着用户把重要内容喂给它，浏览器会逐渐更懂个人偏好和日常流程。\n   - 为什么需要：它面向的是既想让浏览器记住偏好、又不愿把全部浏览轨迹交出去的人。当前很多 AI 浏览器的核心问题是数据使用方式不透明，用户在“更聪明”和“更私密”之间只能二选一。\n\n5. [Coworker AI](https://www.producthunt.com/products/coworker-ai)\n   - 信号：Product Hunt · Product Hunt #5 · 205 votes · 49 comments\n   - 做什么：Coworker AI 提供深度公司上下文，并会为每个任务自动路由到合适的模型。产品的卖点是“同样的 AI，5 倍 token”，让用户在聊天、协作和写代码时，用相近的预算获得更多输出。\n   - 为什么需要：它瞄准的是在企业里同时使用多种模型的人，尤其是需要在公司知识、代码仓库和任务场景间来回切换的团队。痛点不是单个模型不够强，而是任务不同、成本不同，若手动选模型很容易浪费 token 或效果不稳。\n\n6. [Octolane](https://www.producthunt.com/products/octolane)\n   - 信号：Product Hunt · Product Hunt #6 · 159 votes · 23 comments\n   - 做什么：Octolane 是一个聊天优先的自驱动 AI CRM。用户可以直接说“跟进 David”或“看看哪些成交卡住了”，系统会读取 Gmail 和日历、自动识别商机、起草跟进内容并更新字段；它还新增了斜杠命令聊天、会议录音、访客信号、看板管道和约 60 个工具的 MCP 服务器。\n   - 为什么需要：它面向销售和运营团队，尤其是那些 CRM 录入和跟进分散在邮件、日历和通话里的使用者。真正的问题不是没有 CRM，而是线索识别、状态更新和跟进动作都靠人工补录，容易漏单和拖延。\n\n7. [Mojito](https://www.producthunt.com/products/mojito-2)\n   - 信号：Product Hunt · Product Hunt #7 · 147 votes · 16 comments\n   - 做什么：Mojito 是一个 macOS 上的全局表情符号自动补全工具：用户输入冒号后，可以在 TextEdit、iMessage、Terminal 等任意应用中搜索 emoji、symbol 或 shortcode，并自动替换成对应字符。它还会识别那些本身已经支持该能力的应用并自动跳过，且是免费、开源、靠捐赠支持的工具。\n   - 为什么需要：它解决的是跨应用输入表情时体验不统一的问题。很多场景下用户不是不会找 emoji，而是需要在没有原生支持的编辑器、终端或第三方应用里也能快速输入。\n\n8. [Layers](https://www.producthunt.com/products/layers-8)\n   - 信号：Product Hunt · Product Hunt #8 · 113 votes · 13 comments\n   - 做什么：Layers 是一个免费网页工具，用来制作美观的代码片段动画视频。它支持可定制代码编辑器、主流语言、多种画幅比例，以及纹理超采样和视角/方向调整，方便把代码片段做成更有动感的演示素材。\n   - 为什么需要：它面向内容创作者、开发者布道和需要做技术短视频的人。常见问题不是不会截图，而是希望把代码展示做得更适合社媒、演示和教学，却又不想自己搭完整的动效流程。\n\n9. [Pawse.ai](https://www.producthunt.com/products/pawse-ai)\n   - 信号：Product Hunt · Product Hunt #9 · 106 votes · 16 comments\n   - 做什么：Pawse.ai 是一个面向狗狗的声学调节系统。它通过 Apple TV 或 iPad 播放按犬类听觉特性校准的结构化音频，提供 Sleep、Home Alone、Loud Noise、Travel、Vet Visit 五种模式，用户可以在手机上远程控制开关。\n   - 为什么需要：它面向的是需要长时间把狗单独留在家里、或在噪声、旅行、看兽医等场景中安抚宠物的主人。问题不是播放普通音乐，而是宠物在特定环境下会出现可测量的压力反应。\n\n10. [Calling Skills for AI Agents](https://www.producthunt.com/products/cometchat-skills)\n   - 信号：Product Hunt · Product Hunt #10 · 105 votes · 9 comments\n   - 做什么：Calling Skills for AI Agents 是 CometChat 提供的语音和视频通话能力包，包含录制、屏幕共享、通话日志、举手、广播模式、画中画等功能。它可以通过 UI Kit、SDK 或一条 npx 命令集成，并强调可承载高带宽、符合全球标准。\n   - 为什么需要：它针对的是要把实时通话能力嵌进产品的开发者。常见问题不是“能不能通”，而是通话链路、记录、协作控制和扩展能力都要自己搭建，集成成本高。\n\n## 开源热门\n\n信息有限：输入中没有 GitHub Trending 候选，因此本栏保留但不填入条目。\n\n暂无值得单列的条目。\n\n## 公司动态\n\n信息有限：输入中没有 OpenAI、Anthropic、DeepMind 官方博客内容，因此本栏保留但不填入条目。\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n今天的技术条目都在强化大模型推理训练：一篇从“弱模型出错后如何恢复”切入，一篇从探索-利用平衡切入，都是在解决在线 RL 训练不稳定的问题。\n\n1. [DenoiseRL: Bootstrapping Reasoning Models to Recover from Noisy Prefixes](https://arxiv.org/abs/2605.28421)\n   - 信号：HuggingFace Papers · HuggingFace Papers\n   - 做什么：这篇论文提出 DenoiseRL，一种面向大语言模型推理能力的强化学习框架。它不再依赖更强的教师模型或人工精筛的困难样本，而是把弱模型产生的失败轨迹当作训练对象，围绕“从噪声前缀中恢复”的目标做优化，试图在缺少外部强监督时继续提升推理能力。\n   - 影响与背景：论文指出，现有很多推理训练方法都依赖更强教师或高度筛选的数据，这限制了扩展性。DenoiseRL 改为利用失败样本，意味着训练信号更接近真实模型会遇到的错误分布，但是否能稳定提升，以及对不同推理任务的泛化效果，仍有待后续验证。\n\n2. [Long Live The Balance: Information Bottleneck Driven Tree-based Policy Optimization](https://arxiv.org/abs/2605.28109)\n   - 信号：HuggingFace Papers · HuggingFace Papers\n   - 做什么：这篇论文提出 IB-Score，用信息瓶颈理论来衡量策略的探索与利用平衡，并据此改进树状策略优化。作者认为，在线 RL 在复杂推理任务上虽然有效，但常出现探索和利用失衡，导致优化过程不稳定、最终表现不理想。\n   - 影响与背景：它试图把“平衡好不好”从经验判断变成可量化指标，以便更精细地调节训练过程。背景是近来的 LLM 在线 RL 进展很快，但在长推理链中很容易出现局部探索不足或过度发散的问题；论文提供的是一个方法框架，实际收益仍取决于任务设置和训练实现。\n\n## 行业观点\n\n今天的行业信息主要来自 Hacker News 的讨论：一条是 Zig 的 No-AI 立场与基金会进展，另一条是面向 AI Grand Prix 的开源赛车仿真工具，体现出开源社区对 AI 的不同接纳方式。\n\n1. [Zig 2026: No-AI Policy, $670K Foundation, Left GitHub and Why Zig Isn't 1.0 [video]](https://www.youtube.com/watch?v=iqddnwKF8HQ)\n   - 信号：Hacker News AI · Hacker News AI · 40 points · 2 comments\n   - 做什么：Hacker News 上出现了一条指向 YouTube 视频的讨论，标题聚焦 Zig 2026、No-AI Policy、基金会获得 67 万美元、退出 GitHub 以及“为什么 Zig 还不是 1.0”。当前可见信息只有链接、标题和讨论数据，缺少视频正文细节。\n   - 影响与背景：这条信息反映出开源语言社区正在同时处理三件事：对 AI 的使用边界、项目资金安排，以及代码托管平台选择。由于只有标题和少量讨论数据，具体立场和结论信息有限。\n\n2. [Show HN: Open-Source AI Racing Harness](https://www.elodin.systems/post/elodin-ai-grand-prix-race-sim-harness)\n   - 信号：Hacker News AI · Hacker News AI · 公开展示帖\n   - 做什么：Elodin 发布了一个开源的 AI Grand Prix 赛车/飞控仿真 harness，用来给参赛者在 Round 1 虚拟资格赛模拟环境未上线前先做测试。作者提到，该工具按已公布的竞赛约束和消息格式构建，并且会直接跑在真实 Betaflight 上；他们还观察到，要让系统实时正确运行，至少需要每秒 1000 个传感器样本。\n   - 影响与背景：这说明 AI 竞赛的基础设施正在从“算法演示”走向“实时系统验证”。但信息有限，当前只知道它是为比赛临时补位的开源工具，具体可复用性、性能边界和是否会影响正式赛题环境，还需要进一步看项目细节。\n"
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-05-28\n\n> OpenAI、Anthropic都在强化企业与智能体基础设施安全；GitHub Trending 则几乎被代码智能体、记忆、视频生成工具占满。产品侧出现数据智能体、MCP 私有连接和 AI 劳动力等面向企业落地的新包装。\n\n## 今日先看\n\n1. [OpenAI产品支持私有MCP服务器安全连接](https://x.com/OpenAIDevs/status/2059703536825565499)\n   - 理由：直接解决企业内网接入外部模型的安全顾虑\n2. [OpenRouter 获得1.13亿美元B轮融资](https://openrouter.ai/announcements/series-b)\n   - 理由：模型聚合层继续拿到大额资本支持\n3. [ITBench-AA：前沿大模型在首个智能体企业IT任务基准测试中得分均低于50%](https://huggingface.co/blog/ibm-research/itbench-aa)\n   - 理由：第一次把企业IT智能体能力量化到可对比\n\n## 产品上新\n\n今天的产品动态集中在企业数据、智能体工作流和开发者工具的能力补丁上。\n\n1. [阿里云DataWorks推出AI数据智能体](https://x.com/alibaba_cloud/status/2059840407618396391)\n   - 信号：X：阿里云 / Alibaba Cloud (@alibaba_cloud)\n   - 做什么：阿里云在 DataWorks 里推出 Data Agent，主打用 AI 简化数据工作流、加速洞察，并让数据管理更智能。公开信息没有给出更细的功能拆分，信息有限，至少可以确认它被包装成数据处理与分析流程中的智能体入口，而不是单一问答工具。\n   - 为什么需要：这类产品主要面向经常要在表、数仓、指标、报表之间来回切换的数据团队，尤其是需要从零搭建分析链路、手工整理口径、反复追问数据的人。原始问题不是“想用 AI”，而是数据工作流太碎、跨系统操作成本高，导致洞察出来得慢。\n\n2. [MuleRun登陆阿里云市场，提供全天候AI劳动力](https://x.com/alibaba_cloud/status/2059821825140367565)\n   - 信号：X：阿里云 / Alibaba Cloud (@alibaba_cloud)\n   - 做什么：MuleRun 上线阿里云市场，被描述为一个可 7x24 小时工作的 AI 劳动力，覆盖研究、报告、代码、设计等任务。它同时强调个人版和企业版能力，企业侧支持 SSO、RBAC、私有网络、团队知识管理和集成，起价为 20 美元/月。\n   - 为什么需要：它面向的不是“想聊聊天”的用户，而是需要把重复性知识工作外包给软件的人：要写报告、做调研、产出代码或设计稿的个人，以及要把这些任务接入权限、网络和知识库的团队。原始问题是人力不够持续、任务种类杂且交付路径分散。\n\n3. [Web 更新](https://updates.midjourney.com/web-updates-5)\n   - 信号：Midjourney：Updates（RSS）\n   - 做什么：Midjourney 的 Web 更新改进了对话模式中的文本和语音输入。语音会话开始时，可以访问用户的图像提示、风格参考、侧边栏设置和最近任务；图像提示也可以从托盘和侧边栏直接使用，并且在语音提交过程中托盘里的图像会保持不变，直到用户手动移除。\n   - 为什么需要：这类更新主要服务于已经把 Midjourney 当作创作工作台使用的用户，他们往往同时维护参考图、风格和历史任务，最怕切换输入方式时上下文丢失。原始问题是创作连续性和控制感不足，尤其在语音交互里更明显。\n\n4. [OpenAI产品支持私有MCP服务器安全连接](https://x.com/OpenAIDevs/status/2059703536825565499)\n   - 信号：X：OpenAI Developers (@OpenAIDevs)\n   - 做什么：OpenAI 表示，团队可以把 MCP 服务器保留在内部网络中，同时让 ChatGPT、Codex 和 Responses API 通过仅出站 HTTPS 连接访问。公开信息没有展开部署细节，但核心是把内部服务暴露面降到更窄。\n   - 为什么需要：这条更适合有内网系统、权限边界和合规要求的团队，特别是已经有大量内部工具，却不想把服务直接暴露到公网的企业。原始问题是智能体要接工具，但企业又不愿意为了接入模型而放弃网络隔离。\n\n5. [OpenCode与MiMo V2.5限时免费开放](https://x.com/opencode/status/2059696100626297225)\n   - 信号：X：opencode (@opencode)\n   - 做什么：OpenCode 宣布与 MiMo V2.5 限时免费合作，公开信息显示支持 1M 上下文、推理、文本和图像。信息有限，未见更完整的产品说明，只能确认它把长上下文和多模态能力作为卖点。\n   - 为什么需要：对需要一次性塞进大量代码、文档或设计上下文的开发者来说，1M 上下文的价值在于减少拆分输入和多轮搬运。原始问题不是“模型能不能看图”，而是能否把复杂工程任务放进一次会话里处理。\n\n6. [Google Pay 最新更新](https://developers.googleblog.com/the-latest-updates-to-google-pay)\n   - 信号：Google Developers Blog（RSS）\n   - 做什么：Google Pay 发布最新更新，方向是向“智能体商务”演进，加入通用商务协议和新的 MCP 服务器，让 AI 智能体能够管理集成并分析趋势。Android 侧还新增动态回调以支持快速结账，通过 WebView 扩展到社交媒体应用，并提供跨设备生物认证和新的交易信号。\n   - 为什么需要：它面向的是支付链路里最怕摩擦的商家和平台：结账步骤越多，转化越容易掉。原始问题是如何把支付能力嵌进更多应用形态，同时让智能体有足够接口去处理交易与分析。\n\n7. [Grok编程智能体登陆Kilo IDE平台](https://x.com/xai/status/2059666227115819149)\n   - 信号：X：xAI (@xai)\n   - 做什么：xAI 宣布可以在 Kilo IDE 中使用 SuperGrok 或 X Premium+ 订阅，调用 grok-build-0.1，在 IDE 扩展或 CLI 里获得高速的智能体编程能力。信息有限，公开内容主要强调订阅打通与开发者场景。\n   - 为什么需要：它面向已经在 IDE 里写代码、又希望直接在编辑器或命令行里调用编程智能体的开发者。原始问题是工具切换和订阅割裂，用户不想为了试一个编码智能体再额外买一套账户。\n\n8. [Claude Marketplace 新增五家合作伙伴](https://x.com/claudeai/status/2059662933924123044)\n   - 信号：X：Claude (@claudeai)\n   - 做什么：Claude Marketplace 新增 @augmentcode、@boltdotnew、@coderabbitai、@hebbia 和 @WeAreLegora 五家合作伙伴，Anthropic 现有的消费承诺可用于购买这些 Claude 驱动的产品。公开信息没有展开每家合作伙伴的具体功能细节。\n   - 为什么需要：它主要服务于已经在 Anthropic 体系里采购额度、并希望顺手购买周边工具的企业用户。原始问题是企业买模型和买应用常常分开，结算、额度和工具生态割裂。\n\n## GitHub 热门\n\nTrending 里几乎都是围绕编码智能体、记忆系统、代码知识图谱和视频生成的基础设施。\n\n1. [colbymchenry/codegraph](https://github.com/colbymchenry/codegraph)\n   - 信号：GitHub Trending · weekly #1\n   - 做什么：这是一个为 Claude Code、Codex、Gemini、Cursor、OpenCode、AntiGravity、Kiro 和 Hermes Agent 预先索引好的代码知识图谱，强调更少 token、更少工具调用、100% 本地。它把代码库结构和关联关系提前整理好，供智能体直接检索。\n   - 为什么需要：它面向那些希望让代码智能体少翻文件、少发工具请求的团队和个人，尤其是大仓库、文档碎、上下文成本高的项目。原始问题是智能体每次从头扫仓库太慢，而且很容易漏掉关键关联。\n\n2. [anthropics/financial-services](https://github.com/anthropics/financial-services)\n   - 信号：GitHub Trending · weekly #2\n   - 做什么：Anthropic 发布了面向金融服务的参考仓库，包含 agents、skills 和 data connectors，覆盖投行、股票研究、私募股权和财富管理等常见工作流。它更像一套行业化骨架，而不是单点 demo。\n   - 为什么需要：它面向已经把 Claude 用进金融工作流的团队，需要把模型接到行业数据源、固定流程和合规要求里。原始问题是通用智能体离金融实务太远，缺少可直接参考的工作流模板。\n\n3. [CloakHQ/CloakBrowser](https://github.com/CloakHQ/CloakBrowser)\n   - 信号：GitHub Trending · weekly #3\n   - 做什么：这是一个主打“Stealth Chromium”的项目，说明其目标是通过各种 bot detection 测试。它本质上是在标准 Chromium 基础上做隐身和指纹规避能力。\n   - 为什么需要：它面向需要批量自动化访问网页、但经常被风控拦截的开发者和运营团队。原始问题不是浏览器功能不够，而是自动化流量在很多站点上根本过不了检测。\n\n4. [mattpocock/skills](https://github.com/mattpocock/skills)\n   - 信号：GitHub Trending · weekly #4\n   - 做什么：仓库标题直接指向“Skills for Real Engineers”，说明它是在整理面向工程师的技能包或工作流模块。公开摘要信息较少，信息有限，无法确认更细的组织方式。\n   - 为什么需要：它面向想把经验固化成可复用步骤的开发者，尤其是在智能体工具时代，需要把“怎么做”变成能被系统调用的规则。原始问题是个人经验难以在团队里规模化复制。\n\n5. [warpdotdev/warp](https://github.com/warpdotdev/warp)\n   - 信号：GitHub Trending · weekly #5\n   - 做什么：Warp 自称是一个从终端生长出来的 agentic development environment，说明它把终端、命令执行和智能体工作流合成到一起。公开描述较短，但方向很明确：把开发环境做成智能体入口。\n   - 为什么需要：它面向重度终端用户和需要把命令行工作流交给智能体协作的开发者。原始问题是传统终端只适合手动输入，不适合把一部分开发任务交给 AI 来协同完成。\n\n6. [rohitg00/agentmemory](https://github.com/rohitg00/agentmemory)\n   - 信号：GitHub Trending · weekly #6\n   - 做什么：这是一个面向 AI 编码智能体的持久记忆项目，标题里直接强调基于真实世界基准测试，主张让编码智能体“记住一切”。它的核心是给智能体补长期状态，而不是每次只靠当前上下文。\n   - 为什么需要：它面向那些发现智能体每次开工都像失忆的开发者，尤其是长期维护同一代码库、同一任务链路的人。原始问题是上下文窗口有限，导致智能体无法记住项目历史和决策。\n\n7. [Lum1104/Understand-Anything](https://github.com/Lum1104/Understand-Anything)\n   - 信号：GitHub Trending · weekly #7\n   - 做什么：仓库口号是“Graphs that teach > graphs that impress.”，说明它更重视能帮助理解的图，而不是只是展示效果的图。公开摘要信息有限，信息有限，无法确认具体实现和输入输出。\n   - 为什么需要：它面向要把复杂信息结构化给人看、同时还希望机器可读的开发者或研究者。原始问题是很多图表只能“看起来高级”，却不能真正帮助用户理解系统关系。\n\n8. [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills)\n   - 信号：GitHub Trending · weekly #8\n   - 做什么：这是一个为 Claude Code 准备的学术研究技能集合，覆盖 research、write、review、revise、finalize 的完整流程，并提供简中、繁中和日文版本。它把学术写作与研究流程拆成可复用步骤。\n   - 为什么需要：它面向研究生、科研人员和需要频繁写论文的人，尤其是想把 AI 变成“从检索到定稿”的稳定助手。原始问题是学术工作链条长，单轮对话很难覆盖完整流程。\n\n9. [1jehuang/jcode](https://github.com/1jehuang/jcode)\n   - 信号：GitHub Trending · weekly #9\n   - 做什么：jcode 被描述为“Coding Agent Harness”，目标是把下一代编码智能体的执行框架做得更强、提高 skill ceiling。公开摘要很短，但可以判断它是在搭建智能体运行与评测的底座。\n   - 为什么需要：它面向想自建编码智能体流程、而不是只调用现成产品的工程师。原始问题是模型能力不断上升，但承载和编排这些能力的外壳还不够成熟。\n\n10. [HKUDS/ViMax](https://github.com/HKUDS/ViMax)\n   - 信号：GitHub Trending · weekly #10\n   - 做什么：ViMax 号称是 Agentic Video Generation，把 Director、Screenwriter、Producer 和 Video Generator 合成到一个系统里，目标是端到端生成视频。仓库摘要还指出当前视频生成常受限于只能产出几秒短片，这是它要解决的问题。\n   - 为什么需要：它面向想把视频生成从“单次出图”升级到“可编排制作流程”的团队和创作者。原始问题是现有 AI 视频工具通常只能生成很短的片段，难以承担完整内容生产。\n\n## 公司动态\n\n今天官方博客里最清晰的主线是：智能体进入真实业务后，安全、合规和可控部署成了第一优先级。\n\n1. [Building self-improving tax agents with Codex](https://openai.com/index/building-self-improving-tax-agents-with-codex)\n   - 信号：OpenAI Blog\n   - 做什么：OpenAI 介绍了与 Thrive、Crete 一起用 Codex 搭建自我改进的税务智能体，覆盖申报自动化、准确率提升和工作流加速。文章强调这是面向真实税务流程的系统，而不是单次演示。\n\n2. [Election information and safeguards in 2026](https://openai.com/index/election-safeguards-2026)\n   - 信号：OpenAI Blog\n   - 做什么：OpenAI 公布了 2026 年全球选举相关的信息与防护措施，重点包括帮助人们获取信息、支持网络防御者，以及提高 AI 透明度。文章属于治理与安全类更新。\n\n3. [Warp’s big bet on building open source with GPT-5.5](https://openai.com/index/warp)\n   - 信号：OpenAI Blog\n   - 做什么：OpenAI 介绍 Warp 如何使用 GPT-5.5 以及其他 OpenAI 模型，协调本地、云端和开源开发工作流中的编码智能体。内容把 Warp 的开发环境定位与 OpenAI 模型能力结合起来。\n\n4. [Anthropic appoints KiYoung Choi as Representative Director of Korea ahead of Seoul office opening](https://www.anthropic.com/news/kiyoung-choi-representative-director-anthropic-korea)\n   - 信号：Anthropic News\n   - 做什么：Anthropic 宣布任命 KiYoung Choi 为韩国代表董事，并为即将在首尔开设办公室做准备。公开内容显示这是一次区域组织与本地市场布局动作。\n\n## 技术前沿\n\n这一栏聚焦模型、基准、架构与工程实践；今天最突出的主题是智能体安全、企业基准和推理效率。\n\n1. [sqlite AGENTS.md](https://simonwillison.net/2026/May/27/sqlite-agents)\n   - 信号：Simon Willison\n   - 做什么：SQLite 最近新增了 AGENTS.md 文件，但作者指出它不是给 SQLite 自己开发团队看的，而是给会把智能体指向 SQLite 代码库的人看的。文件内容强调 SQLite 不接受没有事先约定或法律文件配套的 pull request，说明这是一份面向外部智能体和贡献者的操作说明。\n   - 影响与背景：这件事说明越来越多成熟开源项目开始为“被智能体阅读”单独写规范，而不是只服务人类维护者。它的影响在于，AI 参与代码库时，协作边界、贡献路径和法律约束都需要被显式写清。\n\n2. [社会科学中的编码智能体](https://www.anthropic.com/research/coding-agents-social-sciences)\n   - 信号：Anthropic：Research（发表成果 · 网页）\n   - 做什么：Anthropic 对 1260 名定量社会科学家做了调查：81% 用过 AI 聊天机器人，但只有 20% 将 Claude Code、Codex 等编码智能体常规用于工作。研究还发现，男性名字研究者的使用率是女性研究者的两倍，顶尖大学研究者的采用概率高 40%。\n   - 影响与背景：这说明“聊天机器人已普及”不等于“编码智能体已进入正式工作流”。结果同时暴露出采用差异和样本偏差的可能性，作者也明确表示这是初步调查，后续还需要更深入研究来验证原因与因果关系。\n\n3. [通过零信任聚合实现的隐私分析](https://research.google/blog/private-analytics-via-zero-trust-aggregation)\n   - 信号：Google Research：Blog（网页）\n   - 做什么：Google Research 发布了一种隐私分析方案，把新的密码学安全聚合协议和可信执行环境（TEE）的透明性结合起来。方案基于零信任原则，目标是让系统只能看到群体级、匿名化的聚合洞察。\n   - 影响与背景：这类方案对应的是既想做分析、又不能泄露单个用户数据的场景。限制在于，它依赖协议设计、硬件信任边界和部署条件，现实可用性要看成本、性能以及是否能落到大规模生产系统。\n\n4. [ITBench-AA：前沿大模型在首个智能体企业IT任务基准测试中得分均低于50%](https://huggingface.co/blog/ibm-research/itbench-aa)\n   - 信号：Hugging Face：Blog（RSS）\n   - 做什么：Artificial Analysis 和 IBM 发布 ITBench-AA SRE 基准，59 个任务要求智能体通过 Shell 命令调查 Kubernetes 事件快照并提交根因诊断。结果显示，Claude Opus 4.7 以 47% 领先，GPT-5.5 为 46%，Qwen3.7 Max 为 42%，没有任何前沿模型超过 50%。\n   - 影响与背景：这项测试直接把模型放进企业 IT/SRE 场景，显示“长链条推理”并不自动转化为更高准确率；有些模型轮次更多，但会因为误报被扣分。它也给出了成本对比：Gemma 4 31B（Reasoning）每任务 0.14 美元、得分 37%，说明开源模型在某些成本区间已经具备竞争力。\n\n5. [Fast， faster， Qwen. 🚀](https://x.com/Alibaba_Qwen/status/2059674574397313277)\n   - 信号：X：通义千问 / Qwen (@Alibaba_Qwen)\n   - 做什么：Qwen3.5 在 TokenSpeed 推理引擎上，针对智能体工作负载达到 580 tokens/s 的速度。该结果由通义千问推理团队、lightseekorg Foundation TokenSpeed 团队、NVIDIA 和 Mooncake 团队共同完成，并使用了 FlashAttention-4 优化。\n   - 影响与背景：这说明开源模型在推理吞吐上的优化还在继续往前推，特别是面向智能体工作负载时，速度会直接影响交互体验和成本。公开信息引用了 PyTorch 社区博客作为进一步详情入口，但这里没有展示完整实验条件，具体可比性仍需看上下文。\n\n6. [Quoting Kyle Ferrana](https://simonwillison.net/2026/May/27/kyle-ferrana)\n   - 信号：Simon Willison\n   - 做什么：Simon Willison 转引了一段关于“raise shields”的对话，核心意思是：防护措施不能保证免疫，但它们是策略而不是胆怯。文章用《星际迷航》式比喻强调，不执行防护指令会直接导致更大损失。\n   - 影响与背景：这不是技术发布，而是对工程安全心态的提醒：在面对风险时，防护不是可选项。它和今天多篇关于零信任、智能体安全的文章形成呼应，说明“先设防再放权”正在成为主流工程叙事。\n\n7. [The pressure](https://simonwillison.net/2026/May/26/the-pressure)\n   - 信号：Simon Willison\n   - 做什么：Daniel Stenberg 讨论了 curl 团队正在承受的异常压力：因为 AI 辅助安全问题报告激增，收到的可信安全报告速率比 2024 年高 4-5 倍、比 2025 年快一倍，平均已经超过每天一条。\n   - 影响与背景：这说明 AI 不只是帮助发现漏洞，也在显著放大开源项目的安全审查负担。限制在于，更多报告并不等于更多高质量报告，维护者接下来面对的是筛选、验证和处理能力的瓶颈。\n\n## 行业观点\n\n今天的行业面主要围绕融资、平台治理、AI 安全和智能体落地后的社会影响展开。\n\n1. [OpenRouter 获得1.13亿美元B轮融资](https://openrouter.ai/announcements/series-b)\n   - 信号：OpenRouter：Announcements（RSS）\n   - 做什么：OpenRouter 宣布完成 1.13 亿美元 B 轮融资，由 CapitalG 领投，NVentures、ServiceNow Ventures 等参与，老股东 Andreessen Horowitz 和 Menlo Ventures 也继续跟投。它的定位是 AI 模型聚合平台。\n   - 影响与背景：这笔融资说明模型路由与聚合层仍被资本看作重要基础设施，尤其是在多模型并存、企业需要统一接入的阶段。公开信息没有披露估值和资金用途细节，因此还无法判断它会更偏向 API 供给、企业分发还是生态合作。\n\n2. [英伟达推出 AI 框架 Polar，让 Codex 跑分暴涨 594.74%](https://www.ithome.com/0/956/293.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：英伟达研究团队开源智能体强化学习框架 Polar，允许在不重写现有智能体执行框架的情况下，通过在模型 API 边界放置智能体接入 GRPO 训练。文章给出的实验结果显示，基于 Qwen3.5-4B 时，Codex 在 SWE-Bench Verified 上的 pass@1 从 3.8% 提升到 26.4%。\n   - 影响与背景：这类框架的意义在于，它试图把训练和现有智能体工作流解耦，减少改造成本。限制是这些数字来自特定实验设置，是否能在更广泛任务和模型上复现，还需要看后续独立验证。\n\n3. [人民日报专访华为何庭波：今年秋季的新麒麟手机芯片，性能等相比去年是\"跳跃性\"提升](https://www.ithome.com/0/956/274.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：报道援引华为何庭波提出半导体新演进路径“韬（τ）定律”，用“时间缩微”而不是传统“几何缩微”作为新指导原则。她表示，华为过去 6 年已基于此自主研发 381 款芯片，今年秋季将发布新的麒麟手机芯片，称其性能和集成度相比去年有“跳跃性”提升。\n   - 影响与背景：这条消息更像是对华为自研芯片路线的阶段性释放，但当前公开信息仍主要来自专访表述，缺少可独立核验的技术细节。它的背景是先进制程受限下，芯片设计与系统级优化被放到更前面。\n\n4. [用好 Coding Agent，重点是两头，尤其是开头的部分，如果一开始就走偏了后面怎么改都改不好。](https://x.com/dotey/status/2059773942500298934)\n   - 信号：X：宝玉 (@dotey)\n   - 做什么：宝玉分享了使用 Coding Agent 的方法论：先整理需求，再分别用 GPT-5.5、Claude Opus 4.7 等最强模型在 Codex、Claude Code、Cursor 的 Plan 模式生成方案，选最优并借鉴其他版本；复杂任务要拆成多个 Phases，明确验证标准，最后用 GPT-5.5 做 Code Review。\n   - 影响与背景：这反映出智能体开发已从“会不会写”转向“如何设计划分、如何人工校正”。他同时提醒不要让多个智能体交叉 Review，因为可能导致越改越乱，这也说明多智能体协作并不天然更好。\n\n5. [使用大语言模型保障源代码安全](https://claude.com/blog/using-llms-to-secure-source-code)\n   - 信号：Claude：Blog（网页）\n   - 做什么：Anthropic 分享了用 Claude Opus 做源代码安全的实践：通过威胁建模、沙箱隔离、漏洞发现、验证、分类和修复的六步循环来处理问题。文章称漏洞发现已经可以并行化，瓶颈转移到后续验证和处理，截至 2026 年 5 月 22 日已披露 1,596 个漏洞，其中 97 个已修补。\n   - 影响与背景：这表明 LLM 在安全领域的价值正在从“帮忙找问题”向“组织完整处置流程”迁移。限制在于，找到漏洞只是开始，真正消耗人力的是验证误报、判断可利用性以及与维护者协作修复。\n\n6. [AI智能体的零信任安全框架](https://claude.com/blog/zero-trust-for-ai-agents)\n   - 信号：Claude：Blog（网页）\n   - 做什么：Anthropic 发布了面向企业自主 AI 智能体部署的安全框架，指出前沿大模型正把漏洞利用周期从数月压缩到数小时。文章提出三层零信任架构（基础、高级、优化级）和八阶段实施流程，并列出提示注入、工具投毒、记忆投毒等特有威胁。\n   - 影响与背景：这类框架把智能体安全从传统应用安全扩展到“模型会主动执行动作”的新边界。背景是企业一边想上智能体，一边又担心它连工具、记忆和外部系统后会带来新的攻击面。\n\n7. [Cognition成为全球最大独立智能体实验室](https://x.com/swyx/status/2059717021944926238)\n   - 信号：X：swyx (@swyx)\n   - 做什么：Cognition 被描述为全球最大的独立智能体实验室，信息中提到公司完成超过 10 亿美元融资、估值 260 亿美元，企业使用量自年初增长超过 10 倍，年化收入达到 4.92 亿美元。它两年前推出了 Devin，定位为首个 AI 软件工程师。\n   - 影响与背景：这说明市场对“独立智能体公司”仍有很强定价意愿，但消息源是社交媒体转述，具体财务与经营细节没有完整披露。背景上，这也反映编码智能体赛道正从概念验证进入大规模商业化竞争。\n\n8. [YouTube to automatically label AI-generated videos](https://blog.youtube/news-and-events/improving-ai-labels-viewers-creators)\n   - 信号：Hacker News AI\n   - 做什么：YouTube 将自动为 AI 生成视频打标签的消息在 Hacker News 上引发大量讨论，原帖链接显示获得 814 个 points、469 条评论。内容本身指向平台对 AI 内容标识的进一步自动化。\n   - 影响与背景：这件事的核心不只是“要不要标注 AI 内容”，而是平台如何在海量上传中自动识别并标记，同时尽量减少误伤和漏标。公开信息在这里较少，具体标签标准、识别精度和创作者申诉机制仍待观察。\n"
 }
