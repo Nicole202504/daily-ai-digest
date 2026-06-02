@@ -1,8 +1,50 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-06-02T03:01:07.564Z",
+    "fetchedAt": "2026-06-02T08:02:08.011Z",
     "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmpw5sd9k00agsl1un4z8njv7",
+        "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+        "summary": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。",
+        "body": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。",
+        "url": "https://x.com/Khazix0918/status/2061669881725309048",
+        "sourceName": "X：卡兹克 (@Khazix0918)",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-06-02T04:42:58.000Z",
+        "rawJson": {
+          "id": "cmpw5sd9k00agsl1un4z8njv7",
+          "title": "为了不花那120刀，我把电脑清理软件做成了开源skill",
+          "title_en": "http：//x.com/i/article/2061667400723156992",
+          "url": "https://x.com/Khazix0918/status/2061669881725309048",
+          "source": "X：卡兹克 (@Khazix0918)",
+          "publishedAt": "2026-06-02T04:42:58.000Z",
+          "summary": "作者受一条推文启发，使用Codex对自己的MacBook进行了只读存储分析，发现了B站缓存视频等大量可清理空间（激进方案超140G）。为替代收费软件CleanMyMac，作者制作并开源了一个跨平台（支持Mac/Windows）的AI清理skill。该skill会扫描文件并生成可交互的HTML报告，通过三色分级（绿灯可放心清理、黄灯需人工判断、红灯禁止动）直观展示，并提供安全执行按钮。实测清理后释放了近120G空间，相比CleanMyMac仅扫描出的15.8G，其信息更透明、建议更详细。",
+          "category": "tip"
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmpw488y9049wslukkrk33tc9",
+        "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+        "summary": "阶跃星辰发布其推理优化型模型Step 3.7 Flash。该模型为196B MoE架构，从设计之初就专注于推理效率。其采用多矩阵分解注意力机制，使KV-cache成本仅为DeepSeek模型的约22%；同时通过注意力与FFN解耦技术，实现了硬件优化的高效服务。该模型已通过Fireworks AI提供，采用Apache 2.0许可，并可用于构建智能体应用。",
+        "body": "阶跃星辰发布其推理优化型模型Step 3.7 Flash。该模型为196B MoE架构，从设计之初就专注于推理效率。其采用多矩阵分解注意力机制，使KV-cache成本仅为DeepSeek模型的约22%；同时通过注意力与FFN解耦技术，实现了硬件优化的高效服务。该模型已通过Fireworks AI提供，采用Apache 2.0许可，并可用于构建智能体应用。",
+        "url": "https://x.com/StepFun_ai/status/2061655529731342402",
+        "sourceName": "X：阶跃星辰 StepFun (@StepFun_ai)",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-06-02T03:45:56.000Z",
+        "rawJson": {
+          "id": "cmpw488y9049wslukkrk33tc9",
+          "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+          "title_en": "This is exactly the philosophy： don't bolt on efficiency， design for it from day one. MFA + AFD are…",
+          "url": "https://x.com/StepFun_ai/status/2061655529731342402",
+          "source": "X：阶跃星辰 StepFun (@StepFun_ai)",
+          "publishedAt": "2026-06-02T03:45:56.000Z",
+          "summary": "阶跃星辰发布其推理优化型模型Step 3.7 Flash。该模型为196B MoE架构，从设计之初就专注于推理效率。其采用多矩阵分解注意力机制，使KV-cache成本仅为DeepSeek模型的约22%；同时通过注意力与FFN解耦技术，实现了硬件优化的高效服务。该模型已通过Fireworks AI提供，采用Apache 2.0许可，并可用于构建智能体应用。",
+          "category": "ai-models"
+        }
+      },
       {
         "source": "aihot",
         "sourceItemId": "aihot:cmpvzrkrk0347slukwn0rkg8r",
@@ -716,316 +758,186 @@
           "summary": "腾讯混元正式发布专为OpenClaw等长期协作智能体（Agent）设计的记忆插件 Hy-Memory。它基于6层记忆框架、System1/System2双系统与三层进化链构建，旨在成为智能体的\"第二大脑\"。该插件解决了记忆碎片化问题，实现了显著性能提升：记忆数量减少70%以上，单条记忆信息密度提升45%以上，在超长上下文场景中token消耗降低35%，记忆更新速度提升20%。",
           "category": "ai-products"
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpvtskbb01lusluksydtav6e",
-        "title": "Cursor Teams计划定价方案更新",
-        "summary": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。",
-        "body": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。",
-        "url": "https://cursor.com/blog/teams-pricing-june-2026",
-        "sourceName": "Cursor Blog",
-        "sourceCategory": "ai-products",
-        "publishedAt": "2026-06-01T07:00:00.000Z",
-        "rawJson": {
-          "id": "cmpvtskbb01lusluksydtav6e",
-          "title": "Cursor Teams计划定价方案更新",
-          "title_en": "Improvements to Teams Pricing",
-          "url": "https://cursor.com/blog/teams-pricing-june-2026",
-          "source": "Cursor Blog",
-          "publishedAt": "2026-06-01T07:00:00.000Z",
-          "summary": "Cursor Teams计划推出三项更新：增加Composer特定使用池，将第一方模型（Composer和Auto）与第三方API的使用额度分开计费；推出Premium席位，提供5倍于标准席位（$40/月）的使用量，价格为$96/月（年付）；仪表盘现可实时显示用户额度使用情况，管理员可通过Slack或邮件配置智能提醒。",
-          "category": "ai-products"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuv5v540180sl0zee33wa3b",
-        "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
-        "summary": null,
-        "body": null,
-        "url": "https://www.ithome.com/0/958/109.htm",
-        "sourceName": "IT之家（RSS）",
-        "sourceCategory": "industry",
-        "publishedAt": "2026-06-01T06:13:32.000Z",
-        "rawJson": {
-          "id": "cmpuv5v540180sl0zee33wa3b",
-          "title": "英伟达和台积电将 AI 引入晶圆厂，推动半导体设计与制造发展",
-          "title_en": null,
-          "url": "https://www.ithome.com/0/958/109.htm",
-          "source": "IT之家（RSS）",
-          "publishedAt": "2026-06-01T06:13:32.000Z",
-          "summary": null,
-          "category": "industry"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpurl8qd009dsl0zyghfa9kw",
-        "title": "介绍Cosmos Coalition",
-        "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
-        "body": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
-        "url": "https://runwayml.com/news/introducing-cosmos-coalition",
-        "sourceName": "Runway：News（网页）",
-        "sourceCategory": "industry",
-        "publishedAt": "2026-06-01T05:24:22.746Z",
-        "rawJson": {
-          "id": "cmpurl8qd009dsl0zyghfa9kw",
-          "title": "介绍Cosmos Coalition",
-          "title_en": "Introducing the Cosmos Coalition",
-          "url": "https://runwayml.com/news/introducing-cosmos-coalition",
-          "source": "Runway：News（网页）",
-          "publishedAt": "2026-06-01T05:24:22.746Z",
-          "summary": "Runway宣布作为创始成员加入Cosmos Coalition，该联盟与NVIDIA及多家领先AI实验室合作，旨在构建并开源面向物理AI的前沿世界模型。首个项目将由Runway与NVIDIA共同开发一个基础模型，以推动下一代开放世界模型的研究与发展。",
-          "category": "industry"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpu2kv1z001eslagcgl0irro",
-        "title": "NVIDIA与Google Cloud助力下一波AI构建者",
-        "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
-        "body": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
-        "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
-        "sourceName": "NVIDIA Blog：Generative AI（网页）",
-        "sourceCategory": "industry",
-        "publishedAt": "2026-06-01T05:00:56.000Z",
-        "rawJson": {
-          "id": "cmpu2kv1z001eslagcgl0irro",
-          "title": "NVIDIA与Google Cloud助力下一波AI构建者",
-          "title_en": "NVIDIA and Google Cloud Empower the Next Wave of AI Builders",
-          "url": "https://blogs.nvidia.com/blog/category/enterprise/cloud-2",
-          "source": "NVIDIA Blog：Generative AI（网页）",
-          "publishedAt": "2026-06-01T05:00:56.000Z",
-          "summary": "在Google I/O大会上，NVIDIA与Google Cloud宣布深化合作，旨在支持其联合开发者社区中超过10万名开发者。合作将重点提供NVIDIA L4 Tensor Core GPU以优化AI推理与图形工作负载，并通过支持Vertex AI平台来增强Gemini模型性能。双方还将提供开源软件工具，以简化AI应用的构建与部署流程。",
-          "category": "industry"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuse81v00hrsl0zr2uqw9km",
-        "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
-        "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
-        "body": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
-        "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-        "sourceName": "NVIDIA Blog：Agentic AI（网页）",
-        "sourceCategory": "ai-products",
-        "publishedAt": "2026-06-01T05:00:47.000Z",
-        "rawJson": {
-          "id": "cmpuse81v00hrsl0zr2uqw9km",
-          "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
-          "title_en": "NVIDIA Factory Operations Blueprint Gives Factories a New AI Brain",
-          "url": "https://blogs.nvidia.com/blog/factory-operations-fox-blueprint-ai-brain",
-          "source": "NVIDIA Blog：Agentic AI（网页）",
-          "publishedAt": "2026-06-01T05:00:47.000Z",
-          "summary": "NVIDIA 在 GTC Taipei 发布了 NVIDIA 工厂运营蓝图（FOX），这是一个用于构建自主工厂管理智能体的参考设计。该蓝图基于 NVIDIA NemoClaw、AI-Q Blueprint 和 NVIDIA Nemotron 开源模型构建，旨在为工厂提供一个统一的决策层，以连接实时机器信号、质量数据和操作警报，实现快速问题解决。蓝图针对 NVIDIA DGX Station 桌面 AI 超级计算机进行了优化。首批采用者包括富士康、和硕、研华和纬创。富士康利用 FOX 和 NemoClaw 构建了 MoMClaw 多智能体系统，预计将根源分析时间缩短 80%，劳动生产率提高 15%，机器故障率降低 10%。",
-          "category": "ai-products"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuqq2mt0024sl0zyjxv22lw",
-        "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
-        "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
-        "body": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
-        "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
-        "sourceName": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-        "sourceCategory": "tip",
-        "publishedAt": "2026-06-01T04:49:15.000Z",
-        "rawJson": {
-          "id": "cmpuqq2mt0024sl0zyjxv22lw",
-          "title": "如何使用 NVIDIA Alpamayo 在闭环中后训练自动驾驶模型",
-          "title_en": "How to Post-Train Autonomous Vehicle Models in Closed-Loop with NVIDIA Alpamayo",
-          "url": "https://developer.nvidia.com/blog/how-to-post-train-autonomous-vehicle-models-in-closed-loop-with-nvidia-alpamayo",
-          "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "publishedAt": "2026-06-01T04:49:15.000Z",
-          "summary": "开发自动驾驶策略需要弥合训练与部署之间的鸿沟。现有的视觉-语言-动作模型虽然能推理更复杂的驾驶场景并产生更丰富的中间推理，但主要在开放循环中训练，即模型输出与真实行为直接比较，而不考虑其对环境产生的实际影响。NVIDIA Alpamayo 提供了一种在闭环环境中进行后训练的方法。",
-          "category": "tip"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuqq2mt0025sl0z5qnshwpd",
-        "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
-        "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
-        "body": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
-        "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
-        "sourceName": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-06-01T04:43:58.000Z",
-        "rawJson": {
-          "id": "cmpuqq2mt0025sl0z5qnshwpd",
-          "title": "使用NVIDIA Cosmos 3开发物理AI推理、世界与行动模型",
-          "title_en": "Develop Physical AI Reasoning， World， and Action Models with NVIDIA Cosmos 3",
-          "url": "https://developer.nvidia.com/blog/develop-physical-ai-reasoning-world-and-action-models-with-nvidia-cosmos-3",
-          "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "publishedAt": "2026-06-01T04:43:58.000Z",
-          "summary": "NVIDIA Cosmos 3是一款面向物理AI的前沿基础模型。它能够帮助机器人、自动驾驶车辆和智能空间理解真实世界、预测事件发展并生成适应特定环境与任务的行动。该模型融合了物理推理、世界理解与行动生成能力。",
-          "category": "ai-models"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuqjg2f002ysly7qhxq1oeq",
-        "title": "Nemotron 3 Ultra 本周即将发布",
-        "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
-        "body": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
-        "url": "https://x.com/NVIDIAAI/status/2061305524700758050",
-        "sourceName": "X：NVIDIA AI (@NVIDIAAI)",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-06-01T04:35:08.000Z",
-        "rawJson": {
-          "id": "cmpuqjg2f002ysly7qhxq1oeq",
-          "title": "Nemotron 3 Ultra 本周即将发布",
-          "title_en": "Nemotron 3 Ultra is coming this week. ⌛️",
-          "url": "https://x.com/NVIDIAAI/status/2061305524700758050",
-          "source": "X：NVIDIA AI (@NVIDIAAI)",
-          "publishedAt": "2026-06-01T04:35:08.000Z",
-          "summary": "Nemotron 3 Ultra 本周即将发布。 ⌛️",
-          "category": "ai-models"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuse81w00husl0zx3yib4u9",
-        "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
-        "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
-        "body": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
-        "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
-        "sourceName": "NVIDIA Blog：Agentic AI（网页）",
-        "sourceCategory": "ai-products",
-        "publishedAt": "2026-06-01T04:30:11.000Z",
-        "rawJson": {
-          "id": "cmpuse81w00husl0zx3yib4u9",
-          "title": "NVIDIA 发布 RTX Spark 及本地 AI 智能体安全与性能更新",
-          "title_en": "NVIDIA Levels Up Local AI Agents Across RTX PCs and DGX Spark",
-          "url": "https://blogs.nvidia.com/blog/rtx-ai-garage-computex-spark-local-agents",
-          "source": "NVIDIA Blog：Agentic AI（网页）",
-          "publishedAt": "2026-06-01T04:30:11.000Z",
-          "summary": "NVIDIA 发布了 RTX Spark，一款专为本地 AI 智能体设计的 Windows 电脑，提供 1 petaflops AI 算力与 128GB 统一内存。其推出的 OpenShell 运行时与微软合作，基于新的 Windows 安全原语，确保智能体在设备端安全私密运行。性能方面，通过在 llama.cpp 中采用多 token 预测等优化，Qwen 3.6 和 3.5 27B 模型推理吞吐量提升最高达 2 倍，35B 模型提升 1.6 倍；多 GPU 优化使 llama.cpp 和 ComfyUI 获得最高 2 倍性能提升。此外，Adobe、Blender 等应用也进行了更新。",
-          "category": "ai-products"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuqq2mt0027sl0zrbpifgdh",
-        "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
-        "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。",
-        "body": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。",
-        "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
-        "sourceName": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-        "sourceCategory": "ai-products",
-        "publishedAt": "2026-06-01T03:59:15.000Z",
-        "rawJson": {
-          "id": "cmpuqq2mt0027sl0zrbpifgdh",
-          "title": "NVIDIA Vera CPU 为AI工厂的智能体工作负载设立新标准",
-          "title_en": "NVIDIA Vera CPU Sets a New Standard for Agentic Workloads in AI Factories",
-          "url": "https://developer.nvidia.com/blog/nvidia-vera-cpu-sets-a-new-standard-for-agentic-workloads-in-ai-factories",
-          "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "publishedAt": "2026-06-01T03:59:15.000Z",
-          "summary": "NVIDIA Vera CPU 旨在为AI工厂中智能体工作负载树立新性能标杆。文章阐述了AI领域扩展规律的演变：预训练通过更大数据集、更多参数和大规模并行GPU系统扩展智能；后训练通过指令微调扩展实用性，并重新调整GPU用于生成式推理；测试时缩放则通过给模型更多生成token来提升推理能力。当前，智能体AI与强化学习正推动下一阶段的扩展。",
-          "category": "ai-products"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpunu0g50002slbrlfonpoc3",
-        "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
-        "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
-        "body": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
-        "url": "https://www.minimax.io/blog/minimax-m3",
-        "sourceName": "MiniMax：Blog（网页）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-06-01T03:39:41.634Z",
-        "rawJson": {
-          "id": "cmpunu0g50002slbrlfonpoc3",
-          "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
-          "title_en": "MiniMax M3： Frontier Coding， 1M Context， Native Multimodality - All in One Model",
-          "url": "https://www.minimax.io/blog/minimax-m3",
-          "source": "MiniMax：Blog（网页）",
-          "publishedAt": "2026-06-01T03:39:41.634Z",
-          "summary": "MiniMax M3 是一个开源前沿模型，具备先进的编码与AI智能体能力。它支持100万token的超长上下文窗口，并采用名为MSA（MiniMax Sparse Attention）的新型稀疏注意力架构。该架构使模型在100万token上下文下的每token计算成本降至前代的1/20，预填充速度提升9倍以上，解码速度提升15倍以上。在SWE-Bench Pro编码基准上，MiniMax M3得分59.0%，超越GPT-5.5和Gemini 3.1 Pro，性能接近Opus 4.7。该模型可通过MiniMax Code、Token Plan和API服务使用。",
-          "category": "ai-models"
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmpuokbhx006jslbr3qxktcmy",
-        "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
-        "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。",
-        "body": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。",
-        "url": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
-        "sourceName": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-        "sourceCategory": "ai-products",
-        "publishedAt": "2026-06-01T03:36:52.000Z",
-        "rawJson": {
-          "id": "cmpuokbhx006jslbr3qxktcmy",
-          "title": "NVIDIA DSX OS 提供开放、模块化软件用于规模化运营AI工厂",
-          "title_en": "NVIDIA DSX OS Delivers Open， Modular Software for Operating AI Factories at Scale",
-          "url": "https://developer.nvidia.com/blog/nvidia-dsx-os-delivers-open-modular-software-for-operating-ai-factories-at-scale",
-          "source": "NVIDIA Technical Blog（开发者技术博客 · RSS）",
-          "publishedAt": "2026-06-01T03:36:52.000Z",
-          "summary": "NVIDIA DSX 平台为设计、模拟和构建 AI 工厂提供完整解决方案，旨在应对不断增长的智能需求。该平台通过开放、模块化的软件栈，帮助运营方更快地扩展规模、提高效率，并降低从能源、芯片、基础设施、模型到应用这五层架构的整体智能成本。",
-          "category": "ai-products"
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-06-02T03:01:08.216Z",
-    "sourceGeneratedAt": "2026-05-31",
+    "fetchedAt": "2026-06-02T08:02:08.261Z",
+    "sourceGeneratedAt": "2026-06-01",
     "items": [
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1133330",
-        "title": "Clipto",
-        "summary": "Fully local, natural language search over terabytes of media",
-        "body": "Like Google Photos, but fully local. Turn the terabytes of video, audio, meetings, and files you work with into searchable memories, without uploading anything to the cloud. Clipto automatically tags people, dialogue, and scenes, so you can instantly find any moment buried in your media just by describing what you're looking for. It's fast too: on a MacBook Pro M5, Clipto indexed 2TB of videos in just 24 hours.",
-        "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/Y5E7U6HB2KB5NG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
+        "sourceItemId": "ph:1156590",
+        "title": "Mina Meeting Assistant",
+        "summary": "Your AI Teammate now responds and executes during your calls",
+        "body": "Mina is an AI meeting assistant that actively participates in meetings, responds in real time, pulls context from your tools, and helps move work forward while the conversation is still happening. Unlike traditional meeting tools, Mina can speak during calls, use skills, generate outputs, and support sales calls, interviews, standups, customer conversations, and team workflows before, during, and after meetings.",
+        "url": "https://www.producthunt.com/products/mina-meeting-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/BPRGIOPD7QOOVH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
         "metrics": {
           "votes": 454,
-          "comments": 138,
+          "comments": 115,
           "rank": 1,
           "score": 454
         },
         "metadata": {
-          "slug": "clipto",
+          "slug": "mina-meeting-assistant",
           "topics": [
-            "Mac",
             "Productivity",
-            "Artificial Intelligence"
+            "Artificial Intelligence",
+            "No-Code"
           ]
         },
         "rawJson": {
-          "id": "1133330",
-          "name": "Clipto",
-          "slug": "clipto",
-          "tagline": "Fully local, natural language search over terabytes of media",
-          "description": "Like Google Photos, but fully local. Turn the terabytes of video, audio, meetings, and files you work with into searchable memories, without uploading anything to the cloud. Clipto automatically tags people, dialogue, and scenes, so you can instantly find any moment buried in your media just by describing what you're looking for. It's fast too: on a MacBook Pro M5, Clipto indexed 2TB of videos in just 24 hours.",
-          "url": "https://www.producthunt.com/products/clipto-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/Y5E7U6HB2KB5NG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "id": "1156590",
+          "name": "Mina Meeting Assistant",
+          "slug": "mina-meeting-assistant",
+          "tagline": "Your AI Teammate now responds and executes during your calls",
+          "description": "Mina is an AI meeting assistant that actively participates in meetings, responds in real time, pulls context from your tools, and helps move work forward while the conversation is still happening. Unlike traditional meeting tools, Mina can speak during calls, use skills, generate outputs, and support sales calls, interviews, standups, customer conversations, and team workflows before, during, and after meetings.",
+          "url": "https://www.producthunt.com/products/mina-meeting-assistant?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/BPRGIOPD7QOOVH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "votesCount": 454,
-          "commentsCount": 138,
+          "commentsCount": 115,
           "dailyRank": 1,
           "latestScore": 454,
-          "featuredAt": "2026-05-31T07:01:00Z",
-          "createdAt": "2026-05-31T07:01:00Z",
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Mac",
-                  "slug": "mac"
+                  "name": "Productivity",
+                  "slug": "productivity"
                 }
               },
               {
                 "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "No-Code",
+                  "slug": "no-code"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1157332",
+        "title": "SocialEcho 2.0",
+        "summary": "AI social media copilot for teams and agents",
+        "body": "SocialEcho is an AI social media copilot for teams managing social campaigns across multiple brands, accounts, and channels. See what’s trending, create content that resonates, optimize posts for every platform, publish from one workspace, manage every conversation, and track what drives engagement. Built on official social APIs, SocialEcho gives AI agents like OpenClaw, Hermes, and custom automations a secure way to manage connected social accounts without brittle scraping or risky workarounds.",
+        "url": "https://www.producthunt.com/products/socialecho?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/CRXS4B2XRMZLD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 366,
+          "comments": 128,
+          "rank": 2,
+          "score": 366
+        },
+        "metadata": {
+          "slug": "socialecho-2-0-2",
+          "topics": [
+            "Social Media",
+            "Marketing",
+            "SaaS"
+          ]
+        },
+        "rawJson": {
+          "id": "1157332",
+          "name": "SocialEcho 2.0",
+          "slug": "socialecho-2-0-2",
+          "tagline": "AI social media copilot for teams and agents",
+          "description": "SocialEcho is an AI social media copilot for teams managing social campaigns across multiple brands, accounts, and channels. See what’s trending, create content that resonates, optimize posts for every platform, publish from one workspace, manage every conversation, and track what drives engagement. Built on official social APIs, SocialEcho gives AI agents like OpenClaw, Hermes, and custom automations a secure way to manage connected social accounts without brittle scraping or risky workarounds.",
+          "url": "https://www.producthunt.com/products/socialecho?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/CRXS4B2XRMZLD2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 366,
+          "commentsCount": 128,
+          "dailyRank": 2,
+          "latestScore": 366,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Social Media",
+                  "slug": "social-media"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1150693",
+        "title": "Databox MCP",
+        "summary": "Chat with your business data inside Claude, ChatGPT and more",
+        "body": "Databox MCP connects your business data to Claude, ChatGPT, Cursor, and n8n. Ask about revenue, campaigns, or pipeline in plain language and get answers grounded in your real metrics and business context.",
+        "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/QOQ2YENIDC56TM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 328,
+          "comments": 53,
+          "rank": 3,
+          "score": 328
+        },
+        "metadata": {
+          "slug": "databox-mcp-3",
+          "topics": [
+            "Productivity",
+            "Analytics",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1150693",
+          "name": "Databox MCP",
+          "slug": "databox-mcp-3",
+          "tagline": "Chat with your business data inside Claude, ChatGPT and more",
+          "description": "Databox MCP connects your business data to Claude, ChatGPT, Cursor, and n8n. Ask about revenue, campaigns, or pipeline in plain language and get answers grounded in your real metrics and business context.",
+          "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/QOQ2YENIDC56TM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 328,
+          "commentsCount": 53,
+          "dailyRank": 3,
+          "latestScore": 328,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
                   "name": "Productivity",
                   "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Analytics",
+                  "slug": "analytics"
                 }
               },
               {
@@ -1040,59 +952,59 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1159462",
-        "title": "Oura Ring 5",
-        "summary": "The world’s smallest smart ring, now even better",
-        "body": "Meet Oura Ring 5. Now 40% smaller with a titanium design and up to 9 days of battery for sleep, activity, stress, heart health, and recovery.",
-        "url": "https://www.producthunt.com/products/oura?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/EHY7QRSUF2SXN4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
+        "sourceItemId": "ph:1152602",
+        "title": "Dune Keypad",
+        "summary": "Context-aware Mac keypad, w/ Claude + community extensions ",
+        "body": "Dune is a context-aware keypad for Mac that now builds around you. Create shortcuts just by talking to Claude, browse a Marketplace of community-built scripts, and assign any workflow to your three keys across the apps you use. From meetings to dev tools to everyday tasks, Dune adapts instantly so the right action is always one keypress away.",
+        "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/7TXQTNQWP6ELW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
         "metrics": {
-          "votes": 316,
-          "comments": 11,
-          "rank": 2,
-          "score": 316
+          "votes": 315,
+          "comments": 50,
+          "rank": 4,
+          "score": 315
         },
         "metadata": {
-          "slug": "oura-ring-5-6",
+          "slug": "dune-keypad",
           "topics": [
-            "Health & Fitness",
-            "Hardware",
-            "Wearables"
+            "Productivity",
+            "Developer Tools",
+            "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1159462",
-          "name": "Oura Ring 5",
-          "slug": "oura-ring-5-6",
-          "tagline": "The world’s smallest smart ring, now even better",
-          "description": "Meet Oura Ring 5. Now 40% smaller with a titanium design and up to 9 days of battery for sleep, activity, stress, heart health, and recovery.",
-          "url": "https://www.producthunt.com/products/oura?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/EHY7QRSUF2SXN4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 316,
-          "commentsCount": 11,
-          "dailyRank": 2,
-          "latestScore": 316,
-          "featuredAt": "2026-05-31T07:01:00Z",
-          "createdAt": "2026-05-31T07:01:00Z",
+          "id": "1152602",
+          "name": "Dune Keypad",
+          "slug": "dune-keypad",
+          "tagline": "Context-aware Mac keypad, w/ Claude + community extensions ",
+          "description": "Dune is a context-aware keypad for Mac that now builds around you. Create shortcuts just by talking to Claude, browse a Marketplace of community-built scripts, and assign any workflow to your three keys across the apps you use. From meetings to dev tools to everyday tasks, Dune adapts instantly so the right action is always one keypress away.",
+          "url": "https://www.producthunt.com/products/dune-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/7TXQTNQWP6ELW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 315,
+          "commentsCount": 50,
+          "dailyRank": 4,
+          "latestScore": 315,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Health & Fitness",
-                  "slug": "health-fitness"
+                  "name": "Productivity",
+                  "slug": "productivity"
                 }
               },
               {
                 "node": {
-                  "name": "Hardware",
-                  "slug": "hardware"
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
                 }
               },
               {
                 "node": {
-                  "name": "Wearables",
-                  "slug": "wearables"
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               }
             ]
@@ -1101,41 +1013,347 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1151393",
-        "title": "Second Brain for AI",
-        "summary": "Persistent memory for Claude, ChatGPT & Cursor. Free.",
-        "body": "Every AI conversation starts from zero. Your projects, decisions, and preferences disappear as soon as you close the chat. Second Brain fixes that. It is a self-hosted memory layer that works with Claude, ChatGPT, Cursor, and any MCP client. You can store context once and recall it by meaning instead of keywords. It includes duplicate detection, semantic search, and a web UI. Built on Cloudflare, it offers a free tier and your data remains yours. MIT licensed.",
-        "url": "https://www.producthunt.com/products/second-brain-cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/DHJEGKLQBKHAGY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
+        "sourceItemId": "ph:1155758",
+        "title": "folk",
+        "summary": "the AI in your texts that gets stuff done",
+        "body": "Folk is your AI friend that lives in any messaging app: iMessage, Telegram, Discord, and more. It joins meetings, plans your date, knows where you are, and gets smarter with every conversation. The longer you use it, the more it knows you. And now it's multiplayer, so you and your friends can team up and reach your goals together.",
+        "url": "https://www.producthunt.com/products/folk-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/UH6J63SRBAI3YO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
         "metrics": {
           "votes": 276,
-          "comments": 50,
-          "rank": 3,
+          "comments": 69,
+          "rank": 5,
           "score": 276
         },
         "metadata": {
-          "slug": "second-brain-for-ai",
+          "slug": "folk-4",
           "topics": [
-            "Open Source",
+            "Productivity",
+            "Messaging",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1155758",
+          "name": "folk",
+          "slug": "folk-4",
+          "tagline": "the AI in your texts that gets stuff done",
+          "description": "Folk is your AI friend that lives in any messaging app: iMessage, Telegram, Discord, and more. It joins meetings, plans your date, knows where you are, and gets smarter with every conversation. The longer you use it, the more it knows you. And now it's multiplayer, so you and your friends can team up and reach your goals together.",
+          "url": "https://www.producthunt.com/products/folk-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/UH6J63SRBAI3YO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 276,
+          "commentsCount": 69,
+          "dailyRank": 5,
+          "latestScore": 276,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Messaging",
+                  "slug": "messaging"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1159599",
+        "title": "Typeahead",
+        "summary": "AI autocomplete for every app on your Mac",
+        "body": "Typeahead is the writing assistant that writes with you, not for you. It works in every text field on your Mac, helping you type faster and smarter with inline suggestions that appear as you write. It runs on a local AI model, works offline and keeps your writing on your device.",
+        "url": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/G2V2YZAFH5VK2F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 266,
+          "comments": 35,
+          "rank": 6,
+          "score": 266
+        },
+        "metadata": {
+          "slug": "typeahead",
+          "topics": [
+            "Productivity",
+            "Writing",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1159599",
+          "name": "Typeahead",
+          "slug": "typeahead",
+          "tagline": "AI autocomplete for every app on your Mac",
+          "description": "Typeahead is the writing assistant that writes with you, not for you. It works in every text field on your Mac, helping you type faster and smarter with inline suggestions that appear as you write. It runs on a local AI model, works offline and keeps your writing on your device.",
+          "url": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/G2V2YZAFH5VK2F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 266,
+          "commentsCount": 35,
+          "dailyRank": 6,
+          "latestScore": 266,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Writing",
+                  "slug": "writing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1149659",
+        "title": "Presentify",
+        "summary": "Take your presentation skills to the next level",
+        "body": "Presentify is a macOS app for annotating your screen, highlighting your cursor, spotlighting important areas, and zooming in for a closer look. It works with any presentation app, including Keynote, Google Slides, and Microsoft PowerPoint, as well as video calling apps like Zoom, Microsoft Teams, and Google Meet.",
+        "url": "https://www.producthunt.com/products/presentify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/EFSDTB5TONMOBP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 189,
+          "comments": 48,
+          "rank": 7,
+          "score": 189
+        },
+        "metadata": {
+          "slug": "presentify-2",
+          "topics": [
+            "Mac",
+            "Sales",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1149659",
+          "name": "Presentify",
+          "slug": "presentify-2",
+          "tagline": "Take your presentation skills to the next level",
+          "description": "Presentify is a macOS app for annotating your screen, highlighting your cursor, spotlighting important areas, and zooming in for a closer look. It works with any presentation app, including Keynote, Google Slides, and Microsoft PowerPoint, as well as video calling apps like Zoom, Microsoft Teams, and Google Meet.",
+          "url": "https://www.producthunt.com/products/presentify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/EFSDTB5TONMOBP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 189,
+          "commentsCount": 48,
+          "dailyRank": 7,
+          "latestScore": 189,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Sales",
+                  "slug": "sales"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1159017",
+        "title": "Tabstack Web Research",
+        "summary": "Run a research agent with cited answers in a single API call",
+        "body": "/research gives your app or agent cited answers from the live web in one API call. Not a pre-indexed corpus: the actual live web. Every request comes back with source URL's users can verify. Source selection, synthesis, and citation formatting are all inside the call. You write or maintain none of that code. Built for legal, financial, and competitive intel, where a wrong answer is a liability. Free to try.",
+        "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/4FS257I67YYFZE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 146,
+          "comments": 21,
+          "rank": 8,
+          "score": 146
+        },
+        "metadata": {
+          "slug": "tabstack-web-research",
+          "topics": [
+            "API",
             "Developer Tools",
             "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1151393",
-          "name": "Second Brain for AI",
-          "slug": "second-brain-for-ai",
-          "tagline": "Persistent memory for Claude, ChatGPT & Cursor. Free.",
-          "description": "Every AI conversation starts from zero. Your projects, decisions, and preferences disappear as soon as you close the chat. Second Brain fixes that. It is a self-hosted memory layer that works with Claude, ChatGPT, Cursor, and any MCP client. You can store context once and recall it by meaning instead of keywords. It includes duplicate detection, semantic search, and a web UI. Built on Cloudflare, it offers a free tier and your data remains yours. MIT licensed.",
-          "url": "https://www.producthunt.com/products/second-brain-cloudflare?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/DHJEGKLQBKHAGY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 276,
-          "commentsCount": 50,
-          "dailyRank": 3,
-          "latestScore": 276,
-          "featuredAt": "2026-05-31T07:01:00Z",
-          "createdAt": "2026-05-31T07:01:00Z",
+          "id": "1159017",
+          "name": "Tabstack Web Research",
+          "slug": "tabstack-web-research",
+          "tagline": "Run a research agent with cited answers in a single API call",
+          "description": "/research gives your app or agent cited answers from the live web in one API call. Not a pre-indexed corpus: the actual live web. Every request comes back with source URL's users can verify. Source selection, synthesis, and citation formatting are all inside the call. You write or maintain none of that code. Built for legal, financial, and competitive intel, where a wrong answer is a liability. Free to try.",
+          "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/4FS257I67YYFZE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 146,
+          "commentsCount": 21,
+          "dailyRank": 8,
+          "latestScore": 146,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1156624",
+        "title": "Trippple Club",
+        "summary": "Advertise together on Meta Ads and pay 3x less",
+        "body": "Trippple Club is the first Meta ads collective for small businesses. You pool your budget with non-competing peers who share your audience. The algorithm treats the group like one large advertiser. Everyone gets better delivery, faster learning, and lower costs - and it compounds as the collective grows, besides, we create your ads too!",
+        "url": "https://www.producthunt.com/products/trippple-club?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/5ADGADBENO7VBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 140,
+          "comments": 26,
+          "rank": 9,
+          "score": 140
+        },
+        "metadata": {
+          "slug": "trippple-club",
+          "topics": [
+            "Marketing",
+            "Advertising",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1156624",
+          "name": "Trippple Club",
+          "slug": "trippple-club",
+          "tagline": "Advertise together on Meta Ads and pay 3x less",
+          "description": "Trippple Club is the first Meta ads collective for small businesses. You pool your budget with non-competing peers who share your audience. The algorithm treats the group like one large advertiser. Everyone gets better delivery, faster learning, and lower costs - and it compounds as the collective grows, besides, we create your ads too!",
+          "url": "https://www.producthunt.com/products/trippple-club?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/5ADGADBENO7VBT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 140,
+          "commentsCount": 26,
+          "dailyRank": 9,
+          "latestScore": 140,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Advertising",
+                  "slug": "advertising"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1160317",
+        "title": "Open Caffeine",
+        "summary": "Keep your Mac awake",
+        "body": "Open Caffeine is a native macOS menu bar app for keeping your Mac awake for a chosen duration. Pick presets, set a custom timer, toggle screen sleep behavior, use a global hotkey, show a countdown in the menu bar, and stop automatically at a low battery threshold. It is open source, Apple Silicon native, and built for people who want a simple, modern Caffeine-style utility without extra marketing menu items.",
+        "url": "https://www.producthunt.com/products/open-caffeine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/33DIGF6JTFR3M3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-01T07:01:00Z",
+        "metrics": {
+          "votes": 131,
+          "comments": 15,
+          "rank": 10,
+          "score": 131
+        },
+        "metadata": {
+          "slug": "open-caffeine",
+          "topics": [
+            "Open Source",
+            "Developer Tools",
+            "GitHub",
+            "Menu Bar Apps"
+          ]
+        },
+        "rawJson": {
+          "id": "1160317",
+          "name": "Open Caffeine",
+          "slug": "open-caffeine",
+          "tagline": "Keep your Mac awake",
+          "description": "Open Caffeine is a native macOS menu bar app for keeping your Mac awake for a chosen duration. Pick presets, set a custom timer, toggle screen sleep behavior, use a global hotkey, show a countdown in the menu bar, and stop automatically at a low battery threshold. It is open source, Apple Silicon native, and built for people who want a simple, modern Caffeine-style utility without extra marketing menu items.",
+          "url": "https://www.producthunt.com/products/open-caffeine?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/33DIGF6JTFR3M3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 131,
+          "commentsCount": 15,
+          "dailyRank": 10,
+          "latestScore": 131,
+          "featuredAt": "2026-06-01T07:01:00Z",
+          "createdAt": "2026-06-01T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -1152,421 +1370,14 @@
               },
               {
                 "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1159008",
-        "title": "TabTasker",
-        "summary": "Zero servers. Total privacy. Your new favorite toolbox.",
-        "body": "A free web toolbox running 100% offline in your browser. We built TabTasker so you can edit PDFs, process images, transcribe audio, and access 50+ utilities without uploading a single file. Lastly, it is free to use.",
-        "url": "https://www.producthunt.com/products/tabtasker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/S6D5ZCV6OE5UPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 228,
-          "comments": 23,
-          "rank": 4,
-          "score": 228
-        },
-        "metadata": {
-          "slug": "tabtasker",
-          "topics": [
-            "Productivity",
-            "Privacy",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1159008",
-          "name": "TabTasker",
-          "slug": "tabtasker",
-          "tagline": "Zero servers. Total privacy. Your new favorite toolbox.",
-          "description": "A free web toolbox running 100% offline in your browser. We built TabTasker so you can edit PDFs, process images, transcribe audio, and access 50+ utilities without uploading a single file. Lastly, it is free to use.",
-          "url": "https://www.producthunt.com/products/tabtasker?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/S6D5ZCV6OE5UPW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 228,
-          "commentsCount": 23,
-          "dailyRank": 4,
-          "latestScore": 228,
-          "featuredAt": "2026-05-31T07:01:00Z",
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Privacy",
-                  "slug": "privacy"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1159225",
-        "title": "Marqly 5.0",
-        "summary": "Your AI-powered bookmark manager",
-        "body": "Marqly is an AI-powered bookmark manager that automatically organizes your saved links using intelligent tagging, categorization, and semantic search. Save articles, videos, docs, and websites from any device, then find them instantly using natural language instead of folders and manual sorting. With AI summaries, reader mode, cross-platform sync, offline access, and smart organization, Marqly helps you build a searchable knowledge library without the maintenance.",
-        "url": "https://www.producthunt.com/products/marqly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/S663NU4CVUKEEA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 176,
-          "comments": 11,
-          "rank": 5,
-          "score": 176
-        },
-        "metadata": {
-          "slug": "marqly-5-0",
-          "topics": [
-            "Productivity",
-            "SaaS",
-            "Developer Tools"
-          ]
-        },
-        "rawJson": {
-          "id": "1159225",
-          "name": "Marqly 5.0",
-          "slug": "marqly-5-0",
-          "tagline": "Your AI-powered bookmark manager",
-          "description": "Marqly is an AI-powered bookmark manager that automatically organizes your saved links using intelligent tagging, categorization, and semantic search. Save articles, videos, docs, and websites from any device, then find them instantly using natural language instead of folders and manual sorting. With AI summaries, reader mode, cross-platform sync, offline access, and smart organization, Marqly helps you build a searchable knowledge library without the maintenance.",
-          "url": "https://www.producthunt.com/products/marqly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/S663NU4CVUKEEA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 176,
-          "commentsCount": 11,
-          "dailyRank": 5,
-          "latestScore": 176,
-          "featuredAt": "2026-05-31T07:01:00Z",
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "SaaS",
-                  "slug": "saas"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1143223",
-        "title": "Web Clipper for NotebookLM",
-        "summary": "Your ultimate NotebookLM's Chrome Extension",
-        "body": "NotebookLM, supercharged from both ends. • Clip in: one click saves any web page, PDF, AI chat, Reddit thread, tweet or a YouTube video, channel, or playlist (cherry-pick which videos to include). • Export out: NotebookLM's flashcards to Anki, mind maps to Obsidian, reports to Word/PDF, full chats to Markdown. • Stay in sync: Google Drive sources auto-refresh in the background. • UI blends in like Google built it.",
-        "url": "https://www.producthunt.com/products/web-clipper-for-notebooklm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/ADVROJUYQ6XJHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 139,
-          "comments": 9,
-          "rank": 6,
-          "score": 139
-        },
-        "metadata": {
-          "slug": "web-clipper-for-notebooklm",
-          "topics": [
-            "Chrome Extensions",
-            "Artificial Intelligence",
-            "Online Learning"
-          ]
-        },
-        "rawJson": {
-          "id": "1143223",
-          "name": "Web Clipper for NotebookLM",
-          "slug": "web-clipper-for-notebooklm",
-          "tagline": "Your ultimate NotebookLM's Chrome Extension",
-          "description": "NotebookLM, supercharged from both ends. • Clip in: one click saves any web page, PDF, AI chat, Reddit thread, tweet or a YouTube video, channel, or playlist (cherry-pick which videos to include). • Export out: NotebookLM's flashcards to Anki, mind maps to Obsidian, reports to Word/PDF, full chats to Markdown. • Stay in sync: Google Drive sources auto-refresh in the background. • UI blends in like Google built it.",
-          "url": "https://www.producthunt.com/products/web-clipper-for-notebooklm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/ADVROJUYQ6XJHX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 139,
-          "commentsCount": 9,
-          "dailyRank": 6,
-          "latestScore": 139,
-          "featuredAt": "2026-05-31T07:01:00Z",
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Chrome Extensions",
-                  "slug": "chrome-extensions"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Online Learning",
-                  "slug": "online-learning"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1138804",
-        "title": "Copycat Cafe",
-        "summary": "Learn your next language by copying native speakers",
-        "body": "Most language apps teach you to recognize words. Copycat Cafe teaches you to speak them. Watch real conversations with voices cloned from native speakers, copy what they say with AI scoring your pronunciation 0-100%, then chat freely with an AI that corrects you without judgment. 15 minutes a day. French and Spanish, more languages coming. Built by two people who read every email. 1,000+ paying learners, $16k MRR.",
-        "url": "https://www.producthunt.com/products/copycat-cafe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/X32YBYNCD2HE73?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 52,
-          "comments": 26,
-          "rank": 7,
-          "score": 52
-        },
-        "metadata": {
-          "slug": "copycat-cafe",
-          "topics": [
-            "Education",
-            "Languages",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1138804",
-          "name": "Copycat Cafe",
-          "slug": "copycat-cafe",
-          "tagline": "Learn your next language by copying native speakers",
-          "description": "Most language apps teach you to recognize words. Copycat Cafe teaches you to speak them. Watch real conversations with voices cloned from native speakers, copy what they say with AI scoring your pronunciation 0-100%, then chat freely with an AI that corrects you without judgment. 15 minutes a day. French and Spanish, more languages coming. Built by two people who read every email. 1,000+ paying learners, $16k MRR.",
-          "url": "https://www.producthunt.com/products/copycat-cafe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/X32YBYNCD2HE73?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 52,
-          "commentsCount": 26,
-          "dailyRank": 7,
-          "latestScore": 52,
-          "featuredAt": null,
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Education",
-                  "slug": "education"
-                }
-              },
-              {
-                "node": {
-                  "name": "Languages",
-                  "slug": "languages"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1156770",
-        "title": "DROP",
-        "summary": "Turn creative files into beautiful client delivery pages.",
-        "body": "We removed 95% bullshit features, include almost all \"AI \" features, make DROP pure and simple again",
-        "url": "https://www.producthunt.com/products/drop-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/ARXUOL3LNGA2TL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 17,
-          "comments": 1,
-          "rank": 9,
-          "score": 17
-        },
-        "metadata": {
-          "slug": "drop-7",
-          "topics": [
-            "Productivity",
-            "Storage"
-          ]
-        },
-        "rawJson": {
-          "id": "1156770",
-          "name": "DROP",
-          "slug": "drop-7",
-          "tagline": "Turn creative files into beautiful client delivery pages.",
-          "description": "We removed 95% bullshit features, include almost all \"AI \" features, make DROP pure and simple again",
-          "url": "https://www.producthunt.com/products/drop-9?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/ARXUOL3LNGA2TL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 17,
-          "commentsCount": 1,
-          "dailyRank": 9,
-          "latestScore": 17,
-          "featuredAt": null,
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Storage",
-                  "slug": "storage"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1159712",
-        "title": "Zoomix",
-        "summary": "Create beautiful product demos with smooth zoom effects.",
-        "body": "Most screen recordings look cheap and messy. Viewers drop off. Creators waste hours editing. Zoomix records straight from your browser and automatically adds smart zoom effects, cursor tracking, and clean backgrounds to make your recordings magical. No editing. No plugins. Just hit record and share something worth watching.",
-        "url": "https://www.producthunt.com/products/zoomix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/EISRRIOGWQGZ6L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 16,
-          "comments": 12,
-          "rank": 8,
-          "score": 16
-        },
-        "metadata": {
-          "slug": "zoomix",
-          "topics": [
-            "Productivity"
-          ]
-        },
-        "rawJson": {
-          "id": "1159712",
-          "name": "Zoomix",
-          "slug": "zoomix",
-          "tagline": "Create beautiful product demos with smooth zoom effects.",
-          "description": "Most screen recordings look cheap and messy. Viewers drop off. Creators waste hours editing. Zoomix records straight from your browser and automatically adds smart zoom effects, cursor tracking, and clean backgrounds to make your recordings magical. No editing. No plugins. Just hit record and share something worth watching.",
-          "url": "https://www.producthunt.com/products/zoomix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/EISRRIOGWQGZ6L?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 16,
-          "commentsCount": 12,
-          "dailyRank": 8,
-          "latestScore": 16,
-          "featuredAt": null,
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1159422",
-        "title": "Uindow",
-        "summary": "The programmable browser with trusted interactions",
-        "body": "Uindow is a programmable browser for real-world web automation. Create automations with ease, with a world-class recorder, and can edit them in pure JavaScript.",
-        "url": "https://www.producthunt.com/products/uindow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/N2WUV57X6U6KEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-05-31T07:01:00Z",
-        "metrics": {
-          "votes": 14,
-          "comments": 1,
-          "rank": 10,
-          "score": 14
-        },
-        "metadata": {
-          "slug": "uindow",
-          "topics": [
-            "Software Engineering",
-            "Developer Tools",
-            "GitHub",
-            "No-Code"
-          ]
-        },
-        "rawJson": {
-          "id": "1159422",
-          "name": "Uindow",
-          "slug": "uindow",
-          "tagline": "The programmable browser with trusted interactions",
-          "description": "Uindow is a programmable browser for real-world web automation. Create automations with ease, with a world-class recorder, and can edit them in pure JavaScript.",
-          "url": "https://www.producthunt.com/products/uindow?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/N2WUV57X6U6KEW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 14,
-          "commentsCount": 1,
-          "dailyRank": 10,
-          "latestScore": 14,
-          "featuredAt": null,
-          "createdAt": "2026-05-31T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Software Engineering",
-                  "slug": "software-engineering"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              },
-              {
-                "node": {
                   "name": "GitHub",
                   "slug": "github"
                 }
               },
               {
                 "node": {
-                  "name": "No-Code",
-                  "slug": "no-code"
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
                 }
               }
             ]
@@ -1578,7 +1389,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-06-02T03:01:08.338Z",
+    "fetchedAt": "2026-06-02T08:02:08.420Z",
     "items": [
       {
         "source": "github_trending",
@@ -1586,7 +1397,7 @@
         "title": "Hmbown/CodeWhale",
         "summary": "DeepSeek + MiMo coding agent in terminal CodeWhale Terminal coding agent for DeepSeek V4.",
         "url": "https://github.com/Hmbown/CodeWhale",
-        "publishedAt": "2026-06-02T03:01:08.298Z",
+        "publishedAt": "2026-06-02T08:02:08.380Z",
         "metrics": {
           "rank": 1
         },
@@ -1601,7 +1412,7 @@
         "title": "colbymchenry/codegraph",
         "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph Supercharge Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Gemini, Antigravity...",
         "url": "https://github.com/colbymchenry/codegraph",
-        "publishedAt": "2026-06-02T03:01:08.302Z",
+        "publishedAt": "2026-06-02T08:02:08.383Z",
         "metrics": {
           "rank": 2
         },
@@ -1616,7 +1427,7 @@
         "title": "anthropics/financial-services",
         "summary": "Claude for Financial Services Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.",
         "url": "https://github.com/anthropics/financial-services",
-        "publishedAt": "2026-06-02T03:01:08.303Z",
+        "publishedAt": "2026-06-02T08:02:08.385Z",
         "metrics": {
           "rank": 3
         },
@@ -1631,7 +1442,7 @@
         "title": "CloakHQ/CloakBrowser",
         "summary": "Stealth Chromium that passes every bot detection test.",
         "url": "https://github.com/CloakHQ/CloakBrowser",
-        "publishedAt": "2026-06-02T03:01:08.307Z",
+        "publishedAt": "2026-06-02T08:02:08.389Z",
         "metrics": {
           "rank": 4
         },
@@ -1646,7 +1457,7 @@
         "title": "rohitg00/agentmemory",
         "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
         "url": "https://github.com/rohitg00/agentmemory",
-        "publishedAt": "2026-06-02T03:01:08.314Z",
+        "publishedAt": "2026-06-02T08:02:08.396Z",
         "metrics": {
           "rank": 5
         },
@@ -1661,7 +1472,7 @@
         "title": "Lum1104/Understand-Anything",
         "summary": "Graphs that teach > graphs that impress.",
         "url": "https://github.com/Lum1104/Understand-Anything",
-        "publishedAt": "2026-06-02T03:01:08.314Z",
+        "publishedAt": "2026-06-02T08:02:08.396Z",
         "metrics": {
           "rank": 6
         },
@@ -1676,7 +1487,7 @@
         "title": "Imbad0202/academic-research-skills",
         "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
         "url": "https://github.com/Imbad0202/academic-research-skills",
-        "publishedAt": "2026-06-02T03:01:08.319Z",
+        "publishedAt": "2026-06-02T08:02:08.401Z",
         "metrics": {
           "rank": 7
         },
@@ -1691,7 +1502,7 @@
         "title": "rohitg00/ai-engineering-from-scratch",
         "summary": "Learn it.",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "publishedAt": "2026-06-02T03:01:08.326Z",
+        "publishedAt": "2026-06-02T08:02:08.408Z",
         "metrics": {
           "rank": 8
         },
@@ -1706,7 +1517,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-06-02T03:01:08.326Z",
+        "publishedAt": "2026-06-02T08:02:08.408Z",
         "metrics": {
           "rank": 9
         },
@@ -1721,7 +1532,7 @@
         "title": "harry0703/MoneyPrinterTurbo",
         "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-        "publishedAt": "2026-06-02T03:01:08.327Z",
+        "publishedAt": "2026-06-02T08:02:08.409Z",
         "metrics": {
           "rank": 10
         },
@@ -1736,7 +1547,7 @@
         "title": "decolua/9router",
         "summary": "Unlimited FREE AI coding.",
         "url": "https://github.com/decolua/9router",
-        "publishedAt": "2026-06-02T03:01:08.330Z",
+        "publishedAt": "2026-06-02T08:02:08.412Z",
         "metrics": {
           "rank": 11
         },
@@ -1751,7 +1562,7 @@
         "title": "yikart/AiToEarn",
         "summary": "Let's use AI to Earn!",
         "url": "https://github.com/yikart/AiToEarn",
-        "publishedAt": "2026-06-02T03:01:08.330Z",
+        "publishedAt": "2026-06-02T08:02:08.412Z",
         "metrics": {
           "rank": 12
         },
@@ -1766,7 +1577,7 @@
         "title": "bytedance/UI-TARS-desktop",
         "summary": "The Open-Source Multimodal AI Agent Stack: Connecting Cutting-Edge AI Models and Agent Infra Introduction English | 简体中文 TARS * is a Multimodal AI Agent stack, currently shipping two projects: Agent TARS and UI-TARS-desktop : Agent TARS UI-TARS-desktop Agen...",
         "url": "https://github.com/bytedance/UI-TARS-desktop",
-        "publishedAt": "2026-06-02T03:01:08.331Z",
+        "publishedAt": "2026-06-02T08:02:08.413Z",
         "metrics": {
           "rank": 13
         },
@@ -1781,7 +1592,7 @@
         "title": "ruvnet/RuView",
         "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "url": "https://github.com/ruvnet/RuView",
-        "publishedAt": "2026-06-02T03:01:08.335Z",
+        "publishedAt": "2026-06-02T08:02:08.418Z",
         "metrics": {
           "rank": 14
         },
@@ -1796,7 +1607,7 @@
         "title": "AIDC-AI/Pixelle-Video",
         "summary": "🚀 AI 全自动短视频引擎 | AI Fully Automated Short Video Engine 🎬 Pixelle-Video —— AI 全自动短视频引擎 English | 中文 https://github.com/user-attachments/assets/a42e7457-fcc8-40da-83fc-784c45a8b95d 只需输入一个 主题 ，Pixelle-Video 就能自动完成： ✍️ 撰写视频文案 🎨 生成 AI 配图/视频 🗣️ 合成语音解说 🎵 添加背景音...",
         "url": "https://github.com/AIDC-AI/Pixelle-Video",
-        "publishedAt": "2026-06-02T03:01:08.336Z",
+        "publishedAt": "2026-06-02T08:02:08.418Z",
         "metrics": {
           "rank": 15
         },
@@ -1811,7 +1622,7 @@
         "title": "multica-ai/andrej-karpathy-skills",
         "summary": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
         "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-        "publishedAt": "2026-06-02T03:01:08.336Z",
+        "publishedAt": "2026-06-02T08:02:08.419Z",
         "metrics": {
           "rank": 16
         },
@@ -1826,7 +1637,7 @@
         "title": "ruvnet/ruflo",
         "summary": "🌊 The leading agent meta-harness for Claude.",
         "url": "https://github.com/ruvnet/ruflo",
-        "publishedAt": "2026-06-02T03:01:08.338Z",
+        "publishedAt": "2026-06-02T08:02:08.420Z",
         "metrics": {
           "rank": 17
         },
@@ -1840,7 +1651,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-06-02T03:01:31.161Z",
+    "fetchedAt": "2026-06-02T08:02:51.581Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1891,19 +1702,19 @@
         }
       },
       {
-        "source": "builder_anthropic",
-        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/confidential-draft-s1-sec",
-        "title": "Anthropic confidentially submits draft S-1 to the SEC",
-        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the",
-        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Today, Anthropic, PBC confidentially submitted a draft registration statement on Form S-1 to the U.S. Securities and Exchange Commission for a proposed initial public offering of our common stock. This gives us the option to go public after the SEC completes its review. The proposed initial public offering will depend on market conditions and other factors.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">The number of shares to be offered and the price have not yet been se",
-        "url": "https://www.anthropic.com/news/confidential-draft-s1-sec",
-        "authorName": "Anthropic",
-        "sourceName": "Anthropic News",
-        "sourceCategory": "news",
-        "publishedAt": "2026-05-31T16:00:00.000Z",
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+        "title": "Pasted File Editor",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/pasted-file-editor\">Pasted File Editor</a></p> <p>I really like how you can paste a large volume of text into <a href=\"https://claude.ail\">claude.ai</a> (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead.</p> <p>I decided to have Codex desktop <a href=\"https://gist.github.com/simonw/74c79119b487a5acce18b4dcc26b9f79\">build me a version of that</a> as a prototype.</",
+        "body": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/pasted-file-editor\">Pasted File Editor</a></p> <p>I really like how you can paste a large volume of text into <a href=\"https://claude.ail\">claude.ai</a> (or the Claude desktop/mobile apps) and it will detect it as a large paste and turn it into a file attachment instead.</p> <p>I decided to have Codex desktop <a href=\"https://gist.github.com/simonw/74c79119b487a5acce18b4dcc26b9f79\">build me a version of that</a> as a prototype.</p> <p>You can also open files directly - including images which will be shown as thumbnails - or drag files onto the textarea.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net",
+        "url": "https://simonwillison.net/2026/Jun/2/pasted-file-editor/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-02T04:13:36.000Z",
         "metrics": {},
         "metadata": {
-          "feedSource": "Anthropic News"
+          "feedSource": "Simon Willison"
         }
       },
       {
@@ -2004,22 +1815,6 @@
       },
       {
         "source": "builder_blog",
-        "sourceItemId": "builder_blog:https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
-        "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
-        "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p> <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p> <p>When I first built it <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">four years ago</a> I used Web Workers and code that intercepts nav",
-        "body": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p> <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p> <p>When I first built it <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">four years ago</a> I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app.</p> <p>This worked, but had the disadvantage that any JavaScript in <code><script></code> tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins.</p> <p>This morning I <a hre",
-        "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
-        "authorName": "Simon Willison",
-        "sourceName": "Simon Willison",
-        "sourceCategory": "technical",
-        "publishedAt": "2026-05-30T21:02:16.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Simon Willison"
-        }
-      },
-      {
-        "source": "builder_blog",
         "sourceItemId": "builder_blog:https://simonwillison.net/2026/May/30/retiring-from-tech-to-live-offline/#atom-everything",
         "title": "I Am Retiring from Tech to Live Offline",
         "summary": "<p><strong><a href=\"https://openpath.quest/2026/i-am-retiring-from-tech-to-live-offline/\">I Am Retiring from Tech to Live Offline</a></strong></p> I've seen a lot of posts on forums from people threatening to quit their careers over AI. This is <em>not</em> one of those: Chad Whitacre is taking concrete steps, starting with this typewritten, scanned letter</p> <blockquote> <p>I'm retiring from tech. Well, \"retiring\" is euphemistic. I'm stepping away from tech, and that includes Open Source. [...",
@@ -2052,6 +1847,22 @@
       },
       {
         "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+        "title": "Running Python ASGI apps in the browser via Pyodide + a service worker",
+        "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p> <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p> <p>When I first built it <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">four years ago</a> I used Web Workers and code that intercepts nav",
+        "body": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/pyodide-asgi-browser#readme\">Running Python ASGI apps in the browser via Pyodide + a service worker</a></p> <p><a href=\"https://lite.datasette.io/\">Datasette Lite</a> is my version of Datasette that runs entirely in the browser using Pyodide in WebAssembly.</p> <p>When I first built it <a href=\"https://simonwillison.net/2022/May/4/datasette-lite/\">four years ago</a> I used Web Workers and code that intercepts navigation operations and fetches the generated HTML by running the Python app.</p> <p>This worked, but had the disadvantage that any JavaScript in <code><script></code> tags would not be executed - breaking some Datasette functionality and a whole lot of Datasette plugins.</p> <p>This morning I <a hre",
+        "url": "https://simonwillison.net/2026/May/30/pyodide-asgi-browser/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-05-30T15:34:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
         "sourceItemId": "builder_blog:https://xeiaso.net/shitposts/no-way-to-prevent-this/supply-chain/2026-redhat-javascript-clients/",
         "title": "\"No way to prevent this\" say users of only package manager where this regularly happens",
         "summary": "",
@@ -2064,6 +1875,21 @@
         "metrics": {},
         "metadata": {
           "feedSource": "Xe Iaso"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+        "title": "thunderbolt-ibverbs: We have InfiniBand at home",
+        "summary": "<p><a href=\"https://lobste.rs/s/t8emho/thunderbolt_ibverbs_we_have_infiniband\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/t8emho/thunderbolt_ibverbs_we_have_infiniband\">Comments</a></p>",
+        "url": "https://blog.hellas.ai/blog/thunderbolt-ibverbs/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-02T05:20:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
         }
       },
       {
@@ -2095,72 +1921,14 @@
         "metadata": {
           "feedSource": "Lobsters AI"
         }
-      },
-      {
-        "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.02482",
-        "title": "X-Stream: Exploring MLLMs as Multiplexers for Multi-Stream Understanding",
-        "summary": "While video streaming understanding has made significant strides, real-world applications, such as live sports broadcasting, autonomous driving, and multi-screen collaboration, inherently demand continuous, multi-stream interactions. However, existing benchmarks are confined to single-stream paradigms, leaving a critical gap in evaluating online, cross-stream reasoning. To bridge this, we introduce X-Stream, the first benchmark dedicated to multi-stream streaming understanding. Comprising 4,220 ",
-        "body": "While video streaming understanding has made significant strides, real-world applications, such as live sports broadcasting, autonomous driving, and multi-screen collaboration, inherently demand continuous, multi-stream interactions. However, existing benchmarks are confined to single-stream paradigms, leaving a critical gap in evaluating online, cross-stream reasoning. To bridge this, we introduce X-Stream, the first benchmark dedicated to multi-stream streaming understanding. Comprising 4,220 rigorously curated QA pairs across 932 videos, X-Stream evaluates 11 subtasks across multi-window, multi-view, and multi-device scenarios. Crucially, our dataset is constructed using a novel dual-verification pipeline that prevents over-reliance on a single stream. Furthermore, we pioneer the concep",
-        "url": "https://arxiv.org/abs/2606.02482",
-        "sourceName": "HuggingFace Papers",
-        "sourceCategory": "technical",
-        "publishedAt": "2026-05-31T20:00:00.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "HuggingFace Papers"
-        }
-      },
-      {
-        "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.02277",
-        "title": "RoboSemanticBench: Diagnosing Semantic Grounding in Action Prediction for VLA Models",
-        "summary": "Vision-language-action (VLA) models are built on the premise that semantic understanding from pretrained language or vision-language backbones should guide robot action prediction. Yet robot fine-tuning is optimized as imitation over task-specific action distributions, and many evaluations can be solved through visual or instruction-action shortcuts. We introduce RoboSemanticBench (RSB), an embodied benchmark for diagnosing semantic grounding in action prediction: whether post-trained VLA models",
-        "body": "Vision-language-action (VLA) models are built on the premise that semantic understanding from pretrained language or vision-language backbones should guide robot action prediction. Yet robot fine-tuning is optimized as imitation over task-specific action distributions, and many evaluations can be solved through visual or instruction-action shortcuts. We introduce RoboSemanticBench (RSB), an embodied benchmark for diagnosing semantic grounding in action prediction: whether post-trained VLA models can use complex instruction semantics to select and manipulate the correct physical target. In each episode, a robot receives a multiple-choice math or general-knowledge question, observes candidate answer blocks, and must grasp the block corresponding to the correct answer. RSB covers controlled a",
-        "url": "https://arxiv.org/abs/2606.02277",
-        "sourceName": "HuggingFace Papers",
-        "sourceCategory": "technical",
-        "publishedAt": "2026-05-31T20:00:00.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "HuggingFace Papers"
-        }
-      },
-      {
-        "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.01132",
-        "title": "HakushoBench: A Japanese Chart and Table VQA Benchmark from Governmental White Papers",
-        "summary": "Understanding chart and table images is essential for applying vision-language models (VLMs) to real-world document understanding. While English benchmarks have advanced rapidly, non-English counterparts remain scarce, leaving it unclear whether this progress generalizes across languages. A key obstacle is the difficulty of collecting realistic and diverse non-English chart and table images at scale. To address this, we leverage governmental white papers as a scalable source for benchmark constr",
-        "body": "Understanding chart and table images is essential for applying vision-language models (VLMs) to real-world document understanding. While English benchmarks have advanced rapidly, non-English counterparts remain scarce, leaving it unclear whether this progress generalizes across languages. A key obstacle is the difficulty of collecting realistic and diverse non-English chart and table images at scale. To address this, we leverage governmental white papers as a scalable source for benchmark construction beyond English, as they contain naturally occurring charts and tables across diverse formats and domains and are freely accessible in many countries. As a first instantiation, we introduce HakushoBench, a challenging Japanese chart and table VQA benchmark built from 33 governmental white pape",
-        "url": "https://arxiv.org/abs/2606.01132",
-        "sourceName": "HuggingFace Papers",
-        "sourceCategory": "technical",
-        "publishedAt": "2026-05-30T20:00:00.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "HuggingFace Papers"
-        }
-      },
-      {
-        "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.01311",
-        "title": "SkillAdaptor: Self-Adapting Skills for LLM Agents from Trajectories",
-        "summary": "Large language model (LLM) agents increasingly rely on reusable external skills to solve long-horizon interactive tasks. Existing training-free skill adaptation pipelines usually update skills from full trajectories or session-level feedback, which makes failure attribution coarse and often produces unstable or overly broad revisions. We propose SkillAdaptor, a training-free step-level skill adaptation framework with explicit failure attribution, and it can plug into OpenClaw-class agent harness",
-        "body": "Large language model (LLM) agents increasingly rely on reusable external skills to solve long-horizon interactive tasks. Existing training-free skill adaptation pipelines usually update skills from full trajectories or session-level feedback, which makes failure attribution coarse and often produces unstable or overly broad revisions. We propose SkillAdaptor, a training-free step-level skill adaptation framework with explicit failure attribution, and it can plug into OpenClaw-class agent harnesses. Given a failed trajectory, SkillAdaptor identifies a first actionable fault step, links responsibility to candidate skills, and applies targeted updates under explicit acceptance checks while keeping the backbone frozen. We evaluate on WebShop, PinchBench, and Claw-Eval with Kimi-K2.5, GLM-5, an",
-        "url": "https://arxiv.org/abs/2606.01311",
-        "sourceName": "HuggingFace Papers",
-        "sourceCategory": "technical",
-        "publishedAt": "2026-05-30T20:00:00.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "HuggingFace Papers"
-        }
       }
     ],
     "errors": [
+      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
       "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502"
+      "Hacker News AI: fetch failed",
+      "HuggingFace Papers: This operation was aborted"
     ]
   }
 ]
