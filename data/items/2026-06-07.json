@@ -1,0 +1,1277 @@
+[
+  {
+    "id": "aihot:aihot:cmq2yz8xj02fosl97d6ckqael",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2yz8xj02fosl97d6ckqael",
+    "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+    "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
+    "body": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
+    "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
+    "sourceName": "X：MiniMax (@MiniMax_AI)",
+    "sourceCategory": "tip",
+    "publishedAt": "2026-06-06T23:08:22.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2yz8xj02fosl97d6ckqael",
+      "title": "M3与Opus代码审计13个bug：$0.07 vs $1.30",
+      "title_en": "$0.07 for M3， $3.39 for Opus. Both caught 13 of 17 bugs. Really interesting breakdown from @kilocod…",
+      "url": "https://x.com/MiniMax_AI/status/2063397618034844135",
+      "source": "X：MiniMax (@MiniMax_AI)",
+      "publishedAt": "2026-06-06T23:08:22.000Z",
+      "summary": "对 Claude Opus 4.8 和 MiniMax M3 进行相同的代码审计：同一代码库、同一提示词，预先植入 17 个已知 bug。MiniMax M3 以 $0.07 抓到 13 个；最便宜的 Claude 运行同样抓到 13 个，花费 $1.30。MiniMax 表示这一对比非常有趣，绝对值得一读。",
+      "category": "tip",
+      "score": 60,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://x.com/MiniMax_AI/status/2063397618034844135",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://x.com/MiniMax_AI/status/2063397618034844135"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2w7jzd01ojsl97krih83rb",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2w7jzd01ojsl97krih83rb",
+    "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+    "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
+    "body": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
+    "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceCategory": "industry",
+    "publishedAt": "2026-06-06T21:47:39.887Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2w7jzd01ojsl97krih83rb",
+      "title": "美国众议院议员发布法案草案，旨在禁止各州制定人工智能相关法规",
+      "title_en": null,
+      "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-06-06T21:47:39.887Z",
+      "summary": "美国众议院议员发布一项法案草案，旨在禁止各州自行制定人工智能相关法规，将AI监管权力集中到联邦层面。",
+      "category": "industry",
+      "score": 78,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://www.reuters.com/business/us-house-lawmakers-release-draft-bill-regulate-ai-2026-06-04"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2rp55c00hlsl97h98gkd14",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2rp55c00hlsl97h98gkd14",
+    "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+    "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
+    "body": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
+    "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+    "sourceName": "Hugging Face：Blog（RSS）",
+    "sourceCategory": "tip",
+    "publishedAt": "2026-06-06T19:02:33.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2rp55c00hlsl97h98gkd14",
+      "title": "五个实验室，五个心智：用小模型构建多模型金融剧情游戏",
+      "title_en": "Five labs， five minds： building a multi-model finance drama on small models",
+      "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-06T19:02:33.000Z",
+      "summary": "Thousand Token Wood v2使用四个不同实验室的小模型（gpt-oss-20b、MiniCPM3-4B、Nemotron-Mini-4B及微调Qwen 0.5B）驱动金融模拟游戏的智能体。核心发现是异构服务层摩擦在于vLLM 0.22.1需CUDA工具包，而非模型本身。通过容忍性JSON解析层，添加模型只需一条配置。信息隔离确保内幕标志不在提示词中，扫描测试验证无泄露。记忆用情绪摘要截断避免淹没。微调0.5B模型实现0%自成交、100%有效报价，真相防火墙零泄露。小模型是可靠格式生成器但不可靠推理器，可通过结构化、提示词和微调弥补。",
+      "category": "tip",
+      "score": 66,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://huggingface.co/blog/build-small-hackathon/thousand-token-wood-sim-v2"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2kpb9b01h1slbv07xan05v",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2kpb9b01h1slbv07xan05v",
+    "title": "AI 的黑色星期五",
+    "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
+    "body": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
+    "url": "https://garymarcus.substack.com/p/ais-black-friday",
+    "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+    "sourceCategory": "tip",
+    "publishedAt": "2026-06-06T16:24:04.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2kpb9b01h1slbv07xan05v",
+      "title": "AI 的黑色星期五",
+      "title_en": "AI's Black Friday",
+      "url": "https://garymarcus.substack.com/p/ais-black-friday",
+      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+      "publishedAt": "2026-06-06T16:24:04.000Z",
+      "summary": "Gary Marcus 在文章中分享了对 AI 领域刚刚发生事件的看法，表达了对当前 AI 发展方向的思考。",
+      "category": "tip",
+      "score": 69,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://garymarcus.substack.com/p/ais-black-friday",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://garymarcus.substack.com/p/ais-black-friday"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2j2aqq0111slbv2442dsoa",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2j2aqq0111slbv2442dsoa",
+    "title": "Job Searcher",
+    "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
+    "body": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
+    "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+    "sourceName": "Hugging Face：Blog（RSS）",
+    "sourceCategory": "tip",
+    "publishedAt": "2026-06-06T15:36:51.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2j2aqq0111slbv2442dsoa",
+      "title": "Job Searcher",
+      "title_en": null,
+      "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-06T15:36:51.000Z",
+      "summary": "Hugging Face 发布 Job Searcher，一个基于 AI 的求职搜索工具。用户上传简历并设定偏好后，系统使用教师模型 DeepSeek V4 Pro 生成 LinkedIn 搜索查询，通过 JobSpy 抓取职位，再对学生模型 Qwen3-8B（8B 参数）进行 LoRA 微调，对每个职位从技能匹配、经验相关性、教育背景、行业领域契合度和资历对齐五个维度给出评分和推理。训练在 Modal 平台单张 A100 上完成。推理部署于 Hugging Face ZeroGPU Space，使用 llama.cpp 实现流式输出。项目开源。",
+      "category": "tip",
+      "score": 65,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://huggingface.co/blog/build-small-hackathon/job-search-blog",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://huggingface.co/blog/build-small-hackathon/job-search-blog"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2e53d100lpsl783tyjx1iw",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2e53d100lpsl783tyjx1iw",
+    "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+    "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+    "body": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+    "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+    "sourceName": "X：Rohan Paul (@rohanpaul_ai)",
+    "sourceCategory": "ai-products",
+    "publishedAt": "2026-06-06T13:07:16.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2e53d100lpsl783tyjx1iw",
+      "title": "GitHub 开源 Spec Kit 工具包，用产品规范引导 AI 编码",
+      "title_en": "GitHub released Spec Kit， an open-source toolkit to fix vibe coding's biggest weakness： the AI often…",
+      "url": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+      "source": "X：Rohan Paul (@rohanpaul_ai)",
+      "publishedAt": "2026-06-06T13:07:16.000Z",
+      "summary": "GitHub 发布开源工具包 Spec Kit，旨在解决 \"vibe coding\" 的最大弱点--AI 常在规则未明确时就开始编码。它把流程从 \"让 AI 直接构建\" 改为 \"先写产品规范，再让 AI 根据规范实现\"。当前 AI 编码模式常因松散提示直接跳入代码，导致需求薄弱、边界遗漏和反复返工。Spec Kit 推动反向流程：先定义产品功能，再澄清差距、制订技术计划、分解任务，最后让 agent 执行。规范成为可执行的开发合约，支持 Copilot、Claude Code、Codex、Gemini、Cursor、Qwen 等 30+ agent 集成。项目已获 109K+ 星标。",
+      "category": "ai-products",
+      "score": 80,
+      "selected": true
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://x.com/rohanpaul_ai/status/2063246343842501091",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://x.com/rohanpaul_ai/status/2063246343842501091"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2doi6700hlsl78fk3tm0l4",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2doi6700hlsl78fk3tm0l4",
+    "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+    "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
+    "body": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
+    "url": "https://www.ithome.com/0/960/969.htm",
+    "sourceName": "IT之家（RSS）",
+    "sourceCategory": "ai-products",
+    "publishedAt": "2026-06-06T12:48:12.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2doi6700hlsl78fk3tm0l4",
+      "title": "OpenCV 5 发布：升级全新 DNN 引擎、原生支持大模型",
+      "title_en": null,
+      "url": "https://www.ithome.com/0/960/969.htm",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-06-06T12:48:12.000Z",
+      "summary": "OpenCV 5 正式发布，采用基于图的 DNN 引擎，ONNX 算子覆盖率从 4.x 的不到 23% 提升至超 80%，原生支持 Transformer、视觉语言模型（VLM）和大语言模型（LLM）。其他更新包括：更好的 Python 集成与命名参数、更紧凑核心代码、清晰硬件加速层、原生 FP16/BF16、规范化 0D/1D 张量、扩展 3D 视觉及现代化文档。该库 GitHub 拥有超 86，000 stars，每日安装量超一百万次。",
+      "category": "ai-products",
+      "score": 70,
+      "selected": true
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.ithome.com/0/960/969.htm",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://www.ithome.com/0/960/969.htm"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2ahm4y00o9slopm7hxc8ld",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2ahm4y00o9slopm7hxc8ld",
+    "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+    "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+    "body": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+    "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+    "sourceName": "Hugging Face：Blog（RSS）",
+    "sourceCategory": "ai-products",
+    "publishedAt": "2026-06-06T11:42:01.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2ahm4y00o9slopm7hxc8ld",
+      "title": "Persona Atlas：Hugging Face 上的开源人物思维映射工具",
+      "title_en": "Persona Atlas： Mapping How Famous Minds Think",
+      "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+      "source": "Hugging Face：Blog（RSS）",
+      "publishedAt": "2026-06-06T11:42:01.000Z",
+      "summary": "Persona Atlas 是一个运行在 Hugging Face Inference Providers 上的开源项目。它通过工具调用代理执行真实网络搜索，生成公众人物的资料、事实清单和风格假设，然后让该人物回答十个关于身份、伦理等开放式问题。每个回答被转化为嵌入向量，从而在向量空间中对不同人物进行距离比较，并基于十个特质锚点绘制热力图。前端采用 Gradio，提供研究、比较和检查代理完整追溯三个标签页，预设多个人物角色，无需 token 即可直接体验。",
+      "category": "ai-products",
+      "score": 58,
+      "selected": true
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://huggingface.co/blog/build-small-hackathon/persona-atlas",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://huggingface.co/blog/build-small-hackathon/persona-atlas"
+      }
+    ]
+  },
+  {
+    "id": "aihot:aihot:cmq2o63pf01dosl6n6n4wr3tr",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmq2o63pf01dosl6n6n4wr3tr",
+    "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+    "summary": null,
+    "body": null,
+    "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+    "sourceName": "公众号：阶跃星辰（Step）",
+    "sourceCategory": "industry",
+    "publishedAt": "2026-06-06T06:46:02.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmq2o63pf01dosl6n6n4wr3tr",
+      "title": "阶跃首席科学家张祥雨合著论文 ResNet 获 CVPR 2026 「时间检验奖」",
+      "title_en": null,
+      "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+      "source": "公众号：阶跃星辰（Step）",
+      "publishedAt": "2026-06-06T06:46:02.000Z",
+      "summary": null,
+      "category": "industry",
+      "score": 57,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://mp.weixin.qq.com/s/ZVgqdH_fE42jO4kcI-lF3g"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1155751",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1155751",
+    "title": "SellerClaw",
+    "summary": "A team of AI agents that runs your stores across channels",
+    "body": "Running even one online store is a full-time job. SellerClaw is a team of AI agents that runs it for you: specialized agents for product sourcing, store management, and advertising, coordinated by a supervisor you direct. Tell it what to sell — the agents build listings, manage ads and pricing, and handle fulfillment and support across Shopify, eBay, and more. You stay in control: every action is visible and approvable, and you set how much runs on its own. Free to start.",
+    "url": "https://www.producthunt.com/products/sellerclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 519,
+      "comments": 163,
+      "rank": 1,
+      "score": 519
+    },
+    "metadata": {
+      "slug": "sellerclaw",
+      "topics": [
+        "SaaS",
+        "E-Commerce"
+      ]
+    },
+    "rawJson": {
+      "id": "1155751",
+      "name": "SellerClaw",
+      "slug": "sellerclaw",
+      "tagline": "A team of AI agents that runs your stores across channels",
+      "description": "Running even one online store is a full-time job. SellerClaw is a team of AI agents that runs it for you: specialized agents for product sourcing, store management, and advertising, coordinated by a supervisor you direct. Tell it what to sell — the agents build listings, manage ads and pricing, and handle fulfillment and support across Shopify, eBay, and more. You stay in control: every action is visible and approvable, and you set how much runs on its own. Free to start.",
+      "url": "https://www.producthunt.com/products/sellerclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/7EVPIJ3T3Q6YW2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 519,
+      "commentsCount": 163,
+      "dailyRank": 1,
+      "latestScore": 519,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "SaaS",
+              "slug": "saas"
+            }
+          },
+          {
+            "node": {
+              "name": "E-Commerce",
+              "slug": "e-commerce"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/sellerclaw",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/sellerclaw?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1163169",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1163169",
+    "title": "Minimi",
+    "summary": "Your ambient memory for Claude",
+    "body": "Every great Claude response starts with context. Minimi listens across your Mac - docs, calls, messages, tabs - and gives Claude the full picture. No prompting. All on-device and private.",
+    "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 485,
+      "comments": 108,
+      "rank": 2,
+      "score": 485
+    },
+    "metadata": {
+      "slug": "minimi-2",
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence",
+        "Tech"
+      ]
+    },
+    "rawJson": {
+      "id": "1163169",
+      "name": "Minimi",
+      "slug": "minimi-2",
+      "tagline": "Your ambient memory for Claude",
+      "description": "Every great Claude response starts with context. Minimi listens across your Mac - docs, calls, messages, tabs - and gives Claude the full picture. No prompting. All on-device and private.",
+      "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/SIMPLUAHCBBLII?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 485,
+      "commentsCount": 108,
+      "dailyRank": 2,
+      "latestScore": 485,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Productivity",
+              "slug": "productivity"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          },
+          {
+            "node": {
+              "name": "Tech",
+              "slug": "tech"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/shram",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/shram?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1163341",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1163341",
+    "title": "Leni",
+    "summary": "The world’s most accurate AI for investors",
+    "body": "Leni is the most accurate and verifiable AI for serious investment work. Built on 21,000+ decision traces and processing 100M+ rows daily, it delivers finance-grade outputs with full auditability through source links, timestamps, and grounded comps. Leni outperforms GPT, Claude, and Manus on independent benchmarks for accuracy, modeling, and valuation while giving teams the trust they need when millions are on the line. Leni is part of Google Startups and a serious machine for investors.",
+    "url": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 383,
+      "comments": 63,
+      "rank": 3,
+      "score": 383
+    },
+    "metadata": {
+      "slug": "leni-2",
+      "topics": [
+        "Investing",
+        "Artificial Intelligence",
+        "Data & Analytics"
+      ]
+    },
+    "rawJson": {
+      "id": "1163341",
+      "name": "Leni",
+      "slug": "leni-2",
+      "tagline": "The world’s most accurate AI for investors",
+      "description": "Leni is the most accurate and verifiable AI for serious investment work. Built on 21,000+ decision traces and processing 100M+ rows daily, it delivers finance-grade outputs with full auditability through source links, timestamps, and grounded comps. Leni outperforms GPT, Claude, and Manus on independent benchmarks for accuracy, modeling, and valuation while giving teams the trust they need when millions are on the line. Leni is part of Google Startups and a serious machine for investors.",
+      "url": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/FFWCFWSDY3ELXY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 383,
+      "commentsCount": 63,
+      "dailyRank": 3,
+      "latestScore": 383,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Investing",
+              "slug": "investing"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          },
+          {
+            "node": {
+              "name": "Data & Analytics",
+              "slug": "data-analytics"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/leni",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/leni?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1152327",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1152327",
+    "title": "Veltrix AI",
+    "summary": "AI finance copilot for cash flow, margins, and growth",
+    "body": "Veltrix AI gives founders and finance teams instant clarity on cash flow, profitability, burn, and business performance. Connect QuickBooks, Xero, Shopify, Square, and HubSpot, then ask finance questions in plain English to get source-backed answers, anomalies, and recommended next steps. Replace spreadsheet chaos and static dashboards with real-time financial intelligence built to help you make faster, smarter business decisions.",
+    "url": "https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/E7KCWCLG4TE4Y5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 281,
+      "comments": 44,
+      "rank": 4,
+      "score": 281
+    },
+    "metadata": {
+      "slug": "veltrix-ai-2",
+      "topics": [
+        "Artificial Intelligence",
+        "Data & Analytics",
+        "Data"
+      ]
+    },
+    "rawJson": {
+      "id": "1152327",
+      "name": "Veltrix AI",
+      "slug": "veltrix-ai-2",
+      "tagline": "AI finance copilot for cash flow, margins, and growth",
+      "description": "Veltrix AI gives founders and finance teams instant clarity on cash flow, profitability, burn, and business performance. Connect QuickBooks, Xero, Shopify, Square, and HubSpot, then ask finance questions in plain English to get source-backed answers, anomalies, and recommended next steps. Replace spreadsheet chaos and static dashboards with real-time financial intelligence built to help you make faster, smarter business decisions.",
+      "url": "https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/E7KCWCLG4TE4Y5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 281,
+      "commentsCount": 44,
+      "dailyRank": 4,
+      "latestScore": 281,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          },
+          {
+            "node": {
+              "name": "Data & Analytics",
+              "slug": "data-analytics"
+            }
+          },
+          {
+            "node": {
+              "name": "Data",
+              "slug": "data"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/veltrix-ai",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/veltrix-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1162949",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1162949",
+    "title": "Ideogram 4.0",
+    "summary": "Generate design-ready image with open weight, layout control",
+    "body": "Ideogram 4.0 is an open-weight text-to-image model trained from scratch, with bounding-box layout control, multilingual text rendering, and native 2K output. For developers and enterprises building on visual AI.",
+    "url": "https://www.producthunt.com/products/ideogram-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/OJNQHSZUNTKVUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 250,
+      "comments": 10,
+      "rank": 5,
+      "score": 250
+    },
+    "metadata": {
+      "slug": "ideogram-4-0",
+      "topics": [
+        "Design Tools",
+        "Open Source",
+        "Social Media",
+        "GitHub"
+      ]
+    },
+    "rawJson": {
+      "id": "1162949",
+      "name": "Ideogram 4.0",
+      "slug": "ideogram-4-0",
+      "tagline": "Generate design-ready image with open weight, layout control",
+      "description": "Ideogram 4.0 is an open-weight text-to-image model trained from scratch, with bounding-box layout control, multilingual text rendering, and native 2K output. For developers and enterprises building on visual AI.",
+      "url": "https://www.producthunt.com/products/ideogram-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/OJNQHSZUNTKVUF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 250,
+      "commentsCount": 10,
+      "dailyRank": 5,
+      "latestScore": 250,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Design Tools",
+              "slug": "design-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Open Source",
+              "slug": "open-source"
+            }
+          },
+          {
+            "node": {
+              "name": "Social Media",
+              "slug": "social-media"
+            }
+          },
+          {
+            "node": {
+              "name": "GitHub",
+              "slug": "github"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/ideogram-4-0",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/ideogram-4-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1160919",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1160919",
+    "title": "Agent Mode on Arena",
+    "summary": "Get real-world tasks done with autonomous AI agents",
+    "body": "Most AI benchmarks test models in controlled environments. Agent Mode tests them on complex tasks to get more work done. Run autonomous agents that browse, research, code, use files, and complete multi-step workflows from a single prompt. Then watch each workflow unfold step by step. Every run contributes to the Agent Arena Leaderboard, ranking frontier models by real-world agentic performance.",
+    "url": "https://www.producthunt.com/products/arena-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/DMA3X24N4FESP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 183,
+      "comments": 19,
+      "rank": 6,
+      "score": 183
+    },
+    "metadata": {
+      "slug": "agent-mode-on-arena",
+      "topics": [
+        "Productivity",
+        "Artificial Intelligence"
+      ]
+    },
+    "rawJson": {
+      "id": "1160919",
+      "name": "Agent Mode on Arena",
+      "slug": "agent-mode-on-arena",
+      "tagline": "Get real-world tasks done with autonomous AI agents",
+      "description": "Most AI benchmarks test models in controlled environments. Agent Mode tests them on complex tasks to get more work done. Run autonomous agents that browse, research, code, use files, and complete multi-step workflows from a single prompt. Then watch each workflow unfold step by step. Every run contributes to the Agent Arena Leaderboard, ranking frontier models by real-world agentic performance.",
+      "url": "https://www.producthunt.com/products/arena-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/DMA3X24N4FESP7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 183,
+      "commentsCount": 19,
+      "dailyRank": 6,
+      "latestScore": 183,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Productivity",
+              "slug": "productivity"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/arena-5",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/arena-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1163741",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1163741",
+    "title": "Nemotron 3 Ultra by NVIDIA",
+    "summary": "Powers faster, efficient reasoning for long-running agents",
+    "body": "A 550B MoE frontier-intelligence open model built for long-running agents. It delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.Ultra excels at complex tasks like coding and deep research. Long-running agents spend their time planning, using tools, recovering from failures, and deciding what to do next.",
+    "url": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 169,
+      "comments": 4,
+      "rank": 7,
+      "score": 169
+    },
+    "metadata": {
+      "slug": "nemotron-3-ultra-by-nvidia",
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence"
+      ]
+    },
+    "rawJson": {
+      "id": "1163741",
+      "name": "Nemotron 3 Ultra by NVIDIA",
+      "slug": "nemotron-3-ultra-by-nvidia",
+      "tagline": "Powers faster, efficient reasoning for long-running agents",
+      "description": "A 550B MoE frontier-intelligence open model built for long-running agents. It delivers 5x faster inference and lowers the cost of complex agentic tasks by up to 30% versus other open frontier models.Ultra excels at complex tasks like coding and deep research. Long-running agents spend their time planning, using tools, recovering from failures, and deciding what to do next.",
+      "url": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/FRQKMP7ZDQB4RR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 169,
+      "commentsCount": 4,
+      "dailyRank": 7,
+      "latestScore": 169,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Developer Tools",
+              "slug": "developer-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/nvidia",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/nvidia?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1100116",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1100116",
+    "title": "Moodloom",
+    "summary": "Ad-free Pinterest Alternative with AI content filtering ",
+    "body": "Moodloom is an ad-free visual discovery platform for those fed up of Pinterest. Save and explore fashion, decor, and art - without the noise. What makes it different: Clean feed - no ads, no sponsored posts AI content filter - hide or show AI-generated images For fashion lovers, decorators & digital artists who wish Pinterest were better. We have built Save to Moodloom Extension as well using which you can Import all your Pinterest pins/boards to Moodloom.",
+    "url": "https://www.producthunt.com/products/moodloom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 129,
+      "comments": 11,
+      "rank": 8,
+      "score": 129
+    },
+    "metadata": {
+      "slug": "moodloom",
+      "topics": [
+        "Art",
+        "Beauty & Fashion",
+        "Design"
+      ]
+    },
+    "rawJson": {
+      "id": "1100116",
+      "name": "Moodloom",
+      "slug": "moodloom",
+      "tagline": "Ad-free Pinterest Alternative with AI content filtering ",
+      "description": "Moodloom is an ad-free visual discovery platform for those fed up of Pinterest. Save and explore fashion, decor, and art - without the noise. What makes it different: Clean feed - no ads, no sponsored posts AI content filter - hide or show AI-generated images For fashion lovers, decorators & digital artists who wish Pinterest were better. We have built Save to Moodloom Extension as well using which you can Import all your Pinterest pins/boards to Moodloom.",
+      "url": "https://www.producthunt.com/products/moodloom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/KABC3NRR6GO7HB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 129,
+      "commentsCount": 11,
+      "dailyRank": 8,
+      "latestScore": 129,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Art",
+              "slug": "art"
+            }
+          },
+          {
+            "node": {
+              "name": "Beauty & Fashion",
+              "slug": "beauty-fashion"
+            }
+          },
+          {
+            "node": {
+              "name": "Design",
+              "slug": "design"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/moodloom",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/moodloom?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1164006",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1164006",
+    "title": "LocalClicky",
+    "summary": "Control your Mac with your voice locally",
+    "body": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
+    "url": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 125,
+      "comments": 11,
+      "rank": 9,
+      "score": 125
+    },
+    "metadata": {
+      "slug": "localclicky",
+      "topics": [
+        "Open Source",
+        "GitHub",
+        "Tech",
+        "Audio"
+      ]
+    },
+    "rawJson": {
+      "id": "1164006",
+      "name": "LocalClicky",
+      "slug": "localclicky",
+      "tagline": "Control your Mac with your voice locally",
+      "description": "LocalClicky is a Mac menubar app that lets you have a real conversation with your computer - completely offline. Say \"Computer\" to start a session. It stays listening. You chain commands back to back. Say \"goodbye\" when you're done. Everything runs on your machine: voice transcription, LLM multi models, VAD, macOS say No API keys. No subscription. No data leaving your Mac. MIT licensed.",
+      "url": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/UREOXFHYYUMZVN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 125,
+      "commentsCount": 11,
+      "dailyRank": 9,
+      "latestScore": 125,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Open Source",
+              "slug": "open-source"
+            }
+          },
+          {
+            "node": {
+              "name": "GitHub",
+              "slug": "github"
+            }
+          },
+          {
+            "node": {
+              "name": "Tech",
+              "slug": "tech"
+            }
+          },
+          {
+            "node": {
+              "name": "Audio",
+              "slug": "audio"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/localclicky",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/localclicky?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1162995",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1162995",
+    "title": "FloatPic",
+    "summary": "Ultra-minimalist, borderless macOS native image viewer",
+    "body": "FloatPic is the ultra-minimalist macOS native image viewer. Borderless floating window, native gestures, blazing-fast loading, supports 30+ image formats. Make the software disappear, let images float.",
+    "url": "https://www.producthunt.com/products/floatpic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/ZQLUO2KBKHPFI4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-05T07:01:00Z",
+    "metrics": {
+      "votes": 120,
+      "comments": 7,
+      "rank": 10,
+      "score": 120
+    },
+    "metadata": {
+      "slug": "floatpic",
+      "topics": [
+        "Mac",
+        "Design Tools",
+        "Productivity"
+      ]
+    },
+    "rawJson": {
+      "id": "1162995",
+      "name": "FloatPic",
+      "slug": "floatpic",
+      "tagline": "Ultra-minimalist, borderless macOS native image viewer",
+      "description": "FloatPic is the ultra-minimalist macOS native image viewer. Borderless floating window, native gestures, blazing-fast loading, supports 30+ image formats. Make the software disappear, let images float.",
+      "url": "https://www.producthunt.com/products/floatpic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/ZQLUO2KBKHPFI4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 120,
+      "commentsCount": 7,
+      "dailyRank": 10,
+      "latestScore": 120,
+      "featuredAt": "2026-06-05T07:01:00Z",
+      "createdAt": "2026-06-05T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Mac",
+              "slug": "mac"
+            }
+          },
+          {
+            "node": {
+              "name": "Design Tools",
+              "slug": "design-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Productivity",
+              "slug": "productivity"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/floatpic",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/floatpic?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+    "source": "builder_blog",
+    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+    "title": "micropython-wasm 0.1a2",
+    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a2\">micropython-wasm 0.1a2</a></p> <p>I added a CLI to <code>micropython-wasm</code> (<a href=\"https://github.com/simonw/micropython-wasm/issues/7\">issue #7</a>), inspired by the first draft of <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/\">the blog entry</a> when I realized it would be a great way to illustrate the <a href=\"https://simonwillison.net/2026/Jun/6/micropython-i",
+    "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/micropython-wasm/releases/tag/0.1a2\">micropython-wasm 0.1a2</a></p> <p>I added a CLI to <code>micropython-wasm</code> (<a href=\"https://github.com/simonw/micropython-wasm/issues/7\">issue #7</a>), inspired by the first draft of <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/\">the blog entry</a> when I realized it would be a great way to illustrate the <a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#try-it-yourself\">Try it yourself</a> section.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxing</a>, <a href=\"https://simonwillison.net/tags/webassembly\">webassembly</a>, <a href=\"https://simonwillison",
+    "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything",
+    "sourceName": "Simon Willison",
+    "sourceCategory": "technical",
+    "authorName": "Simon Willison",
+    "publishedAt": "2026-06-06T04:26:06.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Simon Willison"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://simonwillison.net/2026/Jun/6/micropython-wasm",
+    "sources": [
+      "builder_blog"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_blog",
+        "url": "https://simonwillison.net/2026/Jun/6/micropython-wasm/#atom-everything"
+      }
+    ]
+  },
+  {
+    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+    "source": "builder_blog",
+    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+    "title": "Running Python code in a sandbox with MicroPython and WASM",
+    "summary": "<p>I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called <a href=\"https://github.com/simonw/micropython-wasm\">micropython-wasm</a>, and I'm using it for a code execution sandbox plugin for <a href=\"https://github.com/datasette/datasette-agent\">Datasette Agent</a> called <a href=\"https://github.com/data",
+    "body": "<p>I've been experimenting with different approaches to running code in a sandbox for several years now, but my latest attempt feels like it might finally have all of the characteristics I've been looking for. I've released it as an alpha package called <a href=\"https://github.com/simonw/micropython-wasm\">micropython-wasm</a>, and I'm using it for a code execution sandbox plugin for <a href=\"https://github.com/datasette/datasette-agent\">Datasette Agent</a> called <a href=\"https://github.com/datasette/datasette-agent-micropython\">datasette-agent-micropython</a>.</p> <ul> <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#why-do-i-want-a-sandbox-\">Why do I want a sandbox?</a></li> <li><a href=\"https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#what-i-want",
+    "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything",
+    "sourceName": "Simon Willison",
+    "sourceCategory": "technical",
+    "authorName": "Simon Willison",
+    "publishedAt": "2026-06-06T03:53:34.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Simon Willison"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox",
+    "sources": [
+      "builder_blog"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_blog",
+        "url": "https://simonwillison.net/2026/Jun/6/micropython-in-a-sandbox/#atom-everything"
+      }
+    ]
+  },
+  {
+    "id": "builder_blog:builder_blog:https://geohot.github.io//blog/jekyll/update/2026/06/06/our-great-war.html",
+    "source": "builder_blog",
+    "sourceItemId": "builder_blog:https://geohot.github.io//blog/jekyll/update/2026/06/06/our-great-war.html",
+    "title": "Our Great War is a Spiritual War",
+    "summary": "I often come back to the question of why this is happening. Why do people want the centralized world? Why do people want the administered reality? Why do people want to be managed? Why do people not want root? The answer is that those people prioritize convenience, safety, and comfort. But in the coming world, if these are your priorities, you will die . There used to be natural checks on these things. Life couldn’t be too convenient, there were jobs that needed doing. Life couldn’t be too safe,",
+    "body": "I often come back to the question of why this is happening. Why do people want the centralized world? Why do people want the administered reality? Why do people want to be managed? Why do people not want root? The answer is that those people prioritize convenience, safety, and comfort. But in the coming world, if these are your priorities, you will die . There used to be natural checks on these things. Life couldn’t be too convenient, there were jobs that needed doing. Life couldn’t be too safe, there were diseases, violence, death in childbirth, etc… Life couldn’t be too comfortable, it was cold and you were forced into interactions with other people . Technology will remove all of these frictions. Machines will do all the work, you will never leave your house, and you will never be force",
+    "url": "https://geohot.github.io//blog/jekyll/update/2026/06/06/our-great-war.html",
+    "sourceName": "George Hotz",
+    "sourceCategory": "technical",
+    "authorName": "George Hotz",
+    "publishedAt": "2026-06-06T07:00:00.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "George Hotz"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://geohot.github.io//blog/jekyll/update/2026/06/06/our-great-war.html",
+    "sources": [
+      "builder_blog"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_blog",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/06/06/our-great-war.html"
+      }
+    ]
+  },
+  {
+    "id": "builder_lobsters:builder_lobsters:https://openai.com/index/harness-engineering/",
+    "source": "builder_lobsters",
+    "sourceItemId": "builder_lobsters:https://openai.com/index/harness-engineering/",
+    "title": "Harness engineering: leveraging Codex in an agent-first world",
+    "summary": "<p><a href=\"https://lobste.rs/s/th8a3c/harness_engineering_leveraging_codex\">Comments</a></p>",
+    "body": "<p><a href=\"https://lobste.rs/s/th8a3c/harness_engineering_leveraging_codex\">Comments</a></p>",
+    "url": "https://openai.com/index/harness-engineering/",
+    "sourceName": "Lobsters AI",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-07T01:30:53.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Lobsters AI"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://openai.com/index/harness-engineering",
+    "sources": [
+      "builder_lobsters"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_lobsters",
+        "url": "https://openai.com/index/harness-engineering/"
+      }
+    ]
+  },
+  {
+    "id": "builder_lobsters:builder_lobsters:https://arxiv.org/pdf/2605.31514",
+    "source": "builder_lobsters",
+    "sourceItemId": "builder_lobsters:https://arxiv.org/pdf/2605.31514",
+    "title": "If LLMs Have Human-Like Attributes, Then So Does Age of Empires II",
+    "summary": "<p><a href=\"https://lobste.rs/s/owclks/if_llms_have_human_like_attributes_then_so\">Comments</a></p>",
+    "body": "<p><a href=\"https://lobste.rs/s/owclks/if_llms_have_human_like_attributes_then_so\">Comments</a></p>",
+    "url": "https://arxiv.org/pdf/2605.31514",
+    "sourceName": "Lobsters AI",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-06T12:31:19.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Lobsters AI"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://arxiv.org/pdf/2605.31514",
+    "sources": [
+      "builder_lobsters"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_lobsters",
+        "url": "https://arxiv.org/pdf/2605.31514"
+      }
+    ]
+  },
+  {
+    "id": "builder_lobsters:builder_lobsters:https://arxiv.org/abs/2606.03811",
+    "source": "builder_lobsters",
+    "sourceItemId": "builder_lobsters:https://arxiv.org/abs/2606.03811",
+    "title": "AI Worm",
+    "summary": "<p>replaced url</p> <p><a href=\"https://lobste.rs/s/vrwnjw/ai_worm\">Comments</a></p>",
+    "body": "<p>replaced url</p> <p><a href=\"https://lobste.rs/s/vrwnjw/ai_worm\">Comments</a></p>",
+    "url": "https://arxiv.org/abs/2606.03811",
+    "sourceName": "Lobsters AI",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-06T10:29:43.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Lobsters AI"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://arxiv.org/abs/2606.03811",
+    "sources": [
+      "builder_lobsters"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_lobsters",
+        "url": "https://arxiv.org/abs/2606.03811"
+      }
+    ]
+  },
+  {
+    "id": "builder_lobsters:builder_lobsters:https://www.nature.com/articles/s41586-026-10319-8",
+    "source": "builder_lobsters",
+    "sourceItemId": "builder_lobsters:https://www.nature.com/articles/s41586-026-10319-8",
+    "title": "Language models transmit behavioural traits through hidden signals in data",
+    "summary": "<p><a href=\"https://lobste.rs/s/wv1dx8/language_models_transmit_behavioural\">Comments</a></p>",
+    "body": "<p><a href=\"https://lobste.rs/s/wv1dx8/language_models_transmit_behavioural\">Comments</a></p>",
+    "url": "https://www.nature.com/articles/s41586-026-10319-8",
+    "sourceName": "Lobsters AI",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-06T10:12:07.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Lobsters AI"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://www.nature.com/articles/s41586-026-10319-8",
+    "sources": [
+      "builder_lobsters"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_lobsters",
+        "url": "https://www.nature.com/articles/s41586-026-10319-8"
+      }
+    ]
+  },
+  {
+    "id": "builder_lobsters:builder_lobsters:https://zml.ai/",
+    "source": "builder_lobsters",
+    "sourceItemId": "builder_lobsters:https://zml.ai/",
+    "title": "ZML: Model to Metal",
+    "summary": "<p><a href=\"https://lobste.rs/s/icyhpt/zml_model_metal\">Comments</a></p>",
+    "body": "<p><a href=\"https://lobste.rs/s/icyhpt/zml_model_metal\">Comments</a></p>",
+    "url": "https://zml.ai/",
+    "sourceName": "Lobsters AI",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-06T03:28:53.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Lobsters AI"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://zml.ai/",
+    "sources": [
+      "builder_lobsters"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_lobsters",
+        "url": "https://zml.ai/"
+      }
+    ]
+  }
+]
