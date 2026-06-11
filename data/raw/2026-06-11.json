@@ -1,8 +1,31 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-06-11T08:10:30.728Z",
+    "fetchedAt": "2026-06-11T08:28:38.783Z",
     "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmq98bstr09i4slldkrky14cd",
+        "title": "Deezer 推出面向其他流媒体服务的 AI 音乐检测器",
+        "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。",
+        "body": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+        "sourceName": "The Verge：AI（RSS）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-06-11T08:00:00.000Z",
+        "rawJson": {
+          "id": "cmq98bstr09i4slldkrky14cd",
+          "title": "Deezer 推出面向其他流媒体服务的 AI 音乐检测器",
+          "title_en": "Deezer launches an AI music detector for other streaming services",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/948153/deezer-ai-music-detector-spotify-apple",
+          "source": "The Verge：AI（RSS）",
+          "publishedAt": "2026-06-11T08:00:00.000Z",
+          "summary": "Deezer 将扫描用户在其它流媒体平台的播放列表，检测其中的 AI 生成音乐。Deezer 是最早标记 AI 生成音乐的大型流媒体服务之一，曾向其他平台提供该技术但少有采纳。Deezer CEO Alexis Lanternier 表示，由于没有其他公司跟进，他们决定让用户无论使用哪个平台，都能检查自己的播放列表中是否包含合成音乐。",
+          "category": "ai-products",
+          "score": 73,
+          "selected": true
+        }
+      },
       {
         "source": "aihot",
         "sourceItemId": "aihot:cmq954qjy08p2slldtang9e2v",
@@ -715,36 +738,13 @@
           "score": 70,
           "selected": true
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmq7t3hhr01f3slepkahaev5l",
-        "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
-        "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。",
-        "body": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。",
-        "url": "https://www.ithome.com/0/962/509.htm",
-        "sourceName": "IT之家（RSS）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-06-10T08:21:45.000Z",
-        "rawJson": {
-          "id": "cmq7t3hhr01f3slepkahaev5l",
-          "title": "摩尔线程开源 MusaCoder 代码大模型，9B/27B 参数基于国产 GPU 全链路训练",
-          "title_en": "摩尔线程开源 MusaCoder：首个基于国产全功能 GPU 全栈训练的代码大模型",
-          "url": "https://www.ithome.com/0/962/509.htm",
-          "source": "IT之家（RSS）",
-          "publishedAt": "2026-06-10T08:21:45.000Z",
-          "summary": "摩尔线程发布并开源 MusaCoder 代码大模型，含 9B 和 27B 两个参数规模，是业内首个基于国产 GPU 算力底座完成全链路训练与验证的开源模型。后训练流程在基于 MTT S5000 的夸娥智算集群上完成，支持从 PyTorch 标准算子自动生成高性能 CUDA/MUSA 原生 Kernel 代码。在 KernelBench 评测中，MusaCoder-27B-RL 以 Overall Pass@8 93.2%、Avg.@8 88.60% 超越 Claude Opus、DeepSeek-V4 Pro、GLM-5.1、Kimi K2.6 等主流 SOTA 代码模型。",
-          "category": "ai-models",
-          "score": 72,
-          "selected": true
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-06-11T08:10:31.035Z",
+    "fetchedAt": "2026-06-11T08:28:39.091Z",
     "sourceGeneratedAt": "2026-06-10",
     "items": [
       {
@@ -758,7 +758,7 @@
         "publishedAt": "2026-06-10T07:01:00Z",
         "metrics": {
           "votes": 542,
-          "comments": 91,
+          "comments": 93,
           "rank": 1,
           "score": 542
         },
@@ -779,7 +779,7 @@
           "url": "https://www.producthunt.com/products/publora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/FFFDHH6IKSRQWU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "votesCount": 542,
-          "commentsCount": 91,
+          "commentsCount": 93,
           "dailyRank": 1,
           "latestScore": 542,
           "featuredAt": "2026-06-10T07:01:00Z",
@@ -818,10 +818,10 @@
         "externalUrl": "https://www.producthunt.com/r/AET65KN4Y36CK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-10T07:01:00Z",
         "metrics": {
-          "votes": 421,
+          "votes": 422,
           "comments": 45,
           "rank": 2,
-          "score": 421
+          "score": 422
         },
         "metadata": {
           "slug": "typingmind",
@@ -838,10 +838,10 @@
           "description": "TypingMind is the most popular app to use LLM AI models with API keys. It brings you all the best models across 18 providers in one powerful AI workspace without having to pay for subscriptions to each one. TypingMind also provides the best AI experience ever with features focused on pro users like Projects, Fork/Parallel chat, Plugins/MCP/Skills, and a wide range of customizable options that you literally cannot find anywhere else! Go give it a try at www.typingmind.com :)",
           "url": "https://www.producthunt.com/products/typing-mind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/AET65KN4Y36CK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 421,
+          "votesCount": 422,
           "commentsCount": 45,
           "dailyRank": 2,
-          "latestScore": 421,
+          "latestScore": 422,
           "featuredAt": "2026-06-10T07:01:00Z",
           "createdAt": "2026-06-10T07:01:00Z",
           "topics": {
@@ -872,10 +872,10 @@
         "externalUrl": "https://www.producthunt.com/r/YZAQ4A3CS6KC4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-10T07:01:00Z",
         "metrics": {
-          "votes": 377,
+          "votes": 378,
           "comments": 104,
           "rank": 3,
-          "score": 377
+          "score": 378
         },
         "metadata": {
           "slug": "spotlight-by-backplanes",
@@ -893,10 +893,10 @@
           "description": "Keep up with your agents. Spotlight reads your Claude Code and Codex sessions and shows you what your agents actually did, and how to get recursively better every session: what to fix now, what to ship better next time, what's worth sharing. One harness or seven, solo or across your team. Free.",
           "url": "https://www.producthunt.com/products/backplanes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/YZAQ4A3CS6KC4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 377,
+          "votesCount": 378,
           "commentsCount": 104,
           "dailyRank": 3,
-          "latestScore": 377,
+          "latestScore": 378,
           "featuredAt": "2026-06-10T07:01:00Z",
           "createdAt": "2026-06-10T07:01:00Z",
           "topics": {
@@ -933,10 +933,10 @@
         "externalUrl": "https://www.producthunt.com/r/HIDAJHE7G4FAB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-10T07:01:00Z",
         "metrics": {
-          "votes": 292,
+          "votes": 293,
           "comments": 36,
           "rank": 4,
-          "score": 292
+          "score": 293
         },
         "metadata": {
           "slug": "screen-charm",
@@ -954,10 +954,10 @@
           "description": "Record your screen and instantly turn raw footage into polished, presentation-ready videos with smart zoom effects, smooth motion blur, webcam overlay, background music, and a built-in editor. No complex editing tools. No subscriptions. Just clean, high-quality demos in minutes. Export in up to 4K and share videos that actually feel professional whether you're showcasing a product, onboarding users, or recording tutorials. One-time purchase. No subscription. Just ScreenCharm.",
           "url": "https://www.producthunt.com/products/screen-charm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/HIDAJHE7G4FAB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 292,
+          "votesCount": 293,
           "commentsCount": 36,
           "dailyRank": 4,
-          "latestScore": 292,
+          "latestScore": 293,
           "featuredAt": "2026-06-10T07:01:00Z",
           "createdAt": "2026-06-10T07:01:00Z",
           "topics": {
@@ -1055,10 +1055,10 @@
         "externalUrl": "https://www.producthunt.com/r/BVZIMZTBT2CLGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-10T07:01:00Z",
         "metrics": {
-          "votes": 207,
-          "comments": 62,
+          "votes": 210,
+          "comments": 63,
           "rank": 6,
-          "score": 207
+          "score": 210
         },
         "metadata": {
           "slug": "iart-ai",
@@ -1076,10 +1076,10 @@
           "description": "A faster agent delivers promos/shorts, explainers, kinetic type and PRO motion graphics with audio. Ditch AE/PR/CapCut. Chat to refine and ship impact.",
           "url": "https://www.producthunt.com/products/iart-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/BVZIMZTBT2CLGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 207,
-          "commentsCount": 62,
+          "votesCount": 210,
+          "commentsCount": 63,
           "dailyRank": 6,
-          "latestScore": 207,
+          "latestScore": 210,
           "featuredAt": "2026-06-10T07:01:00Z",
           "createdAt": "2026-06-10T07:01:00Z",
           "topics": {
@@ -1284,59 +1284,59 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1167437",
-        "title": "BlenderHunt",
-        "summary": "The indie marketplace for Blender artists and creators",
-        "body": "A curated marketplace for Blender creators to discover, sell, and purchase high-quality addons, assets, materials, and tools from independent artists worldwide.",
-        "url": "https://www.producthunt.com/products/blenderhunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/3FDQA4QB5PWEL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "sourceItemId": "ph:1167909",
+        "title": "Axol",
+        "summary": "Automate physical work with a powerful robot",
+        "body": "Axol is a dual-arm robot designed for teams automating real work with physical AI. Easy data collection, long reach, and a high range of motion means you can automate work that matters.",
+        "url": "https://www.producthunt.com/products/axol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/MA2XPJNWOIIKHL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-10T07:01:00Z",
         "metrics": {
-          "votes": 127,
-          "comments": 9,
-          "rank": 10,
-          "score": 127
+          "votes": 128,
+          "comments": 13,
+          "rank": 11,
+          "score": 128
         },
         "metadata": {
-          "slug": "blenderhunt",
+          "slug": "axol",
           "topics": [
-            "Design Tools",
-            "Tech",
-            "3D Modeling"
+            "Robots",
+            "Developer Tools",
+            "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1167437",
-          "name": "BlenderHunt",
-          "slug": "blenderhunt",
-          "tagline": "The indie marketplace for Blender artists and creators",
-          "description": "A curated marketplace for Blender creators to discover, sell, and purchase high-quality addons, assets, materials, and tools from independent artists worldwide.",
-          "url": "https://www.producthunt.com/products/blenderhunt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/3FDQA4QB5PWEL7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 127,
-          "commentsCount": 9,
-          "dailyRank": 10,
-          "latestScore": 127,
+          "id": "1167909",
+          "name": "Axol",
+          "slug": "axol",
+          "tagline": "Automate physical work with a powerful robot",
+          "description": "Axol is a dual-arm robot designed for teams automating real work with physical AI. Easy data collection, long reach, and a high range of motion means you can automate work that matters.",
+          "url": "https://www.producthunt.com/products/axol?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/MA2XPJNWOIIKHL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 128,
+          "commentsCount": 13,
+          "dailyRank": 11,
+          "latestScore": 128,
           "featuredAt": "2026-06-10T07:01:00Z",
           "createdAt": "2026-06-10T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Design Tools",
-                  "slug": "design-tools"
+                  "name": "Robots",
+                  "slug": "robots"
                 }
               },
               {
                 "node": {
-                  "name": "Tech",
-                  "slug": "tech"
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
                 }
               },
               {
                 "node": {
-                  "name": "3D Modeling",
-                  "slug": "3d-modeling"
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               }
             ]
@@ -1348,7 +1348,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-06-11T08:10:31.241Z",
+    "fetchedAt": "2026-06-11T08:28:39.243Z",
     "items": [
       {
         "source": "github_trending",
@@ -1356,7 +1356,7 @@
         "title": "colbymchenry/codegraph",
         "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph Supercharge Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Gemini, Antigravity...",
         "url": "https://github.com/colbymchenry/codegraph",
-        "publishedAt": "2026-06-11T08:10:31.200Z",
+        "publishedAt": "2026-06-11T08:28:39.205Z",
         "metrics": {
           "rank": 1
         },
@@ -1371,7 +1371,7 @@
         "title": "tinyhumansai/openhuman",
         "summary": "Your Personal AI super intelligence.",
         "url": "https://github.com/tinyhumansai/openhuman",
-        "publishedAt": "2026-06-11T08:10:31.201Z",
+        "publishedAt": "2026-06-11T08:28:39.206Z",
         "metrics": {
           "rank": 2
         },
@@ -1386,7 +1386,7 @@
         "title": "chopratejas/headroom",
         "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.",
         "url": "https://github.com/chopratejas/headroom",
-        "publishedAt": "2026-06-11T08:10:31.202Z",
+        "publishedAt": "2026-06-11T08:28:39.207Z",
         "metrics": {
           "rank": 3
         },
@@ -1401,7 +1401,7 @@
         "title": "Egonex-AI/Understand-Anything",
         "summary": "Graphs that teach > graphs that impress.",
         "url": "https://github.com/Egonex-AI/Understand-Anything",
-        "publishedAt": "2026-06-11T08:10:31.203Z",
+        "publishedAt": "2026-06-11T08:28:39.208Z",
         "metrics": {
           "rank": 4
         },
@@ -1416,7 +1416,7 @@
         "title": "harry0703/MoneyPrinterTurbo",
         "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-        "publishedAt": "2026-06-11T08:10:31.204Z",
+        "publishedAt": "2026-06-11T08:28:39.209Z",
         "metrics": {
           "rank": 5
         },
@@ -1431,7 +1431,7 @@
         "title": "CloakHQ/CloakBrowser",
         "summary": "Stealth Chromium that passes every bot detection test.",
         "url": "https://github.com/CloakHQ/CloakBrowser",
-        "publishedAt": "2026-06-11T08:10:31.208Z",
+        "publishedAt": "2026-06-11T08:28:39.213Z",
         "metrics": {
           "rank": 6
         },
@@ -1446,7 +1446,7 @@
         "title": "rohitg00/agentmemory",
         "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
         "url": "https://github.com/rohitg00/agentmemory",
-        "publishedAt": "2026-06-11T08:10:31.215Z",
+        "publishedAt": "2026-06-11T08:28:39.220Z",
         "metrics": {
           "rank": 7
         },
@@ -1461,7 +1461,7 @@
         "title": "rohitg00/ai-engineering-from-scratch",
         "summary": "Learn it.",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "publishedAt": "2026-06-11T08:10:31.222Z",
+        "publishedAt": "2026-06-11T08:28:39.226Z",
         "metrics": {
           "rank": 8
         },
@@ -1476,7 +1476,7 @@
         "title": "ruvnet/RuView",
         "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "url": "https://github.com/ruvnet/RuView",
-        "publishedAt": "2026-06-11T08:10:31.227Z",
+        "publishedAt": "2026-06-11T08:28:39.230Z",
         "metrics": {
           "rank": 9
         },
@@ -1491,7 +1491,7 @@
         "title": "Imbad0202/academic-research-skills",
         "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
         "url": "https://github.com/Imbad0202/academic-research-skills",
-        "publishedAt": "2026-06-11T08:10:31.232Z",
+        "publishedAt": "2026-06-11T08:28:39.235Z",
         "metrics": {
           "rank": 10
         },
@@ -1506,7 +1506,7 @@
         "title": "can1357/oh-my-pi",
         "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
         "url": "https://github.com/can1357/oh-my-pi",
-        "publishedAt": "2026-06-11T08:10:31.234Z",
+        "publishedAt": "2026-06-11T08:28:39.237Z",
         "metrics": {
           "rank": 11
         },
@@ -1521,7 +1521,7 @@
         "title": "fathah/hermes-desktop",
         "summary": "Desktop Companion for Hermes Agent English · 简体中文 · 日本語 · Español (LATAM) This project is in active development.",
         "url": "https://github.com/fathah/hermes-desktop",
-        "publishedAt": "2026-06-11T08:10:31.235Z",
+        "publishedAt": "2026-06-11T08:28:39.237Z",
         "metrics": {
           "rank": 12
         },
@@ -1536,7 +1536,7 @@
         "title": "HKUDS/ViMax",
         "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" ViMax: Agentic Video Generation 🚨 Current Video Generation Limitations: ❌ Limited to Short Clips - Most AI tools generate only seconds of footage.",
         "url": "https://github.com/HKUDS/ViMax",
-        "publishedAt": "2026-06-11T08:10:31.236Z",
+        "publishedAt": "2026-06-11T08:28:39.238Z",
         "metrics": {
           "rank": 13
         },
@@ -1551,7 +1551,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-06-11T08:10:31.237Z",
+        "publishedAt": "2026-06-11T08:28:39.239Z",
         "metrics": {
           "rank": 14
         },
@@ -1566,7 +1566,7 @@
         "title": "anthropics/knowledge-work-plugins",
         "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
         "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "publishedAt": "2026-06-11T08:10:31.237Z",
+        "publishedAt": "2026-06-11T08:28:39.240Z",
         "metrics": {
           "rank": 15
         },
@@ -1581,7 +1581,7 @@
         "title": "yikart/AiToEarn",
         "summary": "Let's use AI to Earn!",
         "url": "https://github.com/yikart/AiToEarn",
-        "publishedAt": "2026-06-11T08:10:31.238Z",
+        "publishedAt": "2026-06-11T08:28:39.240Z",
         "metrics": {
           "rank": 16
         },
@@ -1596,7 +1596,7 @@
         "title": "microsoft/markitdown",
         "summary": "Python tool for converting files and office documents to Markdown.",
         "url": "https://github.com/microsoft/markitdown",
-        "publishedAt": "2026-06-11T08:10:31.238Z",
+        "publishedAt": "2026-06-11T08:28:39.241Z",
         "metrics": {
           "rank": 17
         },
@@ -1611,7 +1611,7 @@
         "title": "Leonxlnx/taste-skill",
         "summary": "Taste-Skill - gives your AI good taste.",
         "url": "https://github.com/Leonxlnx/taste-skill",
-        "publishedAt": "2026-06-11T08:10:31.239Z",
+        "publishedAt": "2026-06-11T08:28:39.241Z",
         "metrics": {
           "rank": 18
         },
@@ -1626,7 +1626,7 @@
         "title": "hardikpandya/stop-slop",
         "summary": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
         "url": "https://github.com/hardikpandya/stop-slop",
-        "publishedAt": "2026-06-11T08:10:31.239Z",
+        "publishedAt": "2026-06-11T08:28:39.241Z",
         "metrics": {
           "rank": 19
         },
@@ -1641,7 +1641,7 @@
         "title": "iii-hq/iii",
         "summary": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
         "url": "https://github.com/iii-hq/iii",
-        "publishedAt": "2026-06-11T08:10:31.239Z",
+        "publishedAt": "2026-06-11T08:28:39.242Z",
         "metrics": {
           "rank": 20
         },
@@ -1655,7 +1655,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-06-11T08:10:39.522Z",
+    "fetchedAt": "2026-06-11T08:29:12.379Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1799,22 +1799,6 @@
         "metrics": {},
         "metadata": {
           "feedSource": "OpenAI Blog"
-        }
-      },
-      {
-        "source": "builder_anthropic",
-        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/claude-fable-5-mythos-5",
-        "title": "Claude Fable 5 and Claude Mythos 5",
-        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"The number five composed of several butterflies\" width=\"2880\" height=\"1620\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/b7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png\" referrerpolicy=\"no-referrer\"></div></div><div class=\"pag",
-        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"The number five composed of several butterflies\" width=\"2880\" height=\"1620\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/b7055119423427c40a0e4d84054aed17682b50a2-2880x1620.png\" referrerpolicy=\"no-referrer\"></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Today we’re launching <strong>Claude Fable 5</strong>: a Mythos-class<sup class=\"caption Body-module-scss-module__",
-        "url": "https://www.anthropic.com/news/claude-fable-5-mythos-5",
-        "authorName": "Anthropic",
-        "sourceName": "Anthropic News",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-08T16:00:00.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Anthropic News"
         }
       },
       {
@@ -2111,8 +2095,8 @@
         "source": "builder_hackernews",
         "sourceItemId": "builder_hackernews:https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
         "title": "Anthropic Walks Back Policy That Could Have 'Sabotaged' Researchers Using Claude",
-        "summary": "Article URL: https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/ Comments URL: https://news.ycombinator.com/item?id=48485958 Points: 39 # Comments: 18",
-        "body": "Article URL: https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/ Comments URL: https://news.ycombinator.com/item?id=48485958 Points: 39 # Comments: 18",
+        "summary": "Article URL: https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/ Comments URL: https://news.ycombinator.com/item?id=48485958 Points: 41 # Comments: 18",
+        "body": "Article URL: https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/ Comments URL: https://news.ycombinator.com/item?id=48485958 Points: 41 # Comments: 18",
         "url": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
         "sourceName": "Hacker News AI",
         "sourceCategory": "news",
@@ -2126,8 +2110,8 @@
         "source": "builder_hackernews",
         "sourceItemId": "builder_hackernews:https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
         "title": "AI agent runs amok in Fedora and elsewhere",
-        "summary": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 363 # Comments: 125",
-        "body": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 363 # Comments: 125",
+        "summary": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 366 # Comments: 126",
+        "body": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 366 # Comments: 126",
         "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
         "sourceName": "Hacker News AI",
         "sourceCategory": "news",
@@ -2171,8 +2155,8 @@
         "source": "builder_hackernews",
         "sourceItemId": "builder_hackernews:https://burr.apache.org/",
         "title": "Apache Burr: Build reliable AI agents and applications",
-        "summary": "Article URL: https://burr.apache.org/ Comments URL: https://news.ycombinator.com/item?id=48477400 Points: 208 # Comments: 99",
-        "body": "Article URL: https://burr.apache.org/ Comments URL: https://news.ycombinator.com/item?id=48477400 Points: 208 # Comments: 99",
+        "summary": "Article URL: https://burr.apache.org/ Comments URL: https://news.ycombinator.com/item?id=48477400 Points: 209 # Comments: 101",
+        "body": "Article URL: https://burr.apache.org/ Comments URL: https://news.ycombinator.com/item?id=48477400 Points: 209 # Comments: 101",
         "url": "https://burr.apache.org/",
         "sourceName": "Hacker News AI",
         "sourceCategory": "news",
@@ -2574,11 +2558,11 @@
       },
       {
         "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.11786",
-        "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay",
-        "summary": "Large Language Models (LLMs) offer new potential for translation tasks but often experience performance degradation when handling low-resource languages. To address this limitation, we propose an approach for fine-tuning LLMs on a low-resource language, Kupang Malay. Our approach involves designing a set of instructions by leveraging explicit lexical and semantic features from a bilingual dictionary, and introducing Continual Instruction Tuning (CIT), a training paradigm that enables iterative i",
-        "body": "Large Language Models (LLMs) offer new potential for translation tasks but often experience performance degradation when handling low-resource languages. To address this limitation, we propose an approach for fine-tuning LLMs on a low-resource language, Kupang Malay. Our approach involves designing a set of instructions by leveraging explicit lexical and semantic features from a bilingual dictionary, and introducing Continual Instruction Tuning (CIT), a training paradigm that enables iterative instruction-based training. Experimental results demonstrate that our model, named Lius, yields notable improvements over standard instruction-tuned models by outperforming 4-6 points, and surpassing both Neural Machine Translation (NMT) and Multilingual LLM models by 10-13 points on several evaluati",
-        "url": "https://arxiv.org/abs/2606.11786",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.12072",
+        "title": "World Model Self-Distillation: Training World Models to Solve General Tasks",
+        "summary": "Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability",
+        "body": "Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability in such models by combining self-distillation with reinforcement learning. Given an unlabeled scene image, a vision-language model generates a candidate task and a detailed step-by-step solution. The solution conditions a pretrained video diffusion model, the Demonstrator; we distill its behavior i",
+        "url": "https://arxiv.org/abs/2606.12072",
         "sourceName": "HuggingFace Papers",
         "sourceCategory": "technical",
         "publishedAt": "2026-06-09T20:00:00.000Z",
@@ -2589,11 +2573,11 @@
       },
       {
         "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.12072",
-        "title": "World Model Self-Distillation: Training World Models to Solve General Tasks",
-        "summary": "Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability",
-        "body": "Pretrained video generators are promising visual world models that exhibit emergent task-solving abilities; however, their reliance on detailed textual descriptions limits their direct use for planning and decision-making. Existing approaches either outsource this reasoning to language or vision-language models, or rely on supervised fine-tuning with paired task-execution videos, which are costly to collect and difficult to scale. We propose a scalable framework that elicits task-solving ability in such models by combining self-distillation with reinforcement learning. Given an unlabeled scene image, a vision-language model generates a candidate task and a detailed step-by-step solution. The solution conditions a pretrained video diffusion model, the Demonstrator; we distill its behavior i",
-        "url": "https://arxiv.org/abs/2606.12072",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.11786",
+        "title": "Lius: Translation Model Based Instructional Lingustic Using Continual Instruction Tuning In Kupang Malay",
+        "summary": "Large Language Models (LLMs) offer new potential for translation tasks but often experience performance degradation when handling low-resource languages. To address this limitation, we propose an approach for fine-tuning LLMs on a low-resource language, Kupang Malay. Our approach involves designing a set of instructions by leveraging explicit lexical and semantic features from a bilingual dictionary, and introducing Continual Instruction Tuning (CIT), a training paradigm that enables iterative i",
+        "body": "Large Language Models (LLMs) offer new potential for translation tasks but often experience performance degradation when handling low-resource languages. To address this limitation, we propose an approach for fine-tuning LLMs on a low-resource language, Kupang Malay. Our approach involves designing a set of instructions by leveraging explicit lexical and semantic features from a bilingual dictionary, and introducing Continual Instruction Tuning (CIT), a training paradigm that enables iterative instruction-based training. Experimental results demonstrate that our model, named Lius, yields notable improvements over standard instruction-tuned models by outperforming 4-6 points, and surpassing both Neural Machine Translation (NMT) and Multilingual LLM models by 10-13 points on several evaluati",
+        "url": "https://arxiv.org/abs/2606.11786",
         "sourceName": "HuggingFace Papers",
         "sourceCategory": "technical",
         "publishedAt": "2026-06-09T20:00:00.000Z",
@@ -2649,6 +2633,7 @@
       }
     ],
     "errors": [
+      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
       "Gwern: HTTP 403"
     ]
