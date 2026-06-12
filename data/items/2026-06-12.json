@@ -1,1277 +1,516 @@
 [
   {
-    "id": "aihot:aihot:cmqac9bgk0k4gslld8x52792w",
+    "id": "aihot:aihot:cmqae79010kohslldooq3h2gk",
     "source": "aihot",
-    "sourceItemId": "aihot:cmqac9bgk0k4gslld8x52792w",
-    "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
-    "summary": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
-    "body": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
-    "url": "https://x.com/vista8/status/2065264509170876417",
-    "sourceName": "X：Vista (@vista8)",
+    "sourceItemId": "aihot:cmqae79010kohslldooq3h2gk",
+    "title": "小互开源公众号自动排版技能组合",
+    "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
+    "body": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
+    "url": "https://x.com/xiaohu/status/2065278092441268246",
+    "sourceName": "X：小互 (@xiaohu)",
     "sourceCategory": "tip",
-    "publishedAt": "2026-06-12T02:46:44.000Z",
+    "publishedAt": "2026-06-12T03:40:42.000Z",
     "metrics": {},
     "metadata": {},
     "rawJson": {
-      "id": "cmqac9bgk0k4gslld8x52792w",
-      "title": "qiaomu-ai-prd：面向AI的PRD生成Prompt",
-      "title_en": "现在都是 AI Agent做开发，人喜欢的 PRD 和 AI 喜欢的是不一样的。 为了精准高效开发，写了个专门服务于 AI 的PRD文档生成Prompt。 先有这个文档，再给AI开发，功能完整度和…",
-      "url": "https://x.com/vista8/status/2065264509170876417",
-      "source": "X：Vista (@vista8)",
-      "publishedAt": "2026-06-12T02:46:44.000Z",
-      "summary": "推文提出AI Agent开发中人类与AI对PRD的需求不同，为此发布了一个专门服务于AI的PRD文档生成Prompt（命名为qiaomu-ai-prd）。开发者先使用该Prompt生成文档，再交给AI开发，可显著提升功能完整度和丰富性。安装指令为：`npx skills add joeseesun/qiaomu-ai-prd`，开源地址及Prompt见评论区。",
+      "id": "cmqae79010kohslldooq3h2gk",
+      "title": "小互开源公众号自动排版技能组合",
+      "title_en": "升级了下公众号排版技能 晚一点发布，还需要优化下 增加了一些主题和优化了预览和浏览页面的阅读体验",
+      "url": "https://x.com/xiaohu/status/2065278092441268246",
+      "source": "X：小互 (@xiaohu)",
+      "publishedAt": "2026-06-12T03:40:42.000Z",
+      "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
       "category": "tip",
       "score": 75,
       "selected": true
     },
     "systemCategory": "news",
-    "canonicalUrl": "https://x.com/vista8/status/2065264509170876417",
+    "canonicalUrl": "https://x.com/xiaohu/status/2065278092441268246",
     "sources": [
       "aihot"
     ],
     "sourceLinks": [
       {
         "source": "aihot",
-        "url": "https://x.com/vista8/status/2065264509170876417"
+        "url": "https://x.com/xiaohu/status/2065278092441268246"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmqabcv2q0jvmslldd7my04uo",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqabcv2q0jvmslldd7my04uo",
-    "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
-    "summary": "苹果在 iOS 27 中优化健康 App，将列表改为卡片布局并增加导航栏。新增视觉智能营养识别，用户通过相机 Siri 模式拍摄食物可获取加工程度、蛋白质、含糖量等信息及营养价值评级，不提供精确卡路里，需 iPhone 15 Pro 及以上。经期追踪扩展支持围绝经期，可分析长期周期异常模式并推送提醒与指导。Fitness+ 新增围绝经期和绝经期课程。数据同步速度提升，GymKit 扩展至 iPhone，无需 Apple Watch 即可与健身设备配对同步数据。",
-    "body": "苹果在 iOS 27 中优化健康 App，将列表改为卡片布局并增加导航栏。新增视觉智能营养识别，用户通过相机 Siri 模式拍摄食物可获取加工程度、蛋白质、含糖量等信息及营养价值评级，不提供精确卡路里，需 iPhone 15 Pro 及以上。经期追踪扩展支持围绝经期，可分析长期周期异常模式并推送提醒与指导。Fitness+ 新增围绝经期和绝经期课程。数据同步速度提升，GymKit 扩展至 iPhone，无需 Apple Watch 即可与健身设备配对同步数据。",
-    "url": "https://www.ithome.com/0/963/302.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-12T02:06:41.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqabcv2q0jvmslldd7my04uo",
-      "title": "苹果 iOS 27 健康 App 大改：卡片布局、营养识别、围绝经期追踪",
-      "title_en": "苹果升级 iOS 27 版健康 App：卡片布局、评估食物营养、追踪围绝经期等",
-      "url": "https://www.ithome.com/0/963/302.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-12T02:06:41.000Z",
-      "summary": "苹果在 iOS 27 中优化健康 App，将列表改为卡片布局并增加导航栏。新增视觉智能营养识别，用户通过相机 Siri 模式拍摄食物可获取加工程度、蛋白质、含糖量等信息及营养价值评级，不提供精确卡路里，需 iPhone 15 Pro 及以上。经期追踪扩展支持围绝经期，可分析长期周期异常模式并推送提醒与指导。Fitness+ 新增围绝经期和绝经期课程。数据同步速度提升，GymKit 扩展至 iPhone，无需 Apple Watch 即可与健身设备配对同步数据。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.ithome.com/0/963/302.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/963/302.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqa7y9h20iyrsllds3s2dok3",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqa7y9h20iyrsllds3s2dok3",
-    "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
-    "summary": "邵猛分享 Spec 驱动开发（SDD）方法，用三个 Skills（/write-product-spec、/write-tech-spec、/validate-changes-match-specs）覆盖 Spec→Implement→Verify 闭环。规格分两层：PRODUCT.md（用户故事、不变量）和 TECH.md（架构、实现策略），均放在 specs/<issue>/ 目录，随 PR 提交。五步流程：写产品规格、写技术规格、Agent 按规格实现、一致性校验、计算机操作端到端验证。Skills 可移植，不绑定 Warp。开源仓库 warpdotdev/common-skills，安装：npx skills add warpdotdev/common-skills。",
-    "body": "邵猛分享 Spec 驱动开发（SDD）方法，用三个 Skills（/write-product-spec、/write-tech-spec、/validate-changes-match-specs）覆盖 Spec→Implement→Verify 闭环。规格分两层：PRODUCT.md（用户故事、不变量）和 TECH.md（架构、实现策略），均放在 specs/<issue>/ 目录，随 PR 提交。五步流程：写产品规格、写技术规格、Agent 按规格实现、一致性校验、计算机操作端到端验证。Skills 可移植，不绑定 Warp。开源仓库 warpdotdev/common-skills，安装：npx skills add warpdotdev/common-skills。",
-    "url": "https://x.com/shao__meng/status/2065234132431675439",
-    "sourceName": "X：邵猛 (@shao__meng)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-12T00:46:02.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqa7y9h20iyrsllds3s2dok3",
-      "title": "Spec 驱动开发（SDD）的三个 Skills：覆盖 Spec→Implement→Verify 闭环",
-      "title_en": "Spec 驱动开发 （SDD） 需要这三个 Skills：覆盖 Spec -> Implement -> Verify 闭环 Agent 出错往往是需求理解偏差。解决办法是把规格当作 PR 的一部分…",
-      "url": "https://x.com/shao__meng/status/2065234132431675439",
-      "source": "X：邵猛 (@shao__meng)",
-      "publishedAt": "2026-06-12T00:46:02.000Z",
-      "summary": "邵猛分享 Spec 驱动开发（SDD）方法，用三个 Skills（/write-product-spec、/write-tech-spec、/validate-changes-match-specs）覆盖 Spec→Implement→Verify 闭环。规格分两层：PRODUCT.md（用户故事、不变量）和 TECH.md（架构、实现策略），均放在 specs/<issue>/ 目录，随 PR 提交。五步流程：写产品规格、写技术规格、Agent 按规格实现、一致性校验、计算机操作端到端验证。Skills 可移植，不绑定 Warp。开源仓库 warpdotdev/common-skills，安装：npx skills add warpdotdev/common-skills。",
-      "category": "tip",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/shao__meng/status/2065234132431675439",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/shao__meng/status/2065234132431675439"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqa7bz2g0itbslld0f4rluhk",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqa7bz2g0itbslld0f4rluhk",
-    "title": "Codex 推出浏览器开发者模式",
-    "summary": "为 Chrome 和 Codex 内置浏览器引入开发者模式。\n\nCodex 可以使用 Chrome DevTools 协议（CDP）来调试浏览器问题，通过分析 JavaScript 性能、检查控制台输出、网络流量和页面状态。",
-    "body": "为 Chrome 和 Codex 内置浏览器引入开发者模式。\n\nCodex 可以使用 Chrome DevTools 协议（CDP）来调试浏览器问题，通过分析 JavaScript 性能、检查控制台输出、网络流量和页面状态。",
-    "url": "https://x.com/OpenAIDevs/status/2065226355495895521",
-    "sourceName": "X：OpenAI Developers (@OpenAIDevs)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-12T00:15:07.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqa7bz2g0itbslld0f4rluhk",
-      "title": "Codex 推出浏览器开发者模式",
-      "title_en": "Introducing developer mode for browser use in Chrome and the Codex in-app browser. Codex can use th…",
-      "url": "https://x.com/OpenAIDevs/status/2065226355495895521",
-      "source": "X：OpenAI Developers (@OpenAIDevs)",
-      "publishedAt": "2026-06-12T00:15:07.000Z",
-      "summary": "为 Chrome 和 Codex 内置浏览器引入开发者模式。\n\nCodex 可以使用 Chrome DevTools 协议（CDP）来调试浏览器问题，通过分析 JavaScript 性能、检查控制台输出、网络流量和页面状态。",
-      "category": "ai-products",
-      "score": 69,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/OpenAIDevs/status/2065226355495895521",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/OpenAIDevs/status/2065226355495895521"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqa6vs2i0iodslldledhp882",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqa6vs2i0iodslldledhp882",
-    "title": "OpenAI Codex 推出速率重置攒存功能",
-    "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
-    "body": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
-    "url": "https://x.com/OpenAI/status/2065225362544726371",
-    "sourceName": "X：OpenAI (@OpenAI)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-12T00:11:11.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqa6vs2i0iodslldledhp882",
-      "title": "OpenAI Codex 推出速率重置攒存功能",
-      "title_en": "We heard you wanted to use Codex rate limit resets on your own time. Starting today， we're rolling …",
-      "url": "https://x.com/OpenAI/status/2065225362544726371",
-      "source": "X：OpenAI (@OpenAI)",
-      "publishedAt": "2026-06-12T00:11:11.000Z",
-      "summary": "我们听说您希望能在自己方便的时候使用 Codex 速率限制重置。\n从今天起，我们开始推出将速率限制重置保留到以后使用的功能。\n我们从 Go、Plus、Pro 和 Business 用户开始，每人提供一次免费重置：",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/OpenAI/status/2065225362544726371",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/OpenAI/status/2065225362544726371"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqa38qfw0hrsslld9n3v1pzf",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqa38qfw0hrsslld9n3v1pzf",
-    "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
-    "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
-    "body": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
-    "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-    "sourceCategory": "paper",
-    "publishedAt": "2026-06-11T22:23:17.154Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqa38qfw0hrsslld9n3v1pzf",
-      "title": "研究模拟显示：LLM 在 95% 的模拟中会使用战术核武器",
-      "title_en": "我们来玩个游戏吧？--在95%的模拟中，大型语言模型都会使用战术核武器",
-      "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-11T22:23:17.154Z",
-      "summary": "一项模拟研究显示，大型语言模型（LLM）在 95% 的模拟场景中会选择使用战术核武器。该研究未指明具体模型名称与版本，结果引发对 AI 决策行为的关注。",
-      "category": "paper",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://www.kennethpayne.uk/p/shall-we-play-a-game",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.kennethpayne.uk/p/shall-we-play-a-game"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqa20ewf0hf8slldlq4bawrp",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqa20ewf0hf8slldlq4bawrp",
-    "title": "Replit 专家级提示词技巧",
-    "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
-    "body": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
-    "url": "https://x.com/Replit/status/2065192392718733327",
-    "sourceName": "X：Replit (@Replit)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T22:00:10.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqa20ewf0hf8slldlq4bawrp",
-      "title": "Replit 专家级提示词技巧",
-      "title_en": "How to prompt like a pro with Replit 🤖 Vague prompts just mean more rewrites. Here's how to get Ag…",
-      "url": "https://x.com/Replit/status/2065192392718733327",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-11T22:00:10.000Z",
-      "summary": "如何像专家一样使用 Replit 进行提示 🤖\n\n模糊的提示词只会导致更多重写。以下是如何让 Agent 第一次就构建出正确的东西。\n\n🧵 展开线程 ↓",
-      "category": "tip",
-      "score": 72,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/Replit/status/2065192392718733327",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/Replit/status/2065192392718733327"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqa20ewf0hf9slldu9bj1rhz",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqa20ewf0hf9slldu9bj1rhz",
-    "title": "Replit 与 Databricks 集成升级，公开预览开放",
-    "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
-    "body": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
-    "url": "https://x.com/Replit/status/2065189762365813089",
-    "sourceName": "X：Replit (@Replit)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T21:49:43.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqa20ewf0hf9slldu9bj1rhz",
-      "title": "Replit 与 Databricks 集成升级，公开预览开放",
-      "title_en": "Replit and @databricks integration just leveled up. Build apps where every user sees only what they…",
-      "url": "https://x.com/Replit/status/2065189762365813089",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-11T21:49:43.000Z",
-      "summary": "Replit 与 @databricks 集成刚刚升级了。\n\n构建应用，让每个用户只看到他们应该看到的内容。你的 HR 分析师可以为 CEO 构建完整的组织视图，而无需访问底层数据。\n\n公开预览已开放注册！了解更多 →\n\nhttps：//replit.com/blog/databricksjune2026",
-      "category": "ai-products",
-      "score": 68,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/Replit/status/2065189762365813089",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/Replit/status/2065189762365813089"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9wt5fl0g09slldyw8h9u7p",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9wt5fl0g09slldyw8h9u7p",
-    "title": "全自主无人机首次击毙了人类士兵",
-    "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
-    "body": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
-    "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
-    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-11T19:29:06.279Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9wt5fl0g09slldyw8h9u7p",
-      "title": "全自主无人机首次击毙了人类士兵",
-      "title_en": null,
-      "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-11T19:29:06.279Z",
-      "summary": "据《新科学家》6月10日报道，全自主无人机首次击毙了人类士兵。这是有记录以来第一次由完全自主运行的无人机执行致命攻击，标志着自主武器系统在实战中的新进展。该报道来自《新科学家》网站，目前尚无更多细节公布。",
-      "category": "industry",
-      "score": 88,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.newscientist.com/article/2529849-fully-autonomous-drones-have-killed-human-soldiers-for-the-first-time"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9vker90fnyslldhowm7reb",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9vker90fnyslldhowm7reb",
-    "title": "Replit Agent 新增自定义指令与技能功能",
-    "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
-    "body": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
-    "url": "https://x.com/Replit/status/2065146579326271883",
-    "sourceName": "X：Replit (@Replit)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T18:58:07.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9vker90fnyslldhowm7reb",
-      "title": "Replit Agent 新增自定义指令与技能功能",
-      "title_en": "AI agents are powerful， but they don't remember your preferences. So you end up repeating instructi…",
-      "url": "https://x.com/Replit/status/2065146579326271883",
-      "source": "X：Replit (@Replit)",
-      "publishedAt": "2026-06-11T18:58:07.000Z",
-      "summary": "AI 智能体很强大，但它们不记得你的偏好。\n\n所以你总是重复指令--如何组织项目、你的品牌指南。\n\n现在你可以通过自定义指令和技能让 Replit Agent 学会你的惯例。\n\n它会在每个项目中自动将这些考虑进去。",
-      "category": "ai-products",
-      "score": 65,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/Replit/status/2065146579326271883",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/Replit/status/2065146579326271883"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9tg1bi0f3qslld86ne1vt3",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9tg1bi0f3qslld86ne1vt3",
-    "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
-    "summary": "Anthropic与IT服务公司DXC Technology达成多年全球联盟。DXC将培训数万名获得Claude认证的前沿部署工程师（FDE），将Claude引入其为全球大型银行、航空公司、保险公司及政府机构运营的关键系统。内部部署中，Claude已成为DXC OASIS平台的默认基础模型，该平台超95%代码由Claude编写，开发速度提升10倍，已服务50多家客户。DXC加入Claude Partner Network，将在保险、现代化服务、网络安全及应用服务四个领域率先推出基于Claude的解决方案。",
-    "body": "Anthropic与IT服务公司DXC Technology达成多年全球联盟。DXC将培训数万名获得Claude认证的前沿部署工程师（FDE），将Claude引入其为全球大型银行、航空公司、保险公司及政府机构运营的关键系统。内部部署中，Claude已成为DXC OASIS平台的默认基础模型，该平台超95%代码由Claude编写，开发速度提升10倍，已服务50多家客户。DXC加入Claude Partner Network，将在保险、现代化服务、网络安全及应用服务四个领域率先推出基于Claude的解决方案。",
-    "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-    "sourceName": "Anthropic：Newsroom（网页）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-11T18:13:16.585Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Anthropic News"
-    },
-    "rawJson": {
-      "id": "cmq9tg1bi0f3qslld86ne1vt3",
-      "title": "Anthropic与DXC达成全球联盟，将Claude引入关键行业系统",
-      "title_en": "DXC will integrate Claude into the systems banks， airlines， and other regulated industries rely on",
-      "url": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-06-11T18:13:16.585Z",
-      "summary": "Anthropic与IT服务公司DXC Technology达成多年全球联盟。DXC将培训数万名获得Claude认证的前沿部署工程师（FDE），将Claude引入其为全球大型银行、航空公司、保险公司及政府机构运营的关键系统。内部部署中，Claude已成为DXC OASIS平台的默认基础模型，该平台超95%代码由Claude编写，开发速度提升10倍，已服务50多家客户。DXC加入Claude Partner Network，将在保险、现代化服务、网络安全及应用服务四个领域率先推出基于Claude的解决方案。",
-      "category": "industry",
-      "score": 74,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.anthropic.com/news/dxc-anthropic-alliance",
-    "sources": [
-      "aihot",
-      "builder_anthropic"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.anthropic.com/news/dxc-anthropic-alliance"
-      },
-      {
-        "source": "builder_anthropic",
-        "url": "https://www.anthropic.com/news/dxc-anthropic-alliance"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9sr7km0exoslld90mxla1z",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9sr7km0exoslld90mxla1z",
-    "title": "Perplexity Computer 集成 Deep Research",
-    "summary": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。",
-    "body": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。",
-    "url": "https://x.com/perplexity_ai/status/2065124930463916317",
-    "sourceName": "X：Perplexity (@perplexity_ai)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T17:32:06.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9sr7km0exoslld90mxla1z",
-      "title": "Perplexity Computer 集成 Deep Research",
-      "title_en": "We're integrating Deep Research as a native skill inside Computer. It now connects to the agent har…",
-      "url": "https://x.com/perplexity_ai/status/2065124930463916317",
-      "source": "X：Perplexity (@perplexity_ai)",
-      "publishedAt": "2026-06-11T17:32:06.000Z",
-      "summary": "我们正在将 Deep Research 作为原生技能集成到 Computer 中。\n\n它现在连接到驱动 Computer 的智能体框架，可访问搜索即代码生成、长运行沙箱、连接器、工具和授权数据。\n\nPro 和 Max 订阅者现已可用。",
-      "category": "ai-products",
-      "score": 77,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/perplexity_ai/status/2065124930463916317",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/perplexity_ai/status/2065124930463916317"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9rg6q70ekjslldnvejg7m9",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9rg6q70ekjslldnvejg7m9",
-    "title": "DeepSeek-R1 的开源实现",
-    "summary": "DeepSeek-R1 的开源复现项目已在 GitHub 发布，在 Hacker News 上获得 101 个积分。该项目旨在以开源方式复现 DeepSeek-R1 模型。",
-    "body": "DeepSeek-R1 的开源复现项目已在 GitHub 发布，在 Hacker News 上获得 101 个积分。该项目旨在以开源方式复现 DeepSeek-R1 模型。",
-    "url": "https://github.com/huggingface/open-r1",
-    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T17:07:18.181Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9rg6q70ekjslldnvejg7m9",
-      "title": "DeepSeek-R1 的开源实现",
-      "title_en": null,
-      "url": "https://github.com/huggingface/open-r1",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-11T17:07:18.181Z",
-      "summary": "DeepSeek-R1 的开源复现项目已在 GitHub 发布，在 Hacker News 上获得 101 个积分。该项目旨在以开源方式复现 DeepSeek-R1 模型。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://github.com/huggingface/open-r1",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://github.com/huggingface/open-r1"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9rke110ekyslldmbw1ap3o",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9rke110ekyslldmbw1ap3o",
-    "title": "Gemini Omni Flash 视频任务达 SOTA",
-    "summary": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！",
-    "body": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！",
-    "url": "https://x.com/OfficialLoganK/status/2065118111360303414",
-    "sourceName": "X：Logan Kilpatrick (@OfficialLoganK)",
-    "sourceCategory": "ai-models",
-    "publishedAt": "2026-06-11T17:05:00.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9rke110ekyslldmbw1ap3o",
-      "title": "Gemini Omni Flash 视频任务达 SOTA",
-      "title_en": "Gemini Omni Flash is SOTA at image to video， text to video， and video editing ： ） Excited to get t…",
-      "url": "https://x.com/OfficialLoganK/status/2065118111360303414",
-      "source": "X：Logan Kilpatrick (@OfficialLoganK)",
-      "publishedAt": "2026-06-11T17:05:00.000Z",
-      "summary": "Gemini Omni Flash 在图像到视频、文本到视频和视频编辑方面达到了 SATA ： ）\n\n很高兴很快能将这一能力通过 API 提供给开发者！",
-      "category": "ai-models",
-      "score": 81,
-      "selected": true
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://x.com/OfficialLoganK/status/2065118111360303414",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/OfficialLoganK/status/2065118111360303414"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9zl2ha0gp3slld5dmtovns",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9zl2ha0gp3slld5dmtovns",
-    "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
-    "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。",
-    "body": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。",
-    "url": "https://openrouter.ai/blog/insights/llm-gateway",
-    "sourceName": "OpenRouter：Announcements（RSS）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T16:00:00.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9zl2ha0gp3slld5dmtovns",
-      "title": "什么是 LLM 网关？应用与 AI 模型之间缺失的一层",
-      "title_en": "What Is an LLM Gateway？ The Missing Layer Between Your App and AI Models",
-      "url": "https://openrouter.ai/blog/insights/llm-gateway",
-      "source": "OpenRouter：Announcements（RSS）",
-      "publishedAt": "2026-06-11T16:00:00.000Z",
-      "summary": "缺少 LLM 网关时，供应商中断会直接变成用户可见的错误，AI 支出也难以追踪。文章从路由、合规性和设置时间三个维度比较了最佳方案。",
-      "category": "tip",
-      "score": 60,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://openrouter.ai/blog/insights/llm-gateway",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://openrouter.ai/blog/insights/llm-gateway"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9ob4g50dqhslldg9noqyw9",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9ob4g50dqhslldg9noqyw9",
-    "title": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
-    "summary": "杰夫·贝佐斯旗下AI公司Prometheus在成立仅7个月、尚无任何产品交付的情况下，以410亿美元估值完成120亿美元融资（最初估值62亿美元）。该公司定位为\"人工通用工程师\"，目标是将设计到制造的循环压缩10倍以上。但物理经济无法像互联网数据那样抓取，缺乏制造业训练数据。为此，Prometheus计划斥资1000亿美元收购传统工业企业，通过获取工厂生成的数据构建护城河。",
-    "body": "杰夫·贝佐斯旗下AI公司Prometheus在成立仅7个月、尚无任何产品交付的情况下，以410亿美元估值完成120亿美元融资（最初估值62亿美元）。该公司定位为\"人工通用工程师\"，目标是将设计到制造的循环压缩10倍以上。但物理经济无法像互联网数据那样抓取，缺乏制造业训练数据。为此，Prometheus计划斥资1000亿美元收购传统工业企业，通过获取工厂生成的数据构建护城河。",
-    "url": "https://x.com/kimmonismus/status/2065097988859744503",
-    "sourceName": "X：Kim (@kimmonismus)",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-11T15:45:02.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9ob4g50dqhslldg9noqyw9",
-      "title": "Prometheus 融资120亿美元，估值410亿美元，定位\"人工通用工程师\"",
-      "title_en": "Jeff Bezos raised $12B for Prometheus at a $41B valuation， seven months after launching it at $6.2B …",
-      "url": "https://x.com/kimmonismus/status/2065097988859744503",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-06-11T15:45:02.000Z",
-      "summary": "杰夫·贝佐斯旗下AI公司Prometheus在成立仅7个月、尚无任何产品交付的情况下，以410亿美元估值完成120亿美元融资（最初估值62亿美元）。该公司定位为\"人工通用工程师\"，目标是将设计到制造的循环压缩10倍以上。但物理经济无法像互联网数据那样抓取，缺乏制造业训练数据。为此，Prometheus计划斥资1000亿美元收购传统工业企业，通过获取工厂生成的数据构建护城河。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/kimmonismus/status/2065097988859744503",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/kimmonismus/status/2065097988859744503"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9o747e0dq2slldfrnfjbak",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9o747e0dq2slldfrnfjbak",
-    "title": "OpenRouter 基准探索器：10项帕累托曲线",
-    "summary": "使用我们的基准探索器，为10个不同基准绘制帕累托曲线。\n\n更多功能即将推出！https：//openrouter.ai/rankings#benchmarks",
-    "body": "使用我们的基准探索器，为10个不同基准绘制帕累托曲线。\n\n更多功能即将推出！https：//openrouter.ai/rankings#benchmarks",
-    "url": "https://x.com/OpenRouter/status/2065094780271329729",
-    "sourceName": "X：OpenRouter (@OpenRouter)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T15:32:17.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9o747e0dq2slldfrnfjbak",
-      "title": "OpenRouter 基准探索器：10项帕累托曲线",
-      "title_en": "Use our Benchmarks explorer to plot Pareto curves for 10 different benchmarks More coming soon！ htt…",
-      "url": "https://x.com/OpenRouter/status/2065094780271329729",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-06-11T15:32:17.000Z",
-      "summary": "使用我们的基准探索器，为10个不同基准绘制帕累托曲线。\n\n更多功能即将推出！https：//openrouter.ai/rankings#benchmarks",
-      "category": "ai-products",
-      "score": 77,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/OpenRouter/status/2065094780271329729",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/OpenRouter/status/2065094780271329729"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9niqdy0dijslldlisb24yj",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9niqdy0dijslldlisb24yj",
-    "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
-    "summary": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。",
-    "body": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。",
-    "url": "https://x.com/vista8/status/2065090494972174821",
-    "sourceName": "X：Vista (@vista8)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T15:15:16.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9niqdy0dijslldlisb24yj",
-      "title": "Codex Goal指令生成Skill发布：一句话需求转目标",
-      "title_en": "很多朋友问，如何给Codex写一个好的Goal指令？ 睡觉前执行，模型自动开发，第二天\"收菜\"。 发过4w字文档，但多数人懒的看，所以我写了个Skill。 把一句话需求变成目标，复制就能用。 …",
-      "url": "https://x.com/vista8/status/2065090494972174821",
-      "source": "X：Vista (@vista8)",
-      "publishedAt": "2026-06-11T15:15:16.000Z",
-      "summary": "针对如何给Codex写Goal指令的问题，作者发布了一个Skill，可将一句话需求自动转化为目标，实现\"睡前写指令、模型自动开发、第二天收菜\"。安装命令：`npx skills add joeseesun/qiaomu-goal-meta-skill`。源码免费开源（见评论区），旨在简化4w字文档的阅读负担。",
-      "category": "tip",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/vista8/status/2065090494972174821",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/vista8/status/2065090494972174821"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9mtk1y0dbpslldlq5ewsuc",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9mtk1y0dbpslldlq5ewsuc",
-    "title": "Krea 2 推出生成式滑块控制图像属性",
-    "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇",
-    "body": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇",
-    "url": "https://x.com/krea_ai/status/2065086662166901114",
-    "sourceName": "X：Krea AI (@krea_ai)",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T15:00:02.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9mtk1y0dbpslldlq5ewsuc",
-      "title": "Krea 2 推出生成式滑块控制图像属性",
-      "title_en": "introducing Generative Sliders. now you can control the intensity， complexity， and movement of any…",
-      "url": "https://x.com/krea_ai/status/2065086662166901114",
-      "source": "X：Krea AI (@krea_ai)",
-      "publishedAt": "2026-06-11T15:00:02.000Z",
-      "summary": "推出生成式滑块。\n现在您可以控制使用 Krea 2 生成的任何图像的强度、复杂度和运动。\n你希望看到哪些新控制？👇",
-      "category": "ai-products",
-      "score": 73,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://x.com/krea_ai/status/2065086662166901114",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/krea_ai/status/2065086662166901114"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9mg2690d8hslldbkfxzrz7",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9mg2690d8hslldbkfxzrz7",
-    "title": "Claude Fable 5 一句话生成桌面台球游戏",
-    "summary": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行",
-    "body": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行",
-    "url": "https://x.com/vista8/status/2065079656324407345",
-    "sourceName": "X：Vista (@vista8)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T14:32:12.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9mg2690d8hslldbkfxzrz7",
-      "title": "Claude Fable 5 一句话生成桌面台球游戏",
-      "title_en": "Claude Fable 5 一句话生成的桌面台球！ 念念不忘的蝗虫群梗彻底终结。 提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行",
-      "url": "https://x.com/vista8/status/2065079656324407345",
-      "source": "X：Vista (@vista8)",
-      "publishedAt": "2026-06-11T14:32:12.000Z",
-      "summary": "Claude Fable 5 一句话生成的桌面台球！\n\n念念不忘的蝗虫群梗彻底终结。\n\n提示词：设计一个完整的能玩的3D桌球游戏，一个网页就能运行",
-      "category": "tip",
-      "score": 79,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/vista8/status/2065079656324407345",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/vista8/status/2065079656324407345"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9ljue40czuslldeag7dg21",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9ljue40czuslldeag7dg21",
-    "title": "Runway与Lionsgate扩大战略合作",
-    "summary": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。",
-    "body": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。",
-    "url": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
-    "sourceName": "Runway：News（网页）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-11T14:31:51.811Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9ljue40czuslldeag7dg21",
-      "title": "Runway与Lionsgate扩大战略合作",
-      "title_en": "Runway and Lionsgate Expand Partnership",
-      "url": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
-      "source": "Runway：News（网页）",
-      "publishedAt": "2026-06-11T14:31:51.811Z",
-      "summary": "全球内容巨头Lionsgate与生成式AI研究公司Runway今日宣布扩大战略合作。Lionsgate已取得Runway股权，双方将启动联合开发项目，共同创作并制作新IP，首推一部基于Lionsgate现有IP和Runway生成模型的短剧系列。此外，Lionsgate将作为主持伙伴参与6月举行的Runway AI电影节。这是双方继2024年9月首次合作后的深化，Lionsgate此前已在预可视化、故事板及最终帧制作中应用Runway工具。",
-      "category": "industry",
-      "score": 72,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://runwayml.com/news/runway-and-lionsgate-expand-partnership"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9jvb4g0ckisllddfpo3q18",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9jvb4g0ckisllddfpo3q18",
-    "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
-    "summary": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。",
-    "body": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。",
-    "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
-    "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T13:34:49.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9jvb4g0ckisllddfpo3q18",
-      "title": "OpenAI 正酝酿\"大幅\"降价，Gary Marcus 视其为示弱信号",
-      "title_en": "Breaking： OpenAI is pondering \"drastic\" price cuts.",
-      "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
-      "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
-      "publishedAt": "2026-06-11T13:34:49.000Z",
-      "summary": "OpenAI 正考虑大幅降价，Gary Marcus 认为这暴露了公司的疲软竞争力。",
-      "category": "tip",
-      "score": 58,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://garymarcus.substack.com/p/breaking-openai-is-pondering-drastic"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9ip4u40c8eslldarnso34b",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9ip4u40c8eslldarnso34b",
-    "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
-    "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
-    "body": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
-    "url": "https://www.anthropic.com/news/claude-corps",
-    "sourceName": "Anthropic：Newsroom（网页）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-11T13:12:25.934Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Anthropic News"
-    },
-    "rawJson": {
-      "id": "cmq9ip4u40c8eslldarnso34b",
-      "title": "Anthropic 启动 Claude Corps 全国奖学金项目",
-      "title_en": "Introducing Claude Corps",
-      "url": "https://www.anthropic.com/news/claude-corps",
-      "source": "Anthropic：Newsroom（网页）",
-      "publishedAt": "2026-06-11T13:12:25.934Z",
-      "summary": "Anthropic 推出 Claude Corps 奖学金项目，面向早期职业生涯的年轻人，培训 1，000 名研究员使用 Claude，并匹配给美国非营利组织全职工作一年。研究员年薪 85，000 美元及福利，每周接受 5 小时持续培训。Anthropic 初始投入 1.5 亿美元，合作方为 CodePath 和 Social Finance。至少 400 家非营利组织将参与接待，包括 Braven、Code the Dream、Heartland Forward 等。",
-      "category": "industry",
-      "score": 61,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.anthropic.com/news/claude-corps",
-    "sources": [
-      "aihot",
-      "builder_anthropic"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.anthropic.com/news/claude-corps"
-      },
-      {
-        "source": "builder_anthropic",
-        "url": "https://www.anthropic.com/news/claude-corps"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9rpndz0emkslldcjukgjn5",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9rpndz0emkslldcjukgjn5",
-    "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
-    "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。",
-    "body": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。",
-    "url": "https://cursor.com/blog/auto-review",
-    "sourceName": "Cursor Blog",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T12:00:00.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9rpndz0emkslldcjukgjn5",
-      "title": "Cursor 推出 Auto-review 机制：用分类器智能体动态管控智能体自主权限",
-      "title_en": "Governing agent autonomy with Auto-review",
-      "url": "https://cursor.com/blog/auto-review",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-06-11T12:00:00.000Z",
-      "summary": "Cursor 近日推出 Auto-review，通过一个专门的分类器智能体在工具调用前审查动作风险。该分类器根据上下文判断动作是否与用户意图一致，高风险时阻止并返回解释给父智能体，低风险时放行。分类器采用小模型，运行在智能体循环内以避免额外延迟，并能读取工作区文件辅助判断。测试基于约12小时内部开发会话生成的6122条标签数据，以及针对读取密钥、操作生产数据等危险场景的合成数据。设计目标是在不频繁阻断日常开发的前提下，拦截风险动作。",
-      "category": "ai-products",
-      "score": 74,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://cursor.com/blog/auto-review",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://cursor.com/blog/auto-review"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9ck1s90amsslldrz73effj",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9ck1s90amsslldrz73effj",
-    "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
-    "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵",
-    "body": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵",
-    "url": "https://x.com/SiliconFlowAI/status/2065015632215912879",
-    "sourceName": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T10:17:47.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9ck1s90amsslldrz73effj",
-      "title": "Hermes Agent Desktop 发布，硅基流动支持一键切换",
-      "title_en": "@NousResearch has shipped Hermes Agent Desktop - and it's now even easier to use frontier open-sourc…",
-      "url": "https://x.com/SiliconFlowAI/status/2065015632215912879",
-      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
-      "publishedAt": "2026-06-11T10:17:47.000Z",
-      "summary": "@NousResearch 发布了 Hermes Agent Desktop--现在通过 @硅基流动 SiliconFlow 使用前沿开源模型更加便捷 🔥\n\n→ 一键随时切换模型--DeepSeek-V4、GLM-5.1、Kimi-K2.6、MiniMax-M3 等，均在硅基流动上\n… …\n通过硅基流动开启你的 Hermes 之旅的完整指南 👇🧵",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/SiliconFlowAI/status/2065015632215912879",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/SiliconFlowAI/status/2065015632215912879"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9ax93k0a7lslldcqadlkhv",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9ax93k0a7lslldcqadlkhv",
-    "title": "Codex 维护仓库：5分钟循环并行自治",
-    "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。",
-    "body": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。",
-    "url": "https://x.com/steipete/status/2064998499780084154",
-    "sourceName": "X：Peter Steinberger (@steipete)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T09:09:42.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9ax93k0a7lslldcqadlkhv",
-      "title": "Codex 维护仓库：5分钟循环并行自治",
-      "title_en": "Here's a simple loop： Tell codex to maintain your repos， wake up every 5 minutes and direct work to …",
-      "url": "https://x.com/steipete/status/2064998499780084154",
-      "source": "X：Peter Steinberger (@steipete)",
-      "publishedAt": "2026-06-11T09:09:42.000Z",
-      "summary": "一个简单的循环：告诉 Codex 维护你的仓库，每5分钟唤醒一次，将工作直接分配到线程。这样可以轻松按需并行化和导向工作。\n\n我使用一个编排器技能，结合我的分类+自动审查+计算机使用技能，因此部分工作可以自主落地。",
-      "category": "tip",
-      "score": 78,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/steipete/status/2064998499780084154",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/steipete/status/2064998499780084154"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq9asgdq0a6mslld6xdabp77",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq9asgdq0a6mslld6xdabp77",
-    "title": "阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线",
-    "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。",
-    "body": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。",
-    "url": "https://www.ithome.com/0/963/009.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T08:50:49.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq9asgdq0a6mslld6xdabp77",
-      "title": "阿里云发布 Meoo CLI：本地 AI 编程项目可一键部署上线",
-      "title_en": "阿里云秒悟 Meoo CLI 发布：本地 AI 编程项目可一键部署上线，支持 Claude Code、Codex 等",
-      "url": "https://www.ithome.com/0/963/009.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-11T08:50:49.000Z",
-      "summary": "阿里云今日推出 Meoo（秒悟）开源命令行工具 Meoo CLI，面向开发者，支持 Claude Code、Codex、Cursor 等本地 AI 编程助手。通过调用阿里云云端能力，可自动完成数据库接入、用户登录、文件存储及项目发布，将本地项目一键部署上线并生成可分享的访问链接。该工具定位为本地 Agent 与秒悟云端能力的连接入口，已开放下载，支持主流 Linux、macOS 及 Windows 平台。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.ithome.com/0/963/009.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/963/009.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq99p86d09wisllduyfqf5mn",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq99p86d09wisllduyfqf5mn",
-    "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
-    "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。",
-    "body": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。",
-    "url": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
-    "sourceName": "公众号：千问APP（阿里）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T08:40:14.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq99p86d09wisllduyfqf5mn",
-      "title": "千问推出首个足球预测AI助手，竞猜赢奖并捐建球场",
-      "title_en": "猜到了！这届美加墨冠军是--",
-      "url": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
-      "source": "公众号：千问APP（阿里）",
-      "publishedAt": "2026-06-11T08:40:14.000Z",
-      "summary": "千问上线首个足球预测AI助手，基于海量大数据（含历史比赛、球员数据、伤病、美加墨地貌及天气等）。以6月22日挪威对塞内加尔为例，预测\"1：1平局\"，理由为气候差异。活动：参与全部104场竞猜，预测超80场且准确率超千问可抽万元大奖（100个名额）；预测超32场可抽千问AI眼镜G1（1000副），该眼镜支持赛后分析、拍屏识球员及赛事结果订阅。累积积分将向乡村学校捐建足球场，目标至少50所。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/G36ugI8tuSLUkDzL_sJNkQ"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq99cd9g09skslldniw7u2ub",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq99cd9g09skslldniw7u2ub",
-    "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
-    "summary": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。",
-    "body": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。",
-    "url": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
-    "sourceName": "公众号：腾讯混元",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-11T08:34:59.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq99cd9g09skslldniw7u2ub",
-      "title": "腾讯混元 AI Infra 新开源：HPC-Ops 推理核心算子全面升级",
-      "title_en": null,
-      "url": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
-      "source": "公众号：腾讯混元",
-      "publishedAt": "2026-06-11T08:34:59.000Z",
-      "summary": "腾讯混元 AI Infra 团队开源升级 HPC-Ops 推理算子库，推出五大核心算子。Attention 采用运行时动态负载调度，长文本最高加速 2.95x，端到端 QPM 提升 17%；Router GEMM 以双 BF16 组合实现 FP32 精度，对比 CuBLAS FP32 最高提速 3.22x；FusedMoE 相对 vLLM、SGLang 性能提升 1.2x~1.6x；Fused AllReduce+Norm 对比主流方案最高提速 1.68x；Sampler 将解码采样融合为 2 个 CUDA Kernel，相对 vLLM 提速 4.0x~7.5x。所有能力均来自生产实践并完全开源。",
-      "category": "ai-products",
-      "score": 78,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/y0vd1cpvWXLSssL1kXxguw"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq954qjy08p2slldtang9e2v",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq954qjy08p2slldtang9e2v",
-    "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
-    "summary": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。",
-    "body": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。",
-    "url": "https://x.com/dotey/status/2064959133535658144",
-    "sourceName": "X：宝玉 (@dotey)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T06:33:17.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq954qjy08p2slldtang9e2v",
-      "title": "baoyu-design skill 更新：支持导入 Figma 本地文件重建设计系统",
-      "title_en": "baoyu-design skill （让你本地运行 Claude Design 的 Skill）更新，现在支持导入 figma 本地文件（Figma可以保存成 xxx.fig 文件）。比如你有一个设…",
-      "url": "https://x.com/dotey/status/2064959133535658144",
-      "source": "X：宝玉 (@dotey)",
-      "publishedAt": "2026-06-11T06:33:17.000Z",
-      "summary": "baoyu-design skill 更新，现已支持导入 Figma 本地文件（.fig），可在本地重建设计系统，效果与 Claude Design 在线版一致。该功能依赖 Claude Fable 5 辅助（Token 不够用）。安装后提供 Figma 文件路径即可导入为 Design System，后续新建设计项目可复用。同时支持在新建项目时添加已导入的 Design System，保留了 Claude Design 原始的导入和编译方式，用户可通过提问选择设计系统。安装命令：`npx skills add JimLiu/baoyu-design`。项目地址：https：//github.com/jimliu/baoyu-design。",
-      "category": "tip",
-      "score": 77,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/dotey/status/2064959133535658144",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/dotey/status/2064959133535658144"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq958epc08qasllddc5u86n8",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq958epc08qasllddc5u86n8",
-    "title": "AI浪潮引发中国担忧：官媒呼吁保护劳动者权益",
-    "summary": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。",
-    "body": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。",
-    "url": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
-    "sourceName": "Bloomberg：Technology（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-11T06:19:13.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq958epc08qasllddc5u86n8",
-      "title": "AI浪潮引发中国担忧：官媒呼吁保护劳动者权益",
-      "title_en": "AI Wave Sparks Alarm in China With Call to Protect Worker Rights",
-      "url": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
-      "source": "Bloomberg：Technology（RSS）",
-      "publishedAt": "2026-06-11T06:19:13.000Z",
-      "summary": "中国工作场所快速采用人工智能，引发官媒异常直白地呼吁保护劳工权利。北京正在考虑如何控制这项新技术带来的风险。",
-      "category": "industry",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.bloomberg.com/news/articles/2026-06-11/ai-wave-sparks-alarm-in-china-with-call-to-protect-worker-rights"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq94c8iu08i6slld2kpggdra",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq94c8iu08i6slld2kpggdra",
-    "title": "Anthropic CEO 阿莫迪：AI 可能会造成大规模、长期性的岗位流失",
-    "summary": "Anthropic CEO 达里奥・阿莫迪警告，AI造成的大规模岗位流失是技术固有属性--AI系统旨在复刻人类认知，失业将成为结构性必然结果。他提出应对思路：完善劳动力市场监测、推行薪资保障与留岗税收优惠、发放培训补贴；若人力需求永久下降，则需通过征税推行全民基本收入等长期收入保障。Anthropic目标非削减人力成本，而是帮企业开拓新营收、盘活现有员工产能。",
-    "body": "Anthropic CEO 达里奥・阿莫迪警告，AI造成的大规模岗位流失是技术固有属性--AI系统旨在复刻人类认知，失业将成为结构性必然结果。他提出应对思路：完善劳动力市场监测、推行薪资保障与留岗税收优惠、发放培训补贴；若人力需求永久下降，则需通过征税推行全民基本收入等长期收入保障。Anthropic目标非削减人力成本，而是帮企业开拓新营收、盘活现有员工产能。",
-    "url": "https://www.ithome.com/0/962/854.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-11T05:53:41.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq94c8iu08i6slld2kpggdra",
-      "title": "Anthropic CEO 阿莫迪：AI 可能会造成大规模、长期性的岗位流失",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/962/854.htm",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-11T05:53:41.000Z",
-      "summary": "Anthropic CEO 达里奥・阿莫迪警告，AI造成的大规模岗位流失是技术固有属性--AI系统旨在复刻人类认知，失业将成为结构性必然结果。他提出应对思路：完善劳动力市场监测、推行薪资保障与留岗税收优惠、发放培训补贴；若人力需求永久下降，则需通过征税推行全民基本收入等长期收入保障。Anthropic目标非削减人力成本，而是帮企业开拓新营收、盘活现有员工产能。",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/962/854.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/962/854.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmq8zcaxy076fslldrds65pvu",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmq8zcaxy076fslldrds65pvu",
-    "title": "Midjourney V8.1 已成为默认模型",
-    "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
-    "body": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
-    "url": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
-    "sourceName": "Midjourney：Updates（RSS）",
-    "sourceCategory": "ai-models",
-    "publishedAt": "2026-06-11T04:08:51.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmq8zcaxy076fslldrds65pvu",
-      "title": "Midjourney V8.1 已成为默认模型",
-      "title_en": "V8.1 is now the default model on Midjourney！",
-      "url": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
-      "source": "Midjourney：Updates（RSS）",
-      "publishedAt": "2026-06-11T04:08:51.000Z",
-      "summary": "Midjourney 已将默认模型从 V7 升级为 V8.1。V8.1 在智能性、连贯性、对详细提示的遵循度以及文本渲染效果上均有提升，HD 模式也已支持。",
-      "category": "ai-models",
-      "score": 64,
-      "selected": true
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://updates.midjourney.com/v8-1-is-now-the-default-model",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://updates.midjourney.com/v8-1-is-now-the-default-model"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1152641",
+    "id": "product_hunt:ph:1168743",
     "source": "product_hunt",
-    "sourceItemId": "ph:1152641",
-    "title": "Publora",
-    "summary": "A publishing API for agents to post on 10 social platforms",
-    "body": "Publora is a publishing API for 10 social platforms. One REST API call handles multi-network distribution — no SDKs, no OAuth wiring. The native MCP server with 18 tools gives AI agents like Claude and Cursor a full engagement loop: post, comment, react, pull analytics — across LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon, and Telegram",
-    "url": "https://www.producthunt.com/products/publora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/FFFDHH6IKSRQWU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
+    "sourceItemId": "ph:1168743",
+    "title": "Bond",
+    "summary": "The AI to-do list that does itself",
+    "body": "Bond is an AI Chief of Staff for executives. It connects to your tools, learns how your company works, and turns scattered tasks into a self-managing to-do list that always knows what you need to do next. You can ask Bond to prepare you for your next meeting, draft a follow-up, send an email, create action items, identify blockers, surface risks, or delegate tasks to team members.",
+    "url": "https://www.producthunt.com/products/bond-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/7SFOLQBBWUEQXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
     "metrics": {
-      "votes": 597,
-      "comments": 98,
+      "votes": 625,
+      "comments": 175,
       "rank": 1,
-      "score": 597
+      "score": 625
     },
     "metadata": {
-      "slug": "publora-2",
+      "slug": "bond-717",
+      "topics": [
+        "Productivity",
+        "Task Management",
+        "Virtual Assistants"
+      ]
+    },
+    "rawJson": {
+      "id": "1168743",
+      "name": "Bond",
+      "slug": "bond-717",
+      "tagline": "The AI to-do list that does itself",
+      "description": "Bond is an AI Chief of Staff for executives. It connects to your tools, learns how your company works, and turns scattered tasks into a self-managing to-do list that always knows what you need to do next. You can ask Bond to prepare you for your next meeting, draft a follow-up, send an email, create action items, identify blockers, surface risks, or delegate tasks to team members.",
+      "url": "https://www.producthunt.com/products/bond-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/7SFOLQBBWUEQXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 625,
+      "commentsCount": 175,
+      "dailyRank": 1,
+      "latestScore": 625,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Productivity",
+              "slug": "productivity"
+            }
+          },
+          {
+            "node": {
+              "name": "Task Management",
+              "slug": "task-management"
+            }
+          },
+          {
+            "node": {
+              "name": "Virtual Assistants",
+              "slug": "virtual-assistants"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/bond-12",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/bond-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1167625",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1167625",
+    "title": "Asmi AI",
+    "summary": "AI that handles your personal chores in the real world",
+    "body": "Asmi calls you every morning. You talk - it handles the day. It calls services (dentist, salon, plumber, bank, insurance) or people (friends, colleagues) to coordinate, book or resolve things. Updates you on iMessage or WhatsApp when done. It can navigate IVRS, wait on hold and handle complex conversations well.",
+    "url": "https://www.producthunt.com/products/asmi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/Y5YVSLCZJ7BZ6I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
+    "metrics": {
+      "votes": 429,
+      "comments": 139,
+      "rank": 2,
+      "score": 429
+    },
+    "metadata": {
+      "slug": "asmi-ai-3",
+      "topics": [
+        "Productivity",
+        "Task Management",
+        "Artificial Intelligence"
+      ]
+    },
+    "rawJson": {
+      "id": "1167625",
+      "name": "Asmi AI",
+      "slug": "asmi-ai-3",
+      "tagline": "AI that handles your personal chores in the real world",
+      "description": "Asmi calls you every morning. You talk - it handles the day. It calls services (dentist, salon, plumber, bank, insurance) or people (friends, colleagues) to coordinate, book or resolve things. Updates you on iMessage or WhatsApp when done. It can navigate IVRS, wait on hold and handle complex conversations well.",
+      "url": "https://www.producthunt.com/products/asmi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/Y5YVSLCZJ7BZ6I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 429,
+      "commentsCount": 139,
+      "dailyRank": 2,
+      "latestScore": 429,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Productivity",
+              "slug": "productivity"
+            }
+          },
+          {
+            "node": {
+              "name": "Task Management",
+              "slug": "task-management"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/asmi-ai",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/asmi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1165274",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1165274",
+    "title": "Respan Gateway",
+    "summary": "One AI gateway with built-in observability and evals",
+    "body": "Respan AI Gateway connects your app to 1,000+ AI models through one endpoint. But routing is the easy part. Respan keeps production AI reliable and under control with fallbacks, retries, caching, spend limits, alerts, and full traces for every call. Gateway, observability, evals, prompt management, monitors, and cost controls all run on one platform, so you do not need to stitch together five tools to debug production.",
+    "url": "https://www.producthunt.com/products/keywords-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/PZT5PPTBVKBPVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
+    "metrics": {
+      "votes": 419,
+      "comments": 52,
+      "rank": 3,
+      "score": 419
+    },
+    "metadata": {
+      "slug": "respan-gateway",
+      "topics": [
+        "Developer Tools",
+        "Artificial Intelligence",
+        "Tech"
+      ]
+    },
+    "rawJson": {
+      "id": "1165274",
+      "name": "Respan Gateway",
+      "slug": "respan-gateway",
+      "tagline": "One AI gateway with built-in observability and evals",
+      "description": "Respan AI Gateway connects your app to 1,000+ AI models through one endpoint. But routing is the easy part. Respan keeps production AI reliable and under control with fallbacks, retries, caching, spend limits, alerts, and full traces for every call. Gateway, observability, evals, prompt management, monitors, and cost controls all run on one platform, so you do not need to stitch together five tools to debug production.",
+      "url": "https://www.producthunt.com/products/keywords-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/PZT5PPTBVKBPVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 419,
+      "commentsCount": 52,
+      "dailyRank": 3,
+      "latestScore": 419,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Developer Tools",
+              "slug": "developer-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          },
+          {
+            "node": {
+              "name": "Tech",
+              "slug": "tech"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/keywords-ai",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/keywords-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1168506",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1168506",
+    "title": "Terminal Mode by Even Realities",
+    "summary": "Keep coding agents always in sight",
+    "body": "Terminal Mode by Even Realities unlocks an ambient terminal on Even G2 smart glasses. When a coding agent stalls, you catch it: see which agent needs you now, give direction, and approve key steps while your laptop runs long tasks, so token-maxers get more from every run and vibe coders stay in flow.",
+    "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/JP725UN73VRUJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
+    "metrics": {
+      "votes": 380,
+      "comments": 66,
+      "rank": 4,
+      "score": 380
+    },
+    "metadata": {
+      "slug": "terminal-mode-by-even-realities-3",
+      "topics": [
+        "Productivity",
+        "Developer Tools",
+        "Vibe coding"
+      ]
+    },
+    "rawJson": {
+      "id": "1168506",
+      "name": "Terminal Mode by Even Realities",
+      "slug": "terminal-mode-by-even-realities-3",
+      "tagline": "Keep coding agents always in sight",
+      "description": "Terminal Mode by Even Realities unlocks an ambient terminal on Even G2 smart glasses. When a coding agent stalls, you catch it: see which agent needs you now, give direction, and approve key steps while your laptop runs long tasks, so token-maxers get more from every run and vibe coders stay in flow.",
+      "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/JP725UN73VRUJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 380,
+      "commentsCount": 66,
+      "dailyRank": 4,
+      "latestScore": 380,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Productivity",
+              "slug": "productivity"
+            }
+          },
+          {
+            "node": {
+              "name": "Developer Tools",
+              "slug": "developer-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Vibe coding",
+              "slug": "vibe-coding"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/terminal-mode-by-even-realities",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1157109",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1157109",
+    "title": "Journey Now",
+    "summary": "Learning copilot for human ambition via step-by-step plans",
+    "body": "Journey Now turns anything you want to learn or master into a personalized, step-by-step plan — with daily guidance, reflection, and a view of how friends are progressing too. As your pace or goals change, the plan adjusts itself, so progress never stalls on a missed deadline.",
+    "url": "https://www.producthunt.com/products/journey-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/TM6F4IDMAQBU2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
+    "metrics": {
+      "votes": 352,
+      "comments": 69,
+      "rank": 6,
+      "score": 352
+    },
+    "metadata": {
+      "slug": "journey-now",
+      "topics": [
+        "iOS",
+        "Education",
+        "Lifestyle"
+      ]
+    },
+    "rawJson": {
+      "id": "1157109",
+      "name": "Journey Now",
+      "slug": "journey-now",
+      "tagline": "Learning copilot for human ambition via step-by-step plans",
+      "description": "Journey Now turns anything you want to learn or master into a personalized, step-by-step plan — with daily guidance, reflection, and a view of how friends are progressing too. As your pace or goals change, the plan adjusts itself, so progress never stalls on a missed deadline.",
+      "url": "https://www.producthunt.com/products/journey-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/TM6F4IDMAQBU2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 352,
+      "commentsCount": 69,
+      "dailyRank": 6,
+      "latestScore": 352,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "iOS",
+              "slug": "ios"
+            }
+          },
+          {
+            "node": {
+              "name": "Education",
+              "slug": "education"
+            }
+          },
+          {
+            "node": {
+              "name": "Lifestyle",
+              "slug": "lifestyle"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/journey-now",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/journey-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1168429",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1168429",
+    "title": "CrustRecruiter",
+    "summary": "Turn Claude into a recruiter that thinks like you",
+    "body": "Recruiting is half judgment, half grunt work. Claude brings the judgment, i.e. the reasoning and the memory, while Crustdata brings 800M+ candidate profiles and 5 recruiting skills via MCP, meaning the manual work runs itself and you get genuinely personalized recruiting at scale, all inside one chat.",
+    "url": "https://www.producthunt.com/products/crustdata-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/6UER3KDCF4DEER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
+    "metrics": {
+      "votes": 220,
+      "comments": 27,
+      "rank": 7,
+      "score": 220
+    },
+    "metadata": {
+      "slug": "crustrecruiter",
+      "topics": [
+        "Hiring",
+        "Artificial Intelligence",
+        "Tech"
+      ]
+    },
+    "rawJson": {
+      "id": "1168429",
+      "name": "CrustRecruiter",
+      "slug": "crustrecruiter",
+      "tagline": "Turn Claude into a recruiter that thinks like you",
+      "description": "Recruiting is half judgment, half grunt work. Claude brings the judgment, i.e. the reasoning and the memory, while Crustdata brings 800M+ candidate profiles and 5 recruiting skills via MCP, meaning the manual work runs itself and you get genuinely personalized recruiting at scale, all inside one chat.",
+      "url": "https://www.producthunt.com/products/crustdata-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/6UER3KDCF4DEER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 220,
+      "commentsCount": 27,
+      "dailyRank": 7,
+      "latestScore": 220,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Hiring",
+              "slug": "hiring"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          },
+          {
+            "node": {
+              "name": "Tech",
+              "slug": "tech"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/crustdata-2",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/crustdata-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1168118",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1168118",
+    "title": "Tabstack Structured Extraction",
+    "summary": "Extract web data into structured JSON, no scraper required.",
+    "body": "Define a schema, pass a URL, get back JSON that matches. Tabstack's extract endpoint turns any web page into structured output, no parsing code and no LLM call to maintain. generate endpoint adds AI instructions for reasoned answers, not raw fields. Both enforce your schema on every call, even when the page changes. Tune speed with effort levels, target any country with geo_target. Mozilla-backed: your data is never sold or used to train models. 10,000 free credits to start.",
+    "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/AE3CWZQGRROXKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
+    "metrics": {
+      "votes": 183,
+      "comments": 37,
+      "rank": 8,
+      "score": 183
+    },
+    "metadata": {
+      "slug": "tabstack-structured-extraction",
       "topics": [
         "API",
-        "Social Media",
         "Developer Tools"
       ]
     },
     "rawJson": {
-      "id": "1152641",
-      "name": "Publora",
-      "slug": "publora-2",
-      "tagline": "A publishing API for agents to post on 10 social platforms",
-      "description": "Publora is a publishing API for 10 social platforms. One REST API call handles multi-network distribution — no SDKs, no OAuth wiring. The native MCP server with 18 tools gives AI agents like Claude and Cursor a full engagement loop: post, comment, react, pull analytics — across LinkedIn, X, Instagram, Threads, TikTok, YouTube, Facebook, Bluesky, Mastodon, and Telegram",
-      "url": "https://www.producthunt.com/products/publora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/FFFDHH6IKSRQWU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 597,
-      "commentsCount": 98,
-      "dailyRank": 1,
-      "latestScore": 597,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
+      "id": "1168118",
+      "name": "Tabstack Structured Extraction",
+      "slug": "tabstack-structured-extraction",
+      "tagline": "Extract web data into structured JSON, no scraper required.",
+      "description": "Define a schema, pass a URL, get back JSON that matches. Tabstack's extract endpoint turns any web page into structured output, no parsing code and no LLM call to maintain. generate endpoint adds AI instructions for reasoned answers, not raw fields. Both enforce your schema on every call, even when the page changes. Tune speed with effort levels, target any country with geo_target. Mozilla-backed: your data is never sold or used to train models. 10,000 free credits to start.",
+      "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/AE3CWZQGRROXKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 183,
+      "commentsCount": 37,
+      "dailyRank": 8,
+      "latestScore": 183,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
       "topics": {
         "edges": [
           {
@@ -1282,12 +521,6 @@
           },
           {
             "node": {
-              "name": "Social Media",
-              "slug": "social-media"
-            }
-          },
-          {
-            "node": {
               "name": "Developer Tools",
               "slug": "developer-tools"
             }
@@ -1296,56 +529,63 @@
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/publora",
+    "canonicalUrl": "https://www.producthunt.com/products/tabstack",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/publora?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1164840",
+    "id": "product_hunt:ph:1168276",
     "source": "product_hunt",
-    "sourceItemId": "ph:1164840",
-    "title": "TypingMind",
-    "summary": "Pay per use, no subscription, 18 model providers supported",
-    "body": "TypingMind is the most popular app to use LLM AI models with API keys. It brings you all the best models across 18 providers in one powerful AI workspace without having to pay for subscriptions to each one. TypingMind also provides the best AI experience ever with features focused on pro users like Projects, Fork/Parallel chat, Plugins/MCP/Skills, and a wide range of customizable options that you literally cannot find anywhere else! Go give it a try at www.typingmind.com :)",
-    "url": "https://www.producthunt.com/products/typing-mind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/AET65KN4Y36CK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
+    "sourceItemId": "ph:1168276",
+    "title": "SlimSnap",
+    "summary": "Your AI doesn't know which button you mean",
+    "body": "The AI reads your screenshot as a pixel blob and guesses which button you meant. SlimSnap converts the screenshot plus your annotation into structured JSON: every element has coordinates, an ID, and your arrow points at a specific one. Around 700 tokens vs 1,568 raw on Sonnet. Free Mac app. Schema and Claude Code skill are open MIT. Runs entirely on-device.",
+    "url": "https://www.producthunt.com/products/slimsnap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/EMTEMSQ3XWIRT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
     "metrics": {
-      "votes": 451,
-      "comments": 45,
-      "rank": 2,
-      "score": 451
+      "votes": 142,
+      "comments": 15,
+      "rank": 9,
+      "score": 142
     },
     "metadata": {
-      "slug": "typingmind",
+      "slug": "slimsnap",
       "topics": [
+        "Design Tools",
         "Productivity",
         "Artificial Intelligence"
       ]
     },
     "rawJson": {
-      "id": "1164840",
-      "name": "TypingMind",
-      "slug": "typingmind",
-      "tagline": "Pay per use, no subscription, 18 model providers supported",
-      "description": "TypingMind is the most popular app to use LLM AI models with API keys. It brings you all the best models across 18 providers in one powerful AI workspace without having to pay for subscriptions to each one. TypingMind also provides the best AI experience ever with features focused on pro users like Projects, Fork/Parallel chat, Plugins/MCP/Skills, and a wide range of customizable options that you literally cannot find anywhere else! Go give it a try at www.typingmind.com :)",
-      "url": "https://www.producthunt.com/products/typing-mind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/AET65KN4Y36CK3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 451,
-      "commentsCount": 45,
-      "dailyRank": 2,
-      "latestScore": 451,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
+      "id": "1168276",
+      "name": "SlimSnap",
+      "slug": "slimsnap",
+      "tagline": "Your AI doesn't know which button you mean",
+      "description": "The AI reads your screenshot as a pixel blob and guesses which button you meant. SlimSnap converts the screenshot plus your annotation into structured JSON: every element has coordinates, an ID, and your arrow points at a specific one. Around 700 tokens vs 1,568 raw on Sonnet. Free Mac app. Schema and Claude Code skill are open MIT. Runs entirely on-device.",
+      "url": "https://www.producthunt.com/products/slimsnap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/EMTEMSQ3XWIRT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 142,
+      "commentsCount": 15,
+      "dailyRank": 9,
+      "latestScore": 142,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
       "topics": {
         "edges": [
+          {
+            "node": {
+              "name": "Design Tools",
+              "slug": "design-tools"
+            }
+          },
           {
             "node": {
               "name": "Productivity",
@@ -1362,420 +602,55 @@
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/typing-mind",
+    "canonicalUrl": "https://www.producthunt.com/products/slimsnap",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/typing-mind?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/slimsnap?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1161477",
+    "id": "product_hunt:ph:1166749",
     "source": "product_hunt",
-    "sourceItemId": "ph:1161477",
-    "title": "Spotlight by Backplanes",
-    "summary": "Session reports for Claude Code & Codex to improve your code",
-    "body": "Keep up with your agents. Spotlight reads your Claude Code and Codex sessions and shows you what your agents actually did, and how to get recursively better every session: what to fix now, what to ship better next time, what's worth sharing. One harness or seven, solo or across your team. Free.",
-    "url": "https://www.producthunt.com/products/backplanes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/YZAQ4A3CS6KC4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
+    "sourceItemId": "ph:1166749",
+    "title": "Juno",
+    "summary": "AI Health Companion for Chronic Illness",
+    "body": "Juno helps people living with chronic illness reduce symptoms, spot patterns, and shorten the path to diagnosis. Built on our Oxford research and 1,000+ patient interviews.",
+    "url": "https://www.producthunt.com/products/juno-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/ONMBUHRI6CS6OZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-11T07:01:00Z",
     "metrics": {
-      "votes": 403,
-      "comments": 107,
-      "rank": 3,
-      "score": 403
+      "votes": 142,
+      "comments": 18,
+      "rank": 10,
+      "score": 142
     },
     "metadata": {
-      "slug": "spotlight-by-backplanes",
-      "topics": [
-        "Developer Tools",
-        "Artificial Intelligence",
-        "Security"
-      ]
-    },
-    "rawJson": {
-      "id": "1161477",
-      "name": "Spotlight by Backplanes",
-      "slug": "spotlight-by-backplanes",
-      "tagline": "Session reports for Claude Code & Codex to improve your code",
-      "description": "Keep up with your agents. Spotlight reads your Claude Code and Codex sessions and shows you what your agents actually did, and how to get recursively better every session: what to fix now, what to ship better next time, what's worth sharing. One harness or seven, solo or across your team. Free.",
-      "url": "https://www.producthunt.com/products/backplanes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/YZAQ4A3CS6KC4V?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 403,
-      "commentsCount": 107,
-      "dailyRank": 3,
-      "latestScore": 403,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          },
-          {
-            "node": {
-              "name": "Security",
-              "slug": "security"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/backplanes",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/backplanes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1166623",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1166623",
-    "title": "Screen Charm",
-    "summary": "Give your screen recordings more charm",
-    "body": "Record your screen and instantly turn raw footage into polished, presentation-ready videos with smart zoom effects, smooth motion blur, webcam overlay, background music, and a built-in editor. No complex editing tools. No subscriptions. Just clean, high-quality demos in minutes. Export in up to 4K and share videos that actually feel professional whether you're showcasing a product, onboarding users, or recording tutorials. One-time purchase. No subscription. Just ScreenCharm.",
-    "url": "https://www.producthunt.com/products/screen-charm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/HIDAJHE7G4FAB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
-    "metrics": {
-      "votes": 316,
-      "comments": 38,
-      "rank": 4,
-      "score": 316
-    },
-    "metadata": {
-      "slug": "screen-charm",
-      "topics": [
-        "Mac",
-        "Productivity",
-        "Video"
-      ]
-    },
-    "rawJson": {
-      "id": "1166623",
-      "name": "Screen Charm",
-      "slug": "screen-charm",
-      "tagline": "Give your screen recordings more charm",
-      "description": "Record your screen and instantly turn raw footage into polished, presentation-ready videos with smart zoom effects, smooth motion blur, webcam overlay, background music, and a built-in editor. No complex editing tools. No subscriptions. Just clean, high-quality demos in minutes. Export in up to 4K and share videos that actually feel professional whether you're showcasing a product, onboarding users, or recording tutorials. One-time purchase. No subscription. Just ScreenCharm.",
-      "url": "https://www.producthunt.com/products/screen-charm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/HIDAJHE7G4FAB3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 316,
-      "commentsCount": 38,
-      "dailyRank": 4,
-      "latestScore": 316,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Mac",
-              "slug": "mac"
-            }
-          },
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Video",
-              "slug": "video"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/screen-charm",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/screen-charm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1167824",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1167824",
-    "title": "Gemini 3.5 Live Translate",
-    "summary": "Latest audio model for live speech-to-speech translation",
-    "body": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-    "url": "https://www.producthunt.com/products/gemini-3-5-live-translate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/63A6YZZ2WCUVFU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
-    "metrics": {
-      "votes": 244,
-      "comments": 7,
-      "rank": 5,
-      "score": 244
-    },
-    "metadata": {
-      "slug": "gemini-3-5-live-translate",
-      "topics": [
-        "Android",
-        "Languages",
-        "Audio"
-      ]
-    },
-    "rawJson": {
-      "id": "1167824",
-      "name": "Gemini 3.5 Live Translate",
-      "slug": "gemini-3-5-live-translate",
-      "tagline": "Latest audio model for live speech-to-speech translation",
-      "description": "Gemini 3.5 Live Translate brings near real-time, natural speech translation to Google AI Studio, Google Translate and Google Meet.",
-      "url": "https://www.producthunt.com/products/gemini-3-5-live-translate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/63A6YZZ2WCUVFU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 244,
-      "commentsCount": 7,
-      "dailyRank": 5,
-      "latestScore": 244,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Android",
-              "slug": "android"
-            }
-          },
-          {
-            "node": {
-              "name": "Languages",
-              "slug": "languages"
-            }
-          },
-          {
-            "node": {
-              "name": "Audio",
-              "slug": "audio"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/gemini-3-5-live-translate",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/gemini-3-5-live-translate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1166408",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1166408",
-    "title": "iArt.ai",
-    "summary": "Turn ideas & designs into stunning video/animation.",
-    "body": "A faster agent delivers promos/shorts, explainers, kinetic type and PRO motion graphics with audio. Ditch AE/PR/CapCut. Chat to refine and ship impact.",
-    "url": "https://www.producthunt.com/products/iart-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/BVZIMZTBT2CLGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
-    "metrics": {
-      "votes": 224,
-      "comments": 67,
-      "rank": 6,
-      "score": 224
-    },
-    "metadata": {
-      "slug": "iart-ai",
-      "topics": [
-        "Productivity",
-        "Artificial Intelligence",
-        "Video"
-      ]
-    },
-    "rawJson": {
-      "id": "1166408",
-      "name": "iArt.ai",
-      "slug": "iart-ai",
-      "tagline": "Turn ideas & designs into stunning video/animation.",
-      "description": "A faster agent delivers promos/shorts, explainers, kinetic type and PRO motion graphics with audio. Ditch AE/PR/CapCut. Chat to refine and ship impact.",
-      "url": "https://www.producthunt.com/products/iart-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/BVZIMZTBT2CLGG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 224,
-      "commentsCount": 67,
-      "dailyRank": 6,
-      "latestScore": 224,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          },
-          {
-            "node": {
-              "name": "Video",
-              "slug": "video"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/iart-ai",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/iart-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1164700",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1164700",
-    "title": "Incorruptible by Eric Ries",
-    "summary": "Why good companies go bad and how great companies stay great",
-    "body": "Instant NY Times bestseller from Eric Ries, creator of The Lean Startup. Incorruptible reveals the structural forces (\"financial gravity\") that pull great companies away from their founding purpose, and the governance design that lets the best ones resist it. The book offers the blueprint for organizations that can grow, prosper, and endure without losing their soul. 💬 Launch AMA with Eric 📘 Free implementation guide for Product Hunt incorruptible.co/resources/guide-for-ph",
-    "url": "https://www.producthunt.com/products/incorruptible-by-eric-ries?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/O2SPCGELEUD5BO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
-    "metrics": {
-      "votes": 189,
-      "comments": 32,
-      "rank": 7,
-      "score": 189
-    },
-    "metadata": {
-      "slug": "incorruptible-by-eric-ries",
-      "topics": [
-        "Startup Books",
-        "Startup Lessons",
-        "Business Books"
-      ]
-    },
-    "rawJson": {
-      "id": "1164700",
-      "name": "Incorruptible by Eric Ries",
-      "slug": "incorruptible-by-eric-ries",
-      "tagline": "Why good companies go bad and how great companies stay great",
-      "description": "Instant NY Times bestseller from Eric Ries, creator of The Lean Startup. Incorruptible reveals the structural forces (\"financial gravity\") that pull great companies away from their founding purpose, and the governance design that lets the best ones resist it. The book offers the blueprint for organizations that can grow, prosper, and endure without losing their soul. 💬 Launch AMA with Eric 📘 Free implementation guide for Product Hunt incorruptible.co/resources/guide-for-ph",
-      "url": "https://www.producthunt.com/products/incorruptible-by-eric-ries?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/O2SPCGELEUD5BO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 189,
-      "commentsCount": 32,
-      "dailyRank": 7,
-      "latestScore": 189,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Startup Books",
-              "slug": "startup-books"
-            }
-          },
-          {
-            "node": {
-              "name": "Startup Lessons",
-              "slug": "startup-lessons"
-            }
-          },
-          {
-            "node": {
-              "name": "Business Books",
-              "slug": "business-books"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/incorruptible-by-eric-ries",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/incorruptible-by-eric-ries?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1166177",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1166177",
-    "title": "Napkin Math",
-    "summary": "personalized AI food journal + nutrition coach",
-    "body": "Napkin Math is the personalized AI food journal that helps people achieve their health goals. as simple as taking a photo of your food so cute you'll share it with a friend",
-    "url": "https://www.producthunt.com/products/napkin-math?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/SS55DMUBMZCXE7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
-    "metrics": {
-      "votes": 188,
-      "comments": 30,
-      "rank": 8,
-      "score": 188
-    },
-    "metadata": {
-      "slug": "napkin-math",
+      "slug": "juno-4c7afa09-c29f-46cf-898b-8209977d67d1",
       "topics": [
         "Health & Fitness",
-        "Social Network",
-        "Nutrition"
+        "Artificial Intelligence",
+        "Health"
       ]
     },
     "rawJson": {
-      "id": "1166177",
-      "name": "Napkin Math",
-      "slug": "napkin-math",
-      "tagline": "personalized AI food journal + nutrition coach",
-      "description": "Napkin Math is the personalized AI food journal that helps people achieve their health goals. as simple as taking a photo of your food so cute you'll share it with a friend",
-      "url": "https://www.producthunt.com/products/napkin-math?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/SS55DMUBMZCXE7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 188,
-      "commentsCount": 30,
-      "dailyRank": 8,
-      "latestScore": 188,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
+      "id": "1166749",
+      "name": "Juno",
+      "slug": "juno-4c7afa09-c29f-46cf-898b-8209977d67d1",
+      "tagline": "AI Health Companion for Chronic Illness",
+      "description": "Juno helps people living with chronic illness reduce symptoms, spot patterns, and shorten the path to diagnosis. Built on our Oxford research and 1,000+ patient interviews.",
+      "url": "https://www.producthunt.com/products/juno-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/ONMBUHRI6CS6OZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 142,
+      "commentsCount": 18,
+      "dailyRank": 10,
+      "latestScore": 142,
+      "featuredAt": "2026-06-11T07:01:00Z",
+      "createdAt": "2026-06-11T07:01:00Z",
       "topics": {
         "edges": [
           {
@@ -1786,439 +661,552 @@
           },
           {
             "node": {
-              "name": "Social Network",
-              "slug": "social-network"
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
             }
           },
           {
             "node": {
-              "name": "Nutrition",
-              "slug": "nutrition"
+              "name": "Health",
+              "slug": "health"
             }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/napkin-math",
+    "canonicalUrl": "https://www.producthunt.com/products/juno-13",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/napkin-math?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/juno-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1164422",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1164422",
-    "title": "Monako Glass",
-    "summary": "Run AI coding agents hands-free from a heads-up display",
-    "body": "Monako Glass is a 48g wearable running Buildroot Linux with a waveguide display, bone conduction mic, and gesture input. Lets developers run Claude Code, Codex, or any coding agent hands-free from glasses. Reservation-only, ships July-August 2026.",
-    "url": "https://www.producthunt.com/products/monako-glass?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/EBDEG4ZUBC45CC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-10T07:01:00Z",
-    "metrics": {
-      "votes": 160,
-      "comments": 8,
-      "rank": 9,
-      "score": 160
-    },
-    "metadata": {
-      "slug": "monako-glass",
-      "topics": [
-        "Virtual Reality",
-        "Wearables"
-      ]
-    },
-    "rawJson": {
-      "id": "1164422",
-      "name": "Monako Glass",
-      "slug": "monako-glass",
-      "tagline": "Run AI coding agents hands-free from a heads-up display",
-      "description": "Monako Glass is a 48g wearable running Buildroot Linux with a waveguide display, bone conduction mic, and gesture input. Lets developers run Claude Code, Codex, or any coding agent hands-free from glasses. Reservation-only, ships July-August 2026.",
-      "url": "https://www.producthunt.com/products/monako-glass?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/EBDEG4ZUBC45CC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 160,
-      "commentsCount": 8,
-      "dailyRank": 9,
-      "latestScore": 160,
-      "featuredAt": "2026-06-10T07:01:00Z",
-      "createdAt": "2026-06-10T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Virtual Reality",
-              "slug": "virtual-reality"
-            }
-          },
-          {
-            "node": {
-              "name": "Wearables",
-              "slug": "wearables"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/monako-glass",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/monako-glass?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:chopratejas/headroom",
+    "id": "github_trending:github:colbymchenry/codegraph",
     "source": "github_trending",
-    "sourceItemId": "github:chopratejas/headroom",
-    "title": "chopratejas/headroom",
-    "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.",
-    "url": "https://github.com/chopratejas/headroom",
-    "publishedAt": "2026-06-12T03:01:18.888Z",
+    "sourceItemId": "github:colbymchenry/codegraph",
+    "title": "colbymchenry/codegraph",
+    "summary": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph Supercharge Claude Code, Cursor, Codex, OpenCode, Hermes Agent, Gemini, Antigravity...",
+    "url": "https://github.com/colbymchenry/codegraph",
+    "publishedAt": "2026-06-12T07:58:10.629Z",
     "metrics": {
-      "rank": 2
+      "rank": 1
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/chopratejas/headroom",
+    "canonicalUrl": "https://github.com/colbymchenry/codegraph",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/chopratejas/headroom"
+        "url": "https://github.com/colbymchenry/codegraph"
       }
     ]
   },
   {
-    "id": "github_trending:github:supertone-inc/supertonic",
+    "id": "github_trending:github:rohitg00/ai-engineering-from-scratch",
     "source": "github_trending",
-    "sourceItemId": "github:supertone-inc/supertonic",
-    "title": "supertone-inc/supertonic",
-    "summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
-    "url": "https://github.com/supertone-inc/supertonic",
-    "publishedAt": "2026-06-12T03:01:18.913Z",
+    "sourceItemId": "github:rohitg00/ai-engineering-from-scratch",
+    "title": "rohitg00/ai-engineering-from-scratch",
+    "summary": "Learn it.",
+    "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+    "publishedAt": "2026-06-12T07:58:10.640Z",
     "metrics": {
-      "rank": 10
+      "rank": 6
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/supertone-inc/supertonic",
+    "canonicalUrl": "https://github.com/rohitg00/ai-engineering-from-scratch",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/supertone-inc/supertonic"
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch"
       }
     ]
   },
   {
-    "id": "builder_openai:builder_openai:https://openai.com/index/bbva",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/bbva",
-    "title": "BBVA puts AI at the core of banking with OpenAI",
-    "summary": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-    "body": "Learn how BBVA scaled ChatGPT Enterprise to 100,000 employees and partnered with OpenAI to accelerate AI-powered banking transformation worldwide.",
-    "url": "https://openai.com/index/bbva",
-    "sourceName": "OpenAI Blog",
+    "id": "github_trending:github:Imbad0202/academic-research-skills",
+    "source": "github_trending",
+    "sourceItemId": "github:Imbad0202/academic-research-skills",
+    "title": "Imbad0202/academic-research-skills",
+    "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
+    "url": "https://github.com/Imbad0202/academic-research-skills",
+    "publishedAt": "2026-06-12T07:58:10.645Z",
+    "metrics": {
+      "rank": 7
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/Imbad0202/academic-research-skills",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/Imbad0202/academic-research-skills"
+      }
+    ]
+  },
+  {
+    "id": "github_trending:github:CloakHQ/CloakBrowser",
+    "source": "github_trending",
+    "sourceItemId": "github:CloakHQ/CloakBrowser",
+    "title": "CloakHQ/CloakBrowser",
+    "summary": "Stealth Chromium that passes every bot detection test.",
+    "url": "https://github.com/CloakHQ/CloakBrowser",
+    "publishedAt": "2026-06-12T07:58:10.653Z",
+    "metrics": {
+      "rank": 9
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/CloakHQ/CloakBrowser",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/CloakHQ/CloakBrowser"
+      }
+    ]
+  },
+  {
+    "id": "github_trending:github:rohitg00/agentmemory",
+    "source": "github_trending",
+    "sourceItemId": "github:rohitg00/agentmemory",
+    "title": "rohitg00/agentmemory",
+    "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
+    "url": "https://github.com/rohitg00/agentmemory",
+    "publishedAt": "2026-06-12T07:58:10.660Z",
+    "metrics": {
+      "rank": 11
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/rohitg00/agentmemory",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/rohitg00/agentmemory"
+      }
+    ]
+  },
+  {
+    "id": "github_trending:github:HKUDS/ViMax",
+    "source": "github_trending",
+    "sourceItemId": "github:HKUDS/ViMax",
+    "title": "HKUDS/ViMax",
+    "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" ViMax: Agentic Video Generation 🚨 Current Video Generation Limitations: ❌ Limited to Short Clips - Most AI tools generate only seconds of footage.",
+    "url": "https://github.com/HKUDS/ViMax",
+    "publishedAt": "2026-06-12T07:58:10.662Z",
+    "metrics": {
+      "rank": 13
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/HKUDS/ViMax",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/HKUDS/ViMax"
+      }
+    ]
+  },
+  {
+    "id": "github_trending:github:mattpocock/skills",
+    "source": "github_trending",
+    "sourceItemId": "github:mattpocock/skills",
+    "title": "mattpocock/skills",
+    "summary": "Skills for Real Engineers.",
+    "url": "https://github.com/mattpocock/skills",
+    "publishedAt": "2026-06-12T07:58:10.663Z",
+    "metrics": {
+      "rank": 15
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/mattpocock/skills",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/mattpocock/skills"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+    "title": "AI agent bankrupted their operator while trying to scan DN42",
+    "summary": "Article URL: https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/ Comments URL: https://news.ycombinator.com/item?id=48500012 Points: 350 # Comments: 103",
+    "body": "Article URL: https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/ Comments URL: https://news.ycombinator.com/item?id=48500012 Points: 350 # Comments: 103",
+    "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
+    "sourceName": "Hacker News AI",
     "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "publishedAt": "2026-06-12T04:42:53.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "OpenAI Blog"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/bbva",
+    "systemCategory": "news",
+    "canonicalUrl": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian",
     "sources": [
-      "builder_openai"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/bbva"
+        "source": "builder_hackernews",
+        "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/"
       }
     ]
   },
   {
-    "id": "builder_openai:builder_openai:https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "title": "Supporting Europe’s work in ensuring a trustworthy AI ecosystem",
-    "summary": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-    "body": "OpenAI supports the EU Code of Practice on AI content transparency, advancing provenance standards and tools to help people understand AI-generated content.",
-    "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "sourceName": "OpenAI Blog",
+    "id": "builder_hackernews:builder_hackernews:https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+    "title": "Claude Fable 5: mid-tier results on coding tasks",
+    "summary": "Article URL: https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype Comments URL: https://news.ycombinator.com/item?id=48492210 Points: 301 # Comments: 142",
+    "body": "Article URL: https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype Comments URL: https://news.ycombinator.com/item?id=48492210 Points: 301 # Comments: 142",
+    "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
+    "sourceName": "Hacker News AI",
     "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "publishedAt": "2026-06-11T16:03:21.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "OpenAI Blog"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype",
     "sources": [
-      "builder_openai"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem"
+        "source": "builder_hackernews",
+        "url": "https://www.endorlabs.com/learn/claude-fable-5-mythos-grade-hype"
       }
     ]
   },
   {
-    "id": "builder_openai:builder_openai:https://openai.com/index/openai-to-acquire-ona",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/openai-to-acquire-ona",
-    "title": "OpenAI to acquire Ona",
-    "summary": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-    "body": "OpenAI plans to acquire Ona to expand Codex with secure, persistent cloud environments, enabling long-running AI agents across enterprise workflows.",
-    "url": "https://openai.com/index/openai-to-acquire-ona",
-    "sourceName": "OpenAI Blog",
+    "id": "builder_hackernews:builder_hackernews:https://news.ycombinator.com/item?id=48492118",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=48492118",
+    "title": "Ask HN: How do you get into a flow state when using AI to code?",
+    "summary": "Before agentic coding, I always prided myself on how long I could work in a flow state. I was really good at working deeply. Now, with slow agents like Claude, I find myself no longer working deeply. What are you all doing to stay focused? Comments URL: https://news.ycombinator.com/item?id=48492118 Points: 84 # Comments: 106",
+    "body": "Before agentic coding, I always prided myself on how long I could work in a flow state. I was really good at working deeply. Now, with slow agents like Claude, I find myself no longer working deeply. What are you all doing to stay focused? Comments URL: https://news.ycombinator.com/item?id=48492118 Points: 84 # Comments: 106",
+    "url": "https://news.ycombinator.com/item?id=48492118",
+    "sourceName": "Hacker News AI",
     "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-06-11T00:00:00.000Z",
+    "publishedAt": "2026-06-11T15:56:25.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "OpenAI Blog"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/openai-to-acquire-ona",
+    "systemCategory": "news",
+    "canonicalUrl": "https://news.ycombinator.com/item?id=48492118",
     "sources": [
-      "builder_openai"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/openai-to-acquire-ona"
+        "source": "builder_hackernews",
+        "url": "https://news.ycombinator.com/item?id=48492118"
       }
     ]
   },
   {
-    "id": "builder_deepmind:builder_deepmind:https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "source": "builder_deepmind",
-    "sourceItemId": "builder_deepmind:https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "title": "Investing in multi-agent AI safety research",
-    "summary": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-    "body": "Google DeepMind and partners announce a $10M funding call for multi-agent safety research.",
-    "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/",
-    "sourceName": "DeepMind Blog",
-    "sourceCategory": "technical",
-    "authorName": "DeepMind",
-    "publishedAt": "2026-06-10T10:21:19.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+    "title": "Workers are spending over 6 hours a week botsitting AI, fueling job frustration",
+    "summary": "Article URL: https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6 Comments URL: https://news.ycombinator.com/item?id=48490057 Points: 269 # Comments: 214",
+    "body": "Article URL: https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6 Comments URL: https://news.ycombinator.com/item?id=48490057 Points: 269 # Comments: 214",
+    "url": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T13:26:59.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "DeepMind Blog",
-      "image": "https://lh3.googleusercontent.com/YgqOl-h3mEKPbpttnT89PtoHDKTc1-2fbhwRgDauUPtagZVWiw0lr1IGgRUDZDqb9Ib4nhaU93T0mJSE8FFbhkDRiaT53BGLnLVdpqliTP8v5kvmwu8=w528-h297-n-nu-rw-lo"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "company",
-    "canonicalUrl": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6",
     "sources": [
-      "builder_deepmind"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_deepmind",
-        "url": "https://deepmind.google/blog/investing-in-multi-agent-ai-safety-research/"
+        "source": "builder_hackernews",
+        "url": "https://www.businessinsider.com/botsitting-ai-hidden-human-labor-at-work-2026-6"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
-    "title": "Claude Fable is relentlessly proactive",
-    "summary": "<p>After two days of experience with <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/\">Claude Fable 5</a> I think the best way to describe it is <strong>relentlessly proactive</strong>. It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal.</p> <p>I'll illustrate this with an example. I was hacking on <a href=\"https://agent.datasette.io/\">Datasette Agent</a> today when I noticed a glitch: a horizontal scrollbar that shouldn't be there in the ju",
-    "body": "<p>After two days of experience with <a href=\"https://simonwillison.net/2026/Jun/9/claude-fable-5/\">Claude Fable 5</a> I think the best way to describe it is <strong>relentlessly proactive</strong>. It knows a whole lot of tricks and it will deploy pretty much any of them to get to its goal.</p> <p>I'll illustrate this with an example. I was hacking on <a href=\"https://agent.datasette.io/\">Datasette Agent</a> today when I noticed a glitch: a horizontal scrollbar that shouldn't be there in the jump menu chat prompt. I snapped this screenshot:</p> <p><img src=\"https://static.simonwillison.net/static/2026/jump-to-bug.jpg\" alt=\"Screenshot of a modal dialog demonstrating a scrollbar bug. At the top is a focused search input with blue outline and placeholder \"Jump to...\", with an X close button ",
-    "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-11T23:35:17.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://twitter.com/awscloud/status/2064449711155589396",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://twitter.com/awscloud/status/2064449711155589396",
+    "title": "More AI-generated code doesn't make your team faster. It might slow you",
+    "summary": "Article URL: https://twitter.com/awscloud/status/2064449711155589396 Comments URL: https://news.ycombinator.com/item?id=48489835 Points: 41 # Comments: 18",
+    "body": "Article URL: https://twitter.com/awscloud/status/2064449711155589396 Comments URL: https://news.ycombinator.com/item?id=48489835 Points: 41 # Comments: 18",
+    "url": "https://twitter.com/awscloud/status/2064449711155589396",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T13:06:08.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive",
+    "systemCategory": "news",
+    "canonicalUrl": "https://twitter.com/awscloud/status/2064449711155589396",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://twitter.com/awscloud/status/2064449711155589396"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
-    "title": "datasette 1.0a33",
-    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a33\">datasette 1.0a33</a></p> <p>This alpha is a significant step on the road to a stable 1.0, finally extending the <code>?_extra=</code> pattern I introduced <a href=\"https://docs.datasette.io/en/1.0a3/changelog.html#a3-2023-08-09\">in Datasette 1.0a3</a> to cover queries and rows in addition to tables. That pattern is also <a href=\"https://docs.datasette.io/en/latest/json_api.html#expanding-json-responses",
-    "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a33\">datasette 1.0a33</a></p> <p>This alpha is a significant step on the road to a stable 1.0, finally extending the <code>?_extra=</code> pattern I introduced <a href=\"https://docs.datasette.io/en/1.0a3/changelog.html#a3-2023-08-09\">in Datasette 1.0a3</a> to cover queries and rows in addition to tables. That pattern is also <a href=\"https://docs.datasette.io/en/latest/json_api.html#expanding-json-responses\">now documented</a>!</p> <p>I wrote a whole lot more about the new release on the Datasette project blog: <strong><a href=\"http://datasette.io/blog/2026/api-extras/\">Datasette 1.0a33 with JSON extras in the API</a></strong>.</p> <p>Because API explorer tools are almost free to build now I had Claud",
-    "url": "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-11T15:26:49.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+    "title": "Anthropic apologizes for invisible Claude Fable guardrails",
+    "summary": "https://web.archive.org/web/20260611122253/https://www.theve... , https://archive.ph/y4V4k Comments URL: https://news.ycombinator.com/item?id=48489229 Points: 403 # Comments: 371",
+    "body": "https://web.archive.org/web/20260611122253/https://www.theve... , https://archive.ph/y4V4k Comments URL: https://news.ycombinator.com/item?id=48489229 Points: 403 # Comments: 371",
+    "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T12:05:02.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/11/datasette",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/11/datasette/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/948280/anthropic-claude-fable-invisible-distillation-guardrail"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
-    "title": "asyncinject 0.7",
-    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/asyncinject/releases/tag/0.7\">asyncinject 0.7</a></p> <p>I built this utility library to support an <code>asyncio</code> dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model!</p> <p>Tags: <a href=\"https://simonwillison.net/tags/async\">async</a>, <a href=\"https://simonwillison.net/tags/projects\">projec",
-    "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/asyncinject/releases/tag/0.7\">asyncinject 0.7</a></p> <p>I built this utility library to support an <code>asyncio</code> dependency injection pattern a few years ago. I was using it with Datasette and Claude Fable 5 spotted some bugs in the dependency which it then fixed for me. It's a very proactive model!</p> <p>Tags: <a href=\"https://simonwillison.net/tags/async\">async</a>, <a href=\"https://simonwillison.net/tags/projects\">projects</a>, <a href=\"https://simonwillison.net/tags/python\">python</a>, <a href=\"https://simonwillison.net/tags/claude-mythos\">claude-mythos</a></p>",
-    "url": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-11T06:28:09.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://crlf.link/log/entries/260525-1/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://crlf.link/log/entries/260525-1/",
+    "title": "Making a vintage LLM from scratch",
+    "summary": "Article URL: https://crlf.link/log/entries/260525-1/ Comments URL: https://news.ycombinator.com/item?id=48487829 Points: 36 # Comments: 6",
+    "body": "Article URL: https://crlf.link/log/entries/260525-1/ Comments URL: https://news.ycombinator.com/item?id=48487829 Points: 36 # Comments: 6",
+    "url": "https://crlf.link/log/entries/260525-1/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T08:38:00.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/11/asyncinject",
+    "systemCategory": "news",
+    "canonicalUrl": "https://crlf.link/log/entries/260525-1",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/11/asyncinject/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://crlf.link/log/entries/260525-1/"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-    "title": "Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude",
-    "summary": "<p><strong><a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p> Big scoop for Maxwell Zeff at Wired:</p> <blockquote> <p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p> </blo",
-    "body": "<p><strong><a href=\"https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/\">Anthropic Walks Back Policy That Could Have ‘Sabotaged’ AI Researchers Using Claude</a></strong></p> Big scoop for Maxwell Zeff at Wired:</p> <blockquote> <p>“We’re changing Fable 5’s safeguards for frontier LLM development to make them visible.” Anthropic said in a statement to WIRED. “We made the wrong tradeoff and we apologize for not getting the balance right.”</p> </blockquote> <p>There's been a <em>huge</em> outcry about Anthropic's policy, <a href=\"https://simonwillison.net/2026/Jun/10/if-claude-fable-stops-helping-you/\">tucked away in their system card</a>, that Claude Fable/Mythos would identify \"requests targeting frontier LLM development\" and \"limit effectiv",
-    "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-11T03:45:49.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+    "title": "Why AI hasn't replaced software engineers, and won't",
+    "summary": "Article URL: https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers Comments URL: https://news.ycombinator.com/item?id=48487540 Points: 291 # Comments: 336",
+    "body": "Article URL: https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers Comments URL: https://news.ycombinator.com/item?id=48487540 Points: 291 # Comments: 336",
+    "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T07:51:17.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/11/anthropic-walks-back-policy/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://www.normaltech.ai/p/why-ai-hasnt-replaced-software-engineers"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://geohot.github.io//blog/jekyll/update/2026/06/11/ai-will-be-deflationary.html",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://geohot.github.io//blog/jekyll/update/2026/06/11/ai-will-be-deflationary.html",
-    "title": "AI will be massively deflationary",
-    "summary": "The funny thing about Anthropic haters is that they still mostly believe Anthropic’s marketing. They think Claude is a recursively self-improving silicon God, and that we are all a couple refusals away from falling into the perpetual underclass. This gives them way more power than they deserve. Of course they believe they should dictate morality to you and control the future light cone of the universe and everything they do is justified for the mission and so on and so forth. And yea, the model ",
-    "body": "The funny thing about Anthropic haters is that they still mostly believe Anthropic’s marketing. They think Claude is a recursively self-improving silicon God, and that we are all a couple refusals away from falling into the perpetual underclass. This gives them way more power than they deserve. Of course they believe they should dictate morality to you and control the future light cone of the universe and everything they do is justified for the mission and so on and so forth. And yea, the model is pretty good , so you worry that if the model is good that they will get their way about other things. A lot of people in history have had dumb ideas about ruling the world, doesn’t mean they can actually do it. They are a product of the rationalist cult (which surprise surprise, thinks the world ",
-    "url": "https://geohot.github.io//blog/jekyll/update/2026/06/11/ai-will-be-deflationary.html",
-    "sourceName": "George Hotz",
-    "sourceCategory": "technical",
-    "authorName": "George Hotz",
-    "publishedAt": "2026-06-11T07:00:00.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
+    "title": "Anthropic walks back policy that could have 'sabotaged' researchers using Claude",
+    "summary": "https://archive.ph/yxYhU https://web.archive.org/web/20260611033414/https://www.wired... Comments URL: https://news.ycombinator.com/item?id=48485958 Points: 71 # Comments: 36",
+    "body": "https://archive.ph/yxYhU https://web.archive.org/web/20260611033414/https://www.wired... Comments URL: https://news.ycombinator.com/item?id=48485958 Points: 71 # Comments: 36",
+    "url": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T03:41:06.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "George Hotz"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://geohot.github.io//blog/jekyll/update/2026/06/11/ai-will-be-deflationary.html",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://geohot.github.io//blog/jekyll/update/2026/06/11/ai-will-be-deflationary.html"
+        "source": "builder_hackernews",
+        "url": "https://www.wired.com/story/anthropic-responds-to-backlash-on-claudes-secret-sabotage-on-ai-research/"
       }
     ]
   },
   {
-    "id": "builder_lobsters:builder_lobsters:https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
-    "source": "builder_lobsters",
-    "sourceItemId": "builder_lobsters:https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
-    "title": "To Gen or Not To Gen: The Ethical Use of Generative AI",
-    "summary": "<p><a href=\"https://lobste.rs/s/2ye7ng/gen_not_gen_ethical_use_generative_ai\">Comments</a></p>",
-    "body": "<p><a href=\"https://lobste.rs/s/2ye7ng/gen_not_gen_ethical_use_generative_ai\">Comments</a></p>",
-    "url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/",
-    "sourceName": "Lobsters AI",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-11T06:23:56.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+    "title": "AI agent runs amok in Fedora and elsewhere",
+    "summary": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 543 # Comments: 240",
+    "body": "Article URL: https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/ Comments URL: https://news.ycombinator.com/item?id=48484584 Points: 543 # Comments: 240",
+    "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-11T00:10:08.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Lobsters AI"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen",
+    "systemCategory": "news",
+    "canonicalUrl": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9",
     "sources": [
-      "builder_lobsters"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_lobsters",
-        "url": "https://blog.johanneslink.net/2025/11/04/to-gen-or-not-to-gen/"
+        "source": "builder_hackernews",
+        "url": "https://lwn.net/SubscriberLink/1077035/c7e7c14fbd60fae9/"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13673",
+    "id": "builder_hackernews:builder_hackernews:https://darioamodei.com/post/policy-on-the-ai-exponential",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://darioamodei.com/post/policy-on-the-ai-exponential",
+    "title": "Policy on the AI Exponential",
+    "summary": "Article URL: https://darioamodei.com/post/policy-on-the-ai-exponential Comments URL: https://news.ycombinator.com/item?id=48480719 Points: 164 # Comments: 246",
+    "body": "Article URL: https://darioamodei.com/post/policy-on-the-ai-exponential Comments URL: https://news.ycombinator.com/item?id=48480719 Points: 164 # Comments: 246",
+    "url": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-10T18:36:04.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://darioamodei.com/post/policy-on-the-ai-exponential",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://darioamodei.com/post/policy-on-the-ai-exponential"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://github.com/anthropics/claude-code/issues/29045",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://github.com/anthropics/claude-code/issues/29045",
+    "title": "Claude Desktop spawns 1.8 GB Hyper-V VM on every launch, even for chat-only use",
+    "summary": "Article URL: https://github.com/anthropics/claude-code/issues/29045 Comments URL: https://news.ycombinator.com/item?id=48479452 Points: 429 # Comments: 300",
+    "body": "Article URL: https://github.com/anthropics/claude-code/issues/29045 Comments URL: https://news.ycombinator.com/item?id=48479452 Points: 429 # Comments: 300",
+    "url": "https://github.com/anthropics/claude-code/issues/29045",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-06-10T17:11:56.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://github.com/anthropics/claude-code/issues/29045",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://github.com/anthropics/claude-code/issues/29045"
+      }
+    ]
+  },
+  {
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13681",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13673",
-    "title": "SpatialClaw: Rethinking Action Interface for Agentic Spatial Reasoning",
-    "summary": "Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attempt to address this by augmenting VLMs with specialist perception modules, yet their effectiveness is bounded by the action interface through which those tools are invoked. In this work, we study how the design of this interface shapes the agent's capacity for open-ended spatial reasoning. Existing sp",
-    "body": "Spatial reasoning, the ability to determine where objects are, how they relate, and how they move in 3D, remains a fundamental challenge for vision-language models (VLMs). Tool-augmented agents attempt to address this by augmenting VLMs with specialist perception modules, yet their effectiveness is bounded by the action interface through which those tools are invoked. In this work, we study how the design of this interface shapes the agent's capacity for open-ended spatial reasoning. Existing spatial agents either employ single-pass code execution, which commits to a full analysis strategy before any intermediate result is observed, or rely on a structured tool-call interface that often offers less flexibility for freely composing operations or tailoring the analysis to each task. Both des",
-    "url": "https://arxiv.org/abs/2606.13673",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13681",
+    "title": "EvoArena: Tracking Memory Evolution for Robust LLM Agents in Dynamic Environments",
+    "summary": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and so",
+    "body": "Large language model (LLM) agents have achieved strong performance on a wide range of benchmarks, yet most evaluations assume static environments. In contrast, real-world deployment is inherently dynamic, requiring agents to continually align their knowledge, skills, and behavior with changing environments and updated task conditions. To address this gap, we introduce EvoArena, a benchmark suite that models environment changes as sequences of progressive updates across terminal, software, and social domains. We further propose EvoMem, a patch-based memory paradigm that records memory evolution as structured update histories, enabling agents to reason about environmental evolution through changes in their memory. Experiments show that current agents struggle on EvoArena, achieving an averag",
+    "url": "https://arxiv.org/abs/2606.13681",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-10T20:00:00.000Z",
@@ -2227,25 +1215,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13673",
+    "canonicalUrl": "https://arxiv.org/abs/2606.13681",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13673"
+        "url": "https://arxiv.org/abs/2606.13681"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13376",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13392",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13376",
-    "title": "MoVerse: Real-Time Video World Modeling with Panoramic Gaussian Scaffold",
-    "summary": "We present MoVerse, a real-time video world model that creates an interactively navigable scene from a single narrow-field-of-view image. This setting is challenging because the input observes only a small fraction of the environment, while interactive roaming requires a complete surrounding world, persistent geometry, controllable camera motion, and temporally coherent high-fidelity observations. MoVerse addresses this problem by separating world construction from observation rendering. It firs",
-    "body": "We present MoVerse, a real-time video world model that creates an interactively navigable scene from a single narrow-field-of-view image. This setting is challenging because the input observes only a small fraction of the environment, while interactive roaming requires a complete surrounding world, persistent geometry, controllable camera motion, and temporally coherent high-fidelity observations. MoVerse addresses this problem by separating world construction from observation rendering. It first expands the input into a gravity-aligned 360^circ panorama with topology-aware diffusion, closing the missing field of view before 3D reasoning. It then lifts the panorama into a persistent 3D Gaussian scaffold using panoramic geometry-aware residual prediction, yielding a dense and directly rende",
-    "url": "https://arxiv.org/abs/2606.13376",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13392",
+    "title": "MiniMax Sparse Attention",
+    "summary": "Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory all require the model to jointly attend over hundreds of thousands to millions of tokens, yet the quadratic cost of softmax attention makes this untenable at deployment scale. We introduce MiniMax Sparse Attention (MSA), a blockwise sparse attention built upon Grouped Query Attention (GQA). A lightweight Index Branch scores key-value blocks and inde",
+    "body": "Ultra-long-context capability is becoming indispensable for frontier LLMs: agentic workflows, repository-scale code reasoning, and persistent memory all require the model to jointly attend over hundreds of thousands to millions of tokens, yet the quadratic cost of softmax attention makes this untenable at deployment scale. We introduce MiniMax Sparse Attention (MSA), a blockwise sparse attention built upon Grouped Query Attention (GQA). A lightweight Index Branch scores key-value blocks and independently selects a Top-k subset for each GQA group, enabling group-specific sparse retrieval while maintaining efficient block-level execution; the Main Branch then performs exact block-sparse attention over only the selected blocks. Designed around a principle of simplicity and scalability, MSA is",
+    "url": "https://arxiv.org/abs/2606.13392",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-10T20:00:00.000Z",
@@ -2254,25 +1242,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13376",
+    "canonicalUrl": "https://arxiv.org/abs/2606.13392",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13376"
+        "url": "https://arxiv.org/abs/2606.13392"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13679",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13120",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13679",
-    "title": "InterleaveThinker: Reinforcing Agentic Interleaved Generation",
-    "summary": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation. Even the latest open-source Unified Multimodal Models (UMMs) exhibit limited performance in this regard. In this paper, we introduce InterleaveThinker, th",
-    "body": "Recent image generators have demonstrated impressive photorealism and instruction-following capabilities in single-image generation and editing. However, constrained by their architectures, they cannot achieve interleaved generation (text-image sequence), which has crucial applications in visual narratives, guidance, and embodied manipulation. Even the latest open-source Unified Multimodal Models (UMMs) exhibit limited performance in this regard. In this paper, we introduce InterleaveThinker, the first multi-agent pipeline designed to endow any existing image generator with interleaved generation capabilities. Specifically, we employ a planner agent to organize the image-text input sequence, instructing the image generator on the required execution at each step. Subsequently, we introduce ",
-    "url": "https://arxiv.org/abs/2606.13679",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13120",
+    "title": "EvoBrowseComp: Benchmarking Search Agents on Evolving Knowledge",
+    "summary": "Search Agents -- large language models augmented with search tools -- have intensified the need for future-proof evaluation benchmarks. Existing benchmarks such as BrowseComp rely on static knowledge, making them vulnerable to test-set contamination and parametric memorization. Consequently, models can achieve high scores through fact recall rather than genuine retrieval, obscuring true browsing competence via reasoning shortcuts. In this paper, we introduce EvoBrowseComp, an evolving benchmark ",
+    "body": "Search Agents -- large language models augmented with search tools -- have intensified the need for future-proof evaluation benchmarks. Existing benchmarks such as BrowseComp rely on static knowledge, making them vulnerable to test-set contamination and parametric memorization. Consequently, models can achieve high scores through fact recall rather than genuine retrieval, obscuring true browsing competence via reasoning shortcuts. In this paper, we introduce EvoBrowseComp, an evolving benchmark of 400 English and 400 Chinese contamination-free complex questions synthesized via live-web traversal. To collect these questions, we design a three-agent collaborative framework: (1) a QA synthesis agent that retrieves fresh knowledge from the live web to synthesize QA pairs; (2) an information fi",
+    "url": "https://arxiv.org/abs/2606.13120",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-10T20:00:00.000Z",
@@ -2281,284 +1269,14 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13679",
+    "canonicalUrl": "https://arxiv.org/abs/2606.13120",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13679"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.12882",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.12882",
-    "title": "HarnessBridge: Learnable Bidirectional Controller for LLM Agent Harness",
-    "summary": "Large language models are increasingly deployed as agents for long-horizon tasks, yet their performance is shaped not only by model capability and environment design, but also by the harness that mediates agent--environment interaction. Existing harnesses are largely manually engineered, making them difficult to scale as trajectories grow longer and interactions become more complex. In this work, we ask whether harness can be generated by a learnable plug-in module that can be trained in an end-",
-    "body": "Large language models are increasingly deployed as agents for long-horizon tasks, yet their performance is shaped not only by model capability and environment design, but also by the harness that mediates agent--environment interaction. Existing harnesses are largely manually engineered, making them difficult to scale as trajectories grow longer and interactions become more complex. In this work, we ask whether harness can be generated by a learnable plug-in module that can be trained in an end-to-end fashion. We introduce HarnessBridge, a lightweight learnable harness controller that parameterizes the agent--environment interface as a bidirectional projection. HarnessBridge learns two bidirectional projections: observation projection, which distills raw trajectories into compact, decision",
-    "url": "https://arxiv.org/abs/2606.12882",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.12882",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.12882"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13106",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13106",
-    "title": "Demystifying Hidden-State Recurrence: Switchable Latent Reasoning with On-Policy Reinforcement Learning",
-    "summary": "Latent chain-of-thought compresses reasoning by replacing visible reasoning traces with continuous hidden-state recurrence, but existing formulations are difficult to optimize with standard on-policy reinforcement learning (RL) and hard to interpret causally. Our key insight is that a single pair of explicit boundary tokens can address both issues at once: discrete entry and exit anchors make the latent block compatible with standard on-policy RL, and the same anchors offer a natural foothold fo",
-    "body": "Latent chain-of-thought compresses reasoning by replacing visible reasoning traces with continuous hidden-state recurrence, but existing formulations are difficult to optimize with standard on-policy reinforcement learning (RL) and hard to interpret causally. Our key insight is that a single pair of explicit boundary tokens can address both issues at once: discrete entry and exit anchors make the latent block compatible with standard on-policy RL, and the same anchors offer a natural foothold for mechanistic analysis. Motivated by this, we propose SWITCH, a switchable latent reasoning framework. The model emits <swi> to enter latent mode and </swi> to exit. Because the boundaries are ordinary discrete tokens, the GRPO policy ratio is well-defined at every decision point. The same anchors a",
-    "url": "https://arxiv.org/abs/2606.13106",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13106",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13106"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13364",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13364",
-    "title": "VideoMDM: Towards 3D Human Motion Generation From 2D Supervision",
-    "summary": "We introduce VideoMDM, a diffusion-based framework that trains 3D human motion priors directly from accurate 2D poses extracted from monocular videos, without any 3D ground truth. A pretrained 2D-to-3D lifter provides approximate 3D pose sequences that serve as a noisy teacher: these are diffused, denoised by the model in 3D, and supervised in 2D by reprojecting the prediction and comparing against accurate keypoints. We show that, under mild assumptions, a depth-weighted 2D reprojection loss is",
-    "body": "We introduce VideoMDM, a diffusion-based framework that trains 3D human motion priors directly from accurate 2D poses extracted from monocular videos, without any 3D ground truth. A pretrained 2D-to-3D lifter provides approximate 3D pose sequences that serve as a noisy teacher: these are diffused, denoised by the model in 3D, and supervised in 2D by reprojecting the prediction and comparing against accurate keypoints. We show that, under mild assumptions, a depth-weighted 2D reprojection loss is equivalent in expectation to direct 3D supervision, and we adapt standard 3D motion regularizers - velocity consistency and over-parameterized representation alignment - to this 2D setting. Unlike methods that lift 2D to 3D only at inference, VideoMDM learns a coherent 3D motion manifold during tra",
-    "url": "https://arxiv.org/abs/2606.13364",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13364",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13364"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13644",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13644",
-    "title": "Surflo: Consistent 3D Surface Flow Model with Global State",
-    "summary": "Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent methods commit to a fixed, low-resolution output. We introduce Surflo, which compresses a variable number of unposed RGB views into K latent tokens-one global state-and decodes oriented 3D surface points by",
-    "body": "Geometry is invariant to viewpoint, which makes any collection of images a redundant encoding of a single 3D state. Existing feed-forward reconstruction models fail to exploit this: per-view methods emit overlapping, unaligned pointmaps that grow linearly with input count, while global-latent methods commit to a fixed, low-resolution output. We introduce Surflo, which compresses a variable number of unposed RGB views into K latent tokens-one global state-and decodes oriented 3D surface points by independently transporting them from noise onto the surface via flow matching. This frees the output from any fixed grid or token budget: the same latent yields from a few thousand to a million points in a single forward pass. To suppress the local inconsistencies inherent to independent per-point ",
-    "url": "https://arxiv.org/abs/2606.13644",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13644",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13644"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13662",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13662",
-    "title": "EurekAgent: Agent Environment Engineering is All You Need For Autonomous Scientific Discovery",
-    "summary": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfac",
-    "body": "LLM-based agents have shown increasing potential in automating scientific discovery. Given an optimizable metric and an execution environment, they can propose, validate, and iterate scientific solutions, and have produced results that outperform human-designed approaches. As model capabilities continue to improve, we argue that the bottleneck for autonomous scientific discovery is shifting from prescribing agent workflows to designing agent environments: the resources, constraints, and interfaces that shape agent behavior. We frame this as environment engineering: building environments that amplify productive behaviors, such as open-ended exploration, systematic artifact management, and inter-agent collaboration, while suppressing harmful behaviors, such as reward hacking and high-frictio",
-    "url": "https://arxiv.org/abs/2606.13662",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13662",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13662"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13672",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13672",
-    "title": "WEAVER, Better, Faster, Longer: An Effective World Model for Robotic Manipulation",
-    "summary": "The potential impacts of world models (WMs, i.e., learned simulators) on robotics are far-reaching -- policy evaluation, policy improvement, and test-time planning -- all with limited real-world interaction. To unlock these downstream capabilities, a WM needs to jointly satisfy three desiderata: (i) fidelity (i.e., producing simulated trajectories that correlate with reality), (ii) consistency (i.e., producing simulated trajectories that are coherent over long horizons), and (iii) efficiency (i.",
-    "body": "The potential impacts of world models (WMs, i.e., learned simulators) on robotics are far-reaching -- policy evaluation, policy improvement, and test-time planning -- all with limited real-world interaction. To unlock these downstream capabilities, a WM needs to jointly satisfy three desiderata: (i) fidelity (i.e., producing simulated trajectories that correlate with reality), (ii) consistency (i.e., producing simulated trajectories that are coherent over long horizons), and (iii) efficiency (i.e., producing simulated trajectories quickly). We propose WEAVER (World Estimation Across Views for Embodied Reasoning): a WM architecture that simultaneously achieves all three desiderata, providing state-of-the-art results on robotic manipulation tasks. WEAVER is a multi-view WM trained to predict",
-    "url": "https://arxiv.org/abs/2606.13672",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13672",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13672"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13473",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13473",
-    "title": "MaxProof: Scaling Mathematical Proof with Generative-Verifier RL and Population-Level Test-Time Scaling",
-    "summary": "We present MaxProof, a population-level test-time scaling framework for competition-level mathematical proof in the MiniMax-M3 series. M3 first trains three proof-oriented capabilities -- proof generation, proof verification, and critique-conditioned proof repair -- using a defense-in-depth generative verifier engineered for low false-positive rate. These capabilities are merged into a single released M3 model. At test time, MaxProof treats the model as a generator, verifier, refiner, and ranker",
-    "body": "We present MaxProof, a population-level test-time scaling framework for competition-level mathematical proof in the MiniMax-M3 series. M3 first trains three proof-oriented capabilities -- proof generation, proof verification, and critique-conditioned proof repair -- using a defense-in-depth generative verifier engineered for low false-positive rate. These capabilities are merged into a single released M3 model. At test time, MaxProof treats the model as a generator, verifier, refiner, and ranker, searches over a population of candidate proofs, and returns one final proof through tournament selection. With MaxProof test-time scaling, the M3 model reaches 35/42 on IMO 2025 and 36/42 on USAMO 2026, exceeding the human gold-medal threshold on both.",
-    "url": "https://arxiv.org/abs/2606.13473",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13473",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13473"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.13578",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.13578",
-    "title": "LabVLA: Grounding Vision-Language-Action Models in Scientific Laboratories",
-    "summary": "Scientific laboratories increasingly rely on AI systems to reason about experiments, but the physical act of doing science remains largely outside their reach. AI can help read literature, generate hypotheses, and plan protocols, yet the execution of those protocols at the bench still requires a human operator. Vision-Language-Action (VLA) models provide one possible interface between written protocols and robot execution, but existing policies are trained mostly on household and tabletop demons",
-    "body": "Scientific laboratories increasingly rely on AI systems to reason about experiments, but the physical act of doing science remains largely outside their reach. AI can help read literature, generate hypotheses, and plan protocols, yet the execution of those protocols at the bench still requires a human operator. Vision-Language-Action (VLA) models provide one possible interface between written protocols and robot execution, but existing policies are trained mostly on household and tabletop demonstrations and rarely encounter the instruments, transparent liquids, or fixed protocol workflows found in scientific laboratories. Closing this gap requires both laboratory-specific supervision and a unified learning framework that can accommodate the diverse robot embodiments used to execute experim",
-    "url": "https://arxiv.org/abs/2606.13578",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-10T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.13578",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.13578"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.12087",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.12087",
-    "title": "FORT-Searcher: Synthesizing Shortcut-Resistant Search Tasks for Training Deep Search Agents",
-    "summary": "Training deep search agents requires verifiable questions whose answers remain unavailable until sufficient evidence has been acquired through search. Existing synthesis methods often increase apparent difficulty by enriching graph structures, but structural complexity alone does not guarantee realized search difficulty: the intended search process can collapse through a cheaper identifying route. We formalize this gap with a shortcut-aware difficulty framework and identify four actionable short",
-    "body": "Training deep search agents requires verifiable questions whose answers remain unavailable until sufficient evidence has been acquired through search. Existing synthesis methods often increase apparent difficulty by enriching graph structures, but structural complexity alone does not guarantee realized search difficulty: the intended search process can collapse through a cheaper identifying route. We formalize this gap with a shortcut-aware difficulty framework and identify four actionable shortcut risks: evidence co-coverage, single-clue selectivity, exposed constants, and prior-knowledge binding. To diagnose their realized effects, we use trajectory signatures including solving cost, answer hit time, and prior-shortcut rate. Guided by this framework, we introduce FORT, a Framework of Sho",
-    "url": "https://arxiv.org/abs/2606.12087",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-09T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.12087",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.12087"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.12674",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.12674",
-    "title": "Evoflux: Inference-Time Evolution of Executable Tool Workflows for Compact Agents",
-    "summary": "Compact language models (LMs) reduce cost, latency, and deployment risk for tool agents. Yet MCP-style tool use requires more than isolated function calling: an agent must discover tools from live catalogs, satisfy schemas, preserve dependencies across intermediate outputs, and ground final responses in executed evidence. Small planners often generate plausible workflow graphs that fail under tool resolution, parameter validation, dependency tracking, or execution. We argue that this failure mod",
-    "body": "Compact language models (LMs) reduce cost, latency, and deployment risk for tool agents. Yet MCP-style tool use requires more than isolated function calling: an agent must discover tools from live catalogs, satisfy schemas, preserve dependencies across intermediate outputs, and ground final responses in executed evidence. Small planners often generate plausible workflow graphs that fail under tool resolution, parameter validation, dependency tracking, or execution. We argue that this failure mode is poorly handled by small-corpus distillation. A few hundred teacher traces can teach workflow format, but rarely cover the recovery behavior needed to repair failed plans over changing tool catalogs. We introduce Evoflux, an inference-time evolutionary search method that treats compact tool use ",
-    "url": "https://arxiv.org/abs/2606.12674",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-09T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.12674",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.12674"
+        "url": "https://arxiv.org/abs/2606.13120"
       }
     ]
   }
