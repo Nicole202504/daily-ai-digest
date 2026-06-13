@@ -1,8 +1,31 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-06-13T03:01:17.189Z",
+    "fetchedAt": "2026-06-13T07:03:17.386Z",
     "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqbzf9h3004dslffhpe65f73",
+        "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+        "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
+        "body": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
+        "url": "https://www.ithome.com/0/963/834.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-06-13T06:09:26.000Z",
+        "rawJson": {
+          "id": "cmqbzf9h3004dslffhpe65f73",
+          "title": "SemiAnalysis 洞察 Token 经济：200 美元 AI 订阅榨出 70 倍用量",
+          "title_en": null,
+          "url": "https://www.ithome.com/0/963/834.htm",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-06-13T06:09:26.000Z",
+          "summary": "SemiAnalysis 购买了 Anthropic 和 OpenAI 的全部订阅方案，模拟高强度编码任务直至触及每周上限。月费 200 美元的 Claude Max 20x 方案，按 API 价格换算最高可消耗约值 8000 美元的 token；ChatGPT Pro 20x 方案对应最高约值 14000 美元的 token。用户通过订阅可获取 40 至 70 倍的 API 价值，该机构指出这种价格体系在重度用户持续榨满上限后可能难以长期维持。",
+          "category": "tip",
+          "score": 73,
+          "selected": true
+        }
+      },
       {
         "source": "aihot",
         "sourceItemId": "aihot:cmqbrjero04b5slamicgrz7kn",
@@ -281,24 +304,24 @@
       },
       {
         "source": "aihot",
-        "sourceItemId": "aihot:cmqae79010kohslldooq3h2gk",
-        "title": "小互开源公众号自动排版技能组合",
-        "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
-        "body": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
-        "url": "https://x.com/xiaohu/status/2065278092441268246",
-        "sourceName": "X：小互 (@xiaohu)",
-        "sourceCategory": "tip",
-        "publishedAt": "2026-06-12T03:40:42.000Z",
+        "sourceItemId": "aihot:cmqbwmfgh05seslam0r0r80vz",
+        "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+        "summary": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 【x，y】 格式坐标。",
+        "body": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 【x，y】 格式坐标。",
+        "url": "https://huggingface.co/inclusionAI/VISTA-4B",
+        "sourceName": "蚂蚁 inclusionAI：HuggingFace 新模型",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-06-12T08:59:41.000Z",
         "rawJson": {
-          "id": "cmqae79010kohslldooq3h2gk",
-          "title": "小互开源公众号自动排版技能组合",
-          "title_en": "升级了下公众号排版技能 晚一点发布，还需要优化下 增加了一些主题和优化了预览和浏览页面的阅读体验",
-          "url": "https://x.com/xiaohu/status/2065278092441268246",
-          "source": "X：小互 (@xiaohu)",
-          "publishedAt": "2026-06-12T03:40:42.000Z",
-          "summary": "小互（@xiaohu）升级了公众号排版技能组合，实现一句话完成排版、封面生成并一键发送到公众号草稿箱。该工具已开源，提供20种主题颜色可选，可自动分析内容进行排版，支持非Markdown文件。用户只需在Claude Code、Codex或OpenClaw中提供文章链接或文档位置，即可获得可视化预览界面进行选择，全程无需手动操作。",
-          "category": "tip",
-          "score": 75,
+          "id": "cmqbwmfgh05seslam0r0r80vz",
+          "title": "inclusionAI 发布 VISTA-4B GUI 定位视觉语言模型",
+          "title_en": "inclusionAI/VISTA-4B",
+          "url": "https://huggingface.co/inclusionAI/VISTA-4B",
+          "source": "蚂蚁 inclusionAI：HuggingFace 新模型",
+          "publishedAt": "2026-06-12T08:59:41.000Z",
+          "summary": "VISTA-4B 是基于 Qwen3.5-4B 骨干的 GUI 定位模型，输入截图与自然语言指令，输出归一化 0-1000 坐标。训练采用视图一致 GRPO 和自验证交叉视图锚定。在 GUI 定位基准上，SSPro 得分 64.2（相比 GRPO-4B 提升 2.0），SSV2 得分 93.8（下降 0.4），OSWorld-G 得分 61.2（提升 1.3），OSWorld-G-R 得分 69.7（提升 0.5）。模型已开源在 HuggingFace，推荐使用提示词并返回 【x，y】 格式坐标。",
+          "category": "ai-models",
+          "score": 62,
           "selected": true
         }
       }
@@ -307,472 +330,45 @@
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-06-13T03:01:17.405Z",
-    "sourceGeneratedAt": "2026-06-11",
+    "fetchedAt": "2026-06-13T07:03:17.679Z",
+    "sourceGeneratedAt": "2026-06-12",
     "items": [
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1168743",
-        "title": "Bond",
-        "summary": "The AI to-do list that does itself",
-        "body": "Bond is an AI Chief of Staff for executives. It connects to your tools, learns how your company works, and turns scattered tasks into a self-managing to-do list that always knows what you need to do next. You can ask Bond to prepare you for your next meeting, draft a follow-up, send an email, create action items, identify blockers, surface risks, or delegate tasks to team members.",
-        "url": "https://www.producthunt.com/products/bond-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/7SFOLQBBWUEQXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
+        "sourceItemId": "ph:1166716",
+        "title": "Firma.dev",
+        "summary": "E-signatures API for your app averaging ~3¢ per envelope",
+        "body": "At €0.029 per envelope (about 3¢), Firma.dev runs about 99% cheaper than DocuSign, where one envelope can cost $4-5. Pay-as-you-go, no minimums, no contracts. Built developer-first for startups and SaaS teams who'd rather integrate signing in an afternoon than sit through a sales cycle: clean REST API, embeddable template and signing editors, integration in hours. Test everything free with a sandbox key, real docs and unlimited usage, before you pay a cent. Get an API key and start building.",
+        "url": "https://www.producthunt.com/products/firma-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/MJGLBAKR5ANIUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
         "metrics": {
-          "votes": 666,
-          "comments": 179,
+          "votes": 324,
+          "comments": 40,
           "rank": 1,
-          "score": 666
+          "score": 324
         },
         "metadata": {
-          "slug": "bond-717",
-          "topics": [
-            "Productivity",
-            "Task Management",
-            "Virtual Assistants"
-          ]
-        },
-        "rawJson": {
-          "id": "1168743",
-          "name": "Bond",
-          "slug": "bond-717",
-          "tagline": "The AI to-do list that does itself",
-          "description": "Bond is an AI Chief of Staff for executives. It connects to your tools, learns how your company works, and turns scattered tasks into a self-managing to-do list that always knows what you need to do next. You can ask Bond to prepare you for your next meeting, draft a follow-up, send an email, create action items, identify blockers, surface risks, or delegate tasks to team members.",
-          "url": "https://www.producthunt.com/products/bond-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/7SFOLQBBWUEQXW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 666,
-          "commentsCount": 179,
-          "dailyRank": 1,
-          "latestScore": 666,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Task Management",
-                  "slug": "task-management"
-                }
-              },
-              {
-                "node": {
-                  "name": "Virtual Assistants",
-                  "slug": "virtual-assistants"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1167625",
-        "title": "Asmi AI",
-        "summary": "AI that handles your personal chores in the real world",
-        "body": "Asmi calls you every morning. You talk - it handles the day. It calls services (dentist, salon, plumber, bank, insurance) or people (friends, colleagues) to coordinate, book or resolve things. Updates you on iMessage or WhatsApp when done. It can navigate IVRS, wait on hold and handle complex conversations well.",
-        "url": "https://www.producthunt.com/products/asmi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/Y5YVSLCZJ7BZ6I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
-        "metrics": {
-          "votes": 463,
-          "comments": 142,
-          "rank": 2,
-          "score": 463
-        },
-        "metadata": {
-          "slug": "asmi-ai-3",
-          "topics": [
-            "Productivity",
-            "Task Management",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1167625",
-          "name": "Asmi AI",
-          "slug": "asmi-ai-3",
-          "tagline": "AI that handles your personal chores in the real world",
-          "description": "Asmi calls you every morning. You talk - it handles the day. It calls services (dentist, salon, plumber, bank, insurance) or people (friends, colleagues) to coordinate, book or resolve things. Updates you on iMessage or WhatsApp when done. It can navigate IVRS, wait on hold and handle complex conversations well.",
-          "url": "https://www.producthunt.com/products/asmi-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/Y5YVSLCZJ7BZ6I?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 463,
-          "commentsCount": 142,
-          "dailyRank": 2,
-          "latestScore": 463,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Task Management",
-                  "slug": "task-management"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1165274",
-        "title": "Respan Gateway",
-        "summary": "One AI gateway with built-in observability and evals",
-        "body": "Respan AI Gateway connects your app to 1,000+ AI models through one endpoint. But routing is the easy part. Respan keeps production AI reliable and under control with fallbacks, retries, caching, spend limits, alerts, and full traces for every call. Gateway, observability, evals, prompt management, monitors, and cost controls all run on one platform, so you do not need to stitch together five tools to debug production.",
-        "url": "https://www.producthunt.com/products/keywords-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/PZT5PPTBVKBPVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
-        "metrics": {
-          "votes": 441,
-          "comments": 52,
-          "rank": 3,
-          "score": 441
-        },
-        "metadata": {
-          "slug": "respan-gateway",
-          "topics": [
-            "Developer Tools",
-            "Artificial Intelligence",
-            "Tech"
-          ]
-        },
-        "rawJson": {
-          "id": "1165274",
-          "name": "Respan Gateway",
-          "slug": "respan-gateway",
-          "tagline": "One AI gateway with built-in observability and evals",
-          "description": "Respan AI Gateway connects your app to 1,000+ AI models through one endpoint. But routing is the easy part. Respan keeps production AI reliable and under control with fallbacks, retries, caching, spend limits, alerts, and full traces for every call. Gateway, observability, evals, prompt management, monitors, and cost controls all run on one platform, so you do not need to stitch together five tools to debug production.",
-          "url": "https://www.producthunt.com/products/keywords-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/PZT5PPTBVKBPVT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 441,
-          "commentsCount": 52,
-          "dailyRank": 3,
-          "latestScore": 441,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Tech",
-                  "slug": "tech"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1168506",
-        "title": "Terminal Mode by Even Realities",
-        "summary": "Keep coding agents always in sight",
-        "body": "Terminal Mode by Even Realities unlocks an ambient terminal on Even G2 smart glasses. When a coding agent stalls, you catch it: see which agent needs you now, give direction, and approve key steps while your laptop runs long tasks, so token-maxers get more from every run and vibe coders stay in flow.",
-        "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/JP725UN73VRUJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
-        "metrics": {
-          "votes": 406,
-          "comments": 90,
-          "rank": 4,
-          "score": 406
-        },
-        "metadata": {
-          "slug": "terminal-mode-by-even-realities-3",
-          "topics": [
-            "Productivity",
-            "Developer Tools",
-            "Vibe coding"
-          ]
-        },
-        "rawJson": {
-          "id": "1168506",
-          "name": "Terminal Mode by Even Realities",
-          "slug": "terminal-mode-by-even-realities-3",
-          "tagline": "Keep coding agents always in sight",
-          "description": "Terminal Mode by Even Realities unlocks an ambient terminal on Even G2 smart glasses. When a coding agent stalls, you catch it: see which agent needs you now, give direction, and approve key steps while your laptop runs long tasks, so token-maxers get more from every run and vibe coders stay in flow.",
-          "url": "https://www.producthunt.com/products/terminal-mode-by-even-realities?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/JP725UN73VRUJN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 406,
-          "commentsCount": 90,
-          "dailyRank": 4,
-          "latestScore": 406,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              },
-              {
-                "node": {
-                  "name": "Vibe coding",
-                  "slug": "vibe-coding"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1157109",
-        "title": "Journey Now",
-        "summary": "Learning copilot for human ambition",
-        "body": "Journey Now turns anything you want to learn or master into a personalized, step-by-step plan — with daily guidance, reflection, and a view of how friends are progressing too. As your pace or goals change, the plan adjusts itself, so progress never stalls on a missed deadline.",
-        "url": "https://www.producthunt.com/products/journey-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/TM6F4IDMAQBU2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
-        "metrics": {
-          "votes": 394,
-          "comments": 82,
-          "rank": 5,
-          "score": 394
-        },
-        "metadata": {
-          "slug": "journey-now",
-          "topics": [
-            "iOS",
-            "Education",
-            "Lifestyle"
-          ]
-        },
-        "rawJson": {
-          "id": "1157109",
-          "name": "Journey Now",
-          "slug": "journey-now",
-          "tagline": "Learning copilot for human ambition",
-          "description": "Journey Now turns anything you want to learn or master into a personalized, step-by-step plan — with daily guidance, reflection, and a view of how friends are progressing too. As your pace or goals change, the plan adjusts itself, so progress never stalls on a missed deadline.",
-          "url": "https://www.producthunt.com/products/journey-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/TM6F4IDMAQBU2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 394,
-          "commentsCount": 82,
-          "dailyRank": 5,
-          "latestScore": 394,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "iOS",
-                  "slug": "ios"
-                }
-              },
-              {
-                "node": {
-                  "name": "Education",
-                  "slug": "education"
-                }
-              },
-              {
-                "node": {
-                  "name": "Lifestyle",
-                  "slug": "lifestyle"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1160286",
-        "title": "Slashspace AI",
-        "summary": "Canvas first AI experience for sustained, complex work",
-        "body": "An AI native user today copy-pastes prompts across a dozen apps. It's a broken experience for any kind of meaningful work. Every new chat box collapses context to zero. Slashspace solves that with an AI canvas where AI lives on the canvas, and you can run many chats as nodes. The canvas becomes the context space, and all the agents can see each other. Canvas is stored as files on your computer. Built with 1600 power users for over 1.5 years, we're the most mature canvas AI on the market.",
-        "url": "https://www.producthunt.com/products/slashspace-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/JNQC7JLKLXZB3X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:00:01Z",
-        "metrics": {
-          "votes": 375,
-          "comments": 59,
-          "rank": 6,
-          "score": 375
-        },
-        "metadata": {
-          "slug": "slashspace-ai",
-          "topics": [
-            "Productivity",
-            "Artificial Intelligence",
-            "Development"
-          ]
-        },
-        "rawJson": {
-          "id": "1160286",
-          "name": "Slashspace AI",
-          "slug": "slashspace-ai",
-          "tagline": "Canvas first AI experience for sustained, complex work",
-          "description": "An AI native user today copy-pastes prompts across a dozen apps. It's a broken experience for any kind of meaningful work. Every new chat box collapses context to zero. Slashspace solves that with an AI canvas where AI lives on the canvas, and you can run many chats as nodes. The canvas becomes the context space, and all the agents can see each other. Canvas is stored as files on your computer. Built with 1600 power users for over 1.5 years, we're the most mature canvas AI on the market.",
-          "url": "https://www.producthunt.com/products/slashspace-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/JNQC7JLKLXZB3X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 375,
-          "commentsCount": 59,
-          "dailyRank": 6,
-          "latestScore": 375,
-          "featuredAt": "2026-06-11T07:00:01Z",
-          "createdAt": "2026-06-11T07:00:01Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Development",
-                  "slug": "development"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1168429",
-        "title": "CrustRecruiter",
-        "summary": "Turn Claude into a recruiter that thinks like you",
-        "body": "Recruiting is half judgment, half grunt work. Claude brings the judgment, i.e. the reasoning and the memory, while Crustdata brings 800M+ candidate profiles and 5 recruiting skills via MCP, meaning the manual work runs itself and you get genuinely personalized recruiting at scale, all inside one chat.",
-        "url": "https://www.producthunt.com/products/crustdata-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/6UER3KDCF4DEER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
-        "metrics": {
-          "votes": 228,
-          "comments": 27,
-          "rank": 7,
-          "score": 228
-        },
-        "metadata": {
-          "slug": "crustrecruiter",
-          "topics": [
-            "Hiring",
-            "Artificial Intelligence",
-            "Tech"
-          ]
-        },
-        "rawJson": {
-          "id": "1168429",
-          "name": "CrustRecruiter",
-          "slug": "crustrecruiter",
-          "tagline": "Turn Claude into a recruiter that thinks like you",
-          "description": "Recruiting is half judgment, half grunt work. Claude brings the judgment, i.e. the reasoning and the memory, while Crustdata brings 800M+ candidate profiles and 5 recruiting skills via MCP, meaning the manual work runs itself and you get genuinely personalized recruiting at scale, all inside one chat.",
-          "url": "https://www.producthunt.com/products/crustdata-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/6UER3KDCF4DEER?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 228,
-          "commentsCount": 27,
-          "dailyRank": 7,
-          "latestScore": 228,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Hiring",
-                  "slug": "hiring"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Tech",
-                  "slug": "tech"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1168118",
-        "title": "Tabstack Structured Extraction",
-        "summary": "Extract web data into structured JSON, no scraper required.",
-        "body": "Define a schema, pass a URL, get back JSON that matches. Tabstack's extract endpoint turns any web page into structured output, no parsing code and no LLM call to maintain. generate endpoint adds AI instructions for reasoned answers, not raw fields. Both enforce your schema on every call, even when the page changes. Tune speed with effort levels, target any country with geo_target. Mozilla-backed: your data is never sold or used to train models. 10,000 free credits to start.",
-        "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/AE3CWZQGRROXKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
-        "metrics": {
-          "votes": 190,
-          "comments": 37,
-          "rank": 8,
-          "score": 190
-        },
-        "metadata": {
-          "slug": "tabstack-structured-extraction",
+          "slug": "firma-dev-2",
           "topics": [
             "API",
             "Developer Tools"
           ]
         },
         "rawJson": {
-          "id": "1168118",
-          "name": "Tabstack Structured Extraction",
-          "slug": "tabstack-structured-extraction",
-          "tagline": "Extract web data into structured JSON, no scraper required.",
-          "description": "Define a schema, pass a URL, get back JSON that matches. Tabstack's extract endpoint turns any web page into structured output, no parsing code and no LLM call to maintain. generate endpoint adds AI instructions for reasoned answers, not raw fields. Both enforce your schema on every call, even when the page changes. Tune speed with effort levels, target any country with geo_target. Mozilla-backed: your data is never sold or used to train models. 10,000 free credits to start.",
-          "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/AE3CWZQGRROXKK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 190,
-          "commentsCount": 37,
-          "dailyRank": 8,
-          "latestScore": 190,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
+          "id": "1166716",
+          "name": "Firma.dev",
+          "slug": "firma-dev-2",
+          "tagline": "E-signatures API for your app averaging ~3¢ per envelope",
+          "description": "At €0.029 per envelope (about 3¢), Firma.dev runs about 99% cheaper than DocuSign, where one envelope can cost $4-5. Pay-as-you-go, no minimums, no contracts. Built developer-first for startups and SaaS teams who'd rather integrate signing in an afternoon than sit through a sales cycle: clean REST API, embeddable template and signing editors, integration in hours. Test everything free with a sandbox key, real docs and unlimited usage, before you pay a cent. Get an API key and start building.",
+          "url": "https://www.producthunt.com/products/firma-dev?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/MJGLBAKR5ANIUY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 324,
+          "commentsCount": 40,
+          "dailyRank": 1,
+          "latestScore": 324,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -793,21 +389,21 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1146416",
-        "title": "Nodey",
-        "summary": "Your n8n command center, now on your phone",
-        "body": "Nodey is a mobile companion for n8n. Monitor your workflows in real time, diagnose failed executions with AI, build workflows from a prompt, and trigger automations with NFC tags or geofenced locations — all from your phone.",
-        "url": "https://www.producthunt.com/products/nodey-n8n-in-your-pocket?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/WV3N3G32P5KL74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
+        "sourceItemId": "ph:1169842",
+        "title": "Qursor",
+        "summary": "Point at any UI to send exact context to your AI",
+        "body": "I kept wasting AI tokens describing UI changes to agents that edited the wrong element. So I built Qursor. Point at any element, copy structured context (selectors, classes, styles, fonts, colors), paste into your AI agent. No vague screenshots. No burned credits. - Inspect fonts, colors, spacing - Copy AI-ready element context - Extract components as HTML/CSS/JSX - Color picker and font detector - Download assets from any page",
+        "url": "https://www.producthunt.com/products/qursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/UZAN2BZTEQ2HT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
         "metrics": {
-          "votes": 150,
-          "comments": 29,
-          "rank": 11,
-          "score": 150
+          "votes": 290,
+          "comments": 34,
+          "rank": 2,
+          "score": 290
         },
         "metadata": {
-          "slug": "nodey-2",
+          "slug": "qursor",
           "topics": [
             "Productivity",
             "Developer Tools",
@@ -815,19 +411,19 @@
           ]
         },
         "rawJson": {
-          "id": "1146416",
-          "name": "Nodey",
-          "slug": "nodey-2",
-          "tagline": "Your n8n command center, now on your phone",
-          "description": "Nodey is a mobile companion for n8n. Monitor your workflows in real time, diagnose failed executions with AI, build workflows from a prompt, and trigger automations with NFC tags or geofenced locations — all from your phone.",
-          "url": "https://www.producthunt.com/products/nodey-n8n-in-your-pocket?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/WV3N3G32P5KL74?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 150,
-          "commentsCount": 29,
-          "dailyRank": 11,
-          "latestScore": 150,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
+          "id": "1169842",
+          "name": "Qursor",
+          "slug": "qursor",
+          "tagline": "Point at any UI to send exact context to your AI",
+          "description": "I kept wasting AI tokens describing UI changes to agents that edited the wrong element. So I built Qursor. Point at any element, copy structured context (selectors, classes, styles, fonts, colors), paste into your AI agent. No vague screenshots. No burned credits. - Inspect fonts, colors, spacing - Copy AI-ready element context - Extract components as HTML/CSS/JSX - Color picker and font detector - Download assets from any page",
+          "url": "https://www.producthunt.com/products/qursor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/UZAN2BZTEQ2HT3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 290,
+          "commentsCount": 34,
+          "dailyRank": 2,
+          "latestScore": 290,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -854,47 +450,47 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1166749",
-        "title": "Juno",
-        "summary": "AI Health Companion for Chronic Illness",
-        "body": "Juno helps people living with chronic illness reduce symptoms, spot patterns, and shorten the path to diagnosis. Built on our Oxford research and 1,000+ patient interviews.",
-        "url": "https://www.producthunt.com/products/juno-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/ONMBUHRI6CS6OZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-11T07:01:00Z",
+        "sourceItemId": "ph:1166087",
+        "title": "Pond",
+        "summary": "Fundraising, GTM, and bounties for startups",
+        "body": "Pond is the market infrastructure for the new startup economy. Verified founders raise capital, acquire customers, and access 20,000+ contributors in one place. · Markets: Stripe-verified metrics + Vault-protected funding. One startup raised $150K in 3 minutes. · Bounties: 10,000+ submissions, $36K+ distributed. Ethereum Foundation, GPTZero, PhotoBase. · AI Growth Agent: CRM, pipeline, and GTM on autopilot. 400+ startups · 154 countries · Archetype & Coinbase Ventures.",
+        "url": "https://www.producthunt.com/products/pond-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/CTIMFBPUPVXIGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
         "metrics": {
-          "votes": 149,
-          "comments": 18,
-          "rank": 10,
-          "score": 149
+          "votes": 233,
+          "comments": 29,
+          "rank": 3,
+          "score": 233
         },
         "metadata": {
-          "slug": "juno-4c7afa09-c29f-46cf-898b-8209977d67d1",
+          "slug": "pond-5",
           "topics": [
-            "Health & Fitness",
+            "Marketing",
             "Artificial Intelligence",
-            "Health"
+            "Fundraising"
           ]
         },
         "rawJson": {
-          "id": "1166749",
-          "name": "Juno",
-          "slug": "juno-4c7afa09-c29f-46cf-898b-8209977d67d1",
-          "tagline": "AI Health Companion for Chronic Illness",
-          "description": "Juno helps people living with chronic illness reduce symptoms, spot patterns, and shorten the path to diagnosis. Built on our Oxford research and 1,000+ patient interviews.",
-          "url": "https://www.producthunt.com/products/juno-13?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/ONMBUHRI6CS6OZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 149,
-          "commentsCount": 18,
-          "dailyRank": 10,
-          "latestScore": 149,
-          "featuredAt": "2026-06-11T07:01:00Z",
-          "createdAt": "2026-06-11T07:01:00Z",
+          "id": "1166087",
+          "name": "Pond",
+          "slug": "pond-5",
+          "tagline": "Fundraising, GTM, and bounties for startups",
+          "description": "Pond is the market infrastructure for the new startup economy. Verified founders raise capital, acquire customers, and access 20,000+ contributors in one place. · Markets: Stripe-verified metrics + Vault-protected funding. One startup raised $150K in 3 minutes. · Bounties: 10,000+ submissions, $36K+ distributed. Ethereum Foundation, GPTZero, PhotoBase. · AI Growth Agent: CRM, pipeline, and GTM on autopilot. 400+ startups · 154 countries · Archetype & Coinbase Ventures.",
+          "url": "https://www.producthunt.com/products/pond-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/CTIMFBPUPVXIGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 233,
+          "commentsCount": 29,
+          "dailyRank": 3,
+          "latestScore": 233,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Health & Fitness",
-                  "slug": "health-fitness"
+                  "name": "Marketing",
+                  "slug": "marketing"
                 }
               },
               {
@@ -905,8 +501,449 @@
               },
               {
                 "node": {
-                  "name": "Health",
-                  "slug": "health"
+                  "name": "Fundraising",
+                  "slug": "fundraising"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169114",
+        "title": "HyperSleep",
+        "summary": "Block social media until you've actually slept",
+        "body": "Every screen-time app fails for the same reason: you have to turn it on and at 1am, you won't. HyperSleep flips it. Your social apps stay locked until multi-sensor detection verifies you actually slept. It auto-starts at bedtime, runs 100% on-device, and turns \"scroll less\" from willpower into an outcome you earn. Android.",
+        "url": "https://www.producthunt.com/products/hypersleep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/OUIBT5QXMTJNMM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 202,
+          "comments": 31,
+          "rank": 4,
+          "score": 202
+        },
+        "metadata": {
+          "slug": "hypersleep",
+          "topics": [
+            "Android",
+            "Health & Fitness",
+            "Productivity"
+          ]
+        },
+        "rawJson": {
+          "id": "1169114",
+          "name": "HyperSleep",
+          "slug": "hypersleep",
+          "tagline": "Block social media until you've actually slept",
+          "description": "Every screen-time app fails for the same reason: you have to turn it on and at 1am, you won't. HyperSleep flips it. Your social apps stay locked until multi-sensor detection verifies you actually slept. It auto-starts at bedtime, runs 100% on-device, and turns \"scroll less\" from willpower into an outcome you earn. Android.",
+          "url": "https://www.producthunt.com/products/hypersleep?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/OUIBT5QXMTJNMM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 202,
+          "commentsCount": 31,
+          "dailyRank": 4,
+          "latestScore": 202,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Android",
+                  "slug": "android"
+                }
+              },
+              {
+                "node": {
+                  "name": "Health & Fitness",
+                  "slug": "health-fitness"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169183",
+        "title": "KOSH Money",
+        "summary": "USD account & credit cards for freelancers & creators",
+        "body": "KOSH is a USD account built specifically for freelancers and creators across Asia. Unlike Wise or Payoneer, which often restrict or delay USD receiving in many Asian countries, KOSH lets you receive payments directly from Upwork and global clients, hold USD balances reliably, and spend with a credit card - without needing a US entity. Early users report faster access to their earnings and fewer payment rejections.",
+        "url": "https://www.producthunt.com/products/kosh-money?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/U4HHKG6LASDTLK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 189,
+          "comments": 23,
+          "rank": 5,
+          "score": 189
+        },
+        "metadata": {
+          "slug": "kosh-money",
+          "topics": [
+            "Android",
+            "Freelance",
+            "Banking",
+            "Credit card"
+          ]
+        },
+        "rawJson": {
+          "id": "1169183",
+          "name": "KOSH Money",
+          "slug": "kosh-money",
+          "tagline": "USD account & credit cards for freelancers & creators",
+          "description": "KOSH is a USD account built specifically for freelancers and creators across Asia. Unlike Wise or Payoneer, which often restrict or delay USD receiving in many Asian countries, KOSH lets you receive payments directly from Upwork and global clients, hold USD balances reliably, and spend with a credit card - without needing a US entity. Early users report faster access to their earnings and fewer payment rejections.",
+          "url": "https://www.producthunt.com/products/kosh-money?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/U4HHKG6LASDTLK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 189,
+          "commentsCount": 23,
+          "dailyRank": 5,
+          "latestScore": 189,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Android",
+                  "slug": "android"
+                }
+              },
+              {
+                "node": {
+                  "name": "Freelance",
+                  "slug": "freelance"
+                }
+              },
+              {
+                "node": {
+                  "name": "Banking",
+                  "slug": "banking"
+                }
+              },
+              {
+                "node": {
+                  "name": "Credit card",
+                  "slug": "credit-card"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169775",
+        "title": "Bob's CLI",
+        "summary": "A local-first AI coding CLI that adapts to you",
+        "body": "Bob's CLI runs on your own hardware with zero API costs, zero data leaving your machine. Bob lives in your terminal, sees your actual files, and writes code only with your explicit approval. What makes it different: auto-detect local AI models, behavioral DNA profiling that adapts to how YOU work, autonomous code review + auto-fix, conversation forking, deep dives, and SovereignLink — remote execution from any device while your code stays home. Free to start. Sovereign by design.",
+        "url": "https://www.producthunt.com/products/bob-s-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/EEQXQXCFJJTAFZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 141,
+          "comments": 23,
+          "rank": 6,
+          "score": 141
+        },
+        "metadata": {
+          "slug": "bob-s-cli",
+          "topics": [
+            "Developer Tools",
+            "Artificial Intelligence",
+            "GitHub",
+            "Vibe coding"
+          ]
+        },
+        "rawJson": {
+          "id": "1169775",
+          "name": "Bob's CLI",
+          "slug": "bob-s-cli",
+          "tagline": "A local-first AI coding CLI that adapts to you",
+          "description": "Bob's CLI runs on your own hardware with zero API costs, zero data leaving your machine. Bob lives in your terminal, sees your actual files, and writes code only with your explicit approval. What makes it different: auto-detect local AI models, behavioral DNA profiling that adapts to how YOU work, autonomous code review + auto-fix, conversation forking, deep dives, and SovereignLink — remote execution from any device while your code stays home. Free to start. Sovereign by design.",
+          "url": "https://www.producthunt.com/products/bob-s-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/EEQXQXCFJJTAFZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 141,
+          "commentsCount": 23,
+          "dailyRank": 6,
+          "latestScore": 141,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vibe coding",
+                  "slug": "vibe-coding"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169266",
+        "title": "Meet Warren 3.0",
+        "summary": "Your voice-supported AI financial planning partner",
+        "body": "One voice conversation. Free financial plan. We built Warren because financial planning was broken for anyone without a six-figure portfolio. IFAs charge £200/hr. Spreadsheets go stale. Generic apps tell you what you already know. Warren shows you two futures: what happens if you do nothing and what changes if you act. Then Warren gives you a set of next steps, tracks your progress, and monitors your plan against economic changes. Join 3K+ Brits already using Warren. 10 mins to start.",
+        "url": "https://www.producthunt.com/products/underpay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/ITHILQTGL6E2JY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 135,
+          "comments": 25,
+          "rank": 7,
+          "score": 135
+        },
+        "metadata": {
+          "slug": "meet-warren-3-0",
+          "topics": [
+            "Fintech",
+            "Artificial Intelligence",
+            "Personal Finance"
+          ]
+        },
+        "rawJson": {
+          "id": "1169266",
+          "name": "Meet Warren 3.0",
+          "slug": "meet-warren-3-0",
+          "tagline": "Your voice-supported AI financial planning partner",
+          "description": "One voice conversation. Free financial plan. We built Warren because financial planning was broken for anyone without a six-figure portfolio. IFAs charge £200/hr. Spreadsheets go stale. Generic apps tell you what you already know. Warren shows you two futures: what happens if you do nothing and what changes if you act. Then Warren gives you a set of next steps, tracks your progress, and monitors your plan against economic changes. Join 3K+ Brits already using Warren. 10 mins to start.",
+          "url": "https://www.producthunt.com/products/underpay?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/ITHILQTGL6E2JY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 135,
+          "commentsCount": 25,
+          "dailyRank": 7,
+          "latestScore": 135,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Fintech",
+                  "slug": "fintech"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Personal Finance",
+                  "slug": "personal-finance"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169557",
+        "title": "ShellMate",
+        "summary": "Manage SSH servers, credentials, and teams in one place",
+        "body": "ShellMate is a modern, ultra-fast, and secure SSH client featuring a zero-knowledge encrypted vault, cross-device sync, and advanced team workspace collaboration.",
+        "url": "https://www.producthunt.com/products/shellmate-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/U2DUIA53LZKYV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 112,
+          "comments": 11,
+          "rank": 8,
+          "score": 112
+        },
+        "metadata": {
+          "slug": "shellmate-2",
+          "topics": [
+            "Productivity",
+            "Privacy",
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1169557",
+          "name": "ShellMate",
+          "slug": "shellmate-2",
+          "tagline": "Manage SSH servers, credentials, and teams in one place",
+          "description": "ShellMate is a modern, ultra-fast, and secure SSH client featuring a zero-knowledge encrypted vault, cross-device sync, and advanced team workspace collaboration.",
+          "url": "https://www.producthunt.com/products/shellmate-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/U2DUIA53LZKYV3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 112,
+          "commentsCount": 11,
+          "dailyRank": 8,
+          "latestScore": 112,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Privacy",
+                  "slug": "privacy"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169141",
+        "title": "Insta360 Luna Ultra",
+        "summary": "A gimbal camera that sees with you",
+        "body": "Insta360 Luna Ultra is an 8K gimbal camera with a 1\" Leica Summicron main lens, 1/1.3\" telephoto lens, 3-axis stabilization, detachable 2\" OLED touchscreen, AI tracking, 10-bit I-Log, built-in storage, and POV shooting accessories.",
+        "url": "https://www.producthunt.com/products/insta-360?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/DWWY6SSAPT22S2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 112,
+          "comments": 5,
+          "rank": 9,
+          "score": 112
+        },
+        "metadata": {
+          "slug": "insta360-luna-ultra",
+          "topics": [
+            "Hardware",
+            "Photography",
+            "Video cameras"
+          ]
+        },
+        "rawJson": {
+          "id": "1169141",
+          "name": "Insta360 Luna Ultra",
+          "slug": "insta360-luna-ultra",
+          "tagline": "A gimbal camera that sees with you",
+          "description": "Insta360 Luna Ultra is an 8K gimbal camera with a 1\" Leica Summicron main lens, 1/1.3\" telephoto lens, 3-axis stabilization, detachable 2\" OLED touchscreen, AI tracking, 10-bit I-Log, built-in storage, and POV shooting accessories.",
+          "url": "https://www.producthunt.com/products/insta-360?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/DWWY6SSAPT22S2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 112,
+          "commentsCount": 5,
+          "dailyRank": 9,
+          "latestScore": 112,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Hardware",
+                  "slug": "hardware"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photography",
+                  "slug": "photography"
+                }
+              },
+              {
+                "node": {
+                  "name": "Video cameras",
+                  "slug": "video-cameras"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169798",
+        "title": "Slack Data Agent",
+        "summary": "Ask about your data without leaving Slack",
+        "body": "Basedash for Slack is your AI data analyst inside Slack — now in the official Slack Marketplace. Mention @Basedash in any channel and it queries your real data sources, thinks in the thread, and replies with an answer and a chart, right where your team is talking. Automations deliver scheduled reports to your channels, and insights surface anomalies automatically — charts included. Ask in Slack. Answered by your data.",
+        "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/MOY3ZCEEEPW3QE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-12T07:01:00Z",
+        "metrics": {
+          "votes": 108,
+          "comments": 17,
+          "rank": 10,
+          "score": 108
+        },
+        "metadata": {
+          "slug": "slack-data-agent",
+          "topics": [
+            "Artificial Intelligence",
+            "Data & Analytics",
+            "Business Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1169798",
+          "name": "Slack Data Agent",
+          "slug": "slack-data-agent",
+          "tagline": "Ask about your data without leaving Slack",
+          "description": "Basedash for Slack is your AI data analyst inside Slack — now in the official Slack Marketplace. Mention @Basedash in any channel and it queries your real data sources, thinks in the thread, and replies with an answer and a chart, right where your team is talking. Automations deliver scheduled reports to your channels, and insights surface anomalies automatically — charts included. Ask in Slack. Answered by your data.",
+          "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/MOY3ZCEEEPW3QE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 108,
+          "commentsCount": 17,
+          "dailyRank": 10,
+          "latestScore": 108,
+          "featuredAt": "2026-06-12T07:01:00Z",
+          "createdAt": "2026-06-12T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Data & Analytics",
+                  "slug": "data-analytics"
+                }
+              },
+              {
+                "node": {
+                  "name": "Business Intelligence",
+                  "slug": "business-intelligence"
                 }
               }
             ]
@@ -918,7 +955,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-06-13T03:01:17.513Z",
+    "fetchedAt": "2026-06-13T07:03:17.769Z",
     "items": [
       {
         "source": "github_trending",
@@ -926,7 +963,7 @@
         "title": "colbymchenry/codegraph",
         "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph 🎉 1.0 Released!",
         "url": "https://github.com/colbymchenry/codegraph",
-        "publishedAt": "2026-06-13T03:01:17.474Z",
+        "publishedAt": "2026-06-13T07:03:17.733Z",
         "metrics": {
           "rank": 1
         },
@@ -941,7 +978,7 @@
         "title": "chopratejas/headroom",
         "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.",
         "url": "https://github.com/chopratejas/headroom",
-        "publishedAt": "2026-06-13T03:01:17.475Z",
+        "publishedAt": "2026-06-13T07:03:17.734Z",
         "metrics": {
           "rank": 2
         },
@@ -956,7 +993,7 @@
         "title": "Egonex-AI/Understand-Anything",
         "summary": "Graphs that teach > graphs that impress.",
         "url": "https://github.com/Egonex-AI/Understand-Anything",
-        "publishedAt": "2026-06-13T03:01:17.476Z",
+        "publishedAt": "2026-06-13T07:03:17.735Z",
         "metrics": {
           "rank": 3
         },
@@ -971,7 +1008,7 @@
         "title": "harry0703/MoneyPrinterTurbo",
         "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-        "publishedAt": "2026-06-13T03:01:17.477Z",
+        "publishedAt": "2026-06-13T07:03:17.736Z",
         "metrics": {
           "rank": 4
         },
@@ -986,7 +1023,7 @@
         "title": "tinyhumansai/openhuman",
         "summary": "Your Personal AI super intelligence.",
         "url": "https://github.com/tinyhumansai/openhuman",
-        "publishedAt": "2026-06-13T03:01:17.478Z",
+        "publishedAt": "2026-06-13T07:03:17.737Z",
         "metrics": {
           "rank": 5
         },
@@ -1001,7 +1038,7 @@
         "title": "rohitg00/ai-engineering-from-scratch",
         "summary": "Learn it.",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "publishedAt": "2026-06-13T03:01:17.486Z",
+        "publishedAt": "2026-06-13T07:03:17.744Z",
         "metrics": {
           "rank": 6
         },
@@ -1016,7 +1053,7 @@
         "title": "Imbad0202/academic-research-skills",
         "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
         "url": "https://github.com/Imbad0202/academic-research-skills",
-        "publishedAt": "2026-06-13T03:01:17.491Z",
+        "publishedAt": "2026-06-13T07:03:17.749Z",
         "metrics": {
           "rank": 7
         },
@@ -1031,7 +1068,7 @@
         "title": "ruvnet/RuView",
         "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "url": "https://github.com/ruvnet/RuView",
-        "publishedAt": "2026-06-13T03:01:17.495Z",
+        "publishedAt": "2026-06-13T07:03:17.753Z",
         "metrics": {
           "rank": 8
         },
@@ -1046,7 +1083,7 @@
         "title": "can1357/oh-my-pi",
         "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
         "url": "https://github.com/can1357/oh-my-pi",
-        "publishedAt": "2026-06-13T03:01:17.497Z",
+        "publishedAt": "2026-06-13T07:03:17.755Z",
         "metrics": {
           "rank": 9
         },
@@ -1061,7 +1098,7 @@
         "title": "rohitg00/agentmemory",
         "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
         "url": "https://github.com/rohitg00/agentmemory",
-        "publishedAt": "2026-06-13T03:01:17.503Z",
+        "publishedAt": "2026-06-13T07:03:17.760Z",
         "metrics": {
           "rank": 10
         },
@@ -1076,7 +1113,7 @@
         "title": "CloakHQ/CloakBrowser",
         "summary": "Stealth Chromium that passes every bot detection test.",
         "url": "https://github.com/CloakHQ/CloakBrowser",
-        "publishedAt": "2026-06-13T03:01:17.507Z",
+        "publishedAt": "2026-06-13T07:03:17.764Z",
         "metrics": {
           "rank": 11
         },
@@ -1091,7 +1128,7 @@
         "title": "supertone-inc/supertonic",
         "summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
         "url": "https://github.com/supertone-inc/supertonic",
-        "publishedAt": "2026-06-13T03:01:17.508Z",
+        "publishedAt": "2026-06-13T07:03:17.765Z",
         "metrics": {
           "rank": 12
         },
@@ -1106,7 +1143,7 @@
         "title": "HKUDS/ViMax",
         "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" ViMax: Agentic Video Generation 🚨 Current Video Generation Limitations: ❌ Limited to Short Clips - Most AI tools generate only seconds of footage.",
         "url": "https://github.com/HKUDS/ViMax",
-        "publishedAt": "2026-06-13T03:01:17.510Z",
+        "publishedAt": "2026-06-13T07:03:17.766Z",
         "metrics": {
           "rank": 13
         },
@@ -1121,7 +1158,7 @@
         "title": "hardikpandya/stop-slop",
         "summary": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
         "url": "https://github.com/hardikpandya/stop-slop",
-        "publishedAt": "2026-06-13T03:01:17.510Z",
+        "publishedAt": "2026-06-13T07:03:17.766Z",
         "metrics": {
           "rank": 14
         },
@@ -1136,7 +1173,7 @@
         "title": "anthropics/knowledge-work-plugins",
         "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
         "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "publishedAt": "2026-06-13T03:01:17.510Z",
+        "publishedAt": "2026-06-13T07:03:17.766Z",
         "metrics": {
           "rank": 15
         },
@@ -1151,7 +1188,7 @@
         "title": "microsoft/markitdown",
         "summary": "Python tool for converting files and office documents to Markdown.",
         "url": "https://github.com/microsoft/markitdown",
-        "publishedAt": "2026-06-13T03:01:17.511Z",
+        "publishedAt": "2026-06-13T07:03:17.767Z",
         "metrics": {
           "rank": 16
         },
@@ -1166,7 +1203,7 @@
         "title": "Leonxlnx/taste-skill",
         "summary": "Taste-Skill - gives your AI good taste.",
         "url": "https://github.com/Leonxlnx/taste-skill",
-        "publishedAt": "2026-06-13T03:01:17.511Z",
+        "publishedAt": "2026-06-13T07:03:17.768Z",
         "metrics": {
           "rank": 17
         },
@@ -1181,7 +1218,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-06-13T03:01:17.512Z",
+        "publishedAt": "2026-06-13T07:03:17.768Z",
         "metrics": {
           "rank": 18
         },
@@ -1196,7 +1233,7 @@
         "title": "fathah/hermes-desktop",
         "summary": "Desktop Companion for Hermes Agent English · 简体中文 · 日本語 · Español (LATAM) This project is in active development.",
         "url": "https://github.com/fathah/hermes-desktop",
-        "publishedAt": "2026-06-13T03:01:17.513Z",
+        "publishedAt": "2026-06-13T07:03:17.769Z",
         "metrics": {
           "rank": 19
         },
@@ -1211,7 +1248,7 @@
         "title": "iii-hq/iii",
         "summary": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
         "url": "https://github.com/iii-hq/iii",
-        "publishedAt": "2026-06-13T03:01:17.513Z",
+        "publishedAt": "2026-06-13T07:03:17.769Z",
         "metrics": {
           "rank": 20
         },
@@ -1225,7 +1262,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-06-13T03:01:24.812Z",
+    "fetchedAt": "2026-06-13T07:03:38.068Z",
     "items": [
       {
         "source": "builder_openai",
