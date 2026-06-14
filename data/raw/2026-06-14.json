@@ -1,7 +1,7 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-06-14T07:53:13.750Z",
+    "fetchedAt": "2026-06-14T08:09:43.254Z",
     "items": [
       {
         "source": "aihot",
@@ -192,7 +192,7 @@
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-06-14T07:53:14.165Z",
+    "fetchedAt": "2026-06-14T08:09:43.677Z",
     "sourceGeneratedAt": "2026-06-13",
     "items": [
       {
@@ -718,37 +718,38 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1170093",
-        "title": "Bail: Fake Call Simulator",
-        "summary": "Fake calls and alerts for a graceful exit",
-        "body": "Bail is an iPhone app for creating believable social-exit moments. Start a fake incoming call, lock-screen alert, low-battery shutdown screen, LED sign, or live-room simulation in seconds. It is built for awkward dates, meetings, parties, demos, role-play, and privacy practice. Bail does not place real calls, send real messages, or contact emergency services.",
-        "url": "https://www.producthunt.com/products/bail-fake-call-simulator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/V7X6T5MWSKKKU4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "sourceItemId": "ph:1170188",
+        "title": "APIddress — email validation API",
+        "summary": "The email validation API that shows its work",
+        "body": "APIddress is an email validation API for developers: one request returns the full verdict — syntax, domain/MX, disposable, role-based, typo detection, and spam-trap risk — as a transparent checks object, not a black-box score. The private beta is opening soon : request access at apiddress.com and get a key as soon as it opens. Free during beta, no credit packs, and nothing ever expires. Follow here to catch the public launch.",
+        "url": "https://www.producthunt.com/products/apiddress-email-validation-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/HMUDGQKNISF5RY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-13T07:01:00Z",
         "metrics": {
           "votes": 10,
           "comments": 1,
-          "rank": 12,
+          "rank": 13,
           "score": 10
         },
         "metadata": {
-          "slug": "bail-fake-call-simulator",
+          "slug": "apiddress-email-validation-api",
           "topics": [
-            "iOS",
-            "Lifestyle"
+            "Email",
+            "API",
+            "Developer Tools"
           ]
         },
         "rawJson": {
-          "id": "1170093",
-          "name": "Bail: Fake Call Simulator",
-          "slug": "bail-fake-call-simulator",
-          "tagline": "Fake calls and alerts for a graceful exit",
-          "description": "Bail is an iPhone app for creating believable social-exit moments. Start a fake incoming call, lock-screen alert, low-battery shutdown screen, LED sign, or live-room simulation in seconds. It is built for awkward dates, meetings, parties, demos, role-play, and privacy practice. Bail does not place real calls, send real messages, or contact emergency services.",
-          "url": "https://www.producthunt.com/products/bail-fake-call-simulator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/V7X6T5MWSKKKU4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "id": "1170188",
+          "name": "APIddress — email validation API",
+          "slug": "apiddress-email-validation-api",
+          "tagline": "The email validation API that shows its work",
+          "description": "APIddress is an email validation API for developers: one request returns the full verdict — syntax, domain/MX, disposable, role-based, typo detection, and spam-trap risk — as a transparent checks object, not a black-box score. The private beta is opening soon : request access at apiddress.com and get a key as soon as it opens. Free during beta, no credit packs, and nothing ever expires. Follow here to catch the public launch.",
+          "url": "https://www.producthunt.com/products/apiddress-email-validation-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/HMUDGQKNISF5RY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "votesCount": 10,
           "commentsCount": 1,
-          "dailyRank": 12,
+          "dailyRank": 13,
           "latestScore": 10,
           "featuredAt": null,
           "createdAt": "2026-06-13T07:01:00Z",
@@ -756,14 +757,20 @@
             "edges": [
               {
                 "node": {
-                  "name": "iOS",
-                  "slug": "ios"
+                  "name": "Email",
+                  "slug": "email"
                 }
               },
               {
                 "node": {
-                  "name": "Lifestyle",
-                  "slug": "lifestyle"
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
                 }
               }
             ]
@@ -775,7 +782,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-06-14T07:53:14.280Z",
+    "fetchedAt": "2026-06-14T08:09:43.982Z",
     "items": [
       {
         "source": "github_trending",
@@ -783,7 +790,7 @@
         "title": "colbymchenry/codegraph",
         "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph 🎉 1.0 Released!",
         "url": "https://github.com/colbymchenry/codegraph",
-        "publishedAt": "2026-06-14T07:53:14.224Z",
+        "publishedAt": "2026-06-14T08:09:43.945Z",
         "metrics": {
           "rank": 1
         },
@@ -798,7 +805,7 @@
         "title": "chopratejas/headroom",
         "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.",
         "url": "https://github.com/chopratejas/headroom",
-        "publishedAt": "2026-06-14T07:53:14.225Z",
+        "publishedAt": "2026-06-14T08:09:43.946Z",
         "metrics": {
           "rank": 2
         },
@@ -813,7 +820,7 @@
         "title": "Egonex-AI/Understand-Anything",
         "summary": "Graphs that teach > graphs that impress.",
         "url": "https://github.com/Egonex-AI/Understand-Anything",
-        "publishedAt": "2026-06-14T07:53:14.226Z",
+        "publishedAt": "2026-06-14T08:09:43.946Z",
         "metrics": {
           "rank": 3
         },
@@ -828,7 +835,7 @@
         "title": "harry0703/MoneyPrinterTurbo",
         "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-        "publishedAt": "2026-06-14T07:53:14.227Z",
+        "publishedAt": "2026-06-14T08:09:43.948Z",
         "metrics": {
           "rank": 4
         },
@@ -843,7 +850,7 @@
         "title": "tinyhumansai/openhuman",
         "summary": "Your Personal AI super intelligence.",
         "url": "https://github.com/tinyhumansai/openhuman",
-        "publishedAt": "2026-06-14T07:53:14.228Z",
+        "publishedAt": "2026-06-14T08:09:43.948Z",
         "metrics": {
           "rank": 5
         },
@@ -858,7 +865,7 @@
         "title": "rohitg00/ai-engineering-from-scratch",
         "summary": "Learn it.",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "publishedAt": "2026-06-14T07:53:14.236Z",
+        "publishedAt": "2026-06-14T08:09:43.955Z",
         "metrics": {
           "rank": 6
         },
@@ -873,7 +880,7 @@
         "title": "Imbad0202/academic-research-skills",
         "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
         "url": "https://github.com/Imbad0202/academic-research-skills",
-        "publishedAt": "2026-06-14T07:53:14.241Z",
+        "publishedAt": "2026-06-14T08:09:43.960Z",
         "metrics": {
           "rank": 7
         },
@@ -888,7 +895,7 @@
         "title": "can1357/oh-my-pi",
         "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
         "url": "https://github.com/can1357/oh-my-pi",
-        "publishedAt": "2026-06-14T07:53:14.243Z",
+        "publishedAt": "2026-06-14T08:09:43.962Z",
         "metrics": {
           "rank": 8
         },
@@ -903,7 +910,7 @@
         "title": "ruvnet/RuView",
         "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "url": "https://github.com/ruvnet/RuView",
-        "publishedAt": "2026-06-14T07:53:14.251Z",
+        "publishedAt": "2026-06-14T08:09:43.966Z",
         "metrics": {
           "rank": 9
         },
@@ -918,7 +925,7 @@
         "title": "hardikpandya/stop-slop",
         "summary": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
         "url": "https://github.com/hardikpandya/stop-slop",
-        "publishedAt": "2026-06-14T07:53:14.251Z",
+        "publishedAt": "2026-06-14T08:09:43.967Z",
         "metrics": {
           "rank": 10
         },
@@ -933,7 +940,7 @@
         "title": "rohitg00/agentmemory",
         "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
         "url": "https://github.com/rohitg00/agentmemory",
-        "publishedAt": "2026-06-14T07:53:14.262Z",
+        "publishedAt": "2026-06-14T08:09:43.972Z",
         "metrics": {
           "rank": 11
         },
@@ -948,7 +955,7 @@
         "title": "CloakHQ/CloakBrowser",
         "summary": "Stealth Chromium that passes every bot detection test.",
         "url": "https://github.com/CloakHQ/CloakBrowser",
-        "publishedAt": "2026-06-14T07:53:14.269Z",
+        "publishedAt": "2026-06-14T08:09:43.976Z",
         "metrics": {
           "rank": 12
         },
@@ -963,7 +970,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-06-14T07:53:14.269Z",
+        "publishedAt": "2026-06-14T08:09:43.976Z",
         "metrics": {
           "rank": 13
         },
@@ -978,7 +985,7 @@
         "title": "HKUDS/ViMax",
         "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" ViMax: Agentic Video Generation 🚨 Current Video Generation Limitations: ❌ Limited to Short Clips - Most AI tools generate only seconds of footage.",
         "url": "https://github.com/HKUDS/ViMax",
-        "publishedAt": "2026-06-14T07:53:14.271Z",
+        "publishedAt": "2026-06-14T08:09:43.977Z",
         "metrics": {
           "rank": 14
         },
@@ -993,7 +1000,7 @@
         "title": "anthropics/knowledge-work-plugins",
         "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
         "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "publishedAt": "2026-06-14T07:53:14.271Z",
+        "publishedAt": "2026-06-14T08:09:43.977Z",
         "metrics": {
           "rank": 15
         },
@@ -1008,7 +1015,7 @@
         "title": "microsoft/markitdown",
         "summary": "Python tool for converting files and office documents to Markdown.",
         "url": "https://github.com/microsoft/markitdown",
-        "publishedAt": "2026-06-14T07:53:14.273Z",
+        "publishedAt": "2026-06-14T08:09:43.978Z",
         "metrics": {
           "rank": 16
         },
@@ -1023,7 +1030,7 @@
         "title": "Leonxlnx/taste-skill",
         "summary": "Taste-Skill - gives your AI good taste.",
         "url": "https://github.com/Leonxlnx/taste-skill",
-        "publishedAt": "2026-06-14T07:53:14.274Z",
+        "publishedAt": "2026-06-14T08:09:43.978Z",
         "metrics": {
           "rank": 17
         },
@@ -1038,7 +1045,7 @@
         "title": "supertone-inc/supertonic",
         "summary": "Lightning-Fast, On-Device, Multilingual TTS — running natively via ONNX.",
         "url": "https://github.com/supertone-inc/supertonic",
-        "publishedAt": "2026-06-14T07:53:14.276Z",
+        "publishedAt": "2026-06-14T08:09:43.980Z",
         "metrics": {
           "rank": 18
         },
@@ -1053,7 +1060,7 @@
         "title": "TencentCloud/TencentDB-Agent-Memory",
         "summary": "TencentDB Agent Memory delivers fully local long-term memory for AI Agents via a 4-tier progressive pipeline, with zero external API dependencies.",
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-        "publishedAt": "2026-06-14T07:53:14.279Z",
+        "publishedAt": "2026-06-14T08:09:43.981Z",
         "metrics": {
           "rank": 19
         },
@@ -1068,7 +1075,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-06-14T07:53:14.280Z",
+        "publishedAt": "2026-06-14T08:09:43.982Z",
         "metrics": {
           "rank": 20
         },
@@ -1082,7 +1089,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-06-14T07:53:26.996Z",
+    "fetchedAt": "2026-06-14T08:09:48.200Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1309,231 +1316,6 @@
         }
       },
       {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.anthropic.com/research/making-claude-a-chemist",
-        "title": "Making Claude a Chemist",
-        "summary": "Article URL: https://www.anthropic.com/research/making-claude-a-chemist Comments URL: https://news.ycombinator.com/item?id=48523752 Points: 30 # Comments: 18",
-        "body": "Article URL: https://www.anthropic.com/research/making-claude-a-chemist Comments URL: https://news.ycombinator.com/item?id=48523752 Points: 30 # Comments: 18",
-        "url": "https://www.anthropic.com/research/making-claude-a-chemist",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-14T02:55:36.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
-        "title": "Meta’s chaotic AI strategy",
-        "summary": "Article URL: https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/ Comments URL: https://news.ycombinator.com/item?id=48523271 Points: 66 # Comments: 68",
-        "body": "Article URL: https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/ Comments URL: https://news.ycombinator.com/item?id=48523271 Points: 66 # Comments: 68",
-        "url": "https://www.wired.com/story/mark-zuckerberg-meta-employee-meeting-interrupt-ai/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-14T01:23:45.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.bbc.com/news/articles/cy8wppwdxl6o",
-        "title": "Derbyshire Police officer accused of using AI to 'create evidence'",
-        "summary": "Article URL: https://www.bbc.com/news/articles/cy8wppwdxl6o Comments URL: https://news.ycombinator.com/item?id=48522237 Points: 30 # Comments: 2",
-        "body": "Article URL: https://www.bbc.com/news/articles/cy8wppwdxl6o Comments URL: https://news.ycombinator.com/item?id=48522237 Points: 30 # Comments: 2",
-        "url": "https://www.bbc.com/news/articles/cy8wppwdxl6o",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T22:43:30.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
-        "title": "Police officer investigated for using AI to 'create evidence' in multiple cases",
-        "summary": "Article URL: https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661 Comments URL: https://news.ycombinator.com/item?id=48520807 Points: 312 # Comments: 145",
-        "body": "Article URL: https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661 Comments URL: https://news.ycombinator.com/item?id=48520807 Points: 312 # Comments: 145",
-        "url": "https://news.sky.com/story/derbyshire-police-officer-investigated-for-using-ai-to-create-evidence-in-multiple-cases-13553661",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T19:54:55.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
-        "title": "PwC Report: AI Making Medical Bills Higher",
-        "summary": "Article URL: https://fortune.com/2026/06/12/ai-making-medical-bills-higher/ Comments URL: https://news.ycombinator.com/item?id=48519519 Points: 72 # Comments: 15",
-        "body": "Article URL: https://fortune.com/2026/06/12/ai-making-medical-bills-higher/ Comments URL: https://news.ycombinator.com/item?id=48519519 Points: 72 # Comments: 15",
-        "url": "https://fortune.com/2026/06/12/ai-making-medical-bills-higher/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T17:39:14.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
-        "title": "AI coding at home without going broke",
-        "summary": "Article URL: https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/ Comments URL: https://news.ycombinator.com/item?id=48518969 Points: 282 # Comments: 236",
-        "body": "Article URL: https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/ Comments URL: https://news.ycombinator.com/item?id=48518969 Points: 282 # Comments: 236",
-        "url": "https://stephen.bochinski.dev/blog/2026/06/13/ai-coding-at-home-without-going-broke/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T16:45:03.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://github.com/tensorzero/tensorzero",
-        "title": "AI OSS tool repo goes archived over night after raising $7.3M Seed",
-        "summary": "Article URL: https://github.com/tensorzero/tensorzero Comments URL: https://news.ycombinator.com/item?id=48516504 Points: 257 # Comments: 163",
-        "body": "Article URL: https://github.com/tensorzero/tensorzero Comments URL: https://news.ycombinator.com/item?id=48516504 Points: 257 # Comments: 163",
-        "url": "https://github.com/tensorzero/tensorzero",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T12:10:47.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://github.com/Paca-AI/paca",
-        "title": "Show HN: Paca – Lightweight Jira alternative for human-AI collaboration",
-        "summary": "I built Paca out of pure passion—a free and lightweight Jira alternative written in Go where humans and AI agents work together as equal teammates to plan sprints and assign tasks to each other. It is fully customizable with custom views, fields, and a WASM-based plugin architecture. My team uses it daily for our own development, so it will be continuously maintained and completely free forever Comments URL: https://news.ycombinator.com/item?id=48515385 Points: 147 # Comments: 55",
-        "body": "I built Paca out of pure passion—a free and lightweight Jira alternative written in Go where humans and AI agents work together as equal teammates to plan sprints and assign tasks to each other. It is fully customizable with custom views, fields, and a WASM-based plugin architecture. My team uses it daily for our own development, so it will be continuously maintained and completely free forever Comments URL: https://news.ycombinator.com/item?id=48515385 Points: 147 # Comments: 55",
-        "url": "https://github.com/Paca-AI/paca",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T09:44:25.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://opensourceaimustwin.com/?share=v2",
-        "title": "Open source AI must win",
-        "summary": "Article URL: https://opensourceaimustwin.com/?share=v2 Comments URL: https://news.ycombinator.com/item?id=48511908 Points: 1536 # Comments: 467",
-        "body": "Article URL: https://opensourceaimustwin.com/?share=v2 Comments URL: https://news.ycombinator.com/item?id=48511908 Points: 1536 # Comments: 467",
-        "url": "https://opensourceaimustwin.com/?share=v2",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T02:14:24.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://status.claude.com/incidents/s9w82lp9dcn9",
-        "title": "We've suspended access to Claude Mythos 5 and Claude Fable 5",
-        "summary": "Article URL: https://status.claude.com/incidents/s9w82lp9dcn9 Comments URL: https://news.ycombinator.com/item?id=48511121 Points: 251 # Comments: 5",
-        "body": "Article URL: https://status.claude.com/incidents/s9w82lp9dcn9 Comments URL: https://news.ycombinator.com/item?id=48511121 Points: 251 # Comments: 5",
-        "url": "https://status.claude.com/incidents/s9w82lp9dcn9",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-13T00:58:06.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-        "title": "Show HN: Script to bulk delete Claude chats from the web UI",
-        "summary": "I haven't found a way to delete all chats in bulk like you can on Chatgpt. With Claude, you have to scroll to the bottom, select everything, and delete. The problem is, if you have a lot of chats, it becomes impossible. I created this script. It does it alone. I hope it helps someone. (conversations disappear from the UI slowly, over several minutes, and remember to keep the tab open until the console shows \"Finished\", refreshing away from the page can stop the deletion process.) Comments URL: h",
-        "body": "I haven't found a way to delete all chats in bulk like you can on Chatgpt. With Claude, you have to scroll to the bottom, select everything, and delete. The problem is, if you have a lot of chats, it becomes impossible. I created this script. It does it alone. I hope it helps someone. (conversations disappear from the UI slowly, over several minutes, and remember to keep the tab open until the console shows \"Finished\", refreshing away from the page can stop the deletion process.) Comments URL: https://news.ycombinator.com/item?id=48505161 Points: 59 # Comments: 20",
-        "url": "https://github.com/MatteoLeonesi/bulk-delete-claude-chat",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-12T15:08:59.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://envs.net/~volpe/blog/posts/reduce-slop.html",
-        "title": "Slightly reducing the sloppiness of AI generated front end",
-        "summary": "Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html Comments URL: https://news.ycombinator.com/item?id=48504912 Points: 218 # Comments: 130",
-        "body": "Article URL: https://envs.net/~volpe/blog/posts/reduce-slop.html Comments URL: https://news.ycombinator.com/item?id=48504912 Points: 218 # Comments: 130",
-        "url": "https://envs.net/~volpe/blog/posts/reduce-slop.html",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-12T14:48:38.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
-        "title": "AI Economics for Dummies",
-        "summary": "Article URL: https://www.mcsweeneys.net/articles/ai-economics-for-dummies Comments URL: https://news.ycombinator.com/item?id=48502456 Points: 32 # Comments: 3",
-        "body": "Article URL: https://www.mcsweeneys.net/articles/ai-economics-for-dummies Comments URL: https://news.ycombinator.com/item?id=48502456 Points: 32 # Comments: 3",
-        "url": "https://www.mcsweeneys.net/articles/ai-economics-for-dummies",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-12T10:56:45.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-        "title": "AI agent bankrupted their operator while trying to scan DN42",
-        "summary": "Article URL: https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/ Comments URL: https://news.ycombinator.com/item?id=48500012 Points: 1446 # Comments: 525",
-        "body": "Article URL: https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/ Comments URL: https://news.ycombinator.com/item?id=48500012 Points: 1446 # Comments: 525",
-        "url": "https://lantian.pub/en/article/fun/ai-agent-bankrupted-their-operator-scan-dn42lantian.lantian/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-12T04:42:53.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "title": "Claude Fable is relentlessly proactive",
-        "summary": "Article URL: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/ Comments URL: https://news.ycombinator.com/item?id=48498573 Points: 762 # Comments: 655",
-        "body": "Article URL: https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/ Comments URL: https://news.ycombinator.com/item?id=48498573 Points: 762 # Comments: 655",
-        "url": "https://simonwillison.net/2026/Jun/11/fable-is-relentlessly-proactive/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-06-12T01:06:51.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
         "source": "builder_lobsters",
         "sourceItemId": "builder_lobsters:https://blog.cryptographyengineering.com/2026/06/09/apples-siri-ai-or-more-shouting-into-the-void-about-private-agents/",
         "title": "The future of Siri, or: why private inference isn’t private enough",
@@ -1596,7 +1378,8 @@
     ],
     "errors": [
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403"
+      "Gwern: HTTP 403",
+      "Hacker News AI: HTTP 502"
     ]
   }
 ]
