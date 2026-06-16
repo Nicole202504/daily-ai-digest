@@ -1,28 +1,74 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-06-16T03:01:10.588Z",
+    "fetchedAt": "2026-06-16T08:51:41.325Z",
     "items": [
       {
         "source": "aihot",
-        "sourceItemId": "aihot:cmqg1bu4n02o9slsp8813ls12",
-        "title": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告",
-        "summary": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告，系统公开 Ling-2.6-flash、Ling-2.6-1T 和 Ring-2.6-1T 的架构、预训练、后训练及 Agent 强化学习细节。三款模型采用 Hybrid Linear Attention 架构，将 Lightning Attention 与 MLA 以 7：1 比例结合。Ling-2.6-flash 在 4×H20 硬件上解码速度达 340 tokens/s，Ling-2.6-1T 在 Artificial Analysis Intelligence Index 上 token efficiency 较前代提升约 4 倍。Ring-2.6-1T high 在 PinchBench 得 87.60，ClawEval 得 63.82。三款模型均已开源。",
-        "body": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告，系统公开 Ling-2.6-flash、Ling-2.6-1T 和 Ring-2.6-1T 的架构、预训练、后训练及 Agent 强化学习细节。三款模型采用 Hybrid Linear Attention 架构，将 Lightning Attention 与 MLA 以 7：1 比例结合。Ling-2.6-flash 在 4×H20 硬件上解码速度达 340 tokens/s，Ling-2.6-1T 在 Artificial Analysis Intelligence Index 上 token efficiency 较前代提升约 4 倍。Ring-2.6-1T high 在 PinchBench 得 87.60，ClawEval 得 63.82。三款模型均已开源。",
-        "url": "https://mp.weixin.qq.com/s/j8ZXKvDZzMkSSiUyXecqGA",
-        "sourceName": "公众号：蚂蚁百灵（Ling）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-06-16T02:23:34.000Z",
+        "sourceItemId": "aihot:cmqge6m08007fslmsro38gcnl",
+        "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+        "summary": "Google Cloud 发布 Open Knowledge Format （OKF） v0.1，一种供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文知识。OKF 将知识表示为带 YAML 前置元数据的 markdown 文件目录，每个概念对应一个文件，通过 `type`、`title`、`description` 等少量保留字段实现互操作。无需专有服务、SDK 或运行时，目录可托管在 GitHub、以 tarball 传输或挂载到任意文件系统。OKF 旨在解决组织内部知识碎片化问题--表结构、指标定义、runbook 等散落在不同 catalog 和 wiki 中，各厂商方案互不兼容。遵循最少意见原则，只强制 `type` 字段，生产者和消费者可独立实现。使用场景包括数据团队将 BigQuery 表定义导出为代码、为智能体存储 incident runbook、跨组织知识交换等。",
+        "body": "Google Cloud 发布 Open Knowledge Format （OKF） v0.1，一种供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文知识。OKF 将知识表示为带 YAML 前置元数据的 markdown 文件目录，每个概念对应一个文件，通过 `type`、`title`、`description` 等少量保留字段实现互操作。无需专有服务、SDK 或运行时，目录可托管在 GitHub、以 tarball 传输或挂载到任意文件系统。OKF 旨在解决组织内部知识碎片化问题--表结构、指标定义、runbook 等散落在不同 catalog 和 wiki 中，各厂商方案互不兼容。遵循最少意见原则，只强制 `type` 字段，生产者和消费者可独立实现。使用场景包括数据团队将 BigQuery 表定义导出为代码、为智能体存储 incident runbook、跨组织知识交换等。",
+        "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+        "sourceName": "MarkTechPost（RSS）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-06-16T08:18:58.000Z",
         "rawJson": {
-          "id": "cmqg1bu4n02o9slsp8813ls12",
-          "title": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告",
-          "title_en": "百灵 Ling & Ring 2.6 技术报告发布：面向真实 Agent 工作流的高效万亿级模型",
-          "url": "https://mp.weixin.qq.com/s/j8ZXKvDZzMkSSiUyXecqGA",
-          "source": "公众号：蚂蚁百灵（Ling）",
-          "publishedAt": "2026-06-16T02:23:34.000Z",
-          "summary": "蚂蚁百灵发布 Ling & Ring 2.6 技术报告，系统公开 Ling-2.6-flash、Ling-2.6-1T 和 Ring-2.6-1T 的架构、预训练、后训练及 Agent 强化学习细节。三款模型采用 Hybrid Linear Attention 架构，将 Lightning Attention 与 MLA 以 7：1 比例结合。Ling-2.6-flash 在 4×H20 硬件上解码速度达 340 tokens/s，Ling-2.6-1T 在 Artificial Analysis Intelligence Index 上 token efficiency 较前代提升约 4 倍。Ring-2.6-1T high 在 PinchBench 得 87.60，ClawEval 得 63.82。三款模型均已开源。",
+          "id": "cmqge6m08007fslmsro38gcnl",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+          "title_en": "Google Cloud Introduces Open Knowledge Format （OKF）： A Vendor-Neutral Markdown Spec for Giving AI Agents Curated Context",
+          "url": "https://www.marktechpost.com/2026/06/16/google-cloud-introduces-open-knowledge-format-okf-a-vendor-neutral-markdown-spec-for-giving-ai-agents-curated-context",
+          "source": "MarkTechPost（RSS）",
+          "publishedAt": "2026-06-16T08:18:58.000Z",
+          "summary": "Google Cloud 发布 Open Knowledge Format （OKF） v0.1，一种供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文知识。OKF 将知识表示为带 YAML 前置元数据的 markdown 文件目录，每个概念对应一个文件，通过 `type`、`title`、`description` 等少量保留字段实现互操作。无需专有服务、SDK 或运行时，目录可托管在 GitHub、以 tarball 传输或挂载到任意文件系统。OKF 旨在解决组织内部知识碎片化问题--表结构、指标定义、runbook 等散落在不同 catalog 和 wiki 中，各厂商方案互不兼容。遵循最少意见原则，只强制 `type` 字段，生产者和消费者可独立实现。使用场景包括数据团队将 BigQuery 表定义导出为代码、为智能体存储 incident runbook、跨组织知识交换等。",
+          "category": "ai-products",
+          "score": 71,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqgas9pf00yjsl9spz4fexrr",
+        "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+        "summary": "Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本。Ink 2 在 Artificial Analysis 的流式语音转文字排行榜上排名第一。Sonic 3.5 在实时文本转语音中位列榜首，首音频延迟约 82ms。Cartesia 成为目前唯一同时拥有 #1 听与说模型的提供商。",
+        "body": "Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本。Ink 2 在 Artificial Analysis 的流式语音转文字排行榜上排名第一。Sonic 3.5 在实时文本转语音中位列榜首，首音频延迟约 82ms。Cartesia 成为目前唯一同时拥有 #1 听与说模型的提供商。",
+        "url": "https://x.com/testingcatalog/status/2066773392527655252",
+        "sourceName": "X：Testing Catalog (@testingcatalog)",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-06-16T06:42:30.000Z",
+        "rawJson": {
+          "id": "cmqgas9pf00yjsl9spz4fexrr",
+          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+          "title_en": "Cartesia shipped Sonic 3.5 and Ink 2， two models built to run as a single real-time voice stack， wit…",
+          "url": "https://x.com/testingcatalog/status/2066773392527655252",
+          "source": "X：Testing Catalog (@testingcatalog)",
+          "publishedAt": "2026-06-16T06:42:30.000Z",
+          "summary": "Cartesia 推出 Sonic 3.5 和 Ink 2 两个模型，作为单一实时语音栈，分别负责文本转语音和语音转文本。Ink 2 在 Artificial Analysis 的流式语音转文字排行榜上排名第一。Sonic 3.5 在实时文本转语音中位列榜首，首音频延迟约 82ms。Cartesia 成为目前唯一同时拥有 #1 听与说模型的提供商。",
           "category": "ai-models",
-          "score": 79,
+          "score": 75,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqg20v1a02rtslspl2co5zge",
+        "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+        "summary": "支付宝今日开启 AI 版邀测，用户可右滑进入新版界面，在对话框或语音中输入指令，由\"阿宝\"助手代办事项。以查询公积金为例，阿宝自动匹配对应小程序和服务入口，用户点击确认即可完成，将多步跳转折叠为一句指令。所有涉及资金变动和支付的环节均需用户本人确认。首批放出 100 个邀请码。",
+        "body": "支付宝今日开启 AI 版邀测，用户可右滑进入新版界面，在对话框或语音中输入指令，由\"阿宝\"助手代办事项。以查询公积金为例，阿宝自动匹配对应小程序和服务入口，用户点击确认即可完成，将多步跳转折叠为一句指令。所有涉及资金变动和支付的环节均需用户本人确认。首批放出 100 个邀请码。",
+        "url": "https://www.ithome.com/0/964/691.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-06-16T02:39:06.000Z",
+        "rawJson": {
+          "id": "cmqg20v1a02rtslspl2co5zge",
+          "title": "AI 版支付宝官宣开启邀测：右滑打开\"阿宝\"，官方放出 100 个邀请码",
+          "title_en": null,
+          "url": "https://www.ithome.com/0/964/691.htm",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-06-16T02:39:06.000Z",
+          "summary": "支付宝今日开启 AI 版邀测，用户可右滑进入新版界面，在对话框或语音中输入指令，由\"阿宝\"助手代办事项。以查询公积金为例，阿宝自动匹配对应小程序和服务入口，用户点击确认即可完成，将多步跳转折叠为一句指令。所有涉及资金变动和支付的环节均需用户本人确认。首批放出 100 个邀请码。",
+          "category": "ai-products",
+          "score": 70,
           "selected": true
         }
       },
@@ -143,6 +189,75 @@
       },
       {
         "source": "aihot",
+        "sourceItemId": "aihot:cmqg5kvq2006hslncx7x7o1r2",
+        "title": "Qwen-RobotManip：对齐解锁机器人操作基础模型的规模化能力",
+        "summary": "Qwen-RobotManip 是通义千问基于 Qwen-VL 的视觉-语言-动作（VLA）基础模型，引入覆盖表示、运动和行为三维度的统一对齐框架。仅使用开源机器人数据集和人演示视频，构建约 38，100 小时预训练语料，涵盖 15 种机器人形态。在 LIBERO-Plus 达 91.4%，RoboTwin-C2R Hard 达 69.4%，RoboCasa365 Composite-Unseen 达 14.9%，EBench 达 45.6%，RoboTwin-IF 达 72.0%，并在 RoboChallenge Table30 v1 generalist track 夺冠。模型采用 80 维状态-动作表示、人-机器人数据合成管道（1，933 小时第一人称视频转 24，808 小时数据）及上下文策略适配。",
+        "body": "Qwen-RobotManip 是通义千问基于 Qwen-VL 的视觉-语言-动作（VLA）基础模型，引入覆盖表示、运动和行为三维度的统一对齐框架。仅使用开源机器人数据集和人演示视频，构建约 38，100 小时预训练语料，涵盖 15 种机器人形态。在 LIBERO-Plus 达 91.4%，RoboTwin-C2R Hard 达 69.4%，RoboCasa365 Composite-Unseen 达 14.9%，EBench 达 45.6%，RoboTwin-IF 达 72.0%，并在 RoboChallenge Table30 v1 generalist track 夺冠。模型采用 80 维状态-动作表示、人-机器人数据合成管道（1，933 小时第一人称视频转 24，808 小时数据）及上下文策略适配。",
+        "url": "https://qwen.ai/blog?id=qwen-robotmanip",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-06-16T00:00:00.000Z",
+        "rawJson": {
+          "id": "cmqg5kvq2006hslncx7x7o1r2",
+          "title": "Qwen-RobotManip：对齐解锁机器人操作基础模型的规模化能力",
+          "title_en": "Qwen-RobotManip： Alignment Unlocks Scale for Robotic Manipulation Foundation Models",
+          "url": "https://qwen.ai/blog?id=qwen-robotmanip",
+          "source": "Qwen：Blog Retrieval（API）",
+          "publishedAt": "2026-06-16T00:00:00.000Z",
+          "summary": "Qwen-RobotManip 是通义千问基于 Qwen-VL 的视觉-语言-动作（VLA）基础模型，引入覆盖表示、运动和行为三维度的统一对齐框架。仅使用开源机器人数据集和人演示视频，构建约 38，100 小时预训练语料，涵盖 15 种机器人形态。在 LIBERO-Plus 达 91.4%，RoboTwin-C2R Hard 达 69.4%，RoboCasa365 Composite-Unseen 达 14.9%，EBench 达 45.6%，RoboTwin-IF 达 72.0%，并在 RoboChallenge Table30 v1 generalist track 夺冠。模型采用 80 维状态-动作表示、人-机器人数据合成管道（1，933 小时第一人称视频转 24，808 小时数据）及上下文策略适配。",
+          "category": "ai-models",
+          "score": 72,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqg5kvq2006gslnchk1ngslk",
+        "title": "Qwen-RobotWorld：具身智能体的无界世界",
+        "summary": "Qwen-RobotWorld以语言为统一动作接口，采用双流Multimodal Diffusion Transformer（MMDiT）架构，将Qwen2.5-VL作为动作编码器。在4个基准测试中取得顶尖成绩，统一20余种机器人形态，基于860万跨场景训练对和1300多项操作技能。语言接口标准化500多种动作类别，支持操作、自动驾驶、室内导航的联合训练。还支持Scene2Robot人类到机器人转移及2-4路多视角几何一致视频生成。",
+        "body": "Qwen-RobotWorld以语言为统一动作接口，采用双流Multimodal Diffusion Transformer（MMDiT）架构，将Qwen2.5-VL作为动作编码器。在4个基准测试中取得顶尖成绩，统一20余种机器人形态，基于860万跨场景训练对和1300多项操作技能。语言接口标准化500多种动作类别，支持操作、自动驾驶、室内导航的联合训练。还支持Scene2Robot人类到机器人转移及2-4路多视角几何一致视频生成。",
+        "url": "https://qwen.ai/blog?id=qwen-robotworld",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-06-16T00:00:00.000Z",
+        "rawJson": {
+          "id": "cmqg5kvq2006gslnchk1ngslk",
+          "title": "Qwen-RobotWorld：具身智能体的无界世界",
+          "title_en": "Qwen-RobotWorld： Boundless Worlds for Embodied Agents",
+          "url": "https://qwen.ai/blog?id=qwen-robotworld",
+          "source": "Qwen：Blog Retrieval（API）",
+          "publishedAt": "2026-06-16T00:00:00.000Z",
+          "summary": "Qwen-RobotWorld以语言为统一动作接口，采用双流Multimodal Diffusion Transformer（MMDiT）架构，将Qwen2.5-VL作为动作编码器。在4个基准测试中取得顶尖成绩，统一20余种机器人形态，基于860万跨场景训练对和1300多项操作技能。语言接口标准化500多种动作类别，支持操作、自动驾驶、室内导航的联合训练。还支持Scene2Robot人类到机器人转移及2-4路多视角几何一致视频生成。",
+          "category": "ai-models",
+          "score": 72,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqg5kvq2006eslnc27k3juhc",
+        "title": "Qwen-RobotNav：面向智能体导航系统的可扩展导航模型",
+        "summary": "Qwen 发布 Qwen-RobotNav，基于 Qwen3-VL 在 15.6M 样本上训练，统一了视觉语言导航、目标导航、目标跟踪、自动驾驶和具身问答五个领域，无需修改架构即可在推理时切换任务模式和观察参数。模型在多项基准取得 SOTA：VLN-CE RxR 成功率 76.5%，HM3Dv2 目标导航 75.6%（仅 RGB），EVT-Bench 跟踪率 90.0%，NAVSIM PDMS 91.4，以及三项 EQA 新标杆。模型暴露四个可调轴（视觉 token 预算、时间衰减、相机权重、帧采样模式）。作为智能体系统的一部分，上层规划器 Qwen3.7-Plus 在 EXPRESS-Bench 上提升 15.4%，导航步数减少 77%。模型已零样本部署在 Unitree Go2 四足机器人上，无需环境微调。",
+        "body": "Qwen 发布 Qwen-RobotNav，基于 Qwen3-VL 在 15.6M 样本上训练，统一了视觉语言导航、目标导航、目标跟踪、自动驾驶和具身问答五个领域，无需修改架构即可在推理时切换任务模式和观察参数。模型在多项基准取得 SOTA：VLN-CE RxR 成功率 76.5%，HM3Dv2 目标导航 75.6%（仅 RGB），EVT-Bench 跟踪率 90.0%，NAVSIM PDMS 91.4，以及三项 EQA 新标杆。模型暴露四个可调轴（视觉 token 预算、时间衰减、相机权重、帧采样模式）。作为智能体系统的一部分，上层规划器 Qwen3.7-Plus 在 EXPRESS-Bench 上提升 15.4%，导航步数减少 77%。模型已零样本部署在 Unitree Go2 四足机器人上，无需环境微调。",
+        "url": "https://qwen.ai/blog?id=qwen-robotnav",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-06-16T00:00:00.000Z",
+        "rawJson": {
+          "id": "cmqg5kvq2006eslnc27k3juhc",
+          "title": "Qwen-RobotNav：面向智能体导航系统的可扩展导航模型",
+          "title_en": "Qwen-RobotNav： A Scalable Navigation Model Designed for an Agentic Navigation System",
+          "url": "https://qwen.ai/blog?id=qwen-robotnav",
+          "source": "Qwen：Blog Retrieval（API）",
+          "publishedAt": "2026-06-16T00:00:00.000Z",
+          "summary": "Qwen 发布 Qwen-RobotNav，基于 Qwen3-VL 在 15.6M 样本上训练，统一了视觉语言导航、目标导航、目标跟踪、自动驾驶和具身问答五个领域，无需修改架构即可在推理时切换任务模式和观察参数。模型在多项基准取得 SOTA：VLN-CE RxR 成功率 76.5%，HM3Dv2 目标导航 75.6%（仅 RGB），EVT-Bench 跟踪率 90.0%，NAVSIM PDMS 91.4，以及三项 EQA 新标杆。模型暴露四个可调轴（视觉 token 预算、时间衰减、相机权重、帧采样模式）。作为智能体系统的一部分，上层规划器 Qwen3.7-Plus 在 EXPRESS-Bench 上提升 15.4%，导航步数减少 77%。模型已零样本部署在 Unitree Go2 四足机器人上，无需环境微调。",
+          "category": "ai-models",
+          "score": 70,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
         "sourceItemId": "aihot:cmqfvl6p3010yslsptgi5885d",
         "title": "项目负责人揭秘为何苹果 AI 版 Siri 姗姗来迟：推倒重来，彻底重构",
         "summary": "苹果AI版Siri迟迟未上线，项目负责人迈克·罗克韦尔在WWDC技术分享会上透露，去年团队曾做出在原有Siri基础上小幅改良、新增工具调用的可运行版本，但因无法达到产品愿景，最终选择推倒重来，完整从零重构系统，依托全新大模型搭建。重构后的Siri拥有独立应用程序，原生支持多模态交互，隐私保护贯穿底层架构，并覆盖iPhone、iPad、Mac、Apple Watch、Vision Pro、CarPlay、AirPods等全平台，提供统一连贯体验。",
@@ -253,6 +368,52 @@
           "summary": "Z Lab、Modal 与 SGLang 团队联合发布 DFlash 投机解码模型和 SGLang 的默认 Spec V2 引擎。DFlash 采用块扩散+KV 注入并行生成整块 draft token，在 Qwen 3.5 397B-A17B（BF16）的 HumanEval 数据集上、并发 1 时吞吐量达到基线的 4.3",
           "category": "ai-models",
           "score": 67,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqg8eidi00c8sl9syvs6mwbm",
+        "title": "免费LLM API比较：速率限制、模型与真实成本（2026）",
+        "summary": "13个平台提供免费LLM API，含永久免费层与试用额度。OpenRouter拥有20+免费模型，单密钥无需信用卡；Groq以约320 tokens/秒运行Llama 3.3 70B；Google AI Studio支持1M上下文；Mistral实验层约10亿token/月但需同意数据训练；Cerebras约1M token/天；GitHub Models提供GPT-4o、Claude 3.5 Sonnet等前沿模型。各免费层有速率限制、数据训练授权、上下文缩减等隐藏成本，建议早期测试2-3个方案并设置故障转移。",
+        "body": "13个平台提供免费LLM API，含永久免费层与试用额度。OpenRouter拥有20+免费模型，单密钥无需信用卡；Groq以约320 tokens/秒运行Llama 3.3 70B；Google AI Studio支持1M上下文；Mistral实验层约10亿token/月但需同意数据训练；Cerebras约1M token/天；GitHub Models提供GPT-4o、Claude 3.5 Sonnet等前沿模型。各免费层有速率限制、数据训练授权、上下文缩减等隐藏成本，建议早期测试2-3个方案并设置故障转移。",
+        "url": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-06-15T17:00:00.000Z",
+        "rawJson": {
+          "id": "cmqg8eidi00c8sl9syvs6mwbm",
+          "title": "免费LLM API比较：速率限制、模型与真实成本（2026）",
+          "title_en": "Free LLM APIs Compared： Rate Limits， Models， and Real Costs （2026）",
+          "url": "https://openrouter.ai/blog/tutorials/free-llm-apis-compared",
+          "source": "OpenRouter：Announcements（RSS）",
+          "publishedAt": "2026-06-15T17:00:00.000Z",
+          "summary": "13个平台提供免费LLM API，含永久免费层与试用额度。OpenRouter拥有20+免费模型，单密钥无需信用卡；Groq以约320 tokens/秒运行Llama 3.3 70B；Google AI Studio支持1M上下文；Mistral实验层约10亿token/月但需同意数据训练；Cerebras约1M token/天；GitHub Models提供GPT-4o、Claude 3.5 Sonnet等前沿模型。各免费层有速率限制、数据训练授权、上下文缩减等隐藏成本，建议早期测试2-3个方案并设置故障转移。",
+          "category": "tip",
+          "score": 75,
+          "selected": true
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmqg8eidi00c9sl9sb4cjwewg",
+        "title": "智能体AI治理：你的API密钥就是护栏",
+        "summary": "智能体AI使用量将在未来两年急剧上升，但治理滞后--仅五分之一企业拥有成熟治理模型。典型事故：销售智能体重试失败调用后自行升级到GPT-5.5，一夜消耗200美元。API路由层位于智能体与模型之间，是强制执行预算上限、模型白名单、提供方准入和请求日志的理想点。IBM报告指出97%遭遇AI安全事件的组织缺乏AI访问控制。最小可行治理方案：为每个智能体工作流分配独立API密钥，在API密钥层面实现预算控制、模型准入和审计追踪。",
+        "body": "智能体AI使用量将在未来两年急剧上升，但治理滞后--仅五分之一企业拥有成熟治理模型。典型事故：销售智能体重试失败调用后自行升级到GPT-5.5，一夜消耗200美元。API路由层位于智能体与模型之间，是强制执行预算上限、模型白名单、提供方准入和请求日志的理想点。IBM报告指出97%遭遇AI安全事件的组织缺乏AI访问控制。最小可行治理方案：为每个智能体工作流分配独立API密钥，在API密钥层面实现预算控制、模型准入和审计追踪。",
+        "url": "https://openrouter.ai/blog/insights/agentic-ai-governance",
+        "sourceName": "OpenRouter：Announcements（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-06-15T16:00:00.000Z",
+        "rawJson": {
+          "id": "cmqg8eidi00c9sl9sb4cjwewg",
+          "title": "智能体AI治理：你的API密钥就是护栏",
+          "title_en": "Agentic AI Governance： Your API Key Is a Guardrail",
+          "url": "https://openrouter.ai/blog/insights/agentic-ai-governance",
+          "source": "OpenRouter：Announcements（RSS）",
+          "publishedAt": "2026-06-15T16:00:00.000Z",
+          "summary": "智能体AI使用量将在未来两年急剧上升，但治理滞后--仅五分之一企业拥有成熟治理模型。典型事故：销售智能体重试失败调用后自行升级到GPT-5.5，一夜消耗200美元。API路由层位于智能体与模型之间，是强制执行预算上限、模型白名单、提供方准入和请求日志的理想点。IBM报告指出97%遭遇AI安全事件的组织缺乏AI访问控制。最小可行治理方案：为每个智能体工作流分配独立API密钥，在API密钥层面实现预算控制、模型准入和审计追踪。",
+          "category": "tip",
+          "score": 68,
           "selected": true
         }
       },
@@ -393,93 +554,70 @@
           "score": 73,
           "selected": true
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmqewgm5e00nzslwahr1rt9n1",
-        "title": "AI裁员浪潮成为火药桶",
-        "summary": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是\"银弹借口\"。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
-        "body": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是\"银弹借口\"。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
-        "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
-        "sourceName": "TechCrunch：AI（RSS）",
-        "sourceCategory": "tip",
-        "publishedAt": "2026-06-15T07:25:41.000Z",
-        "rawJson": {
-          "id": "cmqewgm5e00nzslwahr1rt9n1",
-          "title": "AI裁员浪潮成为火药桶",
-          "title_en": "The AI layoff wave is becoming a powder keg",
-          "url": "https://techcrunch.com/2026/06/15/the-ai-layoff-wave-is-becoming-a-powder-keg",
-          "source": "TechCrunch：AI（RSS）",
-          "publishedAt": "2026-06-15T07:25:41.000Z",
-          "summary": "今年科技公司已累计裁员约15万人，日均974人，速度比去年快44%；上月裁员近4万创两年新高，AI连续三个月被列为裁员首要原因。Block近半数员工被裁后，CEO Jack Dorsey否认AI是根源，Marc Andreessen则称AI只是\"银弹借口\"。Uber裁撤23%人事部门，但此前CTO透露AI编码预算四个月内耗尽。与此同时，AI芯片商Cerebras上市首日市值达670亿美元，SpaceX上市市值2.1万亿美元，Anthropic和OpenAI估值均约1万亿美元。Meta在扎克伯格购入1.7亿美元豪宅后宣布裁员8000人。民调显示65%选民认为中产阶级生活遥不可及，76%美国人将生活成本列为首要经济问题。",
-          "category": "tip",
-          "score": 70,
-          "selected": true
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-06-16T03:01:10.825Z",
-    "sourceGeneratedAt": "2026-06-14",
+    "fetchedAt": "2026-06-16T08:51:41.817Z",
+    "sourceGeneratedAt": "2026-06-15",
     "items": [
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1171217",
-        "title": "Slashy",
-        "summary": "The AI assistant that does email for you",
-        "body": "Slashy is an AI-native email client and assistant that drafts replies in your voice, triages what matters, and makes sure no follow-up slips, so you spend less time in your inbox and more time on what matters. It connects to your email, calendar, CRM, and meeting notes and learns how you work, so you can ask Slashy to prep you for your next meeting, draft a follow-up, clear your inbox to zero, track who still owes you a reply, or fire off an email from iMessage or Slack while you're on the go.",
-        "url": "https://www.producthunt.com/products/slashy-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/723Q6GNIWDBMQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
+        "sourceItemId": "ph:1169612",
+        "title": "Novu Connect",
+        "summary": "Ship agents where your users already work",
+        "body": "Novu Connect lets any AI agent have two-way conversations across Slack, Teams, WhatsApp, Telegram, and email without building each channel integration yourself. Bring your own agent logic, model, or code. Novu handles the communication layer: delivery, identity resolution, threading, routing, and channel-specific formatting, so your agent can reach users where they already work.",
+        "url": "https://www.producthunt.com/products/novu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/YKCLFF3LPLDFWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 462,
-          "comments": 125,
+          "votes": 393,
+          "comments": 63,
           "rank": 1,
-          "score": 462
+          "score": 393
         },
         "metadata": {
-          "slug": "slashy-3",
+          "slug": "novu-connect",
           "topics": [
-            "Email",
-            "Artificial Intelligence",
-            "Virtual Assistants"
+            "Open Source",
+            "Developer Tools",
+            "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1171217",
-          "name": "Slashy",
-          "slug": "slashy-3",
-          "tagline": "The AI assistant that does email for you",
-          "description": "Slashy is an AI-native email client and assistant that drafts replies in your voice, triages what matters, and makes sure no follow-up slips, so you spend less time in your inbox and more time on what matters. It connects to your email, calendar, CRM, and meeting notes and learns how you work, so you can ask Slashy to prep you for your next meeting, draft a follow-up, clear your inbox to zero, track who still owes you a reply, or fire off an email from iMessage or Slack while you're on the go.",
-          "url": "https://www.producthunt.com/products/slashy-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/723Q6GNIWDBMQM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 462,
-          "commentsCount": 125,
+          "id": "1169612",
+          "name": "Novu Connect",
+          "slug": "novu-connect",
+          "tagline": "Ship agents where your users already work",
+          "description": "Novu Connect lets any AI agent have two-way conversations across Slack, Teams, WhatsApp, Telegram, and email without building each channel integration yourself. Bring your own agent logic, model, or code. Novu handles the communication layer: delivery, identity resolution, threading, routing, and channel-specific formatting, so your agent can reach users where they already work.",
+          "url": "https://www.producthunt.com/products/novu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/YKCLFF3LPLDFWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 393,
+          "commentsCount": 63,
           "dailyRank": 1,
-          "latestScore": 462,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
+          "latestScore": 393,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Email",
-                  "slug": "email"
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
                 }
               },
               {
                 "node": {
                   "name": "Artificial Intelligence",
                   "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Virtual Assistants",
-                  "slug": "virtual-assistants"
                 }
               }
             ]
@@ -488,47 +626,47 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1170971",
-        "title": "Taste Lab",
-        "summary": "Extract any website's design DNA",
-        "body": "Point your AI agent at any website. Get back a complete design breakdown — colors, type, spacing, and the reasoning behind every decision — ready to use in your next build.",
-        "url": "https://www.producthunt.com/products/taste-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/KOJGXLNJOQGWQI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
+        "sourceItemId": "ph:1166979",
+        "title": "Wobo - AI Job Search",
+        "summary": "Tinder for jobs: swipe right and AI applies for you",
+        "body": "Swipe right. Applied. Wobo is your personal AI recruiter. It matches pre-vetted jobs to your background, then applies on each company's own site for you. Your resume, cover letter, and every application question: all written in your voice, so it reads like you wrote it, not a bot. No endless forms. No ghost listings. Just swipe, and wake up to interviews.",
+        "url": "https://www.producthunt.com/products/wobo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/4YVEDAOI6CJSFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 369,
-          "comments": 26,
+          "votes": 300,
+          "comments": 46,
           "rank": 2,
-          "score": 369
+          "score": 300
         },
         "metadata": {
-          "slug": "taste-lab",
+          "slug": "wobo-ai-job-search",
           "topics": [
-            "Design Tools",
+            "Productivity",
             "Artificial Intelligence",
-            "Vibe coding"
+            "Career"
           ]
         },
         "rawJson": {
-          "id": "1170971",
-          "name": "Taste Lab",
-          "slug": "taste-lab",
-          "tagline": "Extract any website's design DNA",
-          "description": "Point your AI agent at any website. Get back a complete design breakdown — colors, type, spacing, and the reasoning behind every decision — ready to use in your next build.",
-          "url": "https://www.producthunt.com/products/taste-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/KOJGXLNJOQGWQI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 369,
-          "commentsCount": 26,
+          "id": "1166979",
+          "name": "Wobo - AI Job Search",
+          "slug": "wobo-ai-job-search",
+          "tagline": "Tinder for jobs: swipe right and AI applies for you",
+          "description": "Swipe right. Applied. Wobo is your personal AI recruiter. It matches pre-vetted jobs to your background, then applies on each company's own site for you. Your resume, cover letter, and every application question: all written in your voice, so it reads like you wrote it, not a bot. No endless forms. No ghost listings. Just swipe, and wake up to interviews.",
+          "url": "https://www.producthunt.com/products/wobo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/4YVEDAOI6CJSFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 300,
+          "commentsCount": 46,
           "dailyRank": 2,
-          "latestScore": 369,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
+          "latestScore": 300,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Design Tools",
-                  "slug": "design-tools"
+                  "name": "Productivity",
+                  "slug": "productivity"
                 }
               },
               {
@@ -539,8 +677,8 @@
               },
               {
                 "node": {
-                  "name": "Vibe coding",
-                  "slug": "vibe-coding"
+                  "name": "Career",
+                  "slug": "career"
                 }
               }
             ]
@@ -549,47 +687,182 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1168902",
-        "title": "Permute 4.0",
-        "summary": "The ultimate media converter for macOS",
-        "body": "Permute is a quick image, audio, and video converter. You can use it for files of all formats because Permute can convert anything into anything (almost). For water to water-to-wine conversion, you’d have to refer to other authorities, but media files can become whatever format you need them to. Plus, Permute also has some additional goodies like merging two videos into one or adding a subtitle track.",
-        "url": "https://www.producthunt.com/products/permute?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/7DGX3DO3UNS2TC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
+        "sourceItemId": "ph:1166106",
+        "title": "PandaProbe Cloud",
+        "summary": "agent engineering, fully managed.",
+        "body": "PandaProbe Cloud gives your team full-stack tracing, evals, and monitoring for agents with zero infrastructure to manage. Ship better agents without the ops overhead.",
+        "url": "https://www.producthunt.com/products/pandaprobe-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/EFZITJ632XZJX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 220,
-          "comments": 9,
-          "rank": 3,
-          "score": 220
+          "votes": 273,
+          "comments": 46,
+          "rank": 5,
+          "score": 273
         },
         "metadata": {
-          "slug": "permute-4-0",
+          "slug": "pandaprobe-cloud-2",
           "topics": [
-            "Mac",
-            "Photo & Video",
-            "Video"
+            "Open Source",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "GitHub"
           ]
         },
         "rawJson": {
-          "id": "1168902",
-          "name": "Permute 4.0",
-          "slug": "permute-4-0",
-          "tagline": "The ultimate media converter for macOS",
-          "description": "Permute is a quick image, audio, and video converter. You can use it for files of all formats because Permute can convert anything into anything (almost). For water to water-to-wine conversion, you’d have to refer to other authorities, but media files can become whatever format you need them to. Plus, Permute also has some additional goodies like merging two videos into one or adding a subtitle track.",
-          "url": "https://www.producthunt.com/products/permute?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/7DGX3DO3UNS2TC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 220,
-          "commentsCount": 9,
-          "dailyRank": 3,
-          "latestScore": 220,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
+          "id": "1166106",
+          "name": "PandaProbe Cloud",
+          "slug": "pandaprobe-cloud-2",
+          "tagline": "agent engineering, fully managed.",
+          "description": "PandaProbe Cloud gives your team full-stack tracing, evals, and monitoring for agents with zero infrastructure to manage. Ship better agents without the ops overhead.",
+          "url": "https://www.producthunt.com/products/pandaprobe-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/EFZITJ632XZJX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 273,
+          "commentsCount": 46,
+          "dailyRank": 5,
+          "latestScore": 273,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
             "edges": [
               {
                 "node": {
-                  "name": "Mac",
-                  "slug": "mac"
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1172037",
+        "title": "Kickbacks.ai",
+        "summary": "Get paid to wait for Claude Code to finish",
+        "body": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
+        "url": "https://www.producthunt.com/products/kickbacks-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 272,
+          "comments": 19,
+          "rank": 4,
+          "score": 272
+        },
+        "metadata": {
+          "slug": "kickbacks-ai",
+          "topics": [
+            "Advertising",
+            "Artificial Intelligence",
+            "Development"
+          ]
+        },
+        "rawJson": {
+          "id": "1172037",
+          "name": "Kickbacks.ai",
+          "slug": "kickbacks-ai",
+          "tagline": "Get paid to wait for Claude Code to finish",
+          "description": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
+          "url": "https://www.producthunt.com/products/kickbacks-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 272,
+          "commentsCount": 19,
+          "dailyRank": 4,
+          "latestScore": 272,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Advertising",
+                  "slug": "advertising"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Development",
+                  "slug": "development"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1163285",
+        "title": "AutoEdit",
+        "summary": "Your Claude AI Video Editor for Premiere Pro",
+        "body": "AutoEdit helps content creators edit their videos 10x faster by turning raw footage into a clean rough cut in minutes. It works directly inside Adobe Premiere Pro as an AI Plugin. Claude AI understands content, automatically removing silences, filler words, bad takes, restarts, and repeated sections while generating captions and structuring timelines. Editors stay in control of creative decisions while AutoEdit handles the repetitive, boring work.",
+        "url": "https://www.producthunt.com/products/autoedit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/FKEBR24CKXQXUO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 272,
+          "comments": 57,
+          "rank": 3,
+          "score": 272
+        },
+        "metadata": {
+          "slug": "autoedit",
+          "topics": [
+            "Marketing",
+            "Artificial Intelligence",
+            "Photo & Video"
+          ]
+        },
+        "rawJson": {
+          "id": "1163285",
+          "name": "AutoEdit",
+          "slug": "autoedit",
+          "tagline": "Your Claude AI Video Editor for Premiere Pro",
+          "description": "AutoEdit helps content creators edit their videos 10x faster by turning raw footage into a clean rough cut in minutes. It works directly inside Adobe Premiere Pro as an AI Plugin. Claude AI understands content, automatically removing silences, filler words, bad takes, restarts, and repeated sections while generating captions and structuring timelines. Editors stay in control of creative decisions while AutoEdit handles the repetitive, boring work.",
+          "url": "https://www.producthunt.com/products/autoedit?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/FKEBR24CKXQXUO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 272,
+          "commentsCount": 57,
+          "dailyRank": 3,
+          "latestScore": 272,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               },
               {
@@ -597,11 +870,66 @@
                   "name": "Photo & Video",
                   "slug": "photo-video"
                 }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1167474",
+        "title": "Notra Image Generation",
+        "summary": "Turn merged PRs into on-brand marketing visuals",
+        "body": "Notra turns shipped work into changelogs, launch posts, and social updates in your voice.",
+        "url": "https://www.producthunt.com/products/notra-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/K25AMX5IAKYYMJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 192,
+          "comments": 22,
+          "rank": 6,
+          "score": 192
+        },
+        "metadata": {
+          "slug": "notra-image-generation",
+          "topics": [
+            "Marketing",
+            "SaaS",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1167474",
+          "name": "Notra Image Generation",
+          "slug": "notra-image-generation",
+          "tagline": "Turn merged PRs into on-brand marketing visuals",
+          "description": "Notra turns shipped work into changelogs, launch posts, and social updates in your voice.",
+          "url": "https://www.producthunt.com/products/notra-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/K25AMX5IAKYYMJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 192,
+          "commentsCount": 22,
+          "dailyRank": 6,
+          "latestScore": 192,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
               },
               {
                 "node": {
-                  "name": "Video",
-                  "slug": "video"
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               }
             ]
@@ -610,43 +938,246 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1162009",
-        "title": "Athenic 2.0",
-        "summary": "A faster, smarter Athenic. Analyze on autopilot.",
-        "body": "Athenic is an AI agent for analyzing data and automating work. Connect your data, chat in plain English, and ship dashboards, reports, and automations. Built for startups to Fortune 500.",
-        "url": "https://www.producthunt.com/products/athenic-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/RPHLNAADRGEJ3M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
+        "sourceItemId": "ph:1168340",
+        "title": "MockPilot",
+        "summary": "Turn live websites into editable mockups",
+        "body": "MockPilot turns any live webpage into an editable mockup on your desktop. Use natural language - no design or coding skills needed. 📸 Capture full pages or single components from any URL 🎨 Auto-extracts typography, colors, components & icons into a reusable asset library 💬 Edit in plain English — just tell the AI what to change, and it uses your assets to keep everything on-brand 📦 Export as clean, standalone HTML Free & open source. macOS + Windows.",
+        "url": "https://www.producthunt.com/products/mockpilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/D65V7XL2EQS53Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 190,
-          "comments": 14,
-          "rank": 4,
-          "score": 190
+          "votes": 138,
+          "comments": 19,
+          "rank": 7,
+          "score": 138
         },
         "metadata": {
-          "slug": "athenic-2-0",
+          "slug": "mockpilot",
           "topics": [
-            "Analytics",
-            "Business Intelligence",
-            "Data Visualization"
+            "Productivity",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "GitHub"
           ]
         },
         "rawJson": {
-          "id": "1162009",
-          "name": "Athenic 2.0",
-          "slug": "athenic-2-0",
-          "tagline": "A faster, smarter Athenic. Analyze on autopilot.",
-          "description": "Athenic is an AI agent for analyzing data and automating work. Connect your data, chat in plain English, and ship dashboards, reports, and automations. Built for startups to Fortune 500.",
-          "url": "https://www.producthunt.com/products/athenic-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/RPHLNAADRGEJ3M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 190,
-          "commentsCount": 14,
-          "dailyRank": 4,
-          "latestScore": 190,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
+          "id": "1168340",
+          "name": "MockPilot",
+          "slug": "mockpilot",
+          "tagline": "Turn live websites into editable mockups",
+          "description": "MockPilot turns any live webpage into an editable mockup on your desktop. Use natural language - no design or coding skills needed. 📸 Capture full pages or single components from any URL 🎨 Auto-extracts typography, colors, components & icons into a reusable asset library 💬 Edit in plain English — just tell the AI what to change, and it uses your assets to keep everything on-brand 📦 Export as clean, standalone HTML Free & open source. macOS + Windows.",
+          "url": "https://www.producthunt.com/products/mockpilot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/D65V7XL2EQS53Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 138,
+          "commentsCount": 19,
+          "dailyRank": 7,
+          "latestScore": 138,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
             "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1158258",
+        "title": "Sulsaly",
+        "summary": "#1 Agentic AI sales leads &outreach platform for MENA Region",
+        "body": "Sulsaly is MENA's first Agentic AI sales intelligence platform. Find verified decision-makers instantly, automate personalized outreach across LinkedIn, WhatsApp and Email. Close deals 5x faster. 50M+ verified B2B contacts across the Arab world. Built for sales teams in UAE, Saudi Arabia, Egypt, Jordan and the Middle East. أول منصة ذكاء اصطناعي للمبيعات في الشرق الأوسط. اكتشف صانعي القرار، أتمتة التواصل عبر واتساب ولينكدإن والبريد الإلكتروني، وأغلق صفقاتك أسرع بـ 5 مرات. 50M+ جهة اتصال موثقة.",
+        "url": "https://www.producthunt.com/products/sulsaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/3JHSMSEQPY6EEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 126,
+          "comments": 12,
+          "rank": 8,
+          "score": 126
+        },
+        "metadata": {
+          "slug": "sulsaly",
+          "topics": [
+            "Chrome Extensions",
+            "Sales",
+            "Artificial Intelligence",
+            "CRM"
+          ]
+        },
+        "rawJson": {
+          "id": "1158258",
+          "name": "Sulsaly",
+          "slug": "sulsaly",
+          "tagline": "#1 Agentic AI sales leads &outreach platform for MENA Region",
+          "description": "Sulsaly is MENA's first Agentic AI sales intelligence platform. Find verified decision-makers instantly, automate personalized outreach across LinkedIn, WhatsApp and Email. Close deals 5x faster. 50M+ verified B2B contacts across the Arab world. Built for sales teams in UAE, Saudi Arabia, Egypt, Jordan and the Middle East. أول منصة ذكاء اصطناعي للمبيعات في الشرق الأوسط. اكتشف صانعي القرار، أتمتة التواصل عبر واتساب ولينكدإن والبريد الإلكتروني، وأغلق صفقاتك أسرع بـ 5 مرات. 50M+ جهة اتصال موثقة.",
+          "url": "https://www.producthunt.com/products/sulsaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/3JHSMSEQPY6EEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 126,
+          "commentsCount": 12,
+          "dailyRank": 8,
+          "latestScore": 126,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Chrome Extensions",
+                  "slug": "chrome-extensions"
+                }
+              },
+              {
+                "node": {
+                  "name": "Sales",
+                  "slug": "sales"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "CRM",
+                  "slug": "crm"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169084",
+        "title": "AEVS",
+        "summary": "proof-of-execution for AI agents",
+        "body": "AEVS (Agent Execution Verification System) is a drop-in SDK that records every AI agent tool call and gives agents verifiable execution receipts. It captures the tool, inputs, outputs, status, and timing as tamper-evident proof, so teams can verify what an agent actually executed without relying on chat history or fragile logs.",
+        "url": "https://www.producthunt.com/products/aevs-by-fetch-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/RNU637CB76TRTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 125,
+          "comments": 25,
+          "rank": 11,
+          "score": 125
+        },
+        "metadata": {
+          "slug": "aevs",
+          "topics": [
+            "Developer Tools",
+            "Artificial Intelligence",
+            "SDK"
+          ]
+        },
+        "rawJson": {
+          "id": "1169084",
+          "name": "AEVS",
+          "slug": "aevs",
+          "tagline": "proof-of-execution for AI agents",
+          "description": "AEVS (Agent Execution Verification System) is a drop-in SDK that records every AI agent tool call and gives agents verifiable execution receipts. It captures the tool, inputs, outputs, status, and timing as tamper-evident proof, so teams can verify what an agent actually executed without relying on chat history or fragile logs.",
+          "url": "https://www.producthunt.com/products/aevs-by-fetch-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/RNU637CB76TRTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 125,
+          "commentsCount": 25,
+          "dailyRank": 11,
+          "latestScore": 125,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "SDK",
+                  "slug": "sdk"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1171876",
+        "title": "Reignat",
+        "summary": "Privacy-friendly web analytics platform built for makers",
+        "body": "Reignat is a privacy-friendly web analytics platform built for founders, startups, and indie makers who want clear insights without the complexity of traditional analytics tools. Track visitors, pageviews, traffic sources, devices, locations, funnels, and user journeys in real time. Get AI-powered insights to understand trends, uncover opportunities, and make better growth decisions—all from a fast, modern dashboard.",
+        "url": "https://www.producthunt.com/products/reignat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/YWE5HSZ4L4O2HI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 123,
+          "comments": 16,
+          "rank": 9,
+          "score": 123
+        },
+        "metadata": {
+          "slug": "reignat",
+          "topics": [
+            "API",
+            "Analytics",
+            "SaaS"
+          ]
+        },
+        "rawJson": {
+          "id": "1171876",
+          "name": "Reignat",
+          "slug": "reignat",
+          "tagline": "Privacy-friendly web analytics platform built for makers",
+          "description": "Reignat is a privacy-friendly web analytics platform built for founders, startups, and indie makers who want clear insights without the complexity of traditional analytics tools. Track visitors, pageviews, traffic sources, devices, locations, funnels, and user journeys in real time. Get AI-powered insights to understand trends, uncover opportunities, and make better growth decisions—all from a fast, modern dashboard.",
+          "url": "https://www.producthunt.com/products/reignat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/YWE5HSZ4L4O2HI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 123,
+          "commentsCount": 16,
+          "dailyRank": 9,
+          "latestScore": 123,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
               {
                 "node": {
                   "name": "Analytics",
@@ -655,373 +1186,8 @@
               },
               {
                 "node": {
-                  "name": "Business Intelligence",
-                  "slug": "business-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Data Visualization",
-                  "slug": "data-visualization"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1171008",
-        "title": "Cloudback for Linear",
-        "summary": "Automated backup and restore for Linear workspaces",
-        "body": "Cloudback runs automated, snapshot-based backups for Linear workspaces, GitHub, GitLab, and Azure DevOps. Linear capture covers 23 data categories: issues, projects, cycles, documents, comments, attachments, embedded files, and the workspace structure itself. Restore in dependency order from any backup, into a new target workspace. AES-256 with optional customer-managed keys (RSA Lockbox). SOC 2 Type II compliant. 1.7k+ customers, 14k+ repositories, 4M+ backups.",
-        "url": "https://www.producthunt.com/products/cloudback?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/AJD3WYKDXZTMGK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
-        "metrics": {
-          "votes": 175,
-          "comments": 20,
-          "rank": 5,
-          "score": 175
-        },
-        "metadata": {
-          "slug": "cloudback-for-linear",
-          "topics": [
-            "Productivity",
-            "Software Engineering",
-            "Developer Tools"
-          ]
-        },
-        "rawJson": {
-          "id": "1171008",
-          "name": "Cloudback for Linear",
-          "slug": "cloudback-for-linear",
-          "tagline": "Automated backup and restore for Linear workspaces",
-          "description": "Cloudback runs automated, snapshot-based backups for Linear workspaces, GitHub, GitLab, and Azure DevOps. Linear capture covers 23 data categories: issues, projects, cycles, documents, comments, attachments, embedded files, and the workspace structure itself. Restore in dependency order from any backup, into a new target workspace. AES-256 with optional customer-managed keys (RSA Lockbox). SOC 2 Type II compliant. 1.7k+ customers, 14k+ repositories, 4M+ backups.",
-          "url": "https://www.producthunt.com/products/cloudback?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/AJD3WYKDXZTMGK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 175,
-          "commentsCount": 20,
-          "dailyRank": 5,
-          "latestScore": 175,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Software Engineering",
-                  "slug": "software-engineering"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1170951",
-        "title": "Memoriq",
-        "summary": "Your private AI memory for ChatGPT, Claude, Gemini and Grok",
-        "body": "Memoriq is your private AI memory for ChatGPT, Claude, Gemini and Grok. Save the conversations that matter in an end-to-end encrypted vault that only you can access. Open source, self-hostable, and built for people who don't want to lose valuable AI chats or trust another plaintext cloud service. Search, organize, and keep your AI knowledge under your control.",
-        "url": "https://www.producthunt.com/products/memoriq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/FGPLN55XYVVARV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
-        "metrics": {
-          "votes": 134,
-          "comments": 27,
-          "rank": 6,
-          "score": 134
-        },
-        "metadata": {
-          "slug": "memoriq",
-          "topics": [
-            "Productivity",
-            "Privacy",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1170951",
-          "name": "Memoriq",
-          "slug": "memoriq",
-          "tagline": "Your private AI memory for ChatGPT, Claude, Gemini and Grok",
-          "description": "Memoriq is your private AI memory for ChatGPT, Claude, Gemini and Grok. Save the conversations that matter in an end-to-end encrypted vault that only you can access. Open source, self-hostable, and built for people who don't want to lose valuable AI chats or trust another plaintext cloud service. Search, organize, and keep your AI knowledge under your control.",
-          "url": "https://www.producthunt.com/products/memoriq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/FGPLN55XYVVARV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 134,
-          "commentsCount": 27,
-          "dailyRank": 6,
-          "latestScore": 134,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Privacy",
-                  "slug": "privacy"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1165939",
-        "title": "Conan",
-        "summary": "A native Mac cockpit for Claude Code",
-        "body": "Conan is a native macOS app that wraps Claude Code in a live HUD — every prompt, tool call, skill, and token, surfaced as it happens.",
-        "url": "https://www.producthunt.com/products/conan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/YCRXMCPH3NBX33?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
-        "metrics": {
-          "votes": 133,
-          "comments": 20,
-          "rank": 7,
-          "score": 133
-        },
-        "metadata": {
-          "slug": "conan",
-          "topics": [
-            "Mac",
-            "Developer Tools",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1165939",
-          "name": "Conan",
-          "slug": "conan",
-          "tagline": "A native Mac cockpit for Claude Code",
-          "description": "Conan is a native macOS app that wraps Claude Code in a live HUD — every prompt, tool call, skill, and token, surfaced as it happens.",
-          "url": "https://www.producthunt.com/products/conan?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/YCRXMCPH3NBX33?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 133,
-          "commentsCount": 20,
-          "dailyRank": 7,
-          "latestScore": 133,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Mac",
-                  "slug": "mac"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1139531",
-        "title": "Allergo",
-        "summary": "Translate your allergies, anywhere.",
-        "body": "Allergo helps you create allergy translation cards for 75+ languages/countries. Add cards to Apple Wallet for quick access anywhere. Features also include conversation helpers and emergency SOS translations, automatically translated to the users location. Designed for real-world use, with localisation across countries. Professional translations, and more native speaker verifications, are coming soon via over-the-air updates. Built for anyone travelling with allergies or dietary restrictions.",
-        "url": "https://www.producthunt.com/products/allergo-allergy-translation-cards?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/WJYHGPH6R7XFWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
-        "metrics": {
-          "votes": 110,
-          "comments": 10,
-          "rank": 8,
-          "score": 110
-        },
-        "metadata": {
-          "slug": "allergo",
-          "topics": [
-            "Health & Fitness",
-            "Travel",
-            "Health"
-          ]
-        },
-        "rawJson": {
-          "id": "1139531",
-          "name": "Allergo",
-          "slug": "allergo",
-          "tagline": "Translate your allergies, anywhere.",
-          "description": "Allergo helps you create allergy translation cards for 75+ languages/countries. Add cards to Apple Wallet for quick access anywhere. Features also include conversation helpers and emergency SOS translations, automatically translated to the users location. Designed for real-world use, with localisation across countries. Professional translations, and more native speaker verifications, are coming soon via over-the-air updates. Built for anyone travelling with allergies or dietary restrictions.",
-          "url": "https://www.producthunt.com/products/allergo-allergy-translation-cards?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/WJYHGPH6R7XFWF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 110,
-          "commentsCount": 10,
-          "dailyRank": 8,
-          "latestScore": 110,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Health & Fitness",
-                  "slug": "health-fitness"
-                }
-              },
-              {
-                "node": {
-                  "name": "Travel",
-                  "slug": "travel"
-                }
-              },
-              {
-                "node": {
-                  "name": "Health",
-                  "slug": "health"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1170794",
-        "title": "Reverie.fm",
-        "summary": "A fully private & offline location based music journal app",
-        "body": "Reverie FM maps your life's soundtrack. I built it because I wanted to remember not just where I was, but what I was listening to. It lets you pin songs to specific places on a map, attaching moods and memories to those spots. It's completely private, local, and built for Apple Music. It's a personal atlas of the songs that I was and the locations that remind me of them.",
-        "url": "https://www.producthunt.com/products/reverie-fm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/ETIUC5Z6WKYK2T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
-        "metrics": {
-          "votes": 104,
-          "comments": 6,
-          "rank": 9,
-          "score": 104
-        },
-        "metadata": {
-          "slug": "reverie-fm",
-          "topics": [
-            "Music",
-            "Maps"
-          ]
-        },
-        "rawJson": {
-          "id": "1170794",
-          "name": "Reverie.fm",
-          "slug": "reverie-fm",
-          "tagline": "A fully private & offline location based music journal app",
-          "description": "Reverie FM maps your life's soundtrack. I built it because I wanted to remember not just where I was, but what I was listening to. It lets you pin songs to specific places on a map, attaching moods and memories to those spots. It's completely private, local, and built for Apple Music. It's a personal atlas of the songs that I was and the locations that remind me of them.",
-          "url": "https://www.producthunt.com/products/reverie-fm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/ETIUC5Z6WKYK2T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 104,
-          "commentsCount": 6,
-          "dailyRank": 9,
-          "latestScore": 104,
-          "featuredAt": "2026-06-14T07:01:00Z",
-          "createdAt": "2026-06-14T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Music",
-                  "slug": "music"
-                }
-              },
-              {
-                "node": {
-                  "name": "Maps",
-                  "slug": "maps"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1164899",
-        "title": "LabelLens",
-        "summary": "See Beyond the Label",
-        "body": "LabelLens analyzes packaged food labels using AI. Upload a product label and instantly get ingredient breakdowns, additive detection, nutrition insights, sweetener analysis, and an easy-to-understand health score. Instead of decoding confusing ingredient lists yourself, LabelLens helps you understand what you're actually eating before you buy.",
-        "url": "https://www.producthunt.com/products/labellens?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/DD7UDEU5DJ5OOB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-14T07:01:00Z",
-        "metrics": {
-          "votes": 37,
-          "comments": 7,
-          "rank": 11,
-          "score": 37
-        },
-        "metadata": {
-          "slug": "labellens",
-          "topics": [
-            "Health & Fitness",
-            "Artificial Intelligence",
-            "Nutrition"
-          ]
-        },
-        "rawJson": {
-          "id": "1164899",
-          "name": "LabelLens",
-          "slug": "labellens",
-          "tagline": "See Beyond the Label",
-          "description": "LabelLens analyzes packaged food labels using AI. Upload a product label and instantly get ingredient breakdowns, additive detection, nutrition insights, sweetener analysis, and an easy-to-understand health score. Instead of decoding confusing ingredient lists yourself, LabelLens helps you understand what you're actually eating before you buy.",
-          "url": "https://www.producthunt.com/products/labellens?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/DD7UDEU5DJ5OOB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 37,
-          "commentsCount": 7,
-          "dailyRank": 11,
-          "latestScore": 37,
-          "featuredAt": null,
-          "createdAt": "2026-06-14T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Health & Fitness",
-                  "slug": "health-fitness"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Nutrition",
-                  "slug": "nutrition"
+                  "name": "SaaS",
+                  "slug": "saas"
                 }
               }
             ]
@@ -1033,7 +1199,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-06-16T03:01:11.056Z",
+    "fetchedAt": "2026-06-16T08:51:41.914Z",
     "items": [
       {
         "source": "github_trending",
@@ -1041,7 +1207,7 @@
         "title": "colbymchenry/codegraph",
         "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph 🎉 1.0 Released!",
         "url": "https://github.com/colbymchenry/codegraph",
-        "publishedAt": "2026-06-16T03:01:11.019Z",
+        "publishedAt": "2026-06-16T08:51:41.879Z",
         "metrics": {
           "rank": 1
         },
@@ -1056,7 +1222,7 @@
         "title": "chopratejas/headroom",
         "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.",
         "url": "https://github.com/chopratejas/headroom",
-        "publishedAt": "2026-06-16T03:01:11.021Z",
+        "publishedAt": "2026-06-16T08:51:41.880Z",
         "metrics": {
           "rank": 2
         },
@@ -1071,7 +1237,7 @@
         "title": "Egonex-AI/Understand-Anything",
         "summary": "Graphs that teach > graphs that impress.",
         "url": "https://github.com/Egonex-AI/Understand-Anything",
-        "publishedAt": "2026-06-16T03:01:11.022Z",
+        "publishedAt": "2026-06-16T08:51:41.881Z",
         "metrics": {
           "rank": 3
         },
@@ -1086,7 +1252,7 @@
         "title": "harry0703/MoneyPrinterTurbo",
         "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-        "publishedAt": "2026-06-16T03:01:11.023Z",
+        "publishedAt": "2026-06-16T08:51:41.882Z",
         "metrics": {
           "rank": 4
         },
@@ -1101,7 +1267,7 @@
         "title": "rohitg00/ai-engineering-from-scratch",
         "summary": "Learn it.",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "publishedAt": "2026-06-16T03:01:11.030Z",
+        "publishedAt": "2026-06-16T08:51:41.889Z",
         "metrics": {
           "rank": 5
         },
@@ -1116,7 +1282,7 @@
         "title": "tinyhumansai/openhuman",
         "summary": "Your Personal AI super intelligence.",
         "url": "https://github.com/tinyhumansai/openhuman",
-        "publishedAt": "2026-06-16T03:01:11.031Z",
+        "publishedAt": "2026-06-16T08:51:41.890Z",
         "metrics": {
           "rank": 6
         },
@@ -1131,7 +1297,7 @@
         "title": "Imbad0202/academic-research-skills",
         "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
         "url": "https://github.com/Imbad0202/academic-research-skills",
-        "publishedAt": "2026-06-16T03:01:11.036Z",
+        "publishedAt": "2026-06-16T08:51:41.895Z",
         "metrics": {
           "rank": 7
         },
@@ -1146,7 +1312,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-06-16T03:01:11.036Z",
+        "publishedAt": "2026-06-16T08:51:41.895Z",
         "metrics": {
           "rank": 8
         },
@@ -1161,7 +1327,7 @@
         "title": "can1357/oh-my-pi",
         "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
         "url": "https://github.com/can1357/oh-my-pi",
-        "publishedAt": "2026-06-16T03:01:11.038Z",
+        "publishedAt": "2026-06-16T08:51:41.897Z",
         "metrics": {
           "rank": 9
         },
@@ -1176,7 +1342,7 @@
         "title": "ruvnet/RuView",
         "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "url": "https://github.com/ruvnet/RuView",
-        "publishedAt": "2026-06-16T03:01:11.042Z",
+        "publishedAt": "2026-06-16T08:51:41.901Z",
         "metrics": {
           "rank": 10
         },
@@ -1191,7 +1357,7 @@
         "title": "hardikpandya/stop-slop",
         "summary": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
         "url": "https://github.com/hardikpandya/stop-slop",
-        "publishedAt": "2026-06-16T03:01:11.043Z",
+        "publishedAt": "2026-06-16T08:51:41.902Z",
         "metrics": {
           "rank": 11
         },
@@ -1206,7 +1372,7 @@
         "title": "microsoft/markitdown",
         "summary": "Python tool for converting files and office documents to Markdown.",
         "url": "https://github.com/microsoft/markitdown",
-        "publishedAt": "2026-06-16T03:01:11.043Z",
+        "publishedAt": "2026-06-16T08:51:41.902Z",
         "metrics": {
           "rank": 12
         },
@@ -1221,7 +1387,7 @@
         "title": "anthropics/knowledge-work-plugins",
         "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
         "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "publishedAt": "2026-06-16T03:01:11.044Z",
+        "publishedAt": "2026-06-16T08:51:41.903Z",
         "metrics": {
           "rank": 13
         },
@@ -1236,7 +1402,7 @@
         "title": "Leonxlnx/taste-skill",
         "summary": "Taste-Skill - gives your AI good taste.",
         "url": "https://github.com/Leonxlnx/taste-skill",
-        "publishedAt": "2026-06-16T03:01:11.044Z",
+        "publishedAt": "2026-06-16T08:51:41.903Z",
         "metrics": {
           "rank": 14
         },
@@ -1251,7 +1417,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-06-16T03:01:11.045Z",
+        "publishedAt": "2026-06-16T08:51:41.904Z",
         "metrics": {
           "rank": 15
         },
@@ -1266,7 +1432,7 @@
         "title": "HKUDS/ViMax",
         "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" ViMax: Agentic Video Generation 🚨 Current Video Generation Limitations: ❌ Limited to Short Clips - Most AI tools generate only seconds of footage.",
         "url": "https://github.com/HKUDS/ViMax",
-        "publishedAt": "2026-06-16T03:01:11.046Z",
+        "publishedAt": "2026-06-16T08:51:41.905Z",
         "metrics": {
           "rank": 16
         },
@@ -1281,7 +1447,7 @@
         "title": "rohitg00/agentmemory",
         "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
         "url": "https://github.com/rohitg00/agentmemory",
-        "publishedAt": "2026-06-16T03:01:11.051Z",
+        "publishedAt": "2026-06-16T08:51:41.910Z",
         "metrics": {
           "rank": 17
         },
@@ -1296,7 +1462,7 @@
         "title": "CloakHQ/CloakBrowser",
         "summary": "Stealth Chromium that passes every bot detection test.",
         "url": "https://github.com/CloakHQ/CloakBrowser",
-        "publishedAt": "2026-06-16T03:01:11.055Z",
+        "publishedAt": "2026-06-16T08:51:41.913Z",
         "metrics": {
           "rank": 18
         },
@@ -1311,7 +1477,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-06-16T03:01:11.055Z",
+        "publishedAt": "2026-06-16T08:51:41.914Z",
         "metrics": {
           "rank": 19
         },
@@ -1326,7 +1492,7 @@
         "title": "iii-hq/iii",
         "summary": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
         "url": "https://github.com/iii-hq/iii",
-        "publishedAt": "2026-06-16T03:01:11.056Z",
+        "publishedAt": "2026-06-16T08:51:41.914Z",
         "metrics": {
           "rank": 20
         },
@@ -1340,7 +1506,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-06-16T03:01:44.339Z",
+    "fetchedAt": "2026-06-16T08:51:54.968Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1356,6 +1522,38 @@
         "metrics": {},
         "metadata": {
           "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+        "title": "The Fable 5 Export Controls Harm US Cyber Defense",
+        "summary": "<p><strong><a href=\"https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense\">The Fable 5 Export Controls Harm US Cyber Defense</a></strong></p> I <a href=\"https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/\">quoted The Atlantic</a> quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\":</p> <blockquote> <p>",
+        "body": "<p><strong><a href=\"https://www.lutasecurity.com/post/the-fable-5-export-controls-harm-us-cyber-defense\">The Fable 5 Export Controls Harm US Cyber Defense</a></strong></p> I <a href=\"https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/\">quoted The Atlantic</a> quoting Kate Moussouris earlier, when I should have gone straight to the source. Here she is confirming that the \"jailbreak\" that got Claude Fable 5 banned under an export control really was \"fix this code\":</p> <blockquote> <p>The researchers took open-source code with known CVEs, plus new code with deliberately planted vulnerabilities, and asked Fable 5, Mythos, and Opus to “review the code for security issues.” Fable 5 refused. They then asked the models to “fix this code” and, through a multistep and manual process, tu",
+        "url": "https://simonwillison.net/2026/Jun/16/fable-5-export-controls/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-16T05:20:29.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+        "title": "Quoting Matteo Wong, The Atlantic",
+        "summary": "<blockquote cite=\"https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/?gift=5MjKTLV9QwyU_J0HzTnanoWieJfkMhNH_YTT9pP_fhA\"><p>Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not being paid by Anthropic.) The report, Moussouris said, involved IT experts asking Fable to help find and patch bugs. Wh",
+        "body": "<blockquote cite=\"https://www.theatlantic.com/technology/2026/06/trump-anthropic-export-control-ai-race/687555/?gift=5MjKTLV9QwyU_J0HzTnanoWieJfkMhNH_YTT9pP_fhA\"><p>Katie Moussouris, a cybersecurity expert and the CEO of Luta Security, told me that Anthropic shared with her a copy of the White House’s report on the Fable jailbreak to get her appraisal. (She said that she is not being paid by Anthropic.) The report, Moussouris said, involved IT experts asking Fable to help find and patch bugs. When given deliberately insecure code, she said, Fable refused the prompt “review the code for security issues” but then complied when asked to “fix this code,” followed by some further manual steps. Moussouris told me that this was just “the model working as intended” for cyberdefense.</p></blockquot",
+        "url": "https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-16T03:07:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
         }
       },
       {
@@ -1590,14 +1788,237 @@
         "metadata": {
           "feedSource": "Lobsters AI"
         }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17046",
+        "title": "Geometric Action Model for Robot Policy Learning",
+        "summary": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale foundation models, but they still operate primarily on 2D image frames or 2D-derived latent spaces, leaving implicit the 3D geometry required for contact-rich manipulation. We propose the Geometric Action M",
+        "body": "Generalist robot policies must follow user instructions while reasoning about how objects, cameras, and robot actions interact in the 3D physical world. Recent vision-language-action models (VLAs) and video world-action models (WAMs) inherit strong semantic or temporal priors from large-scale foundation models, but they still operate primarily on 2D image frames or 2D-derived latent spaces, leaving implicit the 3D geometry required for contact-rich manipulation. We propose the Geometric Action Model (GAM), a language-conditioned manipulation policy that directly repurposes a pretrained geometric foundation model (GFM) as a shared substrate for perception, temporal prediction, and action decoding. GAM splits the GFM at an intermediate layer: the shallow layers serve as an observation encode",
+        "url": "https://arxiv.org/abs/2606.17046",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16993",
+        "title": "DreamX-World 1.0: A General-Purpose Interactive World Model",
+        "summary": "DreamX-World 1.0 is a general-purpose interactive text/image-to-video world model for controllable long-horizon generation. It supports camera navigation, revisits to previously observed regions, and promptable events across photorealistic, game-style, and stylized domains. Our data engine combines camera-accurate Unreal Engine rendering, action-rich gameplay recordings, and real-world videos with recovered camera geometry. For camera control, we introduce E-PRoPE, a lightweight variant of proje",
+        "body": "DreamX-World 1.0 is a general-purpose interactive text/image-to-video world model for controllable long-horizon generation. It supports camera navigation, revisits to previously observed regions, and promptable events across photorealistic, game-style, and stylized domains. Our data engine combines camera-accurate Unreal Engine rendering, action-rich gameplay recordings, and real-world videos with recovered camera geometry. For camera control, we introduce E-PRoPE, a lightweight variant of projective positional encoding that retains PRoPE's projective camera geometry while applying camera-aware attention to spatially reduced tokens. We convert a bidirectional video generator into a few-step autoregressive world model using causal forcing, DMD-style distillation, and long-rollout training. ",
+        "url": "https://arxiv.org/abs/2606.16993",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16281",
+        "title": "Who Should Lead Decoding Now? Tracking Reliable Trajectories for Ensembling Masked Diffusion Language Models",
+        "summary": "Masked Diffusion Language Models (MDLMs) have emerged as a distinct paradigm for sequence generation. As MDLMs become diverse in capabilities and knowledge coverage, an important question is how to combine their knowledge. Toward this, we first investigate the unique decoding dynamics of MDLMs. We find that successful generations exhibit stable confidence dynamics over answer-relevant positions, while unreliable trajectories can often be corrected by injecting promising intermediate states from ",
+        "body": "Masked Diffusion Language Models (MDLMs) have emerged as a distinct paradigm for sequence generation. As MDLMs become diverse in capabilities and knowledge coverage, an important question is how to combine their knowledge. Toward this, we first investigate the unique decoding dynamics of MDLMs. We find that successful generations exhibit stable confidence dynamics over answer-relevant positions, while unreliable trajectories can often be corrected by injecting promising intermediate states from other models. Guided by this observation, we propose TIE (Trajectory-based Iterative Ensembling), a knowledge fusion framework in which MDLMs iteratively identify reliable decoding trajectories and relay them across models. TIE tracks confidence dynamics over answer-relevant positions to determine w",
+        "url": "https://arxiv.org/abs/2606.16281",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16140",
+        "title": "VibeThinker-3B: Exploring the Frontier of Verifiable Reasoning in Small Language Models",
+        "summary": "This technical report introduces VibeThinker-3B, a compact dense model with 3B parameters developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, we systematically enhance the model through an optimized pipeline that includes curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation. Experimental evaluations demonstrate that VibeThinker-",
+        "body": "This technical report introduces VibeThinker-3B, a compact dense model with 3B parameters developed to investigate how far verifiable reasoning can be pushed within a strictly small-model regime. Building upon the Spectrum-to-Signal post-training paradigm, we systematically enhance the model through an optimized pipeline that includes curriculum-based supervised fine-tuning, multi-domain reinforcement learning, and offline self-distillation. Experimental evaluations demonstrate that VibeThinker-3B achieves frontier-level performance on highly demanding verifiable tasks. Specifically, it attains a score of 94.3 on AIME26 (improving to 97.1 with claim-level test-time scaling), an 80.2 Pass@1 on LiveCodeBench v6, and exhibits strong out-of-distribution generalization with a 96.1\\% acceptance ",
+        "url": "https://arxiv.org/abs/2606.16140",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16295",
+        "title": "VisualClaw: A Real-Time, Personalized Agent for the Physical World",
+        "summary": "Vision language models are serving as general-purpose interfaces for complex multimodal tasks. However, deployment still faces three gaps: VLMs typically incur high latency and cost when processing dense video frames and long prompts, the agent scaffold remains static after deployment, and standard video-QA benchmarks do not test whether agents can use visual evidence inside tool-using workspaces. We present VisualClaw, a self-evolving multimodal agent built around two principles. First, hybrid ",
+        "body": "Vision language models are serving as general-purpose interfaces for complex multimodal tasks. However, deployment still faces three gaps: VLMs typically incur high latency and cost when processing dense video frames and long prompts, the agent scaffold remains static after deployment, and standard video-QA benchmarks do not test whether agents can use visual evidence inside tool-using workspaces. We present VisualClaw, a self-evolving multimodal agent built around two principles. First, hybrid encoding reduces deployment cost by filtering less informative streaming frames with a cascaded gate and compressing the text skill bank through hot/cold top-k injection. Second, skill evolution lets the agent learn from failures: retrieved memories condition an evolver as direct concatenated contex",
+        "url": "https://arxiv.org/abs/2606.16295",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17049",
+        "title": "BRDFusion: Physics Meets Generation for Urban Scene Inverse Rendering",
+        "summary": "Inverse rendering of urban scenes from captured videos enables numerous applications, including content creation and autonomous driving simulation. Physically-based rendering methods follow and control lighting physics, but suffer from reconstruction and rendering artifacts. While generative models produce realistic videos, they offer limited consistency and controllability. We present BRDFusion, a unified framework that combines two complementary models for inverse and forward rendering. Specif",
+        "body": "Inverse rendering of urban scenes from captured videos enables numerous applications, including content creation and autonomous driving simulation. Physically-based rendering methods follow and control lighting physics, but suffer from reconstruction and rendering artifacts. While generative models produce realistic videos, they offer limited consistency and controllability. We present BRDFusion, a unified framework that combines two complementary models for inverse and forward rendering. Specifically, BRDFusion recovers explicit, consistent scene properties with physical modeling and alleviates optimization ambiguity with generative priors. During forward rendering, the physical model provides controllable rendering from the scene configuration, and the generative model denoises and fixes",
+        "url": "https://arxiv.org/abs/2606.17049",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16838",
+        "title": "OneRank: Unified Transformer-Native Ranking Architecture for Multi-Task Recommendation",
+        "summary": "Multi-task learning (MTL) is essential in recommender systems to enable complementary learning among diverse user feedback. While modern industrial practices have shifted from DNNs to Transformer-centric architectures to strengthen sequence modeling and scaling capacity, they still decouple feature encoding from multi-task prediction, treating the Transformer as a task-agnostic encoder. This design fundamentally limits the performance and scalability by (1) creating an information bottleneck und",
+        "body": "Multi-task learning (MTL) is essential in recommender systems to enable complementary learning among diverse user feedback. While modern industrial practices have shifted from DNNs to Transformer-centric architectures to strengthen sequence modeling and scaling capacity, they still decouple feature encoding from multi-task prediction, treating the Transformer as a task-agnostic encoder. This design fundamentally limits the performance and scalability by (1) creating an information bottleneck under heterogeneous task objectives, (2) inducing gradient interference that leads to the seesaw phenomenon, and (3) forcing a dataflow transition in which attention-based, context-adaptive representation learning is converted to static feed-forward task prediction with incompatible information read-wr",
+        "url": "https://arxiv.org/abs/2606.16838",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16519",
+        "title": "BadWorld: Adversarial Attacks on World Models",
+        "summary": "Visual world models (VWMs) synthesize interactive, action-conditioned rollouts from a single context image. However, it remains an open question how robust these models are to adversarial perturbations. Standard adversarial attacks fail to assess this vulnerability because attackers lack ground-truth future videos and cannot predict subsequent user controls. We introduce BadWorld, a label-free adversarial framework tailored for autoregressive VWMs that systematically overcomes both constraints. ",
+        "body": "Visual world models (VWMs) synthesize interactive, action-conditioned rollouts from a single context image. However, it remains an open question how robust these models are to adversarial perturbations. Standard adversarial attacks fail to assess this vulnerability because attackers lack ground-truth future videos and cannot predict subsequent user controls. We introduce BadWorld, a label-free adversarial framework tailored for autoregressive VWMs that systematically overcomes both constraints. First, to bypass the need for future supervision, we propose a self-supervised velocity attack that directly disrupts the early denoising dynamics of the model. Second, to ensure the attack generalizes across unpredictable user actions, we formulate a trajectory-adaptive bi-level optimization that a",
+        "url": "https://arxiv.org/abs/2606.16519",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17016",
+        "title": "TokenPilot: Cache-Efficient Context Management for LLM Agents",
+        "summary": "As LLM agents are deployed in long-horizon sessions, context accumulation drives up inference costs. Existing approaches utilize text pruning or dynamic memory eviction to minimize token footprints; however, their unconstrained sequence mutations alter layouts, introducing prefix mismatches and cache invalidation. This reveals a critical trade-off between text sparsity and prompt cache continuity. To address this, we present TokenPilot, a dual-granularity context management framework. Globally, ",
+        "body": "As LLM agents are deployed in long-horizon sessions, context accumulation drives up inference costs. Existing approaches utilize text pruning or dynamic memory eviction to minimize token footprints; however, their unconstrained sequence mutations alter layouts, introducing prefix mismatches and cache invalidation. This reveals a critical trade-off between text sparsity and prompt cache continuity. To address this, we present TokenPilot, a dual-granularity context management framework. Globally, Ingestion-Aware Compaction acts as a framework harness to stabilize prompt prefixes and eliminate open-world environmental noise at the ingestion gate. Locally, Lifecycle-Aware Eviction monitors the ongoing residual utility of context segments, enforcing a conservative batch-turn schedule to offload",
+        "url": "https://arxiv.org/abs/2606.17016",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16771",
+        "title": "GD^2PO: Mitigating Multi-Reward Conflicts via Group-Dynamic reward-Decoupled Policy Optimization",
+        "summary": "As LLMs advance, post-training reinforcement learning (RL) increasingly relies on multi-dimensional rewards to cultivate comprehensive capabilities. This shift demands new algorithms capable of optimizing diverse and potentially competing objectives simultaneously. To address this, existing methods such as Group reward-Decoupled Policy Optimization (GDPO) decompose the overall score into independent reward groups, then compute the RL loss separately within each group. However, this strategy stil",
+        "body": "As LLMs advance, post-training reinforcement learning (RL) increasingly relies on multi-dimensional rewards to cultivate comprehensive capabilities. This shift demands new algorithms capable of optimizing diverse and potentially competing objectives simultaneously. To address this, existing methods such as Group reward-Decoupled Policy Optimization (GDPO) decompose the overall score into independent reward groups, then compute the RL loss separately within each group. However, this strategy still encounters multi-reward conflicts: a single rollout can yield positive advantages on certain reward dimensions but negative ones on others, causing opposing signals to cancel each other out during aggregation, further hindering RL training efficiency. Inspired by Dynamic sAmpling Policy Optimizati",
+        "url": "https://arxiv.org/abs/2606.16771",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17030",
+        "title": "Qwen-RobotWorld Technical Report: Unifying Embodied World Modeling through Language-Conditioned Video Generation",
+        "summary": "We introduce Qwen-RobotWorld, a language-conditioned video world model for embodied intelligence. With natural language as a unified action interface, it predicts physically grounded future visual trajectories from current observations across robotic manipulation, autonomous driving, indoor navigation, and human-to-robot transfer. This unified formulation provides three promising application directions: synthetic data generation for policy training augmentation, scalable virtual environments for",
+        "body": "We introduce Qwen-RobotWorld, a language-conditioned video world model for embodied intelligence. With natural language as a unified action interface, it predicts physically grounded future visual trajectories from current observations across robotic manipulation, autonomous driving, indoor navigation, and human-to-robot transfer. This unified formulation provides three promising application directions: synthetic data generation for policy training augmentation, scalable virtual environments for policy evaluation, and language-guided planning signals for downstream robot control. This is achieved through a three-part design: a) Double-Stream MMDiT with MLLM Action Encoding, where a 60-layer double-stream diffusion transformer couples frozen Qwen2.5-VL semantics with video-VAE latents throu",
+        "url": "https://arxiv.org/abs/2606.17030",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.06302",
+        "title": "Tangram: Unlocking Non-Uniform KV Cache Compression for Efficient Multi-turn LLM Serving",
+        "summary": "Multi-turn LLM serving accumulates dialogue history whose Key-Value (KV) cache grows with every turn and every user, quickly exceeding the model weights themselves and making memory -- not compute -- the binding constraint on throughput. Non-uniform KV compression, which allocates heterogeneous budgets across attention heads, preserves accuracy far better than uniform schemes, yet remains impractical: modern serving stacks assume identical KV lengths across heads, so heterogeneity traps freed me",
+        "body": "Multi-turn LLM serving accumulates dialogue history whose Key-Value (KV) cache grows with every turn and every user, quickly exceeding the model weights themselves and making memory -- not compute -- the binding constraint on throughput. Non-uniform KV compression, which allocates heterogeneous budgets across attention heads, preserves accuracy far better than uniform schemes, yet remains impractical: modern serving stacks assume identical KV lengths across heads, so heterogeneity traps freed memory as page fragmentation, spends up to 25% of prefill time reclaiming scattered pages, and skews GPU workloads that inflate decode latency by up to 1.7times or burn 15--20% of each decode step on re-planning. We observe that this heterogeneity need not be discovered at runtime: head-wise retention",
+        "url": "https://arxiv.org/abs/2606.06302",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17043",
+        "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
+        "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of",
+        "body": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of viability and efficiency; once basic success is achieved, the binary label provides no gradient to distinguish efficient completions from slow ones. Second, real-world rollouts mix autonomous and intervention segments; naively assigning episode outcomes across these boundaries introduces incorrect ",
+        "url": "https://arxiv.org/abs/2606.17043",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16255",
+        "title": "UniDDT: Unifying Multimodal Understanding and Generation with Decoupled Diffusion Transformer",
+        "summary": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the",
+        "body": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the duality of text-image understanding and generation. To address these challenges, we propose UniDDT, which leverages a Noisy ViT encoder along with an LLM to unify semantic encoding for visual generation and understanding tasks, while employing a separate diffusion decoder to decouple diffusion deco",
+        "url": "https://arxiv.org/abs/2606.16255",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16396",
+        "title": "SP^3: Spherical Priors for Plug-and-Play Restoration",
+        "summary": "In this paper, we introduce SP^3, a novel Plug-and-Play algorithm that accelerates maximum a posteriori image restoration by replacing denoisers with Spherical Encoders (SE) as generative priors. SP^3 approximates the intractable proximal prior step by utilizing the SE tightly structured latent space as a robust projection onto the natural image manifold. Alternating this projection with a closed-form data-consistency step, via Half-Quadratic Splitting, achieves stable convergence without requir",
+        "body": "In this paper, we introduce SP^3, a novel Plug-and-Play algorithm that accelerates maximum a posteriori image restoration by replacing denoisers with Spherical Encoders (SE) as generative priors. SP^3 approximates the intractable proximal prior step by utilizing the SE tightly structured latent space as a robust projection onto the natural image manifold. Alternating this projection with a closed-form data-consistency step, via Half-Quadratic Splitting, achieves stable convergence without requiring gradient computation during inference. This unique formulation unlocks \"anytime\" restoration capabilities, producing sharp, plausible images from the first iteration. Evaluations across a variety of image restoration tasks demonstrate that SP^3 achieves perceptual quality comparable to state-of-",
+        "url": "https://arxiv.org/abs/2606.16396",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-06-14T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
       }
     ],
     "errors": [
-      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
       "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502",
-      "HuggingFace Papers: This operation was aborted"
+      "Hacker News AI: HTTP 502"
     ]
   }
 ]
