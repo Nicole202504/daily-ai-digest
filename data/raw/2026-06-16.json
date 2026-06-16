@@ -1,7 +1,7 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-06-16T08:51:41.325Z",
+    "fetchedAt": "2026-06-16T09:18:18.255Z",
     "items": [
       {
         "source": "aihot",
@@ -531,36 +531,13 @@
           "score": 69,
           "selected": true
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmqf0xl1601t7slwaf7eww3hm",
-        "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-        "summary": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
-        "body": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
-        "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-        "sourceName": "MarkTechPost（RSS）",
-        "sourceCategory": "ai-products",
-        "publishedAt": "2026-06-15T09:16:09.000Z",
-        "rawJson": {
-          "id": "cmqf0xl1601t7slwaf7eww3hm",
-          "title": "Flash-KMeans：IO感知的精确K-Means，在GPU上比FAISS快200倍以上",
-          "title_en": "Meet Flash-KMeans： An IO-Aware， Exact K-Means That Runs Over 200× Faster Than FAISS on GPUs",
-          "url": "https://www.marktechpost.com/2026/06/15/meet-flash-kmeans-an-io-aware-exact-k-means-that-runs-over-200x-faster-than-faiss-on-gpus",
-          "source": "MarkTechPost（RSS）",
-          "publishedAt": "2026-06-15T09:16:09.000Z",
-          "summary": "UC Berkeley与UT Austin团队开源Flash-KMeans（Apache 2.0，`pip install flash-kmeans`），精确实现标准Lloyd's k-Means，通过重构GPU数据流而非改变数学或近似来提速。在NVIDIA H200上，端到端速度比最佳基线快17.9×，比cuML快33×，比FAISS快200×以上。其FlashAssign核避免物化完整N×K距离矩阵，将IO复杂度从O（NK）降至O（Nd+Kd），单核加速最高21.2×；Sort-Inverse Update核通过排序聚类ID减少原子争用，单核加速最高6.3×。支持out-of-core处理，在1B数据点、K=32768时单次迭代仅41.4s。适用于向量搜索索引、稀疏注意力路由、KV缓存压缩等在线场景。",
-          "category": "ai-products",
-          "score": 73,
-          "selected": true
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-06-16T08:51:41.817Z",
+    "fetchedAt": "2026-06-16T09:18:19.724Z",
     "sourceGeneratedAt": "2026-06-15",
     "items": [
       {
@@ -573,10 +550,10 @@
         "externalUrl": "https://www.producthunt.com/r/YKCLFF3LPLDFWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 393,
+          "votes": 396,
           "comments": 63,
           "rank": 1,
-          "score": 393
+          "score": 396
         },
         "metadata": {
           "slug": "novu-connect",
@@ -594,10 +571,10 @@
           "description": "Novu Connect lets any AI agent have two-way conversations across Slack, Teams, WhatsApp, Telegram, and email without building each channel integration yourself. Bring your own agent logic, model, or code. Novu handles the communication layer: delivery, identity resolution, threading, routing, and channel-specific formatting, so your agent can reach users where they already work.",
           "url": "https://www.producthunt.com/products/novu?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/YKCLFF3LPLDFWW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 393,
+          "votesCount": 396,
           "commentsCount": 63,
           "dailyRank": 1,
-          "latestScore": 393,
+          "latestScore": 396,
           "featuredAt": "2026-06-15T07:01:00Z",
           "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
@@ -634,10 +611,10 @@
         "externalUrl": "https://www.producthunt.com/r/4YVEDAOI6CJSFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 300,
+          "votes": 301,
           "comments": 46,
           "rank": 2,
-          "score": 300
+          "score": 301
         },
         "metadata": {
           "slug": "wobo-ai-job-search",
@@ -655,10 +632,10 @@
           "description": "Swipe right. Applied. Wobo is your personal AI recruiter. It matches pre-vetted jobs to your background, then applies on each company's own site for you. Your resume, cover letter, and every application question: all written in your voice, so it reads like you wrote it, not a bot. No endless forms. No ghost listings. Just swipe, and wake up to interviews.",
           "url": "https://www.producthunt.com/products/wobo-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/4YVEDAOI6CJSFN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 300,
+          "votesCount": 301,
           "commentsCount": 46,
           "dailyRank": 2,
-          "latestScore": 300,
+          "latestScore": 301,
           "featuredAt": "2026-06-15T07:01:00Z",
           "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
@@ -695,10 +672,10 @@
         "externalUrl": "https://www.producthunt.com/r/EFZITJ632XZJX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 273,
+          "votes": 274,
           "comments": 46,
           "rank": 5,
-          "score": 273
+          "score": 274
         },
         "metadata": {
           "slug": "pandaprobe-cloud-2",
@@ -717,10 +694,10 @@
           "description": "PandaProbe Cloud gives your team full-stack tracing, evals, and monitoring for agents with zero infrastructure to manage. Ship better agents without the ops overhead.",
           "url": "https://www.producthunt.com/products/pandaprobe-cloud?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/EFZITJ632XZJX3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 273,
+          "votesCount": 274,
           "commentsCount": 46,
           "dailyRank": 5,
-          "latestScore": 273,
+          "latestScore": 274,
           "featuredAt": "2026-06-15T07:01:00Z",
           "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
@@ -747,67 +724,6 @@
                 "node": {
                   "name": "GitHub",
                   "slug": "github"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1172037",
-        "title": "Kickbacks.ai",
-        "summary": "Get paid to wait for Claude Code to finish",
-        "body": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
-        "url": "https://www.producthunt.com/products/kickbacks-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-06-15T07:01:00Z",
-        "metrics": {
-          "votes": 272,
-          "comments": 19,
-          "rank": 4,
-          "score": 272
-        },
-        "metadata": {
-          "slug": "kickbacks-ai",
-          "topics": [
-            "Advertising",
-            "Artificial Intelligence",
-            "Development"
-          ]
-        },
-        "rawJson": {
-          "id": "1172037",
-          "name": "Kickbacks.ai",
-          "slug": "kickbacks-ai",
-          "tagline": "Get paid to wait for Claude Code to finish",
-          "description": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
-          "url": "https://www.producthunt.com/products/kickbacks-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 272,
-          "commentsCount": 19,
-          "dailyRank": 4,
-          "latestScore": 272,
-          "featuredAt": "2026-06-15T07:01:00Z",
-          "createdAt": "2026-06-15T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Advertising",
-                  "slug": "advertising"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Development",
-                  "slug": "development"
                 }
               }
             ]
@@ -877,6 +793,67 @@
       },
       {
         "source": "product_hunt",
+        "sourceItemId": "ph:1172037",
+        "title": "Kickbacks.ai",
+        "summary": "Get paid to wait for Claude Code to finish",
+        "body": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
+        "url": "https://www.producthunt.com/products/kickbacks-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-06-15T07:01:00Z",
+        "metrics": {
+          "votes": 272,
+          "comments": 19,
+          "rank": 4,
+          "score": 272
+        },
+        "metadata": {
+          "slug": "kickbacks-ai",
+          "topics": [
+            "Advertising",
+            "Artificial Intelligence",
+            "Development"
+          ]
+        },
+        "rawJson": {
+          "id": "1172037",
+          "name": "Kickbacks.ai",
+          "slug": "kickbacks-ai",
+          "tagline": "Get paid to wait for Claude Code to finish",
+          "description": "Kickbacks.ai helps developers get paid for AI-agent wait states. Advertisers bid for a tiny sponsored status line; users get 50% of ad revenue.",
+          "url": "https://www.producthunt.com/products/kickbacks-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/6UFCMNIYCIPIVY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 272,
+          "commentsCount": 19,
+          "dailyRank": 4,
+          "latestScore": 272,
+          "featuredAt": "2026-06-15T07:01:00Z",
+          "createdAt": "2026-06-15T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Advertising",
+                  "slug": "advertising"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Development",
+                  "slug": "development"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
         "sourceItemId": "ph:1167474",
         "title": "Notra Image Generation",
         "summary": "Turn merged PRs into on-brand marketing visuals",
@@ -885,10 +862,10 @@
         "externalUrl": "https://www.producthunt.com/r/K25AMX5IAKYYMJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 192,
+          "votes": 193,
           "comments": 22,
           "rank": 6,
-          "score": 192
+          "score": 193
         },
         "metadata": {
           "slug": "notra-image-generation",
@@ -906,10 +883,10 @@
           "description": "Notra turns shipped work into changelogs, launch posts, and social updates in your voice.",
           "url": "https://www.producthunt.com/products/notra-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/K25AMX5IAKYYMJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 192,
+          "votesCount": 193,
           "commentsCount": 22,
           "dailyRank": 6,
-          "latestScore": 192,
+          "latestScore": 193,
           "featuredAt": "2026-06-15T07:01:00Z",
           "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
@@ -1014,10 +991,10 @@
         "externalUrl": "https://www.producthunt.com/r/3JHSMSEQPY6EEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
-          "votes": 126,
-          "comments": 12,
+          "votes": 127,
+          "comments": 14,
           "rank": 8,
-          "score": 126
+          "score": 127
         },
         "metadata": {
           "slug": "sulsaly",
@@ -1036,10 +1013,10 @@
           "description": "Sulsaly is MENA's first Agentic AI sales intelligence platform. Find verified decision-makers instantly, automate personalized outreach across LinkedIn, WhatsApp and Email. Close deals 5x faster. 50M+ verified B2B contacts across the Arab world. Built for sales teams in UAE, Saudi Arabia, Egypt, Jordan and the Middle East. أول منصة ذكاء اصطناعي للمبيعات في الشرق الأوسط. اكتشف صانعي القرار، أتمتة التواصل عبر واتساب ولينكدإن والبريد الإلكتروني، وأغلق صفقاتك أسرع بـ 5 مرات. 50M+ جهة اتصال موثقة.",
           "url": "https://www.producthunt.com/products/sulsaly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/3JHSMSEQPY6EEK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 126,
-          "commentsCount": 12,
+          "votesCount": 127,
+          "commentsCount": 14,
           "dailyRank": 8,
-          "latestScore": 126,
+          "latestScore": 127,
           "featuredAt": "2026-06-15T07:01:00Z",
           "createdAt": "2026-06-15T07:01:00Z",
           "topics": {
@@ -1135,38 +1112,38 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1171876",
-        "title": "Reignat",
-        "summary": "Privacy-friendly web analytics platform built for makers",
-        "body": "Reignat is a privacy-friendly web analytics platform built for founders, startups, and indie makers who want clear insights without the complexity of traditional analytics tools. Track visitors, pageviews, traffic sources, devices, locations, funnels, and user journeys in real time. Get AI-powered insights to understand trends, uncover opportunities, and make better growth decisions—all from a fast, modern dashboard.",
-        "url": "https://www.producthunt.com/products/reignat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/YWE5HSZ4L4O2HI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "sourceItemId": "ph:1171550",
+        "title": "Fonda",
+        "summary": "Your AI co-founder that remembers decisions + plans for you",
+        "body": "Most \"AI startup tools\" give you a blank chat box. Fonda is different — it's a structured AI co-founder that runs a proven 14-step journey with you: Discover, Validate, Launch, Scale. It remembers every decision, interview, and pivot across sessions. It kills weak ideas before you waste months on them. It ships your landing page, business case, and MVP plan once validated. One clear next move, every day. Free to start.",
+        "url": "https://www.producthunt.com/products/fonda?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/IUSWOJD46TP74Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-06-15T07:01:00Z",
         "metrics": {
           "votes": 123,
-          "comments": 16,
-          "rank": 9,
+          "comments": 13,
+          "rank": 10,
           "score": 123
         },
         "metadata": {
-          "slug": "reignat",
+          "slug": "fonda-2",
           "topics": [
-            "API",
-            "Analytics",
-            "SaaS"
+            "Productivity",
+            "Artificial Intelligence",
+            "Tech"
           ]
         },
         "rawJson": {
-          "id": "1171876",
-          "name": "Reignat",
-          "slug": "reignat",
-          "tagline": "Privacy-friendly web analytics platform built for makers",
-          "description": "Reignat is a privacy-friendly web analytics platform built for founders, startups, and indie makers who want clear insights without the complexity of traditional analytics tools. Track visitors, pageviews, traffic sources, devices, locations, funnels, and user journeys in real time. Get AI-powered insights to understand trends, uncover opportunities, and make better growth decisions—all from a fast, modern dashboard.",
-          "url": "https://www.producthunt.com/products/reignat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/YWE5HSZ4L4O2HI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "id": "1171550",
+          "name": "Fonda",
+          "slug": "fonda-2",
+          "tagline": "Your AI co-founder that remembers decisions + plans for you",
+          "description": "Most \"AI startup tools\" give you a blank chat box. Fonda is different — it's a structured AI co-founder that runs a proven 14-step journey with you: Discover, Validate, Launch, Scale. It remembers every decision, interview, and pivot across sessions. It kills weak ideas before you waste months on them. It ships your landing page, business case, and MVP plan once validated. One clear next move, every day. Free to start.",
+          "url": "https://www.producthunt.com/products/fonda?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/IUSWOJD46TP74Z?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "votesCount": 123,
-          "commentsCount": 16,
-          "dailyRank": 9,
+          "commentsCount": 13,
+          "dailyRank": 10,
           "latestScore": 123,
           "featuredAt": "2026-06-15T07:01:00Z",
           "createdAt": "2026-06-15T07:01:00Z",
@@ -1174,20 +1151,20 @@
             "edges": [
               {
                 "node": {
-                  "name": "API",
-                  "slug": "api-1"
+                  "name": "Productivity",
+                  "slug": "productivity"
                 }
               },
               {
                 "node": {
-                  "name": "Analytics",
-                  "slug": "analytics"
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               },
               {
                 "node": {
-                  "name": "SaaS",
-                  "slug": "saas"
+                  "name": "Tech",
+                  "slug": "tech"
                 }
               }
             ]
@@ -1199,7 +1176,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-06-16T08:51:41.914Z",
+    "fetchedAt": "2026-06-16T09:18:19.894Z",
     "items": [
       {
         "source": "github_trending",
@@ -1207,7 +1184,7 @@
         "title": "colbymchenry/codegraph",
         "summary": "Pre-indexed code knowledge graph, auto syncs on code changes, for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local CodeGraph 🎉 1.0 Released!",
         "url": "https://github.com/colbymchenry/codegraph",
-        "publishedAt": "2026-06-16T08:51:41.879Z",
+        "publishedAt": "2026-06-16T09:18:19.857Z",
         "metrics": {
           "rank": 1
         },
@@ -1222,7 +1199,7 @@
         "title": "chopratejas/headroom",
         "summary": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM.",
         "url": "https://github.com/chopratejas/headroom",
-        "publishedAt": "2026-06-16T08:51:41.880Z",
+        "publishedAt": "2026-06-16T09:18:19.859Z",
         "metrics": {
           "rank": 2
         },
@@ -1237,7 +1214,7 @@
         "title": "Egonex-AI/Understand-Anything",
         "summary": "Graphs that teach > graphs that impress.",
         "url": "https://github.com/Egonex-AI/Understand-Anything",
-        "publishedAt": "2026-06-16T08:51:41.881Z",
+        "publishedAt": "2026-06-16T09:18:19.859Z",
         "metrics": {
           "rank": 3
         },
@@ -1252,7 +1229,7 @@
         "title": "harry0703/MoneyPrinterTurbo",
         "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
         "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-        "publishedAt": "2026-06-16T08:51:41.882Z",
+        "publishedAt": "2026-06-16T09:18:19.860Z",
         "metrics": {
           "rank": 4
         },
@@ -1267,7 +1244,7 @@
         "title": "rohitg00/ai-engineering-from-scratch",
         "summary": "Learn it.",
         "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
-        "publishedAt": "2026-06-16T08:51:41.889Z",
+        "publishedAt": "2026-06-16T09:18:19.867Z",
         "metrics": {
           "rank": 5
         },
@@ -1282,7 +1259,7 @@
         "title": "tinyhumansai/openhuman",
         "summary": "Your Personal AI super intelligence.",
         "url": "https://github.com/tinyhumansai/openhuman",
-        "publishedAt": "2026-06-16T08:51:41.890Z",
+        "publishedAt": "2026-06-16T09:18:19.868Z",
         "metrics": {
           "rank": 6
         },
@@ -1297,7 +1274,7 @@
         "title": "Imbad0202/academic-research-skills",
         "summary": "Academic Research Skills for Claude Code: research → write → review → revise → finalize Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research...",
         "url": "https://github.com/Imbad0202/academic-research-skills",
-        "publishedAt": "2026-06-16T08:51:41.895Z",
+        "publishedAt": "2026-06-16T09:18:19.873Z",
         "metrics": {
           "rank": 7
         },
@@ -1312,7 +1289,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-06-16T08:51:41.895Z",
+        "publishedAt": "2026-06-16T09:18:19.873Z",
         "metrics": {
           "rank": 8
         },
@@ -1327,7 +1304,7 @@
         "title": "can1357/oh-my-pi",
         "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
         "url": "https://github.com/can1357/oh-my-pi",
-        "publishedAt": "2026-06-16T08:51:41.897Z",
+        "publishedAt": "2026-06-16T09:18:19.875Z",
         "metrics": {
           "rank": 9
         },
@@ -1342,7 +1319,7 @@
         "title": "ruvnet/RuView",
         "summary": "π RuView turns commodity WiFi signals into real-time spatial intelligence, vital sign monitoring, and presence detection — all without a single pixel of video.",
         "url": "https://github.com/ruvnet/RuView",
-        "publishedAt": "2026-06-16T08:51:41.901Z",
+        "publishedAt": "2026-06-16T09:18:19.880Z",
         "metrics": {
           "rank": 10
         },
@@ -1357,7 +1334,7 @@
         "title": "hardikpandya/stop-slop",
         "summary": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
         "url": "https://github.com/hardikpandya/stop-slop",
-        "publishedAt": "2026-06-16T08:51:41.902Z",
+        "publishedAt": "2026-06-16T09:18:19.880Z",
         "metrics": {
           "rank": 11
         },
@@ -1372,7 +1349,7 @@
         "title": "microsoft/markitdown",
         "summary": "Python tool for converting files and office documents to Markdown.",
         "url": "https://github.com/microsoft/markitdown",
-        "publishedAt": "2026-06-16T08:51:41.902Z",
+        "publishedAt": "2026-06-16T09:18:19.881Z",
         "metrics": {
           "rank": 12
         },
@@ -1387,7 +1364,7 @@
         "title": "anthropics/knowledge-work-plugins",
         "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
         "url": "https://github.com/anthropics/knowledge-work-plugins",
-        "publishedAt": "2026-06-16T08:51:41.903Z",
+        "publishedAt": "2026-06-16T09:18:19.881Z",
         "metrics": {
           "rank": 13
         },
@@ -1402,7 +1379,7 @@
         "title": "Leonxlnx/taste-skill",
         "summary": "Taste-Skill - gives your AI good taste.",
         "url": "https://github.com/Leonxlnx/taste-skill",
-        "publishedAt": "2026-06-16T08:51:41.903Z",
+        "publishedAt": "2026-06-16T09:18:19.882Z",
         "metrics": {
           "rank": 14
         },
@@ -1417,7 +1394,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-06-16T08:51:41.904Z",
+        "publishedAt": "2026-06-16T09:18:19.883Z",
         "metrics": {
           "rank": 15
         },
@@ -1432,7 +1409,7 @@
         "title": "HKUDS/ViMax",
         "summary": "\"ViMax: Agentic Video Generation (Director, Screenwriter, Producer, and Video Generator All-in-One)\" ViMax: Agentic Video Generation 🚨 Current Video Generation Limitations: ❌ Limited to Short Clips - Most AI tools generate only seconds of footage.",
         "url": "https://github.com/HKUDS/ViMax",
-        "publishedAt": "2026-06-16T08:51:41.905Z",
+        "publishedAt": "2026-06-16T09:18:19.884Z",
         "metrics": {
           "rank": 16
         },
@@ -1447,7 +1424,7 @@
         "title": "rohitg00/agentmemory",
         "summary": "#1 Persistent memory for AI coding agents based on real-world benchmarks Your coding agent remembers everything.",
         "url": "https://github.com/rohitg00/agentmemory",
-        "publishedAt": "2026-06-16T08:51:41.910Z",
+        "publishedAt": "2026-06-16T09:18:19.889Z",
         "metrics": {
           "rank": 17
         },
@@ -1462,7 +1439,7 @@
         "title": "CloakHQ/CloakBrowser",
         "summary": "Stealth Chromium that passes every bot detection test.",
         "url": "https://github.com/CloakHQ/CloakBrowser",
-        "publishedAt": "2026-06-16T08:51:41.913Z",
+        "publishedAt": "2026-06-16T09:18:19.893Z",
         "metrics": {
           "rank": 18
         },
@@ -1477,7 +1454,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-06-16T08:51:41.914Z",
+        "publishedAt": "2026-06-16T09:18:19.893Z",
         "metrics": {
           "rank": 19
         },
@@ -1492,7 +1469,7 @@
         "title": "iii-hq/iii",
         "summary": "Effortlessly compose, extend, and observe every service in real-time for the first time ever.",
         "url": "https://github.com/iii-hq/iii",
-        "publishedAt": "2026-06-16T08:51:41.914Z",
+        "publishedAt": "2026-06-16T09:18:19.894Z",
         "metrics": {
           "rank": 20
         },
@@ -1506,7 +1483,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-06-16T08:51:54.968Z",
+    "fetchedAt": "2026-06-16T09:18:39.477Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1682,6 +1659,231 @@
         "metrics": {},
         "metadata": {
           "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+        "title": "Microsoft turns to AWS as GitHub faces AI capacity crunch",
+        "summary": "Article URL: https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch Comments URL: https://news.ycombinator.com/item?id=48549918 Points: 151 # Comments: 68",
+        "body": "Article URL: https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch Comments URL: https://news.ycombinator.com/item?id=48549918 Points: 151 # Comments: 68",
+        "url": "https://runtimewire.com/article/microsoft-github-aws-ai-capacity-crunch",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-16T02:47:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://grassdx.com/",
+        "title": "Show HN: Veterinarian turned founder, AI lawn diagnosis",
+        "summary": "I know, it's kind of weird. What is a veterinarian doing creating an analysis tool for lawn problems? Frankly, the idea was born of my own lawn care struggles. Endless lawn care company fees without any actual improvement. Googling problems and finding generic solutions without regional considerations. One time I overseeded my grass not realizing I had to actually put soil down too. One day, I decided to run lawn pictures through AI and found some pretty helpful information. So I decided with my",
+        "body": "I know, it's kind of weird. What is a veterinarian doing creating an analysis tool for lawn problems? Frankly, the idea was born of my own lawn care struggles. Endless lawn care company fees without any actual improvement. Googling problems and finding generic solutions without regional considerations. One time I overseeded my grass not realizing I had to actually put soil down too. One day, I decided to run lawn pictures through AI and found some pretty helpful information. So I decided with my clinical background (the idea of treating the cause, not just the symptoms), as well as tech savvy, I would create an AI tool where homeowners can upload pictures of their lawn, enter their ZIP code, and get a diagnosis tailored to their location with actionable next steps in just 15 seconds. Compl",
+        "url": "https://grassdx.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T17:56:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.anthropic.com/news/claude-corps",
+        "title": "Claude Corps",
+        "summary": "Article URL: https://www.anthropic.com/news/claude-corps Comments URL: https://news.ycombinator.com/item?id=48544637 Points: 130 # Comments: 86",
+        "body": "Article URL: https://www.anthropic.com/news/claude-corps Comments URL: https://news.ycombinator.com/item?id=48544637 Points: 130 # Comments: 86",
+        "url": "https://www.anthropic.com/news/claude-corps",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T17:41:24.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://rsgm.dev/post/ai-dev-platform/",
+        "title": "My Homelab AI Dev Platform",
+        "summary": "Article URL: https://rsgm.dev/post/ai-dev-platform/ Comments URL: https://news.ycombinator.com/item?id=48542433 Points: 306 # Comments: 54",
+        "body": "Article URL: https://rsgm.dev/post/ai-dev-platform/ Comments URL: https://news.ycombinator.com/item?id=48542433 Points: 306 # Comments: 54",
+        "url": "https://rsgm.dev/post/ai-dev-platform/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T15:09:40.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=48542100",
+        "title": "Ask HN: Has anyone replaced Claude/GPT with a local model for daily coding?",
+        "summary": "Has anyone here fully swapped Claude/GPT for a local model as their main coding tool, not just for side experiments? If so, please share your setup and performance (e.g tok/s) Comments URL: https://news.ycombinator.com/item?id=48542100 Points: 962 # Comments: 431",
+        "body": "Has anyone here fully swapped Claude/GPT for a local model as their main coding tool, not just for side experiments? If so, please share your setup and performance (e.g tok/s) Comments URL: https://news.ycombinator.com/item?id=48542100 Points: 962 # Comments: 431",
+        "url": "https://news.ycombinator.com/item?id=48542100",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T14:46:53.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/",
+        "title": "India, UAE partner on AI sovereignty to bypass Google, Microsoft",
+        "summary": "Article URL: https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48541105 Points: 33 # Comments: 12",
+        "body": "Article URL: https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/ Comments URL: https://news.ycombinator.com/item?id=48541105 Points: 33 # Comments: 12",
+        "url": "https://restofworld.org/2026/india-uae-g42-cerebras-ai-sovereignty/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T13:37:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/sammysltd/euromesh",
+        "title": "Can Europe train a frontier AI model on the compute it owns?",
+        "summary": "Article URL: https://github.com/sammysltd/euromesh Comments URL: https://news.ycombinator.com/item?id=48541014 Points: 133 # Comments: 248",
+        "body": "Article URL: https://github.com/sammysltd/euromesh Comments URL: https://news.ycombinator.com/item?id=48541014 Points: 133 # Comments: 248",
+        "url": "https://github.com/sammysltd/euromesh",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T13:31:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/themartiano/luz",
+        "title": "Show HN: I wrote a C++ ray tracer from scratch without AI",
+        "summary": "Article URL: https://github.com/themartiano/luz Comments URL: https://news.ycombinator.com/item?id=48538833 Points: 148 # Comments: 61",
+        "body": "Article URL: https://github.com/themartiano/luz Comments URL: https://news.ycombinator.com/item?id=48538833 Points: 148 # Comments: 61",
+        "url": "https://github.com/themartiano/luz",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-15T09:34:10.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
+        "title": "The Jqwik Anti-AI Affair",
+        "summary": "Article URL: https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/ Comments URL: https://news.ycombinator.com/item?id=48533736 Points: 52 # Comments: 82",
+        "body": "Article URL: https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/ Comments URL: https://news.ycombinator.com/item?id=48533736 Points: 52 # Comments: 82",
+        "url": "https://blog.johanneslink.net/2026/06/09/the-jqwik-anti-ai-affair/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T22:43:49.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+        "title": "Why Is Claude Turning into an a**Hole?",
+        "summary": "Article URL: https://bramcohen.com/p/why-is-claude-turning-into-an-asshole Comments URL: https://news.ycombinator.com/item?id=48533308 Points: 119 # Comments: 181",
+        "body": "Article URL: https://bramcohen.com/p/why-is-claude-turning-into-an-asshole Comments URL: https://news.ycombinator.com/item?id=48533308 Points: 119 # Comments: 181",
+        "url": "https://bramcohen.com/p/why-is-claude-turning-into-an-asshole",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T22:04:01.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+        "title": "AI is code – and can't be prompted into being smarter",
+        "summary": "Article URL: https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141 Comments URL: https://news.ycombinator.com/item?id=48532178 Points: 157 # Comments: 141",
+        "body": "Article URL: https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141 Comments URL: https://news.ycombinator.com/item?id=48532178 Points: 157 # Comments: 141",
+        "url": "https://www.theregister.com/ai-and-ml/2026/06/14/ai-is-code-and-cant-be-prompted-into-being-smarter/5254141",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T20:17:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/nex-agi/Nex-N2/issues/4",
+        "title": "Rio de Janeiro's \"homegrown\" LLM appears to be a merge of an existing model",
+        "summary": "Article URL: https://github.com/nex-agi/Nex-N2/issues/4 Comments URL: https://news.ycombinator.com/item?id=48528371 Points: 399 # Comments: 218",
+        "body": "Article URL: https://github.com/nex-agi/Nex-N2/issues/4 Comments URL: https://news.ycombinator.com/item?id=48528371 Points: 399 # Comments: 218",
+        "url": "https://github.com/nex-agi/Nex-N2/issues/4",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T15:37:31.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/DietrichGebert/ponytail",
+        "title": "Ponytail – make your AI agent think like the laziest senior dev in the room",
+        "summary": "Article URL: https://github.com/DietrichGebert/ponytail Comments URL: https://news.ycombinator.com/item?id=48527946 Points: 86 # Comments: 11",
+        "body": "Article URL: https://github.com/DietrichGebert/ponytail Comments URL: https://news.ycombinator.com/item?id=48527946 Points: 86 # Comments: 11",
+        "url": "https://github.com/DietrichGebert/ponytail",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T15:08:17.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+        "title": "Not everyone is using AI for everything",
+        "summary": "Article URL: https://gabrielweinberg.com/p/people-are-consuming-ai-like-they Comments URL: https://news.ycombinator.com/item?id=48527700 Points: 505 # Comments: 539",
+        "body": "Article URL: https://gabrielweinberg.com/p/people-are-consuming-ai-like-they Comments URL: https://news.ycombinator.com/item?id=48527700 Points: 505 # Comments: 539",
+        "url": "https://gabrielweinberg.com/p/people-are-consuming-ai-like-they",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T14:44:29.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+        "title": "KPMG pulls report on AI usage due to apparent hallucinations",
+        "summary": "Article URL: https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/ Comments URL: https://news.ycombinator.com/item?id=48527297 Points: 153 # Comments: 32",
+        "body": "Article URL: https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/ Comments URL: https://news.ycombinator.com/item?id=48527297 Points: 153 # Comments: 32",
+        "url": "https://techcrunch.com/2026/06/13/kpmg-pulls-report-on-ai-usage-due-to-apparent-hallucinations/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-06-14T14:01:35.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
         }
       },
       {
@@ -1971,11 +2173,11 @@
       },
       {
         "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17043",
-        "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
-        "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of",
-        "body": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of viability and efficiency; once basic success is achieved, the binary label provides no gradient to distinguish efficient completions from slow ones. Second, real-world rollouts mix autonomous and intervention segments; naively assigning episode outcomes across these boundaries introduces incorrect ",
-        "url": "https://arxiv.org/abs/2606.17043",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16255",
+        "title": "UniDDT: Unifying Multimodal Understanding and Generation with Decoupled Diffusion Transformer",
+        "summary": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the",
+        "body": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the duality of text-image understanding and generation. To address these challenges, we propose UniDDT, which leverages a Noisy ViT encoder along with an LLM to unify semantic encoding for visual generation and understanding tasks, while employing a separate diffusion decoder to decouple diffusion deco",
+        "url": "https://arxiv.org/abs/2606.16255",
         "sourceName": "HuggingFace Papers",
         "sourceCategory": "technical",
         "publishedAt": "2026-06-14T20:00:00.000Z",
@@ -1986,11 +2188,11 @@
       },
       {
         "source": "builder_huggingface",
-        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.16255",
-        "title": "UniDDT: Unifying Multimodal Understanding and Generation with Decoupled Diffusion Transformer",
-        "summary": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the",
-        "body": "Unified Multimodal Models (UMMs) have emerged as a critical direction for general-purpose multimodal intelligence, integrating understanding and generation into a single framework. However, existing UMMs face prominent challenges: (1) the inherent learning conflicts between visual understanding and generation tasks, leading to suboptimal modeling in both tasks; (2) different understanding and generation visual spaces impeding scalability; (3) over-reliance on task-specific data that neglects the duality of text-image understanding and generation. To address these challenges, we propose UniDDT, which leverages a Noisy ViT encoder along with an LLM to unify semantic encoding for visual generation and understanding tasks, while employing a separate diffusion decoder to decouple diffusion deco",
-        "url": "https://arxiv.org/abs/2606.16255",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.17043",
+        "title": "Hierarchical Advantage Weighting for Online RL Fine-Tuning of VLAs from Sparse Episode Outcomes",
+        "summary": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of",
+        "body": "When pretrained VLA policies are fine-tuned through online RL, each rollout episode produces only a single binary outcome (success or failure), yet the actor update requires per-transition supervision. Existing approaches commonly reduce this sparse outcome to a single scalar reward or advantage signal, which conflates distinct forms of transition-level feedback and provides limited guidance once basic task success becomes achievable. First, a single scalar signal conflates the two objectives of viability and efficiency; once basic success is achieved, the binary label provides no gradient to distinguish efficient completions from slow ones. Second, real-world rollouts mix autonomous and intervention segments; naively assigning episode outcomes across these boundaries introduces incorrect ",
+        "url": "https://arxiv.org/abs/2606.17043",
         "sourceName": "HuggingFace Papers",
         "sourceCategory": "technical",
         "publishedAt": "2026-06-14T20:00:00.000Z",
@@ -2017,8 +2219,7 @@
     ],
     "errors": [
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502"
+      "Gwern: HTTP 403"
     ]
   }
 ]
