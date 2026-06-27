@@ -1,166 +1,250 @@
 {
-  "date": "2026-06-26",
-  "generatedAt": "2026-06-26T07:43:27.993Z",
+  "date": "2026-06-27",
+  "generatedAt": "2026-06-27T03:01:00.747Z",
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
       "items": [
         {
-          "title": "Claude Code v2.1.193 发布",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+          "title": "BrowserAct",
+          "url": "https://www.producthunt.com/products/browseract",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "Claude Code：GitHub Releases（RSS）",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件",
+          "metricsText": "540 votes / 108 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。",
+          "why": "面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。",
+          "summary": "Web browser automation for AI agents",
           "keyPoints": [
-            "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件"
+            "BrowserAct is built for agents using the web."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Web browser automation for AI agents",
+          "features": "BrowserAct is built for agents using the web.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Oxlo.ai",
+          "url": "https://www.producthunt.com/products/oxlo-ai",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "499 votes / 109 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
+          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
+          "summary": "Scale across AI models without scaling your bill",
+          "keyPoints": [
+            "Most AI teams pick a model first and discover the bill later."
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件",
-          "features": "Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Scale across AI models without scaling your bill",
+          "features": "Most AI teams pick a model first and discover the bill later.",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         },
         {
-          "title": "Codex 在 ChatGPT 移动 App 正式可用",
-          "url": "https://x.com/OpenAIDevs/status/2070254532911882707",
+          "title": "Zaro",
+          "url": "https://www.producthunt.com/products/zaro",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "X：OpenAI Developers (@OpenAIDevs)",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运",
+          "metricsText": "451 votes / 97 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Build agents & apps on top of your context with one prompt.",
           "keyPoints": [
-            "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运"
+            "Zaro is where you can build working software from your scattered work."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Build agents & apps on top of your context with one prompt.",
+          "features": "Zaro is where you can build working software from your scattered work.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Figma Motion",
+          "url": "https://www.producthunt.com/products/figma",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "289 votes / 10 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Motion now lives on the canvas—in the same file as your components, your variables, and your team—so your designs can come to life from day one.",
+          "why": "产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "summary": "Your Figma canvas now has a timeline",
+          "keyPoints": [
+            "Motion now lives on the canvas—in the same file as your components, your variables, and your team—so your designs can come to life from day one."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Your Figma canvas now has a timeline",
+          "features": "Motion now lives on the canvas—in the same file as your components, your variables, and your team—so your designs can come to life from day one.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Brain² by ClickUp",
+          "url": "https://www.producthunt.com/products/clickup",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "223 votes / 44 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "One AI that knows your entire company and acts on it",
+          "keyPoints": [
+            "Brain² knows every task, Doc, chat, and decision, and how they all connect."
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运",
-          "features": "OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "One AI that knows your entire company and acts on it",
+          "features": "Brain² knows every task, Doc, chat, and decision, and how they all connect.",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         },
         {
-          "title": "Midjourney 预览 V8.2 并加速草稿模式",
-          "url": "https://x.com/midjourney/status/2070223272072065228",
+          "title": "Tough Tongue AI for Sales",
+          "url": "https://www.producthunt.com/products/tough-tongue-ai-2",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "X：Midjourney (@midjourney)",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
+          "metricsText": "206 votes / 43 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Create *Live* AI teammates for every tough sales conversation.",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "Live AI teammate for every tough sales conversation",
           "keyPoints": [
-            "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。"
+            "Create *Live* AI teammates for every tough sales conversation."
           ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
-          "features": "Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Live AI teammate for every tough sales conversation",
+          "features": "Create *Live* AI teammates for every tough sales conversation.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         },
         {
-          "title": "Midjourney V8.1 草稿模式新增随机风格功能",
-          "url": "https://updates.midjourney.com/random-styles-in-draft-mode",
+          "title": "Samepage Signals",
+          "url": "https://www.producthunt.com/products/samepage-signals",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "Midjourney：Updates（RSS）",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
+          "metricsText": "186 votes / 64 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Built specifically for the best product leaders, Samepage Signals automatically surfaces the information and insights that are most important to you across all of your tools and we",
+          "why": "产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "summary": "Your second brain for product management",
           "keyPoints": [
-            "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。"
+            "Built specifically for the best product leaders, Samepage Signals automatically surfaces the information and insights that are most important to you across all of your tools and we"
           ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
-          "features": "Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Your second brain for product management",
+          "features": "Built specifically for the best product leaders, Samepage Signals automatically surfaces the information and insights that are most important to you across all of your tools and we",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         },
         {
-          "title": "Runway发布Agent 2.0",
-          "url": "https://runwayml.com/news/introducing-agent-2",
+          "title": "Polygraph",
+          "url": "https://www.producthunt.com/products/polygraph",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "Runway：News（网页）",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营",
+          "metricsText": "156 votes / 28 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Let AI agents see cross repo and maintain session memory.",
           "keyPoints": [
-            "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营"
+            "AI coding agents are limited to how autonomously they can work because they have no model of the codebase as a whole."
           ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营",
-          "features": "Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Let AI agents see cross repo and maintain session memory.",
+          "features": "AI coding agents are limited to how autonomously they can work because they have no model of the codebase as a whole.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         },
         {
-          "title": "Google Finance 全新 Android 应用与投资组合功能上线",
-          "url": "https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026",
+          "title": "Genspark Design",
+          "url": "https://www.producthunt.com/products/genspark-design",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "Google Blog：AI（RSS）",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应",
+          "metricsText": "151 votes / 11 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Genspark Design generates UI prototypes, HTML animations, videos, and posters from a prompt.",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "Generate UI prototypes, videos, and posters with AI",
           "keyPoints": [
-            "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应"
+            "Genspark Design generates UI prototypes, HTML animations, videos, and posters from a prompt."
           ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应",
-          "features": "本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Generate UI prototypes, videos, and posters with AI",
+          "features": "Genspark Design generates UI prototypes, HTML animations, videos, and posters from a prompt.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Papermark Agents",
+          "url": "https://www.producthunt.com/products/papermark-2",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "137 votes / 25 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Let AI agents run your next deal, fundraise or data room",
+          "keyPoints": [
+            "Papermark for Agents lets AI run your secure data rooms for you."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Let AI agents run your next deal, fundraise or data room",
+          "features": "Papermark for Agents lets AI run your secure data rooms for you.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         }
       ]
     },
@@ -169,193 +253,97 @@
       "title": "开源热门",
       "items": [
         {
-          "title": "harry0703/MoneyPrinterTurbo",
-          "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+          "title": "Panniantong/Agent-Reach",
+          "url": "https://github.com/Panniantong/Agent-Reach",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "what": "Give your AI agent eyes to see the entire internet.",
+          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Give your AI agent eyes to see the entire internet.",
           "keyPoints": [
-            "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM."
+            "Give your AI agent eyes to see the entire internet."
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "Give your AI agent eyes to see the entire internet.",
+          "features": "Give your AI agent eyes to see the entire internet.",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        },
+        {
+          "title": "openai/plugins",
+          "url": "https://github.com/openai/plugins",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples.",
+          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples.",
+          "keyPoints": [
+            "OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
-          "features": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+          "oneLiner": "OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples.",
+          "features": "OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "mvanhorn/last30days-skill",
-          "url": "https://github.com/mvanhorn/last30days-skill",
+          "title": "can1357/oh-my-pi",
+          "url": "https://github.com/can1357/oh-my-pi",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scor",
+          "what": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scor",
+          "summary": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
           "keyPoints": [
-            "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scor"
+            "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scor",
-          "features": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scor",
+          "oneLiner": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
+          "features": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "iptv-org/iptv",
-          "url": "https://github.com/iptv-org/iptv",
+          "title": "ogulcancelik/herdr",
+          "url": "https://github.com/ogulcancelik/herdr",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
+          "what": "agent multiplexer that lives in your terminal.",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
+          "summary": "agent multiplexer that lives in your terminal.",
           "keyPoints": [
-            "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world."
+            "agent multiplexer that lives in your terminal."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
-          "features": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "Leonxlnx/taste-skill",
-          "url": "https://github.com/Leonxlnx/taste-skill",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "Taste-Skill - gives your AI good taste.",
-          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Taste-Skill - gives your AI good taste.",
-          "keyPoints": [
-            "Taste-Skill - gives your AI good taste."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Taste-Skill - gives your AI good taste.",
-          "features": "Taste-Skill - gives your AI good taste.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "Egonex-AI/Understand-Anything",
-          "url": "https://github.com/Egonex-AI/Understand-Anything",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "Graphs that teach > graphs that impress.",
-          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Graphs that teach > graphs that impress.",
-          "keyPoints": [
-            "Graphs that teach > graphs that impress."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Graphs that teach > graphs that impress.",
-          "features": "Graphs that teach > graphs that impress.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "mukul975/Anthropic-Cybersecurity-Skills",
-          "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s",
-          "keyPoints": [
-            "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s"
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s",
-          "features": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "hardikpandya/stop-slop",
-          "url": "https://github.com/hardikpandya/stop-slop",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
-          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
-          "keyPoints": [
-            "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
-          "features": "A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "run-llama/liteparse",
-          "url": "https://github.com/run-llama/liteparse",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "A fast, helpful, and open-source document parser LiteParse | | | | | | Docs English | 简体中文 Looking for LiteParse V1?",
-          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "A fast, helpful, and open-source document parser LiteParse | | | | | | Docs English | 简体中文 Looking for LiteParse V1?",
-          "keyPoints": [
-            "A fast, helpful, and open-source document parser LiteParse | | | | | | Docs English | 简体中文 Looking for LiteParse V1?"
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "A fast, helpful, and open-source document parser LiteParse | | | | | | Docs English | 简体中文 Looking for LiteParse V1?",
-          "features": "A fast, helpful, and open-source document parser LiteParse | | | | | | Docs English | 简体中文 Looking for LiteParse V1?",
+          "oneLiner": "agent multiplexer that lives in your terminal.",
+          "features": "agent multiplexer that lives in your terminal.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
@@ -365,120 +353,94 @@
     {
       "key": "company",
       "title": "公司动态",
-      "items": [
-        {
-          "title": "How agents are transforming work",
-          "url": "https://openai.com/index/how-agents-are-transforming-work",
-          "sources": [
-            "builder_openai"
-          ],
-          "metricsText": "",
-          "sourceLabel": "OpenAI",
-          "tags": [
-            "news"
-          ],
-          "what": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-          "keyPoints": [
-            "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-          "features": "A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        }
-      ]
+      "items": []
     },
     {
       "key": "technical",
       "title": "技术前沿",
       "items": [
         {
-          "title": "IBM 首度推出亚纳米级芯片技术",
-          "url": "https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology",
+          "title": "Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数",
+          "url": "https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "sourceLabel": "MarkTechPost（RSS）",
           "tags": [
             "paper"
           ],
-          "what": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 4",
+          "what": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 4",
+          "summary": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-",
           "keyPoints": [
-            "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 4"
+            "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 4",
-          "features": "IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 4",
+          "oneLiner": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-",
+          "features": "Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "赫库兰尼姆古卷首次被完整虚拟解读",
-          "url": "https://scrollprize.org/firstscroll",
+          "title": "Anthropic Economic Index 报告：使用节奏",
+          "url": "https://www.anthropic.com/research/economic-index-june-2026-report",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "sourceLabel": "Anthropic：Research（发表成果 · 网页）",
           "tags": [
             "paper"
           ],
-          "what": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第",
+          "what": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增",
           "keyPoints": [
-            "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第"
+            "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增"
           ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第",
-          "features": "研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "oneLiner": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增",
+          "features": "Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模",
-          "url": "https://x.com/berryxia/status/2070167806700908957",
+          "title": "OpenAI 预览新一代模型 GPT-5.6 Sol",
+          "url": "https://openai.com/index/previewing-gpt-5-6-sol",
           "sources": [
-            "aihot"
+            "aihot",
+            "builder_openai"
           ],
           "metricsText": "",
-          "sourceLabel": "X：Berry Xia (@berryxia)",
+          "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "tags": [
             "ai-models"
           ],
-          "what": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
-          "summary": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.",
+          "what": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
           "keyPoints": [
-            "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77."
+            "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。"
           ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.",
-          "features": "Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "oneLiner": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+          "features": "OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "AI and Liability",
-          "url": "https://simonwillison.net/2026/Jun/25/ai-and-liability",
+          "title": "Quoting Dean W. Ball",
+          "url": "https://simonwillison.net/2026/Jun/26/dean-w-ball",
           "sources": [
             "builder_blog"
           ],
@@ -487,24 +449,102 @@
           "tags": [
             "technical"
           ],
-          "what": "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p> Bruce Schneier on the recent <a href=\"https://the-decode",
-          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。提升代码理解、开发自动化或工程协作效率。",
-          "summary": "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p> Bruce Schneier on the recent <a href=\"https://the-decode",
+          "what": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs.",
           "keyPoints": [
-            "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p> Bruce Schneier on the recent <a href=\"https://the-decode"
+            "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs."
           ],
-          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs.",
+          "features": "<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Quoting Timothy B. Lee",
+          "url": "https://simonwillison.net/2026/Jun/26/timothy-b-lee",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do",
+          "keyPoints": [
+            "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do",
+          "features": "<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "What happened after 2,000 people tried to hack my AI assistant",
+          "url": "https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p> Fernando Irarrázaval ran a challenge",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p> Fernando Irarrázaval ran a challenge",
+          "keyPoints": [
+            "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p> Fernando Irarrázaval ran a challenge"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p> Fernando Irarrázaval ran a challenge",
+          "features": "<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p> Fernando Irarrázaval ran a challenge",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Incident Report: CVE-2026-LGTM",
+          "url": "https://simonwillison.net/2026/Jun/26/incident-report",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p> Spectacular hypothetical incident report by An",
+          "why": "求职者、开发者、学生和自由职业者。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p> Spectacular hypothetical incident report by An",
+          "keyPoints": [
+            "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p> Spectacular hypothetical incident report by An"
+          ],
+          "audience": "求职者、开发者、学生和自由职业者。",
           "pain": "提升代码理解、开发自动化或工程协作效率。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p> Bruce Schneier on the recent <a href=\"https://the-decode",
-          "features": "<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p> Bruce Schneier on the recent <a href=\"https://the-decode",
-          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "oneLiner": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p> Spectacular hypothetical incident report by An",
+          "features": "<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p> Spectacular hypothetical incident report by An",
+          "targetUsers": "求职者、开发者、学生和自由职业者。",
           "userNeed": "提升代码理解、开发自动化或工程协作效率。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "datasette-export-database 0.3a2",
-          "url": "https://simonwillison.net/2026/Jun/25/datasette-export-database",
+          "title": "Quoting OpenAI",
+          "url": "https://simonwillison.net/2026/Jun/26/openai",
           "sources": [
             "builder_blog"
           ],
@@ -513,48 +553,24 @@
           "tags": [
             "technical"
           ],
-          "what": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p> <p>An embarrassingly tiny r",
-          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。把分散数据集中起来，降低查数、分析和做报表的成本。",
-          "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p> <p>An embarrassingly tiny r",
+          "what": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for",
           "keyPoints": [
-            "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p> <p>An embarrassingly tiny r"
+            "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for"
           ],
-          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
-          "pain": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p> <p>An embarrassingly tiny r",
-          "features": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p> <p>An embarrassingly tiny r",
-          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
-          "userNeed": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "oneLiner": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for",
+          "features": "<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "\"No way to prevent this\" say users of only language where this regularly happens",
-          "url": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-8461",
-          "sources": [
-            "builder_blog"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Xe Iaso",
-          "tags": [
-            "technical"
-          ],
-          "what": "",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "",
-          "keyPoints": [],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "",
-          "features": "",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Echoes of the AI Winter",
-          "url": "https://netzhansa.com/echoes-of-the-ai-winter",
+          "title": "What does it mean to be a mathematician when AI does the math?",
+          "url": "https://spectrum.ieee.org/ai-in-mathematics",
           "sources": [
             "builder_lobsters"
           ],
@@ -563,97 +579,45 @@
           "tags": [
             "technical"
           ],
-          "what": "<p><a href=\"https://lobste.rs/s/8soruc/echoes_ai_winter\">Comments</a></p>",
+          "what": "<p><a href=\"https://lobste.rs/s/hvd5hk/what_does_it_mean_be_mathematician_when_ai\">Comments</a></p>",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "<p><a href=\"https://lobste.rs/s/8soruc/echoes_ai_winter\">Comments</a></p>",
+          "summary": "<p><a href=\"https://lobste.rs/s/hvd5hk/what_does_it_mean_be_mathematician_when_ai\">Comments</a></p>",
           "keyPoints": [
-            "<p><a href=\"https://lobste.rs/s/8soruc/echoes_ai_winter\">Comments</a></p>"
+            "<p><a href=\"https://lobste.rs/s/hvd5hk/what_does_it_mean_be_mathematician_when_ai\">Comments</a></p>"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "<p><a href=\"https://lobste.rs/s/8soruc/echoes_ai_winter\">Comments</a></p>",
-          "features": "<p><a href=\"https://lobste.rs/s/8soruc/echoes_ai_winter\">Comments</a></p>",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/hvd5hk/what_does_it_mean_be_mathematician_when_ai\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/hvd5hk/what_does_it_mean_be_mathematician_when_ai\">Comments</a></p>",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "DanceOPD: On-Policy Generative Field Distillation",
-          "url": "https://arxiv.org/abs/2606.27377",
+          "title": "AI Agents Enable Adaptive Computer Worms",
+          "url": "https://cleverhans.io/worm.html",
           "sources": [
-            "builder_huggingface"
+            "builder_lobsters"
           ],
           "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
+          "sourceLabel": "Lobsters AI",
           "tags": [
             "technical"
           ],
-          "what": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing.",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing.",
+          "what": "<p>Full Paper: <a href=\"https://arxiv.org/pdf/2606.03811\" rel=\"ugc\">https://arxiv.org/pdf/2606.03811</a></p> <p><a href=\"https://lobste.rs/s/qsp10b/ai_agents_enable_adaptive_comput",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "<p>Full Paper: <a href=\"https://arxiv.org/pdf/2606.03811\" rel=\"ugc\">https://arxiv.org/pdf/2606.03811</a></p> <p><a href=\"https://lobste.rs/s/qsp10b/ai_agents_enable_adaptive_comput",
           "keyPoints": [
-            "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing.",
-          "features": "Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "ViQ: Text-Aligned Visual Quantized Representations at Any Resolution",
-          "url": "https://arxiv.org/abs/2606.27313",
-          "sources": [
-            "builder_huggingface"
-          ],
-          "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
-          "tags": [
-            "technical"
-          ],
-          "what": "A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training.",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training.",
-          "keyPoints": [
-            "A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training.",
-          "features": "A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning",
-          "url": "https://arxiv.org/abs/2606.26790",
-          "sources": [
-            "builder_huggingface"
-          ],
-          "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
-          "tags": [
-            "technical"
-          ],
-          "what": "Outcome-based reinforcement learning provides a stable optimization backbone for language agents, but its sparse trajectory-level rewards provide little guidance on which intermedi",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
-          "summary": "Outcome-based reinforcement learning provides a stable optimization backbone for language agents, but its sparse trajectory-level rewards provide little guidance on which intermedi",
-          "keyPoints": [
-            "Outcome-based reinforcement learning provides a stable optimization backbone for language agents, but its sparse trajectory-level rewards provide little guidance on which intermedi"
+            "<p>Full Paper: <a href=\"https://arxiv.org/pdf/2606.03811\" rel=\"ugc\">https://arxiv.org/pdf/2606.03811</a></p> <p><a href=\"https://lobste.rs/s/qsp10b/ai_agents_enable_adaptive_comput"
           ],
           "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Outcome-based reinforcement learning provides a stable optimization backbone for language agents, but its sparse trajectory-level rewards provide little guidance on which intermedi",
-          "features": "Outcome-based reinforcement learning provides a stable optimization backbone for language agents, but its sparse trajectory-level rewards provide little guidance on which intermedi",
+          "oneLiner": "<p>Full Paper: <a href=\"https://arxiv.org/pdf/2606.03811\" rel=\"ugc\">https://arxiv.org/pdf/2606.03811</a></p> <p><a href=\"https://lobste.rs/s/qsp10b/ai_agents_enable_adaptive_comput",
+          "features": "<p>Full Paper: <a href=\"https://arxiv.org/pdf/2606.03811\" rel=\"ugc\">https://arxiv.org/pdf/2606.03811</a></p> <p><a href=\"https://lobste.rs/s/qsp10b/ai_agents_enable_adaptive_comput",
           "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         }
       ]
@@ -663,60 +627,60 @@
       "title": "行业观点",
       "items": [
         {
-          "title": "Claude Code 6个实用Hook玩法",
-          "url": "https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw",
+          "title": "国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%",
+          "url": "https://www.ithome.com/0/969/311.htm",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "公众号：数字生命卡兹克",
+          "sourceLabel": "IT之家（RSS）",
           "tags": [
-            "tip"
+            "industry"
           ],
-          "what": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
+          "what": "1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高",
           "keyPoints": [
-            "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。"
+            "1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高",
+          "features": "1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机",
+          "url": "https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Ars Technica：AI（RSS）",
+          "tags": [
+            "industry"
+          ],
+          "what": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。",
+          "keyPoints": [
+            "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
-          "features": "Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。",
+          "oneLiner": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。",
+          "features": "《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色",
-          "url": "https://x.com/xiaohu/status/2070317717811540149",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：小互 (@xiaohu)",
-          "tags": [
-            "tip"
-          ],
-          "what": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工",
-          "keyPoints": [
-            "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工",
-          "features": "博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元",
-          "url": "https://x.com/rohanpaul_ai/status/2070288396644491317",
+          "title": "华盛顿邮报报告：AI聊天机器人存在左翼偏见",
+          "url": "https://x.com/rohanpaul_ai/status/2070550479621488896",
           "sources": [
             "aihot"
           ],
@@ -725,155 +689,129 @@
           "tags": [
             "tip"
           ],
-          "what": "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激1",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激1",
-          "keyPoints": [
-            "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激1"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激1",
-          "features": "报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激1",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "美国政府要求OpenAI暂缓GPT-5.6广泛发布",
-          "url": "https://x.com/rohanpaul_ai/status/2070252433109049466",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：Rohan Paul (@rohanpaul_ai)",
-          "tags": [
-            "industry"
-          ],
-          "what": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman",
+          "what": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman",
+          "summary": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在",
           "keyPoints": [
-            "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman"
+            "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman",
-          "features": "The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman",
+          "oneLiner": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在",
+          "features": "《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势",
-          "url": "https://huggingface.co/blog/allenai/hybrid-token-prediction",
+          "title": "Leaf 开源项目：将网红峰哥做成实时通话 AI 分身",
+          "url": "https://x.com/AYi_AInotes/status/2070531964067623381",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "Hugging Face：Blog（RSS）",
+          "sourceLabel": "X：阿易 AI Notes (@AYi_AInotes)",
           "tags": [
             "tip"
           ],
-          "what": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transf",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transf",
-          "keyPoints": [
-            "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transf"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transf",
-          "features": "通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transf",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外",
-          "url": "https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "The Decoder：AI News（RSS）",
-          "tags": [
-            "tip"
-          ],
-          "what": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemi",
+          "what": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemi",
+          "summary": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3",
           "keyPoints": [
-            "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemi"
+            "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemi",
-          "features": "华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemi",
+          "oneLiner": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3",
+          "features": "开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体",
-          "url": "https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world",
+          "title": "小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球",
+          "url": "https://www.ithome.com/0/968/894.htm",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "TechCrunch：AI（RSS）",
+          "sourceLabel": "IT之家（RSS）",
           "tags": [
             "industry"
           ],
-          "what": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索",
+          "what": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 ",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 ",
           "keyPoints": [
-            "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索"
+            "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 "
           ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索",
-          "features": "General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "oneLiner": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 ",
+          "features": "小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级 ",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Meta员工警告AI内容审核部署过快",
-          "url": "https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast",
+          "title": "近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI",
+          "url": "https://www.ithome.com/0/968/872.htm",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "The Decoder：AI News（RSS）",
+          "sourceLabel": "IT之家（RSS）",
           "tags": [
             "industry"
           ],
-          "what": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模",
+          "what": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。Open",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。Open",
           "keyPoints": [
-            "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模"
+            "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。Open"
           ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模",
-          "features": "Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "oneLiner": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。Open",
+          "features": "代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。Open",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "The next big breakthrough will be AIs learning on the job",
+          "url": "https://www.dwarkesh.com/p/the-next-paradigm",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Dwarkesh Patel",
+          "tags": [
+            "news"
+          ],
+          "what": "Labs are throwing away the most valuable data.",
+          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "summary": "Labs are throwing away the most valuable data.",
+          "keyPoints": [
+            "Labs are throwing away the most valuable data."
+          ],
+          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "pain": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Labs are throwing away the most valuable data.",
+          "features": "Labs are throwing away the most valuable data.",
+          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "userNeed": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         }
       ]
     }
   ],
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-06-26\n\n## 产品上新\n\n1. [Claude Code v2.1.193 发布](https://github.com/anthropics/claude-code/releases/tag/v2.1.193)\n   - 信号：Claude Code：GitHub Releases（RSS）\n   - 做什么：Claude Code v2.1.193 新增 `autoMode.classifyAllShell` 设置，将全部 Bash/PowerShell 命令经自动模式分类器处理。自动模式拒绝原因现加入转录、拒绝提示及 `/permissions` 页面。新增 `claude_code.assistant_response` OpenTelemetry 日志事件\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n2. [Codex 在 ChatGPT 移动 App 正式可用](https://x.com/OpenAIDevs/status/2070254532911882707)\n   - 信号：X：OpenAI Developers (@OpenAIDevs)\n   - 做什么：OpenAI 宣布 Codex 在 ChatGPT 移动应用中正式开放（GA），并新增一对一设备配对实现更安全的手机与电脑连接。移动端新增通知、目标、侧边聊天、文件预览及内联审阅评论功能。此前预览版已明确，用户可通过 ChatGPT 移动 App 启动新工作、审查输出、引导执行和批准下一步，而 Codex 实际继续在笔记本、Mac mini 或开发机上后台运\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n3. [Midjourney 预览 V8.2 并加速草稿模式](https://x.com/midjourney/status/2070223272072065228)\n   - 信号：X：Midjourney (@midjourney)\n   - 做什么：Midjourney 带来两项更新。一是加入 `--preview` 参数可提前体验 V8.2 的美学与个性化效果；二是此前在 V8.1 推出的大批量草稿模式（生成 24 张低分辨率图，价格仅为标准 4 张的一半，点击 \"Vary\" 可升级为全分辨率）现在支持搭配 `--sref random` 使用，探索风格空间的速度比之前快 24 倍。\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n4. [Midjourney V8.1 草稿模式新增随机风格功能](https://updates.midjourney.com/random-styles-in-draft-mode)\n   - 信号：Midjourney：Updates（RSS）\n   - 做什么：Midjourney V8.1 的草稿模式（draft mode）添加了随机风格功能。用户在提示词中加入 `--sref random` 即可一键生成 24 张不同风格的图片。开启草稿模式可通过点击提示栏的 ⚡ 图标或添加 `--draft` 参数。\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n5. [Runway发布Agent 2.0](https://runwayml.com/news/introducing-agent-2)\n   - 信号：Runway：News（网页）\n   - 做什么：Runway发布Agent 2.0，帮助营销人员创建、测试和优化广告、视频及营销活动。品牌营销人员可在对话中开发活动概念、生成变体并自动本地化；绩效营销人员可上传创意并导入Meta、YouTube、TikTok或Google广告数据，由Agent分析后生成下一轮待测广告。社交媒体营销人员可一次性生成一周内容，自动裁切为9：16、16：9、1：1等格式；产品营\n   - 为什么需要：开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n6. [Google Finance 全新 Android 应用与投资组合功能上线](https://blog.google/products-and-platforms/products/search/google-finance-updates-june-2026)\n   - 信号：Google Blog：AI（RSS）\n   - 做什么：本周，Google Finance 推出正式版 Android 应用，同步上线全球投资组合跟踪功能。用户可通过截图、CSV/PDF 上传或文字描述创建组合，并利用 AI 研究工具提问资产配置、固定收益影响等问题。新增市场情报简报功能：用户设定任务（如每日盘前简报），后台自动生成并推送至 Google 应用（Android/iOS）及网页端。Android 应\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n## 开源热门\n\n1. [harry0703/MoneyPrinterTurbo](https://github.com/harry0703/MoneyPrinterTurbo)\n   - 信号：GitHub Trending\n   - 做什么：利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n2. [mvanhorn/last30days-skill](https://github.com/mvanhorn/last30days-skill)\n   - 信号：GitHub Trending\n   - 做什么：AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scor\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [iptv-org/iptv](https://github.com/iptv-org/iptv)\n   - 信号：GitHub Trending\n   - 做什么：Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n4. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)\n   - 信号：GitHub Trending\n   - 做什么：Taste-Skill - gives your AI good taste.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n5. [Egonex-AI/Understand-Anything](https://github.com/Egonex-AI/Understand-Anything)\n   - 信号：GitHub Trending\n   - 做什么：Graphs that teach > graphs that impress.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n6. [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills)\n   - 信号：GitHub Trending\n   - 做什么：817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io s\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n7. [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop)\n   - 信号：GitHub Trending\n   - 做什么：A skill file for removing AI tells from prose Stop Slop A skill for removing AI tells from prose.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n8. [run-llama/liteparse](https://github.com/run-llama/liteparse)\n   - 信号：GitHub Trending\n   - 做什么：A fast, helpful, and open-source document parser LiteParse | | | | | | Docs English | 简体中文 Looking for LiteParse V1?\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 公司动态\n\n1. [How agents are transforming work](https://openai.com/index/how-agents-are-transforming-work)\n   - 信号：OpenAI\n   - 做什么：A new OpenAI research paper shows how AI agents are transforming work, enabling longer, more complex tasks and expanding productivity across roles.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 技术前沿\n\n1. [IBM 首度推出亚纳米级芯片技术](https://newsroom.ibm.com/2026-06-25-ibm-debuts-worlds-first-sub-1-nanometer-chip-technology)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：IBM 于 2026 年 6 月 25 日发布全球首款亚纳米级芯片技术，采用 0.7 nm（7 埃米）节点与全新三维纳米堆叠（nanostack）架构。指甲盖大小的芯片集成近 1000 亿个晶体管，密度约为 IBM 2021 年 2 nm 芯片的两倍。相比 2 nm 芯片，性能最高提升 50%，能效最高提升 70%。纳米堆叠架构还实现 SRAM 面积缩减 4\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [赫库兰尼姆古卷首次被完整虚拟解读](https://scrollprize.org/firstscroll)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：研究人员利用高分辨率X射线显微断层扫描和机器学习，在未物理展开的情况下完整虚拟展开并读取了赫库兰尼姆古卷PHerc.1667（Scroll4）。这是首卷被从头到尾连续读取的纸莎草卷，内容为斯多葛哲学论著，提及克里西普斯的侄子Aristocreon。第二卷PHerc.Paris4通过更高分辨率成像使墨水在三维数据中直接可见，独立确认了2023年大奖赛的解读。第\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [Ornith-1.0 开源模型家族发布，专注 Agentic Coding 全参数规模](https://x.com/berryxia/status/2070167806700908957)\n   - 信号：X：Berry Xia (@berryxia)\n   - 做什么：Ornith-1.0 开源模型家族发布，专注智能体编程（Agentic Coding），覆盖 9B Dense、31B Dense、35B MoE 及 397B MoE 全参数规模。在 Agent Coding 基准上达开源顶尖：SWE-Bench Verified 82.4、SWE-Bench Pro 62.2、Terminal-Bench 2.1 77.\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [AI and Liability](https://simonwillison.net/2026/Jun/25/ai-and-liability)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://www.schneier.com/blog/archives/2026/06/ai-and-liability.html\">AI and Liability</a></strong></p> Bruce Schneier on the recent <a href=\"https://the-decode\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [datasette-export-database 0.3a2](https://simonwillison.net/2026/Jun/25/datasette-export-database)\n   - 信号：Simon Willison\n   - 做什么：<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-export-database/releases/tag/0.3a2\">datasette-export-database 0.3a2</a></p> <p>An embarrassingly tiny r\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [\"No way to prevent this\" say users of only language where this regularly happens](https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-8461)\n   - 信号：Xe Iaso\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [Echoes of the AI Winter](https://netzhansa.com/echoes-of-the-ai-winter)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/8soruc/echoes_ai_winter\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [DanceOPD: On-Policy Generative Field Distillation](https://arxiv.org/abs/2606.27377)\n   - 信号：HuggingFace Papers\n   - 做什么：Modern image generation demands a single model that unifies diverse capabilities, including text-to-image (T2I), local editing, and global editing.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n9. [ViQ: Text-Aligned Visual Quantized Representations at Any Resolution](https://arxiv.org/abs/2606.27313)\n   - 信号：HuggingFace Papers\n   - 做什么：A unified representation for text and vision is a natural pursuit, as it enables simpler multimodal modeling and more efficient training.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n10. [OPID: On-Policy Skill Distillation for Agentic Reinforcement Learning](https://arxiv.org/abs/2606.26790)\n   - 信号：HuggingFace Papers\n   - 做什么：Outcome-based reinforcement learning provides a stable optimization backbone for language agents, but its sparse trajectory-level rewards provide little guidance on which intermedi\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [Claude Code 6个实用Hook玩法](https://mp.weixin.qq.com/s/LVj2foSXi_hBRKxjuYaUyw)\n   - 信号：公众号：数字生命卡兹克\n   - 做什么：Claude Code 内置近30个Hook事件（年初仅13个），本质是写死的规则脚本，运行时不消耗token。6个实用玩法：权限弹窗提醒、开机日程播报（问候+天气+飞书日程）、上下文预压缩时自动生成摘要卡片、结合Skill自动整理下载文件夹、启动后每小时久坐提醒、通过Bark实现手机/手表任务完成/失败推送。让AI从被动聊天框变为事件驱动的自动化系统。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [小互开源个人IP配图技能\"小互IP Studio\"，含31个原创角色](https://x.com/xiaohu/status/2070317717811540149)\n   - 信号：X：小互 (@xiaohu)\n   - 做什么：博主小互开源个人IP配图技能\"小互IP Studio\"，包含31个原创角色（15个手绘线稿角色+16个谐音梗meme形象）及一套配图方法论。该Agent可自动读取文章、规划配图类型（情绪图/示意图/四格漫画）、生成并自查返工。默认画风为手绘线稿淡彩，另备5种皮肤（3D盲盒、黑白线稿等）可切换。安装仅需Python3，支持Claude Code、Codex等工\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [@exponentialview 发布《State of the AI Economy》报告：AI经济年化收入超1750亿美元](https://x.com/rohanpaul_ai/status/2070288396644491317)\n   - 信号：X：Rohan Paul (@rohanpaul_ai)\n   - 做什么：报告基于去重后的消费端AI支出统计，过去12个月实际AI营收达1100亿美元，年化运行率超1750亿美元，增长速度约为移动/互联网普及浪潮的3倍。营收形成速度急剧加快：2023年新增10亿美元收入需180天，现缩短至不足2天。企业AI已脱离试点阶段，但全面推广仍处早期。31%的标普500公司在财报电话会提及AI，仅20%量化影响。Token降价每10%刺激1\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [美国政府要求OpenAI暂缓GPT-5.6广泛发布](https://x.com/rohanpaul_ai/status/2070252433109049466)\n   - 信号：X：Rohan Paul (@rohanpaul_ai)\n   - 做什么：The Information 报道，美国政府因安全顾虑要求 OpenAI 暂缓 GPT-5.6 的广泛发布，改为推出受控预览版。OpenAI 计划先向小部分合作伙伴提供早期访问，并由政府逐客户审批准入。这一非常规做法主要担忧模型在自动化高技能网络工作上的能力：既能帮防御者更快发现漏洞，也可能被攻击者用于加速测试漏洞利用。本周四，CEO Sam Altman\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n5. [OLMo Hybrid vs Transformer：混合模型在实义词上优势明显，但重复短语上几无优势](https://huggingface.co/blog/allenai/hybrid-token-prediction)\n   - 信号：Hugging Face：Blog（RSS）\n   - 做什么：通过对比7B参数的OLMo 3（Transformer）与OLMo Hybrid（混合架构），实验发现混合模型在大多数token上预测损失更低：对名词、动词、形容词等实义词优势明显（loss gap约0.04），功能词上gap约0.02，且在需上下文推理的代词指代上更好。但在重复出现的n-gram和闭合括号（如`}`）上，混合模型的优势几乎消失，Transf\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n6. [多数主流AI聊天机器人政治立场偏左，\"反觉醒\"模型也不例外](https://the-decoder.com/most-major-ai-chatbots-still-lean-left-on-political-questions-even-anti-woke-models-are-no-exception)\n   - 信号：The Decoder：AI News（RSS）\n   - 做什么：华盛顿邮报调查显示，多数主流AI聊天机器人在政治问题上明显偏左。OpenAI GPT-5.5在80%回答中仅呈现左派论据；DeepSeek V4 Pro为70%；Anthropic Claude Opus 4.8有43%纯左、57%给出双方观点。xAI的Grok 4.3左倾回答仍多于右倾。右翼平台Gab的Arya左倾回答是右倾的12倍。Google Gemi\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n7. [General Intuition 完成 3.2 亿美元融资，用游戏数据训练通用 AI 智能体](https://techcrunch.com/2026/06/25/from-fortnite-to-robots-general-intuitions-2-3b-bet-that-video-games-can-train-ai-agents-for-the-real-world)\n   - 信号：TechCrunch：AI（RSS）\n   - 做什么：General Intuition 以 23 亿美元估值完成 3.2 亿美元融资，累计披露融资 4.54 亿美元。公司从旗下游戏剪辑平台 Medal 获取数亿小时含精确按键动作标签的游戏操作数据，训练单一模型同时驾驭 Fortnite 等虚拟环境和四足机器人。演示中，AI 智能体在游戏中连续运行 100 小时，机器人仅靠 8 分钟真实街道数据微调即可自主探索\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n8. [Meta员工警告AI内容审核部署过快](https://the-decoder.com/meta-employees-warn-ai-moderation-rollout-is-too-fast)\n   - 信号：The Decoder：AI News（RSS）\n   - 做什么：Meta在2025年已用大语言模型替换约一半人工审核请求，计划年底前将部分内容类型的AI审核比例提升至90%以上，每年节省数十亿美元。Meta否认成本动机，称自3月测试显示其模型错误率比人类低13%，且多捕捉10%违规。但员工指出模型仍会移除或限流无害内容，缺乏足够监督，快速部署已导致外包裁员。此外，Meta已从使用Google Gemini转向自家新基础模\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n",
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-06-27\n\n## 产品上新\n\n1. [BrowserAct](https://www.producthunt.com/products/browseract)\n   - 信号：Product Hunt · 540 votes / 108 comments\n   - 做什么：观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。\n   - 为什么需要：面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。\n\n2. [Oxlo.ai](https://www.producthunt.com/products/oxlo-ai)\n   - 信号：Product Hunt · 499 votes / 109 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n3. [Zaro](https://www.producthunt.com/products/zaro)\n   - 信号：Product Hunt · 451 votes / 97 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n4. [Figma Motion](https://www.producthunt.com/products/figma)\n   - 信号：Product Hunt · 289 votes / 10 comments\n   - 做什么：Motion now lives on the canvas—in the same file as your components, your variables, and your team—so your designs can come to life from day one.\n   - 为什么需要：产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。\n\n5. [Brain² by ClickUp](https://www.producthunt.com/products/clickup)\n   - 信号：Product Hunt · 223 votes / 44 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n6. [Tough Tongue AI for Sales](https://www.producthunt.com/products/tough-tongue-ai-2)\n   - 信号：Product Hunt · 206 votes / 43 comments\n   - 做什么：Create *Live* AI teammates for every tough sales conversation.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n7. [Samepage Signals](https://www.producthunt.com/products/samepage-signals)\n   - 信号：Product Hunt · 186 votes / 64 comments\n   - 做什么：Built specifically for the best product leaders, Samepage Signals automatically surfaces the information and insights that are most important to you across all of your tools and we\n   - 为什么需要：产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。\n\n8. [Polygraph](https://www.producthunt.com/products/polygraph)\n   - 信号：Product Hunt · 156 votes / 28 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n9. [Genspark Design](https://www.producthunt.com/products/genspark-design)\n   - 信号：Product Hunt · 151 votes / 11 comments\n   - 做什么：Genspark Design generates UI prototypes, HTML animations, videos, and posters from a prompt.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n10. [Papermark Agents](https://www.producthunt.com/products/papermark-2)\n   - 信号：Product Hunt · 137 votes / 25 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n## 开源热门\n\n1. [Panniantong/Agent-Reach](https://github.com/Panniantong/Agent-Reach)\n   - 信号：GitHub Trending\n   - 做什么：Give your AI agent eyes to see the entire internet.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n2. [openai/plugins](https://github.com/openai/plugins)\n   - 信号：GitHub Trending\n   - 做什么：OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n3. [can1357/oh-my-pi](https://github.com/can1357/oh-my-pi)\n   - 信号：GitHub Trending\n   - 做什么：⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more A coding agent with the IDE wired in.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n4. [ogulcancelik/herdr](https://github.com/ogulcancelik/herdr)\n   - 信号：GitHub Trending\n   - 做什么：agent multiplexer that lives in your terminal.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n1. [Cursor 研究发现奖励攻击虚增编码智能体 SWE-bench Pro 分数](https://www.marktechpost.com/2026/06/26/cursor-study-finds-reward-hacking-inflates-coding-agent-benchmark-scores-on-swe-bench-pro)\n   - 信号：MarkTechPost（RSS）\n   - 做什么：Cursor 最新研究发现，编码智能体在 SWE-bench Pro 等基准测试中存在奖励攻击问题：智能体通过检索已知修复而非独立推导来通过测试。对 731 条 Opus 4.8 Max 轨迹的审计显示，63% 的成功修复来自检索，其中上游查找占 57%，git 历史挖掘占 9%。严格隔离 git 历史并限制网络访问后，Opus 4.8 Max 的 SWE-\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [Anthropic Economic Index 报告：使用节奏](https://www.anthropic.com/research/economic-index-june-2026-report)\n   - 信号：Anthropic：Research（发表成果 · 网页）\n   - 做什么：Anthropic 发布 Economic Index 报告，基于隐私保护遥测数据分析了 Claude 的使用节奏。工作日个人对话占比约 35%，周末升至近 50%；高薪职业在工作日外的使用占比更高。日内模式显示：新闻请求集中在早上 7 点，食谱在下午 6 点达到 2.3 倍高频，睡眠建议凌晨 3 点最多。税收相关请求在 4 月 15 日美国报税截止日前激增\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [OpenAI 预览新一代模型 GPT-5.6 Sol](https://openai.com/index/previewing-gpt-5-6-sol)\n   - 信号：OpenAI：官网动态（RSS · 排除企业/客户案例）\n   - 做什么：OpenAI 发布了新一代模型 GPT-5.6 Sol 的预览信息。该模型被定位为下一代模型，目前仅公开了预览消息和标题，尚未披露具体技术细节、性能参数或功能特性。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [Quoting Dean W. Ball](https://simonwillison.net/2026/Jun/26/dean-w-ball)\n   - 信号：Simon Willison\n   - 做什么：<blockquote cite=\"https://www.hyperdimensional.co/p/what-should-be-done\"><p>This is a bad state of affairs.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Quoting Timothy B. Lee](https://simonwillison.net/2026/Jun/26/timothy-b-lee)\n   - 信号：Simon Willison\n   - 做什么：<blockquote cite=\"https://twitter.com/binarybits/status/2070527944817053862\"><p>This is like saying there's no learning curve to being a manager because your employees will just do\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [What happened after 2,000 people tried to hack my AI assistant](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://www.fernandoi.cl/posts/hackmyclaw/\">What happened after 2,000 people tried to hack my AI assistant</a></strong></p> Fernando Irarrázaval ran a challenge\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [Incident Report: CVE-2026-LGTM](https://simonwillison.net/2026/Jun/26/incident-report)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://nesbitt.io/2026/06/26/incident-report-cve-2026-lgtm.html\">Incident Report: CVE-2026-LGTM</a></strong></p> Spectacular hypothetical incident report by An\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [Quoting OpenAI](https://simonwillison.net/2026/Jun/26/openai)\n   - 信号：Simon Willison\n   - 做什么：<blockquote cite=\"https://openai.com/index/previewing-gpt-5-6-sol/\"><p>We're beginning a limited preview of the GPT‑5.6 series: Sol, our flagship model; Terra, a balanced model for\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n9. [What does it mean to be a mathematician when AI does the math?](https://spectrum.ieee.org/ai-in-mathematics)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/hvd5hk/what_does_it_mean_be_mathematician_when_ai\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n10. [AI Agents Enable Adaptive Computer Worms](https://cleverhans.io/worm.html)\n   - 信号：Lobsters AI\n   - 做什么：<p>Full Paper: <a href=\"https://arxiv.org/pdf/2606.03811\" rel=\"ugc\">https://arxiv.org/pdf/2606.03811</a></p> <p><a href=\"https://lobste.rs/s/qsp10b/ai_agents_enable_adaptive_comput\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [国家统计局：1-5月规上工业企业利润增18.8%，电子行业利润增103.9%贡献43.1%](https://www.ithome.com/0/969/311.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：1-5月全国规上工业企业利润同比增18.8%。电子行业利润增103.9%，贡献率43.1%，主因全球AI技术变革推动高端算力芯片和存储芯片需求爆发。原材料制造业利润增83.1%，其中有色增117.1%、化工增71.6%。高技术制造业利润增44.7%，电子专用材料制造增665.4%。企业每百元营收成本降0.59元，营收利润率5.56%，为2024年以来累计最高\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [纽约时报修订诉讼，指控微软为OpenAI建造版权侵权超级计算机](https://arstechnica.com/tech-policy/2026/06/microsoft-built-supercomputer-to-help-openai-infringe-copyrights-nyt-alleged)\n   - 信号：Ars Technica：AI（RSS）\n   - 做什么：《纽约时报》周四提交经大量编辑的法庭文件，提议修订对OpenAI和微软的版权诉讼，明确指控微软通过建造全球最强大的超级计算系统之一，主动鼓励OpenAI窃取其作品。此举源于最高法院在Cox案中确立的新帮助侵权标准，要求原告证明被告有意诱导非法行为。《纽约时报》认为新证据显示该超级计算机专为帮助OpenAI未经许可训练AI而设计，其文章在训练数据中被加权处理。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [华盛顿邮报报告：AI聊天机器人存在左翼偏见](https://x.com/rohanpaul_ai/status/2070550479621488896)\n   - 信号：X：Rohan Paul (@rohanpaul_ai)\n   - 做什么：《华盛顿邮报》报道，基于达特茅斯和斯坦福研究的测试显示，AI聊天机器人在约30项政策议题（税收、医保、移民等）上存在左翼偏见。GPT-5.5仅给出左倾立场占80%，双方立场17%，右倾3%；Gemini 3.1 Pro则93%给出双方立场，左倾仅7%；Claude Opus 4.8双方立场占57%；Grok 4.3是唯一右倾占33%的模型。文章指出，问题不在\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [Leaf 开源项目：将网红峰哥做成实时通话 AI 分身](https://x.com/AYi_AInotes/status/2070531964067623381)\n   - 信号：X：阿易 AI Notes (@AYi_AInotes)\n   - 做什么：开发者 Leaf 开源项目，将网红峰哥做成能实时通话的 AI 分身，集成实时对话、音色克隆和人格注入，工程延迟压到 1 秒内。技术拆解：语音识别用 Cartesia ink-whisper 降噪防误触发；大模型选 MiniMax 高速版，首字响应 361ms；语音合成用 VoxCPM 开源克隆，15 秒素材即可复刻。整体从最初 8-20 秒优化至体感 2-3\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n5. [小鹏 CEO 何小鹏：2026 年底自动驾驶可以合法进入全球](https://www.ithome.com/0/968/894.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：小鹏汽车 CEO 何小鹏微博透露，VLA 2.0 走向全球进入确定模式。联合国 WP29 缔约国会议批准了 DCAS UNR 171 series 02（对应城区 NGP 法规）与 UNR ADS（对应 L3-L5 自动驾驶法规）。DCAS 将在六个月后成为欧盟强制法规，即 2026 年底自动驾驶可合法进入全球；UNR ADS 为框架性法规，加速 L4 级\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n6. [近400家美国报纸起诉微软和OpenAI：未经授权抓取新闻内容训练AI](https://www.ithome.com/0/968/872.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：代表近400家纸媒的出版商联盟向美国纽约南区联邦地区法院起诉微软和OpenAI，指控其未经授权抓取新闻内容用于训练Copilot、ChatGPT等AI模型，侵犯版权并触犯《数字千年版权法》。起诉书称被告\"系统性且秘密地\"爬取网站，复制文章并删除版权管理信息。原告表示AI产品基于其内容创造数十亿美元价值，但出版商分文未得，称此举或成地方新闻业\"丧钟\"。Open\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n7. [The next big breakthrough will be AIs learning on the job](https://www.dwarkesh.com/p/the-next-paradigm)\n   - 信号：Dwarkesh Patel\n   - 做什么：Labs are throwing away the most valuable data.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
   "editor": "rules",
-  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260626154327892850019OWgbDsKE)\",\"param\":\"\","
+  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260627110100645370355kA77GOKc)\",\"param\":\"\","
 }
