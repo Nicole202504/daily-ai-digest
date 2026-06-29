@@ -1,250 +1,37 @@
 {
   "date": "2026-06-29",
-  "generatedAt": "2026-06-29T08:22:06.502Z",
+  "generatedAt": "2026-06-29T08:51:36.341Z",
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
       "items": [
         {
-          "title": "discode.ai",
-          "url": "https://www.producthunt.com/products/discode-ai",
+          "title": "Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由",
+          "url": "https://github.com/itsthelore/wayfinder-router",
           "sources": [
-            "product_hunt"
+            "aihot",
+            "builder_hackernews"
           ],
-          "metricsText": "357 votes / 96 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
-          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
-          "summary": "100+ AI models, one interface.",
+          "metricsText": "",
+          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "tags": [
+            "ai-products"
+          ],
+          "what": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 Op",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 Op",
           "keyPoints": [
-            "discode is your EU-friendly AI router: one interface for 100+ models, with every prompt auto-routed to the best one for the job."
+            "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 Op"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "100+ AI models, one interface.",
-          "features": "discode is your EU-friendly AI router: one interface for 100+ models, with every prompt auto-routed to the best one for the job.",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 Op",
+          "features": "Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 Op",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "GetCompress",
-          "url": "https://www.producthunt.com/products/getcompress",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "298 votes / 71 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
-          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
-          "summary": "Lossless media compression without context switching",
-          "keyPoints": [
-            "GetCompress is a lightweight desktop app that quickly compresses videos, images, GIFs, PDFs in batches: get up to 90% smaller files with minimal quality loss."
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Lossless media compression without context switching",
-          "features": "GetCompress is a lightweight desktop app that quickly compresses videos, images, GIFs, PDFs in batches: get up to 90% smaller files with minimal quality loss.",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Persona.js",
-          "url": "https://www.producthunt.com/products/persona-12",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "267 votes / 40 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
-          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
-          "summary": "Add WebMCP-native AI chat to any Frontend",
-          "keyPoints": [
-            "Persona is a lightweight, open-source AI chat UI library that embeds into any website, from modern apps to static HTML."
-          ],
-          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
-          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Add WebMCP-native AI chat to any Frontend",
-          "features": "Persona is a lightweight, open-source AI chat UI library that embeds into any website, from modern apps to static HTML.",
-          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
-          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Dotient",
-          "url": "https://www.producthunt.com/products/dotient",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "248 votes / 30 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "Dotient is a local-first desktop application that helps you organize and search through your personal files using ML-powered visual search.",
-          "why": "Mac 高级用户、开发者、设计师和重度桌面工作流用户。把本地桌面工作流自动化，减少重复切换和手动设置。",
-          "summary": "Your local semantic search app",
-          "keyPoints": [
-            "Dotient is a local-first desktop application that helps you organize and search through your personal files using ML-powered visual search."
-          ],
-          "audience": "Mac 高级用户、开发者、设计师和重度桌面工作流用户。",
-          "pain": "把本地桌面工作流自动化，减少重复切换和手动设置。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Your local semantic search app",
-          "features": "Dotient is a local-first desktop application that helps you organize and search through your personal files using ML-powered visual search.",
-          "targetUsers": "Mac 高级用户、开发者、设计师和重度桌面工作流用户。",
-          "userNeed": "把本地桌面工作流自动化，减少重复切换和手动设置。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Lyto",
-          "url": "https://www.producthunt.com/products/lyto",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "172 votes / 26 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。",
-          "why": "面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。",
-          "summary": "\"One AI agent across your browser, tools, and messages \"",
-          "keyPoints": [
-            "Lyto AI is a Chrome extension that gives you full control over your browser."
-          ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "\"One AI agent across your browser, tools, and messages \"",
-          "features": "Lyto AI is a Chrome extension that gives you full control over your browser.",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Wirable",
-          "url": "https://www.producthunt.com/products/wirable",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "58 votes / 13 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
-          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
-          "summary": "Can AI agents use your product?",
-          "keyPoints": [
-            "Wirable tests whether AI agents can actually use your product."
-          ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "提升代码理解、开发自动化或工程协作效率。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Can AI agents use your product?",
-          "features": "Wirable tests whether AI agents can actually use your product.",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Schema Source by Tabstack",
-          "url": "https://www.producthunt.com/products/tabstack",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "39 votes / 5 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
-          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
-          "summary": "Turn any URL into a JSON Schema, Zod, or Pydantic model",
-          "keyPoints": [
-            "Get the JSON Schema for any URL."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Turn any URL into a JSON Schema, Zod, or Pydantic model",
-          "features": "Get the JSON Schema for any URL.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "kodwai",
-          "url": "https://www.producthunt.com/products/kodwai-launc",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "29 votes / 9 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。",
-          "why": "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。",
-          "summary": "The first platform that scores how you Vibe Code",
-          "keyPoints": [
-            "Kodwai is the first platform that scores how well you collaborate with AI coding agents (Claude Code, Cursor, Codex)."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "The first platform that scores how you Vibe Code",
-          "features": "Kodwai is the first platform that scores how well you collaborate with AI coding agents (Claude Code, Cursor, Codex).",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Weavz.io",
-          "url": "https://www.producthunt.com/products/weavz-io",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "25 votes / 13 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
-          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
-          "summary": "Let AI agents safely act in 1,000+ customer apps",
-          "keyPoints": [
-            "Let your AI agents safely act in the apps your customers already use, like Slack, Gmail, CRMs, and billing."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Let AI agents safely act in 1,000+ customer apps",
-          "features": "Let your AI agents safely act in the apps your customers already use, like Slack, Gmail, CRMs, and billing.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Salestrics Resolve Beta",
-          "url": "https://www.producthunt.com/products/salestrics",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "20 votes / 11 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "Salestrics Resolve expands Salestrics beyond CRM with an AI-native platform for customer support, IT, and development teams.",
-          "why": "创作者、创业者、独立开发者和早期产品团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "The AI-Native Service Desk for Startups",
-          "keyPoints": [
-            "Salestrics Resolve expands Salestrics beyond CRM with an AI-native platform for customer support, IT, and development teams."
-          ],
-          "audience": "创作者、创业者、独立开发者和早期产品团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "The AI-Native Service Desk for Startups",
-          "features": "Salestrics Resolve expands Salestrics beyond CRM with an AI-native platform for customer support, IT, and development teams.",
-          "targetUsers": "创作者、创业者、独立开发者和早期产品团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         }
       ]
     },
@@ -253,75 +40,99 @@
       "title": "开源热门",
       "items": [
         {
-          "title": "apple/container",
-          "url": "https://github.com/apple/container",
+          "title": "DeusData/codebase-memory-mcp",
+          "url": "https://github.com/DeusData/codebase-memory-mcp",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
-          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
+          "what": "High-performance code intelligence MCP server.",
+          "why": "开发者、开源项目维护者、技术团队。减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "summary": "High-performance code intelligence MCP server.",
           "keyPoints": [
-            "A tool for creating and running Linux containers using lightweight virtual machines on a Mac."
+            "High-performance code intelligence MCP server."
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "High-performance code intelligence MCP server.",
+          "features": "High-performance code intelligence MCP server.",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        },
+        {
+          "title": "phuryn/pm-skills",
+          "url": "https://github.com/phuryn/pm-skills",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "keyPoints": [
+            "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
-          "features": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
+          "oneLiner": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
+          "features": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "lfnovo/open-notebook",
-          "url": "https://github.com/lfnovo/open-notebook",
+          "title": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!",
+          "what": "Orca is the ADE for working with a fleet of parallel agents.",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!",
+          "summary": "Orca is the ADE for working with a fleet of parallel agents.",
           "keyPoints": [
-            "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!"
+            "Orca is the ADE for working with a fleet of parallel agents."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!",
-          "features": "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!",
+          "oneLiner": "Orca is the ADE for working with a fleet of parallel agents.",
+          "features": "Orca is the ADE for working with a fleet of parallel agents.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "tashfeenahmed/freellmapi",
-          "url": "https://github.com/tashfeenahmed/freellmapi",
+          "title": "simplex-chat/simplex-chat",
+          "url": "https://github.com/simplex-chat/simplex-chat",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
+          "what": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
+          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
           "keyPoints": [
-            "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint."
+            "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!"
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
-          "features": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
+          "oneLiner": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
+          "features": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         }
       ]
@@ -329,46 +140,282 @@
     {
       "key": "company",
       "title": "公司动态",
-      "items": []
+      "items": [
+        {
+          "title": "HP Inc. launches Frontier strategic partnership with OpenAI",
+          "url": "https://openai.com/index/hp-frontier-partnership",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "HP Inc.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "HP Inc.",
+          "keyPoints": [
+            "HP Inc."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "HP Inc.",
+          "features": "HP Inc.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        }
+      ]
     },
     {
       "key": "technical",
       "title": "技术前沿",
-      "items": []
+      "items": [
+        {
+          "title": "Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus",
+          "url": "https://x.com/elonmusk/status/2071184354756477041",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：Elon Musk (@elonmusk, xAI)",
+          "tags": [
+            "ai-models"
+          ],
+          "what": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。",
+          "keyPoints": [
+            "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。",
+          "features": "Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "仅有三个AI模型在500天创业测试中盈利超过起始资本",
+          "url": "https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "The Decoder：AI News（RSS）",
+          "tags": [
+            "paper"
+          ],
+          "what": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法",
+          "keyPoints": [
+            "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法",
+          "features": "普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "Quoting Jon Udell",
+          "url": "https://simonwillison.net/2026/Jun/28/jon-udell",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>",
+          "keyPoints": [
+            "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>"
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>",
+          "features": "<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Hack Your Summer",
+          "url": "https://simonwillison.net/2026/Jun/28/hack-your-summer",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p> I learned about this initiative from DJ Patil this morning:</p> <blockquote> <p>It’s a 4-week",
+          "why": "求职者、开发者、学生和自由职业者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p> I learned about this initiative from DJ Patil this morning:</p> <blockquote> <p>It’s a 4-week",
+          "keyPoints": [
+            "<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p> I learned about this initiative from DJ Patil this morning:</p> <blockquote> <p>It’s a 4-week"
+          ],
+          "audience": "求职者、开发者、学生和自由职业者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p> I learned about this initiative from DJ Patil this morning:</p> <blockquote> <p>It’s a 4-week",
+          "features": "<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p> I learned about this initiative from DJ Patil this morning:</p> <blockquote> <p>It’s a 4-week",
+          "targetUsers": "求职者、开发者、学生和自由职业者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Convolutional Neural Networks in APL (2019)",
+          "url": "https://dl.acm.org/doi/epdf/10.1145/3315454.3329960",
+          "sources": [
+            "builder_lobsters"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Lobsters AI",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>",
+          "keyPoints": [
+            "<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "MAX models can now run on Apple silicon GPUs",
+          "url": "https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283",
+          "sources": [
+            "builder_lobsters"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Lobsters AI",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>",
+          "keyPoints": [
+            "<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        }
+      ]
     },
     {
       "key": "news",
       "title": "行业观点",
       "items": [
         {
-          "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
-          "url": "https://www.ithome.com/0/969/953.htm",
+          "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+          "url": "https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "IT之家（RSS）",
+          "sourceLabel": "The Decoder：AI News（RSS）",
           "tags": [
             "industry"
           ],
-          "what": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 ",
+          "what": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 ",
+          "summary": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至",
           "keyPoints": [
-            "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 "
+            "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 ",
-          "features": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 ",
+          "oneLiner": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至",
+          "features": "在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Better Images of AI",
-          "url": "https://betterimagesofai.org/",
+          "title": "分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查",
+          "url": "https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "公众号：数字生命卡兹克",
+          "tags": [
+            "tip"
+          ],
+          "what": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Codin",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Codin",
+          "keyPoints": [
+            "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Codin"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Codin",
+          "features": "作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Codin",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+          "url": "https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Nathan Lambert：Interconnects（RSS）",
+          "tags": [
+            "tip"
+          ],
+          "what": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如",
+          "keyPoints": [
+            "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如",
+          "features": "开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "AI boom risks global financial crash, warn central bankers",
+          "url": "https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn",
           "sources": [
             "builder_hackernews"
           ],
@@ -377,25 +424,129 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 50 # Comments: 26",
-          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 50 # Comments: 26",
+          "what": "Article URL: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/ Comments URL: https://news.ycombinator.com/item?id=48713697 ",
+          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/ Comments URL: https://news.ycombinator.com/item?id=48713697 ",
           "keyPoints": [
-            "Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 50 # Comments: 26"
+            "Article URL: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/ Comments URL: https://news.ycombinator.com/item?id=48713697 "
           ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 50 # Comments: 26",
-          "features": "Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 50 # Comments: 26",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "oneLiner": "Article URL: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/ Comments URL: https://news.ycombinator.com/item?id=48713697 ",
+          "features": "Article URL: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/ Comments URL: https://news.ycombinator.com/item?id=48713697 ",
+          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "We need tech news sources which exclude AI",
+          "url": "https://news.ycombinator.com/item?id=48713041",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Its now clear that we need to preserve tech press for non AI related things.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Its now clear that we need to preserve tech press for non AI related things.",
+          "keyPoints": [
+            "Its now clear that we need to preserve tech press for non AI related things."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Its now clear that we need to preserve tech press for non AI related things.",
+          "features": "Its now clear that we need to preserve tech press for non AI related things.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs",
+          "url": "https://github.com/kamaludu/bash4llm",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal.",
+          "keyPoints": [
+            "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal.",
+          "features": "Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch",
+          "url": "https://github.com/JustVugg/nanoeuler",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic.",
+          "keyPoints": [
+            "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic.",
+          "features": "Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Ford rehires 'gray beard' engineers after AI falls short",
+          "url": "https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 132 # Com",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 132 # Com",
+          "keyPoints": [
+            "Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 132 # Com"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 132 # Com",
+          "features": "Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 132 # Com",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         }
       ]
     }
   ],
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-06-29\n\n## 产品上新\n\n1. [discode.ai](https://www.producthunt.com/products/discode-ai)\n   - 信号：Product Hunt · 357 votes / 96 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n2. [GetCompress](https://www.producthunt.com/products/getcompress)\n   - 信号：Product Hunt · 298 votes / 71 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n3. [Persona.js](https://www.producthunt.com/products/persona-12)\n   - 信号：Product Hunt · 267 votes / 40 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n4. [Dotient](https://www.producthunt.com/products/dotient)\n   - 信号：Product Hunt · 248 votes / 30 comments\n   - 做什么：Dotient is a local-first desktop application that helps you organize and search through your personal files using ML-powered visual search.\n   - 为什么需要：Mac 高级用户、开发者、设计师和重度桌面工作流用户。把本地桌面工作流自动化，减少重复切换和手动设置。\n\n5. [Lyto](https://www.producthunt.com/products/lyto)\n   - 信号：Product Hunt · 172 votes / 26 comments\n   - 做什么：观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。\n   - 为什么需要：面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。\n\n6. [Wirable](https://www.producthunt.com/products/wirable)\n   - 信号：Product Hunt · 58 votes / 13 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n7. [Schema Source by Tabstack](https://www.producthunt.com/products/tabstack)\n   - 信号：Product Hunt · 39 votes / 5 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n8. [kodwai](https://www.producthunt.com/products/kodwai-launc)\n   - 信号：Product Hunt · 29 votes / 9 comments\n   - 做什么：提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。\n   - 为什么需要：面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。\n\n9. [Weavz.io](https://www.producthunt.com/products/weavz-io)\n   - 信号：Product Hunt · 25 votes / 13 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n10. [Salestrics Resolve Beta](https://www.producthunt.com/products/salestrics)\n   - 信号：Product Hunt · 20 votes / 11 comments\n   - 做什么：Salestrics Resolve expands Salestrics beyond CRM with an AI-native platform for customer support, IT, and development teams.\n   - 为什么需要：创作者、创业者、独立开发者和早期产品团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 开源热门\n\n1. [apple/container](https://github.com/apple/container)\n   - 信号：GitHub Trending\n   - 做什么：A tool for creating and running Linux containers using lightweight virtual machines on a Mac.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n2. [lfnovo/open-notebook](https://github.com/lfnovo/open-notebook)\n   - 信号：GitHub Trending\n   - 做什么：An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi)\n   - 信号：GitHub Trending\n   - 做什么：OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n暂无值得单列的条目。\n\n## 行业观点\n\n1. [SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元](https://www.ithome.com/0/969/953.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [Better Images of AI](https://betterimagesofai.org/)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://betterimagesofai.org/ Comments URL: https://news.ycombinator.com/item?id=48713051 Points: 50 # Comments: 26\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-06-29\n\n## 产品上新\n\n1. [Wayfinder Router：在本地和托管的大语言模型之间进行确定性查询路由](https://github.com/itsthelore/wayfinder-router)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：Wayfinder Router 通过分析提示词的结构（长度、标题、列表、代码）和措辞（证明、数学、硬约束），在微秒级完成路由决策，完全离线且无需调用其他模型。默认仅使用结构特征，词汇线索因盲测未泛化而默认为关闭。对比依赖模型调用的路由器（如 RouteLLM、NotDiamond），它避免了延迟、成本和随机性。用户可在自有数据上校准评分阈值。支持任何 Op\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 开源热门\n\n1. [DeusData/codebase-memory-mcp](https://github.com/DeusData/codebase-memory-mcp)\n   - 信号：GitHub Trending\n   - 做什么：High-performance code intelligence MCP server.\n   - 为什么需要：开发者、开源项目维护者、技术团队。减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。\n\n2. [phuryn/pm-skills](https://github.com/phuryn/pm-skills)\n   - 信号：GitHub Trending\n   - 做什么：PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [stablyai/orca](https://github.com/stablyai/orca)\n   - 信号：GitHub Trending\n   - 做什么：Orca is the ADE for working with a fleet of parallel agents.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n4. [simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)\n   - 信号：GitHub Trending\n   - 做什么：SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 公司动态\n\n1. [HP Inc. launches Frontier strategic partnership with OpenAI](https://openai.com/index/hp-frontier-partnership)\n   - 信号：OpenAI\n   - 做什么：HP Inc.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 技术前沿\n\n1. [Grok 4.5 私测于 SpaceX 和 Tesla，性能接近 Opus](https://x.com/elonmusk/status/2071184354756477041)\n   - 信号：X：Elon Musk (@elonmusk, xAI)\n   - 做什么：Grok 4.5，基于我们的1.5T V9基础模型，并在补充训练中加入Cursor数据，现已在SpaceX和Tesla进入私测。初步评估显示其性能接近，或许超越Opus。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [仅有三个AI模型在500天创业测试中盈利超过起始资本](https://the-decoder.com/only-three-ai-models-finished-above-starting-capital-in-a-500-day-startup-survival-test)\n   - 信号：The Decoder：AI News（RSS）\n   - 做什么：普林斯顿大学推出CEO-Bench基准测试，让AI智能体在模拟环境中运营订阅软件公司NovaMind 500天，起始资金100万美元。14个测试模型中，仅Claude Fable 5（最佳轮次盈利4715万美元）、Claude Opus 4.8（2780万美元）和GPT-5.5（2130万美元）在最佳运行中超过起始资本。一个不调用语言模型的简单规则启发式方法\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [Quoting Jon Udell](https://simonwillison.net/2026/Jun/28/jon-udell)\n   - 信号：Simon Willison\n   - 做什么：<blockquote cite=\"https://blog.jonudell.net/2026/06/28/doctor-it-hurts-when-agents-create-unreviewable-prs-dont-do-that/\"><p><strong><del>Human</del> Agent in the loop</strong></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [Hack Your Summer](https://simonwillison.net/2026/Jun/28/hack-your-summer)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://www.hackyoursummer.org/\">Hack Your Summer</a></strong></p> I learned about this initiative from DJ Patil this morning:</p> <blockquote> <p>It’s a 4-week\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Convolutional Neural Networks in APL (2019)](https://dl.acm.org/doi/epdf/10.1145/3315454.3329960)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/ibji5x/convolutional_neural_networks_apl_2019\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [MAX models can now run on Apple silicon GPUs](https://forum.modular.com/t/max-models-can-now-run-on-apple-silicon-gpus/3283)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/4srepl/max_models_can_now_run_on_apple_silicon\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格](https://the-decoder.com/samsung-and-sk-hynix-plan-590-billion-chip-investment-as-ai-demand-sends-memory-prices-soaring)\n   - 信号：The Decoder：AI News（RSS）\n   - 做什么：在韩国政府支持下，三星和SK海力士计划投入5900亿美元扩大芯片产能，包括800万亿韩元新建四座工厂、81万亿韩元建封装中心，以及未来15年30万亿韩元用于研发下一代芯片。AI数据中心需求是主要驱动力。Jefferies预测，2026年Q3内存价格将上涨40%至50%，Q4再涨30%至40%，2027年继续上涨40%至45%，到2028年新产能仅上线15%至\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [分享两个Vibe Coding必备的实用Prompt：第一性原理与对抗式审查](https://mp.weixin.qq.com/s/umPqTD_-IubbhXIgiS47eQ)\n   - 信号：公众号：数字生命卡兹克\n   - 做什么：作者分享Vibe Coding中两个关键Prompt：一是\"从第一性原理出发\"，强制AI跳出类比推理，从基本事实重新推导本质，曾帮作者发现AIHOT抓取海外信源的底层流量路由隐患并彻底重构；二是\"对抗式审查\"，让AI站在恶意用户角度攻防式审查代码，检出OOM死循环、未来时间污染等手工难发现的BUG。两个Prompt形成生成与验证闭环，使纯Vibe Codin\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度](https://www.interconnects.ai/p/artifacts-22-zyphra-cohere-and-poolside)\n   - 信号：Nathan Lambert：Interconnects（RSS）\n   - 做什么：开源模型生态正变得更多元，参与者从少数中国公司扩展到全球各类组织。纯模型制造商包括 DeepSeek、智谱、MiniMax、Poolside、Arcee、Zyphra 及主权 AI 玩家 Cohere、Sovereign、Mistral、Trillion Labs；科技巨头如阿里 Qwen、Google Gemma 和 NVIDIA 各有不同动机；产品公司如\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [AI boom risks global financial crash, warn central bankers](https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.telegraph.co.uk/business/2026/06/28/ai-boom-risks-global-financial-crash-central-bankers-warn/ Comments URL: https://news.ycombinator.com/item?id=48713697\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [We need tech news sources which exclude AI](https://news.ycombinator.com/item?id=48713041)\n   - 信号：Hacker News AI\n   - 做什么：Its now clear that we need to preserve tech press for non AI related things.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [Show HN: Bash4LLM+ – A lightweight, dependency-free Bash wrapper for LLM APIs](https://github.com/kamaludu/bash4llm)\n   - 信号：Hacker News AI\n   - 做什么：Bash4LLM is a single-file Bash wrapper for interacting with LLMs from the terminal.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [Show HN: NanoEuler – GPT-2 scale model in pure C/CUDA from scratch](https://github.com/JustVugg/nanoeuler)\n   - 信号：Hacker News AI\n   - 做什么：Hi everyone, I started working on nanoeuler after the ban of anthropic's fable because my ambition and dream is to work in the AI field in anthropic.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [Ford rehires 'gray beard' engineers after AI falls short](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/ Comments URL: https://news.ycombinator.com/item?id=48710749 Points: 132 # Com\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
   "editor": "rules",
-  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260629162206379592752MkB0Vord)\",\"param\":\"\","
+  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260629165136240569490uKIZoaBr)\",\"param\":\"\","
 }
