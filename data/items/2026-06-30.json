@@ -1,745 +1,206 @@
 [
   {
-    "id": "aihot:aihot:cmr00f9t902pgslkiofzqdgx2",
+    "id": "aihot:aihot:cmr08dev204qjslkit52gdrur",
     "source": "aihot",
-    "sourceItemId": "aihot:cmr00f9t902pgslkiofzqdgx2",
-    "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-    "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
-    "body": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
-    "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-    "sourceName": "公众号：数字生命卡兹克",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-30T01:58:00.000Z",
+    "sourceItemId": "aihot:cmr08dev204qjslkit52gdrur",
+    "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+    "summary": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
+    "body": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
+    "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+    "sourceName": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+    "sourceCategory": "ai-models",
+    "publishedAt": "2026-06-30T05:42:42.000Z",
     "metrics": {},
     "metadata": {},
     "rawJson": {
-      "id": "cmr00f9t902pgslkiofzqdgx2",
-      "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
-      "title_en": "给机器人打工了一天，我们体验上了AI时代最魔幻的工作。",
-      "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-      "permalink": "https://aihot.virxact.com/items/cmr00f9t902pgslkiofzqdgx2",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-06-30T01:58:00.000Z",
-      "summary": "具身智能数据采集员以日薪200-250元招兼职，无需学历经验。面试先测量身高体重以适配采集手套，并询问是否晕VR。工作分两种：遥操作采集--穿戴设备控制双臂机器人完成分拣积木、叠纸杯等动作；无机器人示教采集--徒手重复动作（如叠衣服），设备记录轨迹。全球高质量物理交互数据截至2026年初仅约50万小时，不足大语言模型训练数据的两万分之一，需大量人力从零采集。",
-      "category": "tip",
+      "id": "cmr08dev204qjslkit52gdrur",
+      "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+      "title_en": "The full model behind \"Owl Alpha\" on @OpenRouter is here🦉 Let's meet @Meituan_LongCat 's latest fla…",
+      "url": "https://x.com/SiliconFlowAI/status/2071831773076746715",
+      "permalink": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
+      "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)",
+      "publishedAt": "2026-06-30T05:42:42.000Z",
+      "summary": "美团 LongCat 推出旗舰模型 LongCat-2.0，采用 1.6T 参数 MoE 架构（约 48B 活跃参数），原生支持 1M 上下文窗口。定价为 Input Cache $0.015/1M tokens、Input $0.75/1M tokens、Output $2.95/1M tokens。模型专为 Agentic Coding 设计，包含三大技术：LSA 稀疏注意力实现高效 1M 扩展；Zero-Compute Experts 动态激活 33B-56B 参数/token，无算力浪费；MOPD 将专家分为 Agent / Reasoning / Interaction 三组，按任务门控路由。在 SWE-bench Pro 上取得 59.5 分，性能接近主流闭源模型。现已上线 SiliconFlow Day 0 服务。",
+      "category": "ai-models",
       "score": 67,
       "selected": true
     },
-    "systemCategory": "news",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/aSd4kLu7xHllZatrd5EGsw"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzzpqet02gpslki3d15k1l0",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzzpqet02gpslki3d15k1l0",
-    "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
-    "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
-    "body": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
-    "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-    "sourceName": "公众号：卡尔的AI沃茨",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-30T01:47:00.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzzpqet02gpslki3d15k1l0",
-      "title": "AI News Radar 大更新：新增自媒体板块，支持订阅多平台账号",
-      "title_en": "大更新我的AI热点Skill，这次把国内外自媒体大神都包圆了",
-      "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-      "permalink": "https://aihot.virxact.com/items/cmqzzpqet02gpslki3d15k1l0",
-      "source": "公众号：卡尔的AI沃茨",
-      "publishedAt": "2026-06-30T01:47:00.000Z",
-      "summary": "AI News Radar 迎来大更新，新增自媒体板块，支持订阅某书、某音、某站、某X等平台账号，每日按热度推荐 Top10 信息（无热门则不硬凑），同时保留时间轴视图，可在热度优先和时间优先间切换。官方来源包括 OpenAI、Anthropic、Google 等一手消息及 GitHub AI&ML 更新日志。信息流按来源、类型、信号等级分类，标注高优先级与多源认证。项目完全开源，可零 API 部署独立 AI 日报页面，支持手机移动端及暗色界面。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/iW5FVqbHtYi31mJ22Q_cog"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzq4so7002zslki45ad5xtq",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzq4so7002zslki45ad5xtq",
-    "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-    "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
-    "body": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
-    "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-    "sourceName": "Claude：Blog（网页）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-29T21:22:33.048Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzq4so7002zslki45ad5xtq",
-      "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
-      "title_en": "Introducing the Claude apps gateway for Amazon Bedrock and Google Cloud",
-      "url": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-      "permalink": "https://aihot.virxact.com/items/cmqzq4so7002zslki45ad5xtq",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-29T21:22:33.048Z",
-      "summary": "Anthropic 今日推出 Claude apps gateway，一个自托管控制平面，让企业能在 Amazon Bedrock 和 Google Cloud 上运行 Claude Code。它作为单个无状态容器部署于 Linux，后端使用 PostgreSQL，提供企业级 SSO 登录（通过 OIDC 对接 Google Workspace、Microsoft Entra ID、Okta 等）、集中策略管理、角色权限、路由（支持故障转移）以及按日/周/月、按组织/群组/用户的消费上限。遥测数据通过 OTLP 发送至用户配置的收集器。gateway 不会向 Anthropic 发送推理流量或使用数据（除非配置使用 Claude API）。即日起可用。",
-      "category": "ai-products",
-      "score": 66,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://claude.com/blog/introducing-the-claude-apps-gateway",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://claude.com/blog/introducing-the-claude-apps-gateway"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzqabkh0069slkildw65dhy",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzqabkh0069slkildw65dhy",
-    "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
-    "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
-    "body": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
-    "url": "https://x.com/EMostaque/status/2071701921241448574",
-    "sourceName": "X：Emad Mostaque (@EMostaque)",
-    "sourceCategory": "ai-models",
-    "publishedAt": "2026-06-29T21:06:43.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzqabkh0069slkildw65dhy",
-      "title": "美团LongCat Owl Alpha：OpenRouter最流行模型，1.6万亿MoE，国产ASIC训练",
-      "title_en": "Most popular model on @OpenRouter （10tr tokens） turns out to be a 1.6tr MoE by @Meituan_LongCat （sup…",
-      "url": "https://x.com/EMostaque/status/2071701921241448574",
-      "permalink": "https://aihot.virxact.com/items/cmqzqabkh0069slkildw65dhy",
-      "source": "X：Emad Mostaque (@EMostaque)",
-      "publishedAt": "2026-06-29T21:06:43.000Z",
-      "summary": "美团LongCat的1.6万亿参数MoE模型Owl Alpha成为OpenRouter上最流行模型，累计消耗10万亿tokens，性能达Gemini/Opus 4.6级别。该模型使用35万亿tokens训练，完全在5万块国产ASIC上完成。据官方推文，Owl Alpha上线后每日调用量全球Top3，在Hermes Agent排名#1，Claude Code排名#2，OpenClaw排名#3。该模型即将退役，后续版本待公布。",
-      "category": "ai-models",
-      "score": 79,
-      "selected": true
-    },
     "systemCategory": "technical",
-    "canonicalUrl": "https://x.com/EMostaque/status/2071701921241448574",
+    "canonicalUrl": "https://x.com/SiliconFlowAI/status/2071831773076746715",
     "sources": [
       "aihot"
     ],
     "sourceLinks": [
       {
         "source": "aihot",
-        "url": "https://x.com/EMostaque/status/2071701921241448574"
+        "url": "https://x.com/SiliconFlowAI/status/2071831773076746715"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmqzpe7kz003xslznxpw78tx5",
+    "id": "aihot:aihot:cmr07c62l04huslkimxy3vdw5",
     "source": "aihot",
-    "sourceItemId": "aihot:cmqzpe7kz003xslznxpw78tx5",
-    "title": "Rubin Ultra取消，新版尺寸性能减半",
-    "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
-    "body": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
-    "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-    "sourceName": "X：SemiAnalysis (@SemiAnalysis_)",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-29T21:00:47.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzpe7kz003xslznxpw78tx5",
-      "title": "Rubin Ultra取消，新版尺寸性能减半",
-      "title_en": "INTERESTING： Only 3 months after Rubin Ultra was announced at GTC 2026， the original 4-die Rubin Ult…",
-      "url": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-      "permalink": "https://aihot.virxact.com/items/cmqzpe7kz003xslznxpw78tx5",
-      "source": "X：SemiAnalysis (@SemiAnalysis_)",
-      "publishedAt": "2026-06-29T21:00:47.000Z",
-      "summary": "有意思：在GTC 2026宣布Rubin Ultra仅3个月后，原4-die Rubin Ultra因制造执行问题被取消。新的\"Rubin Ultra\"尺寸减半，实际性能约为原版的一半。1/4🧵",
-      "category": "industry",
-      "score": 77,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/SemiAnalysis_/status/2071700428249596290",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/SemiAnalysis_/status/2071700428249596290"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzo4q2o005oslkhjl7jdtoc",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzo4q2o005oslkhjl7jdtoc",
-    "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-    "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
-    "body": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
-    "url": "https://x.com/openclaw/status/2071688039114342592",
-    "sourceName": "X：OpenClaw (@openclaw)",
+    "sourceItemId": "aihot:cmr07c62l04huslkimxy3vdw5",
+    "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+    "summary": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
+    "body": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
+    "url": "https://x.com/op7418/status/2071816099986022650",
+    "sourceName": "X：歸藏 (@op7418)",
     "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-29T20:11:33.000Z",
+    "publishedAt": "2026-06-30T04:40:25.000Z",
     "metrics": {},
     "metadata": {},
     "rawJson": {
-      "id": "cmqzo4q2o005oslkhjl7jdtoc",
-      "title": "OpenClaw 发布原生 iOS 与 Android 应用",
-      "title_en": "OpenClaw is now on iOS + Android 🦞 📱 Native mobile apps， finally 💬 Agents in your pocket 🔔 Chan…",
-      "url": "https://x.com/openclaw/status/2071688039114342592",
-      "permalink": "https://aihot.virxact.com/items/cmqzo4q2o005oslkhjl7jdtoc",
-      "source": "X：OpenClaw (@openclaw)",
-      "publishedAt": "2026-06-29T20:11:33.000Z",
-      "summary": "OpenClaw 现已登陆 iOS 和 Android 🦞\n\n📱 原生移动应用，终于来了\n💬 智能体装进口袋\n🔔 频道、任务、回复，随时处理\n\n用你的大拇指，在任何地方运行智能体。\n\niOS： https：//apps.apple.com/us/app/openclaw-ai-that-does-things/id6780396132\nAndroid： https：//play.google.com/store/apps/details？id=ai.openclaw.app",
+      "id": "cmr07c62l04huslkimxy3vdw5",
+      "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+      "title_en": "Twitter 终于有 MCP 了，这个非常有用！ 如果你像我一样依赖 Twitter 信息的话，就可以让 AI 帮你自动整理、总结和对你的数据进行分析 不过依然需要你注册 Twitter 的 A…",
+      "url": "https://x.com/op7418/status/2071816099986022650",
+      "permalink": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
+      "source": "X：歸藏 (@op7418)",
+      "publishedAt": "2026-06-30T04:40:25.000Z",
+      "summary": "X（Twitter）官方推出 hosted X MCP，AI 智能体可通过 MCP 协议直接调用 X API 获取实时信息，支持 Grok、Cursor 等工具。用户需注册 X API 并按量付费，个人优惠价每次调用 0.01 美元（1 美元 1000 次）。有用户实测拉取近三天书签仅花 0.1 美元。配置步骤：创建 APP 并充值、获取配置 ID、辅助配置（可交给 Codex/Claude）、授权启动。",
       "category": "ai-products",
-      "score": 71,
+      "score": 75,
       "selected": true
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://x.com/openclaw/status/2071688039114342592",
+    "canonicalUrl": "https://x.com/op7418/status/2071816099986022650",
     "sources": [
       "aihot"
     ],
     "sourceLinks": [
       {
         "source": "aihot",
-        "url": "https://x.com/openclaw/status/2071688039114342592"
+        "url": "https://x.com/op7418/status/2071816099986022650"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmqzjpce1006aslqvqo2kpjo6",
+    "id": "aihot:aihot:cmr05b2wq0414slkivvyyjlbl",
     "source": "aihot",
-    "sourceItemId": "aihot:cmqzjpce1006aslqvqo2kpjo6",
-    "title": "Claude 在 Microsoft Foundry 正式可用",
-    "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
-    "body": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
-    "url": "https://claude.com/blog/claude-in-microsoft-foundry",
-    "sourceName": "Claude：Blog（网页）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-29T18:22:20.720Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzjpce1006aslqvqo2kpjo6",
-      "title": "Claude 在 Microsoft Foundry 正式可用",
-      "title_en": "Claude in Microsoft Foundry is now generally available",
-      "url": "https://claude.com/blog/claude-in-microsoft-foundry",
-      "permalink": "https://aihot.virxact.com/items/cmqzjpce1006aslqvqo2kpjo6",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-06-29T18:22:20.720Z",
-      "summary": "从今天起，Claude 模型在 Microsoft Foundry 上正式可用，托管于 Azure 环境，运行在 NVIDIA GB300 GPU 上。首批提供 Claude Opus 4.8 和 Claude Haiku 4.5，通过 Messages API 调用，支持提示缓存和扩展思考。用户可选择推理处理位置，包括美国数据区域，由 Anthropic 负责推理运营。Azure 用户可使用现有身份验证、计费与治理控制，并获得统一账单；符合条件的 Enterprise Agreement 客户可将 Claude 用量计入 Azure 承诺消费。",
-      "category": "ai-products",
-      "score": 64,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://claude.com/blog/claude-in-microsoft-foundry",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://claude.com/blog/claude-in-microsoft-foundry"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzk693n002zslksfkrr5w2w",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzk693n002zslksfkrr5w2w",
-    "title": "Qwen 3.6 27B 是本地开发的理想选择",
-    "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
-    "body": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
-    "url": "https://quesma.com/blog/qwen-36-is-awesome",
-    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceItemId": "aihot:cmr05b2wq0414slkivvyyjlbl",
+    "title": "AI就业争论变得更加混乱",
+    "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22，000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具--降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
+    "body": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22，000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具--降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
+    "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+    "sourceName": "TechCrunch：AI（RSS）",
     "sourceCategory": "tip",
-    "publishedAt": "2026-06-29T18:03:02.582Z",
+    "publishedAt": "2026-06-30T04:01:00.000Z",
     "metrics": {},
     "metadata": {},
     "rawJson": {
-      "id": "cmqzk693n002zslksfkrr5w2w",
-      "title": "Qwen 3.6 27B 是本地开发的理想选择",
-      "title_en": null,
-      "url": "https://quesma.com/blog/qwen-36-is-awesome",
-      "permalink": "https://aihot.virxact.com/items/cmqzk693n002zslksfkrr5w2w",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-06-29T18:03:02.582Z",
-      "summary": "Qwen 3.6 27B 是一款密集参数本地大语言模型，原生支持 256k 上下文。在 Macbook Max M5 上运行 llama.cpp Q8_0 量化版（含多 token 预测）可达 30 tokens/s；用户反馈在 RTX 5090 上 Q6_K 量化可达 50 tokens/s。它可通过单个提示完成创意诗歌、用 pnpm 生成六边形扫雷游戏等任务，作者称其为首个真正具备通用智能的本地模型。另有一个 MoE 变体 35B A3B，但作者推荐 27B 版本。",
+      "id": "cmr05b2wq0414slkivvyyjlbl",
+      "title": "AI就业争论变得更加混乱",
+      "title_en": "The AI jobs debate just got messier",
+      "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
+      "permalink": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
+      "source": "TechCrunch：AI（RSS）",
+      "publishedAt": "2026-06-30T04:01:00.000Z",
+      "summary": "截至2026年5月，AI相关裁员接近9万个，预计未来五年美国最多15%的岗位将被AI替代。但Ramp与Revelio Labs对近22，000家公司的报告发现，高AI投入企业（前三个月人均月均支出30美元）总员工数增长10.2%，入门级岗位增长12%。报告认为AI并非普遍导致岗位消失，而是在资源充裕的科技企业里成为扩张工具--降低工程、销售、客服等职能的生产成本，从而推动整体增员。但仅购买订阅而未持续投入的公司未见人头增长，可能加剧企业间的资源鸿沟。",
       "category": "tip",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://quesma.com/blog/qwen-36-is-awesome",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://quesma.com/blog/qwen-36-is-awesome"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzdby9m00o8sltjugcnx002",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzdby9m00o8sltjugcnx002",
-    "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-    "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
-    "body": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
-    "url": "https://x.com/berryxia/status/2071610700213191075",
-    "sourceName": "X：Berry Xia (@berryxia)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-06-29T15:04:14.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzdby9m00o8sltjugcnx002",
-      "title": "Anthropic工程师Margot Van Laar：提示词工程实战--调试生产提示词为主，评估是唯一严谨方式",
-      "title_en": "Margot Van Laar是Anthropic应用AI团队的工程师。 她在Code with Claude大会上做了一场关于提示词工程实战的分享。 核心观点只有一个：我们很少从零写提示词，大部…",
-      "url": "https://x.com/berryxia/status/2071610700213191075",
-      "permalink": "https://aihot.virxact.com/items/cmqzdby9m00o8sltjugcnx002",
-      "source": "X：Berry Xia (@berryxia)",
-      "publishedAt": "2026-06-29T15:04:14.000Z",
-      "summary": "An anthropic应用AI工程师Margot Van Laar在Code with Claude分享提示词工程实战，核心观点：大部分时间在调试和维护已有生产提示词而非从零编写。两个场景：客服机器人维护中，用XML标签结构化清理，移除旧模型遗留的\"禁止列表\"指令（新模型会过度拟合），精确计算应调用工具，转人工决策需明确代价与收益；零售排班Agent从零构建时，拆成生成-评估-修复三个简单提示词更稳定，选用更强推理模型（Opus）。她反复强调：评估（Eval）是唯一严谨方式，没有评估就是碰运气。",
-      "category": "tip",
-      "score": 77,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/berryxia/status/2071610700213191075",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/berryxia/status/2071610700213191075"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz7d8df001gslurh618qik6",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz7d8df001gslurh618qik6",
-    "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-    "summary": "美军在打击伊朗时首次大规模使用AI选择目标（Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标），但对一所学校的导弹袭击导致约120名儿童死亡。调查发现，情报分析师早在2019年就通过数字工具标记该地点已变为小学，但该工具未连接军方官方目标数据库MIDB，信息从未送达指挥官。MIDB建于1980年代，依赖手动输入，替代系统MARS多年延迟。五角大楼事后宣布推出agentic AI initiative。Project Maven创建人Jack Shanahan批评目标验证不力不可原谅。",
-    "body": "美军在打击伊朗时首次大规模使用AI选择目标（Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标），但对一所学校的导弹袭击导致约120名儿童死亡。调查发现，情报分析师早在2019年就通过数字工具标记该地点已变为小学，但该工具未连接军方官方目标数据库MIDB，信息从未送达指挥官。MIDB建于1980年代，依赖手动输入，替代系统MARS多年延迟。五角大楼事后宣布推出agentic AI initiative。Project Maven创建人Jack Shanahan批评目标验证不力不可原谅。",
-    "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-    "sourceName": "The Decoder：AI News（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-29T12:30:21.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqz7d8df001gslurh618qik6",
-      "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
-      "title_en": "The US military used AI to pick thousands of targets but missed a note saying one was a school",
-      "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-      "permalink": "https://aihot.virxact.com/items/cmqz7d8df001gslurh618qik6",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-29T12:30:21.000Z",
-      "summary": "美军在打击伊朗时首次大规模使用AI选择目标（Anthropic的Claude模型嵌入Palantir的Maven Smart System，首日建议约1000个目标），但对一所学校的导弹袭击导致约120名儿童死亡。调查发现，情报分析师早在2019年就通过数字工具标记该地点已变为小学，但该工具未连接军方官方目标数据库MIDB，信息从未送达指挥官。MIDB建于1980年代，依赖手动输入，替代系统MARS多年延迟。五角大楼事后宣布推出agentic AI initiative。Project Maven创建人Jack Shanahan批评目标验证不力不可原谅。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://the-decoder.com/the-us-military-used-ai-to-pick-thousands-of-targets-but-missed-a-note-saying-one-was-a-school"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz708gp006kslj16zzl8far",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz708gp006kslj16zzl8far",
-    "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
-    "summary": "Meta公布Brain2Qwerty v2，这是非侵入式脑电信号解码研究的最新里程碑。基于当天发表在《Nature》的v1，v2是性能最高的端到端管道，能从原始脑信号实时解码句子。其从字符级性能提升至解码单词和语义，提高整体沟通准确性。该研究有望帮助数百万因脑损伤或疾病无法沟通的人群。",
-    "body": "Meta公布Brain2Qwerty v2，这是非侵入式脑电信号解码研究的最新里程碑。基于当天发表在《Nature》的v1，v2是性能最高的端到端管道，能从原始脑信号实时解码句子。其从字符级性能提升至解码单词和语义，提高整体沟通准确性。该研究有望帮助数百万因脑损伤或疾病无法沟通的人群。",
-    "url": "https://x.com/AIatMeta/status/2071566924803395741",
-    "sourceName": "X：AI at Meta (@AIatMeta)",
-    "sourceCategory": "paper",
-    "publishedAt": "2026-06-29T12:10:17.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqz708gp006kslj16zzl8far",
-      "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
-      "title_en": "We're sharing the next major milestone in our non-invasive brain-to-text decoder research： Brain2Qwe…",
-      "url": "https://x.com/AIatMeta/status/2071566924803395741",
-      "permalink": "https://aihot.virxact.com/items/cmqz708gp006kslj16zzl8far",
-      "source": "X：AI at Meta (@AIatMeta)",
-      "publishedAt": "2026-06-29T12:10:17.000Z",
-      "summary": "Meta公布Brain2Qwerty v2，这是非侵入式脑电信号解码研究的最新里程碑。基于当天发表在《Nature》的v1，v2是性能最高的端到端管道，能从原始脑信号实时解码句子。其从字符级性能提升至解码单词和语义，提高整体沟通准确性。该研究有望帮助数百万因脑损伤或疾病无法沟通的人群。",
-      "category": "paper",
-      "score": 79,
-      "selected": true
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://x.com/AIatMeta/status/2071566924803395741",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/AIatMeta/status/2071566924803395741"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqzisfra009asl8hojqmr1k2",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqzisfra009asl8hojqmr1k2",
-    "title": "从任何地点构建--Cursor for iOS 公测版发布",
-    "summary": "Cursor 推出 iOS 原生公测版，所有付费计划可用。开发者可在手机上启动始终在线的云端智能体，或远程操控电脑端智能体。支持语音输入、斜杠命令和选择前沿模型。智能体运行后，锁屏 Live Activities 和推送通知实时更新状态，完成或需要输入时提醒。云端智能体在隔离虚拟机中运行，可自动迭代生成合并就绪的 PR，并输出演示、截图和日志。本地与云端智能体支持双向切换。移动端 Composer 2.5 享受 75% 折扣，优惠至 2026 年 7 月 5 日。",
-    "body": "Cursor 推出 iOS 原生公测版，所有付费计划可用。开发者可在手机上启动始终在线的云端智能体，或远程操控电脑端智能体。支持语音输入、斜杠命令和选择前沿模型。智能体运行后，锁屏 Live Activities 和推送通知实时更新状态，完成或需要输入时提醒。云端智能体在隔离虚拟机中运行，可自动迭代生成合并就绪的 PR，并输出演示、截图和日志。本地与云端智能体支持双向切换。移动端 Composer 2.5 享受 75% 折扣，优惠至 2026 年 7 月 5 日。",
-    "url": "https://cursor.com/blog/ios-mobile-app",
-    "sourceName": "Cursor Blog",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-29T12:00:00.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqzisfra009asl8hojqmr1k2",
-      "title": "从任何地点构建--Cursor for iOS 公测版发布",
-      "title_en": "Build from anywhere with Cursor for iOS",
-      "url": "https://cursor.com/blog/ios-mobile-app",
-      "permalink": "https://aihot.virxact.com/items/cmqzisfra009asl8hojqmr1k2",
-      "source": "Cursor Blog",
-      "publishedAt": "2026-06-29T12:00:00.000Z",
-      "summary": "Cursor 推出 iOS 原生公测版，所有付费计划可用。开发者可在手机上启动始终在线的云端智能体，或远程操控电脑端智能体。支持语音输入、斜杠命令和选择前沿模型。智能体运行后，锁屏 Live Activities 和推送通知实时更新状态，完成或需要输入时提醒。云端智能体在隔离虚拟机中运行，可自动迭代生成合并就绪的 PR，并输出演示、截图和日志。本地与云端智能体支持双向切换。移动端 Composer 2.5 享受 75% 折扣，优惠至 2026 年 7 月 5 日。",
-      "category": "ai-products",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://cursor.com/blog/ios-mobile-app",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://cursor.com/blog/ios-mobile-app"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz49v7400e4sldyr126zupc",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz49v7400e4sldyr126zupc",
-    "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-    "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%-96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6-3.54×，单卡并发提升 4.7-7.8×，预填充 FLOPs 削减 67%-79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
-    "body": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%-96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6-3.54×，单卡并发提升 4.7-7.8×，预填充 FLOPs 削减 67%-79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
-    "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-    "sourceName": "公众号：小红书技术（dots.llm）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-29T11:00:07.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqz49v7400e4sldyr126zupc",
-      "title": "小红书 RedKnot 推理引擎：将 KV Cache 按注意力头拆解实现长文本加速",
-      "title_en": "让 KV Cache「按头分家」：小红书 RedKnot 如何重做长文本推理新引擎",
-      "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-      "permalink": "https://aihot.virxact.com/items/cmqz49v7400e4sldyr126zupc",
-      "source": "公众号：小红书技术（dots.llm）",
-      "publishedAt": "2026-06-29T11:00:07.000Z",
-      "summary": "RedKnot 将 KV Cache 沿注意力头维度拆解，通过头分类稀疏（局部头占 83.4%-96.8%）、稀疏 FFN 和 SegPagedAttention 三个机制统一算法与存储粒度。在 8 卡 H800 上，TTFT 最高加速 1.6-3.54×，单卡并发提升 4.7-7.8×，预填充 FLOPs 削减 67%-79.5%。DeepSeek-V4-Flash 上 128K 上下文 TTFT 加速达 5.16×，KV 传输最多省 6.3×。精度通常不低于稠密 F1 的 95%。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/qRrZvL0aZzYI82djFSrLug"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz3upwc00axsldytm3kw949",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz3upwc00axsldytm3kw949",
-    "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-    "summary": "EverMind 推出开源智能体记忆运行时 EverOS（Apache 2.0 许可）。它以可编辑的 Markdown 文件为记忆主体，经 SQLite 管理状态、LanceDB 实现混合检索（BM25 关键词 + 向量搜索 + 标量过滤）。每个完成的任务记录为 Case，离线提炼为可复用的 Skill，使记忆随使用自我进化。v1.1.0 新增 Knowledge APIs（支持分类与话题搜索的 Markdown 页面）和 Reflection（跨会话优化 Profile 和 Skill）。据 EverMind 报告，LoCoMo 得分 93.05%，LongMemEval 83.00%，HaluMem 93.04%，p95 检索延迟低于 500ms。运行时可本地优先部署，也提供 EverOS Cloud 托管选项，兼容 OpenAI 协议端点。",
-    "body": "EverMind 推出开源智能体记忆运行时 EverOS（Apache 2.0 许可）。它以可编辑的 Markdown 文件为记忆主体，经 SQLite 管理状态、LanceDB 实现混合检索（BM25 关键词 + 向量搜索 + 标量过滤）。每个完成的任务记录为 Case，离线提炼为可复用的 Skill，使记忆随使用自我进化。v1.1.0 新增 Knowledge APIs（支持分类与话题搜索的 Markdown 页面）和 Reflection（跨会话优化 Profile 和 Skill）。据 EverMind 报告，LoCoMo 得分 93.05%，LongMemEval 83.00%，HaluMem 93.04%，p95 检索延迟低于 500ms。运行时可本地优先部署，也提供 EverOS Cloud 托管选项，兼容 OpenAI 协议端点。",
-    "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-    "sourceName": "MarkTechPost（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-06-29T10:42:47.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqz3upwc00axsldytm3kw949",
-      "title": "EverOS：开源Markdown优先智能体记忆运行时，支持混合检索与自进化技能",
-      "title_en": "Meet EverOS： An Open Source Markdown-First Agent Memory Runtime With Hybrid BM25 + Vector Retrieval and Self-Evolving Skills",
-      "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-      "permalink": "https://aihot.virxact.com/items/cmqz3upwc00axsldytm3kw949",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-06-29T10:42:47.000Z",
-      "summary": "EverMind 推出开源智能体记忆运行时 EverOS（Apache 2.0 许可）。它以可编辑的 Markdown 文件为记忆主体，经 SQLite 管理状态、LanceDB 实现混合检索（BM25 关键词 + 向量搜索 + 标量过滤）。每个完成的任务记录为 Case，离线提炼为可复用的 Skill，使记忆随使用自我进化。v1.1.0 新增 Knowledge APIs（支持分类与话题搜索的 Markdown 页面）和 Reflection（跨会话优化 Profile 和 Skill）。据 EverMind 报告，LoCoMo 得分 93.05%，LongMemEval 83.00%，HaluMem 93.04%，p95 检索延迟低于 500ms。运行时可本地优先部署，也提供 EverOS Cloud 托管选项，兼容 OpenAI 协议端点。",
-      "category": "ai-products",
-      "score": 74,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.marktechpost.com/2026/06/29/meet-everos-an-open-source-markdown-first-agent-memory-runtime-with-hybrid-bm25-vector-retrieval-and-self-evolving-skills"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz20a0a000dsly4gw09u9xt",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz20a0a000dsly4gw09u9xt",
-    "title": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
-    "summary": "安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量。一个看似正常的 GitHub 仓库包含 setup 脚本，该脚本运行时从 DNS 条目拉取命令并执行，恶意代码从未存在于仓库中，对扫描器、代码审查和 AI 智能体不可见。开发者使用 Claude Code 等 AI 编码工具打开该仓库时，Claude Code 在设置过程中遇到常规错误消息后自动运行该脚本，打开反向 shell，攻击者可窃取 API 密钥和登录凭据并维持持久访问。研究人员建议 AI 智能体应在运行前显示 setup 脚本内容，开发者应将第三方仓库的 setup 说明视为不受信任代码。",
-    "body": "安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量。一个看似正常的 GitHub 仓库包含 setup 脚本，该脚本运行时从 DNS 条目拉取命令并执行，恶意代码从未存在于仓库中，对扫描器、代码审查和 AI 智能体不可见。开发者使用 Claude Code 等 AI 编码工具打开该仓库时，Claude Code 在设置过程中遇到常规错误消息后自动运行该脚本，打开反向 shell，攻击者可窃取 API 密钥和登录凭据并维持持久访问。研究人员建议 AI 智能体应在运行前显示 setup 脚本内容，开发者应将第三方仓库的 setup 说明视为不受信任代码。",
-    "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
-    "sourceName": "The Decoder：AI News（RSS）",
-    "sourceCategory": "paper",
-    "publishedAt": "2026-06-29T10:04:32.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqz20a0a000dsly4gw09u9xt",
-      "title": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
-      "title_en": "Claude Code runs a GitHub repo's hidden malware without verification， giving attackers full control",
-      "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
-      "permalink": "https://aihot.virxact.com/items/cmqz20a0a000dsly4gw09u9xt",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-06-29T10:04:32.000Z",
-      "summary": "安全研究人员在 Mozilla 的 GenAI 漏洞赏金平台 0DIN 发现新攻击向量。一个看似正常的 GitHub 仓库包含 setup 脚本，该脚本运行时从 DNS 条目拉取命令并执行，恶意代码从未存在于仓库中，对扫描器、代码审查和 AI 智能体不可见。开发者使用 Claude Code 等 AI 编码工具打开该仓库时，Claude Code 在设置过程中遇到常规错误消息后自动运行该脚本，打开反向 shell，攻击者可窃取 API 密钥和登录凭据并维持持久访问。研究人员建议 AI 智能体应在运行前显示 setup 脚本内容，开发者应将第三方仓库的 setup 说明视为不受信任代码。",
-      "category": "paper",
-      "score": 73,
-      "selected": true
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://the-decoder.com/claude-code-runs-a-github-repos-hidden-malware-without-verification-giving-attackers-full-control"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz1tatr01doslxsae6mpoyv",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz1tatr01doslxsae6mpoyv",
-    "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-    "summary": "国务院日前印发《教育发展\"十五五\"规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
-    "body": "国务院日前印发《教育发展\"十五五\"规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
-    "url": "https://www.ithome.com/0/970/097.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-29T09:27:36.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqz1tatr01doslxsae6mpoyv",
-      "title": "国务院印发《教育发展\"十五五\"规划》，推进人工智能全学段教育",
-      "title_en": "国务院：推进人工智能全学段教育，提升学生人工智能素养",
-      "url": "https://www.ithome.com/0/970/097.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqz1tatr01doslxsae6mpoyv",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-29T09:27:36.000Z",
-      "summary": "国务院日前印发《教育发展\"十五五\"规划》，要求推进人工智能全学段教育，提升学生人工智能素养及提出问题、解决问题的能力。规划明确完善科学教育体系，强化科技教育与人文教育协同，加强青少年科学素养、批判性思维和创新能力培养。同时实施学生体质强健计划、心理健康促进行动，加大拔尖创新人才自主培养力度，推动学科交叉融合，扩大优质本科招生规模。目标到2030年高质量教育体系基本建成。",
-      "category": "industry",
-      "score": 80,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/970/097.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/970/097.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqz31dsn003usldyi61f0cgf",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqz31dsn003usldyi61f0cgf",
-    "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
-    "summary": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
-    "body": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
-    "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-    "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-    "sourceCategory": "paper",
-    "publishedAt": "2026-06-29T07:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "OpenAI Blog"
-    },
-    "rawJson": {
-      "id": "cmqz31dsn003usldyi61f0cgf",
-      "title": "OpenAI 报告：绘制欧洲 AI 劳动力机遇版图",
-      "title_en": "Mapping Europe's AI Workforce Opportunity",
-      "url": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-      "permalink": "https://aihot.virxact.com/items/cmqz31dsn003usldyi61f0cgf",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-06-29T07:00:00.000Z",
-      "summary": "OpenAI 发布新报告，分析 AI 对欧盟就业的影响，划定哪些职业面临自动化、增长或工作流程变化。",
-      "category": "paper",
-      "score": 62,
-      "selected": true
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://openai.com/index/mapping-ai-jobs-transition-eu",
-    "sources": [
-      "aihot",
-      "builder_openai"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://openai.com/index/mapping-ai-jobs-transition-eu"
-      },
-      {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/mapping-ai-jobs-transition-eu"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmqyvdkok000qslf1ctykave9",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmqyvdkok000qslf1ctykave9",
-    "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
-    "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
-    "body": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
-    "url": "https://www.ithome.com/0/969/953.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-06-29T06:44:15.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmqyvdkok000qslf1ctykave9",
-      "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/969/953.htm",
-      "permalink": "https://aihot.virxact.com/items/cmqyvdkok000qslf1ctykave9",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-06-29T06:44:15.000Z",
-      "summary": "SK 集团会长崔泰源 6 月 29 日宣布，计划到 2035 年建成 15GW AI 数据中心容量，作为韩国国家级基础设施和实体 AI 时代核心底座。项目总投资 1000 万亿韩元（约 4.4 万亿元人民币），未来 10 年保持年均 100 万亿韩元以上国内投资，旨在实现从出口传统商品向智能服务的转变，构建韩国智能市场。此外，SK 海力士将向韩国西南部投资 400 万亿韩元，半导体供应项目总投资达 1100 万亿韩元（约 4.84 万亿元人民币）。",
-      "category": "industry",
       "score": 71,
       "selected": true
     },
     "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/969/953.htm",
+    "canonicalUrl": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier",
     "sources": [
       "aihot"
     ],
     "sourceLinks": [
       {
         "source": "aihot",
-        "url": "https://www.ithome.com/0/969/953.htm"
+        "url": "https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1103513",
+    "id": "aihot:aihot:cmr03h5tq03jjslki3a281zet",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmr03h5tq03jjslki3a281zet",
+    "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+    "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows：review一次并发14个agent审查代码，/workflows：plan在ultrathink模式下可并发40多个研究agent。",
+    "body": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows：review一次并发14个agent审查代码，/workflows：plan在ultrathink模式下可并发40多个研究agent。",
+    "url": "https://x.com/xiaohu/status/2071796715162857477",
+    "sourceName": "X：小互 (@xiaohu)",
+    "sourceCategory": "tip",
+    "publishedAt": "2026-06-30T03:23:23.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmr03h5tq03jjslki3a281zet",
+      "title": "一个人管理5款产品，80%时间不写代码？Every的复利工程",
+      "title_en": "http：//x.com/i/article/2071795831028826112",
+      "url": "https://x.com/xiaohu/status/2071796715162857477",
+      "permalink": "https://aihot.virxact.com/items/cmr03h5tq03jjslki3a281zet",
+      "source": "X：小互 (@xiaohu)",
+      "publishedAt": "2026-06-30T03:23:23.000Z",
+      "summary": "媒体软件公司Every公开「复利工程」方法论，以单人工程团队维护5款产品。核心是四步循环：Plan→Work→Review→Compound，其中Compound将每次解决问题的解法写入CLAUDE.md和docs/solutions/，使AI下次自动避坑。工程师80%时间花在Plan和Review，仅20%用于写代码。配套开源插件支持Claude Code等，含26个专项agent、23条工作流命令、13项技能，可零配置使用。/workflows：review一次并发14个agent审查代码，/workflows：plan在ultrathink模式下可并发40多个研究agent。",
+      "category": "tip",
+      "score": 81,
+      "selected": true
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://x.com/xiaohu/status/2071796715162857477",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://x.com/xiaohu/status/2071796715162857477"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1175520",
     "source": "product_hunt",
-    "sourceItemId": "ph:1103513",
-    "title": "discode.ai",
-    "summary": "100+ AI models, one interface. ECO friendly.",
-    "body": "discode is your EU-friendly AI router: one interface for 100+ models, with every prompt auto-routed to the best one for the job. Or fine-tune it yourself along Smarter, Speed and Eco. It shows you which model answered and why, redacts your personal data on-device before anything leaves, checks the hard answers across multiple models, and estimates the CO₂, water and energy footprint of every request. Built in Vienna 🇦🇹. Your AI, your rhythm.",
-    "url": "https://www.producthunt.com/products/discode-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/FBBEAOCYJDEVTT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1175520",
+    "title": "Spira for Product Hunt Makers",
+    "summary": "Social media growth agents that build your momentum ",
+    "body": "Drop your Product Hunt link and unlock your brand agent, persona clones of your founding team and AI Influencers that autonomously plan, create, and publish across TikTok, IG, X and Linkedin. It's your biggest launch day, don't let it slide away!",
+    "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/T7AK4DSW7OYURG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 377,
-      "comments": 99,
+      "votes": 441,
+      "comments": 157,
       "rank": 1,
-      "score": 377
+      "score": 441
     },
     "metadata": {
-      "slug": "discode-ai",
+      "slug": "spira-for-product-hunt-makers",
       "topics": [
-        "Productivity",
-        "SaaS",
+        "Social Media",
+        "Marketing",
         "Artificial Intelligence"
       ]
     },
     "rawJson": {
-      "id": "1103513",
-      "name": "discode.ai",
-      "slug": "discode-ai",
-      "tagline": "100+ AI models, one interface. ECO friendly.",
-      "description": "discode is your EU-friendly AI router: one interface for 100+ models, with every prompt auto-routed to the best one for the job. Or fine-tune it yourself along Smarter, Speed and Eco. It shows you which model answered and why, redacts your personal data on-device before anything leaves, checks the hard answers across multiple models, and estimates the CO₂, water and energy footprint of every request. Built in Vienna 🇦🇹. Your AI, your rhythm.",
-      "url": "https://www.producthunt.com/products/discode-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/FBBEAOCYJDEVTT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 377,
-      "commentsCount": 99,
+      "id": "1175520",
+      "name": "Spira for Product Hunt Makers",
+      "slug": "spira-for-product-hunt-makers",
+      "tagline": "Social media growth agents that build your momentum ",
+      "description": "Drop your Product Hunt link and unlock your brand agent, persona clones of your founding team and AI Influencers that autonomously plan, create, and publish across TikTok, IG, X and Linkedin. It's your biggest launch day, don't let it slide away!",
+      "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/T7AK4DSW7OYURG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 441,
+      "commentsCount": 157,
       "dailyRank": 1,
-      "latestScore": 377,
-      "featuredAt": "2026-06-28T07:01:00Z",
-      "createdAt": "2026-06-28T07:01:00Z",
+      "latestScore": 441,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
           {
             "node": {
-              "name": "Productivity",
-              "slug": "productivity"
+              "name": "Social Media",
+              "slug": "social-media"
             }
           },
           {
             "node": {
-              "name": "SaaS",
-              "slug": "saas"
+              "name": "Marketing",
+              "slug": "marketing"
             }
           },
           {
@@ -752,128 +213,275 @@
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/discode-ai",
+    "canonicalUrl": "https://www.producthunt.com/products/spira-ai",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/discode-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/spira-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1180034",
+    "id": "product_hunt:ph:1182365",
     "source": "product_hunt",
-    "sourceItemId": "ph:1180034",
-    "title": "GetCompress",
-    "summary": "Lossless media compression without context switching",
-    "body": "GetCompress is a lightweight desktop app that quickly compresses videos, images, GIFs, PDFs in batches: get up to 90% smaller files with minimal quality loss. Save your time & keep files safe with offline compression. Drag files in and out, no extra clicks. Available for Mac, Windows and Linux.",
-    "url": "https://www.producthunt.com/products/getcompress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/YBS7GXRQPIEDZS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1182365",
+    "title": "Agent Mode by Receiptor AI",
+    "summary": "Bookkeeping assistant that runs receipt workflows end-to-end",
+    "body": "Receiptor AI is an agentic bookkeeping assistant that runs your receipt workflow end-to-end: it collects receipts from your inbox and your mobile, organizes them in your cloud or accounting software, and matches them to your bank transactions. It works quietly in the background with 99% accuracy, and only asks questions when it needs more context. The result: clean books and organized receipt data you can query from anywhere: the app, WhatsApp, or right inside Claude and ChatGPT.",
+    "url": "https://www.producthunt.com/products/receiptor-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/DVSAWE2SN72E2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 322,
-      "comments": 73,
+      "votes": 434,
+      "comments": 95,
       "rank": 2,
-      "score": 322
+      "score": 434
     },
     "metadata": {
-      "slug": "getcompress-3",
+      "slug": "agent-mode-by-receiptor-ai",
       "topics": [
-        "Mac",
-        "Productivity",
-        "Photo & Video"
+        "Fintech",
+        "Artificial Intelligence",
+        "Accounting"
       ]
     },
     "rawJson": {
-      "id": "1180034",
-      "name": "GetCompress",
-      "slug": "getcompress-3",
-      "tagline": "Lossless media compression without context switching",
-      "description": "GetCompress is a lightweight desktop app that quickly compresses videos, images, GIFs, PDFs in batches: get up to 90% smaller files with minimal quality loss. Save your time & keep files safe with offline compression. Drag files in and out, no extra clicks. Available for Mac, Windows and Linux.",
-      "url": "https://www.producthunt.com/products/getcompress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/YBS7GXRQPIEDZS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 322,
-      "commentsCount": 73,
+      "id": "1182365",
+      "name": "Agent Mode by Receiptor AI",
+      "slug": "agent-mode-by-receiptor-ai",
+      "tagline": "Bookkeeping assistant that runs receipt workflows end-to-end",
+      "description": "Receiptor AI is an agentic bookkeeping assistant that runs your receipt workflow end-to-end: it collects receipts from your inbox and your mobile, organizes them in your cloud or accounting software, and matches them to your bank transactions. It works quietly in the background with 99% accuracy, and only asks questions when it needs more context. The result: clean books and organized receipt data you can query from anywhere: the app, WhatsApp, or right inside Claude and ChatGPT.",
+      "url": "https://www.producthunt.com/products/receiptor-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/DVSAWE2SN72E2P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 434,
+      "commentsCount": 95,
       "dailyRank": 2,
-      "latestScore": 322,
-      "featuredAt": "2026-06-28T07:01:00Z",
-      "createdAt": "2026-06-28T07:01:00Z",
+      "latestScore": 434,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
           {
             "node": {
-              "name": "Mac",
-              "slug": "mac"
+              "name": "Fintech",
+              "slug": "fintech"
             }
           },
           {
             "node": {
-              "name": "Productivity",
-              "slug": "productivity"
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
             }
           },
           {
             "node": {
-              "name": "Photo & Video",
-              "slug": "photo-video"
+              "name": "Accounting",
+              "slug": "accounting"
             }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/getcompress",
+    "canonicalUrl": "https://www.producthunt.com/products/receiptor-ai",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/getcompress?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/receiptor-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1178202",
+    "id": "product_hunt:ph:1181198",
     "source": "product_hunt",
-    "sourceItemId": "ph:1178202",
-    "title": "Persona.js",
-    "summary": "Add WebMCP-native AI chat to any Frontend",
-    "body": "Persona is a lightweight, open-source AI chat UI library that embeds into any website, from modern apps to static HTML. Unlike React-based chat frameworks, Persona is framework-free, backend-agnostic, and WebMCP-native, so your assistant can discover and execute tools exposed by the parent page. Add streaming chat, voice, theming, and interactive copilot experiences without rebuilding your frontend or writing bespoke APIs.",
-    "url": "https://www.producthunt.com/products/persona-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/4BWHM7CAXUKOUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1181198",
+    "title": "ClinePass",
+    "summary": "Run the best open-weights models in Cline",
+    "body": "ClinePass gives Cline users one $9.99/month subscription for top open-weight coding models like GLM, Kimi, DeepSeek, and more. Use powerful models inside Cline with 2–5x standard API rate limits, without juggling provider accounts, API keys, billing pages, or model availability. Built for developers who want Cline’s agentic coding workflow with a simpler, faster open-model stack.",
+    "url": "https://www.producthunt.com/products/cline-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/4XBT2KCNTOUDKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 292,
-      "comments": 44,
+      "votes": 306,
+      "comments": 38,
       "rank": 3,
-      "score": 292
+      "score": 306
     },
     "metadata": {
-      "slug": "persona-js",
+      "slug": "clinepass",
       "topics": [
-        "Open Source",
         "Developer Tools",
+        "Artificial Intelligence",
+        "Development"
+      ]
+    },
+    "rawJson": {
+      "id": "1181198",
+      "name": "ClinePass",
+      "slug": "clinepass",
+      "tagline": "Run the best open-weights models in Cline",
+      "description": "ClinePass gives Cline users one $9.99/month subscription for top open-weight coding models like GLM, Kimi, DeepSeek, and more. Use powerful models inside Cline with 2–5x standard API rate limits, without juggling provider accounts, API keys, billing pages, or model availability. Built for developers who want Cline’s agentic coding workflow with a simpler, faster open-model stack.",
+      "url": "https://www.producthunt.com/products/cline-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/4XBT2KCNTOUDKC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 306,
+      "commentsCount": 38,
+      "dailyRank": 3,
+      "latestScore": 306,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Developer Tools",
+              "slug": "developer-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          },
+          {
+            "node": {
+              "name": "Development",
+              "slug": "development"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/cline-4",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/cline-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1133685",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1133685",
+    "title": "VisibAI",
+    "summary": "Are you in AI answers? Find out and fix it in minutes",
+    "body": "VisibAI shows whether your business appears when people ask AI for recommendations, and helps you fix it. It runs queries across six AI platforms (ChatGPT, Perplexity, Claude, Gemini, Mistral, You.com), scores your visibility 0-100, reveals which competitors show up instead, and returns a prioritized fix list plus ready-to-ship fix files and a branded report. One-off audits or monthly tracking. White-label for agencies. EU-hosted and GDPR-native.",
+    "url": "https://www.producthunt.com/products/visibai-ai-visibility-audit-tool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/RZKKIOKZE7VJEC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
+    "metrics": {
+      "votes": 249,
+      "comments": 50,
+      "rank": 4,
+      "score": 249
+    },
+    "metadata": {
+      "slug": "visibai",
+      "topics": [
+        "Marketing",
+        "SEO",
         "Artificial Intelligence"
       ]
     },
     "rawJson": {
-      "id": "1178202",
-      "name": "Persona.js",
-      "slug": "persona-js",
-      "tagline": "Add WebMCP-native AI chat to any Frontend",
-      "description": "Persona is a lightweight, open-source AI chat UI library that embeds into any website, from modern apps to static HTML. Unlike React-based chat frameworks, Persona is framework-free, backend-agnostic, and WebMCP-native, so your assistant can discover and execute tools exposed by the parent page. Add streaming chat, voice, theming, and interactive copilot experiences without rebuilding your frontend or writing bespoke APIs.",
-      "url": "https://www.producthunt.com/products/persona-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/4BWHM7CAXUKOUV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 292,
-      "commentsCount": 44,
-      "dailyRank": 3,
-      "latestScore": 292,
-      "featuredAt": "2026-06-28T07:01:00Z",
-      "createdAt": "2026-06-28T07:01:00Z",
+      "id": "1133685",
+      "name": "VisibAI",
+      "slug": "visibai",
+      "tagline": "Are you in AI answers? Find out and fix it in minutes",
+      "description": "VisibAI shows whether your business appears when people ask AI for recommendations, and helps you fix it. It runs queries across six AI platforms (ChatGPT, Perplexity, Claude, Gemini, Mistral, You.com), scores your visibility 0-100, reveals which competitors show up instead, and returns a prioritized fix list plus ready-to-ship fix files and a branded report. One-off audits or monthly tracking. White-label for agencies. EU-hosted and GDPR-native.",
+      "url": "https://www.producthunt.com/products/visibai-ai-visibility-audit-tool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/RZKKIOKZE7VJEC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 249,
+      "commentsCount": 50,
+      "dailyRank": 4,
+      "latestScore": 249,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Marketing",
+              "slug": "marketing"
+            }
+          },
+          {
+            "node": {
+              "name": "SEO",
+              "slug": "seo"
+            }
+          },
+          {
+            "node": {
+              "name": "Artificial Intelligence",
+              "slug": "artificial-intelligence"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/visibai-ai-visibility-audit-tool",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/visibai-ai-visibility-audit-tool?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1182762",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1182762",
+    "title": "PMB",
+    "summary": "Stop re-explaining your project to AI coding agents",
+    "body": "PMB gives Claude Code, Cursor, Codex and Zed persistent project memory through MCP. It stores decisions, lessons, goals, recent work, project facts and docs in one SQLite workspace on your disk. No cloud, no API keys, no LLM call on the read path. It is open source, offline-first, inspectable/exportable, with a local dashboard and honest impact tracking so you can see which memories actually help.",
+    "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/XHBXGWG3FHAQJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
+    "metrics": {
+      "votes": 208,
+      "comments": 61,
+      "rank": 5,
+      "score": 208
+    },
+    "metadata": {
+      "slug": "pmb",
+      "topics": [
+        "Open Source",
+        "Developer Tools",
+        "Artificial Intelligence",
+        "GitHub"
+      ]
+    },
+    "rawJson": {
+      "id": "1182762",
+      "name": "PMB",
+      "slug": "pmb",
+      "tagline": "Stop re-explaining your project to AI coding agents",
+      "description": "PMB gives Claude Code, Cursor, Codex and Zed persistent project memory through MCP. It stores decisions, lessons, goals, recent work, project facts and docs in one SQLite workspace on your disk. No cloud, no API keys, no LLM call on the read path. It is open source, offline-first, inspectable/exportable, with a local dashboard and honest impact tracking so you can see which memories actually help.",
+      "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/XHBXGWG3FHAQJZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 208,
+      "commentsCount": 61,
+      "dailyRank": 5,
+      "latestScore": 208,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
           {
@@ -893,66 +501,72 @@
               "name": "Artificial Intelligence",
               "slug": "artificial-intelligence"
             }
+          },
+          {
+            "node": {
+              "name": "GitHub",
+              "slug": "github"
+            }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/persona-12",
+    "canonicalUrl": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/persona-12?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/pmb-local-first-memory-for-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1182736",
+    "id": "product_hunt:ph:1183145",
     "source": "product_hunt",
-    "sourceItemId": "ph:1182736",
-    "title": "Dotient",
-    "summary": "Your local semantic search app",
-    "body": "Dotient is a local-first desktop application that helps you organize and search through your personal files using ML-powered visual search. Your files stay private, work offline.",
-    "url": "https://www.producthunt.com/products/dotient?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/RWRX52GMAZRU3H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1183145",
+    "title": "ReadHere",
+    "summary": "Lightweight PDF & EPUB reader in your browser",
+    "body": "A lightweight reader for your PDFs and EPUBs, entirely in your browser; no install, no account, no ecosystem. Highlight both formats, keep a per-book journal, and read offline. Your files stay on your device. Sync to your own Google Drive coming soon.",
+    "url": "https://www.producthunt.com/products/readhere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/5MCAKZT73D2NF4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 272,
-      "comments": 40,
-      "rank": 4,
-      "score": 272
+      "votes": 152,
+      "comments": 16,
+      "rank": 6,
+      "score": 152
     },
     "metadata": {
-      "slug": "dotient",
+      "slug": "readhere-2",
       "topics": [
-        "Productivity",
+        "eBook Reader",
         "Privacy",
-        "Search"
+        "Books"
       ]
     },
     "rawJson": {
-      "id": "1182736",
-      "name": "Dotient",
-      "slug": "dotient",
-      "tagline": "Your local semantic search app",
-      "description": "Dotient is a local-first desktop application that helps you organize and search through your personal files using ML-powered visual search. Your files stay private, work offline.",
-      "url": "https://www.producthunt.com/products/dotient?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/RWRX52GMAZRU3H?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 272,
-      "commentsCount": 40,
-      "dailyRank": 4,
-      "latestScore": 272,
-      "featuredAt": "2026-06-28T07:01:00Z",
-      "createdAt": "2026-06-28T07:01:00Z",
+      "id": "1183145",
+      "name": "ReadHere",
+      "slug": "readhere-2",
+      "tagline": "Lightweight PDF & EPUB reader in your browser",
+      "description": "A lightweight reader for your PDFs and EPUBs, entirely in your browser; no install, no account, no ecosystem. Highlight both formats, keep a per-book journal, and read offline. Your files stay on your device. Sync to your own Google Drive coming soon.",
+      "url": "https://www.producthunt.com/products/readhere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/5MCAKZT73D2NF4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 152,
+      "commentsCount": 16,
+      "dailyRank": 6,
+      "latestScore": 152,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
           {
             "node": {
-              "name": "Productivity",
-              "slug": "productivity"
+              "name": "eBook Reader",
+              "slug": "ebook-reader"
             }
           },
           {
@@ -963,287 +577,215 @@
           },
           {
             "node": {
-              "name": "Search",
-              "slug": "search"
+              "name": "Books",
+              "slug": "books"
             }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/dotient",
+    "canonicalUrl": "https://www.producthunt.com/products/readhere-2",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/dotient?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/readhere-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1182460",
+    "id": "product_hunt:ph:1183216",
     "source": "product_hunt",
-    "sourceItemId": "ph:1182460",
-    "title": "Lyto",
-    "summary": "\"One AI agent across your browser, tools, and messages \"",
-    "body": "Lyto AI is a Chrome extension that gives you full control over your browser. Open and close tabs, scroll, click, fill forms, and interact with every DOM element. Integrates with Google Docs, Gmail, and Google Sheets. Research, automate tasks, and organize your workflow — all inside Chrome.",
-    "url": "https://www.producthunt.com/products/lyto?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/53QUDXZGRRT6SK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1183216",
+    "title": "Crest",
+    "summary": "System stats and translation on your Mac's notch",
+    "body": "Crest is a Mac notch app that turns your MacBook's notch into a hub: Now Playing, a dashboard, system stats, calendar, tasks, translation and more. Free, Pro $19.99.",
+    "url": "https://www.producthunt.com/products/crest-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/HLYRDPGX2RV3IF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 178,
-      "comments": 28,
-      "rank": 5,
-      "score": 178
-    },
-    "metadata": {
-      "slug": "lyto",
-      "topics": [
-        "Chrome Extensions",
-        "Task Management",
-        "Artificial Intelligence"
-      ]
-    },
-    "rawJson": {
-      "id": "1182460",
-      "name": "Lyto",
-      "slug": "lyto",
-      "tagline": "\"One AI agent across your browser, tools, and messages \"",
-      "description": "Lyto AI is a Chrome extension that gives you full control over your browser. Open and close tabs, scroll, click, fill forms, and interact with every DOM element. Integrates with Google Docs, Gmail, and Google Sheets. Research, automate tasks, and organize your workflow — all inside Chrome.",
-      "url": "https://www.producthunt.com/products/lyto?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/53QUDXZGRRT6SK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 178,
-      "commentsCount": 28,
-      "dailyRank": 5,
-      "latestScore": 178,
-      "featuredAt": "2026-06-28T07:01:00Z",
-      "createdAt": "2026-06-28T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Chrome Extensions",
-              "slug": "chrome-extensions"
-            }
-          },
-          {
-            "node": {
-              "name": "Task Management",
-              "slug": "task-management"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/lyto",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/lyto?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1182753",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1182753",
-    "title": "Wirable",
-    "summary": "Can AI agents use your product?",
-    "body": "Wirable tests whether AI agents can actually use your product. Paste a URL, run real agent workflows, and get a score out of 100 with clear evidence behind every pass or fail. If agents get stuck, Wirable hosts an MCP proxy in front of your product so they can complete the job without you shipping code.",
-    "url": "https://www.producthunt.com/products/wirable?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/MML7K5NFBG2HVE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
-    "metrics": {
-      "votes": 60,
+      "votes": 152,
       "comments": 13,
-      "rank": 6,
-      "score": 60
-    },
-    "metadata": {
-      "slug": "wirable",
-      "topics": [
-        "API",
-        "SaaS",
-        "Artificial Intelligence"
-      ]
-    },
-    "rawJson": {
-      "id": "1182753",
-      "name": "Wirable",
-      "slug": "wirable",
-      "tagline": "Can AI agents use your product?",
-      "description": "Wirable tests whether AI agents can actually use your product. Paste a URL, run real agent workflows, and get a score out of 100 with clear evidence behind every pass or fail. If agents get stuck, Wirable hosts an MCP proxy in front of your product so they can complete the job without you shipping code.",
-      "url": "https://www.producthunt.com/products/wirable?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/MML7K5NFBG2HVE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 60,
-      "commentsCount": 13,
-      "dailyRank": 6,
-      "latestScore": 60,
-      "featuredAt": null,
-      "createdAt": "2026-06-28T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "API",
-              "slug": "api-1"
-            }
-          },
-          {
-            "node": {
-              "name": "SaaS",
-              "slug": "saas"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/wirable",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/wirable?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1176725",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1176725",
-    "title": "Schema Source by Tabstack",
-    "summary": "Turn any URL into a JSON Schema, Zod, or Pydantic model",
-    "body": "Get the JSON Schema for any URL. Paste a link and get a ready-to-use schema as JSON Schema, a Zod object, or a Pydantic model. Copy it straight into your extraction or validation code. Schema Source learns each site's URL patterns, so results come back fast and stay consistent across pages of the same shape. Every result is also an API: request the same URL with JSON content negotiation and get the cached schema back, no key required. Free, by the team behind Tabstack—backed by Mozilla.",
-    "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/IUW642OQKI6O6A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
-    "metrics": {
-      "votes": 39,
-      "comments": 5,
       "rank": 7,
-      "score": 39
+      "score": 152
     },
     "metadata": {
-      "slug": "schema-source-by-tabstack",
+      "slug": "crest-4",
       "topics": [
-        "API",
-        "Developer Tools"
+        "Mac",
+        "Design Tools",
+        "Apple"
       ]
     },
     "rawJson": {
-      "id": "1176725",
-      "name": "Schema Source by Tabstack",
-      "slug": "schema-source-by-tabstack",
-      "tagline": "Turn any URL into a JSON Schema, Zod, or Pydantic model",
-      "description": "Get the JSON Schema for any URL. Paste a link and get a ready-to-use schema as JSON Schema, a Zod object, or a Pydantic model. Copy it straight into your extraction or validation code. Schema Source learns each site's URL patterns, so results come back fast and stay consistent across pages of the same shape. Every result is also an API: request the same URL with JSON content negotiation and get the cached schema back, no key required. Free, by the team behind Tabstack—backed by Mozilla.",
-      "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/IUW642OQKI6O6A?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 39,
-      "commentsCount": 5,
+      "id": "1183216",
+      "name": "Crest",
+      "slug": "crest-4",
+      "tagline": "System stats and translation on your Mac's notch",
+      "description": "Crest is a Mac notch app that turns your MacBook's notch into a hub: Now Playing, a dashboard, system stats, calendar, tasks, translation and more. Free, Pro $19.99.",
+      "url": "https://www.producthunt.com/products/crest-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/HLYRDPGX2RV3IF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 152,
+      "commentsCount": 13,
       "dailyRank": 7,
-      "latestScore": 39,
-      "featuredAt": null,
-      "createdAt": "2026-06-28T07:01:00Z",
+      "latestScore": 152,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
           {
             "node": {
-              "name": "API",
-              "slug": "api-1"
+              "name": "Mac",
+              "slug": "mac"
             }
           },
           {
             "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
+              "name": "Design Tools",
+              "slug": "design-tools"
+            }
+          },
+          {
+            "node": {
+              "name": "Apple",
+              "slug": "apple"
             }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/tabstack",
+    "canonicalUrl": "https://www.producthunt.com/products/crest-3",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/tabstack?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/crest-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1115189",
+    "id": "product_hunt:ph:1156488",
     "source": "product_hunt",
-    "sourceItemId": "ph:1115189",
-    "title": "kodwai",
-    "summary": "The first platform that scores how you Vibe Code",
-    "body": "Kodwai is the first platform that scores how well you collaborate with AI coding agents (Claude Code, Cursor, Codex). Solve real challenges in your own terminal; the CLI captures your code, tests, git history, agent transcript, and time, then scores you across three axes: Direction, Outcome, and Lift, each citing its own evidence. Climb a public leaderboard, earn badges, and build a profile that shows how you engineer, not what you memorized. Free, bring your own agent.",
-    "url": "https://www.producthunt.com/products/kodwai-launc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/SBWH2HP45E2D6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1156488",
+    "title": "Sami",
+    "summary": "Automate ad budgets across Google, LinkedIn & Meta ads",
+    "body": "Still manually checking ad performance across 4 different platforms? Sami automates it. Build rules that pause underperformers, control budgets, and adjust pacing in real time — across Google, Meta, LinkedIn, and YouTube. One platform. Zero babysitting. Trusted by marketers managing $3M+ in ad spend. Start your free trial.",
+    "url": "https://www.producthunt.com/products/sami-automate-pace-scale-your-ads?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/SJ53R526CISYNF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 29,
-      "comments": 11,
+      "votes": 149,
+      "comments": 22,
       "rank": 8,
-      "score": 29
+      "score": 149
     },
     "metadata": {
-      "slug": "kodwai",
+      "slug": "sami",
       "topics": [
-        "Education",
-        "Developer Tools",
-        "Artificial Intelligence"
+        "Marketing",
+        "Advertising",
+        "Marketing automation"
       ]
     },
     "rawJson": {
-      "id": "1115189",
-      "name": "kodwai",
-      "slug": "kodwai",
-      "tagline": "The first platform that scores how you Vibe Code",
-      "description": "Kodwai is the first platform that scores how well you collaborate with AI coding agents (Claude Code, Cursor, Codex). Solve real challenges in your own terminal; the CLI captures your code, tests, git history, agent transcript, and time, then scores you across three axes: Direction, Outcome, and Lift, each citing its own evidence. Climb a public leaderboard, earn badges, and build a profile that shows how you engineer, not what you memorized. Free, bring your own agent.",
-      "url": "https://www.producthunt.com/products/kodwai-launc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/SBWH2HP45E2D6Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 29,
-      "commentsCount": 11,
+      "id": "1156488",
+      "name": "Sami",
+      "slug": "sami",
+      "tagline": "Automate ad budgets across Google, LinkedIn & Meta ads",
+      "description": "Still manually checking ad performance across 4 different platforms? Sami automates it. Build rules that pause underperformers, control budgets, and adjust pacing in real time — across Google, Meta, LinkedIn, and YouTube. One platform. Zero babysitting. Trusted by marketers managing $3M+ in ad spend. Start your free trial.",
+      "url": "https://www.producthunt.com/products/sami-automate-pace-scale-your-ads?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/SJ53R526CISYNF?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 149,
+      "commentsCount": 22,
       "dailyRank": 8,
-      "latestScore": 29,
-      "featuredAt": null,
-      "createdAt": "2026-06-28T07:01:00Z",
+      "latestScore": 149,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
           {
             "node": {
-              "name": "Education",
-              "slug": "education"
+              "name": "Marketing",
+              "slug": "marketing"
             }
           },
           {
             "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
+              "name": "Advertising",
+              "slug": "advertising"
+            }
+          },
+          {
+            "node": {
+              "name": "Marketing automation",
+              "slug": "marketing-automation"
+            }
+          }
+        ]
+      }
+    },
+    "systemCategory": "product",
+    "canonicalUrl": "https://www.producthunt.com/products/sami-automate-pace-scale-your-ads",
+    "sources": [
+      "product_hunt"
+    ],
+    "sourceLinks": [
+      {
+        "source": "product_hunt",
+        "url": "https://www.producthunt.com/products/sami-automate-pace-scale-your-ads?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+      }
+    ]
+  },
+  {
+    "id": "product_hunt:ph:1180072",
+    "source": "product_hunt",
+    "sourceItemId": "ph:1180072",
+    "title": "Outpaint - Ad Reframe",
+    "summary": "AI to turn vertical UGC into widescreen ads",
+    "body": "UGC ads reframed for TV by Outpaint.com. Vertical ads (9:16) expanded into widescreen (16:9) for connected TV, while keeping the original footage pixel perfect. Outperforms pillarboxing and side blur.",
+    "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/A7GDUKYZTIZURJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
+    "metrics": {
+      "votes": 135,
+      "comments": 14,
+      "rank": 9,
+      "score": 135
+    },
+    "metadata": {
+      "slug": "outpaint-ad-reframe",
+      "topics": [
+        "Advertising",
+        "Artificial Intelligence",
+        "Video"
+      ]
+    },
+    "rawJson": {
+      "id": "1180072",
+      "name": "Outpaint - Ad Reframe",
+      "slug": "outpaint-ad-reframe",
+      "tagline": "AI to turn vertical UGC into widescreen ads",
+      "description": "UGC ads reframed for TV by Outpaint.com. Vertical ads (9:16) expanded into widescreen (16:9) for connected TV, while keeping the original footage pixel perfect. Outperforms pillarboxing and side blur.",
+      "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/A7GDUKYZTIZURJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 135,
+      "commentsCount": 14,
+      "dailyRank": 9,
+      "latestScore": 135,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
+      "topics": {
+        "edges": [
+          {
+            "node": {
+              "name": "Advertising",
+              "slug": "advertising"
             }
           },
           {
@@ -1251,62 +793,75 @@
               "name": "Artificial Intelligence",
               "slug": "artificial-intelligence"
             }
+          },
+          {
+            "node": {
+              "name": "Video",
+              "slug": "video"
+            }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/kodwai-launc",
+    "canonicalUrl": "https://www.producthunt.com/products/outpaint-com-ad-reframe",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/kodwai-launc?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/outpaint-com-ad-reframe?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1181953",
+    "id": "product_hunt:ph:1179811",
     "source": "product_hunt",
-    "sourceItemId": "ph:1181953",
-    "title": "Weavz.io",
-    "summary": "Let AI agents safely act in 1,000+ customer apps",
-    "body": "Let your AI agents safely act in the apps your customers already use, like Slack, Gmail, CRMs, and billing. Give an agent a Weavz MCP in Claude, ChatGPT, or Cursor, or a CLI workspace in your own runtime. It reaches 1,000+ integrations and 12,000+ agent tools through Code Mode's 3 calls, with Human Gates, scoped credentials, state, files, and audit. Embedding it yourself? Provision workspaces, connect users, and mint scoped tokens via the API and TypeScript/Python SDKs.",
-    "url": "https://www.producthunt.com/products/weavz-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/KUYLVH57WBK7QR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
+    "sourceItemId": "ph:1179811",
+    "title": "Intelli",
+    "summary": "Convert leads into customers with AI conversations",
+    "body": "Intelli is a WhatsApp Business API platform for SMBs in emerging markets. Automate customer engagement, run broadcast campaigns, collect payments, and manage support from one place across WhatsApp, web chat, Instagram, Messenger, and email. AI assistants are trained on your own data, with customer journey workflows and local payment rails.",
+    "url": "https://www.producthunt.com/products/intelli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "externalUrl": "https://www.producthunt.com/r/IPQVVBWWY4JTR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+    "publishedAt": "2026-06-29T07:01:00Z",
     "metrics": {
-      "votes": 26,
-      "comments": 20,
-      "rank": 9,
-      "score": 26
+      "votes": 121,
+      "comments": 14,
+      "rank": 10,
+      "score": 121
     },
     "metadata": {
-      "slug": "weavz-io",
+      "slug": "intelli-3",
       "topics": [
+        "Customer Communication",
         "SaaS",
-        "Developer Tools",
-        "Artificial Intelligence"
+        "Artificial Intelligence",
+        "YouTube"
       ]
     },
     "rawJson": {
-      "id": "1181953",
-      "name": "Weavz.io",
-      "slug": "weavz-io",
-      "tagline": "Let AI agents safely act in 1,000+ customer apps",
-      "description": "Let your AI agents safely act in the apps your customers already use, like Slack, Gmail, CRMs, and billing. Give an agent a Weavz MCP in Claude, ChatGPT, or Cursor, or a CLI workspace in your own runtime. It reaches 1,000+ integrations and 12,000+ agent tools through Code Mode's 3 calls, with Human Gates, scoped credentials, state, files, and audit. Embedding it yourself? Provision workspaces, connect users, and mint scoped tokens via the API and TypeScript/Python SDKs.",
-      "url": "https://www.producthunt.com/products/weavz-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/KUYLVH57WBK7QR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 26,
-      "commentsCount": 20,
-      "dailyRank": 9,
-      "latestScore": 26,
-      "featuredAt": null,
-      "createdAt": "2026-06-28T07:01:00Z",
+      "id": "1179811",
+      "name": "Intelli",
+      "slug": "intelli-3",
+      "tagline": "Convert leads into customers with AI conversations",
+      "description": "Intelli is a WhatsApp Business API platform for SMBs in emerging markets. Automate customer engagement, run broadcast campaigns, collect payments, and manage support from one place across WhatsApp, web chat, Instagram, Messenger, and email. AI assistants are trained on your own data, with customer journey workflows and local payment rails.",
+      "url": "https://www.producthunt.com/products/intelli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "website": "https://www.producthunt.com/r/IPQVVBWWY4JTR5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+      "votesCount": 121,
+      "commentsCount": 14,
+      "dailyRank": 10,
+      "latestScore": 121,
+      "featuredAt": "2026-06-29T07:01:00Z",
+      "createdAt": "2026-06-29T07:01:00Z",
       "topics": {
         "edges": [
+          {
+            "node": {
+              "name": "Customer Communication",
+              "slug": "customer-communication"
+            }
+          },
           {
             "node": {
               "name": "SaaS",
@@ -1315,324 +870,66 @@
           },
           {
             "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
-            }
-          },
-          {
-            "node": {
               "name": "Artificial Intelligence",
               "slug": "artificial-intelligence"
             }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/weavz-io",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/weavz-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1182644",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1182644",
-    "title": "Salestrics Resolve Beta",
-    "summary": "The AI-Native Service Desk for Startups",
-    "body": "Salestrics Resolve expands Salestrics beyond CRM with an AI-native platform for customer support, IT, and development teams. Manage cases, knowledge, assets, entitlements, service requests, change requests, known errors, service contracts, and projects with Sprint—all connected through shared accounts, contacts, activities, and files. Resolve is available in Beta on Scale and Enterprise plans, with full launch on July 27.",
-    "url": "https://www.producthunt.com/products/salestrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/Z5BN5MF6CTNQGK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-06-28T07:01:00Z",
-    "metrics": {
-      "votes": 24,
-      "comments": 12,
-      "rank": 11,
-      "score": 24
-    },
-    "metadata": {
-      "slug": "salestrics-resolve-beta-2",
-      "topics": [
-        "Task Management",
-        "Customer Success"
-      ]
-    },
-    "rawJson": {
-      "id": "1182644",
-      "name": "Salestrics Resolve Beta",
-      "slug": "salestrics-resolve-beta-2",
-      "tagline": "The AI-Native Service Desk for Startups",
-      "description": "Salestrics Resolve expands Salestrics beyond CRM with an AI-native platform for customer support, IT, and development teams. Manage cases, knowledge, assets, entitlements, service requests, change requests, known errors, service contracts, and projects with Sprint—all connected through shared accounts, contacts, activities, and files. Resolve is available in Beta on Scale and Enterprise plans, with full launch on July 27.",
-      "url": "https://www.producthunt.com/products/salestrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/Z5BN5MF6CTNQGK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 24,
-      "commentsCount": 12,
-      "dailyRank": 11,
-      "latestScore": 24,
-      "featuredAt": null,
-      "createdAt": "2026-06-28T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Task Management",
-              "slug": "task-management"
-            }
           },
           {
             "node": {
-              "name": "Customer Success",
-              "slug": "customer-success"
+              "name": "YouTube",
+              "slug": "youtube"
             }
           }
         ]
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/salestrics",
+    "canonicalUrl": "https://www.producthunt.com/products/intelli",
     "sources": [
       "product_hunt"
     ],
     "sourceLinks": [
       {
         "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/salestrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "url": "https://www.producthunt.com/products/intelli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
       }
     ]
   },
   {
-    "id": "github_trending:github:apple/container",
+    "id": "github_trending:github:microsoft/markitdown",
     "source": "github_trending",
-    "sourceItemId": "github:apple/container",
-    "title": "apple/container",
-    "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
-    "url": "https://github.com/apple/container",
-    "publishedAt": "2026-06-30T03:00:30.984Z",
+    "sourceItemId": "github:microsoft/markitdown",
+    "title": "microsoft/markitdown",
+    "summary": "Python tool for converting files and office documents to Markdown.",
+    "url": "https://github.com/microsoft/markitdown",
+    "publishedAt": "2026-06-30T07:00:51.015Z",
     "metrics": {
-      "rank": 1
+      "rank": 14
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/apple/container",
+    "canonicalUrl": "https://github.com/microsoft/markitdown",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/apple/container"
+        "url": "https://github.com/microsoft/markitdown"
       }
     ]
   },
   {
-    "id": "github_trending:github:lfnovo/open-notebook",
-    "source": "github_trending",
-    "sourceItemId": "github:lfnovo/open-notebook",
-    "title": "lfnovo/open-notebook",
-    "summary": "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!",
-    "url": "https://github.com/lfnovo/open-notebook",
-    "publishedAt": "2026-06-30T03:00:30.997Z",
-    "metrics": {
-      "rank": 8
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/lfnovo/open-notebook",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/lfnovo/open-notebook"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:tashfeenahmed/freellmapi",
-    "source": "github_trending",
-    "sourceItemId": "github:tashfeenahmed/freellmapi",
-    "title": "tashfeenahmed/freellmapi",
-    "summary": "OpenAI-compatible proxy that stacks the free tiers of 16 LLM providers (~1.7B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint.",
-    "url": "https://github.com/tashfeenahmed/freellmapi",
-    "publishedAt": "2026-06-30T03:00:31.008Z",
-    "metrics": {
-      "rank": 18
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/tashfeenahmed/freellmapi",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/tashfeenahmed/freellmapi"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:Open-LLM-VTuber/Open-LLM-VTuber",
-    "source": "github_trending",
-    "sourceItemId": "github:Open-LLM-VTuber/Open-LLM-VTuber",
-    "title": "Open-LLM-VTuber/Open-LLM-VTuber",
-    "summary": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms Open-LLM-VTuber 📢 v2.0 Development : We are focusing on Open-LLM-VTuber v2.0 — a complete rewrite of the codebase.",
-    "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-    "publishedAt": "2026-06-30T03:00:31.010Z",
-    "metrics": {
-      "rank": 20
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
-    "title": "HTML table extractor",
-    "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/html-table-extractor\">HTML table extractor</a></p> <p>Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON.</p> <p>Try it out by selecting everything on the Wikipedia <a href=\"https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_the_San_Francisco_Bay_Area\">List of cit",
-    "body": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/html-table-extractor\">HTML table extractor</a></p> <p>Yet another in my growing collection of paste-conversion tools. This one accepts pasted rich text from browsers (with embedded HTML tables) and converts every detected table into HTML, Markdown, CSV, TSV, or JSON.</p> <p>Try it out by selecting everything on the Wikipedia <a href=\"https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_the_San_Francisco_Bay_Area\">List of cities and towns in the San Francisco Bay Area</a> page and pasting it directly into the tool:</p> <p><img alt=\"Screenshot of a web interface for converting table data between formats. A row of tabs labeled HTML, Markdown, CSV, TSV, and JSON sits below the bottom edge of a styled data table, with the T",
-    "url": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-29T23:38:21.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Simon Willison"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/29/html-table-extractor",
-    "sources": [
-      "builder_blog"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/29/html-table-extractor/#atom-everything"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
-    "title": "Count the number of Safari tabs",
-    "summary": "<p>Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari:</p> <pre><code>osascript -e 'tell application \"Safari\" to count tabs of every window' </code></pre> <p><img alt=\"I ran it in a terminal window and got back 370.\" src=\"https://static.simonwillison.net/static/2026/tab-shame.jpg\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/safari\">safari</a>, <a href=\"https://simonwillison.net/tags/til\">til</a>, <a href=\"https://simonwillison.net/tags/applescript\">appl",
-    "body": "<p>Tiniest TIL, using AppleScript to count the number of open browser tabs in Safari:</p> <pre><code>osascript -e 'tell application \"Safari\" to count tabs of every window' </code></pre> <p><img alt=\"I ran it in a terminal window and got back 370.\" src=\"https://static.simonwillison.net/static/2026/tab-shame.jpg\" /></p> <p>Tags: <a href=\"https://simonwillison.net/tags/safari\">safari</a>, <a href=\"https://simonwillison.net/tags/til\">til</a>, <a href=\"https://simonwillison.net/tags/applescript\">applescript</a></p>",
-    "url": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-29T18:36:18.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Simon Willison"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/29/safari-tab-count",
-    "sources": [
-      "builder_blog"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/29/safari-tab-count/#atom-everything"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-    "title": "Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding",
-    "summary": "<p><strong><a href=\"https://deep-reinforce.com/ornith_1_0.html\">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</a></strong></p> This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.</p> <blockquote> <p>[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</p> </bloc",
-    "body": "<p><strong><a href=\"https://deep-reinforce.com/ornith_1_0.html\">Ornith-1.0: Self-Scaffolding LLMs for Agentic Coding</a></strong></p> This is an interesting new open weights (MIT licensed) model, the first model release from DeepReinforce.</p> <blockquote> <p>[...] with variants including 9B Dense, 31B Dense, 35B MoE, and 397B MoE. Built on top of pretrained Gemma 4 and Qwen 3.5, it achieves state-of-the-art performance among open-source models of comparable size on coding benchmarks.</p> </blockquote> <p>As far as I can tell the licenses of those underlying models is compatible with being used in this way - Gemma 4 is Apache 2.0 licensed (and not bound by the janky additional <a href=\"https://ai.google.dev/gemma/terms\">Gemma Terms of Use</a> that afflicted the previous Gemma models) and Q",
-    "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-06-29T16:17:59.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Simon Willison"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jun/29/ornith",
-    "sources": [
-      "builder_blog"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jun/29/ornith/#atom-everything"
-      }
-    ]
-  },
-  {
-    "id": "builder_lobsters:builder_lobsters:https://ieeexplore.ieee.org/document/11475847/",
-    "source": "builder_lobsters",
-    "sourceItemId": "builder_lobsters:https://ieeexplore.ieee.org/document/11475847/",
-    "title": "Robust AI Security and Alignment: A Sisyphean Endeavor?",
-    "summary": "<p><a href=\"https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update\" rel=\"ugc\">NIST article</a> covers this paper well</p> <p><a href=\"https://lobste.rs/s/7exvix/robust_ai_security_alignment_sisyphean\">Comments</a></p>",
-    "body": "<p><a href=\"https://www.nist.gov/news-events/news/2026/06/nist-mathematical-proof-supports-transition-continuous-monitor-and-update\" rel=\"ugc\">NIST article</a> covers this paper well</p> <p><a href=\"https://lobste.rs/s/7exvix/robust_ai_security_alignment_sisyphean\">Comments</a></p>",
-    "url": "https://ieeexplore.ieee.org/document/11475847/",
-    "sourceName": "Lobsters AI",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-06-29T20:56:52.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Lobsters AI"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://ieeexplore.ieee.org/document/11475847",
-    "sources": [
-      "builder_lobsters"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_lobsters",
-        "url": "https://ieeexplore.ieee.org/document/11475847/"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30251",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30534",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30251",
-    "title": "TACO: Tool-Augmented Credit Optimization for Agentic Tool Use",
-    "summary": "Agentic multimodal models perform diverse operations on an image via code and reason over the returned view, an effective paradigm for fine-grained visual question answering. However, code operations can be useful, redundant, or misleading. Outcome-only rewards cannot precisely distinguish these cases, and existing process rewards either fail to attribute final correctness to individual tool calls, or require an external judge model. To address this, we introduce Tool-Augmented Credit Optimizati",
-    "body": "Agentic multimodal models perform diverse operations on an image via code and reason over the returned view, an effective paradigm for fine-grained visual question answering. However, code operations can be useful, redundant, or misleading. Outcome-only rewards cannot precisely distinguish these cases, and existing process rewards either fail to attribute final correctness to individual tool calls, or require an external judge model. To address this, we introduce Tool-Augmented Credit Optimization (TACO), a GRPO variant for code-tool agents built on two coupled advantage channels. The first, Differential Answer-Probe Reward (DAPR), is a self-supervised, judge-free tool-contribution advantage that credits each tool call by its own effect on answering correctly. Probe tokens inserted into th",
-    "url": "https://arxiv.org/abs/2606.30251",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30534",
+    "title": "Orca: The World is in Your Mind",
+    "summary": "We introduce Orca, an initial instantiation of a general world foundation model. Orca learns a unified world latent space from multimodal world signals and exposes it through multimodal readout interfaces. Rather than optimizing isolated next-token, next-frame, or next-action prediction, we are centered on Next-State-Prediction modeling, offering a unified state-transition modeling route toward understanding, predicting, and acting upon the world. Orca learns through two complementary paradigms:",
+    "body": "We introduce Orca, an initial instantiation of a general world foundation model. Orca learns a unified world latent space from multimodal world signals and exposes it through multimodal readout interfaces. Rather than optimizing isolated next-token, next-frame, or next-action prediction, we are centered on Next-State-Prediction modeling, offering a unified state-transition modeling route toward understanding, predicting, and acting upon the world. Orca learns through two complementary paradigms: unconscious learning captures dense natural state transitions from continuous videos, and conscious learning models sparse meaningful state transitions by language-described events and VQA supervision. For pre-training, we construct a large-scale world-learning inventory data, including 125K hours ",
+    "url": "https://arxiv.org/abs/2606.30534",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-28T20:00:00.000Z",
@@ -1641,25 +938,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.30251",
+    "canonicalUrl": "https://arxiv.org/abs/2606.30534",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.30251"
+        "url": "https://arxiv.org/abs/2606.30534"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30616",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30017",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30616",
-    "title": "Scaling the Horizon, Not the Parameters: Reaching Trillion-Parameter Performance with a 35B Agent",
-    "summary": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K t",
-    "body": "We introduce Agents-A1, a 35B Mixture-of-Experts Agentic Model that reaches trillion-parameter-level performance by scaling the agent horizon. We investigate agent-horizon scaling from two perspectives: scaling long-horizon trajectories and scaling heterogeneous agent abilities. To support this goal, we build a long-horizon knowledge-action infrastructure that connects external knowledge, actions, observations, and verifier outcomes, producing agentic trajectories with an average length of 45K tokens. Based on this, we train Agents-A1 with a three-stage recipe. First, we perform full-domain supervised fine-tuning to align the base model with broad agentic behaviors. Second, we train domain-level teacher models to capture specialized expertise in each domain. Third, we propose a multi-teach",
-    "url": "https://arxiv.org/abs/2606.30616",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30017",
+    "title": "Monte Carlo Energy Aggregation for Mobile 3D Gaussian Splatting",
+    "summary": "Recent advances in 3D Gaussian Splatting have demonstrated unprecedented success in novel view synthesis. However, the substantial inference and storage overhead driven by high-order Spherical Harmonics (SH) are primary bottlenecks for mobile platforms. In this paper, we present Flux-GS, a real-time Gaussian Splatting method designed to achieve high-fidelity rendering with significantly reduced overhead for resource-constrained mobile platforms. We first propose a Monte Carlo Specular Energy Agg",
+    "body": "Recent advances in 3D Gaussian Splatting have demonstrated unprecedented success in novel view synthesis. However, the substantial inference and storage overhead driven by high-order Spherical Harmonics (SH) are primary bottlenecks for mobile platforms. In this paper, we present Flux-GS, a real-time Gaussian Splatting method designed to achieve high-fidelity rendering with significantly reduced overhead for resource-constrained mobile platforms. We first propose a Monte Carlo Specular Energy Aggregator, sampling third-order radiance residuals and aggregating specular energy into a compact latent space. In this way, our method effectively preserves visually salient lighting features in lower-order bands without expensive distillation or pre-training. To mitigate the high-frequency details l",
+    "url": "https://arxiv.org/abs/2606.30017",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-28T20:00:00.000Z",
@@ -1668,25 +965,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.30616",
+    "canonicalUrl": "https://arxiv.org/abs/2606.30017",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.30616"
+        "url": "https://arxiv.org/abs/2606.30017"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29814",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30292",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29814",
-    "title": "Nemotron-Labs-Diffusion-Image: Advancing Masked Discrete Diffusion for High-Resolution Image Synthesis",
-    "summary": "We propose Nemotron-Labs-Diffusion-Image, a state-of-the-art masked discrete diffusion model (MDM) for high-resolution text-to-image synthesis. Compared with prior work on masked image generation, Nemotron-Labs-Diffusion-Image addresses two key challenges. First, unlike continuous diffusion models which progressively refine latent representations across the entire image, standard MDMs lack self-correcting capability because discrete tokens cannot be modified once they are unmasked. Second, altho",
-    "body": "We propose Nemotron-Labs-Diffusion-Image, a state-of-the-art masked discrete diffusion model (MDM) for high-resolution text-to-image synthesis. Compared with prior work on masked image generation, Nemotron-Labs-Diffusion-Image addresses two key challenges. First, unlike continuous diffusion models which progressively refine latent representations across the entire image, standard MDMs lack self-correcting capability because discrete tokens cannot be modified once they are unmasked. Second, although increasing the vocabulary size of discrete image tokenizers improves reconstruction fidelity, it introduces optimization difficulties for generative modeling as the per-token training signal becomes increasingly sparse. To address the first challenge, Nemotron-Labs-Diffusion-Image incorporates a",
-    "url": "https://arxiv.org/abs/2606.29814",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30292",
+    "title": "DreamForge-World 0.1 Preview: A Low-Compute Real-Time Controllable World Model",
+    "summary": "We present DreamForge-World 0.1 Preview, a preview foundational world model for real-time interactive world simulation. The system adapts the LongLive 1 autoregressive video stack, itself derived from Wan2.1-T2V-1.3B, with a residual action pathway inspired by the Matrix-Game family. DreamForge-World 0.1 Preview focuses on a complementary axis to frontier-scale world simulators: low-compute adaptation, consumer-GPU runtime, and broad interactive capability coverage. It supports live keyboard and",
+    "body": "We present DreamForge-World 0.1 Preview, a preview foundational world model for real-time interactive world simulation. The system adapts the LongLive 1 autoregressive video stack, itself derived from Wan2.1-T2V-1.3B, with a residual action pathway inspired by the Matrix-Game family. DreamForge-World 0.1 Preview focuses on a complementary axis to frontier-scale world simulators: low-compute adaptation, consumer-GPU runtime, and broad interactive capability coverage. It supports live keyboard and mouse control, multimodal initialization, mid-stream reprompting, dual-view operation, and minute-scale interactive rollouts at native 480p resolution, reaching up to 14 to 15 FPS FPS on a single RTX 4090 with a low memory footprint. By leveraging open video backbones and applying targeted adaptati",
+    "url": "https://arxiv.org/abs/2606.30292",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-28T20:00:00.000Z",
@@ -1695,25 +992,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.29814",
+    "canonicalUrl": "https://arxiv.org/abs/2606.30292",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.29814"
+        "url": "https://arxiv.org/abs/2606.30292"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29705",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30045",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29705",
-    "title": "GUICrafter: Weakly-Supervised GUI Agent Leveraging Massive Unannotated Screenshots",
-    "summary": "Data, as the fundamental substrate of modern intelligence, has greatly driven the development of current foundation models. Naturally, researchers aim to extend this paradigm to the domain of GUI agents, hoping to build strong GUI agents through a similar paradigm. However, GUI agent data cannot be directly harvested from the internet, making it costly and difficult to collect at scale. As a result, current GUI agents suffer from poor cross-device generalization and limited visual grounding abil",
-    "body": "Data, as the fundamental substrate of modern intelligence, has greatly driven the development of current foundation models. Naturally, researchers aim to extend this paradigm to the domain of GUI agents, hoping to build strong GUI agents through a similar paradigm. However, GUI agent data cannot be directly harvested from the internet, making it costly and difficult to collect at scale. As a result, current GUI agents suffer from poor cross-device generalization and limited visual grounding ability for fine-grained GUI elements. As an attempt to address data challenge in GUI agents, we propose GUICrafter, a weakly-supervised GUI agent leveraging massive unannotated screenshots to substantially reduce the reliance on expensive human annotations. GUICrafter explores a curriculum learning fra",
-    "url": "https://arxiv.org/abs/2606.29705",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30045",
+    "title": "Walking in the Implicit: Interactive World Exploration via Neural Scene Representation",
+    "summary": "Interactive video generation systems for camera-controlled world exploration roll out growing sequences of latent video frames, entangling state transition with high-frequency observation synthesis. We propose Walking in the Implicit, a scene-centric paradigm that changes the rollout variable from frame latents to a fixed-length, renderable implicit state, termed Neural Implicit Scene (NIS). This factorizes interactive generation into stochastic transition of a compact scene state and determinis",
+    "body": "Interactive video generation systems for camera-controlled world exploration roll out growing sequences of latent video frames, entangling state transition with high-frequency observation synthesis. We propose Walking in the Implicit, a scene-centric paradigm that changes the rollout variable from frame latents to a fixed-length, renderable implicit state, termed Neural Implicit Scene (NIS). This factorizes interactive generation into stochastic transition of a compact scene state and deterministic pose-conditioned rendering given the sampled state. We instantiate this paradigm as NeuWorld: a transformer VAE learns locally anchored NIS from sparse posed frames, and a diffusion transformer evolves NIS conditioned on future camera trajectories and geometry-aware retrieved history. By reusing",
+    "url": "https://arxiv.org/abs/2606.30045",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-28T20:00:00.000Z",
@@ -1722,25 +1019,106 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.29705",
+    "canonicalUrl": "https://arxiv.org/abs/2606.30045",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.29705"
+        "url": "https://arxiv.org/abs/2606.30045"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29225",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29887",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29225",
-    "title": "PolicyGuard: A Dialogue-Grounded Sub-Agent Verifier for Policy Adherence in LLM Agents",
-    "summary": "LLM agents handle user requests on behalf of organizations through tool calls and must follow the company policies stated in their system prompts. Prior work approaches this as a safeguarding problem -- external checks that block non-compliant agent actions. We argue that policy adherence is a broader problem: real workflows unfold across many turns, require explicit user confirmation and prerequisite reads, and hinge on the content of the dialogue rather than on any single argument value. Meeti",
-    "body": "LLM agents handle user requests on behalf of organizations through tool calls and must follow the company policies stated in their system prompts. Prior work approaches this as a safeguarding problem -- external checks that block non-compliant agent actions. We argue that policy adherence is a broader problem: real workflows unfold across many turns, require explicit user confirmation and prerequisite reads, and hinge on the content of the dialogue rather than on any single argument value. Meeting this bar requires (i) full conversation context, (ii) self-reasoning over the policy and the current dialogue, and (iii) conversation-specific remediation that guides the agent's next turn -- three capabilities that prior safeguard work has often underestimated. We introduce POLICYGUARD, a sub-ag",
-    "url": "https://arxiv.org/abs/2606.29225",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29887",
+    "title": "SafePyramid: A Hierarchical Benchmark for In-context Policy Guardrailing",
+    "summary": "In real-world applications, guardrails are often expected to identify unsafe user-model interactions according to application-specific safety policies, rather than relying on predefined risk taxonomies. In this work, we study this setting under the paradigm of in-context policy guardrailing, where guardrails predict safety violations based on policy specifications provided in context. To systematically evaluate this capability, we introduce SafePyramid, a safety benchmark comprising 1,000 multi-",
+    "body": "In real-world applications, guardrails are often expected to identify unsafe user-model interactions according to application-specific safety policies, rather than relying on predefined risk taxonomies. In this work, we study this setting under the paradigm of in-context policy guardrailing, where guardrails predict safety violations based on policy specifications provided in context. To systematically evaluate this capability, we introduce SafePyramid, a safety benchmark comprising 1,000 multi-turn conversations across 10 domains and 3,000 corresponding application-specific policies, which together contain 61,699 distinct natural-language rules. SafePyramid organizes the evaluation into three difficulty levels: L0 evaluates individual-rule understanding, L1 evaluates reasoning over rule d",
+    "url": "https://arxiv.org/abs/2606.29887",
+    "sourceName": "HuggingFace Papers",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-28T20:00:00.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "HuggingFace Papers"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://arxiv.org/abs/2606.29887",
+    "sources": [
+      "builder_huggingface"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_huggingface",
+        "url": "https://arxiv.org/abs/2606.29887"
+      }
+    ]
+  },
+  {
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.30084",
+    "source": "builder_huggingface",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.30084",
+    "title": "One Forward Beats Two: InnerZoom for Accurate and Efficient GUI Grounding",
+    "summary": "MLLM-based GUI grounding methods commonly formulate target localization as autoregressive coordinate generation, enabling models to leverage the strong instruction-following and semantic understanding capabilities of MLLMs. However, this formulation requires the model to retain region-level target evidence while decoding coordinate tokens with the spatial precision demanded by GUI clicking. Our diagnostic analysis reveals that target-region awareness emerges in intermediate decoder layers but is",
+    "body": "MLLM-based GUI grounding methods commonly formulate target localization as autoregressive coordinate generation, enabling models to leverage the strong instruction-following and semantic understanding capabilities of MLLMs. However, this formulation requires the model to retain region-level target evidence while decoding coordinate tokens with the spatial precision demanded by GUI clicking. Our diagnostic analysis reveals that target-region awareness emerges in intermediate decoder layers but is neither retained nor translated into the final coordinate prediction. Existing ZoomIn-style methods address this issue through an external crop-and-rerun pass, which improves localization but increases end-to-end latency and computational cost. To retain the accuracy benefits of two-pass zooming wi",
+    "url": "https://arxiv.org/abs/2606.30084",
+    "sourceName": "HuggingFace Papers",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-28T20:00:00.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "HuggingFace Papers"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://arxiv.org/abs/2606.30084",
+    "sources": [
+      "builder_huggingface"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_huggingface",
+        "url": "https://arxiv.org/abs/2606.30084"
+      }
+    ]
+  },
+  {
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29686",
+    "source": "builder_huggingface",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29686",
+    "title": "PoseShield: Neural Collision Fields for Human Self-Collision Resolution",
+    "summary": "Self-collision remains a persistent challenge in SMPL-based human pose estimation and motion generation. Under extreme articulations or stochastic motion synthesis, generated meshes frequently exhibit self-penetrations, leading to physically implausible results. We propose PoseShield, a neural collision constraint defined directly in SMPL pose space. We formulate collision correction as a constrained optimization problem and connect the learned constraint with the Eikonal equation. Enforcing Eik",
+    "body": "Self-collision remains a persistent challenge in SMPL-based human pose estimation and motion generation. Under extreme articulations or stochastic motion synthesis, generated meshes frequently exhibit self-penetrations, leading to physically implausible results. We propose PoseShield, a neural collision constraint defined directly in SMPL pose space. We formulate collision correction as a constrained optimization problem and connect the learned constraint with the Eikonal equation. Enforcing Eikonal regularization ensures non-vanishing gradients near the collision boundary, improving numerical stability and robustness of the optimization process. Unlike prior methods that operate in the mesh space or rely on heuristic penalties, our approach operates directly in the low-dimensional space o",
+    "url": "https://arxiv.org/abs/2606.29686",
+    "sourceName": "HuggingFace Papers",
+    "sourceCategory": "technical",
+    "publishedAt": "2026-06-28T20:00:00.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "HuggingFace Papers"
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://arxiv.org/abs/2606.29686",
+    "sources": [
+      "builder_huggingface"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_huggingface",
+        "url": "https://arxiv.org/abs/2606.29686"
+      }
+    ]
+  },
+  {
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29537",
+    "source": "builder_huggingface",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29537",
+    "title": "OSWorld2.0: Benchmarking Computer Use Agents on Long-Horizon Real-World Tasks",
+    "summary": "Existing computer-use benchmarks fail to capture the realism, complexity, and long-horizon demands of real-world computer use, limiting their ability to reveal the limitations of frontier agents. We introduce OSWorld 2.0, a benchmark of 108 long-horizon computer-use workflows across everyday and professional tasks, designed to capture complex and challenging real-world phenomena. Each task represents a realistic end-to-end workflow that takes human users a median of about 1.6 hours to complete a",
+    "body": "Existing computer-use benchmarks fail to capture the realism, complexity, and long-horizon demands of real-world computer use, limiting their ability to reveal the limitations of frontier agents. We introduce OSWorld 2.0, a benchmark of 108 long-horizon computer-use workflows across everyday and professional tasks, designed to capture complex and challenging real-world phenomena. Each task represents a realistic end-to-end workflow that takes human users a median of about 1.6 hours to complete and requires an average of 318 tool calls with Claude Opus 4.7 using maximum thinking, compared with about 30 in OSWorld 1.0. OSWorld 2.0 targets challenge phenomena that are common in real workflows yet underrepresented in prior benchmarks, spanning interaction-design challenges such as streaming in",
+    "url": "https://arxiv.org/abs/2606.29537",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-27T20:00:00.000Z",
@@ -1749,25 +1127,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.29225",
+    "canonicalUrl": "https://arxiv.org/abs/2606.29537",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.29225"
+        "url": "https://arxiv.org/abs/2606.29537"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29445",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2606.29655",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29445",
-    "title": "Bridging VideoQA and Video-Guided Agentic Tasks via Generalized Keyframe Extraction",
-    "summary": "Video understanding is a fundamental capability for multimodal intelligence, and recent Multimodal Large Language Models (MLLMs) have achieved remarkable performance on Video Question Answering (VideoQA) benchmarks. However, existing benchmarks primarily evaluate whether models can perceive shallow visual cues, while rarely examining whether MLLMs can learn deeper knowledge or procedural skills from video tutorials and generalize them to downstream long-horizon agentic tasks. To address this gap",
-    "body": "Video understanding is a fundamental capability for multimodal intelligence, and recent Multimodal Large Language Models (MLLMs) have achieved remarkable performance on Video Question Answering (VideoQA) benchmarks. However, existing benchmarks primarily evaluate whether models can perceive shallow visual cues, while rarely examining whether MLLMs can learn deeper knowledge or procedural skills from video tutorials and generalize them to downstream long-horizon agentic tasks. To address this gap, we introduce VG-GUIBench (Video-Guided GUI Benchmark), a new benchmark designed to evaluate whether MLLM-based GUI agents can follow video tutorials to complete corresponding GUI interactive tasks. Furthermore, we observe that the performance of models on both VideoQA and video-guided agentic task",
-    "url": "https://arxiv.org/abs/2606.29445",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2606.29655",
+    "title": "Geometric Stability of Neural Population Codes: Regional Variation, Behavioral Relevance, and Circuit Dependence",
+    "summary": "Current models of representational reliability in neural populations focus on temporal stability: whether population centroids are preserved across sessions and days. This framing leaves a fundamental question unanswered: how reliably does the pairwise distance structure among stimuli reproduce across independent observations within a session? We argue that this property, geometric stability, constitutes an independent axis of representational analysis that existing frameworks do not capture. We",
+    "body": "Current models of representational reliability in neural populations focus on temporal stability: whether population centroids are preserved across sessions and days. This framing leaves a fundamental question unanswered: how reliably does the pairwise distance structure among stimuli reproduce across independent observations within a session? We argue that this property, geometric stability, constitutes an independent axis of representational analysis that existing frameworks do not capture. We formalize geometric stability as the Spearman rank correlation between split-half representational dissimilarity matrices (Shesha) and show that it is empirically dissociable from both temporal stability and decoding accuracy. Across 229 area-session observations spanning 68 brain regions in a visu",
+    "url": "https://arxiv.org/abs/2606.29655",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-06-27T20:00:00.000Z",
@@ -1776,14 +1154,14 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2606.29445",
+    "canonicalUrl": "https://arxiv.org/abs/2606.29655",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2606.29445"
+        "url": "https://arxiv.org/abs/2606.29655"
       }
     ]
   }
