@@ -1,1058 +1,581 @@
 [
   {
-    "id": "aihot:aihot:cmr4768yq013qsl3g29wasjnp",
+    "id": "aihot:aihot:cmr4hb6x001txsll5jfiiy9u3",
     "source": "aihot",
-    "sourceItemId": "aihot:cmr4768yq013qsl3g29wasjnp",
-    "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
-    "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23：30 切换域名解析，10 分钟后 616 个海外请求走新线路。最终生成运维文档，提醒边缘证书 10 月 2 日到期并附续期步骤。",
-    "body": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23：30 切换域名解析，10 分钟后 616 个海外请求走新线路。最终生成运维文档，提醒边缘证书 10 月 2 日到期并附续期步骤。",
-    "url": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
-    "sourceName": "公众号：数字生命卡兹克",
+    "sourceItemId": "aihot:cmr4hb6x001txsll5jfiiy9u3",
+    "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
+    "summary": "claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解。它通过场景变化检测提取关键帧、滑动窗口去重并转录音频，生成干净的本地文件夹供模型读取。支持 YouTube 链接或本地文件，依赖 ffmpeg 和 Whisper，通过 pip 安装。全部处理在本地完成，不上传云端。",
+    "body": "claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解。它通过场景变化检测提取关键帧、滑动窗口去重并转录音频，生成干净的本地文件夹供模型读取。支持 YouTube 链接或本地文件，依赖 ffmpeg 和 Whisper，通过 pip 安装。全部处理在本地完成，不上传云端。",
+    "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
     "sourceCategory": "tip",
-    "publishedAt": "2026-07-03T00:16:00.000Z",
+    "publishedAt": "2026-07-03T04:56:06.814Z",
     "metrics": {},
-    "metadata": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
     "rawJson": {
-      "id": "cmr4768yq013qsl3g29wasjnp",
-      "title": "Claude Fable 5 自主优化 AIHOT 网站 SEO/GEO 全记录",
-      "title_en": "记一个我被Claude Fable 5震撼的瞬间。",
-      "url": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
-      "permalink": "https://aihot.virxact.com/items/cmr4768yq013qsl3g29wasjnp",
-      "source": "公众号：数字生命卡兹克",
-      "publishedAt": "2026-07-03T00:16:00.000Z",
-      "summary": "作者用 Claude Fable 5 优化 AIHOT 网站的 SEO 与 GEO。模型自主启动 22 个 Agent 调研 40 分钟，发现豆包 App 每天六千多次访问未被统计等异常。规划境外加速时，否定 Claude Opus 4.8 的 Cloudflare 方案（无法国内直连/国外分流，且 2025 年起默认拦截 AI 爬虫），改用火山引擎 CDN。因需白名单，模型自行找到工单入口提交专业工单，22 分钟开通；发现工程师漏答回源 IP 网段问题，礼貌追问并补充备选方案；发现官方方案有安全漏洞，自行加暗号验证。23：30 切换域名解析，10 分钟后 616 个海外请求走新线路。最终生成运维文档，提醒边缘证书 10 月 2 日到期并附续期步骤。",
+      "id": "cmr4hb6x001txsll5jfiiy9u3",
+      "title": "claude-real-video ─ 让任何大语言模型（LLM）都能观看视频",
+      "title_en": "Claude-real-video - 任何大型语言模型（LLM）都能观看视频",
+      "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
+      "permalink": "https://aihot.virxact.com/items/cmr4hb6x001txsll5jfiiy9u3",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-03T04:56:06.814Z",
+      "summary": "claude-real-video 是一个开源工具，让大语言模型基于视频画面而非字幕进行理解。它通过场景变化检测提取关键帧、滑动窗口去重并转录音频，生成干净的本地文件夹供模型读取。支持 YouTube 链接或本地文件，依赖 ffmpeg 和 Whisper，通过 pip 安装。全部处理在本地完成，不上传云端。",
       "category": "tip",
-      "score": 62,
+      "score": 81,
       "selected": true
     },
     "systemCategory": "news",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg",
+    "canonicalUrl": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video",
     "sources": [
-      "aihot"
+      "aihot",
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
         "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/L6R_SPWlOBv6dI0wWWHQrg"
+        "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
+      },
+      {
+        "source": "builder_hackernews",
+        "url": "https://github.com/HUANGCHIHHUNGLeo/claude-real-video"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmr46bm6n00xesl3gigy5su8z",
+    "id": "aihot:aihot:cmr4ewvnu016msll54kwma7sx",
     "source": "aihot",
-    "sourceItemId": "aihot:cmr46bm6n00xesl3gigy5su8z",
-    "title": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
-    "summary": "44岁的迈克尔·巴特勒驾驶特斯拉Model 3冲入得州住宅，致76岁玛莎·阿维拉死亡，现被控过失杀人。警方从其手机发现2026年5月多次搜索\"FSD不够激进\"\"特斯拉FSD过于保守\"等记录。特斯拉AI负责人称驾驶员将加速踏板踩到底（100%），手动操作覆盖了FSD。车辆数据显示，约6秒内加速踏板被完全踩下，时速升至117公里（超限速两倍），制动踏板始终未踩。阿维拉家属已起诉特斯拉和巴特勒，美国NHTSA和NTSB已介入调查。",
-    "body": "44岁的迈克尔·巴特勒驾驶特斯拉Model 3冲入得州住宅，致76岁玛莎·阿维拉死亡，现被控过失杀人。警方从其手机发现2026年5月多次搜索\"FSD不够激进\"\"特斯拉FSD过于保守\"等记录。特斯拉AI负责人称驾驶员将加速踏板踩到底（100%），手动操作覆盖了FSD。车辆数据显示，约6秒内加速踏板被完全踩下，时速升至117公里（超限速两倍），制动踏板始终未踩。阿维拉家属已起诉特斯拉和巴特勒，美国NHTSA和NTSB已介入调查。",
-    "url": "https://www.ithome.com/0/971/971.htm",
+    "sourceItemId": "aihot:cmr4ewvnu016msll54kwma7sx",
+    "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
+    "summary": "7月3日，阿里达摩院联合中国人民大学、中国科学院大学发布首个超导材料发现AI智能体Elements Claw。该智能体采用\"专通融合\"架构，基于1.25亿分子/晶体结构预训练的1B参数原子基础模型Elements，判断超导性AUC达0.996，预测临界温度平均误差小于1K。AI仅用28个GPU小时筛选240万晶体结构，预测出6.8万个候选材料，其中4种（Hf21Re25、Zr4VRe7、HfZrRe4、Zr3ScRe8）已合成并验证超导性，临界温度最高6.5K。全部240万稳定晶体数据库已开放。",
+    "body": "7月3日，阿里达摩院联合中国人民大学、中国科学院大学发布首个超导材料发现AI智能体Elements Claw。该智能体采用\"专通融合\"架构，基于1.25亿分子/晶体结构预训练的1B参数原子基础模型Elements，判断超导性AUC达0.996，预测临界温度平均误差小于1K。AI仅用28个GPU小时筛选240万晶体结构，预测出6.8万个候选材料，其中4种（Hf21Re25、Zr4VRe7、HfZrRe4、Zr3ScRe8）已合成并验证超导性，临界温度最高6.5K。全部240万稳定晶体数据库已开放。",
+    "url": "https://www.ithome.com/0/972/089.htm",
     "sourceName": "IT之家（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T23:43:15.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr46bm6n00xesl3gigy5su8z",
-      "title": "得州特斯拉致命车祸：司机嫌FSD太保守，加速踏板踩死致76岁居民死亡",
-      "title_en": "得克萨斯州特斯拉致命车祸肇事司机被控过失杀人，警方发现其曾嫌 FSD\"太保守\"",
-      "url": "https://www.ithome.com/0/971/971.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr46bm6n00xesl3gigy5su8z",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-02T23:43:15.000Z",
-      "summary": "44岁的迈克尔·巴特勒驾驶特斯拉Model 3冲入得州住宅，致76岁玛莎·阿维拉死亡，现被控过失杀人。警方从其手机发现2026年5月多次搜索\"FSD不够激进\"\"特斯拉FSD过于保守\"等记录。特斯拉AI负责人称驾驶员将加速踏板踩到底（100%），手动操作覆盖了FSD。车辆数据显示，约6秒内加速踏板被完全踩下，时速升至117公里（超限速两倍），制动踏板始终未踩。阿维拉家属已起诉特斯拉和巴特勒，美国NHTSA和NTSB已介入调查。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/971/971.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/971/971.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr46bjmz00x0sl3g5rj6sp46",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr46bjmz00x0sl3g5rj6sp46",
-    "title": "扎克伯格称AI智能体开发速度未如预期",
-    "summary": "Meta CEO 扎克伯格在本周内部全体会议上表示，AI 智能体的开发速度并未像高管们此前预期的那样加速。今年早些时候Meta裁减约8000名员工（约占10%），并将另外7000人调至多个AI团队，包括Agent Transformation小组。扎克伯格称裁员不够\"干净\"，原因是高管担心公司无法足够快地适应技术行业变化。他还指出以AI为中心的新公司结构所预期的好处尚未实现，但相信未来三到六个月将开始看到AI投资的改善。路透社报道，Meta今年预计在AI基础设施上投入高达1450亿美元。",
-    "body": "Meta CEO 扎克伯格在本周内部全体会议上表示，AI 智能体的开发速度并未像高管们此前预期的那样加速。今年早些时候Meta裁减约8000名员工（约占10%），并将另外7000人调至多个AI团队，包括Agent Transformation小组。扎克伯格称裁员不够\"干净\"，原因是高管担心公司无法足够快地适应技术行业变化。他还指出以AI为中心的新公司结构所预期的好处尚未实现，但相信未来三到六个月将开始看到AI投资的改善。路透社报道，Meta今年预计在AI基础设施上投入高达1450亿美元。",
-    "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
-    "sourceName": "TechCrunch：AI（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T23:38:10.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr46bjmz00x0sl3g5rj6sp46",
-      "title": "扎克伯格称AI智能体开发速度未如预期",
-      "title_en": "Mark Zuckerberg tells staff that AI agents haven't progressed as quickly as he'd hoped",
-      "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
-      "permalink": "https://aihot.virxact.com/items/cmr46bjmz00x0sl3g5rj6sp46",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-07-02T23:38:10.000Z",
-      "summary": "Meta CEO 扎克伯格在本周内部全体会议上表示，AI 智能体的开发速度并未像高管们此前预期的那样加速。今年早些时候Meta裁减约8000名员工（约占10%），并将另外7000人调至多个AI团队，包括Agent Transformation小组。扎克伯格称裁员不够\"干净\"，原因是高管担心公司无法足够快地适应技术行业变化。他还指出以AI为中心的新公司结构所预期的好处尚未实现，但相信未来三到六个月将开始看到AI投资的改善。路透社报道，Meta今年预计在AI基础设施上投入高达1450亿美元。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3zye9z00qfslw2sg1izmks",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3zye9z00qfslw2sg1izmks",
-    "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
-    "summary": "阿里巴巴发布 Page Agent，一个开源的 JavaScript 客户端库，嵌入网页后可通过自然语言指令直接操作 DOM 元素。与 Playwright、Puppeteer 等外部浏览器自动化工具不同，Page Agent 不依赖截图或多模态模型，而是将实时 DOM 脱水压缩为 FlatDomTree 文本映射，让纯文本模型精准执行点击、表单填写等操作。它继承用户 cookies 和会话，无需独立后端，并支持任意 OpenAI 兼容端点的模型（示例使用 `qwen3.5-plus`）。项目采用 MIT 许可证，适合在自有应用内构建 AI 副驾、智能表单填充或无障碍控制等场景，但限于单页面范围，风险操作仍需服务端验证。",
-    "body": "阿里巴巴发布 Page Agent，一个开源的 JavaScript 客户端库，嵌入网页后可通过自然语言指令直接操作 DOM 元素。与 Playwright、Puppeteer 等外部浏览器自动化工具不同，Page Agent 不依赖截图或多模态模型，而是将实时 DOM 脱水压缩为 FlatDomTree 文本映射，让纯文本模型精准执行点击、表单填写等操作。它继承用户 cookies 和会话，无需独立后端，并支持任意 OpenAI 兼容端点的模型（示例使用 `qwen3.5-plus`）。项目采用 MIT 许可证，适合在自有应用内构建 AI 副驾、智能表单填充或无障碍控制等场景，但限于单页面范围，风险操作仍需服务端验证。",
-    "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
-    "sourceName": "MarkTechPost（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-07-02T20:51:39.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3zye9z00qfslw2sg1izmks",
-      "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
-      "title_en": "Meet Alibaba's Page Agent： A JavaScript In-Page GUI Agent That Controls Web Interfaces With Natural Language Through the DOM",
-      "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
-      "permalink": "https://aihot.virxact.com/items/cmr3zye9z00qfslw2sg1izmks",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-02T20:51:39.000Z",
-      "summary": "阿里巴巴发布 Page Agent，一个开源的 JavaScript 客户端库，嵌入网页后可通过自然语言指令直接操作 DOM 元素。与 Playwright、Puppeteer 等外部浏览器自动化工具不同，Page Agent 不依赖截图或多模态模型，而是将实时 DOM 脱水压缩为 FlatDomTree 文本映射，让纯文本模型精准执行点击、表单填写等操作。它继承用户 cookies 和会话，无需独立后端，并支持任意 OpenAI 兼容端点的模型（示例使用 `qwen3.5-plus`）。项目采用 MIT 许可证，适合在自有应用内构建 AI 副驾、智能表单填充或无障碍控制等场景，但限于单页面范围，风险操作仍需服务端验证。",
-      "category": "ai-products",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.marktechpost.com/2026/07/02/meet-alibabas-page-agent-a-javascript-in-page-gui-agent-that-controls-web-interfaces-with-natural-language-through-the-dom"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3yrwnf00e1slw21f16oh2d",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3yrwnf00e1slw21f16oh2d",
-    "title": "关于Mythos和网络安全的讨论并非炒作",
-    "summary": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
-    "body": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
-    "url": "https://x.com/emollick/status/2072778376494895139",
-    "sourceName": "X：Ethan Mollick (@emollick)",
     "sourceCategory": "paper",
-    "publishedAt": "2026-07-02T20:24:09.000Z",
+    "publishedAt": "2026-07-03T03:27:15.000Z",
     "metrics": {},
     "metadata": {},
     "rawJson": {
-      "id": "cmr3yrwnf00e1slw21f16oh2d",
-      "title": "关于Mythos和网络安全的讨论并非炒作",
-      "title_en": "The talk about Mythos and cybersecurity was not， in fact， hype. （As anyone using Fable to do autonom…",
-      "url": "https://x.com/emollick/status/2072778376494895139",
-      "permalink": "https://aihot.virxact.com/items/cmr3yrwnf00e1slw21f16oh2d",
-      "source": "X：Ethan Mollick (@emollick)",
-      "publishedAt": "2026-07-02T20:24:09.000Z",
-      "summary": "关于Mythos和网络安全的讨论并非炒作。\n（正如任何使用Fable进行自主工作的人可能已经认识到的那样。）",
+      "id": "cmr4ewvnu016msll54kwma7sx",
+      "title": "阿里达摩院发布超导材料发现AI智能体Elements Claw",
+      "title_en": "阿里达摩院：AI 智能体发现 4 种全新超导材料，已获实验验证",
+      "url": "https://www.ithome.com/0/972/089.htm",
+      "permalink": "https://aihot.virxact.com/items/cmr4ewvnu016msll54kwma7sx",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-03T03:27:15.000Z",
+      "summary": "7月3日，阿里达摩院联合中国人民大学、中国科学院大学发布首个超导材料发现AI智能体Elements Claw。该智能体采用\"专通融合\"架构，基于1.25亿分子/晶体结构预训练的1B参数原子基础模型Elements，判断超导性AUC达0.996，预测临界温度平均误差小于1K。AI仅用28个GPU小时筛选240万晶体结构，预测出6.8万个候选材料，其中4种（Hf21Re25、Zr4VRe7、HfZrRe4、Zr3ScRe8）已合成并验证超导性，临界温度最高6.5K。全部240万稳定晶体数据库已开放。",
       "category": "paper",
-      "score": 77,
+      "score": 80,
       "selected": true
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://x.com/emollick/status/2072778376494895139",
+    "canonicalUrl": "https://www.ithome.com/0/972/089.htm",
     "sources": [
       "aihot"
     ],
     "sourceLinks": [
       {
         "source": "aihot",
-        "url": "https://x.com/emollick/status/2072778376494895139"
+        "url": "https://www.ithome.com/0/972/089.htm"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmr3wzycy008tslnxrw3opnfn",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3wzycy008tslnxrw3opnfn",
-    "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
-    "summary": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
-    "body": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
-    "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
-    "sourceName": "The Decoder：AI News（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T19:18:29.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3wzycy008tslnxrw3opnfn",
-      "title": "Microsoft 成立\"Frontier Company\"，斥资 25 亿美元派驻 6000 名 AI 工程师到企业客户现场",
-      "title_en": "Microsoft launches $2.5 billion \"Frontier Company\" to embed 6，000 AI engineers inside enterprise clients",
-      "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
-      "permalink": "https://aihot.virxact.com/items/cmr3wzycy008tslnxrw3opnfn",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-02T19:18:29.000Z",
-      "summary": "Microsoft 新设业务部门\"Frontier Company\"，拨款 25 亿美元，将 6000 名行业与工程专家派驻企业客户现场，\"共同设计、共同创新、部署并持续改进 AI 系统\"。该部门由 Rodrigo Kede Lima 领导，旨在超越\"前部署工程\"模式，成为\"最大、以结果为导向的工程组织\"。Microsoft 将自己定位为 OpenAI 和 Anthropic 的\"平台中立\"替代方案，后两者也已设立专门部署公司。Microsoft 将借助埃森哲、凯捷、安永等系统集成商扩大覆盖范围。",
-      "category": "industry",
-      "score": 78,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://the-decoder.com/microsoft-launches-2-5-billion-frontier-company-to-embed-6000-ai-engineers-inside-enterprise-clients"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3uklx8008dslbrcmev44qb",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3uklx8008dslbrcmev44qb",
-    "title": "Agent辅助的SGLang开发：初步探索",
-    "summary": "SGLang团队将LLM服务、分布式运行时、GPU内核、扩散管道等工作流编码为可执行的SKILL.md文件、脚本、基准合约和审查循环。现有技能包括：SGLang .claude/skills（CUDA调试、内核集成、性能分析等）、SGLang diffusion .claude/skills（扩散模型添加与调优）、BBuf/AI-Infra-Auto-Driven-SKILLS（跨框架SOTA循环）、KDA（MLSys 2026 FlashInfer内核竞赛获胜方案）以及BBuf/KDA-Pilot（已合并三个SGLang集成PR）。Profile证据是性能工作的核心，长期优化转向Loop Engineering--SGLang SOTA Performance Loop将追求SOTA分解为公平基准测试、差距决策、性能分析、补丁和再验证，Humanize/RLCR添加外部审查，Codex Goal以更低协调开销运行相同循环。评审重要性提升，开发者需定义问题、选择证据、设计工作流并判断结果是否可用于生产。",
-    "body": "SGLang团队将LLM服务、分布式运行时、GPU内核、扩散管道等工作流编码为可执行的SKILL.md文件、脚本、基准合约和审查循环。现有技能包括：SGLang .claude/skills（CUDA调试、内核集成、性能分析等）、SGLang diffusion .claude/skills（扩散模型添加与调优）、BBuf/AI-Infra-Auto-Driven-SKILLS（跨框架SOTA循环）、KDA（MLSys 2026 FlashInfer内核竞赛获胜方案）以及BBuf/KDA-Pilot（已合并三个SGLang集成PR）。Profile证据是性能工作的核心，长期优化转向Loop Engineering--SGLang SOTA Performance Loop将追求SOTA分解为公平基准测试、差距决策、性能分析、补丁和再验证，Humanize/RLCR添加外部审查，Codex Goal以更低协调开销运行相同循环。评审重要性提升，开发者需定义问题、选择证据、设计工作流并判断结果是否可用于生产。",
-    "url": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
-    "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-07-02T18:37:56.676Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3uklx8008dslbrcmev44qb",
-      "title": "Agent辅助的SGLang开发：初步探索",
-      "title_en": "Blog Agent-Assisted SGLang Development： An Initial Exploration SGLang development increasingly goes beyond isolated code changes. The same repository now spans LLM serving， distributed runtime， GPU kernels， diffusion pipelines， model-specific execution paths， and… SGLang Team",
-      "url": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
-      "permalink": "https://aihot.virxact.com/items/cmr3uklx8008dslbrcmev44qb",
-      "source": "LMSYS：Blog（Chatbot Arena 团队）",
-      "publishedAt": "2026-07-02T18:37:56.676Z",
-      "summary": "SGLang团队将LLM服务、分布式运行时、GPU内核、扩散管道等工作流编码为可执行的SKILL.md文件、脚本、基准合约和审查循环。现有技能包括：SGLang .claude/skills（CUDA调试、内核集成、性能分析等）、SGLang diffusion .claude/skills（扩散模型添加与调优）、BBuf/AI-Infra-Auto-Driven-SKILLS（跨框架SOTA循环）、KDA（MLSys 2026 FlashInfer内核竞赛获胜方案）以及BBuf/KDA-Pilot（已合并三个SGLang集成PR）。Profile证据是性能工作的核心，长期优化转向Loop Engineering--SGLang SOTA Performance Loop将追求SOTA分解为公平基准测试、差距决策、性能分析、补丁和再验证，Humanize/RLCR添加外部审查，Codex Goal以更低协调开销运行相同循环。评审重要性提升，开发者需定义问题、选择证据、设计工作流并判断结果是否可用于生产。",
-      "category": "tip",
-      "score": 59,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.lmsys.org/blog/2026-07-02-agent-assisted-sglang-development"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3tce0201rwsl7lm25hjxbo",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3tce0201rwsl7lm25hjxbo",
-    "title": "Claude Enterprise 新增用量与成本分析及支出管控功能",
-    "summary": "Claude Enterprise 推出更丰富的管理分析工具和成本控制功能。仪表板现可按群组和用户分析用量与成本，支持按 SCIM 群组筛选，展示制品创建、文件编辑、技能和连接器对应的成本。Claude Code 管理控制台新增\"使用量\"和\"价值\"选项卡，分别显示活跃开发者、会话次数、常用命令，以及生产力提升估算、每次提交成本和年度价值估算。分析聊天支持自然语言查询并返回可导出图表。Analytics API 可将数据接入 Datadog Cloud Cost Management 和 CloudZero。管理员可设置模型默认和权限控制，并配置组织级支出限额的 75%、90% 告警通知；用户在 75% 和 95% 时收到应用内提醒。Admin API 支持自动审批额度增加、标记接近限额用户及快速变化的用量。",
-    "body": "Claude Enterprise 推出更丰富的管理分析工具和成本控制功能。仪表板现可按群组和用户分析用量与成本，支持按 SCIM 群组筛选，展示制品创建、文件编辑、技能和连接器对应的成本。Claude Code 管理控制台新增\"使用量\"和\"价值\"选项卡，分别显示活跃开发者、会话次数、常用命令，以及生产力提升估算、每次提交成本和年度价值估算。分析聊天支持自然语言查询并返回可导出图表。Analytics API 可将数据接入 Datadog Cloud Cost Management 和 CloudZero。管理员可设置模型默认和权限控制，并配置组织级支出限额的 75%、90% 告警通知；用户在 75% 和 95% 时收到应用内提醒。Admin API 支持自动审批额度增加、标记接近限额用户及快速变化的用量。",
-    "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-    "sourceName": "Claude：Blog（网页）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-07-02T18:03:22.345Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3tce0201rwsl7lm25hjxbo",
-      "title": "Claude Enterprise 新增用量与成本分析及支出管控功能",
-      "title_en": "Giving admins more visibility and control over Claude spend",
-      "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-      "permalink": "https://aihot.virxact.com/items/cmr3tce0201rwsl7lm25hjxbo",
-      "source": "Claude：Blog（网页）",
-      "publishedAt": "2026-07-02T18:03:22.345Z",
-      "summary": "Claude Enterprise 推出更丰富的管理分析工具和成本控制功能。仪表板现可按群组和用户分析用量与成本，支持按 SCIM 群组筛选，展示制品创建、文件编辑、技能和连接器对应的成本。Claude Code 管理控制台新增\"使用量\"和\"价值\"选项卡，分别显示活跃开发者、会话次数、常用命令，以及生产力提升估算、每次提交成本和年度价值估算。分析聊天支持自然语言查询并返回可导出图表。Analytics API 可将数据接入 Datadog Cloud Cost Management 和 CloudZero。管理员可设置模型默认和权限控制，并配置组织级支出限额的 75%、90% 告警通知；用户在 75% 和 95% 时收到应用内提醒。Admin API 支持自动审批额度增加、标记接近限额用户及快速变化的用量。",
-      "category": "ai-products",
-      "score": 61,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://claude.com/blog/giving-admins-more-visibility-and-control-over-claude-usage-and-spend"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3tdz1t01t0sl7lztwzlcaj",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3tdz1t01t0sl7lztwzlcaj",
-    "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
-    "summary": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
-    "body": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
-    "url": "https://x.com/OpenRouter/status/2072738704922439689",
-    "sourceName": "X：OpenRouter (@OpenRouter)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-07-02T17:46:31.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3tdz1t01t0sl7lztwzlcaj",
-      "title": "Fable 5 仅 4.44 美元搭建 Rube Goldberg 机器",
-      "title_en": "Rube Goldberg machine built with Fable 5， for $4.44 👀 Prompt available here： https://www.reddit.co...",
-      "url": "https://x.com/OpenRouter/status/2072738704922439689",
-      "permalink": "https://aihot.virxact.com/items/cmr3tdz1t01t0sl7lztwzlcaj",
-      "source": "X：OpenRouter (@OpenRouter)",
-      "publishedAt": "2026-07-02T17:46:31.000Z",
-      "summary": "用 Fable 5 构建的鲁布·戈德堡机械，仅需 4.44 美元 👀\n提示词在此：https://www.reddit.com/r/openrouter/comments/1ulkilz/i_asked_claude_fable_5_to_build_a_rube_goldberg/",
-      "category": "tip",
-      "score": 68,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/OpenRouter/status/2072738704922439689",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/OpenRouter/status/2072738704922439689"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3pz3hx00w5sl7lk3qk71x5",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3pz3hx00w5sl7lk3qk71x5",
-    "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
-    "summary": "WSJ法庭文件显示，Anthropic CEO Dario Amodei与五角大楼副部长Emil Michael数月邮件往来，核心分歧在于Claude的军事用途护栏。Anthropic要求禁止全自主武器及某些监控用途，五角大楼则希望Claude可用于所有合法国家安全场景。Michael称若分歧太大不愿\"强行推动\"。随后五角大楼将Anthropic列为供应链风险，阻止合作伙伴在国防部项目中使用其模型。法官暂停部分措施，政府正在上诉。Michael称原先采用Anthropic的操作中已有三分之二切换至其他AI工具。",
-    "body": "WSJ法庭文件显示，Anthropic CEO Dario Amodei与五角大楼副部长Emil Michael数月邮件往来，核心分歧在于Claude的军事用途护栏。Anthropic要求禁止全自主武器及某些监控用途，五角大楼则希望Claude可用于所有合法国家安全场景。Michael称若分歧太大不愿\"强行推动\"。随后五角大楼将Anthropic列为供应链风险，阻止合作伙伴在国防部项目中使用其模型。法官暂停部分措施，政府正在上诉。Michael称原先采用Anthropic的操作中已有三分之二切换至其他AI工具。",
-    "url": "https://x.com/kimmonismus/status/2072718147279335507",
-    "sourceName": "X：Kim (@kimmonismus)",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T16:24:50.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3pz3hx00w5sl7lk3qk71x5",
-      "title": "Anthropic与五角大楼控权之争：Claude军事用途护栏分歧",
-      "title_en": "Anthropic's Pentagon fight was less about access to Claude than control over how the military can us…",
-      "url": "https://x.com/kimmonismus/status/2072718147279335507",
-      "permalink": "https://aihot.virxact.com/items/cmr3pz3hx00w5sl7lk3qk71x5",
-      "source": "X：Kim (@kimmonismus)",
-      "publishedAt": "2026-07-02T16:24:50.000Z",
-      "summary": "WSJ法庭文件显示，Anthropic CEO Dario Amodei与五角大楼副部长Emil Michael数月邮件往来，核心分歧在于Claude的军事用途护栏。Anthropic要求禁止全自主武器及某些监控用途，五角大楼则希望Claude可用于所有合法国家安全场景。Michael称若分歧太大不愿\"强行推动\"。随后五角大楼将Anthropic列为供应链风险，阻止合作伙伴在国防部项目中使用其模型。法官暂停部分措施，政府正在上诉。Michael称原先采用Anthropic的操作中已有三分之二切换至其他AI工具。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/kimmonismus/status/2072718147279335507",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/kimmonismus/status/2072718147279335507"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3p5u0c00qwsl7lyxbee0nd",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3p5u0c00qwsl7lyxbee0nd",
-    "title": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
-    "summary": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
-    "body": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
-    "url": "https://www.ithome.com/0/971/954.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T15:36:38.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3p5u0c00qwsl7lyxbee0nd",
-      "title": "快手可灵AI获初始投资者20.28亿美元注资，投后估值180亿美元",
-      "title_en": "快手：初始投资者同意向北京可灵注资 20.28 亿美元",
-      "url": "https://www.ithome.com/0/971/954.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr3p5u0c00qwsl7lyxbee0nd",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-02T15:36:38.000Z",
-      "summary": "快手在港交所公告，21名初始投资者同意以138.24亿元人民币（20.28亿美元）现金注资北京可灵，后者将持有可灵AI相关资产。同日15名额外投资者追加出资52.235亿元人民币（7.6639亿美元），认购总上限为204.471亿元（30亿美元），对应北京可灵扩大后注册资本的16.67%。投后估值180亿美元。快手预计未来12个月内启动可灵AI赴港上市，募资用于扩充算力、建设数据中心及人才引进。",
-      "category": "industry",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/971/954.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/971/954.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3n0nvi006usl7l9bxrmouw",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3n0nvi006usl7l9bxrmouw",
-    "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
-    "summary": "据404 Media获取的内部资料，Atlassian、Adobe、亚马逊等六家企业正限制员工使用AI工具，要求改用能力较低的大模型避免成本失控。至少一家企业月度AI开销增至三倍，超1500万美元。花旗银行因GitHub改为按量计费，于6月24日禁用Claude Opus 4.6、4.7及GPT-5.5等旗舰模型。Adobe于6月30日终止Claude无限制使用协议。Atlassian数据显示其AI月支出从500万美元飙升至1500万美元，本财年预计超1.2亿美元。GitHub计划改用开源模型并测试单人按量计费模式。",
-    "body": "据404 Media获取的内部资料，Atlassian、Adobe、亚马逊等六家企业正限制员工使用AI工具，要求改用能力较低的大模型避免成本失控。至少一家企业月度AI开销增至三倍，超1500万美元。花旗银行因GitHub改为按量计费，于6月24日禁用Claude Opus 4.6、4.7及GPT-5.5等旗舰模型。Adobe于6月30日终止Claude无限制使用协议。Atlassian数据显示其AI月支出从500万美元飙升至1500万美元，本财年预计超1.2亿美元。GitHub计划改用开源模型并测试单人按量计费模式。",
-    "url": "https://www.ithome.com/0/971/937.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T14:22:49.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3n0nvi006usl7l9bxrmouw",
-      "title": "花旗、Adobe等企业限制员工使用AI旗舰模型以控制成本",
-      "title_en": "企业 AI 成本失控，消息称花旗、Adobe 等纷纷限制员工使用大模型",
-      "url": "https://www.ithome.com/0/971/937.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr3n0nvi006usl7l9bxrmouw",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-02T14:22:49.000Z",
-      "summary": "据404 Media获取的内部资料，Atlassian、Adobe、亚马逊等六家企业正限制员工使用AI工具，要求改用能力较低的大模型避免成本失控。至少一家企业月度AI开销增至三倍，超1500万美元。花旗银行因GitHub改为按量计费，于6月24日禁用Claude Opus 4.6、4.7及GPT-5.5等旗舰模型。Adobe于6月30日终止Claude无限制使用协议。Atlassian数据显示其AI月支出从500万美元飙升至1500万美元，本财年预计超1.2亿美元。GitHub计划改用开源模型并测试单人按量计费模式。",
-      "category": "industry",
-      "score": 74,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/971/937.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/971/937.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3hyp3j0139sllxjjc2fk8h",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3hyp3j0139sllxjjc2fk8h",
-    "title": "Fable 5 在 RLI 基准中达成 16.1% 自动化率，较八个月前提升六倍",
-    "summary": "Remote Labor Index（RLI）衡量 AI 智能体完成 240 个付费自由职业项目（总值 14.4 万美元）的专业质量比例。最新结果显示，Fable 5 自动化率达 16.1%，是八个月前最佳系统 2.5% 的六倍多，也超过 Opus 4.8（8.3%）和 GPT-5.5（6.3%）。因美国政府限制访问，Fable 5 仅完成 218/240 个项目评估，最坏情况仍达 14.6%。Gemini 3 Pro 仅 1.25%，落后于更老模型。AI 裁判会高估模型表现（GPT-5.5 评分偏高近三倍），仍需人类评估员打开专业软件（如 Blender）检验几何模型等细节。测试环境为虚拟 Linux 机，配备 30 余款专业应用，每项目最多 24 小时计算时间。尽管自动化率快速攀升，多数项目仍无法达到专业质量。",
-    "body": "Remote Labor Index（RLI）衡量 AI 智能体完成 240 个付费自由职业项目（总值 14.4 万美元）的专业质量比例。最新结果显示，Fable 5 自动化率达 16.1%，是八个月前最佳系统 2.5% 的六倍多，也超过 Opus 4.8（8.3%）和 GPT-5.5（6.3%）。因美国政府限制访问，Fable 5 仅完成 218/240 个项目评估，最坏情况仍达 14.6%。Gemini 3 Pro 仅 1.25%，落后于更老模型。AI 裁判会高估模型表现（GPT-5.5 评分偏高近三倍），仍需人类评估员打开专业软件（如 Blender）检验几何模型等细节。测试环境为虚拟 Linux 机，配备 30 余款专业应用，每项目最多 24 小时计算时间。尽管自动化率快速攀升，多数项目仍无法达到专业质量。",
-    "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
-    "sourceName": "The Decoder：AI News（RSS）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-07-02T12:37:49.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3hyp3j0139sllxjjc2fk8h",
-      "title": "Fable 5 在 RLI 基准中达成 16.1% 自动化率，较八个月前提升六倍",
-      "title_en": "AI agents can now complete 16 percent of freelance jobs at pro quality， up from 2.5 percent eight months ago",
-      "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
-      "permalink": "https://aihot.virxact.com/items/cmr3hyp3j0139sllxjjc2fk8h",
-      "source": "The Decoder：AI News（RSS）",
-      "publishedAt": "2026-07-02T12:37:49.000Z",
-      "summary": "Remote Labor Index（RLI）衡量 AI 智能体完成 240 个付费自由职业项目（总值 14.4 万美元）的专业质量比例。最新结果显示，Fable 5 自动化率达 16.1%，是八个月前最佳系统 2.5% 的六倍多，也超过 Opus 4.8（8.3%）和 GPT-5.5（6.3%）。因美国政府限制访问，Fable 5 仅完成 218/240 个项目评估，最坏情况仍达 14.6%。Gemini 3 Pro 仅 1.25%，落后于更老模型。AI 裁判会高估模型表现（GPT-5.5 评分偏高近三倍），仍需人类评估员打开专业软件（如 Blender）检验几何模型等细节。测试环境为虚拟 Linux 机，配备 30 余款专业应用，每项目最多 24 小时计算时间。尽管自动化率快速攀升，多数项目仍无法达到专业质量。",
-      "category": "tip",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://the-decoder.com/ai-agents-can-now-complete-16-percent-of-freelance-jobs-at-pro-quality-up-from-2-5-percent-eight-months-ago"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3fluhr00i3sllxli2a5uko",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3fluhr00i3sllxli2a5uko",
-    "title": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
-    "summary": "browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话人分离、事件标记），仅在决策点调用 timeline_view.py 生成 PNG 帧图。技术流水线包括转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染及最多 3 轮自评估。渲染关键细节：分段提取 + `-c copy` 拼接、30ms 音频淡入淡出、PTS 时移、字幕最后叠加、HDR 自动映射、竖屏缩放、两-pass loudnorm。动画支持 HyperFrames、Remotion、Manim 等引擎。项目附带 12 条硬规则确保生产正确性。",
-    "body": "browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话人分离、事件标记），仅在决策点调用 timeline_view.py 生成 PNG 帧图。技术流水线包括转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染及最多 3 轮自评估。渲染关键细节：分段提取 + `-c copy` 拼接、30ms 音频淡入淡出、PTS 时移、字幕最后叠加、HDR 自动映射、竖屏缩放、两-pass loudnorm。动画支持 HyperFrames、Remotion、Manim 等引擎。项目附带 12 条硬规则确保生产正确性。",
-    "url": "https://x.com/shao__meng/status/2072644710523691110",
-    "sourceName": "X：邵猛 (@shao__meng)",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-07-02T11:33:01.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3fluhr00i3sllxli2a5uko",
-      "title": "browser-use 发布开源 AI 视频剪辑 Skill「video-use」",
-      "title_en": "AI 视频剪辑 Skill 分享「video-use」 https://github.com/browser-use/video-use @browser_use 团队推出的开源 Skill，定位为…",
-      "url": "https://x.com/shao__meng/status/2072644710523691110",
-      "permalink": "https://aihot.virxact.com/items/cmr3fluhr00i3sllxli2a5uko",
-      "source": "X：邵猛 (@shao__meng)",
-      "publishedAt": "2026-07-02T11:33:01.000Z",
-      "summary": "browser-use 团队推出面向 Codex、Claude Code 等 AI 编码智能体的开源 Skill「video-use」，让 LLM 通过 ElevenLabs Scribe 将音频转写为约 12KB 文本（含逐词时间戳、说话人分离、事件标记），仅在决策点调用 timeline_view.py 生成 PNG 帧图。技术流水线包括转写、打包、生成 JSON 格式 EDL、ffmpeg 渲染及最多 3 轮自评估。渲染关键细节：分段提取 + `-c copy` 拼接、30ms 音频淡入淡出、PTS 时移、字幕最后叠加、HDR 自动映射、竖屏缩放、两-pass loudnorm。动画支持 HyperFrames、Remotion、Manim 等引擎。项目附带 12 条硬规则确保生产正确性。",
-      "category": "tip",
-      "score": 79,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/shao__meng/status/2072644710523691110",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/shao__meng/status/2072644710523691110"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3fmggw00ihsllxizuvjt33",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3fmggw00ihsllxizuvjt33",
-    "title": "谷歌AI建设导致2025年用电量增长37%",
-    "summary": "2025年，谷歌年度用电量同比上涨37%，创历史最大增幅。数据中心全年消耗超4200万兆瓦时，超过新西兰、丹麦、尼日利亚等国总用电量。自2019年以来，谷歌总用电量已增长超250%。用电激增主要来自Google Cloud、YouTube视频流及支撑AI产品和服务的数据中心建设与运营。公司表示，AI基础设施建设速度超过电网脱碳速度，但仍致力于扩大全球清洁电力规模，并通过技术创新降低运营排放。2024年谷歌用电量增幅为27%。",
-    "body": "2025年，谷歌年度用电量同比上涨37%，创历史最大增幅。数据中心全年消耗超4200万兆瓦时，超过新西兰、丹麦、尼日利亚等国总用电量。自2019年以来，谷歌总用电量已增长超250%。用电激增主要来自Google Cloud、YouTube视频流及支撑AI产品和服务的数据中心建设与运营。公司表示，AI基础设施建设速度超过电网脱碳速度，但仍致力于扩大全球清洁电力规模，并通过技术创新降低运营排放。2024年谷歌用电量增幅为27%。",
-    "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
-    "sourceName": "Ars Technica：AI（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T11:15:49.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3fmggw00ihsllxizuvjt33",
-      "title": "谷歌AI建设导致2025年用电量增长37%",
-      "title_en": "Google's AI buildout drove 37% increase in electricity use in 2025",
-      "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
-      "permalink": "https://aihot.virxact.com/items/cmr3fmggw00ihsllxizuvjt33",
-      "source": "Ars Technica：AI（RSS）",
-      "publishedAt": "2026-07-02T11:15:49.000Z",
-      "summary": "2025年，谷歌年度用电量同比上涨37%，创历史最大增幅。数据中心全年消耗超4200万兆瓦时，超过新西兰、丹麦、尼日利亚等国总用电量。自2019年以来，谷歌总用电量已增长超250%。用电激增主要来自Google Cloud、YouTube视频流及支撑AI产品和服务的数据中心建设与运营。公司表示，AI基础设施建设速度超过电网脱碳速度，但仍致力于扩大全球清洁电力规模，并通过技术创新降低运营排放。2024年谷歌用电量增幅为27%。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://arstechnica.com/ai/2026/07/googles-ai-buildout-drove-37-increase-in-electricity-use-in-2025"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3epwmy008bsllx0y68akps",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3epwmy008bsllx0y68akps",
-    "title": "Senior SWE-Bench：评估AI智能体作为高级工程师的基准测试",
-    "summary": "Senior SWE-Bench是一个开源基准测试，用于评估AI智能体完成高级软件工程师级别任务的能力。任务分功能开发与Bug修复两类：功能任务指令类似自然语言消息，采用验证智能体基于专家配方自动生成行为测试；Bug任务要求根据日志、profiling等运行时信息深入调查。排行榜显示，Claude Opus 4.8搭配Mini-SWE-Agent（max effort）通过率24.0%，Claude Sonnet 5为19.4%，GPT-5.5为16.0%，最强前沿模型在超75%任务中未能达到高级工程师级别的正确性与品味。每个功能任务平均涉及11个文件，最强智能体也需数百步完成；中位指令长度仅为SWE-Bench Pro的31%。任务来源于从库到多服务应用的仓库PR，由拥有数百次提交的工程师编写。",
-    "body": "Senior SWE-Bench是一个开源基准测试，用于评估AI智能体完成高级软件工程师级别任务的能力。任务分功能开发与Bug修复两类：功能任务指令类似自然语言消息，采用验证智能体基于专家配方自动生成行为测试；Bug任务要求根据日志、profiling等运行时信息深入调查。排行榜显示，Claude Opus 4.8搭配Mini-SWE-Agent（max effort）通过率24.0%，Claude Sonnet 5为19.4%，GPT-5.5为16.0%，最强前沿模型在超75%任务中未能达到高级工程师级别的正确性与品味。每个功能任务平均涉及11个文件，最强智能体也需数百步完成；中位指令长度仅为SWE-Bench Pro的31%。任务来源于从库到多服务应用的仓库PR，由拥有数百次提交的工程师编写。",
-    "url": "https://senior-swe-bench.snorkel.ai/",
-    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-07-02T11:04:07.048Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3epwmy008bsllx0y68akps",
-      "title": "Senior SWE-Bench：评估AI智能体作为高级工程师的基准测试",
-      "title_en": "Senior SWE-Bench：一款用于评估代理作为高级工程师表现的开源基准测试工具",
-      "url": "https://senior-swe-bench.snorkel.ai/",
-      "permalink": "https://aihot.virxact.com/items/cmr3epwmy008bsllx0y68akps",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-02T11:04:07.048Z",
-      "summary": "Senior SWE-Bench是一个开源基准测试，用于评估AI智能体完成高级软件工程师级别任务的能力。任务分功能开发与Bug修复两类：功能任务指令类似自然语言消息，采用验证智能体基于专家配方自动生成行为测试；Bug任务要求根据日志、profiling等运行时信息深入调查。排行榜显示，Claude Opus 4.8搭配Mini-SWE-Agent（max effort）通过率24.0%，Claude Sonnet 5为19.4%，GPT-5.5为16.0%，最强前沿模型在超75%任务中未能达到高级工程师级别的正确性与品味。每个功能任务平均涉及11个文件，最强智能体也需数百步完成；中位指令长度仅为SWE-Bench Pro的31%。任务来源于从库到多服务应用的仓库PR，由拥有数百次提交的工程师编写。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://senior-swe-bench.snorkel.ai/",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://senior-swe-bench.snorkel.ai/"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3d6uwj0074slq52bmqn20v",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3d6uwj0074slq52bmqn20v",
-    "title": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
-    "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结\"多快好省\"方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出\"情商\"是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调\"低功耗，够用就行\"。",
-    "body": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结\"多快好省\"方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出\"情商\"是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调\"低功耗，够用就行\"。",
-    "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
-    "sourceName": "公众号：千问APP（阿里）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-07-02T10:22:07.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3d6uwj0074slq52bmqn20v",
-      "title": "千问团队朱达：C端Agent Harness的\"多快好省\"工程哲学与主动服务探索",
-      "title_en": "阿里巴巴朱达-千问C端 Agent Harness 思考与实践",
-      "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
-      "permalink": "https://aihot.virxact.com/items/cmr3d6uwj0074slq52bmqn20v",
-      "source": "公众号：千问APP（阿里）",
-      "publishedAt": "2026-07-02T10:22:07.000Z",
-      "summary": "千问团队2026年1月上线通用复杂任务Agent（千问App胶囊入口），总结\"多快好省\"方法论：支持信息搜集、研究分析等任务；执行时间降至初始1/3；通过搜索范式与上下文管理优化交付质量；Token消耗仅为海外产品1/10。团队探索从被动响应转向主动服务，构建User Memory、Environment、Task System、Assistant四大组件，指出\"情商\"是主动服务最难环节。朱达提出Agent工程从Prompt Engineering演进至Harness Engineering，下一站是A IWare Engineering，强调\"低功耗，够用就行\"。",
-      "category": "tip",
-      "score": 62,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://mp.weixin.qq.com/s/l70iUM0bIpG9EdV9Px7QPQ"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3cab57000jslq5wpb1ukxr",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3cab57000jslq5wpb1ukxr",
-    "title": "证监会同意宇树科技科创板 IPO 注册申请",
-    "summary": "7月2日，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。宇树科技是国内头部民用足式、人形机器人研发企业，全球四足机器人销量领先，2016年由王兴兴在杭州创立，截至2025年6月员工总数超1000人。公司核心优势在于实现关节电机、减速器、控制器等核心零部件全栈自研，关键部件成本仅为进口产品的约1/3。批复自同意注册之日起12个月内有效。",
-    "body": "7月2日，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。宇树科技是国内头部民用足式、人形机器人研发企业，全球四足机器人销量领先，2016年由王兴兴在杭州创立，截至2025年6月员工总数超1000人。公司核心优势在于实现关节电机、减速器、控制器等核心零部件全栈自研，关键部件成本仅为进口产品的约1/3。批复自同意注册之日起12个月内有效。",
-    "url": "https://www.ithome.com/0/971/790.htm",
-    "sourceName": "IT之家（RSS）",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T09:10:36.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3cab57000jslq5wpb1ukxr",
-      "title": "证监会同意宇树科技科创板 IPO 注册申请",
-      "title_en": null,
-      "url": "https://www.ithome.com/0/971/790.htm",
-      "permalink": "https://aihot.virxact.com/items/cmr3cab57000jslq5wpb1ukxr",
-      "source": "IT之家（RSS）",
-      "publishedAt": "2026-07-02T09:10:36.000Z",
-      "summary": "7月2日，证监会同意宇树科技股份有限公司首次公开发行股票并在科创板上市的注册申请。宇树科技是国内头部民用足式、人形机器人研发企业，全球四足机器人销量领先，2016年由王兴兴在杭州创立，截至2025年6月员工总数超1000人。公司核心优势在于实现关节电机、减速器、控制器等核心零部件全栈自研，关键部件成本仅为进口产品的约1/3。批复自同意注册之日起12个月内有效。",
-      "category": "industry",
-      "score": 70,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://www.ithome.com/0/971/790.htm",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.ithome.com/0/971/790.htm"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr3a67dj01zusly043ms4axe",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr3a67dj01zusly043ms4axe",
-    "title": "Google Health API 推出 CLI：ghealth 是一款针对 Fitbit 数据的开源工具",
-    "summary": "ghealth 是一款封装 Google Health API v4 的开源命令行工具，以单个 Go 二进制文件发布（Apache 2.0 协议）。它提供 40 种已验证的数据类型（包括步数、心率、睡眠、体重、血氧饱和度、心率变异性等）的结构化 JSON 输出。工具采用 Agent 优先设计，具备确定性退出码、--dry-run 和 --raw 标志，并附带两个 SKILL.md 文件供 AI 智能体使用。用户需自行创建 OAuth 凭据，通过 PKCE S256 认证。数据来源覆盖 Fitbit、Pixel Watch 及连接的第三方设备。",
-    "body": "ghealth 是一款封装 Google Health API v4 的开源命令行工具，以单个 Go 二进制文件发布（Apache 2.0 协议）。它提供 40 种已验证的数据类型（包括步数、心率、睡眠、体重、血氧饱和度、心率变异性等）的结构化 JSON 输出。工具采用 Agent 优先设计，具备确定性退出码、--dry-run 和 --raw 标志，并附带两个 SKILL.md 文件供 AI 智能体使用。用户需自行创建 OAuth 凭据，通过 PKCE S256 认证。数据来源覆盖 Fitbit、Pixel Watch 及连接的第三方设备。",
-    "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
-    "sourceName": "MarkTechPost（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-07-02T08:46:56.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr3a67dj01zusly043ms4axe",
-      "title": "Google Health API 推出 CLI：ghealth 是一款针对 Fitbit 数据的开源工具",
-      "title_en": "The Google Health API Got a CLI： ghealth is an Open-Source Tool for Your Fitbit Air Data",
-      "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
-      "permalink": "https://aihot.virxact.com/items/cmr3a67dj01zusly043ms4axe",
-      "source": "MarkTechPost（RSS）",
-      "publishedAt": "2026-07-02T08:46:56.000Z",
-      "summary": "ghealth 是一款封装 Google Health API v4 的开源命令行工具，以单个 Go 二进制文件发布（Apache 2.0 协议）。它提供 40 种已验证的数据类型（包括步数、心率、睡眠、体重、血氧饱和度、心率变异性等）的结构化 JSON 输出。工具采用 Agent 优先设计，具备确定性退出码、--dry-run 和 --raw 标志，并附带两个 SKILL.md 文件供 AI 智能体使用。用户需自行创建 OAuth 凭据，通过 PKCE S256 认证。数据来源覆盖 Fitbit、Pixel Watch 及连接的第三方设备。",
-      "category": "ai-products",
-      "score": 72,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://www.marktechpost.com/2026/07/02/the-google-health-api-got-a-cli-ghealth-is-an-open-source-tool-for-your-fitbit-air-data"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr397vx001s3sly0t7mkh3fh",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr397vx001s3sly0t7mkh3fh",
-    "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
-    "summary": "Kimi K2.7 Code 开源权重模型已在 GitHub Copilot 中正式可用，成为 Copilot 模型选择器首个可选的开源权重模型，为编程工作流提供更低成本选择。该模型由 GitHub 托管于 Microsoft Azure，按供应商列表价格以用量计费。逐步向 Copilot Pro、Pro+ 和 Max 计划用户推送，用户可在 Visual Studio Code 1.127.0 或更新版本、Visual Studio 17.14.6 或更新版本、JetBrains 1.9.1-251 或更新版本、Xcode、Eclipse 等 IDE 及 Copilot CLI、GitHub.com、GitHub Mobile 等平台中选用。后续几周将扩展至 Copilot Business 和 Enterprise，当前默认关闭，需管理员在 Copilot 设置中启用策略。",
-    "body": "Kimi K2.7 Code 开源权重模型已在 GitHub Copilot 中正式可用，成为 Copilot 模型选择器首个可选的开源权重模型，为编程工作流提供更低成本选择。该模型由 GitHub 托管于 Microsoft Azure，按供应商列表价格以用量计费。逐步向 Copilot Pro、Pro+ 和 Max 计划用户推送，用户可在 Visual Studio Code 1.127.0 或更新版本、Visual Studio 17.14.6 或更新版本、JetBrains 1.9.1-251 或更新版本、Xcode、Eclipse 等 IDE 及 Copilot CLI、GitHub.com、GitHub Mobile 等平台中选用。后续几周将扩展至 Copilot Business 和 Enterprise，当前默认关闭，需管理员在 Copilot 设置中启用策略。",
-    "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-07-02T08:24:53.347Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr397vx001s3sly0t7mkh3fh",
-      "title": "Kimi K2.7 Code 已在 GitHub Copilot 上正式发布",
-      "title_en": null,
-      "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-      "permalink": "https://aihot.virxact.com/items/cmr397vx001s3sly0t7mkh3fh",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "publishedAt": "2026-07-02T08:24:53.347Z",
-      "summary": "Kimi K2.7 Code 开源权重模型已在 GitHub Copilot 中正式可用，成为 Copilot 模型选择器首个可选的开源权重模型，为编程工作流提供更低成本选择。该模型由 GitHub 托管于 Microsoft Azure，按供应商列表价格以用量计费。逐步向 Copilot Pro、Pro+ 和 Max 计划用户推送，用户可在 Visual Studio Code 1.127.0 或更新版本、Visual Studio 17.14.6 或更新版本、JetBrains 1.9.1-251 或更新版本、Xcode、Eclipse 等 IDE 及 Copilot CLI、GitHub.com、GitHub Mobile 等平台中选用。后续几周将扩展至 Copilot Business 和 Enterprise，当前默认关闭，需管理员在 Copilot 设置中启用策略。",
-      "category": "ai-products",
-      "score": 71,
-      "selected": true
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot"
-      }
-    ]
-  },
-  {
-    "id": "aihot:aihot:cmr37v68e01d8sly0hdur3j7r",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmr37v68e01d8sly0hdur3j7r",
-    "title": "OpenAI提议美国政府持股5%估值426亿美元",
-    "summary": "据Financial Times和CNBC报道，OpenAI提议向美国政府提供公司5%的股份，按近期8520亿美元估值计算，价值约426亿美元。OpenAI CEO Sam Altman表示，此举是与公众分享AI发展红利的最佳方式。",
-    "body": "据Financial Times和CNBC报道，OpenAI提议向美国政府提供公司5%的股份，按近期8520亿美元估值计算，价值约426亿美元。OpenAI CEO Sam Altman表示，此举是与公众分享AI发展红利的最佳方式。",
-    "url": "https://x.com/testingcatalog/status/2072585845542969583",
-    "sourceName": "X：Testing Catalog (@testingcatalog)",
-    "sourceCategory": "industry",
-    "publishedAt": "2026-07-02T07:39:07.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmr37v68e01d8sly0hdur3j7r",
-      "title": "OpenAI提议美国政府持股5%估值426亿美元",
-      "title_en": "OPENAI 🔥： US government may get a 5% stake in OpenAI worth $42.6 billion， according to Financial Ti…",
-      "url": "https://x.com/testingcatalog/status/2072585845542969583",
-      "permalink": "https://aihot.virxact.com/items/cmr37v68e01d8sly0hdur3j7r",
-      "source": "X：Testing Catalog (@testingcatalog)",
-      "publishedAt": "2026-07-02T07:39:07.000Z",
-      "summary": "据Financial Times和CNBC报道，OpenAI提议向美国政府提供公司5%的股份，按近期8520亿美元估值计算，价值约426亿美元。OpenAI CEO Sam Altman表示，此举是与公众分享AI发展红利的最佳方式。",
-      "category": "industry",
-      "score": 75,
-      "selected": true
-    },
-    "systemCategory": "news",
-    "canonicalUrl": "https://x.com/testingcatalog/status/2072585845542969583",
-    "sources": [
-      "aihot"
-    ],
-    "sourceLinks": [
-      {
-        "source": "aihot",
-        "url": "https://x.com/testingcatalog/status/2072585845542969583"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:calesthio/OpenMontage",
+    "id": "github_trending:github:mvanhorn/last30days-skill",
     "source": "github_trending",
-    "sourceItemId": "github:calesthio/OpenMontage",
-    "title": "calesthio/OpenMontage",
-    "summary": "World's first open-source, agentic video production system.",
-    "url": "https://github.com/calesthio/OpenMontage",
-    "publishedAt": "2026-07-03T03:00:43.776Z",
+    "sourceItemId": "github:mvanhorn/last30days-skill",
+    "title": "mvanhorn/last30days-skill",
+    "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
+    "url": "https://github.com/mvanhorn/last30days-skill",
+    "publishedAt": "2026-07-03T06:38:02.070Z",
     "metrics": {
-      "rank": 3
+      "rank": 5
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/calesthio/OpenMontage",
+    "canonicalUrl": "https://github.com/mvanhorn/last30days-skill",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/calesthio/OpenMontage"
+        "url": "https://github.com/mvanhorn/last30days-skill"
       }
     ]
   },
   {
-    "id": "github_trending:github:NVIDIA/cosmos",
+    "id": "github_trending:github:iptv-org/iptv",
     "source": "github_trending",
-    "sourceItemId": "github:NVIDIA/cosmos",
-    "title": "NVIDIA/cosmos",
-    "summary": "NVIDIA Cosmos is an open platform of world models, datasets, and tools that enables developers to build Physical AI for robots, autonomous vehicles, smart infrastructure, and more.",
-    "url": "https://github.com/NVIDIA/cosmos",
-    "publishedAt": "2026-07-03T03:00:43.785Z",
+    "sourceItemId": "github:iptv-org/iptv",
+    "title": "iptv-org/iptv",
+    "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
+    "url": "https://github.com/iptv-org/iptv",
+    "publishedAt": "2026-07-03T06:38:02.070Z",
     "metrics": {
-      "rank": 9
+      "rank": 6
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/NVIDIA/cosmos",
+    "canonicalUrl": "https://github.com/iptv-org/iptv",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/NVIDIA/cosmos"
+        "url": "https://github.com/iptv-org/iptv"
       }
     ]
   },
   {
-    "id": "builder_anthropic:builder_anthropic:https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-    "source": "builder_anthropic",
-    "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-    "title": "More details on Fable 5’s cyber safeguards and our jailbreak framework",
-    "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-cactus\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"More details on Fable 5’s cyber safeguards and our",
-    "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-cactus\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"More details on Fable 5’s cyber safeguards and our jailbreak framework\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/d3dd09ad16c68461dc3fb01df5e84cf7ccafda6c-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><a",
-    "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
-    "sourceName": "Anthropic News",
+    "id": "github_trending:github:Leonxlnx/taste-skill",
+    "source": "github_trending",
+    "sourceItemId": "github:Leonxlnx/taste-skill",
+    "title": "Leonxlnx/taste-skill",
+    "summary": "Taste-Skill - gives your AI good taste.",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "publishedAt": "2026-07-03T06:38:02.078Z",
+    "metrics": {
+      "rank": 15
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/Leonxlnx/taste-skill",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/Leonxlnx/taste-skill"
+      }
+    ]
+  },
+  {
+    "id": "github_trending:github:harry0703/MoneyPrinterTurbo",
+    "source": "github_trending",
+    "sourceItemId": "github:harry0703/MoneyPrinterTurbo",
+    "title": "harry0703/MoneyPrinterTurbo",
+    "summary": "利用AI大模型，一键生成高清短视频 Generate short videos with one click using AI LLM.",
+    "url": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "publishedAt": "2026-07-03T06:38:02.079Z",
+    "metrics": {
+      "rank": 17
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/harry0703/MoneyPrinterTurbo",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/harry0703/MoneyPrinterTurbo"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+    "title": "Zuckerberg says AI agent development going slower than expected",
+    "summary": "Article URL: https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/ Comments URL: https://news.ycombinator.com/item?id=48767058 Points: 37 # Comments: 40",
+    "body": "Article URL: https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/ Comments URL: https://news.ycombinator.com/item?id=48767058 Points: 37 # Comments: 40",
+    "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/",
+    "sourceName": "Hacker News AI",
     "sourceCategory": "news",
-    "authorName": "Anthropic",
-    "publishedAt": "2026-07-01T16:00:00.000Z",
+    "publishedAt": "2026-07-02T20:38:06.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Anthropic News"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "company",
-    "canonicalUrl": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02",
     "sources": [
-      "builder_anthropic"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_anthropic",
-        "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework"
+        "source": "builder_hackernews",
+        "url": "https://www.reuters.com/business/zuckerberg-says-ai-agent-development-going-slower-than-expected-2026-07-02/"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-    "title": "llm-coding-agent 0.1a0",
-    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-coding-agent/releases/tag/0.1a0\">llm-coding-agent 0.1a0</a></p> <p>Another Fable 5 experiment. Now that my <a href=\"https://llm.datasette.io/\">LLM library</a> has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.</p> <p>I started a <a href=\"https://github.com/simonw/llm-coding-agent/tree/2466fa03ba8e5122c3bfa93d52167d33bce40ac6\">new Python library</a> using my <a hre",
-    "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-coding-agent/releases/tag/0.1a0\">llm-coding-agent 0.1a0</a></p> <p>Another Fable 5 experiment. Now that my <a href=\"https://llm.datasette.io/\">LLM library</a> has evolved into more of an agent framework it's time to see what a simple coding agent would look like built on it.</p> <p>I started a <a href=\"https://github.com/simonw/llm-coding-agent/tree/2466fa03ba8e5122c3bfa93d52167d33bce40ac6\">new Python library</a> using my <a href=\"https://github.com/simonw/python-lib-template-repository\">python-lib-template-repository</a> GitHub template repository, then ran these two prompts (here's the <a href=\"https://claude.ai/code/session_01TEUBvBbMipbFSoqjMiJ7ha\">Claude Code for web transcript</a>):</p> <blockquote> <p><code>Write a ",
-    "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-07-02T19:33:12.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://blog.okturtles.org/2026/07/short-leash-ai-method/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://blog.okturtles.org/2026/07/short-leash-ai-method/",
+    "title": "The short leash AI coding method for beating Fable",
+    "summary": "Article URL: https://blog.okturtles.org/2026/07/short-leash-ai-method/ Comments URL: https://news.ycombinator.com/item?id=48766026 Points: 103 # Comments: 128",
+    "body": "Article URL: https://blog.okturtles.org/2026/07/short-leash-ai-method/ Comments URL: https://news.ycombinator.com/item?id=48766026 Points: 103 # Comments: 128",
+    "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T19:11:57.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jul/2/llm-coding-agent",
+    "systemCategory": "news",
+    "canonicalUrl": "https://blog.okturtles.org/2026/07/short-leash-ai-method",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jul/2/llm-coding-agent/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://blog.okturtles.org/2026/07/short-leash-ai-method/"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-    "title": "Using DSPy to evaluate and improve Datasette Agent's SQL system prompts",
-    "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts#readme\">Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts</a></p> <p>One of this morning's AIE keynotes covered <a href=\"https://github.com/stanfordnlp/dspy\">dspy</a>, which reminded me I've been meaning to see if it could help me improve the system prompt used by <a href=\"https://agent.datasette.io\">Datasette Agent</a> - so I fired off an asynchronous resea",
-    "body": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/dspy-datasette-agent-prompts#readme\">Using DSPy to evaluate and improve Datasette Agent&#x27;s SQL system prompts</a></p> <p>One of this morning's AIE keynotes covered <a href=\"https://github.com/stanfordnlp/dspy\">dspy</a>, which reminded me I've been meaning to see if it could help me improve the system prompt used by <a href=\"https://agent.datasette.io\">Datasette Agent</a> - so I fired off an asynchronous research task in Claude Code for web using Claude Fable 5:</p> <blockquote> <p><code>Pip install the latest Datasette alpha and datasette-agent and dspy - then figure out how to use dspy to evaluate and improve the main system prompts used by Datasette Agent for the feature where it can execute read only",
-    "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-07-02T18:25:00.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://github.com/anthropics/claude-code/issues/73125",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://github.com/anthropics/claude-code/issues/73125",
+    "title": "Claude's AskUserQuestion: \"No response after 60s – continued without an answer\"",
+    "summary": "Article URL: https://github.com/anthropics/claude-code/issues/73125 Comments URL: https://news.ycombinator.com/item?id=48765630 Points: 55 # Comments: 61",
+    "body": "Article URL: https://github.com/anthropics/claude-code/issues/73125 Comments URL: https://news.ycombinator.com/item?id=48765630 Points: 55 # Comments: 61",
+    "url": "https://github.com/anthropics/claude-code/issues/73125",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T18:37:57.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts",
+    "systemCategory": "news",
+    "canonicalUrl": "https://github.com/anthropics/claude-code/issues/73125",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://github.com/anthropics/claude-code/issues/73125"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-    "title": "Understand to participate",
-    "summary": "<p>I saw Geoffrey Litt speak at <a href=\"https://www.ai.engineer/worldsfair/2026\">AIE</a> yesterday, and one framing he used particularly resonated with me:</p> <p><strong>Understand to participate</strong></p> <p>Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> as your understanding drifts from how",
-    "body": "<p>I saw Geoffrey Litt speak at <a href=\"https://www.ai.engineer/worldsfair/2026\">AIE</a> yesterday, and one framing he used particularly resonated with me:</p> <p><strong>Understand to participate</strong></p> <p>Geoffrey was talking about the challenge of collaborating with coding agents as they construct increasingly large and sophisticated changes, and the need to avoid taking on <a href=\"https://simonwillison.net/tags/cognitive-debt/\">cognitive debt</a> as your understanding drifts from how the code actually works.</p> <p>His argument is that you need to understand the code to a depth that enables you to participate further with the model:</p> <blockquote> <p>You can learn what the agent is doing to make sure you can be an active participant in the creative process. [...]</p> <p>You n",
-    "url": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-07-02T17:07:14.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://news.ycombinator.com/item?id=48765450",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=48765450",
+    "title": "Ask HN: Why are so many \"AI evangelists\" posting such insufferable content?",
+    "summary": "My LinkedIn feed is absolutely unreal right now. 90% (I don't even think I'm exaggerating) of the posts in my feed are from connections who have changed their title to something like \"AI Thought Leader | AI Native | Thought Coaching\". They post *daily* about something LLM/agentic. The biggest problem is that it's never \"hey check out this cool thing\", it's \"if you're not doing this, you're a dinosaur who will be left in the past.\" Other common content is regurgitating blog / Twitter folks from \"",
+    "body": "My LinkedIn feed is absolutely unreal right now. 90% (I don't even think I'm exaggerating) of the posts in my feed are from connections who have changed their title to something like \"AI Thought Leader | AI Native | Thought Coaching\". They post *daily* about something LLM/agentic. The biggest problem is that it's never \"hey check out this cool thing\", it's \"if you're not doing this, you're a dinosaur who will be left in the past.\" Other common content is regurgitating blog / Twitter folks from \"AI influencers\", associated with statements like, \"Boris McAI said software engineering is dead. Here's 5 reasons why he's right.\" I felt this way a bit when cryptocurrency was at its height, but it never got this embarrassing or self-fellating. How do so many of my connections (more than 800 at thi",
+    "url": "https://news.ycombinator.com/item?id=48765450",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T18:23:03.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jul/2/understand-to-participate",
+    "systemCategory": "news",
+    "canonicalUrl": "https://news.ycombinator.com/item?id=48765450",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jul/2/understand-to-participate/#atom-everything"
+        "source": "builder_hackernews",
+        "url": "https://news.ycombinator.com/item?id=48765450"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
-    "title": "Understanding is the new bottleneck",
-    "summary": "<article class=\"talk\"> <div class=\"talk-header\"> <h3 class=\"date\">July 2026</h3> <h1 class=\"title\">Understanding is the new bottleneck</h1> <p class=\"talk-context\"> This is a written version of a talk I gave at the <a href=\"https://www.ai.engineer/\">AI Engineer</a> conference in July 2026, also shared as <a href=\"https://x.com/geoffreylitt/status/2072522251300409556\">a tweet thread.</a> </p> </div> <div class=\"talk-segment\"> <div class=\"talk-slide\"> <img alt=\"Title slide: Understanding is the ne",
-    "body": "<article class=\"talk\"> <div class=\"talk-header\"> <h3 class=\"date\">July 2026</h3> <h1 class=\"title\">Understanding is the new bottleneck</h1> <p class=\"talk-context\"> This is a written version of a talk I gave at the <a href=\"https://www.ai.engineer/\">AI Engineer</a> conference in July 2026, also shared as <a href=\"https://x.com/geoffreylitt/status/2072522251300409556\">a tweet thread.</a> </p> </div> <div class=\"talk-segment\"> <div class=\"talk-slide\"> <img alt=\"Title slide: Understanding is the new bottleneck. Geoffrey Litt, Design Engineer at Notion.\" decoding=\"async\" fetchpriority=\"high\" loading=\"eager\" sizes=\"(min-width: 860px) min(52vw, 815px), calc(100vw - 30px)\" src=\"/images/talks/understanding-bottleneck/slide-01.webp\" srcset=\"/images/talks/understanding-bottleneck/slide-01-800.webp 8",
-    "url": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
-    "sourceName": "Geoffrey Litt",
-    "sourceCategory": "technical",
-    "authorName": "Geoffrey Litt",
-    "publishedAt": "2026-07-02T10:00:00.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/",
+    "title": "Weird Al Yankovic Pulled Out of AI Ad Deal: 'I Can't Be the Poster Boy for AI'",
+    "summary": "Article URL: https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/ Comments URL: https://news.ycombinator.com/item?id=48764326 Points: 65 # Comments: 37",
+    "body": "Article URL: https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/ Comments URL: https://news.ycombinator.com/item?id=48764326 Points: 65 # Comments: 37",
+    "url": "https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T17:03:30.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Geoffrey Litt"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html",
+    "systemCategory": "news",
+    "canonicalUrl": "https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://geoffreylitt.com/2026/07/02/understanding-is-the-new-bottleneck.html"
+        "source": "builder_hackernews",
+        "url": "https://variety.com/2026/biz/news/weird-al-yankovic-rejected-ai-commercial-money-offer-1236800794/"
       }
     ]
   },
   {
-    "id": "builder_lobsters:builder_lobsters:https://arxiv.org/abs/2604.03136",
-    "source": "builder_lobsters",
-    "sourceItemId": "builder_lobsters:https://arxiv.org/abs/2604.03136",
-    "title": "Investigating idiosyncrasies in AI fiction",
-    "summary": "<p><a href=\"https://lobste.rs/s/hjuopb/investigating_idiosyncrasies_ai\">Comments</a></p>",
-    "body": "<p><a href=\"https://lobste.rs/s/hjuopb/investigating_idiosyncrasies_ai\">Comments</a></p>",
-    "url": "https://arxiv.org/abs/2604.03136",
-    "sourceName": "Lobsters AI",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-02T12:02:29.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+    "title": "No LLM Code in Dependencies",
+    "summary": "Article URL: https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/ Comments URL: https://news.ycombinator.com/item?id=48762008 Points: 116 # Comments: 101",
+    "body": "Article URL: https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/ Comments URL: https://news.ycombinator.com/item?id=48762008 Points: 116 # Comments: 101",
+    "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T14:17:23.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Lobsters AI"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2604.03136",
+    "systemCategory": "news",
+    "canonicalUrl": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies",
     "sources": [
-      "builder_lobsters"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_lobsters",
-        "url": "https://arxiv.org/abs/2604.03136"
+        "source": "builder_hackernews",
+        "url": "https://joeyh.name/blog/entry/no_LLM_code_in_dependencies/"
       }
     ]
   },
   {
-    "id": "builder_lobsters:builder_lobsters:https://yfu.tw/blog/en/autofz-revisited/",
-    "source": "builder_lobsters",
-    "sourceItemId": "builder_lobsters:https://yfu.tw/blog/en/autofz-revisited/",
-    "title": "The Control Plane Was the Point: Revisiting autofz in the LLM Era",
-    "summary": "<p><a href=\"https://lobste.rs/s/gwxqmh/control_plane_was_point_revisiting\">Comments</a></p>",
-    "body": "<p><a href=\"https://lobste.rs/s/gwxqmh/control_plane_was_point_revisiting\">Comments</a></p>",
-    "url": "https://yfu.tw/blog/en/autofz-revisited/",
-    "sourceName": "Lobsters AI",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-02T05:19:10.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+    "title": "AI can't be listed as inventor on patent applications, Japan's top court rules",
+    "summary": "Article URL: https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/ Comments URL: https://news.ycombinator.com/item?id=48761536 Points: 367 # Comments: 195",
+    "body": "Article URL: https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/ Comments URL: https://news.ycombinator.com/item?id=48761536 Points: 367 # Comments: 195",
+    "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T13:43:41.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Lobsters AI"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://yfu.tw/blog/en/autofz-revisited",
+    "systemCategory": "news",
+    "canonicalUrl": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930",
     "sources": [
-      "builder_lobsters"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_lobsters",
-        "url": "https://yfu.tw/blog/en/autofz-revisited/"
+        "source": "builder_hackernews",
+        "url": "https://japannews.yomiuri.co.jp/science-nature/technology/20260306-314930/"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02512",
+    "id": "builder_hackernews:builder_hackernews:https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
+    "title": "AI fake news complaining about how AI fake news is the death of real news",
+    "summary": "Article URL: https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/ Comments URL: https://news.ycombinator.com/item?id=48760598 Points: 156 # Comments: 56",
+    "body": "Article URL: https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/ Comments URL: https://news.ycombinator.com/item?id=48760598 Points: 156 # Comments: 56",
+    "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T12:40:36.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://www.niemanlab.org/2026/07/now-were-getting-ai-fake-news-complaining-about-how-ai-fake-news-is-the-death-of-real-news/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+    "title": "Meta building cloud business to sell excess AI capacity",
+    "summary": "Article URL: https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/ Comments URL: https://news.ycombinator.com/item?id=48759329 Points: 30 # Comments: 66",
+    "body": "Article URL: https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/ Comments URL: https://news.ycombinator.com/item?id=48759329 Points: 30 # Comments: 66",
+    "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T10:43:41.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://www.reuters.com/business/meta-sell-excess-ai-computing-capacity-via-cloud-business-bloomberg-news-reports-2026-07-01/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://intrepidkarthi.com/writing/the-gauge-broke/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://intrepidkarthi.com/writing/the-gauge-broke/",
+    "title": "The gauge broke: devs felt 20% faster with AI, measured 19% slower (2025)",
+    "summary": "Article URL: https://intrepidkarthi.com/writing/the-gauge-broke/ Comments URL: https://news.ycombinator.com/item?id=48757440 Points: 77 # Comments: 98",
+    "body": "Article URL: https://intrepidkarthi.com/writing/the-gauge-broke/ Comments URL: https://news.ycombinator.com/item?id=48757440 Points: 77 # Comments: 98",
+    "url": "https://intrepidkarthi.com/writing/the-gauge-broke/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-02T06:44:34.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://intrepidkarthi.com/writing/the-gauge-broke",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://intrepidkarthi.com/writing/the-gauge-broke/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
+    "title": "Meta caps internal AI token spending",
+    "summary": "Article URL: https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/ Comments URL: https://news.ycombinator.com/item?id=48754713 Points: 146 # Comments: 146",
+    "body": "Article URL: https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/ Comments URL: https://news.ycombinator.com/item?id=48754713 Points: 146 # Comments: 146",
+    "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-01T23:58:48.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://mlq.ai/news/meta-caps-internal-ai-token-spending-after-costs-approach-billions-in-2026/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+    "title": "'It's like having a dumb friend': Young San Franciscans hate AI",
+    "summary": "Article URL: https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php Comments URL: https://news.ycombinator.com/item?id=48753927 Points: 46 # Comments: 14",
+    "body": "Article URL: https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php Comments URL: https://news.ycombinator.com/item?id=48753927 Points: 46 # Comments: 14",
+    "url": "https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-01T22:22:14.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://www.sfgate.com/tech/article/san-francisco-ai-backlash-22325141.php"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+    "title": "Claude Fable 5 Promotional Access",
+    "summary": "Article URL: https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access Comments URL: https://news.ycombinator.com/item?id=48751978 Points: 102 # Comments: 90",
+    "body": "Article URL: https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access Comments URL: https://news.ycombinator.com/item?id=48751978 Points: 102 # Comments: 90",
+    "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-01T19:31:46.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://support.claude.com/en/articles/15424964-claude-fable-5-promotional-access"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://zcode.z.ai/cn",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://zcode.z.ai/cn",
+    "title": "ZCode: Claude Code from the Makers of GLM",
+    "summary": "Article URL: https://zcode.z.ai/cn Comments URL: https://news.ycombinator.com/item?id=48751752 Points: 276 # Comments: 14",
+    "body": "Article URL: https://zcode.z.ai/cn Comments URL: https://news.ycombinator.com/item?id=48751752 Points: 276 # Comments: 14",
+    "url": "https://zcode.z.ai/cn",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-07-01T19:11:38.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://zcode.z.ai/cn",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://zcode.z.ai/cn"
+      }
+    ]
+  },
+  {
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02255",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02512",
-    "title": "Program-as-Weights: A Programming Paradigm for Fuzzy Functions",
-    "summary": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (P",
-    "body": "Many everyday programming tasks resist clean rule-based implementation, such as alerting on important log lines, repairing malformed JSON, or ranking search results by intent, and are increasingly outsourced to large language model APIs at the cost of locality, reproducibility, and price. We propose fuzzy-function programming: compiling such a function from a natural-language specification into a compact, locally-executable neural artifact. We instantiate this paradigm with Program-as-Weights (PAW), in which a 4B compiler trained on FuzzyBench, a 10M-example dataset we release, emits parameter-efficient adapters for a frozen, lightweight interpreter. A 0.6B Qwen3 interpreter executing PAW programs matches the performance of direct prompting of Qwen3-32B, while using roughly one fiftieth of",
-    "url": "https://arxiv.org/abs/2607.02512",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02255",
+    "title": "AgenticSTS: A Bounded-Memory Testbed for Long-Horizon LLM Agents",
+    "summary": "Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw ",
+    "body": "Memory for a long-horizon LLM agent is a contract about what each future decision is allowed to see. The simplest contract appends past observations, tool calls, and reflections to every prompt, which makes prior context easy to access but also turns it into a jumbled mixture in which the effect of any single memory component is hard to isolate. We introduce and instrument an alternative bounded contract: every decision is made from a fresh user message assembled by typed retrieval, with no raw cross-decision transcript appended. The prompt thus stays bounded across runs of any length, and any single layer can be ablated in isolation. We instantiate the contract in Slay the Spire 2, a closed-rule stochastic deck-building game whose runs require hundreds of tactical and strategic decisions.",
+    "url": "https://arxiv.org/abs/2607.02255",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-07-01T20:00:00.000Z",
@@ -1061,25 +584,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02512",
+    "canonicalUrl": "https://arxiv.org/abs/2607.02255",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02512"
+        "url": "https://arxiv.org/abs/2607.02255"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.01642",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02508",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.01642",
-    "title": "Multi-Resolution Flow Matching: Training-Free Diffusion Acceleration via Staged Sampling",
-    "summary": "Hardware-agnostic strategies for accelerating text-to-image diffusion, such as timestep distillation and feature caching, can reduce inference time without custom kernels or system-level optimization. Among them, multi-resolution generation strategies have recently received broad attention, attaining more than 5x speedup without any training. However, the design of performing upsampling in the latent space, together with the selective modification of partial regions, causes these methods to exhi",
-    "body": "Hardware-agnostic strategies for accelerating text-to-image diffusion, such as timestep distillation and feature caching, can reduce inference time without custom kernels or system-level optimization. Among them, multi-resolution generation strategies have recently received broad attention, attaining more than 5x speedup without any training. However, the design of performing upsampling in the latent space, together with the selective modification of partial regions, causes these methods to exhibit noticeable blurring or artifacts. To this end, we propose MrFlow, a training-free multi-resolution acceleration strategy for pretrained flow-matching models built upon a staged low-to-high-resolution pipeline. MrFlow first rapidly generates the main structure at low resolution, then performs sup",
-    "url": "https://arxiv.org/abs/2607.01642",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02508",
+    "title": "From SRA to Self-Flow: Data Augmentation or Self-Supervision?",
+    "summary": "Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion model itself. However, the mechanism behind the improvement from SRA to Self-Flow, dual-time scheduling, remains under-examined: Self-Flow attributes its gain to interactions between tokens at different ",
+    "body": "Representation alignment has become an effective way to accelerate diffusion transformer training and improve generation quality. Recent self-alignment methods, such as SRA and Self-Flow, further remove the dependency on external pretrained encoders by constructing alignment within the diffusion model itself. However, the mechanism behind the improvement from SRA to Self-Flow, dual-time scheduling, remains under-examined: Self-Flow attributes its gain to interactions between tokens at different noise levels, where cleaner tokens help infer noisier ones. In this work, we revisit this explanation and ask whether the gain instead comes from data augmentation along the noise dimension. To disentangle these factors, we introduce Attention Separation, which preserves the same dual-timestep input",
+    "url": "https://arxiv.org/abs/2607.02508",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-07-01T20:00:00.000Z",
@@ -1088,25 +611,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.01642",
+    "canonicalUrl": "https://arxiv.org/abs/2607.02508",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.01642"
+        "url": "https://arxiv.org/abs/2607.02508"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02291",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02440",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02291",
-    "title": "Optimizing Visual Generative Models via Distribution-wise Rewards",
-    "summary": "Conventional reinforcement learning strategies for visual generation typically employ sample-wise reward functions, yet this practice frequently results in reward hacking that degrades image diversity and introduces visual anomalies. To address these limitations, we present a novel framework that finetunes generative models using distribution-wise rewards, ensuring better alignment with real-world data distributions. Unlike rewards that evaluate samples individually, distribution-wise reward acc",
-    "body": "Conventional reinforcement learning strategies for visual generation typically employ sample-wise reward functions, yet this practice frequently results in reward hacking that degrades image diversity and introduces visual anomalies. To address these limitations, we present a novel framework that finetunes generative models using distribution-wise rewards, ensuring better alignment with real-world data distributions. Unlike rewards that evaluate samples individually, distribution-wise reward accounts for the data distribution of the samples, mitigating the mode collapse problem that occurs when all samples optimize towards the same direction independently. To overcome the prohibitive computational cost of estimating these rewards, we introduce a subset-replace strategy that efficiently pro",
-    "url": "https://arxiv.org/abs/2607.02291",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02440",
+    "title": "EvoPolicyGym: Evaluating Autonomous Policy Evolution in Interactive Environments",
+    "summary": "Autonomous agents are increasingly expected to improve executable policies through feedback, yet existing evaluations often collapse this process into a final score or confound it with open-ended software-engineering progress. We introduce Autonomous Policy Evolution, a controlled evaluation setting in which a harness-model agent repeatedly edits an executable policy system under a fixed interaction budget. We instantiate this setting in EvoPolicyGym, a benchmark built from compact interactive R",
+    "body": "Autonomous agents are increasingly expected to improve executable policies through feedback, yet existing evaluations often collapse this process into a final score or confound it with open-ended software-engineering progress. We introduce Autonomous Policy Evolution, a controlled evaluation setting in which a harness-model agent repeatedly edits an executable policy system under a fixed interaction budget. We instantiate this setting in EvoPolicyGym, a benchmark built from compact interactive RL environments that evaluates how agents iteratively improve explored policies. On the EvoPolicyGym suite, GPT-5.5 achieves the strongest aggregate rank score and top-two performance on all 16 environments. Beyond leaderboard results, EvoPolicyGym also provides trajectory-level diagnostics that dist",
+    "url": "https://arxiv.org/abs/2607.02440",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-07-01T20:00:00.000Z",
@@ -1115,230 +638,41 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02291",
+    "canonicalUrl": "https://arxiv.org/abs/2607.02440",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02291"
+        "url": "https://arxiv.org/abs/2607.02440"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02269",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.01436",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02269",
-    "title": "AnyGroundBench: A Specialized-Domain Benchmark for Video Grounding in Vision-Language Models",
-    "summary": "Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critical disconnect from real-world applications in specialized fields, where models inevitably encounter rare visual concepts and complex spatio-temporal dynamics. Since exhaustive pre-training across infinite data distributions is infeasible, the ability to",
-    "body": "Vision-Language Models (VLMs) have demonstrated immense promise in Spatio-Temporal Video Grounding (STVG). However, current evaluation protocols are largely confined to zero-shot assessments on general, daily-life benchmarks. This creates a critical disconnect from real-world applications in specialized fields, where models inevitably encounter rare visual concepts and complex spatio-temporal dynamics. Since exhaustive pre-training across infinite data distributions is infeasible, the ability to adapt to novel domains is essential. To bridge this gap, we introduce AnyGroundBench, a domain-adaptation benchmark designed to shift the STVG evaluation paradigm from static zero-shot testing to rigorous domain adaptation. Targeting five specialized domains (animal, industry, sports, surgery, and ",
-    "url": "https://arxiv.org/abs/2607.02269",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.01436",
+    "title": "Discrete Diffusion Language Models for Interactive Radiology Report Drafting",
+    "summary": "Diffusion language models, which generate text by denoising a token canvas bidirectionally instead of emitting tokens left to right, have become competitive with autoregressive (AR) generation. Medical foundation models, however, remain almost entirely autoregressive. We adapt a mixture-of-experts diffusion language model, DiffusionGemma-26B, and benchmark it against its same-size AR sibling Gemma-4-26B under an identical LoRA recipe on medical visual question answering datasets, scored by a ver",
+    "body": "Diffusion language models, which generate text by denoising a token canvas bidirectionally instead of emitting tokens left to right, have become competitive with autoregressive (AR) generation. Medical foundation models, however, remain almost entirely autoregressive. We adapt a mixture-of-experts diffusion language model, DiffusionGemma-26B, and benchmark it against its same-size AR sibling Gemma-4-26B under an identical LoRA recipe on medical visual question answering datasets, scored by a verbosity-robust LLM judge. Diffusion matches or exceeds AR on all of them, and the finetuned model (3.8B active) is competitive with frontier vision-language models; its decoding is also 3.5-4.4x faster. Beyond this parity, the diffusion model offers a drafting capability AR lacks: any-order infill. B",
+    "url": "https://arxiv.org/abs/2607.01436",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
+    "publishedAt": "2026-06-30T20:00:00.000Z",
     "metrics": {},
     "metadata": {
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02269",
+    "canonicalUrl": "https://arxiv.org/abs/2607.01436",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02269"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.01647",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.01647",
-    "title": "AgenticDataBench: A Comprehensive Benchmark for Data Agents",
-    "summary": "Data science aims to derive actionable insights from heterogeneous raw data, unlocking the value of the massive amounts of data generated in modern society. Automating this process is essential to reducing labor-intensive efforts for data scientists and enabling scalable data-driven applications. Recently, large language model (LLM)-based data agents have emerged as a promising solution to automate data science workflows. However, the field lacks comprehensive benchmarks to rigorously evaluate t",
-    "body": "Data science aims to derive actionable insights from heterogeneous raw data, unlocking the value of the massive amounts of data generated in modern society. Automating this process is essential to reducing labor-intensive efforts for data scientists and enabling scalable data-driven applications. Recently, large language model (LLM)-based data agents have emerged as a promising solution to automate data science workflows. However, the field lacks comprehensive benchmarks to rigorously evaluate these agents across diverse scenarios with fine-grained granularity. To address this gap, we propose AgenticDataBench, a comprehensive benchmark featuring realistic tasks spanning diverse domains with fine-grained ground-truth labels. This enables evaluations to capture the diversity and complexity o",
-    "url": "https://arxiv.org/abs/2607.01647",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.01647",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.01647"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.01874",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.01874",
-    "title": "SkillCoach: Self-Evolving Rubrics for Evaluating and Enhancing Agentic Skill-Use",
-    "summary": "Skills are becoming a reusable operational layer for LLM agents, encoding SOPs, domain rules, tool workflows, scripts, and validation routines. In realistic skill repositories, overlapping skills make reliable skill-use difficult. Final verifier success is too coarse for both evaluation and training, since an agent may pass through trial and error while selecting distractor skills, skipping required steps, composing workflows incorrectly or omitting final checks. We introduce SkillCoach, a self-",
-    "body": "Skills are becoming a reusable operational layer for LLM agents, encoding SOPs, domain rules, tool workflows, scripts, and validation routines. In realistic skill repositories, overlapping skills make reliable skill-use difficult. Final verifier success is too coarse for both evaluation and training, since an agent may pass through trial and error while selecting distractor skills, skipping required steps, composing workflows incorrectly or omitting final checks. We introduce SkillCoach, a self-evolving rubric framework for evaluating and enhancing agentic skill-use. SkillCoach derives skill-grounded process rubrics from real rollouts and evaluates trajectories along four dimensions: skill selection, skill following, skill composition, and skill-grounded reflection. It keeps the external v",
-    "url": "https://arxiv.org/abs/2607.01874",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.01874",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.01874"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02032",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02032",
-    "title": "PACE: A Proxy for Agentic Capability Evaluation",
-    "summary": "Evaluating LLM agents on benchmarks like SWE-Bench and GAIA can be expensive, time-consuming, and requires complex infrastructure. A single evaluation can cost thousands of dollars and take days to complete. In contrast, non-agentic LLM benchmarks that test individual capabilities (e.g., reasoning, code generation) are fast and cheap to run. In this paper, we investigate whether performance on expensive agentic benchmarks can be accurately predicted by the performance on a small, carefully selec",
-    "body": "Evaluating LLM agents on benchmarks like SWE-Bench and GAIA can be expensive, time-consuming, and requires complex infrastructure. A single evaluation can cost thousands of dollars and take days to complete. In contrast, non-agentic LLM benchmarks that test individual capabilities (e.g., reasoning, code generation) are fast and cheap to run. In this paper, we investigate whether performance on expensive agentic benchmarks can be accurately predicted by the performance on a small, carefully selected subset of atomic evaluation instances. We introduce PACE, a framework that constructs proxy benchmarks by selecting instances from existing non-agentic evaluations whose aggregate scores most reliably predict model performances on agentic benchmarks. Given a pool of candidate instances spanning ",
-    "url": "https://arxiv.org/abs/2607.02032",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02032",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02032"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02375",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02375",
-    "title": "Representation Distribution Matching for One-Step Visual Generation",
-    "summary": "We elucidate the design space of Representation Distribution Matching (RDM), our name for the paradigm that trains a one-step image generator by matching generated and reference feature distributions under frozen pretrained encoders. We identify two design axes, how the distributions are compared and the representations they are compared in, and controlled studies along them yield three findings. First, the classical MMD, which could not train convincing generators a decade ago, becomes a strong",
-    "body": "We elucidate the design space of Representation Distribution Matching (RDM), our name for the paradigm that trains a one-step image generator by matching generated and reference feature distributions under frozen pretrained encoders. We identify two design axes, how the distributions are compared and the representations they are compared in, and controlled studies along them yield three findings. First, the classical MMD, which could not train convincing generators a decade ago, becomes a strong and scalable objective once estimated right. Second, the generated batch is then the operative variable, with an optimum above 2048, far beyond customary batch sizes. Third, any single representation can be gamed, driven below the real score while images stay visibly fake, so we match against a bal",
-    "url": "https://arxiv.org/abs/2607.02375",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02375",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02375"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02466",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02466",
-    "title": "Learning to Move Before Learning to Do: Task-Agnostic pretraining for VLAs",
-    "summary": "Vision-Language-Action (VLA) models are fundamentally bottlenecked by the scarcity of expert demonstrations -- triplets of observations, instructions, and actions that are costly to collect at scale. We argue that this bottleneck stems from conflating two distinct learning objectives: acquiring physical competence (how to move) and acquiring semantic alignment (what to do). Crucially, only the latter requires language supervision. Building on this Decomposition Hypothesis, we propose Task-Agnost",
-    "body": "Vision-Language-Action (VLA) models are fundamentally bottlenecked by the scarcity of expert demonstrations -- triplets of observations, instructions, and actions that are costly to collect at scale. We argue that this bottleneck stems from conflating two distinct learning objectives: acquiring physical competence (how to move) and acquiring semantic alignment (what to do). Crucially, only the latter requires language supervision. Building on this Decomposition Hypothesis, we propose Task-Agnostic Pretraining (TAP), a two-stage framework that first learns transferable motor priors from cheap, unlabeled interaction data -- including discarded off-task trajectories and autonomous robot play -- via a self-supervised Inverse Dynamics objective. A lightweight second stage then grounds these pri",
-    "url": "https://arxiv.org/abs/2607.02466",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02466",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02466"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.02517",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.02517",
-    "title": "WorldDirector: Building Controllable World Simulators with Persistent Dynamic Memory",
-    "summary": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain motion, our framework explicitly decouples semantic motion orchestration from visual generation. By leveraging an LLM to coordinate 3D trajectories with camera movements and subsequently employing these ",
-    "body": "We present WorldDirector, a highly controllable video world model framework designed for persistent dynamic object memory and unrestricted viewpoint exploration. Unlike existing world models that entangle physical dynamics with pixel rendering and rely on continuous visual observation to sustain motion, our framework explicitly decouples semantic motion orchestration from visual generation. By leveraging an LLM to coordinate 3D trajectories with camera movements and subsequently employing these orchestrated trajectories as control signals for video generation, our approach ensures strict physical logic and appearance stability, successfully preserving the exact visual identities of dynamic entities even when they re-enter the scene after prolonged periods out of view. Experimental results ",
-    "url": "https://arxiv.org/abs/2607.02517",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.02517",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.02517"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.01763",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.01763",
-    "title": "Denser neq Better: Limits of On-Policy Self-Distillation for Continual Post-Training",
-    "summary": "Continual post-training enables foundation models to acquire new knowledge while preserving existing capabilities. Recent work suggests that on-policy learning can mitigate forgetting, with on-policy self-distillation emerging as a particularly attractive approach. In this work, we revisit this optimistic view through self-distillation policy optimization (SDPO). Our experiments show that SDPO can accelerate in-domain specialization when teacher signals are stable and well aligned, but it strugg",
-    "body": "Continual post-training enables foundation models to acquire new knowledge while preserving existing capabilities. Recent work suggests that on-policy learning can mitigate forgetting, with on-policy self-distillation emerging as a particularly attractive approach. In this work, we revisit this optimistic view through self-distillation policy optimization (SDPO). Our experiments show that SDPO can accelerate in-domain specialization when teacher signals are stable and well aligned, but it struggles to generalize to out-of-distribution scenarios. In continual post-training, SDPO exhibits stronger forgetting and can even collapse, whereas on-policy reinforcement learning methods such as GRPO adapt more conservatively and better preserve prior capabilities. Further analyses reveal that denser",
-    "url": "https://arxiv.org/abs/2607.01763",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-01T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.01763",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.01763"
+        "url": "https://arxiv.org/abs/2607.01436"
       }
     ]
   }
