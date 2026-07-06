@@ -1,8 +1,36 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-07-06T07:19:29.462Z",
+    "fetchedAt": "2026-07-06T08:11:30.086Z",
     "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmr8xoe5n01fesllsqdpw9l5u",
+        "title": "腾讯混元今日发布并开源 Hy3 模型，性能比肩 2~5 倍参数规模旗舰模型",
+        "summary": "腾讯混元今日正式发布并开源 Hy3 模型。该模型基于 4 月底的 preview 版本，提升了后训练数据质量与多样性，并扩大 RL 算力规模，在推理、智能体、长上下文等任务上显著进步，效果比肩参数规模为 Hy3 2~5 倍的国内外旗舰模型。在 270 位专家基于真实工作的盲测中，Hy3（均分 2.67/4）优于 GLM5.1（均分 2.51/4）。API 价格为输入 1 元/百万 tokens、输出 4 元/百万 tokens，命中缓存输入 0.25 元/百万 tokens。",
+        "body": "腾讯混元今日正式发布并开源 Hy3 模型。该模型基于 4 月底的 preview 版本，提升了后训练数据质量与多样性，并扩大 RL 算力规模，在推理、智能体、长上下文等任务上显著进步，效果比肩参数规模为 Hy3 2~5 倍的国内外旗舰模型。在 270 位专家基于真实工作的盲测中，Hy3（均分 2.67/4）优于 GLM5.1（均分 2.51/4）。API 价格为输入 1 元/百万 tokens、输出 4 元/百万 tokens，命中缓存输入 0.25 元/百万 tokens。",
+        "url": "https://www.ithome.com/0/973/106.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-07-06T07:25:43.000Z",
+        "rawJson": {
+          "id": "cmr8xoe5n01fesllsqdpw9l5u",
+          "title": "腾讯混元今日发布并开源 Hy3 模型，性能比肩 2~5 倍参数规模旗舰模型",
+          "title_en": "腾讯发布并开源混元 Hy3 模型，宣称效果比肩国内外更大尺寸旗舰模型",
+          "url": "https://www.ithome.com/0/973/106.htm",
+          "permalink": "https://aihot.virxact.com/items/cmr8xoe5n01fesllsqdpw9l5u",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-07-06T07:25:43.000Z",
+          "summary": "腾讯混元今日正式发布并开源 Hy3 模型。该模型基于 4 月底的 preview 版本，提升了后训练数据质量与多样性，并扩大 RL 算力规模，在推理、智能体、长上下文等任务上显著进步，效果比肩参数规模为 Hy3 2~5 倍的国内外旗舰模型。在 270 位专家基于真实工作的盲测中，Hy3（均分 2.67/4）优于 GLM5.1（均分 2.51/4）。API 价格为输入 1 元/百万 tokens、输出 4 元/百万 tokens，命中缓存输入 0.25 元/百万 tokens。",
+          "category": "ai-models",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmr8xoe5n01fesllsqdpw9l5u"
+          }
+        }
+      },
       {
         "source": "aihot",
         "sourceItemId": "aihot:cmr8tzbde00jjsllsayhpgjqg",
@@ -282,41 +310,13 @@
             "canonical": "https://aihot.virxact.com/items/cmr7vpphy007oslgnz4aotpx4"
           }
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmr7ita5g00reslxdrprk52b0",
-        "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
-        "summary": "LlamaIndex 发布 legal-kb，一个基于 Index v2（LlamaParse Platform）的法律文档知识库参考应用。采用 Retrieval Harness 模式，赋予 Agent 四个文件系统风格工具：retrieve（混合语义检索，支持 rerank 和引用）、findFiles（精确/模糊文件名搜索）、readFile（带偏移量的原始内容读取）和 grepFile（正则匹配并返回字符位置）。Agent 需先调用 findFiles 确定文件清单，再依次使用其他工具定位内容。底层基于 Vercel AI SDK 6 的 ToolLoopAgent，可选用 OpenAI 或 Anthropic 模型，支持用户自带 API key。项目以 TanStack Start web app 形式运行，上传文件自动解析索引，同一文件名重复上传可产生版本，检索时通过版本元数据字段过滤。",
-        "body": "LlamaIndex 发布 legal-kb，一个基于 Index v2（LlamaParse Platform）的法律文档知识库参考应用。采用 Retrieval Harness 模式，赋予 Agent 四个文件系统风格工具：retrieve（混合语义检索，支持 rerank 和引用）、findFiles（精确/模糊文件名搜索）、readFile（带偏移量的原始内容读取）和 grepFile（正则匹配并返回字符位置）。Agent 需先调用 findFiles 确定文件清单，再依次使用其他工具定位内容。底层基于 Vercel AI SDK 6 的 ToolLoopAgent，可选用 OpenAI 或 Anthropic 模型，支持用户自带 API key。项目以 TanStack Start web app 形式运行，上传文件自动解析索引，同一文件名重复上传可产生版本，检索时通过版本元数据字段过滤。",
-        "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
-        "sourceName": "MarkTechPost（RSS）",
-        "sourceCategory": "tip",
-        "publishedAt": "2026-07-05T07:50:19.000Z",
-        "rawJson": {
-          "id": "cmr7ita5g00reslxdrprk52b0",
-          "title": "LlamaIndex 发布 legal-kb：基于 Index v2 的智能体检索参考应用",
-          "title_en": "LlamaIndex 'legal-kb'： Agentic Retrieval over Index v2 with retrieve， find， read， and grep Tools",
-          "url": "https://www.marktechpost.com/2026/07/05/llamaindex-legal-kb-agentic-retrieval-over-index-v2-with-retrieve-find-read-and-grep-tools",
-          "permalink": "https://aihot.virxact.com/items/cmr7ita5g00reslxdrprk52b0",
-          "source": "MarkTechPost（RSS）",
-          "publishedAt": "2026-07-05T07:50:19.000Z",
-          "summary": "LlamaIndex 发布 legal-kb，一个基于 Index v2（LlamaParse Platform）的法律文档知识库参考应用。采用 Retrieval Harness 模式，赋予 Agent 四个文件系统风格工具：retrieve（混合语义检索，支持 rerank 和引用）、findFiles（精确/模糊文件名搜索）、readFile（带偏移量的原始内容读取）和 grepFile（正则匹配并返回字符位置）。Agent 需先调用 findFiles 确定文件清单，再依次使用其他工具定位内容。底层基于 Vercel AI SDK 6 的 ToolLoopAgent，可选用 OpenAI 或 Anthropic 模型，支持用户自带 API key。项目以 TanStack Start web app 形式运行，上传文件自动解析索引，同一文件名重复上传可产生版本，检索时通过版本元数据字段过滤。",
-          "category": "tip",
-          "score": 72,
-          "selected": true,
-          "attribution": {
-            "source": "AI HOT",
-            "canonical": "https://aihot.virxact.com/items/cmr7ita5g00reslxdrprk52b0"
-          }
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-07-06T07:19:29.892Z",
+    "fetchedAt": "2026-07-06T08:11:30.369Z",
     "sourceGeneratedAt": "2026-07-05",
     "items": [
       {
@@ -329,10 +329,10 @@
         "externalUrl": "https://www.producthunt.com/r/UHHXBJG665CHTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-05T07:01:00Z",
         "metrics": {
-          "votes": 373,
+          "votes": 378,
           "comments": 85,
           "rank": 1,
-          "score": 373
+          "score": 378
         },
         "metadata": {
           "slug": "workbuddy-3",
@@ -350,10 +350,10 @@
           "description": "Tencent WorkBuddy is an AI agent built for everyday office work. Make a request. Guide your AI expert team. Bring in a second opinion. Get sharpened, ready-to-use results.",
           "url": "https://www.producthunt.com/products/workbuddy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/UHHXBJG665CHTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 373,
+          "votesCount": 378,
           "commentsCount": 85,
           "dailyRank": 1,
-          "latestScore": 373,
+          "latestScore": 378,
           "featuredAt": "2026-07-05T07:01:00Z",
           "createdAt": "2026-07-05T07:01:00Z",
           "topics": {
@@ -390,10 +390,10 @@
         "externalUrl": "https://www.producthunt.com/r/37BR3YBSGSO3IL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-05T07:01:00Z",
         "metrics": {
-          "votes": 312,
+          "votes": 315,
           "comments": 47,
           "rank": 2,
-          "score": 312
+          "score": 315
         },
         "metadata": {
           "slug": "docsalot",
@@ -411,10 +411,10 @@
           "description": "DocsAlot turns scattered help center articles, knowledge base, and developer docs into one source of truth for humans and AI agents. It includes hosted MCP, llms.txt, and skill.md. Your docs show up in AI answers, onboarding gets faster, and agents stop reading stale context.",
           "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/37BR3YBSGSO3IL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 312,
+          "votesCount": 315,
           "commentsCount": 47,
           "dailyRank": 2,
-          "latestScore": 312,
+          "latestScore": 315,
           "featuredAt": "2026-07-05T07:01:00Z",
           "createdAt": "2026-07-05T07:01:00Z",
           "topics": {
@@ -451,10 +451,10 @@
         "externalUrl": "https://www.producthunt.com/r/3RAULGSQ4UFKXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-05T07:01:00Z",
         "metrics": {
-          "votes": 309,
-          "comments": 96,
+          "votes": 310,
+          "comments": 97,
           "rank": 3,
-          "score": 309
+          "score": 310
         },
         "metadata": {
           "slug": "endl-2",
@@ -472,10 +472,10 @@
           "description": "Endl is the global operating account for borderless businesses. Collect payments, hold funds in fiat or stablecoins, pay contractors in 160+ countries, and spend with corporate cards. All from one account built for fast, compliant global business operations.",
           "url": "https://www.producthunt.com/products/endl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/3RAULGSQ4UFKXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 309,
-          "commentsCount": 96,
+          "votesCount": 310,
+          "commentsCount": 97,
           "dailyRank": 3,
-          "latestScore": 309,
+          "latestScore": 310,
           "featuredAt": "2026-07-05T07:01:00Z",
           "createdAt": "2026-07-05T07:01:00Z",
           "topics": {
@@ -512,10 +512,10 @@
         "externalUrl": "https://www.producthunt.com/r/HV7ZSLSLVCIH4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-05T07:01:00Z",
         "metrics": {
-          "votes": 199,
+          "votes": 200,
           "comments": 26,
           "rank": 4,
-          "score": 199
+          "score": 200
         },
         "metadata": {
           "slug": "trycase",
@@ -533,10 +533,10 @@
           "description": "TryCase gives AI coding agents disposable Linux environments to run apps, test changes end to end, capture screenshots and recordings, and return verified code instead of asking you to test manually.",
           "url": "https://www.producthunt.com/products/trycase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/HV7ZSLSLVCIH4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 199,
+          "votesCount": 200,
           "commentsCount": 26,
           "dailyRank": 4,
-          "latestScore": 199,
+          "latestScore": 200,
           "featuredAt": "2026-07-05T07:01:00Z",
           "createdAt": "2026-07-05T07:01:00Z",
           "topics": {
@@ -573,10 +573,10 @@
         "externalUrl": "https://www.producthunt.com/r/5Y46NOSJ2V7MYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-05T07:01:00Z",
         "metrics": {
-          "votes": 170,
+          "votes": 171,
           "comments": 21,
           "rank": 5,
-          "score": 170
+          "score": 171
         },
         "metadata": {
           "slug": "mentiondrop-mcp",
@@ -594,10 +594,10 @@
           "description": "MentionDrop MCP connects Claude, Cursor, Windsurf, and other MCP-aware agents to live brand monitoring. Your agent pulls brand mentions, competitor conversations, and public customer pain from bounded high-signal sources (Reddit, Google News, search, selected public web), triages them, and drafts replies for your review. 11 tools, account-scoped API keys, nothing auto-posted. Ask \"what should I pay attention to today?\" and get an answer you can act on.",
           "url": "https://www.producthunt.com/products/mentiondrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/5Y46NOSJ2V7MYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 170,
+          "votesCount": 171,
           "commentsCount": 21,
           "dailyRank": 5,
-          "latestScore": 170,
+          "latestScore": 171,
           "featuredAt": "2026-07-05T07:01:00Z",
           "createdAt": "2026-07-05T07:01:00Z",
           "topics": {
@@ -948,7 +948,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-07-06T07:19:29.979Z",
+    "fetchedAt": "2026-07-06T08:11:30.462Z",
     "items": [
       {
         "source": "github_trending",
@@ -956,7 +956,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-07-06T07:19:29.958Z",
+        "publishedAt": "2026-07-06T08:11:30.439Z",
         "metrics": {
           "rank": 1
         },
@@ -971,7 +971,7 @@
         "title": "DeusData/codebase-memory-mcp",
         "summary": "High-performance code intelligence MCP server.",
         "url": "https://github.com/DeusData/codebase-memory-mcp",
-        "publishedAt": "2026-07-06T07:19:29.962Z",
+        "publishedAt": "2026-07-06T08:11:30.443Z",
         "metrics": {
           "rank": 2
         },
@@ -986,7 +986,7 @@
         "title": "calesthio/OpenMontage",
         "summary": "World's first open-source, agentic video production system.",
         "url": "https://github.com/calesthio/OpenMontage",
-        "publishedAt": "2026-07-06T07:19:29.965Z",
+        "publishedAt": "2026-07-06T08:11:30.446Z",
         "metrics": {
           "rank": 3
         },
@@ -1001,7 +1001,7 @@
         "title": "Panniantong/Agent-Reach",
         "summary": "Give your AI agent eyes to see the entire internet.",
         "url": "https://github.com/Panniantong/Agent-Reach",
-        "publishedAt": "2026-07-06T07:19:29.966Z",
+        "publishedAt": "2026-07-06T08:11:30.448Z",
         "metrics": {
           "rank": 4
         },
@@ -1016,7 +1016,7 @@
         "title": "mvanhorn/last30days-skill",
         "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
         "url": "https://github.com/mvanhorn/last30days-skill",
-        "publishedAt": "2026-07-06T07:19:29.968Z",
+        "publishedAt": "2026-07-06T08:11:30.450Z",
         "metrics": {
           "rank": 5
         },
@@ -1031,7 +1031,7 @@
         "title": "iptv-org/iptv",
         "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
         "url": "https://github.com/iptv-org/iptv",
-        "publishedAt": "2026-07-06T07:19:29.968Z",
+        "publishedAt": "2026-07-06T08:11:30.450Z",
         "metrics": {
           "rank": 6
         },
@@ -1046,7 +1046,7 @@
         "title": "interviewstreet/hiring-agent",
         "summary": "AI agent to evaluate and score resumes.",
         "url": "https://github.com/interviewstreet/hiring-agent",
-        "publishedAt": "2026-07-06T07:19:29.969Z",
+        "publishedAt": "2026-07-06T08:11:30.450Z",
         "metrics": {
           "rank": 7
         },
@@ -1061,7 +1061,7 @@
         "title": "phuryn/pm-skills",
         "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
         "url": "https://github.com/phuryn/pm-skills",
-        "publishedAt": "2026-07-06T07:19:29.970Z",
+        "publishedAt": "2026-07-06T08:11:30.452Z",
         "metrics": {
           "rank": 8
         },
@@ -1076,7 +1076,7 @@
         "title": "asgeirtj/system_prompts_leaks",
         "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "publishedAt": "2026-07-06T07:19:29.972Z",
+        "publishedAt": "2026-07-06T08:11:30.454Z",
         "metrics": {
           "rank": 9
         },
@@ -1091,7 +1091,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-07-06T07:19:29.972Z",
+        "publishedAt": "2026-07-06T08:11:30.455Z",
         "metrics": {
           "rank": 10
         },
@@ -1106,7 +1106,7 @@
         "title": "stablyai/orca",
         "summary": "Orca is the ADE for working with a fleet of parallel agents.",
         "url": "https://github.com/stablyai/orca",
-        "publishedAt": "2026-07-06T07:19:29.973Z",
+        "publishedAt": "2026-07-06T08:11:30.455Z",
         "metrics": {
           "rank": 11
         },
@@ -1121,7 +1121,7 @@
         "title": "usestrix/strix",
         "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "url": "https://github.com/usestrix/strix",
-        "publishedAt": "2026-07-06T07:19:29.973Z",
+        "publishedAt": "2026-07-06T08:11:30.456Z",
         "metrics": {
           "rank": 12
         },
@@ -1136,7 +1136,7 @@
         "title": "kenn-io/agentsview",
         "summary": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
         "url": "https://github.com/kenn-io/agentsview",
-        "publishedAt": "2026-07-06T07:19:29.975Z",
+        "publishedAt": "2026-07-06T08:11:30.457Z",
         "metrics": {
           "rank": 13
         },
@@ -1151,7 +1151,7 @@
         "title": "n0-computer/iroh",
         "summary": "IP addresses break, dial keys instead.",
         "url": "https://github.com/n0-computer/iroh",
-        "publishedAt": "2026-07-06T07:19:29.975Z",
+        "publishedAt": "2026-07-06T08:11:30.457Z",
         "metrics": {
           "rank": 14
         },
@@ -1166,7 +1166,7 @@
         "title": "roboflow/supervision",
         "summary": "We write your reusable computer vision tools.",
         "url": "https://github.com/roboflow/supervision",
-        "publishedAt": "2026-07-06T07:19:29.976Z",
+        "publishedAt": "2026-07-06T08:11:30.458Z",
         "metrics": {
           "rank": 15
         },
@@ -1181,7 +1181,7 @@
         "title": "openai/plugins",
         "summary": "OpenAI Plugins Plugins This repository contains a curated collection of Codex plugin examples.",
         "url": "https://github.com/openai/plugins",
-        "publishedAt": "2026-07-06T07:19:29.976Z",
+        "publishedAt": "2026-07-06T08:11:30.458Z",
         "metrics": {
           "rank": 16
         },
@@ -1196,7 +1196,7 @@
         "title": "t8y2/dbx",
         "summary": "20MB, lightweight, cross-platform database client.",
         "url": "https://github.com/t8y2/dbx",
-        "publishedAt": "2026-07-06T07:19:29.977Z",
+        "publishedAt": "2026-07-06T08:11:30.459Z",
         "metrics": {
           "rank": 17
         },
@@ -1211,7 +1211,7 @@
         "title": "lfnovo/open-notebook",
         "summary": "An Open Source implementation of Notebook LM with more flexibility and features Open Notebook An open source, privacy-focused alternative to Google's Notebook LM!",
         "url": "https://github.com/lfnovo/open-notebook",
-        "publishedAt": "2026-07-06T07:19:29.977Z",
+        "publishedAt": "2026-07-06T08:11:30.460Z",
         "metrics": {
           "rank": 18
         },
@@ -1226,7 +1226,7 @@
         "title": "mukul975/Anthropic-Cybersecurity-Skills",
         "summary": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini C...",
         "url": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-        "publishedAt": "2026-07-06T07:19:29.979Z",
+        "publishedAt": "2026-07-06T08:11:30.461Z",
         "metrics": {
           "rank": 19
         },
@@ -1241,7 +1241,7 @@
         "title": "every-app/open-seo",
         "summary": "Open source alternative to Semrush and Ahrefs OpenSEO Open source alternative to Semrush and Ahrefs OpenSEO is an SEO tool for the people .",
         "url": "https://github.com/every-app/open-seo",
-        "publishedAt": "2026-07-06T07:19:29.979Z",
+        "publishedAt": "2026-07-06T08:11:30.462Z",
         "metrics": {
           "rank": 20
         },
@@ -1255,7 +1255,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-07-06T07:19:42.529Z",
+    "fetchedAt": "2026-07-06T08:11:48.738Z",
     "items": [
       {
         "source": "builder_deepmind",
@@ -1419,6 +1419,7 @@
       }
     ],
     "errors": [
+      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
       "Gwern: HTTP 403",
       "Hacker News AI: HTTP 502"
