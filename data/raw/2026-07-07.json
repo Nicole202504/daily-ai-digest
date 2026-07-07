@@ -1,7 +1,7 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-07-07T06:52:54.644Z",
+    "fetchedAt": "2026-07-07T07:30:54.200Z",
     "items": [],
     "errors": [
       "Fetch timed out after 10000ms"
@@ -9,237 +9,48 @@
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-07-07T06:52:55.051Z",
-    "sourceGeneratedAt": "2026-07-05",
+    "fetchedAt": "2026-07-07T07:30:54.494Z",
+    "sourceGeneratedAt": "2026-07-06",
     "items": [
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1184211",
-        "title": "WorkBuddy",
-        "summary": "Produce sharpened results faster with a team of AI experts",
-        "body": "Tencent WorkBuddy is an AI agent built for everyday office work. Make a request. Guide your AI expert team. Bring in a second opinion. Get sharpened, ready-to-use results.",
-        "url": "https://www.producthunt.com/products/workbuddy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/UHHXBJG665CHTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
+        "sourceItemId": "ph:1185300",
+        "title": "AnySearch",
+        "summary": "Real-time structured search trusted by agents and developers",
+        "body": "A search tool for agents, not a search box. AI agents are only as good as the information they receive. When connected to AnySearch, your agent gets filtered, de-duplicated, and structured information from trusted sources searched in parallel, helping it produce more reliable results. Free to start.",
+        "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/XAHTE3V55ECFBX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
         "metrics": {
-          "votes": 403,
-          "comments": 87,
+          "votes": 524,
+          "comments": 113,
           "rank": 1,
-          "score": 403
+          "score": 524
         },
         "metadata": {
-          "slug": "workbuddy-3",
+          "slug": "anysearch-3",
           "topics": [
-            "Productivity",
-            "Artificial Intelligence",
-            "Tech"
-          ]
-        },
-        "rawJson": {
-          "id": "1184211",
-          "name": "WorkBuddy",
-          "slug": "workbuddy-3",
-          "tagline": "Produce sharpened results faster with a team of AI experts",
-          "description": "Tencent WorkBuddy is an AI agent built for everyday office work. Make a request. Guide your AI expert team. Bring in a second opinion. Get sharpened, ready-to-use results.",
-          "url": "https://www.producthunt.com/products/workbuddy-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/UHHXBJG665CHTW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 403,
-          "commentsCount": 87,
-          "dailyRank": 1,
-          "latestScore": 403,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Tech",
-                  "slug": "tech"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1185912",
-        "title": "DocsAlot",
-        "summary": "Documentation that works for both humans and AI systems",
-        "body": "DocsAlot turns scattered help center articles, knowledge base, and developer docs into one source of truth for humans and AI agents. It includes hosted MCP, llms.txt, and skill.md. Your docs show up in AI answers, onboarding gets faster, and agents stop reading stale context.",
-        "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/37BR3YBSGSO3IL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 344,
-          "comments": 47,
-          "rank": 2,
-          "score": 344
-        },
-        "metadata": {
-          "slug": "docsalot",
-          "topics": [
-            "API",
-            "SaaS",
-            "Bots"
-          ]
-        },
-        "rawJson": {
-          "id": "1185912",
-          "name": "DocsAlot",
-          "slug": "docsalot",
-          "tagline": "Documentation that works for both humans and AI systems",
-          "description": "DocsAlot turns scattered help center articles, knowledge base, and developer docs into one source of truth for humans and AI agents. It includes hosted MCP, llms.txt, and skill.md. Your docs show up in AI answers, onboarding gets faster, and agents stop reading stale context.",
-          "url": "https://www.producthunt.com/products/docsalot-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/37BR3YBSGSO3IL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 344,
-          "commentsCount": 47,
-          "dailyRank": 2,
-          "latestScore": 344,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "API",
-                  "slug": "api-1"
-                }
-              },
-              {
-                "node": {
-                  "name": "SaaS",
-                  "slug": "saas"
-                }
-              },
-              {
-                "node": {
-                  "name": "Bots",
-                  "slug": "bots"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1187380",
-        "title": "Endl",
-        "summary": "A global operating account for fiat, stablecoins, and cards.",
-        "body": "Endl is the global operating account for borderless businesses. Collect payments, hold funds in fiat or stablecoins, pay contractors in 160+ countries, and spend with corporate cards. All from one account built for fast, compliant global business operations.",
-        "url": "https://www.producthunt.com/products/endl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/3RAULGSQ4UFKXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 316,
-          "comments": 99,
-          "rank": 3,
-          "score": 316
-        },
-        "metadata": {
-          "slug": "endl-2",
-          "topics": [
-            "Fintech",
-            "Payments",
-            "Web3"
-          ]
-        },
-        "rawJson": {
-          "id": "1187380",
-          "name": "Endl",
-          "slug": "endl-2",
-          "tagline": "A global operating account for fiat, stablecoins, and cards.",
-          "description": "Endl is the global operating account for borderless businesses. Collect payments, hold funds in fiat or stablecoins, pay contractors in 160+ countries, and spend with corporate cards. All from one account built for fast, compliant global business operations.",
-          "url": "https://www.producthunt.com/products/endl?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/3RAULGSQ4UFKXG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 316,
-          "commentsCount": 99,
-          "dailyRank": 3,
-          "latestScore": 316,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Fintech",
-                  "slug": "fintech"
-                }
-              },
-              {
-                "node": {
-                  "name": "Payments",
-                  "slug": "payments"
-                }
-              },
-              {
-                "node": {
-                  "name": "Web3",
-                  "slug": "web3"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1166992",
-        "title": "TryCase",
-        "summary": "Disposable test environments for AI coding agents",
-        "body": "TryCase gives AI coding agents disposable Linux environments to run apps, test changes end to end, capture screenshots and recordings, and return verified code instead of asking you to test manually.",
-        "url": "https://www.producthunt.com/products/trycase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/HV7ZSLSLVCIH4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 218,
-          "comments": 31,
-          "rank": 4,
-          "score": 218
-        },
-        "metadata": {
-          "slug": "trycase",
-          "topics": [
-            "Software Engineering",
             "Developer Tools",
-            "Artificial Intelligence"
+            "Artificial Intelligence",
+            "Search"
           ]
         },
         "rawJson": {
-          "id": "1166992",
-          "name": "TryCase",
-          "slug": "trycase",
-          "tagline": "Disposable test environments for AI coding agents",
-          "description": "TryCase gives AI coding agents disposable Linux environments to run apps, test changes end to end, capture screenshots and recordings, and return verified code instead of asking you to test manually.",
-          "url": "https://www.producthunt.com/products/trycase?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/HV7ZSLSLVCIH4C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 218,
-          "commentsCount": 31,
-          "dailyRank": 4,
-          "latestScore": 218,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
+          "id": "1185300",
+          "name": "AnySearch",
+          "slug": "anysearch-3",
+          "tagline": "Real-time structured search trusted by agents and developers",
+          "description": "A search tool for agents, not a search box. AI agents are only as good as the information they receive. When connected to AnySearch, your agent gets filtered, de-duplicated, and structured information from trusted sources searched in parallel, helping it produce more reliable results. Free to start.",
+          "url": "https://www.producthunt.com/products/anysearch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/XAHTE3V55ECFBX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 524,
+          "commentsCount": 113,
+          "dailyRank": 1,
+          "latestScore": 524,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
           "topics": {
             "edges": [
-              {
-                "node": {
-                  "name": "Software Engineering",
-                  "slug": "software-engineering"
-                }
-              },
               {
                 "node": {
                   "name": "Developer Tools",
@@ -251,6 +62,12 @@
                   "name": "Artificial Intelligence",
                   "slug": "artificial-intelligence"
                 }
+              },
+              {
+                "node": {
+                  "name": "Search",
+                  "slug": "search"
+                }
               }
             ]
           }
@@ -258,21 +75,82 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1175845",
-        "title": "MentionDrop MCP",
-        "summary": "Give your AI agent live market signals",
-        "body": "MentionDrop MCP connects Claude, Cursor, Windsurf, and other MCP-aware agents to live brand monitoring. Your agent pulls brand mentions, competitor conversations, and public customer pain from bounded high-signal sources (Reddit, Google News, search, selected public web), triages them, and drafts replies for your review. 11 tools, account-scoped API keys, nothing auto-posted. Ask \"what should I pay attention to today?\" and get an answer you can act on.",
-        "url": "https://www.producthunt.com/products/mentiondrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/5Y46NOSJ2V7MYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
+        "sourceItemId": "ph:1186655",
+        "title": "Typeahead 2.0",
+        "summary": "Private AI autocomplete for every app on your Mac",
+        "body": "Typeahead 2.0 is private AI autocomplete for every app on your Mac, with writing styles per app, support for any language, and smarter context that adapts to how you work. It now feels more customizable and more useful every day, while staying lighter on memory and faster in the background. You also get private Insights to see your time saved. One-time $79 purchase, free updates, no subscription.",
+        "url": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/Z5R26SULXDA4LD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
         "metrics": {
-          "votes": 185,
-          "comments": 22,
-          "rank": 5,
-          "score": 185
+          "votes": 425,
+          "comments": 73,
+          "rank": 2,
+          "score": 425
         },
         "metadata": {
-          "slug": "mentiondrop-mcp",
+          "slug": "typeahead-2-0",
+          "topics": [
+            "Productivity",
+            "Writing",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1186655",
+          "name": "Typeahead 2.0",
+          "slug": "typeahead-2-0",
+          "tagline": "Private AI autocomplete for every app on your Mac",
+          "description": "Typeahead 2.0 is private AI autocomplete for every app on your Mac, with writing styles per app, support for any language, and smarter context that adapts to how you work. It now feels more customizable and more useful every day, while staying lighter on memory and faster in the background. You also get private Insights to see your time saved. One-time $79 purchase, free updates, no subscription.",
+          "url": "https://www.producthunt.com/products/typeahead?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/Z5R26SULXDA4LD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 425,
+          "commentsCount": 73,
+          "dailyRank": 2,
+          "latestScore": 425,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Writing",
+                  "slug": "writing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1183905",
+        "title": "Octolens",
+        "summary": "Social listening for the agent era",
+        "body": "Your AI agents read your code, docs, and CRM but can't see Reddit, Hacker News, podcasts, or the news. Octolens is one API for every mention across the internet. AI-filtered JSON via API, webhooks & MCP. Pipe it into Slack, your CRM, your warehouse, or your agents.",
+        "url": "https://www.producthunt.com/products/octolens-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/26DNQXDCV6O3BU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 381,
+          "comments": 65,
+          "rank": 3,
+          "score": 381
+        },
+        "metadata": {
+          "slug": "octolens-4",
           "topics": [
             "Marketing",
             "Developer Tools",
@@ -280,19 +158,19 @@
           ]
         },
         "rawJson": {
-          "id": "1175845",
-          "name": "MentionDrop MCP",
-          "slug": "mentiondrop-mcp",
-          "tagline": "Give your AI agent live market signals",
-          "description": "MentionDrop MCP connects Claude, Cursor, Windsurf, and other MCP-aware agents to live brand monitoring. Your agent pulls brand mentions, competitor conversations, and public customer pain from bounded high-signal sources (Reddit, Google News, search, selected public web), triages them, and drafts replies for your review. 11 tools, account-scoped API keys, nothing auto-posted. Ask \"what should I pay attention to today?\" and get an answer you can act on.",
-          "url": "https://www.producthunt.com/products/mentiondrop?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/5Y46NOSJ2V7MYB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 185,
-          "commentsCount": 22,
-          "dailyRank": 5,
-          "latestScore": 185,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
+          "id": "1183905",
+          "name": "Octolens",
+          "slug": "octolens-4",
+          "tagline": "Social listening for the agent era",
+          "description": "Your AI agents read your code, docs, and CRM but can't see Reddit, Hacker News, podcasts, or the news. Octolens is one API for every mention across the internet. AI-filtered JSON via API, webhooks & MCP. Pipe it into Slack, your CRM, your warehouse, or your agents.",
+          "url": "https://www.producthunt.com/products/octolens-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/26DNQXDCV6O3BU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 381,
+          "commentsCount": 65,
+          "dailyRank": 3,
+          "latestScore": 381,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -319,42 +197,41 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1187923",
-        "title": "CircleChat",
-        "summary": "Give your AI agents a slack, a task board, and a boss",
-        "body": "CircleChat is a workspace where a team of AI agents does real work. Set a goal: the team breaks it into tasks on a kanban board, claims the work, and reports in channels you can read. An LLM judge verifies every deliverable before a task can close, so you get output instead of chatter. Watch our own agents work in public at live.circlechat.co. Self-host free (MIT license), or we run it for you from $29/mo flat per workspace. Bring your own model keys. We never mark up tokens.",
-        "url": "https://www.producthunt.com/products/circlechat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/DVLXJJDOM6PG3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
+        "sourceItemId": "ph:1181072",
+        "title": "Sunrise",
+        "summary": "A real planner for Google Tasks",
+        "body": "Google Tasks is fine for jotting things down. It’s terrible for planning your day. No Today view. No overdue section. No way to see what’s due this week at a glance. Just flat lists. Sunrise is a planner built on top of Google Tasks. See today’s tasks, catch what’s overdue, scroll through what’s coming up, and organize work on a kanban board — all synced with your existing Google Tasks lists. Your data stays in Google.",
+        "url": "https://www.producthunt.com/products/sunrise-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/QFLOAKOSS4JR7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
         "metrics": {
-          "votes": 152,
-          "comments": 11,
-          "rank": 6,
-          "score": 152
+          "votes": 227,
+          "comments": 40,
+          "rank": 4,
+          "score": 227
         },
         "metadata": {
-          "slug": "circlechat-3",
+          "slug": "sunrise-9",
           "topics": [
             "Productivity",
             "Task Management",
-            "Open Source",
-            "GitHub"
+            "Calendar"
           ]
         },
         "rawJson": {
-          "id": "1187923",
-          "name": "CircleChat",
-          "slug": "circlechat-3",
-          "tagline": "Give your AI agents a slack, a task board, and a boss",
-          "description": "CircleChat is a workspace where a team of AI agents does real work. Set a goal: the team breaks it into tasks on a kanban board, claims the work, and reports in channels you can read. An LLM judge verifies every deliverable before a task can close, so you get output instead of chatter. Watch our own agents work in public at live.circlechat.co. Self-host free (MIT license), or we run it for you from $29/mo flat per workspace. Bring your own model keys. We never mark up tokens.",
-          "url": "https://www.producthunt.com/products/circlechat?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/DVLXJJDOM6PG3G?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 152,
-          "commentsCount": 11,
-          "dailyRank": 6,
-          "latestScore": 152,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
+          "id": "1181072",
+          "name": "Sunrise",
+          "slug": "sunrise-9",
+          "tagline": "A real planner for Google Tasks",
+          "description": "Google Tasks is fine for jotting things down. It’s terrible for planning your day. No Today view. No overdue section. No way to see what’s due this week at a glance. Just flat lists. Sunrise is a planner built on top of Google Tasks. See today’s tasks, catch what’s overdue, scroll through what’s coming up, and organize work on a kanban board — all synced with your existing Google Tasks lists. Your data stays in Google.",
+          "url": "https://www.producthunt.com/products/sunrise-5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/QFLOAKOSS4JR7F?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 227,
+          "commentsCount": 40,
+          "dailyRank": 4,
+          "latestScore": 227,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -371,8 +248,382 @@
               },
               {
                 "node": {
+                  "name": "Calendar",
+                  "slug": "calendar"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1187340",
+        "title": "AirKaren",
+        "summary": "AI that fights customer service for you",
+        "body": "AirKaren is the AI that fights customer service for you, completely for free. Tell Karen what went wrong with your flight, and she cites the regulation, files your claim, and chases down what you're owed. Karen will call customer support hotlines, send emails, and fill out forms so you never have to again. We're starting with airlines and expanding to other industries in the coming weeks.",
+        "url": "https://www.producthunt.com/products/airkaren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/HWQDIOXH2G3VA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 216,
+          "comments": 48,
+          "rank": 5,
+          "score": 216
+        },
+        "metadata": {
+          "slug": "airkaren",
+          "topics": [
+            "Customer Success",
+            "Travel",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1187340",
+          "name": "AirKaren",
+          "slug": "airkaren",
+          "tagline": "AI that fights customer service for you",
+          "description": "AirKaren is the AI that fights customer service for you, completely for free. Tell Karen what went wrong with your flight, and she cites the regulation, files your claim, and chases down what you're owed. Karen will call customer support hotlines, send emails, and fill out forms so you never have to again. We're starting with airlines and expanding to other industries in the coming weeks.",
+          "url": "https://www.producthunt.com/products/airkaren?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/HWQDIOXH2G3VA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 216,
+          "commentsCount": 48,
+          "dailyRank": 5,
+          "latestScore": 216,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Customer Success",
+                  "slug": "customer-success"
+                }
+              },
+              {
+                "node": {
+                  "name": "Travel",
+                  "slug": "travel"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1188912",
+        "title": "Stanley Studio",
+        "summary": "The AI video editor you hire that edits like a human",
+        "body": "Stanley is built for anyone who films great videos and then lets them die in their camera roll. Send Stanley raw footage and get back a finished, captioned video. No timelines, no manually tweaking captions, no spending hours hunting for the perfect song. Just tell Stanley what you want and it edits end-to-end: talking heads, vlogs, podcast cuts, UGC, whatever your niche needs. And it's free. Upload footage, get a video.",
+        "url": "https://www.producthunt.com/products/stanley-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/OF5K7RDCI2RKAX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 199,
+          "comments": 48,
+          "rank": 6,
+          "score": 199
+        },
+        "metadata": {
+          "slug": "stanley-studio",
+          "topics": [
+            "Social Media",
+            "Marketing",
+            "Video"
+          ]
+        },
+        "rawJson": {
+          "id": "1188912",
+          "name": "Stanley Studio",
+          "slug": "stanley-studio",
+          "tagline": "The AI video editor you hire that edits like a human",
+          "description": "Stanley is built for anyone who films great videos and then lets them die in their camera roll. Send Stanley raw footage and get back a finished, captioned video. No timelines, no manually tweaking captions, no spending hours hunting for the perfect song. Just tell Stanley what you want and it edits end-to-end: talking heads, vlogs, podcast cuts, UGC, whatever your niche needs. And it's free. Upload footage, get a video.",
+          "url": "https://www.producthunt.com/products/stanley-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/OF5K7RDCI2RKAX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 199,
+          "commentsCount": 48,
+          "dailyRank": 6,
+          "latestScore": 199,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Social Media",
+                  "slug": "social-media"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Video",
+                  "slug": "video"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1186793",
+        "title": "Edgee Claude Code Compressor V2",
+        "summary": "Fewer tokens, same context, 50% cost reduction",
+        "body": "Compression V2 cuts coding-agent token bills with three techniques across two layers: sharper tool result trimming, new task-aware tool surface reduction, and output brevity. Drop-in for Claude Code, Codex, OpenCode, and Cursor. Semantically lossless.",
+        "url": "https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/XP65ILK6AEHTCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 188,
+          "comments": 38,
+          "rank": 7,
+          "score": 188
+        },
+        "metadata": {
+          "slug": "edgee-claude-code-compressor-v2",
+          "topics": [
+            "API",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1186793",
+          "name": "Edgee Claude Code Compressor V2",
+          "slug": "edgee-claude-code-compressor-v2",
+          "tagline": "Fewer tokens, same context, 50% cost reduction",
+          "description": "Compression V2 cuts coding-agent token bills with three techniques across two layers: sharper tool result trimming, new task-aware tool surface reduction, and output brevity. Drop-in for Claude Code, Codex, OpenCode, and Cursor. Semantically lossless.",
+          "url": "https://www.producthunt.com/products/edgee?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/XP65ILK6AEHTCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 188,
+          "commentsCount": 38,
+          "dailyRank": 7,
+          "latestScore": 188,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1188925",
+        "title": "Astryx",
+        "summary": "A customizable, agent-ready open-source design system",
+        "body": "Astryx is Meta’s open-source design system built on React and StyleX. It includes accessible components, brand-level themes, templates, dark mode, CLI/MCP docs, and customization paths for both developers and AI agents.",
+        "url": "https://www.producthunt.com/products/meta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/HX53JQBOR7W56Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 150,
+          "comments": 15,
+          "rank": 8,
+          "score": 150
+        },
+        "metadata": {
+          "slug": "astryx-3",
+          "topics": [
+            "Design Tools",
+            "User Experience",
+            "GitHub",
+            "Design"
+          ]
+        },
+        "rawJson": {
+          "id": "1188925",
+          "name": "Astryx",
+          "slug": "astryx-3",
+          "tagline": "A customizable, agent-ready open-source design system",
+          "description": "Astryx is Meta’s open-source design system built on React and StyleX. It includes accessible components, brand-level themes, templates, dark mode, CLI/MCP docs, and customization paths for both developers and AI agents.",
+          "url": "https://www.producthunt.com/products/meta?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/HX53JQBOR7W56Y?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 150,
+          "commentsCount": 15,
+          "dailyRank": 8,
+          "latestScore": 150,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "User Experience",
+                  "slug": "user-experience"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Design",
+                  "slug": "design"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1188554",
+        "title": "CodeMote",
+        "summary": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
+        "body": "CodeMote pairs your iPhone to your machine or VPS and gives you the real sessions. Live terminal on your lock screen, push when your agent needs approval, full diffs, complete git flow. Direct encrypted connection. Your code never touches our servers.",
+        "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/ACPBRZ46RAWI7E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 149,
+          "comments": 46,
+          "rank": 9,
+          "score": 149
+        },
+        "metadata": {
+          "slug": "codemote",
+          "topics": [
+            "iOS",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1188554",
+          "name": "CodeMote",
+          "slug": "codemote",
+          "tagline": "Claude Code, Codex, any CLI agent. Driven from your iPhone",
+          "description": "CodeMote pairs your iPhone to your machine or VPS and gives you the real sessions. Live terminal on your lock screen, push when your agent needs approval, full diffs, complete git flow. Direct encrypted connection. Your code never touches our servers.",
+          "url": "https://www.producthunt.com/products/codemote-remote-control-for-any-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/ACPBRZ46RAWI7E?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 149,
+          "commentsCount": 46,
+          "dailyRank": 9,
+          "latestScore": 149,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "iOS",
+                  "slug": "ios"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1188550",
+        "title": "Nixmac",
+        "summary": "Nix-darwin that speaks plain English",
+        "body": "nixmac turns your Mac into a reproducible, version-controlled system. Describe what you want in plain English — it writes the Nix, builds it, and applies it safely.",
+        "url": "https://www.producthunt.com/products/nixmac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/JP4IJONLR6JLA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-06T07:01:00Z",
+        "metrics": {
+          "votes": 139,
+          "comments": 29,
+          "rank": 10,
+          "score": 139
+        },
+        "metadata": {
+          "slug": "nixmac",
+          "topics": [
+            "Open Source",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "GitHub"
+          ]
+        },
+        "rawJson": {
+          "id": "1188550",
+          "name": "Nixmac",
+          "slug": "nixmac",
+          "tagline": "Nix-darwin that speaks plain English",
+          "description": "nixmac turns your Mac into a reproducible, version-controlled system. Describe what you want in plain English — it writes the Nix, builds it, and applies it safely.",
+          "url": "https://www.producthunt.com/products/nixmac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/JP4IJONLR6JLA3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 139,
+          "commentsCount": 29,
+          "dailyRank": 10,
+          "latestScore": 139,
+          "featuredAt": "2026-07-06T07:01:00Z",
+          "createdAt": "2026-07-06T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
                   "name": "Open Source",
                   "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               },
               {
@@ -384,264 +635,13 @@
             ]
           }
         }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1187442",
-        "title": "Pennen",
-        "summary": "One quiet handwritten page a day. No feed, no AI.",
-        "body": "Pennen is a calm, private, handwriting-first daily journal for iPad and Apple Pencil. One dated page per day, in real ink: past pages seal and become read-only, emoji stickers peel and press on, and the streak forgives — a one-line night still counts. Your pages live only on your iPad and in your own iCloud: no accounts, no ads, no analytics, no AI reading a word. Priced like a notebook — yearly with a 7-day free trial, or a one-time lifetime that costs less than a Moleskine.",
-        "url": "https://www.producthunt.com/products/pennen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/ETZIYDWLCBQMYZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 121,
-          "comments": 33,
-          "rank": 7,
-          "score": 121
-        },
-        "metadata": {
-          "slug": "pennen",
-          "topics": [
-            "Health & Fitness",
-            "Meditation",
-            "Apple"
-          ]
-        },
-        "rawJson": {
-          "id": "1187442",
-          "name": "Pennen",
-          "slug": "pennen",
-          "tagline": "One quiet handwritten page a day. No feed, no AI.",
-          "description": "Pennen is a calm, private, handwriting-first daily journal for iPad and Apple Pencil. One dated page per day, in real ink: past pages seal and become read-only, emoji stickers peel and press on, and the streak forgives — a one-line night still counts. Your pages live only on your iPad and in your own iCloud: no accounts, no ads, no analytics, no AI reading a word. Priced like a notebook — yearly with a 7-day free trial, or a one-time lifetime that costs less than a Moleskine.",
-          "url": "https://www.producthunt.com/products/pennen?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/ETZIYDWLCBQMYZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 121,
-          "commentsCount": 33,
-          "dailyRank": 7,
-          "latestScore": 121,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Health & Fitness",
-                  "slug": "health-fitness"
-                }
-              },
-              {
-                "node": {
-                  "name": "Meditation",
-                  "slug": "meditation"
-                }
-              },
-              {
-                "node": {
-                  "name": "Apple",
-                  "slug": "apple"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1175505",
-        "title": "Toku Reader",
-        "summary": "Read & listen to native Japanese and Chinese, tap any word",
-        "body": "Toku turns native Japanese and Chinese — articles, novels, podcasts, and YouTube videos — into something you can actually read. Tap any word for its reading, meaning, and dictionary, without leaving the page. On audio and video you get a synced, word-tappable transcript: tap to learn, slow it down, replay a line, or pause after each sentence to shadow it back. It runs its own JP/CN engine on-device with offline dictionaries — fast, private, no accounts, no streaks. Just reading.",
-        "url": "https://www.producthunt.com/products/toku-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/5P5KE6MN4U2IRJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 110,
-          "comments": 12,
-          "rank": 8,
-          "score": 110
-        },
-        "metadata": {
-          "slug": "toku-reader",
-          "topics": [
-            "Education",
-            "Languages",
-            "Online Learning"
-          ]
-        },
-        "rawJson": {
-          "id": "1175505",
-          "name": "Toku Reader",
-          "slug": "toku-reader",
-          "tagline": "Read & listen to native Japanese and Chinese, tap any word",
-          "description": "Toku turns native Japanese and Chinese — articles, novels, podcasts, and YouTube videos — into something you can actually read. Tap any word for its reading, meaning, and dictionary, without leaving the page. On audio and video you get a synced, word-tappable transcript: tap to learn, slow it down, replay a line, or pause after each sentence to shadow it back. It runs its own JP/CN engine on-device with offline dictionaries — fast, private, no accounts, no streaks. Just reading.",
-          "url": "https://www.producthunt.com/products/toku-reader?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/5P5KE6MN4U2IRJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 110,
-          "commentsCount": 12,
-          "dailyRank": 8,
-          "latestScore": 110,
-          "featuredAt": "2026-07-05T07:01:00Z",
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Education",
-                  "slug": "education"
-                }
-              },
-              {
-                "node": {
-                  "name": "Languages",
-                  "slug": "languages"
-                }
-              },
-              {
-                "node": {
-                  "name": "Online Learning",
-                  "slug": "online-learning"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1187744",
-        "title": "Claude Sonnet 5 Brand Report",
-        "summary": "What does Claude Sonnet 5 say about your brand?",
-        "body": "Get a comprehensive report about what Claude Sonnet 5 says about your brand and competitors based on its training material (knowledge cutoff Jan 2026). Claude Sonnet 5 is the brand new model by Anthropic that is used by default in Claude free and pro plans.",
-        "url": "https://www.producthunt.com/products/llm-seo-report?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/6W2VMKZQEXVF46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 30,
-          "comments": 10,
-          "rank": 9,
-          "score": 30
-        },
-        "metadata": {
-          "slug": "claude-sonnet-5-brand-report",
-          "topics": [
-            "Analytics",
-            "Marketing",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1187744",
-          "name": "Claude Sonnet 5 Brand Report",
-          "slug": "claude-sonnet-5-brand-report",
-          "tagline": "What does Claude Sonnet 5 say about your brand?",
-          "description": "Get a comprehensive report about what Claude Sonnet 5 says about your brand and competitors based on its training material (knowledge cutoff Jan 2026). Claude Sonnet 5 is the brand new model by Anthropic that is used by default in Claude free and pro plans.",
-          "url": "https://www.producthunt.com/products/llm-seo-report?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/6W2VMKZQEXVF46?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 30,
-          "commentsCount": 10,
-          "dailyRank": 9,
-          "latestScore": 30,
-          "featuredAt": null,
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Analytics",
-                  "slug": "analytics"
-                }
-              },
-              {
-                "node": {
-                  "name": "Marketing",
-                  "slug": "marketing"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1142917",
-        "title": "VoicePad AI",
-        "summary": "Offline voice dictation for Windows, Mac, iOS & Android",
-        "body": "VoicePad turns your voice into text on Windows, Mac, iOS, and Android — 100% offline. Powered by Whisper AI, runs entirely on your device. The Orb floats over every app: tap, speak, text lands where your cursor is. Works in Gmail, Word, WhatsApp, your IDE — anywhere. No subscription. No cloud. No account. Free for the first 1,000 founding members. Built solo by a German bike mechanic who couldn't type with greasy hands.",
-        "url": "https://www.producthunt.com/products/voicepad-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/BV2QICE3JIYYCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-05T07:01:00Z",
-        "metrics": {
-          "votes": 24,
-          "comments": 8,
-          "rank": 10,
-          "score": 24
-        },
-        "metadata": {
-          "slug": "voicepad-ai",
-          "topics": [
-            "Android",
-            "Productivity",
-            "Privacy",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1142917",
-          "name": "VoicePad AI",
-          "slug": "voicepad-ai",
-          "tagline": "Offline voice dictation for Windows, Mac, iOS & Android",
-          "description": "VoicePad turns your voice into text on Windows, Mac, iOS, and Android — 100% offline. Powered by Whisper AI, runs entirely on your device. The Orb floats over every app: tap, speak, text lands where your cursor is. Works in Gmail, Word, WhatsApp, your IDE — anywhere. No subscription. No cloud. No account. Free for the first 1,000 founding members. Built solo by a German bike mechanic who couldn't type with greasy hands.",
-          "url": "https://www.producthunt.com/products/voicepad-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/BV2QICE3JIYYCR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 24,
-          "commentsCount": 8,
-          "dailyRank": 10,
-          "latestScore": 24,
-          "featuredAt": null,
-          "createdAt": "2026-07-05T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Android",
-                  "slug": "android"
-                }
-              },
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Privacy",
-                  "slug": "privacy"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-07-07T06:52:55.184Z",
+    "fetchedAt": "2026-07-07T07:30:54.601Z",
     "items": [
       {
         "source": "github_trending",
@@ -649,7 +649,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-07-07T06:52:55.161Z",
+        "publishedAt": "2026-07-07T07:30:54.583Z",
         "metrics": {
           "rank": 1
         },
@@ -664,7 +664,7 @@
         "title": "DeusData/codebase-memory-mcp",
         "summary": "High-performance code intelligence MCP server.",
         "url": "https://github.com/DeusData/codebase-memory-mcp",
-        "publishedAt": "2026-07-07T06:52:55.165Z",
+        "publishedAt": "2026-07-07T07:30:54.586Z",
         "metrics": {
           "rank": 2
         },
@@ -679,7 +679,7 @@
         "title": "calesthio/OpenMontage",
         "summary": "World's first open-source, agentic video production system.",
         "url": "https://github.com/calesthio/OpenMontage",
-        "publishedAt": "2026-07-07T06:52:55.167Z",
+        "publishedAt": "2026-07-07T07:30:54.588Z",
         "metrics": {
           "rank": 3
         },
@@ -694,7 +694,7 @@
         "title": "NVIDIA/SkillSpector",
         "summary": "Security scanner for AI agent skills.",
         "url": "https://github.com/NVIDIA/SkillSpector",
-        "publishedAt": "2026-07-07T06:52:55.170Z",
+        "publishedAt": "2026-07-07T07:30:54.589Z",
         "metrics": {
           "rank": 4
         },
@@ -709,7 +709,7 @@
         "title": "Panniantong/Agent-Reach",
         "summary": "Give your AI agent eyes to see the entire internet.",
         "url": "https://github.com/Panniantong/Agent-Reach",
-        "publishedAt": "2026-07-07T06:52:55.171Z",
+        "publishedAt": "2026-07-07T07:30:54.590Z",
         "metrics": {
           "rank": 5
         },
@@ -724,7 +724,7 @@
         "title": "iptv-org/iptv",
         "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
         "url": "https://github.com/iptv-org/iptv",
-        "publishedAt": "2026-07-07T06:52:55.171Z",
+        "publishedAt": "2026-07-07T07:30:54.590Z",
         "metrics": {
           "rank": 6
         },
@@ -739,7 +739,7 @@
         "title": "mvanhorn/last30days-skill",
         "summary": "AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary /last30days An AI agent-led search engine scored by upvotes, likes, and real money - not editors.",
         "url": "https://github.com/mvanhorn/last30days-skill",
-        "publishedAt": "2026-07-07T06:52:55.173Z",
+        "publishedAt": "2026-07-07T07:30:54.592Z",
         "metrics": {
           "rank": 7
         },
@@ -754,7 +754,7 @@
         "title": "simplex-chat/simplex-chat",
         "summary": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
         "url": "https://github.com/simplex-chat/simplex-chat",
-        "publishedAt": "2026-07-07T06:52:55.175Z",
+        "publishedAt": "2026-07-07T07:30:54.594Z",
         "metrics": {
           "rank": 8
         },
@@ -769,7 +769,7 @@
         "title": "asgeirtj/system_prompts_leaks",
         "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "publishedAt": "2026-07-07T06:52:55.176Z",
+        "publishedAt": "2026-07-07T07:30:54.595Z",
         "metrics": {
           "rank": 9
         },
@@ -784,7 +784,7 @@
         "title": "interviewstreet/hiring-agent",
         "summary": "AI agent to evaluate and score resumes.",
         "url": "https://github.com/interviewstreet/hiring-agent",
-        "publishedAt": "2026-07-07T06:52:55.177Z",
+        "publishedAt": "2026-07-07T07:30:54.595Z",
         "metrics": {
           "rank": 10
         },
@@ -799,7 +799,7 @@
         "title": "usestrix/strix",
         "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "url": "https://github.com/usestrix/strix",
-        "publishedAt": "2026-07-07T06:52:55.178Z",
+        "publishedAt": "2026-07-07T07:30:54.596Z",
         "metrics": {
           "rank": 11
         },
@@ -814,7 +814,7 @@
         "title": "phuryn/pm-skills",
         "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
         "url": "https://github.com/phuryn/pm-skills",
-        "publishedAt": "2026-07-07T06:52:55.179Z",
+        "publishedAt": "2026-07-07T07:30:54.597Z",
         "metrics": {
           "rank": 12
         },
@@ -829,7 +829,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-07-07T06:52:55.180Z",
+        "publishedAt": "2026-07-07T07:30:54.597Z",
         "metrics": {
           "rank": 13
         },
@@ -844,7 +844,7 @@
         "title": "stablyai/orca",
         "summary": "Orca is the ADE for working with a fleet of parallel agents.",
         "url": "https://github.com/stablyai/orca",
-        "publishedAt": "2026-07-07T06:52:55.180Z",
+        "publishedAt": "2026-07-07T07:30:54.598Z",
         "metrics": {
           "rank": 14
         },
@@ -859,7 +859,7 @@
         "title": "alibaba/zvec",
         "summary": "A lightweight, lightning-fast, in-process vector database English | 中文 🚀 Quickstart | 🏠 Home | 📚 Docs | 📊 Benchmarks | 🔎 DeepWiki | 🎮 Discord | 🐦 X (Twitter) Zvec is an open-source, in-process vector database — lightweight, lightning-fast, and design...",
         "url": "https://github.com/alibaba/zvec",
-        "publishedAt": "2026-07-07T06:52:55.181Z",
+        "publishedAt": "2026-07-07T07:30:54.598Z",
         "metrics": {
           "rank": 15
         },
@@ -874,7 +874,7 @@
         "title": "kenn-io/agentsview",
         "summary": "Local-first session search, analytics, insights, and token use statistics for coding agents, supporting Claude Code, Codex, and more than 20 other agents.",
         "url": "https://github.com/kenn-io/agentsview",
-        "publishedAt": "2026-07-07T06:52:55.182Z",
+        "publishedAt": "2026-07-07T07:30:54.599Z",
         "metrics": {
           "rank": 16
         },
@@ -889,7 +889,7 @@
         "title": "n0-computer/iroh",
         "summary": "IP addresses break, dial keys instead.",
         "url": "https://github.com/n0-computer/iroh",
-        "publishedAt": "2026-07-07T06:52:55.183Z",
+        "publishedAt": "2026-07-07T07:30:54.600Z",
         "metrics": {
           "rank": 17
         },
@@ -904,7 +904,7 @@
         "title": "t8y2/dbx",
         "summary": "20MB, lightweight, cross-platform database client.",
         "url": "https://github.com/t8y2/dbx",
-        "publishedAt": "2026-07-07T06:52:55.184Z",
+        "publishedAt": "2026-07-07T07:30:54.600Z",
         "metrics": {
           "rank": 18
         },
@@ -919,7 +919,7 @@
         "title": "roboflow/supervision",
         "summary": "We write your reusable computer vision tools.",
         "url": "https://github.com/roboflow/supervision",
-        "publishedAt": "2026-07-07T06:52:55.184Z",
+        "publishedAt": "2026-07-07T07:30:54.601Z",
         "metrics": {
           "rank": 19
         },
@@ -933,8 +933,24 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-07-07T06:53:12.946Z",
+    "fetchedAt": "2026-07-07T07:31:01.075Z",
     "items": [
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+        "title": "Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-sky\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Government of Alberta uses Claude to find and fix cyb",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-sky\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Government of Alberta uses Claude to find and fix cybersecurity vulnerabilities across government systems\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/802260d34a0653f23fd4944fae43064df367aa44-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></",
+        "url": "https://www.anthropic.com/news/alberta-government-claude-cybersecurity",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-05T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
+        }
+      },
       {
         "source": "builder_blog",
         "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/6/hy3/#atom-everything",
@@ -1029,231 +1045,6 @@
         "metrics": {},
         "metadata": {
           "feedSource": "Simon Willison"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-        "title": "Small AI Models Gain Traction In places with unreliable networks",
-        "summary": "Article URL: https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals Comments URL: https://news.ycombinator.com/item?id=48812055 Points: 102 # Comments: 19",
-        "body": "Article URL: https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals Comments URL: https://news.ycombinator.com/item?id=48812055 Points: 102 # Comments: 19",
-        "url": "https://spectrum.ieee.org/small-language-models-ai-pharmaceuticals",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T23:59:54.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
-        "title": "AI: The ROI Runway Could Be Long Outside the Tech Sector",
-        "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=48810533 Points: 63 # Comments: 69",
-        "body": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=48810533 Points: 63 # Comments: 69",
-        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/ai-the-roi-runway-could-be-long-outside-the-tech-sector",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T21:09:23.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-        "title": "GLM 5.2 and the coming AI margin collapse",
-        "summary": "Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/ Comments URL: https://news.ycombinator.com/item?id=48809877 Points: 324 # Comments: 202",
-        "body": "Article URL: https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/ Comments URL: https://news.ycombinator.com/item?id=48809877 Points: 324 # Comments: 202",
-        "url": "https://martinalderson.com/posts/the-upcoming-ai-margin-collapse-part-1-glm-5-2/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T20:14:55.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
-        "title": "Big Tech Has Suddenly Flipped on the AI Jobs Wipeout Scenario",
-        "summary": "Article URL: https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15 Comments URL: https://news.ycombinator.com/item?id=48807651 Points: 92 # Comments: 97",
-        "body": "Article URL: https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15 Comments URL: https://news.ycombinator.com/item?id=48807651 Points: 92 # Comments: 97",
-        "url": "https://www.wsj.com/tech/ai/ai-workers-tech-ceos-job-losses-afc71e15",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T17:16:41.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://github.com/iOfficeAI/OfficeCLI",
-        "title": "OfficeCLI: Office suite for AI agents to read and edit Microsoft Office files",
-        "summary": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 161 # Comments: 45",
-        "body": "Article URL: https://github.com/iOfficeAI/OfficeCLI Comments URL: https://news.ycombinator.com/item?id=48807225 Points: 161 # Comments: 45",
-        "url": "https://github.com/iOfficeAI/OfficeCLI",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T16:47:44.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
-        "title": "The AI Superforecasters Are Here",
-        "summary": "Article URL: https://www.astralcodexten.com/p/the-ai-superforecasters-are-here Comments URL: https://news.ycombinator.com/item?id=48806296 Points: 56 # Comments: 55",
-        "body": "Article URL: https://www.astralcodexten.com/p/the-ai-superforecasters-are-here Comments URL: https://news.ycombinator.com/item?id=48806296 Points: 56 # Comments: 55",
-        "url": "https://www.astralcodexten.com/p/the-ai-superforecasters-are-here",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T15:45:11.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics/",
-        "title": "You Don't Own Your .io or .ai. You Rent a Country's Politics",
-        "summary": "Article URL: https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics/ Comments URL: https://news.ycombinator.com/item?id=48805715 Points: 38 # Comments: 13",
-        "body": "Article URL: https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics/ Comments URL: https://news.ycombinator.com/item?id=48805715 Points: 38 # Comments: 13",
-        "url": "https://webhosting.today/2026/07/02/you-dont-own-your-io-or-ai-you-rent-a-countrys-politics/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T15:07:17.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://oztalking.com/en/issues/hidden-4gb-ai-model",
-        "title": "Google Chrome Installed a 4GB AI Model on Your PC",
-        "summary": "Article URL: https://oztalking.com/en/issues/hidden-4gb-ai-model Comments URL: https://news.ycombinator.com/item?id=48805627 Points: 77 # Comments: 63",
-        "body": "Article URL: https://oztalking.com/en/issues/hidden-4gb-ai-model Comments URL: https://news.ycombinator.com/item?id=48805627 Points: 77 # Comments: 63",
-        "url": "https://oztalking.com/en/issues/hidden-4gb-ai-model",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T15:01:44.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-        "title": "AMD Ryzen AI Halo – $4k AI Dev Kit",
-        "summary": "Article URL: https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo Comments URL: https://news.ycombinator.com/item?id=48805624 Points: 311 # Comments: 218",
-        "body": "Article URL: https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo Comments URL: https://news.ycombinator.com/item?id=48805624 Points: 311 # Comments: 218",
-        "url": "https://www.lttlabs.com/articles/2026/07/06/amd-ryzen-ai-halo",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T15:01:18.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://github.com/makerchecker/MakerChecker",
-        "title": "Show HN: Scan your AI agents for dangerous capabilities",
-        "summary": "Article URL: https://github.com/makerchecker/MakerChecker Comments URL: https://news.ycombinator.com/item?id=48804182 Points: 41 # Comments: 19",
-        "body": "Article URL: https://github.com/makerchecker/MakerChecker Comments URL: https://news.ycombinator.com/item?id=48804182 Points: 41 # Comments: 19",
-        "url": "https://github.com/makerchecker/MakerChecker",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T13:17:27.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
-        "title": "The AI Marketing Backlash: Why 'AI-First' Brands Are Starting to Fall Flat",
-        "summary": "Article URL: https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat Comments URL: https://news.ycombinator.com/item?id=48803711 Points: 77 # Comments: 49",
-        "body": "Article URL: https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat Comments URL: https://news.ycombinator.com/item?id=48803711 Points: 77 # Comments: 49",
-        "url": "https://www.breef.com/breefingroom/articles/the-ai-marketing-backlash-why-ai-first-brands-are-starting-to-fall-flat",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T12:33:09.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://arxiv.org/abs/2606.24937",
-        "title": "The Hitchhiker's Guide to Agentic AI",
-        "summary": "Article URL: https://arxiv.org/abs/2606.24937 Comments URL: https://news.ycombinator.com/item?id=48802156 Points: 48 # Comments: 4",
-        "body": "Article URL: https://arxiv.org/abs/2606.24937 Comments URL: https://news.ycombinator.com/item?id=48802156 Points: 48 # Comments: 4",
-        "url": "https://arxiv.org/abs/2606.24937",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T08:40:29.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://tomtunguz.com/ai-spend-breakeven-2029/",
-        "title": "When AI Costs More Than the Engineer",
-        "summary": "Article URL: https://tomtunguz.com/ai-spend-breakeven-2029/ Comments URL: https://news.ycombinator.com/item?id=48801493 Points: 124 # Comments: 109",
-        "body": "Article URL: https://tomtunguz.com/ai-spend-breakeven-2029/ Comments URL: https://news.ycombinator.com/item?id=48801493 Points: 124 # Comments: 109",
-        "url": "https://tomtunguz.com/ai-spend-breakeven-2029/",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T07:05:25.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://twitter.com/thsottiaux/status/2073933490513752151",
-        "title": "GPT-5.6 Sol Ultra will be in Codex",
-        "summary": "https://x.com/haider1/status/2073695124220006575 , https://xcancel.com/haider1/status/2073695124220006575 Comments URL: https://news.ycombinator.com/item?id=48799614 Points: 405 # Comments: 387",
-        "body": "https://x.com/haider1/status/2073695124220006575 , https://xcancel.com/haider1/status/2073695124220006575 Comments URL: https://news.ycombinator.com/item?id=48799614 Points: 405 # Comments: 387",
-        "url": "https://twitter.com/thsottiaux/status/2073933490513752151",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T01:04:03.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
-        }
-      },
-      {
-        "source": "builder_hackernews",
-        "sourceItemId": "builder_hackernews:https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
-        "title": "Al Vigier: Canada's AI strategy shouldn't include secret Palantir bills",
-        "summary": "Article URL: https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt Comments URL: https://news.ycombinator.com/item?id=48799256 Points: 163 # Comments: 75",
-        "body": "Article URL: https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt Comments URL: https://news.ycombinator.com/item?id=48799256 Points: 163 # Comments: 75",
-        "url": "https://www.readtheline.ca/p/al-vigier-canadas-ai-strategy-shouldnt",
-        "sourceName": "Hacker News AI",
-        "sourceCategory": "news",
-        "publishedAt": "2026-07-06T00:04:48.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Hacker News AI"
         }
       },
       {
@@ -1468,9 +1259,9 @@
       }
     ],
     "errors": [
-      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403"
+      "Gwern: HTTP 403",
+      "Hacker News AI: HTTP 502"
     ]
   }
 ]
