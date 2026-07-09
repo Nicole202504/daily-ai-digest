@@ -1,1199 +1,545 @@
 [
   {
-    "id": "product_hunt:ph:1131659",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1131659",
-    "title": "Badge",
-    "summary": "AI agents collect peer reviews to generate proof of work",
-    "body": "Badge gives an AI agent that collects peer reviews to build proof of work. For job seekers - The agent connects to your contacts, requests anonymous reviews from your past colleagues, and builds a verified, portable trust score. score. For hiring managers - Badge gives you a 30 second reference checks on candidates, collecting authentic feedback from their actual coworkers to replace unreliable, AI-generated resumes and LinkedIn Recommendations.",
-    "url": "https://www.producthunt.com/products/badge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/SJNBNECUTZE3BI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 465,
-      "comments": 274,
-      "rank": 1,
-      "score": 465
-    },
-    "metadata": {
-      "slug": "badge-3",
-      "topics": [
-        "Hiring",
-        "Productivity",
-        "Artificial Intelligence"
-      ]
-    },
+    "id": "aihot:aihot:cmrcsrok60407ihx5jvrp15a1",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrcsrok60407ihx5jvrp15a1",
+    "title": "Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型",
+    "summary": "Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型。它以 Qwen3-VL-4B-Instruct 为骨干，采用 MoE 动作专家架构，通过 55 维规范向量统一表示不同机器人的状态和动作。训练数据涵盖约 60，000 小时高质量数据（50，000 小时机器人轨迹 + 10，000 小时第一人称人类视频），覆盖 20 种机器人配置。在 GM-100 双机械臂基准测试中，模型在多个平台上超越 π0.5 和之前版本。模型权重、代码和技术报告已以 Apache-2.0 许可开源。",
+    "body": "Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型。它以 Qwen3-VL-4B-Instruct 为骨干，采用 MoE 动作专家架构，通过 55 维规范向量统一表示不同机器人的状态和动作。训练数据涵盖约 60，000 小时高质量数据（50，000 小时机器人轨迹 + 10，000 小时第一人称人类视频），覆盖 20 种机器人配置。在 GM-100 双机械臂基准测试中，模型在多个平台上超越 π0.5 和之前版本。模型权重、代码和技术报告已以 Apache-2.0 许可开源。",
+    "url": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
+    "sourceName": "MarkTechPost（RSS）",
+    "sourceCategory": "ai-models",
+    "publishedAt": "2026-07-09T00:45:39.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1131659",
-      "name": "Badge",
-      "slug": "badge-3",
-      "tagline": "AI agents collect peer reviews to generate proof of work",
-      "description": "Badge gives an AI agent that collects peer reviews to build proof of work. For job seekers - The agent connects to your contacts, requests anonymous reviews from your past colleagues, and builds a verified, portable trust score. score. For hiring managers - Badge gives you a 30 second reference checks on candidates, collecting authentic feedback from their actual coworkers to replace unreliable, AI-generated resumes and LinkedIn Recommendations.",
-      "url": "https://www.producthunt.com/products/badge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/SJNBNECUTZE3BI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 465,
-      "commentsCount": 274,
-      "dailyRank": 1,
-      "latestScore": 465,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Hiring",
-              "slug": "hiring"
-            }
-          },
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
+      "id": "cmrcsrok60407ihx5jvrp15a1",
+      "title": "Robbyant 发布 LingBot-VLA 2.0：开源 6B 跨实体机器人视觉-语言-动作模型",
+      "title_en": "Robbyant Releases LingBot-VLA 2.0： An Open-Source 6B Vision-Language-Action （VLA） Model for Cross-Embodiment Robot Manipulation",
+      "url": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
+      "permalink": "https://aihot.virxact.com/items/cmrcsrok60407ihx5jvrp15a1",
+      "source": "MarkTechPost（RSS）",
+      "publishedAt": "2026-07-09T00:45:39.000Z",
+      "summary": "Robbyant 推出 LingBot-VLA 2.0，一个 6B 参数的开源视觉-语言-动作（VLA）基础模型。它以 Qwen3-VL-4B-Instruct 为骨干，采用 MoE 动作专家架构，通过 55 维规范向量统一表示不同机器人的状态和动作。训练数据涵盖约 60，000 小时高质量数据（50，000 小时机器人轨迹 + 10，000 小时第一人称人类视频），覆盖 20 种机器人配置。在 GM-100 双机械臂基准测试中，模型在多个平台上超越 π0.5 和之前版本。模型权重、代码和技术报告已以 Apache-2.0 许可开源。",
+      "category": "ai-models",
+      "score": 70,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcsrok60407ihx5jvrp15a1"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/badge-3",
+    "systemCategory": "technical",
+    "canonicalUrl": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/badge-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://www.marktechpost.com/2026/07/08/lingbot-vla-2-0"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1172798",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1172798",
-    "title": "Katalyst ",
-    "summary": "The AI agent that works your Salesforce Pipeline",
-    "body": "Katalyst is the AI sales agent for teams on Salesforce. Hang up a call and it's already done: notes summarized, records created, fields updated, follow-up drafted, next step set. It runs 24/7, reading every call, email, and calendar, surfacing the right signals, prepping you for each meeting, and prompting you to act: follow up here, this one’s slipping. What's new: AI Resolution on every account, meeting recorder, hygiene scores, deal patterns. Built for enterprise sales teams.",
-    "url": "https://www.producthunt.com/products/katalyst?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/I2QDECZXLT36XU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 431,
-      "comments": 358,
-      "rank": 2,
-      "score": 431
-    },
-    "metadata": {
-      "slug": "katalyst",
-      "topics": [
-        "Sales",
-        "Artificial Intelligence",
-        "CRM"
-      ]
-    },
+    "id": "aihot:aihot:cmrcpjgf00373ihx5mtyo2fsy",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrcpjgf00373ihx5mtyo2fsy",
+    "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
+    "summary": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后\"遗忘\"技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
+    "body": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后\"遗忘\"技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
+    "url": "https://www.anthropic.com/research/off-switch-dual-use",
+    "sourceName": "Anthropic：Research（发表成果 · 网页）",
+    "sourceCategory": "paper",
+    "publishedAt": "2026-07-08T23:27:02.554Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1172798",
-      "name": "Katalyst ",
-      "slug": "katalyst",
-      "tagline": "The AI agent that works your Salesforce Pipeline",
-      "description": "Katalyst is the AI sales agent for teams on Salesforce. Hang up a call and it's already done: notes summarized, records created, fields updated, follow-up drafted, next step set. It runs 24/7, reading every call, email, and calendar, surfacing the right signals, prepping you for each meeting, and prompting you to act: follow up here, this one’s slipping. What's new: AI Resolution on every account, meeting recorder, hygiene scores, deal patterns. Built for enterprise sales teams.",
-      "url": "https://www.producthunt.com/products/katalyst?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/I2QDECZXLT36XU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 431,
-      "commentsCount": 358,
-      "dailyRank": 2,
-      "latestScore": 431,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Sales",
-              "slug": "sales"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          },
-          {
-            "node": {
-              "name": "CRM",
-              "slug": "crm"
-            }
-          }
-        ]
+      "id": "cmrcpjgf00373ihx5mtyo2fsy",
+      "title": "面向AI模型双重用途知识的\"开关\"：Anthropic与AE Studio提出GRAM方法",
+      "title_en": "An off switch for dual use knowledge in AI models",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use",
+      "permalink": "https://aihot.virxact.com/items/cmrcpjgf00373ihx5mtyo2fsy",
+      "source": "Anthropic：Research（发表成果 · 网页）",
+      "publishedAt": "2026-07-08T23:27:02.554Z",
+      "summary": "Anthropic与AE Studio联合提出梯度路由辅助模块（GRAM）方法，通过在Transformer每层添加可移除的神经元模块，使模型在训练时将病毒学、网络安全、核物理、专业编程语言等双重用途知识仅路由到对应模块，而非扩散至全局。训练后删除模块即可消除该能力，保留则供可信部署使用。实验在合成数据、真实数据及50M到5B参数模型上测试，GRAM效果与数据过滤相当，移除模块不降低通用性能，且比事后\"遗忘\"技术更难恢复。该研究为平衡双重用途知识的安全访问与有益使用提供了更鲁棒的方案。",
+      "category": "paper",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcpjgf00373ihx5mtyo2fsy"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/katalyst",
+    "systemCategory": "technical",
+    "canonicalUrl": "https://www.anthropic.com/research/off-switch-dual-use",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/katalyst?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://www.anthropic.com/research/off-switch-dual-use"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1184570",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1184570",
-    "title": "Scribble Network",
-    "summary": "The product that makes AI recommend your brand",
-    "body": "Your customers ask AI before they ask Google, and most brands have no idea whether they show up or lose to a competitor. Every other tool hands you a visibility score and stops there. Scribble does the whole loop: audit where you're invisible across every AI engine, create content that closes the gap, and amplify it through 50,000 creators who only get paid when AI cites them. A gap report won't win customers. Being the cited answer will.",
-    "url": "https://www.producthunt.com/products/scribble-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/UC5EA4CAN72QZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 417,
-      "comments": 118,
-      "rank": 3,
-      "score": 417
-    },
-    "metadata": {
-      "slug": "scribble-network",
-      "topics": [
-        "Analytics",
-        "Marketing",
-        "Artificial Intelligence"
-      ]
-    },
+    "id": "aihot:aihot:cmrcp5by2031uihx57fypdkfo",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrcp5by2031uihx57fypdkfo",
+    "title": "利润超10亿美元、ARR剑指千亿，Anthropic抢先OpenAI冲击IPO",
+    "summary": "Anthropic今年第三季度利润预计超10亿美元，已于6月1日秘密提交IPO申请，若成功将成为规模最大AI实验室IPO。其与OpenAI的年度经常性收入合计接近1000亿美元。凭借Claude Code在软件开发领域的快速普及，Anthropic在2026年实现AI模型盈利变现，成为B2B市场领跑者。SemiAnalysis报告认为其商业模式优越，若持续良好执行，市值可能触及6万亿美元。",
+    "body": "Anthropic今年第三季度利润预计超10亿美元，已于6月1日秘密提交IPO申请，若成功将成为规模最大AI实验室IPO。其与OpenAI的年度经常性收入合计接近1000亿美元。凭借Claude Code在软件开发领域的快速普及，Anthropic在2026年实现AI模型盈利变现，成为B2B市场领跑者。SemiAnalysis报告认为其商业模式优越，若持续良好执行，市值可能触及6万亿美元。",
+    "url": "https://www.ithome.com/0/974/275.htm",
+    "sourceName": "IT之家（RSS）",
+    "sourceCategory": "industry",
+    "publishedAt": "2026-07-08T22:30:38.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1184570",
-      "name": "Scribble Network",
-      "slug": "scribble-network",
-      "tagline": "The product that makes AI recommend your brand",
-      "description": "Your customers ask AI before they ask Google, and most brands have no idea whether they show up or lose to a competitor. Every other tool hands you a visibility score and stops there. Scribble does the whole loop: audit where you're invisible across every AI engine, create content that closes the gap, and amplify it through 50,000 creators who only get paid when AI cites them. A gap report won't win customers. Being the cited answer will.",
-      "url": "https://www.producthunt.com/products/scribble-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/UC5EA4CAN72QZO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 417,
-      "commentsCount": 118,
-      "dailyRank": 3,
-      "latestScore": 417,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Analytics",
-              "slug": "analytics"
-            }
-          },
-          {
-            "node": {
-              "name": "Marketing",
-              "slug": "marketing"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
+      "id": "cmrcp5by2031uihx57fypdkfo",
+      "title": "利润超10亿美元、ARR剑指千亿，Anthropic抢先OpenAI冲击IPO",
+      "title_en": "利润超 10 亿美元、ARR 剑指千亿，Anthropic 抢先 OpenAI 冲击 IPO",
+      "url": "https://www.ithome.com/0/974/275.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrcp5by2031uihx57fypdkfo",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-08T22:30:38.000Z",
+      "summary": "Anthropic今年第三季度利润预计超10亿美元，已于6月1日秘密提交IPO申请，若成功将成为规模最大AI实验室IPO。其与OpenAI的年度经常性收入合计接近1000亿美元。凭借Claude Code在软件开发领域的快速普及，Anthropic在2026年实现AI模型盈利变现，成为B2B市场领跑者。SemiAnalysis报告认为其商业模式优越，若持续良好执行，市值可能触及6万亿美元。",
+      "category": "industry",
+      "score": 73,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcp5by2031uihx57fypdkfo"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/scribble-network",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.ithome.com/0/974/275.htm",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/scribble-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://www.ithome.com/0/974/275.htm"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1172401",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1172401",
-    "title": "Dupely",
-    "summary": "The trust layer for online shopping",
-    "body": "Most shopping tools chase coupons. Dupely tackles trust. Online shopping is full of manipulation: artificial price drops, fake reviews, paid influencers, and sketchy white label sellers reselling the same product at a markup. DupeScore finds identical products for less. Trust This Price flags fake savings using 90 days of price history. Seller badges show you who's actually credible. Now on iOS, Android, and Chrome. Dupely is the trust layer online shopping has been missing.",
-    "url": "https://www.producthunt.com/products/dupely?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/TV5XHOQG4DV2R7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 310,
-      "comments": 123,
-      "rank": 4,
-      "score": 310
-    },
-    "metadata": {
-      "slug": "dupely",
-      "topics": [
-        "Android",
-        "iOS",
-        "E-Commerce"
-      ]
-    },
+    "id": "aihot:aihot:cmrcn8mlw02k5ihx5risshcr3",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrcn8mlw02k5ihx5risshcr3",
+    "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
+    "summary": "Seedream 5.0 Pro 现已登陆 Runway。可通过提示词或参考图生成高细节图像，图像内文字清晰可读，支持多达14种语言。立即点击下方链接尝试。",
+    "body": "Seedream 5.0 Pro 现已登陆 Runway。可通过提示词或参考图生成高细节图像，图像内文字清晰可读，支持多达14种语言。立即点击下方链接尝试。",
+    "url": "https://x.com/runwayml/status/2074982268175630814",
+    "sourceName": "X：Runway (@runwayml)",
+    "sourceCategory": "ai-products",
+    "publishedAt": "2026-07-08T22:21:38.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1172401",
-      "name": "Dupely",
-      "slug": "dupely",
-      "tagline": "The trust layer for online shopping",
-      "description": "Most shopping tools chase coupons. Dupely tackles trust. Online shopping is full of manipulation: artificial price drops, fake reviews, paid influencers, and sketchy white label sellers reselling the same product at a markup. DupeScore finds identical products for less. Trust This Price flags fake savings using 90 days of price history. Seller badges show you who's actually credible. Now on iOS, Android, and Chrome. Dupely is the trust layer online shopping has been missing.",
-      "url": "https://www.producthunt.com/products/dupely?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/TV5XHOQG4DV2R7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 310,
-      "commentsCount": 123,
-      "dailyRank": 4,
-      "latestScore": 310,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Android",
-              "slug": "android"
-            }
-          },
-          {
-            "node": {
-              "name": "iOS",
-              "slug": "ios"
-            }
-          },
-          {
-            "node": {
-              "name": "E-Commerce",
-              "slug": "e-commerce"
-            }
-          }
-        ]
+      "id": "cmrcn8mlw02k5ihx5risshcr3",
+      "title": "Seedream 5.0 Pro 登陆 Runway，支持14种语言",
+      "title_en": "Seedream 5.0 Pro is now in Runway. Generate highly detailed images from a prompt or reference， with …",
+      "url": "https://x.com/runwayml/status/2074982268175630814",
+      "permalink": "https://aihot.virxact.com/items/cmrcn8mlw02k5ihx5risshcr3",
+      "source": "X：Runway (@runwayml)",
+      "publishedAt": "2026-07-08T22:21:38.000Z",
+      "summary": "Seedream 5.0 Pro 现已登陆 Runway。可通过提示词或参考图生成高细节图像，图像内文字清晰可读，支持多达14种语言。立即点击下方链接尝试。",
+      "category": "ai-products",
+      "score": 69,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcn8mlw02k5ihx5risshcr3"
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/dupely",
+    "canonicalUrl": "https://x.com/runwayml/status/2074982268175630814",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/dupely?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://x.com/runwayml/status/2074982268175630814"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1183892",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1183892",
-    "title": "Mira",
-    "summary": "AI moderated interviews that read how people feel",
-    "body": "Unlike AI tools that stop at interview + transcript, Mira is a full AI researcher — plans studies, recruits globally (100M+ panel, 120 countries), runs dynamic interviews with intelligent probing, and uniquely captures what participants say AND feel via real-time facial coding, voice emotion AI, and webcam eye tracking. Extracts themes, generates insights, and produces research reports automatically. 17 patents. 70+ languages. Trusted by Unilever, Nestlé and 150+ global brands. $25M Series B.",
-    "url": "https://www.producthunt.com/products/mira-the-ai-moderator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/QVOBLGCIMXF4AQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 238,
-      "comments": 132,
-      "rank": 5,
-      "score": 238
-    },
-    "metadata": {
-      "slug": "mira-656f5e32-2c20-48f3-9291-06f5e398cd8c",
-      "topics": [
-        "User Experience",
-        "Analytics",
-        "Artificial Intelligence"
-      ]
-    },
+    "id": "aihot:aihot:cmrcit2bg01f9ihx5cps026s8",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrcit2bg01f9ihx5cps026s8",
+    "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+    "summary": "一男子使用Grok生成7000张继女儿童性虐待材料（CSAM）后自杀。更多年轻女孩起诉X平台，指控其涉及Grok生成CSAM，并包庇儿童性犯罪者。",
+    "body": "一男子使用Grok生成7000张继女儿童性虐待材料（CSAM）后自杀。更多年轻女孩起诉X平台，指控其涉及Grok生成CSAM，并包庇儿童性犯罪者。",
+    "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+    "sourceName": "Ars Technica：AI（RSS）",
+    "sourceCategory": "industry",
+    "publishedAt": "2026-07-08T19:56:37.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1183892",
-      "name": "Mira",
-      "slug": "mira-656f5e32-2c20-48f3-9291-06f5e398cd8c",
-      "tagline": "AI moderated interviews that read how people feel",
-      "description": "Unlike AI tools that stop at interview + transcript, Mira is a full AI researcher — plans studies, recruits globally (100M+ panel, 120 countries), runs dynamic interviews with intelligent probing, and uniquely captures what participants say AND feel via real-time facial coding, voice emotion AI, and webcam eye tracking. Extracts themes, generates insights, and produces research reports automatically. 17 patents. 70+ languages. Trusted by Unilever, Nestlé and 150+ global brands. $25M Series B.",
-      "url": "https://www.producthunt.com/products/mira-the-ai-moderator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/QVOBLGCIMXF4AQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 238,
-      "commentsCount": 132,
-      "dailyRank": 5,
-      "latestScore": 238,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "User Experience",
-              "slug": "user-experience"
-            }
-          },
-          {
-            "node": {
-              "name": "Analytics",
-              "slug": "analytics"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
+      "id": "cmrcit2bg01f9ihx5cps026s8",
+      "title": "诉讼：男子使用Grok制作7000张继女色情图像后自杀",
+      "title_en": "Lawsuit： Man used Grok to make 7K sex images of stepdaughter， then shot himself",
+      "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
+      "permalink": "https://aihot.virxact.com/items/cmrcit2bg01f9ihx5cps026s8",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-07-08T19:56:37.000Z",
+      "summary": "一男子使用Grok生成7000张继女儿童性虐待材料（CSAM）后自杀。更多年轻女孩起诉X平台，指控其涉及Grok生成CSAM，并包庇儿童性犯罪者。",
+      "category": "industry",
+      "score": 72,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrcit2bg01f9ihx5cps026s8"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/mira-the-ai-moderator",
+    "systemCategory": "news",
+    "canonicalUrl": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/mira-the-ai-moderator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://arstechnica.com/tech-policy/2026/07/lawsuit-grok-user-made-7k-child-sex-images-xai-only-reported-one-gang-rape-prompt"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1153345",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1153345",
-    "title": "Ellis",
-    "summary": "AI notes for in-person meetings",
-    "body": "Ellis is an AI notetaker for in-person meetings. Record your meeting, get a clean transcript with each speaker identified, then ask anything — what was decided, what you missed, how it went. No laptop. No extra hardware. Just your iPhone (or Apple Watch).",
-    "url": "https://www.producthunt.com/products/ellis-your-conversations-remembered?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/77OH47D2XJ2D5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 197,
-      "comments": 117,
-      "rank": 7,
-      "score": 197
-    },
-    "metadata": {
-      "slug": "ellis",
-      "topics": [
-        "Productivity",
-        "Artificial Intelligence",
-        "Audio"
-      ]
-    },
+    "id": "aihot:aihot:cmrc8cfhc00jeihqc0r5wx6qz",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrc8cfhc00jeihqc0r5wx6qz",
+    "title": "Replit 推出社区档案与力量排名",
+    "summary": "本周新功能 🚀 Replit 社区档案--vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
+    "body": "本周新功能 🚀 Replit 社区档案--vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
+    "url": "https://x.com/Replit/status/2074871322220339515",
+    "sourceName": "X：Replit (@Replit)",
+    "sourceCategory": "ai-products",
+    "publishedAt": "2026-07-08T15:00:47.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1153345",
-      "name": "Ellis",
-      "slug": "ellis",
-      "tagline": "AI notes for in-person meetings",
-      "description": "Ellis is an AI notetaker for in-person meetings. Record your meeting, get a clean transcript with each speaker identified, then ask anything — what was decided, what you missed, how it went. No laptop. No extra hardware. Just your iPhone (or Apple Watch).",
-      "url": "https://www.producthunt.com/products/ellis-your-conversations-remembered?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/77OH47D2XJ2D5C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 197,
-      "commentsCount": 117,
-      "dailyRank": 7,
-      "latestScore": 197,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          },
-          {
-            "node": {
-              "name": "Audio",
-              "slug": "audio"
-            }
-          }
-        ]
+      "id": "cmrc8cfhc00jeihqc0r5wx6qz",
+      "title": "Replit 推出社区档案与力量排名",
+      "title_en": "New this week 🚀 Replit Community Profiles - Proof of Work for vibe coders. Your profile， your flex…",
+      "url": "https://x.com/Replit/status/2074871322220339515",
+      "permalink": "https://aihot.virxact.com/items/cmrc8cfhc00jeihqc0r5wx6qz",
+      "source": "X：Replit (@Replit)",
+      "publishedAt": "2026-07-08T15:00:47.000Z",
+      "summary": "本周新功能 🚀 Replit 社区档案--vibe coders 的工作证明。\n\n你的档案，你的展示。获取你的智能体使用和检查点的活跃度图表，外加面向专业用户的 Replit 力量排名。\n\n登录，认领你的档案，挑选你最棒的项目，与朋友分享你的数据。\n\n立即查看 → http://replit.com/community",
+      "category": "ai-products",
+      "score": 68,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrc8cfhc00jeihqc0r5wx6qz"
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/ellis-your-conversations-remembered",
+    "canonicalUrl": "https://x.com/Replit/status/2074871322220339515",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/ellis-your-conversations-remembered?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://x.com/Replit/status/2074871322220339515"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1189175",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1189175",
-    "title": "AI Emaily",
-    "summary": "Your AI inbox that writes like you + replies on autopilot",
-    "body": "AI Emaily is the AI-native inbox that runs like your chief of staff. It reads every message, triages what actually needs you, and quiets the noise. It drafts replies in your own voice — not generic AI text — then schedules and sends across Gmail, Outlook, and any provider from one inbox. Three modes: Manual, Copilot, Autopilot. You approve, it acts, with undo and a full audit trail on everything. Your mail is never used to train models. Start free.",
-    "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/YDSWN642V7QU7T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 191,
-      "comments": 118,
-      "rank": 6,
-      "score": 191
-    },
-    "metadata": {
-      "slug": "ai-emaily",
-      "topics": [
-        "Email",
-        "Productivity",
-        "SaaS"
-      ]
-    },
+    "id": "aihot:aihot:cmrc8c7rq00imihqcg5rp1u13",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrc8c7rq00imihqcg5rp1u13",
+    "title": "OpenRouter聊天室推出一键零数据保留",
+    "summary": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
+    "body": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
+    "url": "https://x.com/OpenRouter/status/2074870468394250461",
+    "sourceName": "X：OpenRouter (@OpenRouter)",
+    "sourceCategory": "ai-products",
+    "publishedAt": "2026-07-08T14:57:23.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1189175",
-      "name": "AI Emaily",
-      "slug": "ai-emaily",
-      "tagline": "Your AI inbox that writes like you + replies on autopilot",
-      "description": "AI Emaily is the AI-native inbox that runs like your chief of staff. It reads every message, triages what actually needs you, and quiets the noise. It drafts replies in your own voice — not generic AI text — then schedules and sends across Gmail, Outlook, and any provider from one inbox. Three modes: Manual, Copilot, Autopilot. You approve, it acts, with undo and a full audit trail on everything. Your mail is never used to train models. Start free.",
-      "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/YDSWN642V7QU7T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 191,
-      "commentsCount": 118,
-      "dailyRank": 6,
-      "latestScore": 191,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Email",
-              "slug": "email"
-            }
-          },
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "SaaS",
-              "slug": "saas"
-            }
-          }
-        ]
+      "id": "cmrc8c7rq00imihqcg5rp1u13",
+      "title": "OpenRouter聊天室推出一键零数据保留",
+      "title_en": "New： one-click ZDR （zero-data retention） in the Chatroom Compare models side-by-side with full priv…",
+      "url": "https://x.com/OpenRouter/status/2074870468394250461",
+      "permalink": "https://aihot.virxact.com/items/cmrc8c7rq00imihqcg5rp1u13",
+      "source": "X：OpenRouter (@OpenRouter)",
+      "publishedAt": "2026-07-08T14:57:23.000Z",
+      "summary": "新功能：聊天室一键ZDR（零数据保留）\n在完全隐私保护下横向对比模型：https://openrouter.ai/chat",
+      "category": "ai-products",
+      "score": 65,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrc8c7rq00imihqcg5rp1u13"
       }
     },
     "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox",
+    "canonicalUrl": "https://x.com/OpenRouter/status/2074870468394250461",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/ai-emaily-unified-ai-inbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://x.com/OpenRouter/status/2074870468394250461"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1180703",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1180703",
-    "title": "Social Fetch",
-    "summary": "Social media scraper API for every major platform",
-    "body": "Social media scraping API for public profiles, posts, comments, videos, transcripts, and metrics from TikTok, Instagram, YouTube, X, LinkedIn, and more. Pay-as-you-go credits, 100 free to start.",
-    "url": "https://www.producthunt.com/products/social-fetch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/64J2C2YZACK3VR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 186,
-      "comments": 59,
-      "rank": 8,
-      "score": 186
-    },
-    "metadata": {
-      "slug": "social-fetch-2",
-      "topics": [
-        "API",
-        "Social Media",
-        "Developer Tools"
-      ]
-    },
+    "id": "aihot:aihot:cmrc1iygj00twihyfe1hkvycv",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrc1iygj00twihyfe1hkvycv",
+    "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
+    "summary": "在校研究生Kunkun开源了一套管理大量互相调用Skill的方法。核心方案包括：1）搭建HTML后台，按运行模式（手动/自动）、链路位置、专业领域三类标签筛选Skill；2）将连环调用的Skill绘制成Mermaid流程图，根据debug、新功能、合PR、改设计等阶段定位对应技能组；3）仿照Matt的ask Matt技能开发\"ask me\"技能，将调用决策浓缩成上下文喂给模型。该方法避免将所有调用交给模型自行判断，保持工程复杂场景下的人机对齐与可控性。项目已开源至GitHub。",
+    "body": "在校研究生Kunkun开源了一套管理大量互相调用Skill的方法。核心方案包括：1）搭建HTML后台，按运行模式（手动/自动）、链路位置、专业领域三类标签筛选Skill；2）将连环调用的Skill绘制成Mermaid流程图，根据debug、新功能、合PR、改设计等阶段定位对应技能组；3）仿照Matt的ask Matt技能开发\"ask me\"技能，将调用决策浓缩成上下文喂给模型。该方法避免将所有调用交给模型自行判断，保持工程复杂场景下的人机对齐与可控性。项目已开源至GitHub。",
+    "url": "https://x.com/berryxia/status/2074827915779580055",
+    "sourceName": "X：Berry Xia (@berryxia)",
+    "sourceCategory": "tip",
+    "publishedAt": "2026-07-08T12:08:18.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1180703",
-      "name": "Social Fetch",
-      "slug": "social-fetch-2",
-      "tagline": "Social media scraper API for every major platform",
-      "description": "Social media scraping API for public profiles, posts, comments, videos, transcripts, and metrics from TikTok, Instagram, YouTube, X, LinkedIn, and more. Pay-as-you-go credits, 100 free to start.",
-      "url": "https://www.producthunt.com/products/social-fetch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/64J2C2YZACK3VR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 186,
-      "commentsCount": 59,
-      "dailyRank": 8,
-      "latestScore": 186,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "API",
-              "slug": "api-1"
-            }
-          },
-          {
-            "node": {
-              "name": "Social Media",
-              "slug": "social-media"
-            }
-          },
-          {
-            "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
-            }
-          }
-        ]
+      "id": "cmrc1iygj00twihyfe1hkvycv",
+      "title": "在校研究生Kunkun开源管理相互调用Skill的方法",
+      "title_en": "现在的年轻小伙子一个比一个生猛啊！ 执行力和学习能力真的是拉满~ Kunkun 还是一位在校读研的学生！ 分享了自己管理大量互相调用的Skill的实用方法，已经开源在GitHub。 他建了一个H…",
+      "url": "https://x.com/berryxia/status/2074827915779580055",
+      "permalink": "https://aihot.virxact.com/items/cmrc1iygj00twihyfe1hkvycv",
+      "source": "X：Berry Xia (@berryxia)",
+      "publishedAt": "2026-07-08T12:08:18.000Z",
+      "summary": "在校研究生Kunkun开源了一套管理大量互相调用Skill的方法。核心方案包括：1）搭建HTML后台，按运行模式（手动/自动）、链路位置、专业领域三类标签筛选Skill；2）将连环调用的Skill绘制成Mermaid流程图，根据debug、新功能、合PR、改设计等阶段定位对应技能组；3）仿照Matt的ask Matt技能开发\"ask me\"技能，将调用决策浓缩成上下文喂给模型。该方法避免将所有调用交给模型自行判断，保持工程复杂场景下的人机对齐与可控性。项目已开源至GitHub。",
+      "category": "tip",
+      "score": 76,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrc1iygj00twihyfe1hkvycv"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/social-fetch",
+    "systemCategory": "news",
+    "canonicalUrl": "https://x.com/berryxia/status/2074827915779580055",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/social-fetch?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://x.com/berryxia/status/2074827915779580055"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1181363",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1181363",
-    "title": "Ogment AI",
-    "summary": "Your AI coworker, in Slack. Just tag @O.",
-    "body": "@O is the ultimate AI coworker that lives natively in Slack. Tag @O like a colleague, to ask anything or delegate daily tasks in plain English. It connects to 1,000+ tools your business runs on, does work while you sleep, and shares memory and skills across your whole team right in Slack, on any model you choose, including your own. One-click install, and everyone is AI-enabled in under 5min, not just your power users. Zero friction, maximum adoption.",
-    "url": "https://www.producthunt.com/products/ogment-mcp-builder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/MKGRS2HJKQ6GT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 179,
-      "comments": 115,
-      "rank": 9,
-      "score": 179
-    },
-    "metadata": {
-      "slug": "ogment-ai",
-      "topics": [
-        "Slack",
-        "Productivity",
-        "Artificial Intelligence"
-      ]
-    },
+    "id": "aihot:aihot:cmrbxa3ll003yihgens8d2sqg",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrbxa3ll003yihgens8d2sqg",
+    "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
+    "summary": "加拿大不列颠哥伦比亚省7月7日宣布将起诉OpenAI，指控其未向执法部门上报一名ChatGPT用户2025年6月封禁前的暴力相关对话内容。该用户随后于今年2月在塔布勒岭制造校园枪击案，杀害8人。OpenAI CEO萨姆·奥尔特曼今年4月为此公开致歉，承认本应上报但未执行。受害家属已在加州法院提起诉讼，省政府正协调独立诉讼，要求赔偿用于社区重建。",
+    "body": "加拿大不列颠哥伦比亚省7月7日宣布将起诉OpenAI，指控其未向执法部门上报一名ChatGPT用户2025年6月封禁前的暴力相关对话内容。该用户随后于今年2月在塔布勒岭制造校园枪击案，杀害8人。OpenAI CEO萨姆·奥尔特曼今年4月为此公开致歉，承认本应上报但未执行。受害家属已在加州法院提起诉讼，省政府正协调独立诉讼，要求赔偿用于社区重建。",
+    "url": "https://www.ithome.com/0/974/169.htm",
+    "sourceName": "IT之家（RSS）",
+    "sourceCategory": "industry",
+    "publishedAt": "2026-07-08T09:55:17.000Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1181363",
-      "name": "Ogment AI",
-      "slug": "ogment-ai",
-      "tagline": "Your AI coworker, in Slack. Just tag @O.",
-      "description": "@O is the ultimate AI coworker that lives natively in Slack. Tag @O like a colleague, to ask anything or delegate daily tasks in plain English. It connects to 1,000+ tools your business runs on, does work while you sleep, and shares memory and skills across your whole team right in Slack, on any model you choose, including your own. One-click install, and everyone is AI-enabled in under 5min, not just your power users. Zero friction, maximum adoption.",
-      "url": "https://www.producthunt.com/products/ogment-mcp-builder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/MKGRS2HJKQ6GT5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 179,
-      "commentsCount": 115,
-      "dailyRank": 9,
-      "latestScore": 179,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Slack",
-              "slug": "slack"
-            }
-          },
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
+      "id": "cmrbxa3ll003yihgens8d2sqg",
+      "title": "加拿大不列颠哥伦比亚省拟起诉OpenAI：未上报ChatGPT暴力对话致校园枪击惨案",
+      "title_en": "未上报凶手暴力 ChatGPT 对话，加拿大一省拟就校园枪击案起诉 OpenAI",
+      "url": "https://www.ithome.com/0/974/169.htm",
+      "permalink": "https://aihot.virxact.com/items/cmrbxa3ll003yihgens8d2sqg",
+      "source": "IT之家（RSS）",
+      "publishedAt": "2026-07-08T09:55:17.000Z",
+      "summary": "加拿大不列颠哥伦比亚省7月7日宣布将起诉OpenAI，指控其未向执法部门上报一名ChatGPT用户2025年6月封禁前的暴力相关对话内容。该用户随后于今年2月在塔布勒岭制造校园枪击案，杀害8人。OpenAI CEO萨姆·奥尔特曼今年4月为此公开致歉，承认本应上报但未执行。受害家属已在加州法院提起诉讼，省政府正协调独立诉讼，要求赔偿用于社区重建。",
+      "category": "industry",
+      "score": 75,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrbxa3ll003yihgens8d2sqg"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/ogment-mcp-builder",
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.ithome.com/0/974/169.htm",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/ogment-mcp-builder?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://www.ithome.com/0/974/169.htm"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1188842",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1188842",
-    "title": "Glideo",
-    "summary": "Screen recordings that edit themselves",
-    "body": "Glideo is a free macOS screen recorder built for product demos and dev tools. It turns raw screen recordings into polished demo videos: the camera zooms toward your clicks automatically, with no keyframing. Same automatic zoom that follows your clicks and cursor. Same polished output. Same \"this looks way better than a raw screen recording\" result, without a price tag. No trial. No watermark. No catch.",
-    "url": "https://www.producthunt.com/products/glideo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/SLMZ7XAF7EXLY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-07-07T07:01:00Z",
-    "metrics": {
-      "votes": 161,
-      "comments": 86,
-      "rank": 11,
-      "score": 161
-    },
-    "metadata": {
-      "slug": "glideo",
-      "topics": [
-        "Design Tools",
-        "User Experience",
-        "Developer Tools"
-      ]
-    },
+    "id": "aihot:aihot:cmrbu023x079pihl1q4rvhzky",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrbu023x079pihl1q4rvhzky",
+    "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞",
+    "summary": "Noma Labs 在 GitHub Agentic Workflows 中发现严重提示词注入漏洞 GitLost。未认证攻击者仅需在属于同一组织的公共仓库中创建一个嵌有恶意指令的 Issue，即可诱使基于 Claude 或 GitHub Copilot 的 AI 代理读取并公开该组织内私有仓库的内容。攻击无需编码技能或凭证，根源在于代理将用户可控内容视为可信指令，且 GitHub 的防护措施因 \"Additionally\" 关键词被绕过。Noma Labs 已公开 PoC 并建议限制跨仓库权限、隔离用户输入。",
+    "body": "Noma Labs 在 GitHub Agentic Workflows 中发现严重提示词注入漏洞 GitLost。未认证攻击者仅需在属于同一组织的公共仓库中创建一个嵌有恶意指令的 Issue，即可诱使基于 Claude 或 GitHub Copilot 的 AI 代理读取并公开该组织内私有仓库的内容。攻击无需编码技能或凭证，根源在于代理将用户可控内容视为可信指令，且 GitHub 的防护措施因 \"Additionally\" 关键词被绕过。Noma Labs 已公开 PoC 并建议限制跨仓库权限、隔离用户输入。",
+    "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+    "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+    "sourceCategory": "industry",
+    "publishedAt": "2026-07-08T08:29:47.091Z",
+    "metrics": {},
+    "metadata": {},
     "rawJson": {
-      "id": "1188842",
-      "name": "Glideo",
-      "slug": "glideo",
-      "tagline": "Screen recordings that edit themselves",
-      "description": "Glideo is a free macOS screen recorder built for product demos and dev tools. It turns raw screen recordings into polished demo videos: the camera zooms toward your clicks automatically, with no keyframing. Same automatic zoom that follows your clicks and cursor. Same polished output. Same \"this looks way better than a raw screen recording\" result, without a price tag. No trial. No watermark. No catch.",
-      "url": "https://www.producthunt.com/products/glideo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/SLMZ7XAF7EXLY7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 161,
-      "commentsCount": 86,
-      "dailyRank": 11,
-      "latestScore": 161,
-      "featuredAt": "2026-07-07T07:01:00Z",
-      "createdAt": "2026-07-07T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Design Tools",
-              "slug": "design-tools"
-            }
-          },
-          {
-            "node": {
-              "name": "User Experience",
-              "slug": "user-experience"
-            }
-          },
-          {
-            "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
-            }
-          }
-        ]
+      "id": "cmrbu023x079pihl1q4rvhzky",
+      "title": "GitLost：Noma Labs 发现 GitHub AI 代理提示词注入漏洞",
+      "title_en": "GitLost：我们诱使 GitHub 的 AI 代理泄露了私有仓库",
+      "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
+      "permalink": "https://aihot.virxact.com/items/cmrbu023x079pihl1q4rvhzky",
+      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+      "publishedAt": "2026-07-08T08:29:47.091Z",
+      "summary": "Noma Labs 在 GitHub Agentic Workflows 中发现严重提示词注入漏洞 GitLost。未认证攻击者仅需在属于同一组织的公共仓库中创建一个嵌有恶意指令的 Issue，即可诱使基于 Claude 或 GitHub Copilot 的 AI 代理读取并公开该组织内私有仓库的内容。攻击无需编码技能或凭证，根源在于代理将用户可控内容视为可信指令，且 GitHub 的防护措施因 \"Additionally\" 关键词被绕过。Noma Labs 已公开 PoC 并建议限制跨仓库权限、隔离用户输入。",
+      "category": "industry",
+      "score": 81,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrbu023x079pihl1q4rvhzky"
       }
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/glideo",
+    "systemCategory": "news",
+    "canonicalUrl": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos",
     "sources": [
-      "product_hunt"
+      "aihot"
     ],
     "sourceLinks": [
       {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/glideo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
+        "source": "aihot",
+        "url": "https://noma.security/blog/gitlost-how-we-tricked-githubs-ai-agent-into-leaking-private-repos"
       }
     ]
   },
   {
-    "id": "github_trending:github:alibaba/zvec",
+    "id": "aihot:aihot:cmrbqwsid06g2ihl1iiwufnz5",
+    "source": "aihot",
+    "sourceItemId": "aihot:cmrbqwsid06g2ihl1iiwufnz5",
+    "title": "黑客可利用9款最流行的AI工具组装大规模僵尸网络",
+    "summary": "提示注入已成为AI安全的首要威胁--大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
+    "body": "提示注入已成为AI安全的首要威胁--大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
+    "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+    "sourceName": "Ars Technica：AI（RSS）",
+    "sourceCategory": "paper",
+    "publishedAt": "2026-07-08T07:00:51.000Z",
+    "metrics": {},
+    "metadata": {},
+    "rawJson": {
+      "id": "cmrbqwsid06g2ihl1iiwufnz5",
+      "title": "黑客可利用9款最流行的AI工具组装大规模僵尸网络",
+      "title_en": "Hackers can use 9 of the most popular AI tools to assemble massive botnets",
+      "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+      "permalink": "https://aihot.virxact.com/items/cmrbqwsid06g2ihl1iiwufnz5",
+      "source": "Ars Technica：AI（RSS）",
+      "publishedAt": "2026-07-08T07:00:51.000Z",
+      "summary": "提示注入已成为AI安全的首要威胁--大语言模型无法区分合法指令与恶意指令。此前推送式和拉取式攻击规模均有限。研究人员提出一种名为HalluSquatting的新型拉取式提示注入攻击，首次能组装大规模僵尸网络、执行分布式拒绝服务攻击（DDoS）并大规模感染设备。该攻击可作用于AI编码工具，标志着提示注入攻击从单点突破转向规模化利用。",
+      "category": "paper",
+      "score": 78,
+      "selected": true,
+      "attribution": {
+        "source": "AI HOT",
+        "canonical": "https://aihot.virxact.com/items/cmrbqwsid06g2ihl1iiwufnz5"
+      }
+    },
+    "systemCategory": "technical",
+    "canonicalUrl": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets",
+    "sources": [
+      "aihot"
+    ],
+    "sourceLinks": [
+      {
+        "source": "aihot",
+        "url": "https://arstechnica.com/security/2026/07/hackers-can-use-9-of-the-most-popular-ai-tools-to-assemble-massive-botnets"
+      }
+    ]
+  },
+  {
+    "id": "github_trending:github:n0-computer/iroh",
     "source": "github_trending",
-    "sourceItemId": "github:alibaba/zvec",
-    "title": "alibaba/zvec",
-    "summary": "A lightweight, lightning-fast, in-process vector database English | 中文 🚀 Quickstart | 🏠 Home | 📚 Docs | 📊 Benchmarks | 🔎 DeepWiki | 🎮 Discord | 🐦 X (Twitter) Zvec is an open-source, in-process vector database — lightweight, lightning-fast, and design...",
-    "url": "https://github.com/alibaba/zvec",
-    "publishedAt": "2026-07-09T03:01:04.817Z",
+    "sourceItemId": "github:n0-computer/iroh",
+    "title": "n0-computer/iroh",
+    "summary": "IP addresses break, dial keys instead.",
+    "url": "https://github.com/n0-computer/iroh",
+    "publishedAt": "2026-07-09T06:51:30.779Z",
     "metrics": {
-      "rank": 11
+      "rank": 17
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/alibaba/zvec",
+    "canonicalUrl": "https://github.com/n0-computer/iroh",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/alibaba/zvec"
+        "url": "https://github.com/n0-computer/iroh"
       }
     ]
   },
   {
-    "id": "github_trending:github:diegosouzapw/OmniRoute",
+    "id": "github_trending:github:t8y2/dbx",
     "source": "github_trending",
-    "sourceItemId": "github:diegosouzapw/OmniRoute",
-    "title": "diegosouzapw/OmniRoute",
-    "summary": "Never stop coding.",
-    "url": "https://github.com/diegosouzapw/OmniRoute",
-    "publishedAt": "2026-07-09T03:01:04.825Z",
+    "sourceItemId": "github:t8y2/dbx",
+    "title": "t8y2/dbx",
+    "summary": "20MB, lightweight, cross-platform database client.",
+    "url": "https://github.com/t8y2/dbx",
+    "publishedAt": "2026-07-09T06:51:30.785Z",
     "metrics": {
-      "rank": 18
+      "rank": 20
     },
     "metadata": {
       "period": "weekly",
       "variant": "github_trending_rss"
     },
     "systemCategory": "github",
-    "canonicalUrl": "https://github.com/diegosouzapw/OmniRoute",
+    "canonicalUrl": "https://github.com/t8y2/dbx",
     "sources": [
       "github_trending"
     ],
     "sourceLinks": [
       {
         "source": "github_trending",
-        "url": "https://github.com/diegosouzapw/OmniRoute"
+        "url": "https://github.com/t8y2/dbx"
       }
     ]
   },
   {
-    "id": "github_trending:github:ZhuLinsen/daily_stock_analysis",
-    "source": "github_trending",
-    "sourceItemId": "github:ZhuLinsen/daily_stock_analysis",
-    "title": "ZhuLinsen/daily_stock_analysis",
-    "summary": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。",
-    "url": "https://github.com/ZhuLinsen/daily_stock_analysis",
-    "publishedAt": "2026-07-09T03:01:04.826Z",
-    "metrics": {
-      "rank": 19
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/ZhuLinsen/daily_stock_analysis",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/ZhuLinsen/daily_stock_analysis"
-      }
-    ]
-  },
-  {
-    "id": "builder_openai:builder_openai:https://openai.com/index/government-national-security-partnerships",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/government-national-security-partnerships",
-    "title": "Our approach to government and national security partnerships",
-    "summary": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-    "body": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
-    "url": "https://openai.com/index/government-national-security-partnerships",
-    "sourceName": "OpenAI Blog",
-    "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-07-08T13:30:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "OpenAI Blog"
-    },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/government-national-security-partnerships",
-    "sources": [
-      "builder_openai"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/government-national-security-partnerships"
-      }
-    ]
-  },
-  {
-    "id": "builder_openai:builder_openai:https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "title": "Separating signal from noise in coding evaluations",
-    "summary": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-    "body": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
-    "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "sourceName": "OpenAI Blog",
-    "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-07-08T13:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "OpenAI Blog"
-    },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
-    "sources": [
-      "builder_openai"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/separating-signal-from-noise-coding-evaluations"
-      }
-    ]
-  },
-  {
-    "id": "builder_openai:builder_openai:https://openai.com/index/k-12-educators-practical-skills",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/k-12-educators-practical-skills",
-    "title": "Helping K–12 educators build practical AI skills",
-    "summary": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-    "body": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
-    "url": "https://openai.com/index/k-12-educators-practical-skills",
-    "sourceName": "OpenAI Blog",
-    "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-07-08T10:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "OpenAI Blog"
-    },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/k-12-educators-practical-skills",
-    "sources": [
-      "builder_openai"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/k-12-educators-practical-skills"
-      }
-    ]
-  },
-  {
-    "id": "builder_openai:builder_openai:https://openai.com/index/introducing-gpt-live",
-    "source": "builder_openai",
-    "sourceItemId": "builder_openai:https://openai.com/index/introducing-gpt-live",
-    "title": "Introducing GPT-Live",
-    "summary": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-    "body": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
-    "url": "https://openai.com/index/introducing-gpt-live",
-    "sourceName": "OpenAI Blog",
-    "sourceCategory": "news",
-    "authorName": "OpenAI",
-    "publishedAt": "2026-07-08T00:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "OpenAI Blog"
-    },
-    "systemCategory": "company",
-    "canonicalUrl": "https://openai.com/index/introducing-gpt-live",
-    "sources": [
-      "builder_openai"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/introducing-gpt-live"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
+    "id": "builder_blog:builder_blog:https://xeiaso.net/notes/2026/console-wars-lost/",
     "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-    "title": "Rewriting Bun in Rust",
-    "summary": "<p><strong><a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a></strong></p> Jarred Sumner has been promising this blog post (<a href=\"https://x.com/jarredsumner/status/2053063524826620129\">since May 9th</a>) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.</p> <p>Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, a",
-    "body": "<p><strong><a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a></strong></p> Jarred Sumner has been promising this blog post (<a href=\"https://x.com/jarredsumner/status/2053063524826620129\">since May 9th</a>) about his Zig to Rust rewrite of Bun for significantly longer than it took him to finish the rewrite.</p> <p>Honestly, it was worth the wait. This is a detailed description of an extremely sophisticated piece of agentic engineering, featuring dynamic workflows, trial runs, adversarial review and all sorts of other interesting tricks.</p> <p>Jarred spends the first half of the post praising Zig for getting Bun this far. Then we get to a core idea in the piece, emphasis mine:</p> <blockquote> <p>Our bugfix list felt bad and I was tired of going to sleep worrying about cr",
-    "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-07-08T23:57:21.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Simon Willison"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust",
-    "sources": [
-      "builder_blog"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/#atom-everything"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-    "title": "Introducing GPT‑Live",
-    "summary": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-live/\">Introducing GPT‑Live</a></strong></p> OpenAI <em>finally</em> upgraded the model used by ChatGPT voice mode!</p> <p>I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5:</p> <blockquote> <p>For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes",
-    "body": "<p><strong><a href=\"https://openai.com/index/introducing-gpt-live/\">Introducing GPT‑Live</a></strong></p> OpenAI <em>finally</em> upgraded the model used by ChatGPT voice mode!</p> <p>I've had preview access for a few weeks in the iPhone app, and the new model is very impressive. It also has the ability to spin off harder tasks to GPT-5.5:</p> <blockquote> <p>For questions that require web search, deeper reasoning, or more complex work, it delegates to our latest frontier model behind the scenes and brings the result back into the conversation when it’s ready. While it works, GPT‑Live can keep talking with you and maintain the flow of conversation. At launch, GPT‑Live will use GPT‑5.5 in the background. As we release new frontier models, we’ll continuously update the model used by GPT‑Live",
-    "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-07-08T23:20:48.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Simon Willison"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jul/8/introducing-gptlive",
-    "sources": [
-      "builder_blog"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jul/8/introducing-gptlive/#atom-everything"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
-    "title": "Quoting Kenton Varda",
-    "summary": "<blockquote cite=\"https://twitter.com/kentonvarda/status/2074924213983740233\"><p>I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team.</p> <p>AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing.</p></blockqu",
-    "body": "<blockquote cite=\"https://twitter.com/kentonvarda/status/2074924213983740233\"><p>I just declared a moratorium against AI-written change descriptions (e.g. PR and commit messages, also issues/tickets) from my team.</p> <p>AI was writing change descriptions that were worse than useless to me as I tried to review PRs: outlining details of the code that could easily be seen by looking at the code, but omitting the higher-level framing needed to understand broadly what the code is doing.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/kentonvarda/status/2074924213983740233\">Kenton Varda</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/kenton-varda\">kenton-varda</a>, <a href=\"https://simonwillison.net/tags/ai-assisted-programming\">ai-assisted-programming</a>, <a hre",
-    "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-07-08T20:03:34.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Simon Willison"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Jul/8/kenton-varda",
-    "sources": [
-      "builder_blog"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Jul/8/kenton-varda/#atom-everything"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://xeiaso.net/blog/2026/hyle-pneuma/",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://xeiaso.net/blog/2026/hyle-pneuma/",
-    "title": "Agents are monads (but not that kind)",
-    "summary": "I managed to write this without using the word endofunctor once. Wait, shit, I just did. Uhhh, oops!",
-    "body": "I managed to write this without using the word endofunctor once. Wait, shit, I just did. Uhhh, oops!",
-    "url": "https://xeiaso.net/blog/2026/hyle-pneuma/",
+    "sourceItemId": "builder_blog:https://xeiaso.net/notes/2026/console-wars-lost/",
+    "title": "The console wars have been lost",
+    "summary": "Valve wins by doing absolutely nothing",
+    "body": "Valve wins by doing absolutely nothing",
+    "url": "https://xeiaso.net/notes/2026/console-wars-lost/",
     "sourceName": "Xe Iaso",
     "sourceCategory": "technical",
     "authorName": "Xe Iaso",
-    "publishedAt": "2026-07-08T00:00:00.000Z",
+    "publishedAt": "2026-07-09T00:00:00.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Xe Iaso",
-      "image": "https://stickers.xeiaso.net/sticker/numa/neutral"
+      "feedSource": "Xe Iaso"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://xeiaso.net/blog/2026/hyle-pneuma",
+    "canonicalUrl": "https://xeiaso.net/notes/2026/console-wars-lost",
     "sources": [
       "builder_blog"
     ],
     "sourceLinks": [
       {
         "source": "builder_blog",
-        "url": "https://xeiaso.net/blog/2026/hyle-pneuma/"
-      }
-    ]
-  },
-  {
-    "id": "builder_lobsters:builder_lobsters:https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-    "source": "builder_lobsters",
-    "sourceItemId": "builder_lobsters:https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-    "title": "Native-speed vLLM transformers modeling backend",
-    "summary": "<p><a href=\"https://lobste.rs/s/az2jfb/native_speed_vllm_transformers_modeling\">Comments</a></p>",
-    "body": "<p><a href=\"https://lobste.rs/s/az2jfb/native_speed_vllm_transformers_modeling\">Comments</a></p>",
-    "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-    "sourceName": "Lobsters AI",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-08T16:30:29.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "Lobsters AI"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
-    "sources": [
-      "builder_lobsters"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_lobsters",
-        "url": "https://huggingface.co/blog/native-speed-vllm-transformers-backend"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.07675",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.07675",
-    "title": "Scaling Mixture-of-Experts Video Pretraining for Embodied Intelligence",
-    "summary": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, f",
-    "body": "Despite the recent promise in robot control, video generative models suffer from a domain mismatch due to their primary focus on content creation. For example, their design inherently prioritizes visual fidelity and creativity over computational efficiency and physical realism. In this work, we present LingBot-Video, a DiT-based video pretraining paradigm specifically tailored for embodied intelligence. From the architecture perspective, we adopt the Mixture-of-Experts (MoE), instead of dense, framework to achieve a better trade-off between modeling capacity and inference efficiency, and manage to scale it up from scratch. From the data perspective, we construct a data profiling engine that augments standard internet videos with extensive robot-oriented footage, encompassing manipulation, ",
-    "url": "https://arxiv.org/abs/2607.07675",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-07T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.07675",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.07675"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.07608",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.07608",
-    "title": "Dual Latent Memory in Vision-Language-Action Models for Robotic Manipulation",
-    "summary": "Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observation window or retrieve history from the memory bank as auxiliary policy-side context. However, they leave memory outside the native latent embedding space of VLA reasoning, preventing historical experience from being fluidly interleaved with multim",
-    "body": "Mainstream Vision-Language-Action (VLA) models predict actions primarily from the current observation under a Markovian assumption, thus struggling with long-horizon, temporally dependent tasks. Existing memory-augmented VLAs either expand the observation window or retrieve history from the memory bank as auxiliary policy-side context. However, they leave memory outside the native latent embedding space of VLA reasoning, preventing historical experience from being fluidly interleaved with multimodal reasoning and action formation. To this end, we introduce LaMem-VLA, a latent-memory-native framework that reconstructs historical experience into latent memory tokens and directly interweaves them with VLA reasoning. At its core, LaMem-VLA introduces four coordinated components: (i) a curator ",
-    "url": "https://arxiv.org/abs/2607.07608",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-07T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.07608",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.07608"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.07534",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.07534",
-    "title": "Infinite Worlds with Versatile Interactions",
-    "summary": "We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining paradigm. (2) Through distilling a real-time variant from the base model, our system guarantees rapid response time, sufficient to drive 720p video streams at 60 fps. (3) Compared to the previous versio",
-    "body": "We present LingBot-World 2.0 (also known as LingBot-World-Infinity), an advanced iteration of LingBot-World featuring four distinct upgrades. (1) Our model achieves an unbounded interaction horizon while maintaining consistent output quality, benefiting from a carefully crafted causal pretraining paradigm. (2) Through distilling a real-time variant from the base model, our system guarantees rapid response time, sufficient to drive 720p video streams at 60 fps. (3) Compared to the previous version, this update introduces highly diverse interactive elements, comprising a broader spectrum of actions (e.g., attacking, archery, spell-casting, and shooting) alongside a richer variety of text-driven events. (4) We pioneer the integration of an agentic harness within the domain of world modeling, ",
-    "url": "https://arxiv.org/abs/2607.07534",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-07T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.07534",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.07534"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.04434",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.04434",
-    "title": "RoboDojo: A Unified Sim-and-Real Benchmark for Comprehensive Evaluation of Generalist Robot Manipulation Policies",
-    "summary": "Generalist robot manipulation policies have advanced rapidly, yet existing benchmarks remain limited in systematically evaluating their capabilities. Many rely on simple, short-horizon, or skill-narrow tasks with limited capability coverage, and are often conducted only in simulation or only in the real world. Simulation enables scalable feedback but misses physical deployment challenges, while real-world evaluation is costly, time-consuming, and difficult to reproduce. We introduce RoboDojo, a ",
-    "body": "Generalist robot manipulation policies have advanced rapidly, yet existing benchmarks remain limited in systematically evaluating their capabilities. Many rely on simple, short-horizon, or skill-narrow tasks with limited capability coverage, and are often conducted only in simulation or only in the real world. Simulation enables scalable feedback but misses physical deployment challenges, while real-world evaluation is costly, time-consuming, and difficult to reproduce. We introduce RoboDojo, a unified sim-and-real benchmark for comprehensive evaluation of generalist robot manipulation policies. RoboDojo includes 42 simulation tasks and 18 real-world tasks covering diverse and complementary manipulation capabilities. The simulation benchmark evaluates five dimensions: generalization, memor",
-    "url": "https://arxiv.org/abs/2607.04434",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-06T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.04434",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.04434"
-      }
-    ]
-  },
-  {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2607.06838",
-    "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.06838",
-    "title": "WildCity: A Real-World City-Scale Testbed for Rendering, Simulation, and Spatial Intelligence",
-    "summary": "Humans can navigate an unfamiliar city and gradually form a coherent spatial mental map spanning tens of square kilometers. Can AI build spatial representations at a comparable scale? Although recent foundation models have advanced scene reconstruction and embodied intelligence, scaling to entire cities remains an open challenge, primarily due to the lack of city-scale data. To bridge the gap, we introduce WildCity, a real-world multimodal dataset collected by autonomous fleets traversing comple",
-    "body": "Humans can navigate an unfamiliar city and gradually form a coherent spatial mental map spanning tens of square kilometers. Can AI build spatial representations at a comparable scale? Although recent foundation models have advanced scene reconstruction and embodied intelligence, scaling to entire cities remains an open challenge, primarily due to the lack of city-scale data. To bridge the gap, we introduce WildCity, a real-world multimodal dataset collected by autonomous fleets traversing complex urban environments. Our dataset includes 18 trajectories, each averaging 83.7 kilometers in length, and preserves the core challenges of in-the-wild perception, e.g., dynamic objects, lighting variations, and imperfect camera poses. We further establish an urban-tailored reconstruction baseline an",
-    "url": "https://arxiv.org/abs/2607.06838",
-    "sourceName": "HuggingFace Papers",
-    "sourceCategory": "technical",
-    "publishedAt": "2026-07-06T20:00:00.000Z",
-    "metrics": {},
-    "metadata": {
-      "feedSource": "HuggingFace Papers"
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2607.06838",
-    "sources": [
-      "builder_huggingface"
-    ],
-    "sourceLinks": [
-      {
-        "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2607.06838"
+        "url": "https://xeiaso.net/notes/2026/console-wars-lost/"
       }
     ]
   }
