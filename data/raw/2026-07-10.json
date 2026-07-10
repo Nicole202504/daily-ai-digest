@@ -1,7 +1,7 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-07-10T03:00:44.459Z",
+    "fetchedAt": "2026-07-10T07:27:35.700Z",
     "items": [
       {
         "source": "aihot",
@@ -230,22 +230,22 @@
       {
         "source": "aihot",
         "sourceItemId": "aihot:cmre2mjao00nrihwkhnv9ahqj",
-        "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
-        "summary": null,
-        "body": null,
+        "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
+        "summary": "Cognition 发布迄今最强模型 SWE-1.7，基于 Kimi K2.7 基座训练，通过强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）实现前沿智能水平并大幅降低成本。在 FrontierCode 1.1 Main 基准上达 42.3%（Kimi K2.7 Code 为 30.1%，GPT-5.5 为 43.0%，Opus 4.8 为 46.5%），Terminal-Bench 2.1 达 81.5%，SWE-Bench Multilingual 达 77.8%。模型针对长周期异步任务优化，现已在 Devin（Web、桌面、CLI）通过 Cerebras 以 1000 TPS 提供。",
+        "body": "Cognition 发布迄今最强模型 SWE-1.7，基于 Kimi K2.7 基座训练，通过强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）实现前沿智能水平并大幅降低成本。在 FrontierCode 1.1 Main 基准上达 42.3%（Kimi K2.7 Code 为 30.1%，GPT-5.5 为 43.0%，Opus 4.8 为 46.5%），Terminal-Bench 2.1 达 81.5%，SWE-Bench Multilingual 达 77.8%。模型针对长周期异步任务优化，现已在 Devin（Web、桌面、CLI）通过 Cerebras 以 1000 TPS 提供。",
         "url": "https://cognition.com/blog/swe-1-7",
         "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
         "sourceCategory": "ai-models",
         "publishedAt": "2026-07-09T21:46:17.901Z",
         "rawJson": {
           "id": "cmre2mjao00nrihwkhnv9ahqj",
-          "title": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
-          "title_en": null,
+          "title": "Cognition 推出 SWE-1.7，接近 GPT 5.5 与 Opus 智能水平",
+          "title_en": "SWE-1.7 的覆盖范围接近 GPT 5.5 和 Opus Intelligence",
           "url": "https://cognition.com/blog/swe-1-7",
           "permalink": "https://aihot.virxact.com/items/cmre2mjao00nrihwkhnv9ahqj",
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "publishedAt": "2026-07-09T21:46:17.901Z",
-          "summary": null,
+          "summary": "Cognition 发布迄今最强模型 SWE-1.7，基于 Kimi K2.7 基座训练，通过强化学习管线改进（基础设施、训练稳定性、数据质量、长程任务技术）实现前沿智能水平并大幅降低成本。在 FrontierCode 1.1 Main 基准上达 42.3%（Kimi K2.7 Code 为 30.1%，GPT-5.5 为 43.0%，Opus 4.8 为 46.5%），Terminal-Bench 2.1 达 81.5%，SWE-Bench Multilingual 达 77.8%。模型针对长周期异步任务优化，现已在 Devin（Web、桌面、CLI）通过 Cerebras 以 1000 TPS 提供。",
           "category": "ai-models",
           "score": 71,
           "selected": true,
@@ -565,6 +565,34 @@
       },
       {
         "source": "aihot",
+        "sourceItemId": "aihot:cmrees13p006wihgvrokrpgpy",
+        "title": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
+        "summary": "美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计。模型引入 LongCat 稀疏注意力机制与 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力。LongCat-2.0 是业界首个在五万卡国产算力集群上完成推理的万亿参数模型，从模型架构、芯片适配到部署策略进行深度协同优化，支持百万上下文高效推理。开源同步提供 BF16、FP8、INT8 等多精度版本及针对国产算力极致优化的推理代码。",
+        "body": "美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计。模型引入 LongCat 稀疏注意力机制与 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力。LongCat-2.0 是业界首个在五万卡国产算力集群上完成推理的万亿参数模型，从模型架构、芯片适配到部署策略进行深度协同优化，支持百万上下文高效推理。开源同步提供 BF16、FP8、INT8 等多精度版本及针对国产算力极致优化的推理代码。",
+        "url": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
+        "sourceName": "公众号：龙猫LongCat（美团）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-07-09T11:58:00.000Z",
+        "rawJson": {
+          "id": "cmrees13p006wihgvrokrpgpy",
+          "title": "美团 LongCat-2.0 正式开源，同步开放国产卡推理代码",
+          "title_en": "正式开源！美团 LongCat-2.0 同步开放国产卡推理代码",
+          "url": "https://mp.weixin.qq.com/s/iCq4jVlTdKOt74zAMYIIdw",
+          "permalink": "https://aihot.virxact.com/items/cmrees13p006wihgvrokrpgpy",
+          "source": "公众号：龙猫LongCat（美团）",
+          "publishedAt": "2026-07-09T11:58:00.000Z",
+          "summary": "美团万亿参数大模型 LongCat-2.0 正式开源，总参数 1.6T，平均激活约 48B，专为真实 Agentic Coding 任务设计。模型引入 LongCat 稀疏注意力机制与 N-gram Embedding，提升长上下文处理效率与 Token 级表示能力。LongCat-2.0 是业界首个在五万卡国产算力集群上完成推理的万亿参数模型，从模型架构、芯片适配到部署策略进行深度协同优化，支持百万上下文高效推理。开源同步提供 BF16、FP8、INT8 等多精度版本及针对国产算力极致优化的推理代码。",
+          "category": "ai-models",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrees13p006wihgvrokrpgpy"
+          }
+        }
+      },
+      {
+        "source": "aihot",
         "sourceItemId": "aihot:cmrdrlair06hpih4bxerobguv",
         "title": "OpenAI 推出 ChatGPT Work：可跨应用自主工作的 AI 智能体",
         "summary": "OpenAI 发布 ChatGPT Work，一个能跨应用和文件收集信息、将复杂项目分解为小步骤独立完成并持续工作数小时的 AI 智能体。它内置 Codex 技术，目前每周超 500 万用户使用 Codex，其中超 100 万用于非软件开发场景。ChatGPT Work 由今天同步推出的最新前沿模型 GPT-5.6 驱动，具备多步骤推理和按模板生成材料的能力。该功能今天起面向 Pro、Enterprise 和 Edu 计划推出，未来几天扩展至 Plus 和 Business 计划。桌面版 ChatGPT 在所有计划（含免费版）中提供 Chat、Work 和 Codex 模式，且 Codex 应用已合并至新的桌面应用。",
@@ -618,359 +646,52 @@
             "canonical": "https://aihot.virxact.com/items/cmrd9x7xz01wzih4bch5uoywh"
           }
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmrd6bmv200xrih4b7i1ivun0",
-        "title": "蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video",
-        "summary": "蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型。总参数30B，推理时仅激活约3B，效率较同规模Dense架构提升约3倍。模型引入7万小时VLA、VLN、Ego等机器人数据，并通过多维强化学习奖励系统对齐物理合理性与任务完成度。在RBench上总分0.620，超越Wan2.6等模型；在Physics-IQ Verified评测中排名第一。可用于机器人动作预测、仿真数据生成等方向。",
-        "body": "蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型。总参数30B，推理时仅激活约3B，效率较同规模Dense架构提升约3倍。模型引入7万小时VLA、VLN、Ego等机器人数据，并通过多维强化学习奖励系统对齐物理合理性与任务完成度。在RBench上总分0.620，超越Wan2.6等模型；在Physics-IQ Verified评测中排名第一。可用于机器人动作预测、仿真数据生成等方向。",
-        "url": "https://www.ithome.com/0/974/517.htm",
-        "sourceName": "IT之家（RSS）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-07-09T07:06:00.000Z",
-        "rawJson": {
-          "id": "cmrd6bmv200xrih4b7i1ivun0",
-          "title": "蚂蚁灵波开源全球首个面向具身智能的MoE视频基模LingBot-Video",
-          "title_en": "全球首个面向具身智能的视频基模，蚂蚁灵波 LingBot-Video 开源",
-          "url": "https://www.ithome.com/0/974/517.htm",
-          "permalink": "https://aihot.virxact.com/items/cmrd6bmv200xrih4b7i1ivun0",
-          "source": "IT之家（RSS）",
-          "publishedAt": "2026-07-09T07:06:00.000Z",
-          "summary": "蚂蚁灵波科技正式开源LingBot-Video，这是全球首个基于MoE架构、面向具身智能的视频生成基础模型。总参数30B，推理时仅激活约3B，效率较同规模Dense架构提升约3倍。模型引入7万小时VLA、VLN、Ego等机器人数据，并通过多维强化学习奖励系统对齐物理合理性与任务完成度。在RBench上总分0.620，超越Wan2.6等模型；在Physics-IQ Verified评测中排名第一。可用于机器人动作预测、仿真数据生成等方向。",
-          "category": "ai-models",
-          "score": 72,
-          "selected": true,
-          "attribution": {
-            "source": "AI HOT",
-            "canonical": "https://aihot.virxact.com/items/cmrd6bmv200xrih4b7i1ivun0"
-          }
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmrd6bmv300xxih4byg33dbws",
-        "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-        "summary": "蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演化，并支持多人同时交互。模型采用因果预训练范式和混合双向自回归注意力掩码（MoBA），可稳定输出 720p/60fps 实时画面，长达一小时测试画质不衰减。通过一致性蒸馏与 DMD 降低采样成本，结合注意力 kernel 优化、混合并行推理、动态 KV 缓存调度和异步流媒体传输实现低延迟交互。模型权重及推理代码以非商用协议开源，SGLang 已适配，并提供 Reactor PC 端和灵光 APP 在线体验。",
-        "body": "蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演化，并支持多人同时交互。模型采用因果预训练范式和混合双向自回归注意力掩码（MoBA），可稳定输出 720p/60fps 实时画面，长达一小时测试画质不衰减。通过一致性蒸馏与 DMD 降低采样成本，结合注意力 kernel 优化、混合并行推理、动态 KV 缓存调度和异步流媒体传输实现低延迟交互。模型权重及推理代码以非商用协议开源，SGLang 已适配，并提供 Reactor PC 端和灵光 APP 在线体验。",
-        "url": "https://www.ithome.com/0/974/508.htm",
-        "sourceName": "IT之家（RSS）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-07-09T06:53:40.000Z",
-        "rawJson": {
-          "id": "cmrd6bmv300xxih4byg33dbws",
-          "title": "蚂蚁灵波开源实时交互世界模型 LingBot-World 2.0",
-          "title_en": "无限世界、实时交互，蚂蚁灵波开源 LingBot-World 2.0 世界模型",
-          "url": "https://www.ithome.com/0/974/508.htm",
-          "permalink": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws",
-          "source": "IT之家（RSS）",
-          "publishedAt": "2026-07-09T06:53:40.000Z",
-          "summary": "蚂蚁灵波开源新一代实时交互世界模型 LingBot-World 2.0（14B 参数），支持施法、攻击、跳跃等丰富角色动作及文本驱动事件（如切换场景、召唤风暴），内置 Pilot Agent 与 Director Agent 实现世界持续演化，并支持多人同时交互。模型采用因果预训练范式和混合双向自回归注意力掩码（MoBA），可稳定输出 720p/60fps 实时画面，长达一小时测试画质不衰减。通过一致性蒸馏与 DMD 降低采样成本，结合注意力 kernel 优化、混合并行推理、动态 KV 缓存调度和异步流媒体传输实现低延迟交互。模型权重及推理代码以非商用协议开源，SGLang 已适配，并提供 Reactor PC 端和灵光 APP 在线体验。",
-          "category": "ai-models",
-          "score": 73,
-          "selected": true,
-          "attribution": {
-            "source": "AI HOT",
-            "canonical": "https://aihot.virxact.com/items/cmrd6bmv300xxih4byg33dbws"
-          }
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-07-10T03:00:44.712Z",
-    "sourceGeneratedAt": "2026-07-08",
+    "fetchedAt": "2026-07-10T07:27:36.001Z",
+    "sourceGeneratedAt": "2026-07-09",
     "items": [
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1190010",
-        "title": "ExploreYC",
-        "summary": "Open-source API for Y Combinator & a16z company data",
-        "body": "One open-source API for startup data across Y Combinator AND a16z - 6,600+ companies with funding, stage, IPO/M&A exits, and founders. Filter by VC (yc/a16z/all), batch, industry, country, or search. Grab a free API key, read the docs (curl/Node/Python + Swagger), and build in 30 seconds. Plus the full web app: map, analytics, funding data, a live hiring board, and AI tools.",
-        "url": "https://www.producthunt.com/products/yc-company-explorer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/TXISOCQQFTUHJC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
+        "sourceItemId": "ph:1188837",
+        "title": "Auriko ",
+        "summary": "Trading desk for LLM calls",
+        "body": "Auriko treats LLM providers as trading venues and arbitrages the spread. Built by ex-quant traders, Auriko’s cost-arbitrage engine calibrates to each user’s request patterns and selects optimized inference paths based on token price, cache behavior, latency, reliability, and request quality. Auriko benchmarks show average 30% cost reduction against industry peers and direct providers. See the source: https://www.auriko.ai/reports/llm-cost-arbitrage",
+        "url": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/SYYO32SE2PLD3X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
         "metrics": {
-          "votes": 730,
-          "comments": 65,
+          "votes": 543,
+          "comments": 74,
           "rank": 1,
-          "score": 730
+          "score": 543
         },
         "metadata": {
-          "slug": "exploreyc-2",
+          "slug": "auriko-2",
           "topics": [
             "API",
-            "Open Source",
             "Developer Tools",
-            "GitHub"
-          ]
-        },
-        "rawJson": {
-          "id": "1190010",
-          "name": "ExploreYC",
-          "slug": "exploreyc-2",
-          "tagline": "Open-source API for Y Combinator & a16z company data",
-          "description": "One open-source API for startup data across Y Combinator AND a16z - 6,600+ companies with funding, stage, IPO/M&A exits, and founders. Filter by VC (yc/a16z/all), batch, industry, country, or search. Grab a free API key, read the docs (curl/Node/Python + Swagger), and build in 30 seconds. Plus the full web app: map, analytics, funding data, a live hiring board, and AI tools.",
-          "url": "https://www.producthunt.com/products/yc-company-explorer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/TXISOCQQFTUHJC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 730,
-          "commentsCount": 65,
-          "dailyRank": 1,
-          "latestScore": 730,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "API",
-                  "slug": "api-1"
-                }
-              },
-              {
-                "node": {
-                  "name": "Open Source",
-                  "slug": "open-source"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              },
-              {
-                "node": {
-                  "name": "GitHub",
-                  "slug": "github"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1184843",
-        "title": "IvyForms",
-        "summary": "A WordPress form builder for real workflows",
-        "body": "IvyForms is a WordPress form builder for turning submissions into structured workflows. Create contact forms, applications, registrations, surveys, feedback forms, and multi-step flows with a clean drag-and-drop builder. Then manage entries, analyze responses, apply conditional logic, and connect data to tools like wpDataTables, Amelia, Mailchimp, and webhooks so every response can move work forward.",
-        "url": "https://www.producthunt.com/products/ivyforms?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/KULROBXS4AW3L4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
-        "metrics": {
-          "votes": 341,
-          "comments": 75,
-          "rank": 2,
-          "score": 341
-        },
-        "metadata": {
-          "slug": "ivyforms",
-          "topics": [
-            "Productivity",
-            "WordPress",
-            "No-Code"
-          ]
-        },
-        "rawJson": {
-          "id": "1184843",
-          "name": "IvyForms",
-          "slug": "ivyforms",
-          "tagline": "A WordPress form builder for real workflows",
-          "description": "IvyForms is a WordPress form builder for turning submissions into structured workflows. Create contact forms, applications, registrations, surveys, feedback forms, and multi-step flows with a clean drag-and-drop builder. Then manage entries, analyze responses, apply conditional logic, and connect data to tools like wpDataTables, Amelia, Mailchimp, and webhooks so every response can move work forward.",
-          "url": "https://www.producthunt.com/products/ivyforms?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/KULROBXS4AW3L4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 341,
-          "commentsCount": 75,
-          "dailyRank": 2,
-          "latestScore": 341,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "WordPress",
-                  "slug": "wordpress"
-                }
-              },
-              {
-                "node": {
-                  "name": "No-Code",
-                  "slug": "no-code"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1190692",
-        "title": "Willow Frontier Pro",
-        "summary": "The fastest, most accurate dictation model in the world",
-        "body": "Willow is launching two new voice AI models: Willow Frontier Pro and Willow Frontier Mini. Frontier Pro is our most powerful dictation model. It is built for people who want fast, accurate, and polished writing anywhere they work. Frontier mini is lightweight and completely free to use. On our free plan, users get unlimited access to this model. It's faster and more accurate than other AI dictation tools.",
-        "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/T6BIUDFMEVHOGT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
-        "metrics": {
-          "votes": 302,
-          "comments": 40,
-          "rank": 3,
-          "score": 302
-        },
-        "metadata": {
-          "slug": "willow-frontier-pro",
-          "topics": [
-            "Productivity",
-            "Writing",
             "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1190692",
-          "name": "Willow Frontier Pro",
-          "slug": "willow-frontier-pro",
-          "tagline": "The fastest, most accurate dictation model in the world",
-          "description": "Willow is launching two new voice AI models: Willow Frontier Pro and Willow Frontier Mini. Frontier Pro is our most powerful dictation model. It is built for people who want fast, accurate, and polished writing anywhere they work. Frontier mini is lightweight and completely free to use. On our free plan, users get unlimited access to this model. It's faster and more accurate than other AI dictation tools.",
-          "url": "https://www.producthunt.com/products/willow-voice?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/T6BIUDFMEVHOGT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 302,
-          "commentsCount": 40,
-          "dailyRank": 3,
-          "latestScore": 302,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Writing",
-                  "slug": "writing"
-                }
-              },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1189541",
-        "title": "Bono AI",
-        "summary": "Talk Once. Publish Everywhere.",
-        "body": "Meet Bono, your voice AI content strategist. Talk for 10 minutes, and Bono turns the conversation into a blog post, LinkedIn/X content, a newsletter, and more, all in your voice. No blank page, no prompts, no ghostwriters, no agencies.",
-        "url": "https://www.producthunt.com/products/bono-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/GA74HWMAAGQ5Z7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
-        "metrics": {
-          "votes": 266,
-          "comments": 84,
-          "rank": 4,
-          "score": 266
-        },
-        "metadata": {
-          "slug": "bono-ai-2",
-          "topics": [
-            "Writing",
-            "Social Media",
-            "Branding"
-          ]
-        },
-        "rawJson": {
-          "id": "1189541",
-          "name": "Bono AI",
-          "slug": "bono-ai-2",
-          "tagline": "Talk Once. Publish Everywhere.",
-          "description": "Meet Bono, your voice AI content strategist. Talk for 10 minutes, and Bono turns the conversation into a blog post, LinkedIn/X content, a newsletter, and more, all in your voice. No blank page, no prompts, no ghostwriters, no agencies.",
-          "url": "https://www.producthunt.com/products/bono-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/GA74HWMAAGQ5Z7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 266,
-          "commentsCount": 84,
-          "dailyRank": 4,
-          "latestScore": 266,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Writing",
-                  "slug": "writing"
-                }
-              },
-              {
-                "node": {
-                  "name": "Social Media",
-                  "slug": "social-media"
-                }
-              },
-              {
-                "node": {
-                  "name": "Branding",
-                  "slug": "branding"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1189743",
-        "title": "Link Preview API",
-        "summary": "Free API to get Open Graph data, title & images for any URL",
-        "body": "Completely free. Get back everything you need to render a rich link card in your app – the kind you see in Slack, iMessage, or Twitter when someone pastes a link. Dedicated handling for popular websites like YouTube, Amazon, Twitter, Airbnb, SoundCloud, NYT, Vimeo, Giphy, and more. These return reliable, high-quality previews every time. Built in image validation, and JavaScript rendering. Works directly from the browser, no proxy server required. Free usage up to 20,000 link previews.",
-        "url": "https://www.producthunt.com/products/link-preview-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/JYQNCESA4NWQSC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
-        "metrics": {
-          "votes": 197,
-          "comments": 28,
-          "rank": 5,
-          "score": 197
-        },
-        "metadata": {
-          "slug": "link-preview-api-2",
-          "topics": [
-            "API",
-            "Developer Tools",
-            "Data"
-          ]
-        },
-        "rawJson": {
-          "id": "1189743",
-          "name": "Link Preview API",
-          "slug": "link-preview-api-2",
-          "tagline": "Free API to get Open Graph data, title & images for any URL",
-          "description": "Completely free. Get back everything you need to render a rich link card in your app – the kind you see in Slack, iMessage, or Twitter when someone pastes a link. Dedicated handling for popular websites like YouTube, Amazon, Twitter, Airbnb, SoundCloud, NYT, Vimeo, Giphy, and more. These return reliable, high-quality previews every time. Built in image validation, and JavaScript rendering. Works directly from the browser, no proxy server required. Free usage up to 20,000 link previews.",
-          "url": "https://www.producthunt.com/products/link-preview-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/JYQNCESA4NWQSC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 197,
-          "commentsCount": 28,
-          "dailyRank": 5,
-          "latestScore": 197,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
+          "id": "1188837",
+          "name": "Auriko ",
+          "slug": "auriko-2",
+          "tagline": "Trading desk for LLM calls",
+          "description": "Auriko treats LLM providers as trading venues and arbitrages the spread. Built by ex-quant traders, Auriko’s cost-arbitrage engine calibrates to each user’s request patterns and selects optimized inference paths based on token price, cache behavior, latency, reliability, and request quality. Auriko benchmarks show average 30% cost reduction against industry peers and direct providers. See the source: https://www.auriko.ai/reports/llm-cost-arbitrage",
+          "url": "https://www.producthunt.com/products/auriko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/SYYO32SE2PLD3X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 543,
+          "commentsCount": 74,
+          "dailyRank": 1,
+          "latestScore": 543,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -987,8 +708,8 @@
               },
               {
                 "node": {
-                  "name": "Data",
-                  "slug": "data"
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
                 }
               }
             ]
@@ -997,41 +718,41 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1190152",
-        "title": "Cutrix",
-        "summary": "AI-powered video translation that preserves speaker's voice",
-        "body": "Stop settling for robotic dubbing. Cutrix uses an Agentic workflow to translate videos while preserving the speaker's original emotion and natural pacing. Experience hyper-natural alignment without the steep learning curve. Sign up for free credits today!",
-        "url": "https://www.producthunt.com/products/cutrix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/5WFMXGTVZ2FQFQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
+        "sourceItemId": "ph:1177933",
+        "title": "Timbal AI",
+        "summary": "Build AI agents, workflows, and apps in one stack",
+        "body": "Timbal helps teams turn AI prototypes into production systems. Build agents and workflows, connect them to your data, design interfaces, deploy, monitor, evaluate, and govern everything from one platform. Instead of assembling separate tools for retrieval, orchestration, UI, observability, and evals, Timbal gives you one core for shipping reliable AI applications.",
+        "url": "https://www.producthunt.com/products/timbal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/7YZFBLZ46SL5CJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
         "metrics": {
-          "votes": 168,
-          "comments": 37,
-          "rank": 20,
-          "score": 168
+          "votes": 485,
+          "comments": 101,
+          "rank": 2,
+          "score": 485
         },
         "metadata": {
-          "slug": "cutrix",
+          "slug": "timbal-ai",
           "topics": [
             "Productivity",
-            "Artificial Intelligence",
-            "Video"
+            "SaaS",
+            "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1190152",
-          "name": "Cutrix",
-          "slug": "cutrix",
-          "tagline": "AI-powered video translation that preserves speaker's voice",
-          "description": "Stop settling for robotic dubbing. Cutrix uses an Agentic workflow to translate videos while preserving the speaker's original emotion and natural pacing. Experience hyper-natural alignment without the steep learning curve. Sign up for free credits today!",
-          "url": "https://www.producthunt.com/products/cutrix?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/5WFMXGTVZ2FQFQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 168,
-          "commentsCount": 37,
-          "dailyRank": 20,
-          "latestScore": 168,
-          "featuredAt": null,
-          "createdAt": "2026-07-08T07:01:00Z",
+          "id": "1177933",
+          "name": "Timbal AI",
+          "slug": "timbal-ai",
+          "tagline": "Build AI agents, workflows, and apps in one stack",
+          "description": "Timbal helps teams turn AI prototypes into production systems. Build agents and workflows, connect them to your data, design interfaces, deploy, monitor, evaluate, and govern everything from one platform. Instead of assembling separate tools for retrieval, orchestration, UI, observability, and evals, Timbal gives you one core for shipping reliable AI applications.",
+          "url": "https://www.producthunt.com/products/timbal-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/7YZFBLZ46SL5CJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 485,
+          "commentsCount": 101,
+          "dailyRank": 2,
+          "latestScore": 485,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
           "topics": {
             "edges": [
               {
@@ -1040,61 +761,6 @@
                   "slug": "productivity"
                 }
               },
-              {
-                "node": {
-                  "name": "Artificial Intelligence",
-                  "slug": "artificial-intelligence"
-                }
-              },
-              {
-                "node": {
-                  "name": "Video",
-                  "slug": "video"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1190686",
-        "title": "LemonLime",
-        "summary": "Automates your existing workflows with a single prompt.",
-        "body": "LemonLime lets teams automate their workflows in minutes with a single click. It connects to your existing tools, studies your business, and self-creates specialized AI agents and automations that support your team. Don’t know where to start?&nbsp; LemonLime helps with that, too, automatically surfacing suggested automations that you can implement with a single click.",
-        "url": "https://www.producthunt.com/products/lemonlime?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/CMWWBNDKWL23MO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
-        "metrics": {
-          "votes": 166,
-          "comments": 59,
-          "rank": 6,
-          "score": 166
-        },
-        "metadata": {
-          "slug": "lemonlime",
-          "topics": [
-            "SaaS",
-            "Artificial Intelligence",
-            "Business Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1190686",
-          "name": "LemonLime",
-          "slug": "lemonlime",
-          "tagline": "Automates your existing workflows with a single prompt.",
-          "description": "LemonLime lets teams automate their workflows in minutes with a single click. It connects to your existing tools, studies your business, and self-creates specialized AI agents and automations that support your team. Don’t know where to start?&nbsp; LemonLime helps with that, too, automatically surfacing suggested automations that you can implement with a single click.",
-          "url": "https://www.producthunt.com/products/lemonlime?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/CMWWBNDKWL23MO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 166,
-          "commentsCount": 59,
-          "dailyRank": 6,
-          "latestScore": 166,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
-          "topics": {
-            "edges": [
               {
                 "node": {
                   "name": "SaaS",
@@ -1106,11 +772,66 @@
                   "name": "Artificial Intelligence",
                   "slug": "artificial-intelligence"
                 }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1169754",
+        "title": "Perfai Security",
+        "summary": "Find & fix live vulnerabilities in Vibe Apps with 1-prompt.",
+        "body": "Autonomous access control security for Vibe-coded apps. Our platform finds and fixes live vulnerabilities in your vibe-apps built on Replit, Lovable, Claude Code, Cursor, and other AI-coding tools. 1-prompt makes your app production-ready in minutes without requiring security expertise.",
+        "url": "https://www.producthunt.com/products/perfai-security-for-vibe-coded-apps?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/OR3JOQW62RT6YX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
+        "metrics": {
+          "votes": 309,
+          "comments": 137,
+          "rank": 3,
+          "score": 309
+        },
+        "metadata": {
+          "slug": "perfai-security",
+          "topics": [
+            "Developer Tools",
+            "Security",
+            "Vibe coding"
+          ]
+        },
+        "rawJson": {
+          "id": "1169754",
+          "name": "Perfai Security",
+          "slug": "perfai-security",
+          "tagline": "Find & fix live vulnerabilities in Vibe Apps with 1-prompt.",
+          "description": "Autonomous access control security for Vibe-coded apps. Our platform finds and fixes live vulnerabilities in your vibe-apps built on Replit, Lovable, Claude Code, Cursor, and other AI-coding tools. 1-prompt makes your app production-ready in minutes without requiring security expertise.",
+          "url": "https://www.producthunt.com/products/perfai-security-for-vibe-coded-apps?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/OR3JOQW62RT6YX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 309,
+          "commentsCount": 137,
+          "dailyRank": 3,
+          "latestScore": 309,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
               },
               {
                 "node": {
-                  "name": "Business Intelligence",
-                  "slug": "business-intelligence"
+                  "name": "Security",
+                  "slug": "security"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vibe coding",
+                  "slug": "vibe-coding"
                 }
               }
             ]
@@ -1119,49 +840,43 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1190855",
-        "title": "Orbit for Mac",
-        "summary": "Every Google account, in a single window",
-        "body": "Every Google account in its own room on your Mac, fully isolated. Each one is the real Gmail web UI, with Calendar, Drive, Meet, and Gemini. No server, no subscription: pay once ($19 launch price, $89 after). Switch with ⌘1-9. Native Swift, a 12 MB app. 14-day free trial, no card needed.",
-        "url": "https://www.producthunt.com/products/orbit-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/624ZVJIHNA4TC6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
+        "sourceItemId": "ph:1164597",
+        "title": "Toyo",
+        "summary": "Exec assistant who lives in iMessage and calls your phone",
+        "body": "Toyo is a personal AI assistant that lives in your messages and can call you on the phone. Talk to it like you'd message a coworker. Toyo triages your inbox, preps you for calls, can help keep your projects moving, and pulls answers and context from your company's tools. It works over text and voice: Have it call you when you want to get updates or just talk through some work. It lives in iMessage, so there's no new apps, and no new tabs to manage.",
+        "url": "https://www.producthunt.com/products/toyo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/JR6YTXBV4TJMWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
         "metrics": {
-          "votes": 159,
-          "comments": 50,
-          "rank": 7,
-          "score": 159
+          "votes": 287,
+          "comments": 77,
+          "rank": 4,
+          "score": 287
         },
         "metadata": {
-          "slug": "orbit-for-mac",
+          "slug": "toyo",
           "topics": [
-            "Mac",
             "Email",
-            "Productivity"
+            "Messaging",
+            "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1190855",
-          "name": "Orbit for Mac",
-          "slug": "orbit-for-mac",
-          "tagline": "Every Google account, in a single window",
-          "description": "Every Google account in its own room on your Mac, fully isolated. Each one is the real Gmail web UI, with Calendar, Drive, Meet, and Gemini. No server, no subscription: pay once ($19 launch price, $89 after). Switch with ⌘1-9. Native Swift, a 12 MB app. 14-day free trial, no card needed.",
-          "url": "https://www.producthunt.com/products/orbit-for-mac?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/624ZVJIHNA4TC6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 159,
-          "commentsCount": 50,
-          "dailyRank": 7,
-          "latestScore": 159,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
+          "id": "1164597",
+          "name": "Toyo",
+          "slug": "toyo",
+          "tagline": "Exec assistant who lives in iMessage and calls your phone",
+          "description": "Toyo is a personal AI assistant that lives in your messages and can call you on the phone. Talk to it like you'd message a coworker. Toyo triages your inbox, preps you for calls, can help keep your projects moving, and pulls answers and context from your company's tools. It works over text and voice: Have it call you when you want to get updates or just talk through some work. It lives in iMessage, so there's no new apps, and no new tabs to manage.",
+          "url": "https://www.producthunt.com/products/toyo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/JR6YTXBV4TJMWG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 287,
+          "commentsCount": 77,
+          "dailyRank": 4,
+          "latestScore": 287,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
           "topics": {
             "edges": [
-              {
-                "node": {
-                  "name": "Mac",
-                  "slug": "mac"
-                }
-              },
               {
                 "node": {
                   "name": "Email",
@@ -1170,63 +885,8 @@
               },
               {
                 "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              }
-            ]
-          }
-        }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1185881",
-        "title": "PopTask for Apple",
-        "summary": "Turn to-dos into scheduled tasks",
-        "body": "PopTask just went universal. type a messy thought like \"gym mon wed fri 6am\" and it becomes a scheduled task in about 3 seconds, no pickers, no forms. on iphone + ipad you get home and lock screen widgets, a live activity + dynamic island counting down your next task, control center, and hands-free siri even in the car. on mac it lives in the menu bar (⌘⌃P). everything syncs across your devices through your own icloud, near-instant. on-device, private, 9 languages. free to start",
-        "url": "https://www.producthunt.com/products/poptask?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/TADE3A4SVTORJG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
-        "metrics": {
-          "votes": 148,
-          "comments": 39,
-          "rank": 8,
-          "score": 148
-        },
-        "metadata": {
-          "slug": "poptask-for-apple",
-          "topics": [
-            "Productivity",
-            "Task Management",
-            "Artificial Intelligence"
-          ]
-        },
-        "rawJson": {
-          "id": "1185881",
-          "name": "PopTask for Apple",
-          "slug": "poptask-for-apple",
-          "tagline": "Turn to-dos into scheduled tasks",
-          "description": "PopTask just went universal. type a messy thought like \"gym mon wed fri 6am\" and it becomes a scheduled task in about 3 seconds, no pickers, no forms. on iphone + ipad you get home and lock screen widgets, a live activity + dynamic island counting down your next task, control center, and hands-free siri even in the car. on mac it lives in the menu bar (⌘⌃P). everything syncs across your devices through your own icloud, near-instant. on-device, private, 9 languages. free to start",
-          "url": "https://www.producthunt.com/products/poptask?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/TADE3A4SVTORJG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 148,
-          "commentsCount": 39,
-          "dailyRank": 8,
-          "latestScore": 148,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Productivity",
-                  "slug": "productivity"
-                }
-              },
-              {
-                "node": {
-                  "name": "Task Management",
-                  "slug": "task-management"
+                  "name": "Messaging",
+                  "slug": "messaging"
                 }
               },
               {
@@ -1241,43 +901,110 @@
       },
       {
         "source": "product_hunt",
-        "sourceItemId": "ph:1190389",
-        "title": "agents-cli",
-        "summary": "The CLI your coding agent uses to ship agents",
-        "body": "One command-line tool to scaffold, evaluate, and deploy AI agents on Google Cloud — built to be driven by your coding agent (e.g Antigravity, Claude Code, Codex). Scaffold a production-ready project, evaluate against a real signal, and ship to Agent Runtime, Cloud Run, or GKE or anywhere else!",
-        "url": "https://www.producthunt.com/products/agents-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/J7EARKPXAPORWT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-07-08T07:01:00Z",
+        "sourceItemId": "ph:1190590",
+        "title": "Lispr",
+        "summary": "Hold a key, speak, and Lispr writes it anywhere",
+        "body": "Lispr is a free voice dictation and translation app for Mac and Windows. Hold a key, speak, release. Your words land in whatever app your cursor is in. Speak in ~99 languages and switch mid-sentence. Hold your translation key as well, and the translation lands instead, in any of 32 languages. Median latency 346 ms. The mic is off until you hold the key, and we never store your audio. No account, no model download, free.",
+        "url": "https://www.producthunt.com/products/lispr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/N3T6HSFUPVW363?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
         "metrics": {
-          "votes": 145,
-          "comments": 33,
-          "rank": 9,
-          "score": 145
+          "votes": 266,
+          "comments": 49,
+          "rank": 5,
+          "score": 266
         },
         "metadata": {
-          "slug": "agents-cli",
+          "slug": "lispr",
           "topics": [
-            "Developer Tools",
-            "Artificial Intelligence",
-            "GitHub"
+            "Mac",
+            "Productivity",
+            "Artificial Intelligence"
           ]
         },
         "rawJson": {
-          "id": "1190389",
-          "name": "agents-cli",
-          "slug": "agents-cli",
-          "tagline": "The CLI your coding agent uses to ship agents",
-          "description": "One command-line tool to scaffold, evaluate, and deploy AI agents on Google Cloud — built to be driven by your coding agent (e.g Antigravity, Claude Code, Codex). Scaffold a production-ready project, evaluate against a real signal, and ship to Agent Runtime, Cloud Run, or GKE or anywhere else!",
-          "url": "https://www.producthunt.com/products/agents-cli?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/J7EARKPXAPORWT?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 145,
-          "commentsCount": 33,
-          "dailyRank": 9,
-          "latestScore": 145,
-          "featuredAt": "2026-07-08T07:01:00Z",
-          "createdAt": "2026-07-08T07:01:00Z",
+          "id": "1190590",
+          "name": "Lispr",
+          "slug": "lispr",
+          "tagline": "Hold a key, speak, and Lispr writes it anywhere",
+          "description": "Lispr is a free voice dictation and translation app for Mac and Windows. Hold a key, speak, release. Your words land in whatever app your cursor is in. Speak in ~99 languages and switch mid-sentence. Hold your translation key as well, and the translation lands instead, in any of 32 languages. Median latency 346 ms. The mic is off until you hold the key, and we never store your audio. No account, no model download, free.",
+          "url": "https://www.producthunt.com/products/lispr?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/N3T6HSFUPVW363?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 266,
+          "commentsCount": 49,
+          "dailyRank": 5,
+          "latestScore": 266,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
           "topics": {
             "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1189547",
+        "title": "Opper AI",
+        "summary": "The european AI gateway for agents",
+        "body": "One API key to 300+ models, hosted in the EU. Drop-in compatible with the OpenAI, Anthropic, and Google SDKs: switching is a base URL change. What's different: ~half our 30+ providers run inference in Europe, one EU sub-processor covers every model, no prompts stored by default. Add the control plane for routing, PII masking, per-team spend caps, and audit trails. Agent-native: paste one line into Claude Code or Cursor and it sets up Opper for you. No markup on tokens, 3% fee on credit top-ups.",
+        "url": "https://www.producthunt.com/products/opper-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/F6SWKP44TXAE4D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
+        "metrics": {
+          "votes": 236,
+          "comments": 47,
+          "rank": 6,
+          "score": 236
+        },
+        "metadata": {
+          "slug": "opper-ai",
+          "topics": [
+            "API",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1189547",
+          "name": "Opper AI",
+          "slug": "opper-ai",
+          "tagline": "The european AI gateway for agents",
+          "description": "One API key to 300+ models, hosted in the EU. Drop-in compatible with the OpenAI, Anthropic, and Google SDKs: switching is a base URL change. What's different: ~half our 30+ providers run inference in Europe, one EU sub-processor covers every model, no prompts stored by default. Add the control plane for routing, PII masking, per-team spend caps, and audit trails. Agent-native: paste one line into Claude Code or Cursor and it sets up Opper for you. No markup on tokens, 3% fee on credit top-ups.",
+          "url": "https://www.producthunt.com/products/opper-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/F6SWKP44TXAE4D?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 236,
+          "commentsCount": 47,
+          "dailyRank": 6,
+          "latestScore": 236,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
               {
                 "node": {
                   "name": "Developer Tools",
@@ -1289,11 +1016,249 @@
                   "name": "Artificial Intelligence",
                   "slug": "artificial-intelligence"
                 }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1191675",
+        "title": "GPT-Live",
+        "summary": "Full-duplex voice for ChatGPT",
+        "body": "GPT-Live is OpenAI’s new full-duplex voice model for ChatGPT Voice. It can listen and speak at the same time, handle pauses and interruptions more naturally, and delegate harder search or reasoning work to frontier models in the background.",
+        "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/NOIPBXLXWJ62AP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
+        "metrics": {
+          "votes": 200,
+          "comments": 7,
+          "rank": 7,
+          "score": 200
+        },
+        "metadata": {
+          "slug": "gpt-live-2",
+          "topics": [
+            "Artificial Intelligence",
+            "Virtual Assistants",
+            "Audio"
+          ]
+        },
+        "rawJson": {
+          "id": "1191675",
+          "name": "GPT-Live",
+          "slug": "gpt-live-2",
+          "tagline": "Full-duplex voice for ChatGPT",
+          "description": "GPT-Live is OpenAI’s new full-duplex voice model for ChatGPT Voice. It can listen and speak at the same time, handle pauses and interruptions more naturally, and delegate harder search or reasoning work to frontier models in the background.",
+          "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/NOIPBXLXWJ62AP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 200,
+          "commentsCount": 7,
+          "dailyRank": 7,
+          "latestScore": 200,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Virtual Assistants",
+                  "slug": "virtual-assistants"
+                }
+              },
+              {
+                "node": {
+                  "name": "Audio",
+                  "slug": "audio"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1190525",
+        "title": "Aura: Agents + Git + Intent Open Source",
+        "summary": "OSS IDE for controlling AI coding agents with built in loops",
+        "body": "Aura is not another chat box for coding. It is a Git-native IDE for working with AI coding agents. You can run agents, track their changes at the function and class level, compare the code against the original intent, and prove whether a task was actually completed before you commit. Git shows you lines changed. Aura shows you what changed in the logic.",
+        "url": "https://www.producthunt.com/products/aura-28?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/SQ2RGATPKVTIGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
+        "metrics": {
+          "votes": 172,
+          "comments": 29,
+          "rank": 8,
+          "score": 172
+        },
+        "metadata": {
+          "slug": "aura-agents-git-intent-open-source",
+          "topics": [
+            "Developer Tools",
+            "GitHub",
+            "Vibe coding"
+          ]
+        },
+        "rawJson": {
+          "id": "1190525",
+          "name": "Aura: Agents + Git + Intent Open Source",
+          "slug": "aura-agents-git-intent-open-source",
+          "tagline": "OSS IDE for controlling AI coding agents with built in loops",
+          "description": "Aura is not another chat box for coding. It is a Git-native IDE for working with AI coding agents. You can run agents, track their changes at the function and class level, compare the code against the original intent, and prove whether a task was actually completed before you commit. Git shows you lines changed. Aura shows you what changed in the logic.",
+          "url": "https://www.producthunt.com/products/aura-28?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/SQ2RGATPKVTIGJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 172,
+          "commentsCount": 29,
+          "dailyRank": 8,
+          "latestScore": 172,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
               },
               {
                 "node": {
                   "name": "GitHub",
                   "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vibe coding",
+                  "slug": "vibe-coding"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1191329",
+        "title": "Monogram AI",
+        "summary": "AI with a visual and interactive interface",
+        "body": "We want to share our new iOS App. Ask anything and Monogram responds with a visual, interactive interface instead of a wall of text. We created a technology that generates an entire user interface on the fly, in just a few seconds. With a consistent and crafted user experience. We designed Monogram for everyday use cases, whether you’re looking for something to watch, finding a recipe, planning a trip, or anything else on your mind.",
+        "url": "https://www.producthunt.com/products/monogram-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/UEJCODBXC27ITE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
+        "metrics": {
+          "votes": 158,
+          "comments": 14,
+          "rank": 9,
+          "score": 158
+        },
+        "metadata": {
+          "slug": "monogram-ai",
+          "topics": [
+            "Productivity",
+            "User Experience",
+            "Tech"
+          ]
+        },
+        "rawJson": {
+          "id": "1191329",
+          "name": "Monogram AI",
+          "slug": "monogram-ai",
+          "tagline": "AI with a visual and interactive interface",
+          "description": "We want to share our new iOS App. Ask anything and Monogram responds with a visual, interactive interface instead of a wall of text. We created a technology that generates an entire user interface on the fly, in just a few seconds. With a consistent and crafted user experience. We designed Monogram for everyday use cases, whether you’re looking for something to watch, finding a recipe, planning a trip, or anything else on your mind.",
+          "url": "https://www.producthunt.com/products/monogram-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/UEJCODBXC27ITE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 158,
+          "commentsCount": 14,
+          "dailyRank": 9,
+          "latestScore": 158,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "User Experience",
+                  "slug": "user-experience"
+                }
+              },
+              {
+                "node": {
+                  "name": "Tech",
+                  "slug": "tech"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1191388",
+        "title": "Tasks.txt",
+        "summary": "Plain text task manager for macOS",
+        "body": "You kept going back to atxt file, so I made it faster. Tasks.txt is a free native macOS app for people who run tasks in atxt file. Plain text todo.txt format, keyboard shortcuts for everything. No cloud, no account.",
+        "url": "https://www.producthunt.com/products/tasks-txt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/CBAFDUP6ACGFW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-09T07:01:00Z",
+        "metrics": {
+          "votes": 150,
+          "comments": 22,
+          "rank": 10,
+          "score": 150
+        },
+        "metadata": {
+          "slug": "tasks-txt",
+          "topics": [
+            "Mac",
+            "Productivity",
+            "Task Management"
+          ]
+        },
+        "rawJson": {
+          "id": "1191388",
+          "name": "Tasks.txt",
+          "slug": "tasks-txt",
+          "tagline": "Plain text task manager for macOS",
+          "description": "You kept going back to atxt file, so I made it faster. Tasks.txt is a free native macOS app for people who run tasks in atxt file. Plain text todo.txt format, keyboard shortcuts for everything. No cloud, no account.",
+          "url": "https://www.producthunt.com/products/tasks-txt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/CBAFDUP6ACGFW7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 150,
+          "commentsCount": 22,
+          "dailyRank": 10,
+          "latestScore": 150,
+          "featuredAt": "2026-07-09T07:01:00Z",
+          "createdAt": "2026-07-09T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Task Management",
+                  "slug": "task-management"
                 }
               }
             ]
@@ -1305,7 +1270,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-07-10T03:00:44.783Z",
+    "fetchedAt": "2026-07-10T07:27:36.175Z",
     "items": [
       {
         "source": "github_trending",
@@ -1313,7 +1278,7 @@
         "title": "DeusData/codebase-memory-mcp",
         "summary": "High-performance code intelligence MCP server.",
         "url": "https://github.com/DeusData/codebase-memory-mcp",
-        "publishedAt": "2026-07-10T03:00:44.758Z",
+        "publishedAt": "2026-07-10T07:27:36.149Z",
         "metrics": {
           "rank": 1
         },
@@ -1328,7 +1293,7 @@
         "title": "calesthio/OpenMontage",
         "summary": "World's first open-source, agentic video production system.",
         "url": "https://github.com/calesthio/OpenMontage",
-        "publishedAt": "2026-07-10T03:00:44.761Z",
+        "publishedAt": "2026-07-10T07:27:36.152Z",
         "metrics": {
           "rank": 2
         },
@@ -1343,7 +1308,7 @@
         "title": "Panniantong/Agent-Reach",
         "summary": "Give your AI agent eyes to see the entire internet.",
         "url": "https://github.com/Panniantong/Agent-Reach",
-        "publishedAt": "2026-07-10T03:00:44.762Z",
+        "publishedAt": "2026-07-10T07:27:36.154Z",
         "metrics": {
           "rank": 3
         },
@@ -1358,7 +1323,7 @@
         "title": "NVIDIA/SkillSpector",
         "summary": "Security scanner for AI agent skills.",
         "url": "https://github.com/NVIDIA/SkillSpector",
-        "publishedAt": "2026-07-10T03:00:44.765Z",
+        "publishedAt": "2026-07-10T07:27:36.156Z",
         "metrics": {
           "rank": 4
         },
@@ -1373,7 +1338,7 @@
         "title": "asgeirtj/system_prompts_leaks",
         "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "publishedAt": "2026-07-10T03:00:44.766Z",
+        "publishedAt": "2026-07-10T07:27:36.157Z",
         "metrics": {
           "rank": 5
         },
@@ -1388,7 +1353,7 @@
         "title": "MadsLorentzen/ai-job-search",
         "summary": "AI-powered job application framework built on Claude Code.",
         "url": "https://github.com/MadsLorentzen/ai-job-search",
-        "publishedAt": "2026-07-10T03:00:44.768Z",
+        "publishedAt": "2026-07-10T07:27:36.158Z",
         "metrics": {
           "rank": 6
         },
@@ -1403,7 +1368,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-07-10T03:00:44.768Z",
+        "publishedAt": "2026-07-10T07:27:36.158Z",
         "metrics": {
           "rank": 7
         },
@@ -1418,7 +1383,7 @@
         "title": "iptv-org/iptv",
         "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
         "url": "https://github.com/iptv-org/iptv",
-        "publishedAt": "2026-07-10T03:00:44.768Z",
+        "publishedAt": "2026-07-10T07:27:36.158Z",
         "metrics": {
           "rank": 8
         },
@@ -1433,7 +1398,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-07-10T03:00:44.769Z",
+        "publishedAt": "2026-07-10T07:27:36.159Z",
         "metrics": {
           "rank": 9
         },
@@ -1448,7 +1413,7 @@
         "title": "simplex-chat/simplex-chat",
         "summary": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
         "url": "https://github.com/simplex-chat/simplex-chat",
-        "publishedAt": "2026-07-10T03:00:44.771Z",
+        "publishedAt": "2026-07-10T07:27:36.161Z",
         "metrics": {
           "rank": 10
         },
@@ -1463,7 +1428,7 @@
         "title": "usestrix/strix",
         "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "url": "https://github.com/usestrix/strix",
-        "publishedAt": "2026-07-10T03:00:44.771Z",
+        "publishedAt": "2026-07-10T07:27:36.162Z",
         "metrics": {
           "rank": 11
         },
@@ -1478,7 +1443,7 @@
         "title": "alibaba/zvec",
         "summary": "A lightweight, lightning-fast, in-process vector database English | 中文 🚀 Quickstart | 🏠 Home | 📚 Docs | 📊 Benchmarks | 🔎 DeepWiki | 🎮 Discord | 🐦 X (Twitter) Zvec is an open-source, in-process vector database — lightweight, lightning-fast, and design...",
         "url": "https://github.com/alibaba/zvec",
-        "publishedAt": "2026-07-10T03:00:44.771Z",
+        "publishedAt": "2026-07-10T07:27:36.162Z",
         "metrics": {
           "rank": 12
         },
@@ -1493,7 +1458,7 @@
         "title": "stablyai/orca",
         "summary": "Orca is the ADE for working with a fleet of parallel agents.",
         "url": "https://github.com/stablyai/orca",
-        "publishedAt": "2026-07-10T03:00:44.772Z",
+        "publishedAt": "2026-07-10T07:27:36.163Z",
         "metrics": {
           "rank": 13
         },
@@ -1508,7 +1473,7 @@
         "title": "Zackriya-Solutions/meetily",
         "summary": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.",
         "url": "https://github.com/Zackriya-Solutions/meetily",
-        "publishedAt": "2026-07-10T03:00:44.773Z",
+        "publishedAt": "2026-07-10T07:27:36.163Z",
         "metrics": {
           "rank": 14
         },
@@ -1523,7 +1488,7 @@
         "title": "interviewstreet/hiring-agent",
         "summary": "AI agent to evaluate and score resumes.",
         "url": "https://github.com/interviewstreet/hiring-agent",
-        "publishedAt": "2026-07-10T03:00:44.773Z",
+        "publishedAt": "2026-07-10T07:27:36.164Z",
         "metrics": {
           "rank": 15
         },
@@ -1538,7 +1503,7 @@
         "title": "alibaba/page-agent",
         "summary": "JavaScript in-page GUI agent.",
         "url": "https://github.com/alibaba/page-agent",
-        "publishedAt": "2026-07-10T03:00:44.773Z",
+        "publishedAt": "2026-07-10T07:27:36.164Z",
         "metrics": {
           "rank": 16
         },
@@ -1553,7 +1518,7 @@
         "title": "n0-computer/iroh",
         "summary": "IP addresses break, dial keys instead.",
         "url": "https://github.com/n0-computer/iroh",
-        "publishedAt": "2026-07-10T03:00:44.774Z",
+        "publishedAt": "2026-07-10T07:27:36.164Z",
         "metrics": {
           "rank": 17
         },
@@ -1568,7 +1533,7 @@
         "title": "diegosouzapw/OmniRoute",
         "summary": "Never stop coding.",
         "url": "https://github.com/diegosouzapw/OmniRoute",
-        "publishedAt": "2026-07-10T03:00:44.779Z",
+        "publishedAt": "2026-07-10T07:27:36.170Z",
         "metrics": {
           "rank": 18
         },
@@ -1583,7 +1548,7 @@
         "title": "phuryn/pm-skills",
         "summary": "PM Skills Marketplace: 100+ agentic skills, commands, and plugins — from discovery to strategy, execution, launch, and growth.",
         "url": "https://github.com/phuryn/pm-skills",
-        "publishedAt": "2026-07-10T03:00:44.780Z",
+        "publishedAt": "2026-07-10T07:27:36.172Z",
         "metrics": {
           "rank": 19
         },
@@ -1598,7 +1563,7 @@
         "title": "mauriceboe/TREK",
         "summary": "A self-hosted travel/trip planner with real-time collaboration, interactive maps, PWA support, SSO, budgets, packing lists, and more.",
         "url": "https://github.com/mauriceboe/TREK",
-        "publishedAt": "2026-07-10T03:00:44.781Z",
+        "publishedAt": "2026-07-10T07:27:36.173Z",
         "metrics": {
           "rank": 20
         },
@@ -1612,7 +1577,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-07-10T03:01:15.786Z",
+    "fetchedAt": "2026-07-10T07:27:43.178Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1740,6 +1705,70 @@
         "metrics": {},
         "metadata": {
           "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/ust-claude",
+        "title": "UST is bringing Claude to physical AI",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-coral\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"UST is bringing Claude to physical AI\" loading=\"laz",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-coral\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"UST is bringing Claude to physical AI\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/cd4fd51deacd067d4e30aee4f4b149f6cba1b97b-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"B",
+        "url": "https://www.anthropic.com/news/ust-claude",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/hard-questions",
+        "title": "Inviting hard questions",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"Inviting hard questions\" width=\"2000\" height=\"1125\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg\" referrerpolicy=\"no-referrer\"></div></div><div class=\"page-wrapper\"><article><div",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"Inviting hard questions\" width=\"2000\" height=\"1125\" decoding=\"async\" data-nimg=\"1\" class=\"PostDetail-module-scss-module__UQuRMa__heroImage\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/3fe58a56e696628496e95871e00b8287035ea645-2000x1125.jpg\" referrerpolicy=\"no-referrer\"></div></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Who decides the rules for AI?</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>Can AI giv",
+        "url": "https://www.anthropic.com/news/hard-questions",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/ben-bernanke",
+        "title": "Ben Bernanke appointed to Anthropic’s Long-Term Benefit Trust",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins an independent ",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Anthropic's Long-Term Benefit Trust (LTBT) has appointed Dr. Ben Bernanke, a Distinguished Fellow at the Brookings Institution and former Chair of the Federal Reserve, as its newest member. He joins an independent body that works to hold Anthropic to its mission: the responsible development of advanced AI for the long-term benefit of humanity.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Bernanke led the Federal Reserve from 2006 to 2014, steering the central bank throu",
+        "url": "https://www.anthropic.com/news/ben-bernanke",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/reflect-with-claude",
+        "title": "Introducing a way to reflect on how you use Claude",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-cactus\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Introducing a way to reflect on how you use Claude",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><div class=\"Illustration-module-scss-module__WyGOtq__root Illustration-module-scss-module__WyGOtq__aspect-wide Illustration-module-scss-module__WyGOtq__padding-lg Illustration-module-scss-module__WyGOtq__radius-lg bg-cactus\"><div class=\"Illustration-module-scss-module__WyGOtq__inner\"><img alt=\"Introducing a way to reflect on how you use Claude\" loading=\"lazy\" width=\"1000\" height=\"1000\" decoding=\"async\" data-nimg=\"1\" class=\"\" src=\"https://www-cdn.anthropic.com/images/4zrzovbb/website/33dbe8f783d4835a838b4c4ae85d3c04e352fee1-1000x1000.svg\" referrerpolicy=\"no-referrer\"></div></div></div></div><div class=\"page-wrapper\"><article><div class=\"\"",
+        "url": "https://www.anthropic.com/news/reflect-with-claude",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
         }
       },
       {
@@ -1936,22 +1965,6 @@
       },
       {
         "source": "builder_blog",
-        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-        "title": "sqlite-utils 4.0rc4",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc4\">sqlite-utils 4.0rc4</a></p> <p>The last RC before the 4.0 stable release. Mainly <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150\">implements feedback</a> from a detailed review by Claude Fable 5.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></",
-        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.0rc4\">sqlite-utils 4.0rc4</a></p> <p>The last RC before the 4.0 stable release. Mainly <a href=\"https://github.com/simonw/sqlite-utils/issues/769#issuecomment-4900034150\">implements feedback</a> from a detailed review by Claude Fable 5.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a>, <a href=\"https://simonwillison.net/tags/claude-mythos-fable\">claude-mythos-fable</a></p>",
-        "url": "https://simonwillison.net/2026/Jul/7/sqlite-utils-2/#atom-everything",
-        "authorName": "Simon Willison",
-        "sourceName": "Simon Willison",
-        "sourceCategory": "technical",
-        "publishedAt": "2026-07-07T05:36:15.000Z",
-        "metrics": {},
-        "metadata": {
-          "feedSource": "Simon Willison"
-        }
-      },
-      {
-        "source": "builder_blog",
         "sourceItemId": "builder_blog:https://xeiaso.net/notes/2026/console-wars-lost/",
         "title": "The console wars have been lost",
         "summary": "Valve wins by doing absolutely nothing",
@@ -1981,6 +1994,231 @@
         "metadata": {
           "feedSource": "Xe Iaso",
           "image": "https://stickers.xeiaso.net/sticker/numa/neutral"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+        "title": "China may restrict foreign access to Chinese open-source AI models",
+        "summary": "Article URL: https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/ Comments URL: https://news.ycombinator.com/item?id=48856412 Points: 31 # Comments: 0",
+        "body": "Article URL: https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/ Comments URL: https://news.ycombinator.com/item?id=48856412 Points: 31 # Comments: 0",
+        "url": "https://www.reuters.com/technology/artificial-intelligence/china-weighs-silicon-curtain-around-sought-after-ai-models-2026-07-08/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T06:22:06.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+        "title": "Building a real-time AI tutor for 5-year-olds",
+        "summary": "Hey HN! We've spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more. Getting an AI tutor to effectively teach a child turns out to be a really hard technical challenge, this took getting the underlying architecture right. Our tutor steers the UX in real-time and makes complex decisions on the fly. Doing both at conversation speed required us to replace the standard tool-use loop. We built our own tutor harness that utilizes a streaming ",
+        "body": "Hey HN! We've spent the good part of this past year building an AI tutor that teaches kids ages 4-9 reading, math, ESL and more. Getting an AI tutor to effectively teach a child turns out to be a really hard technical challenge, this took getting the underlying architecture right. Our tutor steers the UX in real-time and makes complex decisions on the fly. Doing both at conversation speed required us to replace the standard tool-use loop. We built our own tutor harness that utilizes a streaming interpreter that executes actions, while an asynchronous planner model reasons ahead of the conversation and makes calls that drive the child's learning. On top of it all, we developed a safety system that checks every turn without it causing an interruption to the activity and conversation flow. Ef",
+        "url": "https://www.ello.com/blog/teaching-a-child-in-1000-ms",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T20:51:06.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://openai.com/index/gpt-5-6/",
+        "title": "GPT-5.6",
+        "summary": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf https://developers.openai.com/api/docs/guides/latest-model https://x.com/levie/status/2075287443411222628 , https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 1212 # Comments: 858",
+        "body": "https://deploymentsafety.openai.com/gpt-5-6/gpt-5-6.pdf https://developers.openai.com/api/docs/guides/latest-model https://x.com/levie/status/2075287443411222628 , https://xcancel.com/levie/status/2075287443411222628 Comments URL: https://news.ycombinator.com/item?id=48849066 Points: 1212 # Comments: 858",
+        "url": "https://openai.com/index/gpt-5-6/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T17:04:14.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://ai-2040.com/",
+        "title": "AI 2040: Plan A",
+        "summary": "Article URL: https://ai-2040.com/ Comments URL: https://news.ycombinator.com/item?id=48848425 Points: 77 # Comments: 45",
+        "body": "Article URL: https://ai-2040.com/ Comments URL: https://news.ycombinator.com/item?id=48848425 Points: 77 # Comments: 45",
+        "url": "https://ai-2040.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T16:21:44.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.pangram.com/blog/ai-in-your-feed",
+        "title": "AI content is everywhere on social media, especially LinkedIn",
+        "summary": "Article URL: https://www.pangram.com/blog/ai-in-your-feed Comments URL: https://news.ycombinator.com/item?id=48847940 Points: 212 # Comments: 186",
+        "body": "Article URL: https://www.pangram.com/blog/ai-in-your-feed Comments URL: https://news.ycombinator.com/item?id=48847940 Points: 212 # Comments: 186",
+        "url": "https://www.pangram.com/blog/ai-in-your-feed",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T15:50:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+        "title": "The next era of AI is about infrastructure, not just models",
+        "summary": "Article URL: https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/ Comments URL: https://news.ycombinator.com/item?id=48846842 Points: 49 # Comments: 21",
+        "body": "Article URL: https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/ Comments URL: https://news.ycombinator.com/item?id=48846842 Points: 49 # Comments: 21",
+        "url": "https://blog.mozilla.ai/the-control-layer-why-the-next-era-of-ai-is-about-infrastructure-not-just-models/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T14:50:01.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html",
+        "title": "DeepSeek aims to make its own AI chip",
+        "summary": "Article URL: https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html Comments URL: https://news.ycombinator.com/item?id=48846708 Points: 52 # Comments: 5",
+        "body": "Article URL: https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html Comments URL: https://news.ycombinator.com/item?id=48846708 Points: 52 # Comments: 5",
+        "url": "https://www.proactiveinvestors.com/companies/news/1095178/deepseek-makes-pivot-that-should-put-silicon-valley-on-high-alert-1095178.html",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T14:42:21.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.anthropic.com/news/reflect-with-claude",
+        "title": "A new way to reflect on how you use Claude",
+        "summary": "Article URL: https://www.anthropic.com/news/reflect-with-claude Comments URL: https://news.ycombinator.com/item?id=48845526 Points: 44 # Comments: 56",
+        "body": "Article URL: https://www.anthropic.com/news/reflect-with-claude Comments URL: https://news.ycombinator.com/item?id=48845526 Points: 44 # Comments: 56",
+        "url": "https://www.anthropic.com/news/reflect-with-claude",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T13:30:33.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/ronak-create/FableCut",
+        "title": "Show HN: FableCut – A browser video editor AI agents can drive (zero deps)",
+        "summary": "Article URL: https://github.com/ronak-create/FableCut Comments URL: https://news.ycombinator.com/item?id=48845422 Points: 90 # Comments: 58",
+        "body": "Article URL: https://github.com/ronak-create/FableCut Comments URL: https://news.ycombinator.com/item?id=48845422 Points: 90 # Comments: 58",
+        "url": "https://github.com/ronak-create/FableCut",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T13:23:10.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
+        "title": "AI changes the economics of software rewrites",
+        "summary": "Article URL: https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/ Comments URL: https://news.ycombinator.com/item?id=48841446 Points: 102 # Comments: 103",
+        "body": "Article URL: https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/ Comments URL: https://news.ycombinator.com/item?id=48841446 Points: 102 # Comments: 103",
+        "url": "https://thetruthasiseeitnow.com/ai-slop-starts-with-the-codebase-itself/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T05:46:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+        "title": "What's slowing down the AI buildout",
+        "summary": "Article URL: https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid Comments URL: https://news.ycombinator.com/item?id=48840620 Points: 69 # Comments: 164",
+        "body": "Article URL: https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid Comments URL: https://news.ycombinator.com/item?id=48840620 Points: 69 # Comments: 164",
+        "url": "https://www.worksinprogress.news/p/ai-is-bottlenecked-by-the-grid",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T03:26:02.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.alecscollon.com/blog/llm-burnout/",
+        "title": "I think I have LLM burnout",
+        "summary": "Article URL: https://www.alecscollon.com/blog/llm-burnout/ Comments URL: https://news.ycombinator.com/item?id=48839984 Points: 390 # Comments: 342",
+        "body": "Article URL: https://www.alecscollon.com/blog/llm-burnout/ Comments URL: https://news.ycombinator.com/item?id=48839984 Points: 390 # Comments: 342",
+        "url": "https://www.alecscollon.com/blog/llm-burnout/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T01:56:28.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
+        "title": "We made Grok 4.5, GPT-5.5, and Claude build the same apps",
+        "summary": "Article URL: https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off Comments URL: https://news.ycombinator.com/item?id=48838772 Points: 171 # Comments: 92",
+        "body": "Article URL: https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off Comments URL: https://news.ycombinator.com/item?id=48838772 Points: 171 # Comments: 92",
+        "url": "https://www.tryai.dev/blog/grok-4.5-vs-gpt-5.5-vs-claude-build-off",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T23:27:14.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+        "title": "Suspecting AI cheating, Ivy League prof ordered in-person final; scores fell 50%",
+        "summary": "Article URL: https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/ Comments URL: https://news.ycombinator.com/item?id=48838611 Points: 133 # Comments: 151",
+        "body": "Article URL: https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/ Comments URL: https://news.ycombinator.com/item?id=48838611 Points: 133 # Comments: 151",
+        "url": "https://arstechnica.com/ai/2026/07/we-cannot-choose-to-become-idiots-the-ai-cheating-scandal-roiling-brown-university/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T23:11:28.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=48834961",
+        "title": "Ask HN: Another \"Hacker News\" with less AI and more human-focused hacking news?",
+        "summary": "I am done with articles stating \"I used this LLM to do that\", or \"Look, this agent did that in 2 minutes!\". I want content more user-centric, less openai / anthropic, and more \"human-in-the-loop\" articles. Any other website to recommend? I think lobste.rs was a good hacker news aggregator, but I don't know if it is still relevant today... UPDATE: Some recommendations, provided by the answers: - https://hackaday.com/ - https://hcker.news/?ai=exclude - https://lobste.rs/ Related discussions - http",
+        "body": "I am done with articles stating \"I used this LLM to do that\", or \"Look, this agent did that in 2 minutes!\". I want content more user-centric, less openai / anthropic, and more \"human-in-the-loop\" articles. Any other website to recommend? I think lobste.rs was a good hacker news aggregator, but I don't know if it is still relevant today... UPDATE: Some recommendations, provided by the answers: - https://hackaday.com/ - https://hcker.news/?ai=exclude - https://lobste.rs/ Related discussions - https://news.ycombinator.com/item?id=48713041 - https://news.ycombinator.com/item?id=48567155 Comments URL: https://news.ycombinator.com/item?id=48834961 Points: 88 # Comments: 54",
+        "url": "https://news.ycombinator.com/item?id=48834961",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-08T17:48:41.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
         }
       },
       {
@@ -2060,11 +2298,86 @@
       },
       {
         "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.08770",
+        "title": "LongE2V: Long-Horizon Event-based Video Reconstruction, Prediction, and Frame Interpolation with Video Diffusion Models",
+        "summary": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autor",
+        "body": "Recovering high-quality video from sparse event streams is a challenging task. Regression methods often blur textures, while existing generative models struggle with long-term stability. We propose LongE2V, a novel approach that leverages pre-trained video diffusion priors to jointly handle event-based video reconstruction, prediction, and frame interpolation. By fine-tuning a foundational video model, our approach achieves high data efficiency and superior perceptual quality. We introduce Autoregressive Unrolling and Adaptive Context Switching to mitigate temporal drift in extremely long sequences. We also propose Reencoding Alignment with Cross Residual Correction to ensure precise bidirectional consistency during frame interpolation. Furthermore, Event Voxel Density Augmentation ensures",
+        "url": "https://arxiv.org/abs/2607.08770",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-08T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.08768",
+        "title": "UniClawBench: A Universal Benchmark for Proactive Agents on Real-World Tasks",
+        "summary": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they often rely on sandboxed environments and single-turn evaluation paradigms. Moreover, their scenario-based task taxonomies mix multiple model capabilities within the same task category, making it diff",
+        "body": "The rapid development of large language models and multimodal large language models has accelerated the emergence of proactive agents capable of operating everyday tools and assisting users in real-world environments. However, existing benchmarks struggle to evaluate such agents effectively, as they often rely on sandboxed environments and single-turn evaluation paradigms. Moreover, their scenario-based task taxonomies mix multiple model capabilities within the same task category, making it difficult to identify the root causes of agent failures. To address these limitations, we introduce UniClawBench, the first capability-driven benchmark designed to evaluate proactive agents in dynamic, real-world settings. UniClawBench is built around five foundational model capabilities: Skill Usage, E",
+        "url": "https://arxiv.org/abs/2607.08768",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-08T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
         "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.08763",
         "title": "OpenCoF: Learning to Reason Through Video Generation",
         "summary": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To add",
         "body": "Reasoning has become a core capability for large models, especially when reliable decisions require understanding logical consequences. Recent video generation models offer a reasoning path distinct from previous Chain-of-Thought (CoT): reasoning can unfold through temporally connected frames, known as Chain-of-Frame (CoF) reasoning. However, existing video generators are primarily trained on general video corpora, still lacking diverse supervision and dedicated designs for CoF reasoning. To address this gap, we introduce OpenCoF, a framework comprising the OpenCoF-17K dataset, a reasoning video dataset spanning 11 task families, and Wan-CoF, a fine-tuned video model for studying whether diverse temporal supervision improves CoF behavior. Across four video reasoning benchmarks, Wan-CoF ach",
         "url": "https://arxiv.org/abs/2607.08763",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-08T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.08765",
+        "title": "Enhancing In-context Panoramic Generation via Geometric-aware Pretraining",
+        "summary": "In this work, we present Canvas360, a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with downstream task-specific fine-tuning. To address the lack of large-scale, high-quality training data tailored to in-context panoramic tasks, we propose Canvas360Dataset, a collection of 1M high-quality paired panoramic samples for style transfer, inpainting, outpainting, and editing, enabling effective supervision across diverse in-context generation scenari",
+        "body": "In this work, we present Canvas360, a two-stage framework for in-context panoramic generation that combines geometry-aware pretraining with downstream task-specific fine-tuning. To address the lack of large-scale, high-quality training data tailored to in-context panoramic tasks, we propose Canvas360Dataset, a collection of 1M high-quality paired panoramic samples for style transfer, inpainting, outpainting, and editing, enabling effective supervision across diverse in-context generation scenarios. On the modeling side, Canvas360 enhances text-to-panorama generation through parallel depth generation, velocity circular padding, and similarity loss regularization, enabling the model to learn geometry-aware representations, capture object distortion details, and improve geometric consistency ",
+        "url": "https://arxiv.org/abs/2607.08765",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-08T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.08526",
+        "title": "A Quantized Native Runtime for On-Device Semantic Audio Generation",
+        "summary": "Semantic audio applications increasingly require controllable generation on commodity and embedded hardware rather than through framework-heavy datacenter stacks. We present aria, a dependency-free native runtime that runs the complete text-to-music pipeline of Stable Audio~3 (SA3) on ordinary GPUs, CPU-only machines, and a Raspberry~Pi~5, with no Python or deep-learning framework underneath. Our main contribution is a study of quantization: running the model at lower numerical precision to fit ",
+        "body": "Semantic audio applications increasingly require controllable generation on commodity and embedded hardware rather than through framework-heavy datacenter stacks. We present aria, a dependency-free native runtime that runs the complete text-to-music pipeline of Stable Audio~3 (SA3) on ordinary GPUs, CPU-only machines, and a Raspberry~Pi~5, with no Python or deep-learning framework underneath. Our main contribution is a study of quantization: running the model at lower numerical precision to fit tight memory budgets, saving memory in place rather than adding to it. Because the runtime owns every internal tensor, it also exposes activation steering, a low-cost way to steer what the model generates. We judge the quality cost with three independent measures of the output (prompt adherence, ove",
+        "url": "https://arxiv.org/abs/2607.08526",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-08T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.08093",
+        "title": "CausalDS: Benchmarking Causal Reasoning in Data-Science Agents",
+        "summary": "Large language models (LLMs) increasingly act as integrated data-science agents, combining abstract reasoning with advanced tool use. Yet the relevant benchmark landscape largely divides into symbolic causal reasoning benchmarks without realistic data analysis or data analysis benchmarks without a principled causal data-generating structure. Furthermore, existing causal evaluation datasets are often restricted to curated examples from existing sources, with diversity coming from limited templati",
+        "body": "Large language models (LLMs) increasingly act as integrated data-science agents, combining abstract reasoning with advanced tool use. Yet the relevant benchmark landscape largely divides into symbolic causal reasoning benchmarks without realistic data analysis or data analysis benchmarks without a principled causal data-generating structure. Furthermore, existing causal evaluation datasets are often restricted to curated examples from existing sources, with diversity coming from limited templatized variations rather than from systematic generation of novel synthetic causal structures. We introduce CausalDS, a benchmark for evaluating causal reasoning in agentic data-science workflows. Each benchmark instance is a scene consisting of a sampled structural causal model (SCM) with generated ob",
+        "url": "https://arxiv.org/abs/2607.08093",
         "sourceName": "HuggingFace Papers",
         "sourceCategory": "technical",
         "publishedAt": "2026-07-08T20:00:00.000Z",
@@ -2120,10 +2433,8 @@
       }
     ],
     "errors": [
-      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502"
+      "Gwern: HTTP 403"
     ]
   }
 ]
