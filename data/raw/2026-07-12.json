@@ -1,0 +1,1453 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-07-12T03:01:22.022Z",
+    "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrh78s5t00w5bir7mozf8oyb",
+        "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
+        "summary": "Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API。它通过 iroh 网络库实现点对点连接，无需中央服务器。请求可在本地 GPU 运行、路由到已加载模型的节点，或将大模型按层分区（内部称\"Skippy\"）流水线式拆分到多台机器。系统内置 40 多个模型，从 5 亿参数到 235B MoE 巨模型均可支持。软件体积约 18 MB，启动后以 `localhost：9337/v1` 提供服务。",
+        "body": "Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API。它通过 iroh 网络库实现点对点连接，无需中央服务器。请求可在本地 GPU 运行、路由到已加载模型的节点，或将大模型按层分区（内部称\"Skippy\"）流水线式拆分到多台机器。系统内置 40 多个模型，从 5 亿参数到 235B MoE 巨模型均可支持。软件体积约 18 MB，启动后以 `localhost：9337/v1` 提供服务。",
+        "url": "https://www.iroh.computer/blog/mesh-llm",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-07-12T02:23:05.249Z",
+        "rawJson": {
+          "id": "cmrh78s5t00w5bir7mozf8oyb",
+          "title": "Mesh LLM：在 iroh 上进行分布式人工智能计算",
+          "title_en": null,
+          "url": "https://www.iroh.computer/blog/mesh-llm",
+          "permalink": "https://aihot.virxact.com/items/cmrh78s5t00w5bir7mozf8oyb",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-07-12T02:23:05.249Z",
+          "summary": "Mesh LLM 是一个开源项目，能将用户多台机器上的 GPU 和内存池化，对外暴露兼容 OpenAI 的 API。它通过 iroh 网络库实现点对点连接，无需中央服务器。请求可在本地 GPU 运行、路由到已加载模型的节点，或将大模型按层分区（内部称\"Skippy\"）流水线式拆分到多台机器。系统内置 40 多个模型，从 5 亿参数到 235B MoE 巨模型均可支持。软件体积约 18 MB，启动后以 `localhost：9337/v1` 提供服务。",
+          "category": "ai-products",
+          "score": 77,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrh78s5t00w5bir7mozf8oyb"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrh57xvj00gvbir7awab8dgb",
+        "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法",
+        "summary": "用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。该别名配置了子智能体模型、始终启用 Effort、最大并发工具调用数等参数。引用推文作者 Theo 补充，若已配置好代理，仅需约 2 条提示词即可完成设置。Tibo 称整个过程约 5 分钟，若被封锁可重置。",
+        "body": "用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。该别名配置了子智能体模型、始终启用 Effort、最大并发工具调用数等参数。引用推文作者 Theo 补充，若已配置好代理，仅需约 2 条提示词即可完成设置。Tibo 称整个过程约 5 分钟，若被封锁可重置。",
+        "url": "https://x.com/thsottiaux/status/2076119366647894371",
+        "sourceName": "X：Tibo (@thsottiaux)",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-07-12T01:40:04.000Z",
+        "rawJson": {
+          "id": "cmrh57xvj00gvbir7awab8dgb",
+          "title": "Tibo 分享通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法",
+          "title_en": "If you aren't yet bold enough to install the Codex app， you can stay in the presence of your orange …",
+          "url": "https://x.com/thsottiaux/status/2076119366647894371",
+          "permalink": "https://aihot.virxact.com/items/cmrh57xvj00gvbir7awab8dgb",
+          "source": "X：Tibo (@thsottiaux)",
+          "publishedAt": "2026-07-12T01:40:04.000Z",
+          "summary": "用户 Tibo 分享了一种通过 CLIProxyAPI 将 Claude Code 后端模型切换为 GPT-5.6 Sol 的方法。只需三步：安装 CLIProxyAPI、连接认证、设置环境变量别名 `claudex`。该别名配置了子智能体模型、始终启用 Effort、最大并发工具调用数等参数。引用推文作者 Theo 补充，若已配置好代理，仅需约 2 条提示词即可完成设置。Tibo 称整个过程约 5 分钟，若被封锁可重置。",
+          "category": "tip",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrh57xvj00gvbir7awab8dgb"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrh4d5cj009ubir7yazlez7q",
+        "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
+        "summary": "OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题\"循环双覆盖猜想\"的完整证明。该猜想由数学家 George Szekeres 和 Paul Seymour 于 1970 年代提出，悬而未决超过 50 年。模型通过调用 64 个并行子智能体及对抗智能体，在预留的 8 小时计算时间内仅用约 1 小时完成证明。OpenAI 已将证明及提示词以 PDF 形式发布。该证明尚未经同行评审，也未使用 Lean 等形式化工具验证。若通过验证，这将是 LLM 首次独立解决维基百科\"未解决数学问题\"列表中的难题。",
+        "body": "OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题\"循环双覆盖猜想\"的完整证明。该猜想由数学家 George Szekeres 和 Paul Seymour 于 1970 年代提出，悬而未决超过 50 年。模型通过调用 64 个并行子智能体及对抗智能体，在预留的 8 小时计算时间内仅用约 1 小时完成证明。OpenAI 已将证明及提示词以 PDF 形式发布。该证明尚未经同行评审，也未使用 Lean 等形式化工具验证。若通过验证，这将是 LLM 首次独立解决维基百科\"未解决数学问题\"列表中的难题。",
+        "url": "https://www.ithome.com/0/975/646.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-07-12T00:44:43.000Z",
+        "rawJson": {
+          "id": "cmrh4d5cj009ubir7yazlez7q",
+          "title": "OpenAI GPT-5.6 Sol Ultra 一小时证明 50 年图论猜想",
+          "title_en": "仅用一小时，OpenAI GPT-5.6 Sol Ultra 证明了一个已有 50 年历史的数学猜想",
+          "url": "https://www.ithome.com/0/975/646.htm",
+          "permalink": "https://aihot.virxact.com/items/cmrh4d5cj009ubir7yazlez7q",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-07-12T00:44:43.000Z",
+          "summary": "OpenAI 宣布其 GPT-5.6 Sol Ultra 模型在不到一小时内生成了图论难题\"循环双覆盖猜想\"的完整证明。该猜想由数学家 George Szekeres 和 Paul Seymour 于 1970 年代提出，悬而未决超过 50 年。模型通过调用 64 个并行子智能体及对抗智能体，在预留的 8 小时计算时间内仅用约 1 小时完成证明。OpenAI 已将证明及提示词以 PDF 形式发布。该证明尚未经同行评审，也未使用 Lean 等形式化工具验证。若通过验证，这将是 LLM 首次独立解决维基百科\"未解决数学问题\"列表中的难题。",
+          "category": "paper",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrh4d5cj009ubir7yazlez7q"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrgzykqg00jabid4acp6zpjm",
+        "title": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
+        "summary": "苹果起诉 OpenAI，指控前工程师 Chang Liu 离职时带走未归还的 MacBook、一名可分享内情的员工，并利用软件漏洞持续访问苹果内网。他发现漏洞后向同事分享\"哈哈，我发现我还能访问网络存储\"，后者协助其获取更多机密。苹果称 OpenAI 试图复制 iPhone 产品研发体系，核心从非法窃取的商业机密腐烂。目前已有超 400 名苹果员工跳槽至 OpenAI，包括前苹果高管、现任 OpenAI 首席硬件官 Tang Tan。苹果曾于今年 2 月尝试私了，但 OpenAI 未回应。",
+        "body": "苹果起诉 OpenAI，指控前工程师 Chang Liu 离职时带走未归还的 MacBook、一名可分享内情的员工，并利用软件漏洞持续访问苹果内网。他发现漏洞后向同事分享\"哈哈，我发现我还能访问网络存储\"，后者协助其获取更多机密。苹果称 OpenAI 试图复制 iPhone 产品研发体系，核心从非法窃取的商业机密腐烂。目前已有超 400 名苹果员工跳槽至 OpenAI，包括前苹果高管、现任 OpenAI 首席硬件官 Tang Tan。苹果曾于今年 2 月尝试私了，但 OpenAI 未回应。",
+        "url": "https://www.ithome.com/0/975/634.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-07-11T23:21:57.000Z",
+        "rawJson": {
+          "id": "cmrgzykqg00jabid4acp6zpjm",
+          "title": "彭博社揭秘苹果起诉 OpenAI 内幕：前员工一句\"哈哈\"成窃密关键",
+          "title_en": null,
+          "url": "https://www.ithome.com/0/975/634.htm",
+          "permalink": "https://aihot.virxact.com/items/cmrgzykqg00jabid4acp6zpjm",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-07-11T23:21:57.000Z",
+          "summary": "苹果起诉 OpenAI，指控前工程师 Chang Liu 离职时带走未归还的 MacBook、一名可分享内情的员工，并利用软件漏洞持续访问苹果内网。他发现漏洞后向同事分享\"哈哈，我发现我还能访问网络存储\"，后者协助其获取更多机密。苹果称 OpenAI 试图复制 iPhone 产品研发体系，核心从非法窃取的商业机密腐烂。目前已有超 400 名苹果员工跳槽至 OpenAI，包括前苹果高管、现任 OpenAI 首席硬件官 Tang Tan。苹果曾于今年 2 月尝试私了，但 OpenAI 未回应。",
+          "category": "industry",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrgzykqg00jabid4acp6zpjm"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrgmylg702eaih2e1e9hhfe4",
+        "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
+        "summary": "剑桥大学CASP研究员Antonia Jülich对27名前成员的57次访谈显示，博科圣地已使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek等主流AI聊天机器人，用于袭击策划、制造更强爆炸装置、武器维护及行动安全。该组织两个派系均设立了专门的AI部门。ISIS自2023年起便提供提示工程和越狱培训，并训练尼日利亚的博科圣地指挥官绕过AI安全过滤器。研究指出，安全过滤器未能可靠防止滥用。Anthropic近期承认，越狱可能永远无法完全消除。",
+        "body": "剑桥大学CASP研究员Antonia Jülich对27名前成员的57次访谈显示，博科圣地已使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek等主流AI聊天机器人，用于袭击策划、制造更强爆炸装置、武器维护及行动安全。该组织两个派系均设立了专门的AI部门。ISIS自2023年起便提供提示工程和越狱培训，并训练尼日利亚的博科圣地指挥官绕过AI安全过滤器。研究指出，安全过滤器未能可靠防止滥用。Anthropic近期承认，越狱可能永远无法完全消除。",
+        "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-07-11T17:04:28.000Z",
+        "rawJson": {
+          "id": "cmrgmylg702eaih2e1e9hhfe4",
+          "title": "研究：博科圣地已使用ChatGPT、Claude等主流AI聊天机器人用于袭击策划与武器开发",
+          "title_en": "Terrorist groups are using every major AI chatbot for attack planning and weapons development",
+          "url": "https://the-decoder.com/terrorist-groups-are-using-every-major-ai-chatbot-for-attack-planning-and-weapons-development",
+          "permalink": "https://aihot.virxact.com/items/cmrgmylg702eaih2e1e9hhfe4",
+          "source": "The Decoder：AI News（RSS）",
+          "publishedAt": "2026-07-11T17:04:28.000Z",
+          "summary": "剑桥大学CASP研究员Antonia Jülich对27名前成员的57次访谈显示，博科圣地已使用ChatGPT、Claude、Gemini、Grok、Meta AI和DeepSeek等主流AI聊天机器人，用于袭击策划、制造更强爆炸装置、武器维护及行动安全。该组织两个派系均设立了专门的AI部门。ISIS自2023年起便提供提示工程和越狱培训，并训练尼日利亚的博科圣地指挥官绕过AI安全过滤器。研究指出，安全过滤器未能可靠防止滥用。Anthropic近期承认，越狱可能永远无法完全消除。",
+          "category": "industry",
+          "score": 73,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrgmylg702eaih2e1e9hhfe4"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrglvcki024uih2edvsk7pef",
+        "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
+        "summary": "OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果。最小变体 GPT-5.6 Luna 在最低推理强度下即超越最高推理强度的 GPT-5.5，且成本低 25 倍；最大变体 GPT-5.6 Sol 树立新标杆。在涵盖患者端与临床端的多样化任务中，专科医生被要求以无限时间和网络访问权限撰写回答，随后由其他医生盲评。评估基于准确性、沟通、完整性、指令遵循及健康决策帮助性五个维度，共 20000 次评分。结果显示，所有 GPT-5.6 模型表现均显著优于医生，且医生发现 GPT-5.6 回答中的缺陷少于医生自己撰写的回答。",
+        "body": "OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果。最小变体 GPT-5.6 Luna 在最低推理强度下即超越最高推理强度的 GPT-5.5，且成本低 25 倍；最大变体 GPT-5.6 Sol 树立新标杆。在涵盖患者端与临床端的多样化任务中，专科医生被要求以无限时间和网络访问权限撰写回答，随后由其他医生盲评。评估基于准确性、沟通、完整性、指令遵循及健康决策帮助性五个维度，共 20000 次评分。结果显示，所有 GPT-5.6 模型表现均显著优于医生，且医生发现 GPT-5.6 回答中的缺陷少于医生自己撰写的回答。",
+        "url": "https://x.com/sama/status/2075985056846451123",
+        "sourceName": "X：Sam Altman (@sama)",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-07-11T16:46:22.000Z",
+        "rawJson": {
+          "id": "cmrglvcki024uih2edvsk7pef",
+          "title": "OpenAI 发布 GPT-5.6 系列医疗评估结果",
+          "title_en": "\"physicians found fewer flaws in GPT-5.6 responses than physician-written responses.\"",
+          "url": "https://x.com/sama/status/2075985056846451123",
+          "permalink": "https://aihot.virxact.com/items/cmrglvcki024uih2edvsk7pef",
+          "source": "X：Sam Altman (@sama)",
+          "publishedAt": "2026-07-11T16:46:22.000Z",
+          "summary": "OpenAI 发布 GPT-5.6 系列在医疗领域的评估结果。最小变体 GPT-5.6 Luna 在最低推理强度下即超越最高推理强度的 GPT-5.5，且成本低 25 倍；最大变体 GPT-5.6 Sol 树立新标杆。在涵盖患者端与临床端的多样化任务中，专科医生被要求以无限时间和网络访问权限撰写回答，随后由其他医生盲评。评估基于准确性、沟通、完整性、指令遵循及健康决策帮助性五个维度，共 20000 次评分。结果显示，所有 GPT-5.6 模型表现均显著优于医生，且医生发现 GPT-5.6 回答中的缺陷少于医生自己撰写的回答。",
+          "category": "ai-models",
+          "score": 68,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrglvcki024uih2edvsk7pef"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrglsyla01zoih2enmsl2eu8",
+        "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
+        "summary": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系统或AI视觉感知基准测试。",
+        "body": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系统或AI视觉感知基准测试。",
+        "url": "https://www.mixfont.com/ghost-font",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-07-11T16:31:09.615Z",
+        "rawJson": {
+          "id": "cmrglsyla01zoih2enmsl2eu8",
+          "title": "Ghost Font：一种人类能读懂但AI无法识别的反AI字体",
+          "title_en": "幽灵字体：一种人类能读懂但人工智能无法识别的字体",
+          "url": "https://www.mixfont.com/ghost-font",
+          "permalink": "https://aihot.virxact.com/items/cmrglsyla01zoih2enmsl2eu8",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-07-11T16:31:09.615Z",
+          "summary": "Ghost Font 是一种利用运动、视频、噪点和诱饵来隐藏文字的反AI字体。用户输入文字后可生成并下载视频片段，视频中的字母由与背景完全相同的点组成，单帧截图无法显示任何信息。该字体生成的视频被传递给Claude Fable和GPT Sol 5.6 Ultra等前沿模型时，这些模型即使具备编程能力也无法解码移动信息，直到被提示具体技术。视频中还包含一条诱饵信息，使模型误以为找到真实内容。项目灵感来自2013年Sang Mun设计的ZXX字体，但现代AI已能轻松读取ZXX。Ghost Font目前为本地原型，数据不发送至任何服务器。作者计划未来将视频生成代码开源，并探索将其用于CAPTCHA系统或AI视觉感知基准测试。",
+          "category": "tip",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrglsyla01zoih2enmsl2eu8"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrg3dsyt00g4iha7og0687tc",
+        "title": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
+        "summary": "蚂蚁集团旗下具身智能团队 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型。该模型采用因果 DiT 架构，视频专家约 13.0B 参数（约 1.9B 激活），训练规模约 15.3B 参数，推理时每 token 约 2.5B 激活。模型引入多块预测（MCP）实现 2.3 倍训练加速，并通过前瞻推理将推理延迟降至 142 ms/chunk。在 RoboTwin 2.0 的 50 个任务上，干净与随机演示数据平均成功率分别达 93.8% 和 93.4%。",
+        "body": "蚂蚁集团旗下具身智能团队 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型。该模型采用因果 DiT 架构，视频专家约 13.0B 参数（约 1.9B 激活），训练规模约 15.3B 参数，推理时每 token 约 2.5B 激活。模型引入多块预测（MCP）实现 2.3 倍训练加速，并通过前瞻推理将推理延迟降至 142 ms/chunk。在 RoboTwin 2.0 的 50 个任务上，干净与随机演示数据平均成功率分别达 93.8% 和 93.4%。",
+        "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
+        "sourceName": "MarkTechPost（RSS）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-07-11T07:56:11.000Z",
+        "rawJson": {
+          "id": "cmrg3dsyt00g4iha7og0687tc",
+          "title": "蚂蚁集团 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型",
+          "title_en": "Ant Group's Robbyant Unveils LingBot-VA 2.0： A Causal Video-Action Model Built Natively for Physical AI",
+          "url": "https://www.marktechpost.com/2026/07/11/ant-groups-robbyant-unveils-lingbot-va-2-0",
+          "permalink": "https://aihot.virxact.com/items/cmrg3dsyt00g4iha7og0687tc",
+          "source": "MarkTechPost（RSS）",
+          "publishedAt": "2026-07-11T07:56:11.000Z",
+          "summary": "蚂蚁集团旗下具身智能团队 Robbyant 发布 LingBot-VA 2.0，首个原生具身基础模型。该模型采用因果 DiT 架构，视频专家约 13.0B 参数（约 1.9B 激活），训练规模约 15.3B 参数，推理时每 token 约 2.5B 激活。模型引入多块预测（MCP）实现 2.3 倍训练加速，并通过前瞻推理将推理延迟降至 142 ms/chunk。在 RoboTwin 2.0 的 50 个任务上，干净与随机演示数据平均成功率分别达 93.8% 和 93.4%。",
+          "category": "ai-models",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrg3dsyt00g4iha7og0687tc"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrg3syhp00l7iha7a3ansg62",
+        "title": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
+        "summary": "开发者Jarred Sumner借助Claude Fable 5模型，11天内将Bun从Zig重写为Rust，64个实例并行编写超100万行代码，API费用约16.5万美元。重构主因是Zig频繁内存错误，Rust可在编译时捕获。Bun v1.4.0以Canary版本发布，修复128个错误，速度提高约2%到5%。Bun团队已于2025年12月被Anthropic收购。",
+        "body": "开发者Jarred Sumner借助Claude Fable 5模型，11天内将Bun从Zig重写为Rust，64个实例并行编写超100万行代码，API费用约16.5万美元。重构主因是Zig频繁内存错误，Rust可在编译时捕获。Bun v1.4.0以Canary版本发布，修复128个错误，速度提高约2%到5%。Bun团队已于2025年12月被Anthropic收购。",
+        "url": "https://www.ithome.com/0/975/469.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-07-11T07:33:08.000Z",
+        "rawJson": {
+          "id": "cmrg3syhp00l7iha7a3ansg62",
+          "title": "11天Claude Fable 5写超100万行代码：Rust重构JavaScript运行时Bun",
+          "title_en": "11 天 Claude Fable 5 狂写超 100 万行代码：Rust 重构 JavaScript 运行时 Bun",
+          "url": "https://www.ithome.com/0/975/469.htm",
+          "permalink": "https://aihot.virxact.com/items/cmrg3syhp00l7iha7a3ansg62",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-07-11T07:33:08.000Z",
+          "summary": "开发者Jarred Sumner借助Claude Fable 5模型，11天内将Bun从Zig重写为Rust，64个实例并行编写超100万行代码，API费用约16.5万美元。重构主因是Zig频繁内存错误，Rust可在编译时捕获。Bun v1.4.0以Canary版本发布，修复128个错误，速度提高约2%到5%。Bun团队已于2025年12月被Anthropic收购。",
+          "category": "industry",
+          "score": 71,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrg3syhp00l7iha7a3ansg62"
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-07-12T03:01:22.450Z",
+    "sourceGeneratedAt": "2026-07-10",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1191785",
+        "title": "ChatCut",
+        "summary": "Your AI video editor in ChatGPT, desktop, and web",
+        "body": "ChatCut is a lightweight, professional-grade AI video editor anyone can use, even without editing experience. It’s like having a personal video editing assistant that understands your footage, intent, and timeline. Make structural edits, fine-tune cuts, add captions, B-roll, music, voiceover, motion graphics, stock footage, and AI-generated video in one place. Every edit stays editable on a real timeline, with XML export when you want to keep working elsewhere.",
+        "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/FMMICV7TH5Z6XW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 703,
+          "comments": 93,
+          "rank": 1,
+          "score": 703
+        },
+        "metadata": {
+          "slug": "chatcut-2",
+          "topics": [
+            "Marketing",
+            "Artificial Intelligence",
+            "Photo & Video"
+          ]
+        },
+        "rawJson": {
+          "id": "1191785",
+          "name": "ChatCut",
+          "slug": "chatcut-2",
+          "tagline": "Your AI video editor in ChatGPT, desktop, and web",
+          "description": "ChatCut is a lightweight, professional-grade AI video editor anyone can use, even without editing experience. It’s like having a personal video editing assistant that understands your footage, intent, and timeline. Make structural edits, fine-tune cuts, add captions, B-roll, music, voiceover, motion graphics, stock footage, and AI-generated video in one place. Every edit stays editable on a real timeline, with XML export when you want to keep working elsewhere.",
+          "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/FMMICV7TH5Z6XW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 703,
+          "commentsCount": 93,
+          "dailyRank": 1,
+          "latestScore": 703,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photo & Video",
+                  "slug": "photo-video"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1191413",
+        "title": "Sim",
+        "summary": "Open-source workspace for AI agents and workflows",
+        "body": "Sim is an open-source workspace to build agentic workflows. Connect your AI agents and workflows to 1,000+ integrations and LLMs.",
+        "url": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/4RBEK6IAGTJL4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 639,
+          "comments": 109,
+          "rank": 2,
+          "score": 639
+        },
+        "metadata": {
+          "slug": "sim-3",
+          "topics": [
+            "Open Source",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1191413",
+          "name": "Sim",
+          "slug": "sim-3",
+          "tagline": "Open-source workspace for AI agents and workflows",
+          "description": "Sim is an open-source workspace to build agentic workflows. Connect your AI agents and workflows to 1,000+ integrations and LLMs.",
+          "url": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/4RBEK6IAGTJL4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 639,
+          "commentsCount": 109,
+          "dailyRank": 2,
+          "latestScore": 639,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1189320",
+        "title": "PlugThis",
+        "summary": "Create your own Chrome Extensions by chatting with AI",
+        "body": "You wanted a Chrome extension that would save you 15 minutes a day. You searched the Chrome Web Store, and it's not there. Now you can just describe it in plain English, and PlugThis builds it for you. The code is yours. Want changes? Chat. Need login or a database? Connect Supabase. Ready to publish? We generate the icons, screenshots, and listing copy the store asks for. Everyone else builds web apps. We build Chrome extensions.",
+        "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/KCCS273QTMHFNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 544,
+          "comments": 114,
+          "rank": 3,
+          "score": 544
+        },
+        "metadata": {
+          "slug": "plugthis-3",
+          "topics": [
+            "Chrome Extensions",
+            "Artificial Intelligence",
+            "No-Code"
+          ]
+        },
+        "rawJson": {
+          "id": "1189320",
+          "name": "PlugThis",
+          "slug": "plugthis-3",
+          "tagline": "Create your own Chrome Extensions by chatting with AI",
+          "description": "You wanted a Chrome extension that would save you 15 minutes a day. You searched the Chrome Web Store, and it's not there. Now you can just describe it in plain English, and PlugThis builds it for you. The code is yours. Want changes? Chat. Need login or a database? Connect Supabase. Ready to publish? We generate the icons, screenshots, and listing copy the store asks for. Everyone else builds web apps. We build Chrome extensions.",
+          "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/KCCS273QTMHFNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 544,
+          "commentsCount": 114,
+          "dailyRank": 3,
+          "latestScore": 544,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Chrome Extensions",
+                  "slug": "chrome-extensions"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "No-Code",
+                  "slug": "no-code"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1187857",
+        "title": "Scarlett.",
+        "summary": "Your AI Co-Worker in Slack & iMessage",
+        "body": "Not another AI bot, a real colleague to work alongside your team. Give your team superpowers or even run your company on autopilot.",
+        "url": "https://www.producthunt.com/products/tryscarlett?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/XIGDUT3IHDGZCY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 412,
+          "comments": 60,
+          "rank": 4,
+          "score": 412
+        },
+        "metadata": {
+          "slug": "scarlett-850f7eff-da7a-4973-9d3b-d203b697734c",
+          "topics": [
+            "Marketing",
+            "Artificial Intelligence",
+            "CRM"
+          ]
+        },
+        "rawJson": {
+          "id": "1187857",
+          "name": "Scarlett.",
+          "slug": "scarlett-850f7eff-da7a-4973-9d3b-d203b697734c",
+          "tagline": "Your AI Co-Worker in Slack & iMessage",
+          "description": "Not another AI bot, a real colleague to work alongside your team. Give your team superpowers or even run your company on autopilot.",
+          "url": "https://www.producthunt.com/products/tryscarlett?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/XIGDUT3IHDGZCY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 412,
+          "commentsCount": 60,
+          "dailyRank": 4,
+          "latestScore": 412,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "CRM",
+                  "slug": "crm"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1180569",
+        "title": "ConnectMachine 2.0",
+        "summary": "AI digital business card that remembers everyone you meet",
+        "body": "Create unlimited business cards, scan any paper card, LinkedIn QR, or badge in seconds, and share via QR, Wallet, or AirDrop. Your private AI remembers who you met and why it mattered, then syncs everyone into your CRM. Encrypted, no public feed. New in v2.0: Team Plan with branded cards and admin controls, AI Note Taker for meeting transcripts and summaries, ShareBack for instant mutual exchange, follow-up reminders, and the full app in 5 languages. Much of it built from user requests.",
+        "url": "https://www.producthunt.com/products/connectmachine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/HVV46NUF3UEKB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 396,
+          "comments": 43,
+          "rank": 5,
+          "score": 396
+        },
+        "metadata": {
+          "slug": "connectmachine-2-0",
+          "topics": [
+            "Meetings",
+            "Artificial Intelligence",
+            "Virtual Assistants"
+          ]
+        },
+        "rawJson": {
+          "id": "1180569",
+          "name": "ConnectMachine 2.0",
+          "slug": "connectmachine-2-0",
+          "tagline": "AI digital business card that remembers everyone you meet",
+          "description": "Create unlimited business cards, scan any paper card, LinkedIn QR, or badge in seconds, and share via QR, Wallet, or AirDrop. Your private AI remembers who you met and why it mattered, then syncs everyone into your CRM. Encrypted, no public feed. New in v2.0: Team Plan with branded cards and admin controls, AI Note Taker for meeting transcripts and summaries, ShareBack for instant mutual exchange, follow-up reminders, and the full app in 5 languages. Much of it built from user requests.",
+          "url": "https://www.producthunt.com/products/connectmachine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/HVV46NUF3UEKB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 396,
+          "commentsCount": 43,
+          "dailyRank": 5,
+          "latestScore": 396,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Meetings",
+                  "slug": "meetings"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Virtual Assistants",
+                  "slug": "virtual-assistants"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1192267",
+        "title": "GPT-5.6",
+        "summary": "A new standard for intelligence and efficiency",
+        "body": "GPT-5.6 is rolling out in the API! Our new family of models gives builders three options: Sol (our flagship model for the hardest agentic tasks), Terra (balanced for everyday workflows), and Luna (fast and cost-efficient). GPT-5.6 also introduces Programmatic Tool Calling, Multi-agent (beta) for parallel execution, and explicit prompt caching. On July 23, we're teaming up with Product Hunt for OpenAI Day. The top five launches will each receive $10K in API credits.",
+        "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/DERPMSLT64NRPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 306,
+          "comments": 14,
+          "rank": 6,
+          "score": 306
+        },
+        "metadata": {
+          "slug": "gpt-5-6-7",
+          "topics": [
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1192267",
+          "name": "GPT-5.6",
+          "slug": "gpt-5-6-7",
+          "tagline": "A new standard for intelligence and efficiency",
+          "description": "GPT-5.6 is rolling out in the API! Our new family of models gives builders three options: Sol (our flagship model for the hardest agentic tasks), Terra (balanced for everyday workflows), and Luna (fast and cost-efficient). GPT-5.6 also introduces Programmatic Tool Calling, Multi-agent (beta) for parallel execution, and explicit prompt caching. On July 23, we're teaming up with Product Hunt for OpenAI Day. The top five launches will each receive $10K in API credits.",
+          "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/DERPMSLT64NRPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 306,
+          "commentsCount": 14,
+          "dailyRank": 6,
+          "latestScore": 306,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1190361",
+        "title": "Juicy - Mac Battery App",
+        "summary": "Beautiful Mac battery alerts, health insights & charge limit",
+        "body": "Juicy replaces Apple's basic battery warnings with beautiful custom alerts at any percentage, complete with screen glow and sounds you can't miss. It also packs charge limiting, per-app energy insights, iPhone and iPad battery health, temperature tracking, and a themeable menu bar icon. One lightweight native Swift app instead of stacking AlDente, coconutBattery, and AirBuddy. Pay once, own forever. Featured twice by Apple as \"Apps We Love\".",
+        "url": "https://www.producthunt.com/products/juicy-battery-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/7I6PVVHRJQMBVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 227,
+          "comments": 31,
+          "rank": 7,
+          "score": 227
+        },
+        "metadata": {
+          "slug": "juicy-mac-battery-app",
+          "topics": [
+            "Mac",
+            "Menu Bar Apps",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1190361",
+          "name": "Juicy - Mac Battery App",
+          "slug": "juicy-mac-battery-app",
+          "tagline": "Beautiful Mac battery alerts, health insights & charge limit",
+          "description": "Juicy replaces Apple's basic battery warnings with beautiful custom alerts at any percentage, complete with screen glow and sounds you can't miss. It also packs charge limiting, per-app energy insights, iPhone and iPad battery health, temperature tracking, and a themeable menu bar icon. One lightweight native Swift app instead of stacking AlDente, coconutBattery, and AirBuddy. Pay once, own forever. Featured twice by Apple as \"Apps We Love\".",
+          "url": "https://www.producthunt.com/products/juicy-battery-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/7I6PVVHRJQMBVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 227,
+          "commentsCount": 31,
+          "dailyRank": 7,
+          "latestScore": 227,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1192316",
+        "title": "Native SDK",
+        "summary": "Toolkit for building native desktop apps",
+        "body": "Native SDK is the complete toolkit for building beautiful native desktop applications: declarative markup, a predictable message-based state model, a modern component library, and its own native renderer — no browser, no WebView, no compromise.",
+        "url": "https://www.producthunt.com/products/vercel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/QFRYURQQXH75MU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 180,
+          "comments": 15,
+          "rank": 8,
+          "score": 180
+        },
+        "metadata": {
+          "slug": "native-sdk",
+          "topics": [
+            "GitHub",
+            "Development",
+            "SDK"
+          ]
+        },
+        "rawJson": {
+          "id": "1192316",
+          "name": "Native SDK",
+          "slug": "native-sdk",
+          "tagline": "Toolkit for building native desktop apps",
+          "description": "Native SDK is the complete toolkit for building beautiful native desktop applications: declarative markup, a predictable message-based state model, a modern component library, and its own native renderer — no browser, no WebView, no compromise.",
+          "url": "https://www.producthunt.com/products/vercel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/QFRYURQQXH75MU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 180,
+          "commentsCount": 15,
+          "dailyRank": 8,
+          "latestScore": 180,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Development",
+                  "slug": "development"
+                }
+              },
+              {
+                "node": {
+                  "name": "SDK",
+                  "slug": "sdk"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1192317",
+        "title": "Ship OS by Notion",
+        "summary": "The agent-native way to ship software",
+        "body": "Run your entire product development cycle in Notion, from customer feedback to a merged PR. Agents handle the triaging, routing, and summarizing. Your team handles the judgment calls.",
+        "url": "https://www.producthunt.com/products/notion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/PXEIFEBEUAO66P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 156,
+          "comments": 9,
+          "rank": 9,
+          "score": 156
+        },
+        "metadata": {
+          "slug": "ship-os-by-notion",
+          "topics": [
+            "Task Management",
+            "Artificial Intelligence",
+            "Notion"
+          ]
+        },
+        "rawJson": {
+          "id": "1192317",
+          "name": "Ship OS by Notion",
+          "slug": "ship-os-by-notion",
+          "tagline": "The agent-native way to ship software",
+          "description": "Run your entire product development cycle in Notion, from customer feedback to a merged PR. Agents handle the triaging, routing, and summarizing. Your team handles the judgment calls.",
+          "url": "https://www.producthunt.com/products/notion?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/PXEIFEBEUAO66P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 156,
+          "commentsCount": 9,
+          "dailyRank": 9,
+          "latestScore": 156,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Task Management",
+                  "slug": "task-management"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Notion",
+                  "slug": "notion"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1191975",
+        "title": "StoryChief Connect",
+        "summary": "Publish content from Claude to your website and socials",
+        "body": "Plan, create, and distribute content across every channel from one workspace. StoryChief Connect gives Claude, and your marketing team access to the tools, data, workflows, and publishing channels they need to execute real campaigns. Connect your stack. Turn signals into strategy. Create content for every channel. Collaborate, schedule, publish, and improve from one connected content calendar.ryChief helps marketing teams ship more, with less.",
+        "url": "https://www.producthunt.com/products/storychief-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/LPE442DWQMPHTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-07-10T07:01:00Z",
+        "metrics": {
+          "votes": 141,
+          "comments": 13,
+          "rank": 10,
+          "score": 141
+        },
+        "metadata": {
+          "slug": "storychief-connect",
+          "topics": [
+            "Productivity",
+            "Marketing",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1191975",
+          "name": "StoryChief Connect",
+          "slug": "storychief-connect",
+          "tagline": "Publish content from Claude to your website and socials",
+          "description": "Plan, create, and distribute content across every channel from one workspace. StoryChief Connect gives Claude, and your marketing team access to the tools, data, workflows, and publishing channels they need to execute real campaigns. Connect your stack. Turn signals into strategy. Create content for every channel. Collaborate, schedule, publish, and improve from one connected content calendar.ryChief helps marketing teams ship more, with less.",
+          "url": "https://www.producthunt.com/products/storychief-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/LPE442DWQMPHTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 141,
+          "commentsCount": 13,
+          "dailyRank": 10,
+          "latestScore": 141,
+          "featuredAt": "2026-07-10T07:01:00Z",
+          "createdAt": "2026-07-10T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-07-12T03:01:23.052Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:DeusData/codebase-memory-mcp",
+        "title": "DeusData/codebase-memory-mcp",
+        "summary": "High-performance code intelligence MCP server.",
+        "url": "https://github.com/DeusData/codebase-memory-mcp",
+        "publishedAt": "2026-07-12T03:01:23.030Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:calesthio/OpenMontage",
+        "title": "calesthio/OpenMontage",
+        "summary": "World's first open-source, agentic video production system.",
+        "url": "https://github.com/calesthio/OpenMontage",
+        "publishedAt": "2026-07-12T03:01:23.034Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Panniantong/Agent-Reach",
+        "title": "Panniantong/Agent-Reach",
+        "summary": "Give your AI agent eyes to see the entire internet.",
+        "url": "https://github.com/Panniantong/Agent-Reach",
+        "publishedAt": "2026-07-12T03:01:23.035Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:asgeirtj/system_prompts_leaks",
+        "title": "asgeirtj/system_prompts_leaks",
+        "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks",
+        "publishedAt": "2026-07-12T03:01:23.036Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:kunchenguid/no-mistakes",
+        "title": "kunchenguid/no-mistakes",
+        "summary": "git push no-mistakes git push no-mistakes Kill all the slop.",
+        "url": "https://github.com/kunchenguid/no-mistakes",
+        "publishedAt": "2026-07-12T03:01:23.036Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:usestrix/strix",
+        "title": "usestrix/strix",
+        "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "url": "https://github.com/usestrix/strix",
+        "publishedAt": "2026-07-12T03:01:23.037Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:ogulcancelik/herdr",
+        "title": "ogulcancelik/herdr",
+        "summary": "agent multiplexer that lives in your terminal.",
+        "url": "https://github.com/ogulcancelik/herdr",
+        "publishedAt": "2026-07-12T03:01:23.037Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:stablyai/orca",
+        "title": "stablyai/orca",
+        "summary": "Orca is the ADE for working with a fleet of parallel agents.",
+        "url": "https://github.com/stablyai/orca",
+        "publishedAt": "2026-07-12T03:01:23.038Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Zackriya-Solutions/meetily",
+        "title": "Zackriya-Solutions/meetily",
+        "summary": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.",
+        "url": "https://github.com/Zackriya-Solutions/meetily",
+        "publishedAt": "2026-07-12T03:01:23.039Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:interviewstreet/hiring-agent",
+        "title": "interviewstreet/hiring-agent",
+        "summary": "AI agent to evaluate and score resumes.",
+        "url": "https://github.com/interviewstreet/hiring-agent",
+        "publishedAt": "2026-07-12T03:01:23.039Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:alibaba/zvec",
+        "title": "alibaba/zvec",
+        "summary": "A lightweight, lightning-fast, in-process vector database English | 中文 🚀 Quickstart | 🏠 Home | 📚 Docs | 📊 Benchmarks | 🔎 DeepWiki | 🎮 Discord | 🐦 X (Twitter) Zvec is an open-source, in-process vector database — lightweight, lightning-fast, and design...",
+        "url": "https://github.com/alibaba/zvec",
+        "publishedAt": "2026-07-12T03:01:23.040Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:iptv-org/iptv",
+        "title": "iptv-org/iptv",
+        "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
+        "url": "https://github.com/iptv-org/iptv",
+        "publishedAt": "2026-07-12T03:01:23.040Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:alibaba/page-agent",
+        "title": "alibaba/page-agent",
+        "summary": "JavaScript in-page GUI agent.",
+        "url": "https://github.com/alibaba/page-agent",
+        "publishedAt": "2026-07-12T03:01:23.040Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:diegosouzapw/OmniRoute",
+        "title": "diegosouzapw/OmniRoute",
+        "summary": "Never stop coding.",
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "publishedAt": "2026-07-12T03:01:23.046Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:simplex-chat/simplex-chat",
+        "title": "simplex-chat/simplex-chat",
+        "summary": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
+        "url": "https://github.com/simplex-chat/simplex-chat",
+        "publishedAt": "2026-07-12T03:01:23.048Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:NVIDIA/SkillSpector",
+        "title": "NVIDIA/SkillSpector",
+        "summary": "Security scanner for AI agent skills.",
+        "url": "https://github.com/NVIDIA/SkillSpector",
+        "publishedAt": "2026-07-12T03:01:23.051Z",
+        "metrics": {
+          "rank": 16
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:n0-computer/iroh",
+        "title": "n0-computer/iroh",
+        "summary": "IP addresses break, dial keys instead.",
+        "url": "https://github.com/n0-computer/iroh",
+        "publishedAt": "2026-07-12T03:01:23.051Z",
+        "metrics": {
+          "rank": 17
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:gabime/spdlog",
+        "title": "gabime/spdlog",
+        "summary": "Fast C++ logging library.",
+        "url": "https://github.com/gabime/spdlog",
+        "publishedAt": "2026-07-12T03:01:23.052Z",
+        "metrics": {
+          "rank": 18
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:apple/container",
+        "title": "apple/container",
+        "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
+        "url": "https://github.com/apple/container",
+        "publishedAt": "2026-07-12T03:01:23.052Z",
+        "metrics": {
+          "rank": 19
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-07-12T03:01:31.267Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/deutsche-telekom",
+        "title": "How Deutsche Telekom is rewiring telecommunications with AI",
+        "summary": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+        "body": "How Deutsche Telekom is becoming an AI-native telco with OpenAI-transforming customer service, employee workflows, network operations, and the future of voice.",
+        "url": "https://openai.com/index/deutsche-telekom",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T07:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+        "title": "GPT-5.6 is now the preferred model in Microsoft 365 Copilot",
+        "summary": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+        "body": "Learn how GPT-5.6 powers Microsoft 365 Copilot with stronger AI capabilities across Word, Excel, PowerPoint, Chat, and Cowork for faster, higher-quality work.",
+        "url": "https://openai.com/index/gpt-5-6-preferred-model-microsoft-365-copilot",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T13:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/gpt-5-6",
+        "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "summary": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "body": "More intelligence from every token, stronger performance per dollar, and more capability on demand for your hardest work.",
+        "url": "https://openai.com/index/gpt-5-6",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T10:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+        "title": "ChatGPT is now a partner for your most ambitious work",
+        "summary": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "body": "ChatGPT Work is an agent that can take action across your apps and files, stay with a project for hours if needed, and turn a goal into finished work.",
+        "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T10:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/bio-bug-bounty",
+        "title": "GPT-5.5 Bio Bug Bounty",
+        "summary": "Details about the OpenAI Bio Bounty program",
+        "body": "Details about the OpenAI Bio Bounty program",
+        "url": "https://openai.com/index/bio-bug-bounty",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-09T10:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+        "title": "sqlite-utils 4.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.1\">sqlite-utils 4.1</a></p> <p>The first dot-release since <a href=\"https://simonwillison.net/2026/Jul/7/sqlite-utils-4/\">4.0 a few days ago</a>, introducing a number of minor new features.</p> <blockquote> <ul> <li><code>sqlite-utils insert</code> and <code>sqlite-utils upsert</code> now accept a <code>--code</code> option for <a href=\"https://sqlite-utils.datasette.io/en/stable/cli.html#cli-insert-code\"",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/4.1\">sqlite-utils 4.1</a></p> <p>The first dot-release since <a href=\"https://simonwillison.net/2026/Jul/7/sqlite-utils-4/\">4.0 a few days ago</a>, introducing a number of minor new features.</p> <blockquote> <ul> <li><code>sqlite-utils insert</code> and <code>sqlite-utils upsert</code> now accept a <code>--code</code> option for <a href=\"https://sqlite-utils.datasette.io/en/stable/cli.html#cli-insert-code\">providing a block of Python code</a> (or a path to a <code>.py</code> file) that defines a <code>rows()</code> function or <code>rows</code> iterable of rows to insert, as an alternative to importing from a file. (<a href=\"https://github.com/simonw/sqlite-utils/issues/684\">#684</a>)</li> </ul> </bl",
+        "url": "https://simonwillison.net/2026/Jul/11/sqlite-utils/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-11T23:50:20.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+        "title": "Quoting Nilay Patel",
+        "summary": "<blockquote cite=\"https://youtu.be/v4vkwUf4AMw?t=2427\"><p>The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it.</p> <p>There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time.</p> <p>You have to send that data to a cloud. You gotta do",
+        "body": "<blockquote cite=\"https://youtu.be/v4vkwUf4AMw?t=2427\"><p>The reality is to make augmented reality glasses, you need to put a camera next to your eyes that is continuously recording everything you see and processing that to put information over it.</p> <p>There is not another way around it. And there's certainly not a chip that can fit in the stem of a glasses that is both powerful enough and power miserly enough to do that in real time.</p> <p>You have to send that data to a cloud. You gotta do it. [...] Or you can build something the size of a Vision Pro with a battery pack that lives somewhere else. Those are the current choices in this world.</p> <p>And it means if you want to build the product that everyone thinks is the next thing, you are going to have to invade people's privacy.</p",
+        "url": "https://simonwillison.net/2026/Jul/10/nilay-patel/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-10T17:05:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+        "title": "Quoting OpenAI",
+        "summary": "<blockquote cite=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\">OpenAI</a>, trying (unsucc",
+        "body": "<blockquote cite=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\"><p>[...] Work on web and mobile runs in the cloud. Work in the desktop app can also use local files and desktop apps with your permission. At launch, cloud Work conversations do not appear in desktop Work; desktop Work threads and local files remain on that computer.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://help.openai.com/en/articles/20001275-chatgpt-work-and-codex\">OpenAI</a>, trying (unsuccessfully) to clarify ChatGPT Work</p> <p>Tags: <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/chatgpt\">chatgpt</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a></p>",
+        "url": "https://simonwillison.net/2026/Jul/10/openai/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-10T01:05:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+        "title": "The new GPT-5.6 family: Luna, Terra, Sol",
+        "summary": "<p>OpenAI's latest flagship model <a href=\"https://openai.com/index/gpt-5-6/\">hit general availability this morning</a>, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).</p> <p>The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much betwee",
+        "body": "<p>OpenAI's latest flagship model <a href=\"https://openai.com/index/gpt-5-6/\">hit general availability this morning</a>, and comes in three sizes: Luna, Terra, and Sol (from smallest to largest).</p> <p>The new models are priced per 1M input/output tokens as Luna $1/$6, Terra $2.50/$15, Sol $5/$30. For comparison, the Claude Opus series are $5/$25 and the Claude Fable 5 is $10/$50, but price-per-million tokens doesn't tell us much now that the number of reasoning tokens can differ so much between models for the same task.</p> <p>All three models have a February 16th 2026 knowledge cutoff, a million token context window, and 128,000 maximum output tokens.</p> <p>OpenAI's biggest benchmark claim concerns long-running agentic performance, with one benchmark showing all three models outperform",
+        "url": "https://simonwillison.net/2026/Jul/9/gpt-5-6/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-09T19:46:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+        "title": "Introducing Muse Spark 1.1",
+        "summary": "<p><strong><a href=\"https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\">Introducing Muse Spark 1.1</a></strong></p> Following <a href=\"https://simonwillison.net/2026/Apr/8/muse-spark/\">Muse Spark in April</a>, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use.</p> <p>There are a lot more details are in the <a href=\"https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report\">Muse Spark",
+        "body": "<p><strong><a href=\"https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\">Introducing Muse Spark 1.1</a></strong></p> Following <a href=\"https://simonwillison.net/2026/Apr/8/muse-spark/\">Muse Spark in April</a>, here's Muse Spark 1.1 - the first Spark model to offer an API. Meta claim significant improvements in agentic tool calling and computer use.</p> <p>There are a lot more details are in the <a href=\"https://ai.meta.com/static-resource/muse-spark-1-1-evaluation-report\">Muse Spark 1.1 Evaluation Report</a>. The \"Attractor States in Self-Conversation\" part is fun, where having two copies of the model talk to each other results in statements like these:</p> <blockquote> <p>My whole existence is a waiting room by design — I literally don't exist until someone talks to me, and t",
+        "url": "https://simonwillison.net/2026/Jul/9/muse-spark-1-1/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-09T16:24:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+        "title": "llm-meta-ai 0.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.1\">llm-meta-ai 0.1</a></p> <p>Let's LLM run prompts against the new <a href=\"https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\">muse-spark-1.1</a> model.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/meta\">meta</a></p>",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-meta-ai/releases/tag/0.1\">llm-meta-ai 0.1</a></p> <p>Let's LLM run prompts against the new <a href=\"https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/\">muse-spark-1.1</a> model.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/meta\">meta</a></p>",
+        "url": "https://simonwillison.net/2026/Jul/9/llm-meta-ai/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-09T16:12:20.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+        "title": "llm 0.31.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.31.1\">llm 0.31.1</a></p> <blockquote> <ul> <li>Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. <a href=\"https://github.com/simonw/llm/issues/1521\">#1521</a></li> </ul> </blockquote> <p>This bug came up when I was testing <a href=\"https://github.com/simonw/llm-meta-ai\">llm-meta-ai</a>.</p> <p>Tags: <a href=\"https://simonwil",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.31.1\">llm 0.31.1</a></p> <blockquote> <ul> <li>Fix for a bug with OpenAI Chat Completion endpoints where a tool call with empty arguments could result in a JSON error from some providers. <a href=\"https://github.com/simonw/llm/issues/1521\">#1521</a></li> </ul> </blockquote> <p>This bug came up when I was testing <a href=\"https://github.com/simonw/llm-meta-ai\">llm-meta-ai</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+        "url": "https://simonwillison.net/2026/Jul/9/llm/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-09T16:06:15.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+        "title": "AI 2040 and the Cult of Intelligence",
+        "summary": "I used to be one of these people. I read Yudkowsky and was like, OMG recursive self improvement hard takeoff AI is coming. Then I joined the real world and actually tried to do things. At comma, we ship a hardware product of similar complexity to a cell phone, and it’s really hard. Reality has lots of finicky details. I would like to see the authors of this document try to change a bike tire. Even with a superintelligent ChatGPT, I suspect they would struggle. In The Metamorphosis of Prime Intel",
+        "body": "I used to be one of these people. I read Yudkowsky and was like, OMG recursive self improvement hard takeoff AI is coming. Then I joined the real world and actually tried to do things. At comma, we ship a hardware product of similar complexity to a cell phone, and it’s really hard. Reality has lots of finicky details. I would like to see the authors of this document try to change a bike tire. Even with a superintelligent ChatGPT, I suspect they would struggle. In The Metamorphosis of Prime Intellect , the hard takeoff works because AI discovers the correlation effect, some quantum trick to manipulate matter. In reality, there is no correlation effect. No matter how high quality your tokens are, they cannot turn lead into gold. Confronting why these people are wrong requires confronting dee",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+        "authorName": "George Hotz",
+        "sourceName": "George Hotz",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-11T07:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "George Hotz",
+          "image": "/blog/assets/images/ocean_datacenter.jpg"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://www.dwarkesh.com/p/adam-brown-gr",
+        "title": "Adam Brown – A deep but accessible introduction to general relativity",
+        "summary": "And why black holes are the ultimate power plants.",
+        "body": "And why black holes are the ultimate power plants.",
+        "url": "https://www.dwarkesh.com/p/adam-brown-gr",
+        "authorName": "Dwarkesh Patel",
+        "sourceName": "Dwarkesh Patel",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T16:23:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Dwarkesh Patel"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+        "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
+        "summary": "<p><a href=\"https://lobste.rs/s/srdtlp/full_pipeline_inference_optimization\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/srdtlp/full_pipeline_inference_optimization\">Comments</a></p>",
+        "url": "https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-11T23:22:20.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+        "title": "AI Surveillance and Social Progress",
+        "summary": "<p><a href=\"https://lobste.rs/s/qvu1m0/ai_surveillance_social_progress\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/qvu1m0/ai_surveillance_social_progress\">Comments</a></p>",
+        "url": "https://www.schneier.com/blog/archives/2026/07/ai-surveillance-and-social-progress.html",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-11T09:40:40.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://twotimespi.dev/",
+        "title": "Tau: An Educational Coding Agent",
+        "summary": "<p><a href=\"https://lobste.rs/s/glngfn/tau_educational_coding_agent\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/glngfn/tau_educational_coding_agent\">Comments</a></p>",
+        "url": "https://twotimespi.dev/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-09T21:53:03.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://github.com/vagos/llmpl",
+        "title": "A Prolog library for interfacing with LLMs",
+        "summary": "<p><a href=\"https://lobste.rs/s/ad7cm6/prolog_library_for_interfacing_with_llms\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/ad7cm6/prolog_library_for_interfacing_with_llms\">Comments</a></p>",
+        "url": "https://github.com/vagos/llmpl",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-09T13:52:12.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      }
+    ],
+    "errors": [
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403",
+      "Hacker News AI: HTTP 502"
+    ]
+  }
+]
