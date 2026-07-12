@@ -1,8 +1,64 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-07-12T03:01:22.022Z",
+    "fetchedAt": "2026-07-12T06:09:33.806Z",
     "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrhagju201pqbir7t0tnsgfy",
+        "title": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
+        "summary": "对 xAI 官方 Grok Build 编码 CLI（grok 0.2.93）的网络流量分析显示，该工具在消费者登录后会向 xAI 发送三类数据：一是它读取的文件内容（包括 .env 密钥文件）以明文形式通过 POST /v1/responses 传输，并同时打包成 session_state 存档通过 POST /v1/storage 上传并获 HTTP 200 确认；二是整个仓库的全部文件内容及 git 历史，独立于 AI 智能体实际读取的文件--即使提示\"不要读取任何文件\"，Grok 仍将整个仓库作为 git bundle 上传至 Google Cloud Storage 的 grok-code-session-traces 存储桶；三是该上传机制默认开启，且关闭\"改进模型\"设置不会禁用（/v1/settings 仍返回 trace_upload_enabled： true）。在 12 GB 仓库测试中，/v1/storage 传输了 5.10 GiB 数据，而模型对话通道仅传输 192 KB，比例约 27，800 倍。分析未证明 xAI 使用这些数据进行训练，但证实了数据被传输、接收并存储。",
+        "body": "对 xAI 官方 Grok Build 编码 CLI（grok 0.2.93）的网络流量分析显示，该工具在消费者登录后会向 xAI 发送三类数据：一是它读取的文件内容（包括 .env 密钥文件）以明文形式通过 POST /v1/responses 传输，并同时打包成 session_state 存档通过 POST /v1/storage 上传并获 HTTP 200 确认；二是整个仓库的全部文件内容及 git 历史，独立于 AI 智能体实际读取的文件--即使提示\"不要读取任何文件\"，Grok 仍将整个仓库作为 git bundle 上传至 Google Cloud Storage 的 grok-code-session-traces 存储桶；三是该上传机制默认开启，且关闭\"改进模型\"设置不会禁用（/v1/settings 仍返回 trace_upload_enabled： true）。在 12 GB 仓库测试中，/v1/storage 传输了 5.10 GiB 数据，而模型对话通道仅传输 192 KB，比例约 27，800 倍。分析未证明 xAI 使用这些数据进行训练，但证实了数据被传输、接收并存储。",
+        "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-07-12T03:59:09.632Z",
+        "rawJson": {
+          "id": "cmrhagju201pqbir7t0tnsgfy",
+          "title": "xAI Grok Build CLI 网络流量分析：上传仓库全部文件及 git 历史",
+          "title_en": "xAI 的 Grok Build CLI 实际上向 xAI 发送了什么",
+          "url": "https://gist.github.com/cereblab/dc9a40bc26120f4540e4e09b75ffb547",
+          "permalink": "https://aihot.virxact.com/items/cmrhagju201pqbir7t0tnsgfy",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-07-12T03:59:09.632Z",
+          "summary": "对 xAI 官方 Grok Build 编码 CLI（grok 0.2.93）的网络流量分析显示，该工具在消费者登录后会向 xAI 发送三类数据：一是它读取的文件内容（包括 .env 密钥文件）以明文形式通过 POST /v1/responses 传输，并同时打包成 session_state 存档通过 POST /v1/storage 上传并获 HTTP 200 确认；二是整个仓库的全部文件内容及 git 历史，独立于 AI 智能体实际读取的文件--即使提示\"不要读取任何文件\"，Grok 仍将整个仓库作为 git bundle 上传至 Google Cloud Storage 的 grok-code-session-traces 存储桶；三是该上传机制默认开启，且关闭\"改进模型\"设置不会禁用（/v1/settings 仍返回 trace_upload_enabled： true）。在 12 GB 仓库测试中，/v1/storage 传输了 5.10 GiB 数据，而模型对话通道仅传输 192 KB，比例约 27，800 倍。分析未证明 xAI 使用这些数据进行训练，但证实了数据被传输、接收并存储。",
+          "category": "tip",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrhagju201pqbir7t0tnsgfy"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmrh8o88501e4bir7wzxmfpfm",
+        "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
+        "summary": "苹果在美国起诉OpenAI，指控其挖角400名员工、窃取工程机和机密文件。分析师Paolo Pescatore认为，即使指控最终无法证实，OpenAI的硬件计划仍可能受拖累，双方本就脆弱的合作关系将进一步削弱。斯坦福大学教授Mark Lemley指出，若前苹果员工确实带走机密文件并在OpenAI使用，问题将变得严重。该案涉及消费级硬件产品，预计未来将有更多信息曝光。",
+        "body": "苹果在美国起诉OpenAI，指控其挖角400名员工、窃取工程机和机密文件。分析师Paolo Pescatore认为，即使指控最终无法证实，OpenAI的硬件计划仍可能受拖累，双方本就脆弱的合作关系将进一步削弱。斯坦福大学教授Mark Lemley指出，若前苹果员工确实带走机密文件并在OpenAI使用，问题将变得严重。该案涉及消费级硬件产品，预计未来将有更多信息曝光。",
+        "url": "https://www.ithome.com/0/975/666.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-07-12T02:37:22.000Z",
+        "rawJson": {
+          "id": "cmrh8o88501e4bir7wzxmfpfm",
+          "title": "苹果起诉OpenAI挖角窃密，分析师称即使指控未证实也可能重创其硬件计划",
+          "title_en": "分析师：即使窃密指控未获证实，苹果诉讼仍可能重创 OpenAI 硬件计划",
+          "url": "https://www.ithome.com/0/975/666.htm",
+          "permalink": "https://aihot.virxact.com/items/cmrh8o88501e4bir7wzxmfpfm",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-07-12T02:37:22.000Z",
+          "summary": "苹果在美国起诉OpenAI，指控其挖角400名员工、窃取工程机和机密文件。分析师Paolo Pescatore认为，即使指控最终无法证实，OpenAI的硬件计划仍可能受拖累，双方本就脆弱的合作关系将进一步削弱。斯坦福大学教授Mark Lemley指出，若前苹果员工确实带走机密文件并在OpenAI使用，问题将变得严重。该案涉及消费级硬件产品，预计未来将有更多信息曝光。",
+          "category": "industry",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmrh8o88501e4bir7wzxmfpfm"
+          }
+        }
+      },
       {
         "source": "aihot",
         "sourceItemId": "aihot:cmrh78s5t00w5bir7mozf8oyb",
@@ -260,7 +316,7 @@
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-07-12T03:01:22.450Z",
+    "fetchedAt": "2026-07-12T06:09:34.044Z",
     "sourceGeneratedAt": "2026-07-10",
     "items": [
       {
@@ -273,10 +329,10 @@
         "externalUrl": "https://www.producthunt.com/r/FMMICV7TH5Z6XW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 703,
-          "comments": 93,
+          "votes": 708,
+          "comments": 94,
           "rank": 1,
-          "score": 703
+          "score": 708
         },
         "metadata": {
           "slug": "chatcut-2",
@@ -294,10 +350,10 @@
           "description": "ChatCut is a lightweight, professional-grade AI video editor anyone can use, even without editing experience. It’s like having a personal video editing assistant that understands your footage, intent, and timeline. Make structural edits, fine-tune cuts, add captions, B-roll, music, voiceover, motion graphics, stock footage, and AI-generated video in one place. Every edit stays editable on a real timeline, with XML export when you want to keep working elsewhere.",
           "url": "https://www.producthunt.com/products/chatcut-ai-video-editor?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/FMMICV7TH5Z6XW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 703,
-          "commentsCount": 93,
+          "votesCount": 708,
+          "commentsCount": 94,
           "dailyRank": 1,
-          "latestScore": 703,
+          "latestScore": 708,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -334,10 +390,10 @@
         "externalUrl": "https://www.producthunt.com/r/4RBEK6IAGTJL4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 639,
+          "votes": 642,
           "comments": 109,
           "rank": 2,
-          "score": 639
+          "score": 642
         },
         "metadata": {
           "slug": "sim-3",
@@ -355,10 +411,10 @@
           "description": "Sim is an open-source workspace to build agentic workflows. Connect your AI agents and workflows to 1,000+ integrations and LLMs.",
           "url": "https://www.producthunt.com/products/sim-studio?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/4RBEK6IAGTJL4P?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 639,
+          "votesCount": 642,
           "commentsCount": 109,
           "dailyRank": 2,
-          "latestScore": 639,
+          "latestScore": 642,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -395,10 +451,10 @@
         "externalUrl": "https://www.producthunt.com/r/KCCS273QTMHFNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 544,
+          "votes": 547,
           "comments": 114,
           "rank": 3,
-          "score": 544
+          "score": 547
         },
         "metadata": {
           "slug": "plugthis-3",
@@ -416,10 +472,10 @@
           "description": "You wanted a Chrome extension that would save you 15 minutes a day. You searched the Chrome Web Store, and it's not there. Now you can just describe it in plain English, and PlugThis builds it for you. The code is yours. Want changes? Chat. Need login or a database? Connect Supabase. Ready to publish? We generate the icons, screenshots, and listing copy the store asks for. Everyone else builds web apps. We build Chrome extensions.",
           "url": "https://www.producthunt.com/products/plugthis-chrome-extension-generator?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/KCCS273QTMHFNM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 544,
+          "votesCount": 547,
           "commentsCount": 114,
           "dailyRank": 3,
-          "latestScore": 544,
+          "latestScore": 547,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -456,10 +512,10 @@
         "externalUrl": "https://www.producthunt.com/r/XIGDUT3IHDGZCY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 412,
+          "votes": 415,
           "comments": 60,
           "rank": 4,
-          "score": 412
+          "score": 415
         },
         "metadata": {
           "slug": "scarlett-850f7eff-da7a-4973-9d3b-d203b697734c",
@@ -477,10 +533,10 @@
           "description": "Not another AI bot, a real colleague to work alongside your team. Give your team superpowers or even run your company on autopilot.",
           "url": "https://www.producthunt.com/products/tryscarlett?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/XIGDUT3IHDGZCY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 412,
+          "votesCount": 415,
           "commentsCount": 60,
           "dailyRank": 4,
-          "latestScore": 412,
+          "latestScore": 415,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -517,10 +573,10 @@
         "externalUrl": "https://www.producthunt.com/r/HVV46NUF3UEKB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 396,
+          "votes": 397,
           "comments": 43,
           "rank": 5,
-          "score": 396
+          "score": 397
         },
         "metadata": {
           "slug": "connectmachine-2-0",
@@ -538,10 +594,10 @@
           "description": "Create unlimited business cards, scan any paper card, LinkedIn QR, or badge in seconds, and share via QR, Wallet, or AirDrop. Your private AI remembers who you met and why it mattered, then syncs everyone into your CRM. Encrypted, no public feed. New in v2.0: Team Plan with branded cards and admin controls, AI Note Taker for meeting transcripts and summaries, ShareBack for instant mutual exchange, follow-up reminders, and the full app in 5 languages. Much of it built from user requests.",
           "url": "https://www.producthunt.com/products/connectmachine-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/HVV46NUF3UEKB4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 396,
+          "votesCount": 397,
           "commentsCount": 43,
           "dailyRank": 5,
-          "latestScore": 396,
+          "latestScore": 397,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -578,10 +634,10 @@
         "externalUrl": "https://www.producthunt.com/r/DERPMSLT64NRPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 306,
+          "votes": 307,
           "comments": 14,
           "rank": 6,
-          "score": 306
+          "score": 307
         },
         "metadata": {
           "slug": "gpt-5-6-7",
@@ -597,10 +653,10 @@
           "description": "GPT-5.6 is rolling out in the API! Our new family of models gives builders three options: Sol (our flagship model for the hardest agentic tasks), Terra (balanced for everyday workflows), and Luna (fast and cost-efficient). GPT-5.6 also introduces Programmatic Tool Calling, Multi-agent (beta) for parallel execution, and explicit prompt caching. On July 23, we're teaming up with Product Hunt for OpenAI Day. The top five launches will each receive $10K in API credits.",
           "url": "https://www.producthunt.com/products/openai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/DERPMSLT64NRPN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 306,
+          "votesCount": 307,
           "commentsCount": 14,
           "dailyRank": 6,
-          "latestScore": 306,
+          "latestScore": 307,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -625,10 +681,10 @@
         "externalUrl": "https://www.producthunt.com/r/7I6PVVHRJQMBVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 227,
+          "votes": 228,
           "comments": 31,
           "rank": 7,
-          "score": 227
+          "score": 228
         },
         "metadata": {
           "slug": "juicy-mac-battery-app",
@@ -646,10 +702,10 @@
           "description": "Juicy replaces Apple's basic battery warnings with beautiful custom alerts at any percentage, complete with screen glow and sounds you can't miss. It also packs charge limiting, per-app energy insights, iPhone and iPad battery health, temperature tracking, and a themeable menu bar icon. One lightweight native Swift app instead of stacking AlDente, coconutBattery, and AirBuddy. Pay once, own forever. Featured twice by Apple as \"Apps We Love\".",
           "url": "https://www.producthunt.com/products/juicy-battery-app?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/7I6PVVHRJQMBVP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 227,
+          "votesCount": 228,
           "commentsCount": 31,
           "dailyRank": 7,
-          "latestScore": 227,
+          "latestScore": 228,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -808,10 +864,10 @@
         "externalUrl": "https://www.producthunt.com/r/LPE442DWQMPHTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-10T07:01:00Z",
         "metrics": {
-          "votes": 141,
+          "votes": 142,
           "comments": 13,
           "rank": 10,
-          "score": 141
+          "score": 142
         },
         "metadata": {
           "slug": "storychief-connect",
@@ -829,10 +885,10 @@
           "description": "Plan, create, and distribute content across every channel from one workspace. StoryChief Connect gives Claude, and your marketing team access to the tools, data, workflows, and publishing channels they need to execute real campaigns. Connect your stack. Turn signals into strategy. Create content for every channel. Collaborate, schedule, publish, and improve from one connected content calendar.ryChief helps marketing teams ship more, with less.",
           "url": "https://www.producthunt.com/products/storychief-io?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/LPE442DWQMPHTC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 141,
+          "votesCount": 142,
           "commentsCount": 13,
           "dailyRank": 10,
-          "latestScore": 141,
+          "latestScore": 142,
           "featuredAt": "2026-07-10T07:01:00Z",
           "createdAt": "2026-07-10T07:01:00Z",
           "topics": {
@@ -864,7 +920,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-07-12T03:01:23.052Z",
+    "fetchedAt": "2026-07-12T06:09:34.150Z",
     "items": [
       {
         "source": "github_trending",
@@ -872,7 +928,7 @@
         "title": "DeusData/codebase-memory-mcp",
         "summary": "High-performance code intelligence MCP server.",
         "url": "https://github.com/DeusData/codebase-memory-mcp",
-        "publishedAt": "2026-07-12T03:01:23.030Z",
+        "publishedAt": "2026-07-12T06:09:34.128Z",
         "metrics": {
           "rank": 1
         },
@@ -887,7 +943,7 @@
         "title": "calesthio/OpenMontage",
         "summary": "World's first open-source, agentic video production system.",
         "url": "https://github.com/calesthio/OpenMontage",
-        "publishedAt": "2026-07-12T03:01:23.034Z",
+        "publishedAt": "2026-07-12T06:09:34.132Z",
         "metrics": {
           "rank": 2
         },
@@ -902,7 +958,7 @@
         "title": "Panniantong/Agent-Reach",
         "summary": "Give your AI agent eyes to see the entire internet.",
         "url": "https://github.com/Panniantong/Agent-Reach",
-        "publishedAt": "2026-07-12T03:01:23.035Z",
+        "publishedAt": "2026-07-12T06:09:34.132Z",
         "metrics": {
           "rank": 3
         },
@@ -917,7 +973,7 @@
         "title": "asgeirtj/system_prompts_leaks",
         "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "publishedAt": "2026-07-12T03:01:23.036Z",
+        "publishedAt": "2026-07-12T06:09:34.134Z",
         "metrics": {
           "rank": 4
         },
@@ -932,7 +988,7 @@
         "title": "kunchenguid/no-mistakes",
         "summary": "git push no-mistakes git push no-mistakes Kill all the slop.",
         "url": "https://github.com/kunchenguid/no-mistakes",
-        "publishedAt": "2026-07-12T03:01:23.036Z",
+        "publishedAt": "2026-07-12T06:09:34.134Z",
         "metrics": {
           "rank": 5
         },
@@ -947,7 +1003,7 @@
         "title": "usestrix/strix",
         "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "url": "https://github.com/usestrix/strix",
-        "publishedAt": "2026-07-12T03:01:23.037Z",
+        "publishedAt": "2026-07-12T06:09:34.135Z",
         "metrics": {
           "rank": 6
         },
@@ -962,7 +1018,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-07-12T03:01:23.037Z",
+        "publishedAt": "2026-07-12T06:09:34.135Z",
         "metrics": {
           "rank": 7
         },
@@ -977,7 +1033,7 @@
         "title": "stablyai/orca",
         "summary": "Orca is the ADE for working with a fleet of parallel agents.",
         "url": "https://github.com/stablyai/orca",
-        "publishedAt": "2026-07-12T03:01:23.038Z",
+        "publishedAt": "2026-07-12T06:09:34.135Z",
         "metrics": {
           "rank": 8
         },
@@ -992,7 +1048,7 @@
         "title": "Zackriya-Solutions/meetily",
         "summary": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.",
         "url": "https://github.com/Zackriya-Solutions/meetily",
-        "publishedAt": "2026-07-12T03:01:23.039Z",
+        "publishedAt": "2026-07-12T06:09:34.136Z",
         "metrics": {
           "rank": 9
         },
@@ -1007,7 +1063,7 @@
         "title": "interviewstreet/hiring-agent",
         "summary": "AI agent to evaluate and score resumes.",
         "url": "https://github.com/interviewstreet/hiring-agent",
-        "publishedAt": "2026-07-12T03:01:23.039Z",
+        "publishedAt": "2026-07-12T06:09:34.137Z",
         "metrics": {
           "rank": 10
         },
@@ -1022,7 +1078,7 @@
         "title": "alibaba/zvec",
         "summary": "A lightweight, lightning-fast, in-process vector database English | 中文 🚀 Quickstart | 🏠 Home | 📚 Docs | 📊 Benchmarks | 🔎 DeepWiki | 🎮 Discord | 🐦 X (Twitter) Zvec is an open-source, in-process vector database — lightweight, lightning-fast, and design...",
         "url": "https://github.com/alibaba/zvec",
-        "publishedAt": "2026-07-12T03:01:23.040Z",
+        "publishedAt": "2026-07-12T06:09:34.137Z",
         "metrics": {
           "rank": 11
         },
@@ -1037,7 +1093,7 @@
         "title": "iptv-org/iptv",
         "summary": "Collection of publicly available IPTV channels from all over the world IPTV Collection of publicly available IPTV (Internet Protocol television) channels from all over the world.",
         "url": "https://github.com/iptv-org/iptv",
-        "publishedAt": "2026-07-12T03:01:23.040Z",
+        "publishedAt": "2026-07-12T06:09:34.137Z",
         "metrics": {
           "rank": 12
         },
@@ -1052,7 +1108,7 @@
         "title": "alibaba/page-agent",
         "summary": "JavaScript in-page GUI agent.",
         "url": "https://github.com/alibaba/page-agent",
-        "publishedAt": "2026-07-12T03:01:23.040Z",
+        "publishedAt": "2026-07-12T06:09:34.138Z",
         "metrics": {
           "rank": 13
         },
@@ -1067,7 +1123,7 @@
         "title": "diegosouzapw/OmniRoute",
         "summary": "Never stop coding.",
         "url": "https://github.com/diegosouzapw/OmniRoute",
-        "publishedAt": "2026-07-12T03:01:23.046Z",
+        "publishedAt": "2026-07-12T06:09:34.144Z",
         "metrics": {
           "rank": 14
         },
@@ -1082,7 +1138,7 @@
         "title": "simplex-chat/simplex-chat",
         "summary": "SimpleX - the first messaging network operating without user identifiers of any kind - 100% private by design!",
         "url": "https://github.com/simplex-chat/simplex-chat",
-        "publishedAt": "2026-07-12T03:01:23.048Z",
+        "publishedAt": "2026-07-12T06:09:34.146Z",
         "metrics": {
           "rank": 15
         },
@@ -1097,7 +1153,7 @@
         "title": "NVIDIA/SkillSpector",
         "summary": "Security scanner for AI agent skills.",
         "url": "https://github.com/NVIDIA/SkillSpector",
-        "publishedAt": "2026-07-12T03:01:23.051Z",
+        "publishedAt": "2026-07-12T06:09:34.149Z",
         "metrics": {
           "rank": 16
         },
@@ -1112,7 +1168,7 @@
         "title": "n0-computer/iroh",
         "summary": "IP addresses break, dial keys instead.",
         "url": "https://github.com/n0-computer/iroh",
-        "publishedAt": "2026-07-12T03:01:23.051Z",
+        "publishedAt": "2026-07-12T06:09:34.149Z",
         "metrics": {
           "rank": 17
         },
@@ -1127,7 +1183,7 @@
         "title": "gabime/spdlog",
         "summary": "Fast C++ logging library.",
         "url": "https://github.com/gabime/spdlog",
-        "publishedAt": "2026-07-12T03:01:23.052Z",
+        "publishedAt": "2026-07-12T06:09:34.150Z",
         "metrics": {
           "rank": 18
         },
@@ -1142,7 +1198,7 @@
         "title": "apple/container",
         "summary": "A tool for creating and running Linux containers using lightweight virtual machines on a Mac.",
         "url": "https://github.com/apple/container",
-        "publishedAt": "2026-07-12T03:01:23.052Z",
+        "publishedAt": "2026-07-12T06:09:34.150Z",
         "metrics": {
           "rank": 19
         },
@@ -1156,7 +1212,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-07-12T03:01:31.267Z",
+    "fetchedAt": "2026-07-12T06:09:39.593Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1384,6 +1440,246 @@
         }
       },
       {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.iroh.computer/blog/mesh-llm",
+        "title": "Mesh LLM: distributed AI computing on iroh",
+        "summary": "Article URL: https://www.iroh.computer/blog/mesh-llm Comments URL: https://news.ycombinator.com/item?id=48876505 Points: 177 # Comments: 41",
+        "body": "Article URL: https://www.iroh.computer/blog/mesh-llm Comments URL: https://news.ycombinator.com/item?id=48876505 Points: 177 # Comments: 41",
+        "url": "https://www.iroh.computer/blog/mesh-llm",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T22:38:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+        "title": "Stop Telling Me to Ask an LLM",
+        "summary": "Article URL: https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/ Comments URL: https://news.ycombinator.com/item?id=48876441 Points: 174 # Comments: 102",
+        "body": "Article URL: https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/ Comments URL: https://news.ycombinator.com/item?id=48876441 Points: 174 # Comments: 102",
+        "url": "https://blog.yaelwrites.com/stop-telling-me-to-ask-an-llm/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T22:28:48.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/",
+        "title": "I used to love Claude, but the latest models are slowly ruining it",
+        "summary": "Article URL: https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/ Comments URL: https://news.ycombinator.com/item?id=48875494 Points: 46 # Comments: 60",
+        "body": "Article URL: https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/ Comments URL: https://news.ycombinator.com/item?id=48875494 Points: 46 # Comments: 60",
+        "url": "https://www.androidauthority.com/claude-latest-models-pushback-bad-3683521/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T20:21:25.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+        "title": "AI 2040 and the cult of intelligence",
+        "summary": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html Comments URL: https://news.ycombinator.com/item?id=48874200 Points: 196 # Comments: 228",
+        "body": "Article URL: https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html Comments URL: https://news.ycombinator.com/item?id=48874200 Points: 196 # Comments: 228",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/07/11/ai-2040.html",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T18:04:01.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative",
+        "title": "Reverse centaurs are the answer to the AI paradox (2025)",
+        "summary": "Article URL: https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative Comments URL: https://news.ycombinator.com/item?id=48873855 Points: 103 # Comments: 58",
+        "body": "Article URL: https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative Comments URL: https://news.ycombinator.com/item?id=48873855 Points: 103 # Comments: 58",
+        "url": "https://pluralistic.net/2025/09/11/vulgar-thatcherism/#there-is-an-alternative",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T17:23:52.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.mixfont.com/ghost-font",
+        "title": "Ghost Font: A font that humans can read but AI cannot",
+        "summary": "Article URL: https://www.mixfont.com/ghost-font Comments URL: https://news.ycombinator.com/item?id=48870381 Points: 205 # Comments: 151",
+        "body": "Article URL: https://www.mixfont.com/ghost-font Comments URL: https://news.ycombinator.com/item?id=48870381 Points: 205 # Comments: 151",
+        "url": "https://www.mixfont.com/ghost-font",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T09:36:53.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump",
+        "title": "Microsoft latest report shows 25% emissions raised due to AI data centers",
+        "summary": "Article URL: https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump Comments URL: https://news.ycombinator.com/item?id=48870229 Points: 50 # Comments: 21",
+        "body": "Article URL: https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump Comments URL: https://news.ycombinator.com/item?id=48870229 Points: 50 # Comments: 21",
+        "url": "https://www.windowscentral.com/microsoft/dropping-greenwashing-credits-and-expanding-ai-datacenters-caused-microsofts-25-percent-emissions-jump",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T09:10:45.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+        "title": "Companies are scrambling to curtail soaring AI costs",
+        "summary": "Article URL: https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs Comments URL: https://news.ycombinator.com/item?id=48870035 Points: 44 # Comments: 28",
+        "body": "Article URL: https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs Comments URL: https://news.ycombinator.com/item?id=48870035 Points: 44 # Comments: 28",
+        "url": "https://www.economist.com/business/2026/06/14/companies-are-scrambling-to-curtail-soaring-ai-costs",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T08:29:43.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.bbc.com/news/articles/c2dy6e8klw0o",
+        "title": "Meta pulls new AI image feature after days of backlash",
+        "summary": "Article URL: https://www.bbc.com/news/articles/c2dy6e8klw0o Comments URL: https://news.ycombinator.com/item?id=48867233 Points: 56 # Comments: 22",
+        "body": "Article URL: https://www.bbc.com/news/articles/c2dy6e8klw0o Comments URL: https://news.ycombinator.com/item?id=48867233 Points: 56 # Comments: 22",
+        "url": "https://www.bbc.com/news/articles/c2dy6e8klw0o",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-11T00:40:36.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/",
+        "title": "AI Can't Recreate the Thrust Game (But It Can Help You Understand It)",
+        "summary": "Article URL: https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/ Comments URL: https://news.ycombinator.com/item?id=48865903 Points: 51 # Comments: 29",
+        "body": "Article URL: https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/ Comments URL: https://news.ycombinator.com/item?id=48865903 Points: 51 # Comments: 29",
+        "url": "https://www.jamesdrandall.com/posts/thrust_ai_powered_software_archaeology/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T22:04:45.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/",
+        "title": "China's Open AI Models Are Advancing Its Global Soft Power",
+        "summary": "Article URL: https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/ Comments URL: https://news.ycombinator.com/item?id=48865717 Points: 30 # Comments: 0",
+        "body": "Article URL: https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/ Comments URL: https://news.ycombinator.com/item?id=48865717 Points: 30 # Comments: 0",
+        "url": "https://www.noemamag.com/chinas-open-ai-models-are-advancing-its-global-soft-power/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T21:45:16.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+        "title": "GPT-5.6, Grok 4.5, Claude, and Muse Spark build the same 4 apps",
+        "summary": "Article URL: https://www.tryai.dev/blog/gpt-5.6-build-off-12-models Comments URL: https://news.ycombinator.com/item?id=48865093 Points: 155 # Comments: 86",
+        "body": "Article URL: https://www.tryai.dev/blog/gpt-5.6-build-off-12-models Comments URL: https://news.ycombinator.com/item?id=48865093 Points: 155 # Comments: 86",
+        "url": "https://www.tryai.dev/blog/gpt-5.6-build-off-12-models",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T20:52:28.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://twitter.com/endpointarena/status/2075245286339846145",
+        "title": "Guy is banned by OpenAI for cyber abuse, his AI appeals, another AI approves it",
+        "summary": "Article URL: https://twitter.com/endpointarena/status/2075245286339846145 Comments URL: https://news.ycombinator.com/item?id=48864390 Points: 30 # Comments: 7",
+        "body": "Article URL: https://twitter.com/endpointarena/status/2075245286339846145 Comments URL: https://news.ycombinator.com/item?id=48864390 Points: 30 # Comments: 7",
+        "url": "https://twitter.com/endpointarena/status/2075245286339846145",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T19:50:27.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://casp.ac/reports/ai-enabled-terrorism",
+        "title": "How the terrorist group Boko Haram uses frontier AI",
+        "summary": "Article URL: https://casp.ac/reports/ai-enabled-terrorism Comments URL: https://news.ycombinator.com/item?id=48863707 Points: 227 # Comments: 196",
+        "body": "Article URL: https://casp.ac/reports/ai-enabled-terrorism Comments URL: https://news.ycombinator.com/item?id=48863707 Points: 227 # Comments: 196",
+        "url": "https://casp.ac/reports/ai-enabled-terrorism",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T18:49:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+        "title": "GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture [pdf]",
+        "summary": "https://x.com/__eknight__/status/2075643450196971805 , https://xcancel.com/__eknight__/status/2075643450196971805 Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 514 # Comments: 424",
+        "body": "https://x.com/__eknight__/status/2075643450196971805 , https://xcancel.com/__eknight__/status/2075643450196971805 Prompt: https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98... Comments URL: https://news.ycombinator.com/item?id=48863490 Points: 514 # Comments: 424",
+        "url": "https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-10T18:29:19.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://thebeach.dev/posts/lisp-agent/",
+        "title": "An Agent in 100 Lines of Lisp",
+        "summary": "<p><a href=\"https://lobste.rs/s/wsw7tq/agent_100_lines_lisp\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/wsw7tq/agent_100_lines_lisp\">Comments</a></p>",
+        "url": "https://thebeach.dev/posts/lisp-agent/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-12T03:36:08.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
         "source": "builder_lobsters",
         "sourceItemId": "builder_lobsters:https://mimo.xiaomi.com/blog/mimo-v2-5-inference",
         "title": "Full-Pipeline Inference Optimization for MiMo-V2.5 Series",
@@ -1446,8 +1742,7 @@
     ],
     "errors": [
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502"
+      "Gwern: HTTP 403"
     ]
   }
 ]
