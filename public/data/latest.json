@@ -1,36 +1,250 @@
 {
   "date": "2026-07-20",
-  "generatedAt": "2026-07-20T06:23:19.080Z",
+  "generatedAt": "2026-07-20T06:39:40.830Z",
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
       "items": [
         {
-          "title": "字节跳动发布 Seed Audio 1.0 音频创作模型，统一建模人声与音效实现端到端影视级音频生成",
-          "url": "https://seed.bytedance.com/zh/blog/%E4%BB%8E-%E4%BC%9A%E8%AF%B4-%E8%B5%B0%E5%90%91-%E4%BC%9A%E5%88%9B%E4%BD%9C-seed-audio-1-0-%E9%9F%B3%E9%A2%91%E5%88%9B%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83",
+          "title": "ZooData",
+          "url": "https://www.producthunt.com/products/zoodata",
           "sources": [
-            "aihot"
+            "product_hunt"
           ],
-          "metricsText": "",
-          "sourceLabel": "字节 Seed：Research Feed（网页内嵌数据）",
-          "tags": [
-            "ai-products"
-          ],
-          "what": "字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。",
-          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。",
+          "metricsText": "625 votes / 95 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "The data layer for AI agents",
           "keyPoints": [
-            "字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。"
+            "ZooData turns any URL into agent-ready JSON, so AI agents can work with structured data instead of raw HTML or bloated markdown."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "The data layer for AI agents",
+          "features": "ZooData turns any URL into agent-ready JSON, so AI agents can work with structured data instead of raw HTML or bloated markdown.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Clark",
+          "url": "https://www.producthunt.com/products/clark-agent",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "493 votes / 70 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。",
+          "why": "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。",
+          "summary": "An AI coworker with its own cloud computer",
+          "keyPoints": [
+            "Clark is an AI coworker with its own cloud computer - browser, terminal, files, and code."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "An AI coworker with its own cloud computer",
+          "features": "Clark is an AI coworker with its own cloud computer - browser, terminal, files, and code.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "LiveDemo",
+          "url": "https://www.producthunt.com/products/livedemo",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "355 votes / 48 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。",
+          "why": "面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。",
+          "summary": "Open-source alternative to Storylane, Navattic, and Arcade",
+          "keyPoints": [
+            "Create interactive product demos in minutes."
           ],
           "audience": "内容创作者、设计师、视频/音乐制作团队。",
           "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。",
-          "features": "字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Open-source alternative to Storylane, Navattic, and Arcade",
+          "features": "Create interactive product demos in minutes.",
           "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
           "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Mirage",
+          "url": "https://www.producthunt.com/products/mirage-15",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "250 votes / 55 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Most product demos are a 40MB video nobody finishes or a $500/mo tool no bootstrapper can justify.",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "Turn your SaaS into a clickable demo in 90 seconds.",
+          "keyPoints": [
+            "Most product demos are a 40MB video nobody finishes or a $500/mo tool no bootstrapper can justify."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Turn your SaaS into a clickable demo in 90 seconds.",
+          "features": "Most product demos are a 40MB video nobody finishes or a $500/mo tool no bootstrapper can justify.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "OpenMarkdown",
+          "url": "https://www.producthunt.com/products/openmarkdown",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "206 votes / 63 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "A markdown editor you and your agent co-edit",
+          "keyPoints": [
+            "A fast, light markdown editor that opens any `.md` file instantly."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "A markdown editor you and your agent co-edit",
+          "features": "A fast, light markdown editor that opens any `.md` file instantly.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Acebuilder",
+          "url": "https://www.producthunt.com/products/acebuilder",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "163 votes / 9 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Acebuilder is an AI website builder from the team behind Aceternity UI.",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "Build landing pages with Aceternity UI",
+          "keyPoints": [
+            "Acebuilder is an AI website builder from the team behind Aceternity UI."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Build landing pages with Aceternity UI",
+          "features": "Acebuilder is an AI website builder from the team behind Aceternity UI.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Mainichi",
+          "url": "https://www.producthunt.com/products/mainichi-2",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "146 votes / 37 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Learn Japanese, one prefecture at a time.",
+          "keyPoints": [
+            "Learn 20,000+ Japanese words with a spaced-repetition system built for long-term memory."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Learn Japanese, one prefecture at a time.",
+          "features": "Learn 20,000+ Japanese words with a spaced-repetition system built for long-term memory.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "WX ",
+          "url": "https://www.producthunt.com/products/wx",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "129 votes / 15 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。",
+          "why": "面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。",
+          "summary": "An experimental synth for playable generative sound",
+          "keyPoints": [
+            "WX is a generative synth plugin that creates evolving patches through controlled randomization."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "An experimental synth for playable generative sound",
+          "features": "WX is a generative synth plugin that creates evolving patches through controlled randomization.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "DocuSmart AI ",
+          "url": "https://www.producthunt.com/products/docusmart-ai",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "127 votes / 10 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。",
+          "why": "面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。",
+          "summary": "Turning fragmented knowledge into one simple system",
+          "keyPoints": [
+            "DocuSmart AI lets you search all your internal documents using plain English — across Google Drive, SharePoint, Dropbox and more — from one place."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Turning fragmented knowledge into one simple system",
+          "features": "DocuSmart AI lets you search all your internal documents using plain English — across Google Drive, SharePoint, Dropbox and more — from one place.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "AgentGrid",
+          "url": "https://www.producthunt.com/products/agentgrid",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "71 votes / 63 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。",
+          "why": "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。",
+          "summary": "Your AI agents team, terminals, notes: one infinite canvas",
+          "keyPoints": [
+            "Your AI coding agents, visible on one persistent infinite canvas."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Your AI agents team, terminals, notes: one infinite canvas",
+          "features": "Your AI coding agents, visible on one persistent infinite canvas.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
         }
       ]
     },
@@ -39,75 +253,27 @@
       "title": "开源热门",
       "items": [
         {
-          "title": "asgeirtj/system_prompts_leaks",
-          "url": "https://github.com/asgeirtj/system_prompts_leaks",
+          "title": "gabime/spdlog",
+          "url": "https://github.com/gabime/spdlog",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
-          "keyPoints": [
-            "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
-          "features": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "ocornut/imgui",
-          "url": "https://github.com/ocornut/imgui",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent sta",
+          "what": "Fast C++ logging library.",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent sta",
+          "summary": "Fast C++ logging library.",
           "keyPoints": [
-            "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent sta"
+            "Fast C++ logging library."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent sta",
-          "features": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent sta",
+          "oneLiner": "Fast C++ logging library.",
+          "features": "Fast C++ logging library.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "palmier-io/palmier-pro",
-          "url": "https://github.com/palmier-io/palmier-pro",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "macOS video editor built for AI Palmier Pro The video editor built for AI.",
-          "why": "开发者、开源项目维护者、技术团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "macOS video editor built for AI Palmier Pro The video editor built for AI.",
-          "keyPoints": [
-            "macOS video editor built for AI Palmier Pro The video editor built for AI."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "macOS video editor built for AI Palmier Pro The video editor built for AI.",
-          "features": "macOS video editor built for AI Palmier Pro The video editor built for AI.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         }
       ]
@@ -122,8 +288,8 @@
       "title": "技术前沿",
       "items": [
         {
-          "title": "面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型",
-          "url": "https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ",
+          "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+          "url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
           "sources": [
             "aihot"
           ],
@@ -132,24 +298,76 @@
           "tags": [
             "ai-models"
           ],
-          "what": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
+          "what": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
+          "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
           "keyPoints": [
-            "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。"
+            "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
-          "features": "面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。",
+          "oneLiner": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
+          "features": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Quoting Sam Altman",
-          "url": "https://simonwillison.net/2026/Jul/20/sam-altman",
+          "title": "昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型",
+          "url": "https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "公众号：昆仑万维（天工）",
+          "tags": [
+            "ai-models"
+          ],
+          "what": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+          "keyPoints": [
+            "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+          "features": "昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
+          "url": "https://x.com/Alibaba_Qwen/status/2078754377473601787",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "tags": [
+            "ai-models"
+          ],
+          "what": "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。",
+          "keyPoints": [
+            "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。",
+          "features": "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "AI Mania Is Eviscerating Global Decision-Making",
+          "url": "https://simonwillison.net/2026/Jul/19/ai-mania",
           "sources": [
             "builder_blog"
           ],
@@ -158,19 +376,72 @@
           "tags": [
             "technical"
           ],
-          "what": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy.",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy.",
+          "what": "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p> Here's an ent",
+          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p> Here's an ent",
           "keyPoints": [
-            "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy."
+            "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p> Here's an ent"
+          ],
+          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p> Here's an ent",
+          "features": "<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p> Here's an ent",
+          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Claude Code uses Bun written in Rust now",
+          "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust",
+          "sources": [
+            "builder_blog",
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p> <blockquote> <p>Claude Code v2.1.181 (released June 17th) and",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p> <blockquote> <p>Claude Code v2.1.181 (released June 17th) and",
+          "keyPoints": [
+            "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p> <blockquote> <p>Claude Code v2.1.181 (released June 17th) and"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy.",
-          "features": "<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy.",
+          "oneLiner": "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p> <blockquote> <p>Claude Code v2.1.181 (released June 17th) and",
+          "features": "<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p> <blockquote> <p>Claude Code v2.1.181 (released June 17th) and",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Triton language for Alibaba SAIL",
+          "url": "https://github.com/t-head/triton-for-sail",
+          "sources": [
+            "builder_lobsters"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Lobsters AI",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>",
+          "keyPoints": [
+            "<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         }
       ]
@@ -180,34 +451,86 @@
       "title": "行业观点",
       "items": [
         {
-          "title": "Claude Fable produced a counterexample to the Jacobian Conjecture",
-          "url": "https://xcancel.com/__alpoge__/status/2079028340955197566",
+          "title": "Ollama 获 8800 万美元融资，加速开放模型生态发展",
+          "url": "https://ollama.com/blog/all-aboard-open-models",
           "sources": [
-            "builder_hackernews"
+            "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News AI",
+          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
           "tags": [
-            "news"
+            "industry"
           ],
-          "what": "Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 238 # Comments: 127",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 238 # Comments: 127",
+          "what": "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。",
           "keyPoints": [
-            "Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 238 # Comments: 127"
+            "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。"
           ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 238 # Comments: 127",
-          "features": "Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 238 # Comments: 127",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。",
+          "features": "Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Ask HN: What are your favorite blogs not about AI?",
-          "url": "https://news.ycombinator.com/item?id=48972858",
+          "title": "不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程",
+          "url": "https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "公众号：数字生命卡兹克",
+          "tags": [
+            "tip"
+          ],
+          "what": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
+          "keyPoints": [
+            "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。"
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
+          "features": "本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+          "url": "https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "TechCrunch：AI（RSS）",
+          "tags": [
+            "industry"
+          ],
+          "what": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+          "keyPoints": [
+            "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+          "features": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "Big tech needs to justify AI spending as investors dump stocks",
+          "url": "https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks",
           "sources": [
             "builder_hackernews"
           ],
@@ -216,154 +539,24 @@
           "tags": [
             "news"
           ],
-          "what": "Many of my favorite bloggers have stopped writing (or have drastically shifted topics).",
+          "what": "Article URL: https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks Comments URL: https://news.ycombinator.com/item?id=48",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Many of my favorite bloggers have stopped writing (or have drastically shifted topics).",
+          "summary": "Article URL: https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks Comments URL: https://news.ycombinator.com/item?id=48",
           "keyPoints": [
-            "Many of my favorite bloggers have stopped writing (or have drastically shifted topics)."
+            "Article URL: https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks Comments URL: https://news.ycombinator.com/item?id=48"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Many of my favorite bloggers have stopped writing (or have drastically shifted topics).",
-          "features": "Many of my favorite bloggers have stopped writing (or have drastically shifted topics).",
+          "oneLiner": "Article URL: https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks Comments URL: https://news.ycombinator.com/item?id=48",
+          "features": "Article URL: https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks Comments URL: https://news.ycombinator.com/item?id=48",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "AI advice made people less accurate but more confident – sudy",
-          "url": "https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 325 # Commen",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 325 # Commen",
-          "keyPoints": [
-            "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 325 # Commen"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 325 # Commen",
-          "features": "Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 325 # Commen",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Moonshot AI suspends new subscriptions due to Kimi K3 demand",
-          "url": "https://twitter.com/kimi_moonshot/status/2078855608565207130",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 248 # Comments: 103",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 248 # Comments: 103",
-          "keyPoints": [
-            "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 248 # Comments: 103"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 248 # Comments: 103",
-          "features": "Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 248 # Comments: 103",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Perforce charges $500 for training training videos.. and it's AI narrated",
-          "url": "https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic Comments URL: https://news.ycombinator.com/item?id=48965886 Points: 53 # Comments: 83",
-          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "Article URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic Comments URL: https://news.ycombinator.com/item?id=48965886 Points: 53 # Comments: 83",
-          "keyPoints": [
-            "Article URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic Comments URL: https://news.ycombinator.com/item?id=48965886 Points: 53 # Comments: 83"
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic Comments URL: https://news.ycombinator.com/item?id=48965886 Points: 53 # Comments: 83",
-          "features": "Article URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic Comments URL: https://news.ycombinator.com/item?id=48965886 Points: 53 # Comments: 83",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "LLM-Integrated Multivariable Calculus Course",
-          "url": "https://calculus.academa.ai/",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 40 # Comments: 46",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 40 # Comments: 46",
-          "keyPoints": [
-            "Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 40 # Comments: 46"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 40 # Comments: 46",
-          "features": "Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 40 # Comments: 46",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "NYC may require landlords and realtors to disclose the use of AI in listings",
-          "url": "https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=4",
-          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=4",
-          "keyPoints": [
-            "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=4"
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=4",
-          "features": "Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=4",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
           "title": "AI Mania Is Eviscerating Global Decision-Making",
-          "url": "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking",
+          "url": "https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making",
           "sources": [
             "builder_hackernews"
           ],
@@ -372,17 +565,17 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking Comments URL: https://news.ycombinator.com/item?id=48962963 Points: 37 # Comments: 12",
+          "what": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 397 # Comm",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking Comments URL: https://news.ycombinator.com/item?id=48962963 Points: 37 # Comments: 12",
+          "summary": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 397 # Comm",
           "keyPoints": [
-            "Article URL: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking Comments URL: https://news.ycombinator.com/item?id=48962963 Points: 37 # Comments: 12"
+            "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 397 # Comm"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking Comments URL: https://news.ycombinator.com/item?id=48962963 Points: 37 # Comments: 12",
-          "features": "Article URL: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking Comments URL: https://news.ycombinator.com/item?id=48962963 Points: 37 # Comments: 12",
+          "oneLiner": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 397 # Comm",
+          "features": "Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 397 # Comm",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
@@ -390,7 +583,7 @@
       ]
     }
   ],
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-07-20\n\n## 产品上新\n\n1. [字节跳动发布 Seed Audio 1.0 音频创作模型，统一建模人声与音效实现端到端影视级音频生成](https://seed.bytedance.com/zh/blog/%E4%BB%8E-%E4%BC%9A%E8%AF%B4-%E8%B5%B0%E5%90%91-%E4%BC%9A%E5%88%9B%E4%BD%9C-seed-audio-1-0-%E9%9F%B3%E9%A2%91%E5%88%9B%E4%BD%9C%E6%A8%A1%E5%9E%8B%E5%8F%91%E5%B8%83)\n   - 信号：字节 Seed：Research Feed（网页内嵌数据）\n   - 做什么：字节跳动 Seed 团队发布音频创作模型 Seed Audio 1.0，在统一框架下联合建模人声、音效和环境声，支持 100ms 间隔精度的时间控制、单次约 2 分钟音频的延展生成及 20+ 语种自然生成。该模型已在火山方舟体验中心上线，多数场景音频可用率达 90% 以上，多语言音频自然度 MOS 超 4 分。\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n## 开源热门\n\n1. [asgeirtj/system_prompts_leaks](https://github.com/asgeirtj/system_prompts_leaks)\n   - 信号：GitHub Trending\n   - 做什么：Extracted system prompts from Anthropic - Claude Fable 5, Opus 4.8, Claude Code, Claude Design.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n2. [ocornut/imgui](https://github.com/ocornut/imgui)\n   - 信号：GitHub Trending\n   - 做什么：Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent sta\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [palmier-io/palmier-pro](https://github.com/palmier-io/palmier-pro)\n   - 信号：GitHub Trending\n   - 做什么：macOS video editor built for AI Palmier Pro The video editor built for AI.\n   - 为什么需要：开发者、开源项目维护者、技术团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n1. [面壁智能发布首个具身智能成果 MiniCPM-Robot 系列模型，含 1.5B VLA 与 0.9B 跟踪模型](https://mp.weixin.qq.com/s/KwBAC8TFa846WFj-DHrgIQ)\n   - 信号：公众号：面壁智能（MiniCPM）\n   - 做什么：面壁智能联合 OpenBMB 发布并开源 MiniCPM-Robot 系列，包括通用 VLA 模型 MiniCPM-RobotManip（1.5B 参数）与移动跟踪模型 MiniCPM-RobotTrack（0.9B 参数）。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [Quoting Sam Altman](https://simonwillison.net/2026/Jul/20/sam-altman)\n   - 信号：Simon Willison\n   - 做什么：<blockquote cite=\"https://twitter.com/techemails/status/2078854346683678927\"><p>We have been having extensive discussions around open source strategy.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [Claude Fable produced a counterexample to the Jacobian Conjecture](https://xcancel.com/__alpoge__/status/2079028340955197566)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://xcancel.com/__alpoge__/status/2079028340955197566 Comments URL: https://news.ycombinator.com/item?id=48973869 Points: 238 # Comments: 127\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [Ask HN: What are your favorite blogs not about AI?](https://news.ycombinator.com/item?id=48972858)\n   - 信号：Hacker News AI\n   - 做什么：Many of my favorite bloggers have stopped writing (or have drastically shifted topics).\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [AI advice made people less accurate but more confident – sudy](https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://thenextweb.com/news/ai-advice-suppresses-critical-thinking-wrong-answers-study Comments URL: https://news.ycombinator.com/item?id=48971738 Points: 325 # Commen\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [Moonshot AI suspends new subscriptions due to Kimi K3 demand](https://twitter.com/kimi_moonshot/status/2078855608565207130)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://twitter.com/kimi_moonshot/status/2078855608565207130 Comments URL: https://news.ycombinator.com/item?id=48969291 Points: 248 # Comments: 103\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Perforce charges $500 for training training videos.. and it's AI narrated](https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://training.perforce.com/learn/courses/535/p4-helix-core-user-basic Comments URL: https://news.ycombinator.com/item?id=48965886 Points: 53 # Comments: 83\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [LLM-Integrated Multivariable Calculus Course](https://calculus.academa.ai/)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://calculus.academa.ai/ Comments URL: https://news.ycombinator.com/item?id=48964585 Points: 40 # Comments: 46\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [NYC may require landlords and realtors to disclose the use of AI in listings](https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://petapixel.com/2026/07/16/mayor-mamdani-says-landlords-cant-secretly-use-ai-images-to-advertise-properties/ Comments URL: https://news.ycombinator.com/item?id=4\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [AI Mania Is Eviscerating Global Decision-Making](https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking Comments URL: https://news.ycombinator.com/item?id=48962963 Points: 37 # Comments: 12\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-07-20\n\n## 产品上新\n\n1. [ZooData](https://www.producthunt.com/products/zoodata)\n   - 信号：Product Hunt · 625 votes / 95 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n2. [Clark](https://www.producthunt.com/products/clark-agent)\n   - 信号：Product Hunt · 493 votes / 70 comments\n   - 做什么：提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。\n   - 为什么需要：面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。\n\n3. [LiveDemo](https://www.producthunt.com/products/livedemo)\n   - 信号：Product Hunt · 355 votes / 48 comments\n   - 做什么：观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。\n   - 为什么需要：面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。\n\n4. [Mirage](https://www.producthunt.com/products/mirage-15)\n   - 信号：Product Hunt · 250 votes / 55 comments\n   - 做什么：Most product demos are a 40MB video nobody finishes or a $500/mo tool no bootstrapper can justify.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n5. [OpenMarkdown](https://www.producthunt.com/products/openmarkdown)\n   - 信号：Product Hunt · 206 votes / 63 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n6. [Acebuilder](https://www.producthunt.com/products/acebuilder)\n   - 信号：Product Hunt · 163 votes / 9 comments\n   - 做什么：Acebuilder is an AI website builder from the team behind Aceternity UI.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n7. [Mainichi](https://www.producthunt.com/products/mainichi-2)\n   - 信号：Product Hunt · 146 votes / 37 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n8. [WX ](https://www.producthunt.com/products/wx)\n   - 信号：Product Hunt · 129 votes / 15 comments\n   - 做什么：把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。\n   - 为什么需要：面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。\n\n9. [DocuSmart AI ](https://www.producthunt.com/products/docusmart-ai)\n   - 信号：Product Hunt · 127 votes / 10 comments\n   - 做什么：把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。\n   - 为什么需要：面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。\n\n10. [AgentGrid](https://www.producthunt.com/products/agentgrid)\n   - 信号：Product Hunt · 71 votes / 63 comments\n   - 做什么：提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。\n   - 为什么需要：面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。\n\n## 开源热门\n\n1. [gabime/spdlog](https://github.com/gabime/spdlog)\n   - 信号：GitHub Trending\n   - 做什么：Fast C++ logging library.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n1. [MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片](https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw)\n   - 信号：公众号：面壁智能（MiniCPM）\n   - 做什么：面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [昆仑万维宣布2026为\"世界模型元年\"，发布Matrix-Game 3.5等模型](https://mp.weixin.qq.com/s/LidvGePhOOoUY3KTor_w9g)\n   - 信号：公众号：昆仑万维（天工）\n   - 做什么：昆仑万维董事长方汉在WAIC上宣布2026年为\"世界模型元年\"，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [Qwen3.8 开源发布，2.4T 参数模型上线](https://x.com/Alibaba_Qwen/status/2078754377473601787)\n   - 信号：X：通义千问 / Qwen (@Alibaba_Qwen)\n   - 做什么：Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [AI Mania Is Eviscerating Global Decision-Making](https://simonwillison.net/2026/Jul/19/ai-mania)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/\">AI Mania Is Eviscerating Global Decision-Making</a></strong></p> Here's an ent\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Claude Code uses Bun written in Rust now](https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust)\n   - 信号：Simon Willison\n   - 做什么：<p>In <a href=\"https://bun.com/blog/bun-in-rust\">Rewriting Bun in Rust</a> Jarred Sumner made the following claim:</p> <blockquote> <p>Claude Code v2.1.181 (released June 17th) and\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [Triton language for Alibaba SAIL](https://github.com/t-head/triton-for-sail)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/y8okbv/triton_language_for_alibaba_sail\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [Ollama 获 8800 万美元融资，加速开放模型生态发展](https://ollama.com/blog/all-aboard-open-models)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：Ollama 宣布完成 8800 万美元融资，由 Benchmark、Theory Ventures 和 8VC 等领投。该平台已服务 890 万开发者，并被 85% 的财富 500 强企业使用，其云端 token 用量月均翻倍。资金将用于支持无缝混合推理、新模型发布当日集成，以及让开发者在不牺牲所有权和隐私的前提下使用最强开放模型。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [不会代码也能做产品：一份从0开始的Vibe Coding保姆级教程](https://mp.weixin.qq.com/s/EeHjsju08ARLbwtwFcViqg)\n   - 信号：公众号：数字生命卡兹克\n   - 做什么：本文面向零代码用户，提供一套使用国产大模型（Kimi、GLM、Qwen等）从零开发并上线产品的完整流程。核心步骤包括购买Coding Plan、下载官方Agent编程产品、注册域名与服务器并同步做ICP备案，然后通过Agent的Plan模式描述需求并让AI自动执行开发。上线后建议建立分支保护与测试流程，并强调即使不懂代码，也必须对系统架构了如指掌。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地](https://techcrunch.com/2026/07/19/what-to-watch-for-after-jensen-huangs-japan-visit)\n   - 信号：TechCrunch：AI（RSS）\n   - 做什么：Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设\"Vera Rubin AI 工厂\"，配备 13，750 颗 Vera CPU 和 27，500 颗 Rubin GPU，预计 2028 年投运。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [Big tech needs to justify AI spending as investors dump stocks](https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.bloomberg.com/news/articles/2026-07-19/big-tech-needs-to-justify-ai-spending-as-investors-dump-stocks Comments URL: https://news.ycombinator.com/item?id=48\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [AI Mania Is Eviscerating Global Decision-Making](https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://ludic.mataroa.blog/blog/ai-mania-is-eviscerating-global-decision-making/#fnref:3 Comments URL: https://news.ycombinator.com/item?id=48964185 Points: 397 # Comm\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
   "editor": "rules",
-  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260720142318956642456M9SF2E82)\",\"param\":\"\","
+  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260720143940691140255HbDmkQde)\",\"param\":\"\","
 }
