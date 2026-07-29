@@ -1,7 +1,7 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-07-29T03:00:45.411Z",
+    "fetchedAt": "2026-07-29T06:24:16.535Z",
     "items": [
       {
         "source": "aihot",
@@ -58,6 +58,35 @@
           "attribution": {
             "source": "AI HOT",
             "canonical": "https://aihot.virxact.com/items/cms5dugag02amro7cjrfedsz9"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cms5k3il000narobkhjrg843v",
+        "title": "我的Claude账号被封了",
+        "summary": "Anthropic因支付系统SEPA验证漏洞引发\"零元购\"事件，随后大规模回收漏洞账号并封禁关联账户，作者自用半年多的账号于7月29日被封。作者认为当前已非Claude一家独大，推荐编程用户使用Kimi K3和GPT-5.6 Sol，办公用户选择WorkBuddy+Kimi K3，并指出国产模型已凭二十分之一算力摸到第一梯队。",
+        "body": "Anthropic因支付系统SEPA验证漏洞引发\"零元购\"事件，随后大规模回收漏洞账号并封禁关联账户，作者自用半年多的账号于7月29日被封。作者认为当前已非Claude一家独大，推荐编程用户使用Kimi K3和GPT-5.6 Sol，办公用户选择WorkBuddy+Kimi K3，并指出国产模型已凭二十分之一算力摸到第一梯队。",
+        "url": "https://mp.weixin.qq.com/s/Sb4YYeEYsBAAczDo8n41UA",
+        "sourceName": "公众号：数字生命卡兹克",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-07-29T00:06:00.000Z",
+        "rawJson": {
+          "id": "cms5k3il000narobkhjrg843v",
+          "title": "我的Claude账号被封了",
+          "title_en": "今天，我的Claude也被封号了。",
+          "url": "https://mp.weixin.qq.com/s/Sb4YYeEYsBAAczDo8n41UA",
+          "permalink": "https://aihot.virxact.com/items/cms5k3il000narobkhjrg843v",
+          "source": "公众号：数字生命卡兹克",
+          "publishedAt": "2026-07-29T00:06:00.000Z",
+          "discoveredAt": "2026-07-29T04:00:00.720Z",
+          "summary": "Anthropic因支付系统SEPA验证漏洞引发\"零元购\"事件，随后大规模回收漏洞账号并封禁关联账户，作者自用半年多的账号于7月29日被封。作者认为当前已非Claude一家独大，推荐编程用户使用Kimi K3和GPT-5.6 Sol，办公用户选择WorkBuddy+Kimi K3，并指出国产模型已凭二十分之一算力摸到第一梯队。",
+          "category": "tip",
+          "score": 63,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cms5k3il000narobkhjrg843v"
           }
         }
       },
@@ -324,35 +353,6 @@
       },
       {
         "source": "aihot",
-        "sourceItemId": "aihot:cms51p9ca00d8rorrkaqqfvr9",
-        "title": "Anthropic 的 Claude Mythos Preview 模型发现 AES 和 HAWK 加密算法漏洞",
-        "summary": "Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法。",
-        "body": "Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法。",
-        "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
-        "sourceName": "The Decoder：AI News（RSS）",
-        "sourceCategory": "paper",
-        "publishedAt": "2026-07-28T19:12:27.000Z",
-        "rawJson": {
-          "id": "cms51p9ca00d8rorrkaqqfvr9",
-          "title": "Anthropic 的 Claude Mythos Preview 模型发现 AES 和 HAWK 加密算法漏洞",
-          "title_en": "Anthropic says its Mythos model found vulnerabilities in cryptographic algorithms that secure the internet",
-          "url": "https://the-decoder.com/anthropic-says-its-mythos-model-found-vulnerabilities-in-cryptographic-algorithms-that-secure-the-internet",
-          "permalink": "https://aihot.virxact.com/items/cms51p9ca00d8rorrkaqqfvr9",
-          "source": "The Decoder：AI News（RSS）",
-          "publishedAt": "2026-07-28T19:12:27.000Z",
-          "discoveredAt": "2026-07-28T19:25:02.281Z",
-          "summary": "Anthropic 的 Claude Mythos Preview 模型在自主多智能体系统中，发现了后量子签名方案 HAWK 的改进攻击，以及简化版 AES-128（7 轮）的新攻击方法。",
-          "category": "paper",
-          "score": 78,
-          "selected": true,
-          "attribution": {
-            "source": "AI HOT",
-            "canonical": "https://aihot.virxact.com/items/cms51p9ca00d8rorrkaqqfvr9"
-          }
-        }
-      },
-      {
-        "source": "aihot",
         "sourceItemId": "aihot:cms4xie76037xroa13kv3uglm",
         "title": "Claude 发现加密算法弱点研究发布",
         "summary": "Anthropic 新研究：用 Claude 发现加密弱点。\n\nClaude Mythos 预览版已帮助我们的研究人员发现加密算法中的弱点--这些数学方法用于保护数据隐私。\n\n了解更多：https://anthropic.com/research/discovering-cryptographic-weaknesses",
@@ -553,71 +553,13 @@
             "canonical": "https://aihot.virxact.com/items/cms4himl9047broepnobhk6n2"
           }
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cms4b9e8401zrroepw4fw8oka",
-        "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
-        "summary": "德里高等法院认定 OpenAI 利用亚洲国际新闻（ANI）社的内容训练人工智能不构成侵犯版权。法官 Amit Bansal 认为该行为符合印度《版权法》中研究类\"合理使用\"例外情形，且 ANI 未能证明 ChatGPT 直接复制其受版权保护内容。法院同时指出，现阶段颁布临时禁令将不利于印度正在开发的 LLM 及大量免费使用 ChatGPT 的用户。",
-        "body": "德里高等法院认定 OpenAI 利用亚洲国际新闻（ANI）社的内容训练人工智能不构成侵犯版权。法官 Amit Bansal 认为该行为符合印度《版权法》中研究类\"合理使用\"例外情形，且 ANI 未能证明 ChatGPT 直接复制其受版权保护内容。法院同时指出，现阶段颁布临时禁令将不利于印度正在开发的 LLM 及大量免费使用 ChatGPT 的用户。",
-        "url": "https://www.ithome.com/0/982/520.htm",
-        "sourceName": "IT之家（RSS）",
-        "sourceCategory": "industry",
-        "publishedAt": "2026-07-28T06:21:07.000Z",
-        "rawJson": {
-          "id": "cms4b9e8401zrroepw4fw8oka",
-          "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
-          "title_en": "德里高等法院裁定 OpenAI 利用印媒 ANI 内容训练 AI 未侵犯版权",
-          "url": "https://www.ithome.com/0/982/520.htm",
-          "permalink": "https://aihot.virxact.com/items/cms4b9e8401zrroepw4fw8oka",
-          "source": "IT之家（RSS）",
-          "publishedAt": "2026-07-28T06:21:07.000Z",
-          "discoveredAt": "2026-07-28T07:04:51.393Z",
-          "summary": "德里高等法院认定 OpenAI 利用亚洲国际新闻（ANI）社的内容训练人工智能不构成侵犯版权。法官 Amit Bansal 认为该行为符合印度《版权法》中研究类\"合理使用\"例外情形，且 ANI 未能证明 ChatGPT 直接复制其受版权保护内容。法院同时指出，现阶段颁布临时禁令将不利于印度正在开发的 LLM 及大量免费使用 ChatGPT 的用户。",
-          "category": "industry",
-          "score": 73,
-          "selected": true,
-          "attribution": {
-            "source": "AI HOT",
-            "canonical": "https://aihot.virxact.com/items/cms4b9e8401zrroepw4fw8oka"
-          }
-        }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cms47q4jj00mxroep0x4at5sf",
-        "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
-        "summary": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
-        "body": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
-        "url": "https://usefeyn.com/blog/feynobg",
-        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "sourceCategory": "ai-models",
-        "publishedAt": "2026-07-28T04:57:13.190Z",
-        "rawJson": {
-          "id": "cms47q4jj00mxroep0x4at5sf",
-          "title": "FeyNoBg 发布：开源自动背景去除模型，在四项基准上达到 SOTA",
-          "title_en": "Show HN： FeyNoBg - 自动背景去除模型及训练库",
-          "url": "https://usefeyn.com/blog/feynobg",
-          "permalink": "https://aihot.virxact.com/items/cms47q4jj00mxroep0x4at5sf",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "publishedAt": "2026-07-28T04:57:13.190Z",
-          "discoveredAt": "2026-07-28T05:25:52.937Z",
-          "summary": "Feyn Labs 推出 FeyNoBg，一个用于自动背景去除的 SOTA 模型。它在八个基准测试中的四项上取得最佳 S-measure 分数，其余四项与领先者差距在 2% 以内。该模型基于 BiRefNet 架构，参数量从 222M 扩展至 263M，同时开源了训练库 NoBg，模型和代码分别可在 Hugging Face 和 GitHub 获取。",
-          "category": "ai-models",
-          "score": 71,
-          "selected": true,
-          "attribution": {
-            "source": "AI HOT",
-            "canonical": "https://aihot.virxact.com/items/cms47q4jj00mxroep0x4at5sf"
-          }
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-07-29T03:00:45.649Z",
+    "fetchedAt": "2026-07-29T06:24:16.789Z",
     "sourceGeneratedAt": "2026-07-27",
     "items": [
       {
@@ -630,10 +572,10 @@
         "externalUrl": "https://www.producthunt.com/r/EPLPB5QB6JEVTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 542,
-          "comments": 104,
+          "votes": 548,
+          "comments": 105,
           "rank": 1,
-          "score": 542
+          "score": 548
         },
         "metadata": {
           "slug": "adomate",
@@ -651,10 +593,10 @@
           "description": "With Adomate you create ads from data, at scale. Take data from your Meta ad account, the ad library and reviews from Trustpilot and Amazon. Build creative research workflows that create branded ad concepts, the way you want. Fully traceable to their original data trigger, no blackbox.",
           "url": "https://www.producthunt.com/products/adomate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/EPLPB5QB6JEVTX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 542,
-          "commentsCount": 104,
+          "votesCount": 548,
+          "commentsCount": 105,
           "dailyRank": 1,
-          "latestScore": 542,
+          "latestScore": 548,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -691,10 +633,10 @@
         "externalUrl": "https://www.producthunt.com/r/OT2MF465VDKFTA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 441,
+          "votes": 450,
           "comments": 97,
           "rank": 2,
-          "score": 441
+          "score": 450
         },
         "metadata": {
           "slug": "artifacts-by-databox",
@@ -712,10 +654,10 @@
           "description": "Turn any conversation with your AI Analyst into a polished report, slide deck, or interactive document built from your live data. Generate it from a single prompt, then share it via public link or download as a PDF.",
           "url": "https://www.producthunt.com/products/databox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/OT2MF465VDKFTA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 441,
+          "votesCount": 450,
           "commentsCount": 97,
           "dailyRank": 2,
-          "latestScore": 441,
+          "latestScore": 450,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -752,10 +694,10 @@
         "externalUrl": "https://www.producthunt.com/r/IU2TVFNFIUECW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 421,
+          "votes": 423,
           "comments": 13,
           "rank": 3,
-          "score": 421
+          "score": 423
         },
         "metadata": {
           "slug": "claude-opus-5",
@@ -772,10 +714,10 @@
           "description": "Opus 5 is a step change improvement for the Opus tier powering long-running agents while delivering improvements in coding and professional work.",
           "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/IU2TVFNFIUECW4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 421,
+          "votesCount": 423,
           "commentsCount": 13,
           "dailyRank": 3,
-          "latestScore": 421,
+          "latestScore": 423,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -806,10 +748,10 @@
         "externalUrl": "https://www.producthunt.com/r/TSDAGJRI6E3MV7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 401,
+          "votes": 404,
           "comments": 68,
           "rank": 4,
-          "score": 401
+          "score": 404
         },
         "metadata": {
           "slug": "webhound-2",
@@ -826,10 +768,10 @@
           "description": "Research has no natural finish line. An agent can spend ten minutes or ten hours on the same question, and both answers can look finished. Webhound lets you choose how much work the question deserves. Give it a question and a dollar budget. It follows leads and checks weak claims until the budget is consumed, then returns a cited report or sourced dataset with the sources and working documents behind it. Run Webhound yourself or call it from your agent through MCP or the API.",
           "url": "https://www.producthunt.com/products/webhound?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/TSDAGJRI6E3MV7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 401,
+          "votesCount": 404,
           "commentsCount": 68,
           "dailyRank": 4,
-          "latestScore": 401,
+          "latestScore": 404,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -860,10 +802,10 @@
         "externalUrl": "https://www.producthunt.com/r/W2RTSYZ2NVMVFH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 304,
+          "votes": 306,
           "comments": 63,
           "rank": 5,
-          "score": 304
+          "score": 306
         },
         "metadata": {
           "slug": "robynn-ai-2",
@@ -881,10 +823,10 @@
           "description": "Your website starts decaying the day it ships. Broken links, stale pages, slipping rankings, invisible to ChatGPT. Robynn connects to your live site — no rebuild, no migration. It audits every page against your brand, ICP, and competitors, then proposes evidence-backed fixes. Point at any element, describe a change in plain English. Agents stage it, you approve, Robynn publishes and measures what moved in GA. Wins get reinforced. Regressions roll back. First audit is free.",
           "url": "https://www.producthunt.com/products/robynn-ai-self-improving-websites?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/W2RTSYZ2NVMVFH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 304,
+          "votesCount": 306,
           "commentsCount": 63,
           "dailyRank": 5,
-          "latestScore": 304,
+          "latestScore": 306,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -921,10 +863,10 @@
         "externalUrl": "https://www.producthunt.com/r/R3HSYEBN3DTVVZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 183,
+          "votes": 184,
           "comments": 14,
           "rank": 6,
-          "score": 183
+          "score": 184
         },
         "metadata": {
           "slug": "superfile",
@@ -942,10 +884,10 @@
           "description": "Superfile is a modern terminal file manager with a polished multi-panel interface, strong previews, and deep customization. It lets you browse, preview, and move files across panes the way a desktop file manager would, while staying fully keyboard-driven and fast.",
           "url": "https://www.producthunt.com/products/superfile?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/R3HSYEBN3DTVVZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 183,
+          "votesCount": 184,
           "commentsCount": 14,
           "dailyRank": 6,
-          "latestScore": 183,
+          "latestScore": 184,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -982,10 +924,10 @@
         "externalUrl": "https://www.producthunt.com/r/3FJJ4M5M5IRALN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-07-27T07:01:00Z",
         "metrics": {
-          "votes": 169,
+          "votes": 170,
           "comments": 4,
           "rank": 7,
-          "score": 169
+          "score": 170
         },
         "metadata": {
           "slug": "grok-4-5-6",
@@ -1003,10 +945,10 @@
           "description": "Grok 4.5 was trained on datasets spanning knowledge in coding, science, engineering, and math. With both intelligent and efficient reasoning, Grok 4.5 excels at real engineering tasks and exceeds comparable leading models at these tasks.",
           "url": "https://www.producthunt.com/products/grok?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/3FJJ4M5M5IRALN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 169,
+          "votesCount": 170,
           "commentsCount": 4,
           "dailyRank": 7,
-          "latestScore": 169,
+          "latestScore": 170,
           "featuredAt": "2026-07-27T07:01:00Z",
           "createdAt": "2026-07-27T07:01:00Z",
           "topics": {
@@ -1235,7 +1177,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-07-29T03:00:45.822Z",
+    "fetchedAt": "2026-07-29T06:24:16.880Z",
     "items": [
       {
         "source": "github_trending",
@@ -1243,7 +1185,7 @@
         "title": "diegosouzapw/OmniRoute",
         "summary": "Never stop coding.",
         "url": "https://github.com/diegosouzapw/OmniRoute",
-        "publishedAt": "2026-07-29T03:00:45.790Z",
+        "publishedAt": "2026-07-29T06:24:16.848Z",
         "metrics": {
           "rank": 1
         },
@@ -1258,7 +1200,7 @@
         "title": "permissionlesstech/bitchat",
         "summary": "bluetooth mesh chat, IRC vibes bitchat A decentralized peer-to-peer messaging app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach.",
         "url": "https://github.com/permissionlesstech/bitchat",
-        "publishedAt": "2026-07-29T03:00:45.790Z",
+        "publishedAt": "2026-07-29T06:24:16.849Z",
         "metrics": {
           "rank": 2
         },
@@ -1273,7 +1215,7 @@
         "title": "usestrix/strix",
         "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
         "url": "https://github.com/usestrix/strix",
-        "publishedAt": "2026-07-29T03:00:45.792Z",
+        "publishedAt": "2026-07-29T06:24:16.850Z",
         "metrics": {
           "rank": 3
         },
@@ -1288,7 +1230,7 @@
         "title": "stablyai/orca",
         "summary": "Orca is the ADE for working with a fleet of parallel agents.",
         "url": "https://github.com/stablyai/orca",
-        "publishedAt": "2026-07-29T03:00:45.792Z",
+        "publishedAt": "2026-07-29T06:24:16.851Z",
         "metrics": {
           "rank": 4
         },
@@ -1303,7 +1245,7 @@
         "title": "Zackriya-Solutions/meetily",
         "summary": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.",
         "url": "https://github.com/Zackriya-Solutions/meetily",
-        "publishedAt": "2026-07-29T03:00:45.793Z",
+        "publishedAt": "2026-07-29T06:24:16.851Z",
         "metrics": {
           "rank": 5
         },
@@ -1318,7 +1260,7 @@
         "title": "emilkowalski/skills",
         "summary": "Skills for Design Engineers.",
         "url": "https://github.com/emilkowalski/skills",
-        "publishedAt": "2026-07-29T03:00:45.793Z",
+        "publishedAt": "2026-07-29T06:24:16.852Z",
         "metrics": {
           "rank": 6
         },
@@ -1333,7 +1275,7 @@
         "title": "ogulcancelik/herdr",
         "summary": "agent multiplexer that lives in your terminal.",
         "url": "https://github.com/ogulcancelik/herdr",
-        "publishedAt": "2026-07-29T03:00:45.794Z",
+        "publishedAt": "2026-07-29T06:24:16.852Z",
         "metrics": {
           "rank": 7
         },
@@ -1348,7 +1290,7 @@
         "title": "Nutlope/hallmark",
         "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "url": "https://github.com/Nutlope/hallmark",
-        "publishedAt": "2026-07-29T03:00:45.794Z",
+        "publishedAt": "2026-07-29T06:24:16.852Z",
         "metrics": {
           "rank": 8
         },
@@ -1363,7 +1305,7 @@
         "title": "hasaneyldrm/exercises-dataset",
         "summary": "1,324-exercise fitness dataset — animation GIFs, 180×180 thumbnails, muscle-group & equipment data, and step-by-step instructions in 6 languages.",
         "url": "https://github.com/hasaneyldrm/exercises-dataset",
-        "publishedAt": "2026-07-29T03:00:45.795Z",
+        "publishedAt": "2026-07-29T06:24:16.854Z",
         "metrics": {
           "rank": 9
         },
@@ -1378,7 +1320,7 @@
         "title": "asgeirtj/system_prompts_leaks",
         "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code.",
         "url": "https://github.com/asgeirtj/system_prompts_leaks",
-        "publishedAt": "2026-07-29T03:00:45.797Z",
+        "publishedAt": "2026-07-29T06:24:16.855Z",
         "metrics": {
           "rank": 10
         },
@@ -1393,7 +1335,7 @@
         "title": "koala73/worldmonitor",
         "summary": "Real-time global intelligence dashboard.",
         "url": "https://github.com/koala73/worldmonitor",
-        "publishedAt": "2026-07-29T03:00:45.797Z",
+        "publishedAt": "2026-07-29T06:24:16.856Z",
         "metrics": {
           "rank": 11
         },
@@ -1408,7 +1350,7 @@
         "title": "catchorg/Catch2",
         "summary": "A modern, C++-native, test framework for unit-tests, TDD and BDD - using C++14, C++17 and later (C++11 support is in v2.x branch, and C++03 on the Catch1.x branch) What is Catch2?",
         "url": "https://github.com/catchorg/Catch2",
-        "publishedAt": "2026-07-29T03:00:45.798Z",
+        "publishedAt": "2026-07-29T06:24:16.856Z",
         "metrics": {
           "rank": 12
         },
@@ -1423,7 +1365,7 @@
         "title": "iOfficeAI/OfficeCLI",
         "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.",
         "url": "https://github.com/iOfficeAI/OfficeCLI",
-        "publishedAt": "2026-07-29T03:00:45.800Z",
+        "publishedAt": "2026-07-29T06:24:16.858Z",
         "metrics": {
           "rank": 13
         },
@@ -1438,7 +1380,7 @@
         "title": "Robbyant/lingbot-map",
         "summary": "A feed-forward 3D foundation model for reconstructing scenes from streaming data LingBot-Map: Geometric Context Transformer for Streaming 3D Reconstruction Robbyant Team https://github.com/user-attachments/assets/fe39e095-af2c-4ec9-b68d-a8ba97e505ab 🗺️ Mee...",
         "url": "https://github.com/Robbyant/lingbot-map",
-        "publishedAt": "2026-07-29T03:00:45.801Z",
+        "publishedAt": "2026-07-29T06:24:16.860Z",
         "metrics": {
           "rank": 14
         },
@@ -1453,7 +1395,7 @@
         "title": "bradautomates/claude-video",
         "summary": "Give Claude the ability to watch any video.",
         "url": "https://github.com/bradautomates/claude-video",
-        "publishedAt": "2026-07-29T03:00:45.802Z",
+        "publishedAt": "2026-07-29T06:24:16.861Z",
         "metrics": {
           "rank": 15
         },
@@ -1468,7 +1410,7 @@
         "title": "wonderwhy-er/DesktopCommanderMCP",
         "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities Desktop Commander MCP Search, update, manage files and run terminal commands with AI Work with code and text, run processes, and automate tas...",
         "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
-        "publishedAt": "2026-07-29T03:00:45.805Z",
+        "publishedAt": "2026-07-29T06:24:16.863Z",
         "metrics": {
           "rank": 16
         },
@@ -1483,7 +1425,7 @@
         "title": "xbtlin/ai-berkshire",
         "summary": "AI 时代的伯克希尔：基于 Claude Code / Codex 的价值投资研究框架。巴菲特·芒格·段永平·李录四大师方法论 + 多Agent并行研究。| AI-era Berkshire: a value investing research framework built for Claude Code / Codex.",
         "url": "https://github.com/xbtlin/ai-berkshire",
-        "publishedAt": "2026-07-29T03:00:45.807Z",
+        "publishedAt": "2026-07-29T06:24:16.865Z",
         "metrics": {
           "rank": 17
         },
@@ -1498,7 +1440,7 @@
         "title": "openai/codex-plugin-cc",
         "summary": "Use Codex from Claude Code to review code or delegate tasks.",
         "url": "https://github.com/openai/codex-plugin-cc",
-        "publishedAt": "2026-07-29T03:00:45.807Z",
+        "publishedAt": "2026-07-29T06:24:16.866Z",
         "metrics": {
           "rank": 18
         },
@@ -1513,7 +1455,7 @@
         "title": "ocornut/imgui",
         "summary": "Dear ImGui: Bloat-free Graphical User interface for C++ with minimal dependencies Dear ImGui \"Give someone state and they'll have a bug one day, but teach them how to represent state in two separate locations that have to be kept in sync and they'll have bu...",
         "url": "https://github.com/ocornut/imgui",
-        "publishedAt": "2026-07-29T03:00:45.808Z",
+        "publishedAt": "2026-07-29T06:24:16.866Z",
         "metrics": {
           "rank": 19
         },
@@ -1528,7 +1470,7 @@
         "title": "HKUDS/Vibe-Trading",
         "summary": "\"Vibe-Trading: Your Personal Trading Agent\" English | 中文 | 日本語 | 한국어 | العربية Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website &nbsp;·&nbsp; Docs &nbsp;·&nbsp; News &nbsp;·&nbsp; Fe...",
         "url": "https://github.com/HKUDS/Vibe-Trading",
-        "publishedAt": "2026-07-29T03:00:45.818Z",
+        "publishedAt": "2026-07-29T06:24:16.876Z",
         "metrics": {
           "rank": 20
         },
@@ -1542,7 +1484,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-07-29T03:01:32.935Z",
+    "fetchedAt": "2026-07-29T06:24:22.006Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1574,6 +1516,38 @@
         "metrics": {},
         "metadata": {
           "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/position-open-weights-models",
+        "title": "Our position on open-weights models",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>A post by Dario Amodei, Anthropic CEO</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Over the last few days there has been a lot of discussion about open-weights model",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\"><em>A post by Dario Amodei, Anthropic CEO</em></p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Over the last few days there has been a lot of discussion about open-weights models, especially those from China. Reports suggest that some US officials are <a href=\"https://www.axios.com/2026/07/20/ai-us-china-open-source-kimi\">considering banning</a> the use of Chinese open-weights models by US companies. In response, many tech companies have signed <a href=\"https://x.com/Jense",
+        "url": "https://www.anthropic.com/news/position-open-weights-models",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-26T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/cognizant-anthropic",
+        "title": "Cognizant and Anthropic expand their partnership to bring Claude to enterprise clients",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We're expanding our <a href=\"https://www.anthropic.com/news/cognizant-partnership\">partnership</a> with <a href=\"https://www.cognizant.com/\">Cognizant</a>, one of the world's largest technology services companies.<",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">We're expanding our <a href=\"https://www.anthropic.com/news/cognizant-partnership\">partnership</a> with <a href=\"https://www.cognizant.com/\">Cognizant</a>, one of the world's largest technology services companies.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Cognizant uses Claude in the systems it builds and runs for clients across manufacturing, life sciences, insurance, and other industries. With the expansion of our partnership, it’s embedding Claude across its own b",
+        "url": "https://www.anthropic.com/news/cognizant-anthropic",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-26T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
         }
       },
       {
@@ -1689,28 +1663,190 @@
         }
       },
       {
-        "source": "builder_blog",
-        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
-        "title": "sqlite-utils 3.39.1",
-        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/3.39.1\">sqlite-utils 3.39.1</a></p> <p>I back-ported <a href=\"https://github.com/simonw/sqlite-utils/issues/815\">a fix</a> for <code>table.delete_where()</code> that shipped in version 4.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
-        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/sqlite-utils/releases/tag/3.39.1\">sqlite-utils 3.39.1</a></p> <p>I back-ported <a href=\"https://github.com/simonw/sqlite-utils/issues/815\">a fix</a> for <code>table.delete_where()</code> that shipped in version 4.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sqlite-utils\">sqlite-utils</a></p>",
-        "url": "https://simonwillison.net/2026/Jul/26/sqlite-utils/#atom-everything",
-        "authorName": "Simon Willison",
-        "sourceName": "Simon Willison",
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25895",
+        "title": "HiFi-UMI: Learning Deployable Manipulation Policies from High-Fidelity UMI Data Alone",
+        "summary": "Learning deployable manipulation policies is bottlenecked by the scarcity of data that is both high-fidelity and scalable. Real-robot teleoperation is accurate but costly to scale; robot-free UMI capture scales readily, and current practice uses the resulting data mainly for pre-training, adding a small real-robot \"anchor\" at post-training. We ask whether raising the fidelity of robot-free UMI data, rather than shrinking the real-robot fraction, can remove that anchor. We present HiFi-UMI, a por",
+        "body": "Learning deployable manipulation policies is bottlenecked by the scarcity of data that is both high-fidelity and scalable. Real-robot teleoperation is accurate but costly to scale; robot-free UMI capture scales readily, and current practice uses the resulting data mainly for pre-training, adding a small real-robot \"anchor\" at post-training. We ask whether raising the fidelity of robot-free UMI data, rather than shrinking the real-robot fraction, can remove that anchor. We present HiFi-UMI, a portable UMI data-production system co-designed for trajectory accuracy, inter-gripper relative pose, synchronization, and field of view: head-mounted offline stereo-inertial SLAM, native rather than reconstructed relative pose, a shared microsecond GPIO trigger, and two wide-angle cameras per hand cov",
+        "url": "https://arxiv.org/abs/2607.25895",
+        "sourceName": "HuggingFace Papers",
         "sourceCategory": "technical",
-        "publishedAt": "2026-07-26T04:38:46.000Z",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
         "metrics": {},
         "metadata": {
-          "feedSource": "Simon Willison"
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25565",
+        "title": "ReDesign: Recovering Editable Design Structures from Images via Agentic Decomposition",
+        "summary": "Recovering an editable design file from a raster image is a common and costly bottleneck in modern design workflows, yet remains challenging since editability depends on recovering multi-modal attributes, such as typography, vector geometry, colors, grouping, and layer ordering. We present ReDesign, an agentic framework that grows an editable layer hierarchy by selecting and composing specialized tools across modalities. To keep this long decision process reliable despite imperfect tool outputs,",
+        "body": "Recovering an editable design file from a raster image is a common and costly bottleneck in modern design workflows, yet remains challenging since editability depends on recovering multi-modal attributes, such as typography, vector geometry, colors, grouping, and layer ordering. We present ReDesign, an agentic framework that grows an editable layer hierarchy by selecting and composing specialized tools across modalities. To keep this long decision process reliable despite imperfect tool outputs, we introduce graceful verification at each expansion, which provides local accept, prune, or retry feedback that prevents error accumulation and avoids large scale reruns. To evaluate editability at scale, we introduce the Figma Edit Replay Benchmark, consisting of 909 raw Figma files and 14,796 co",
+        "url": "https://arxiv.org/abs/2607.25565",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.26037",
+        "title": "Wonder: Video World Model Done Better",
+        "summary": "We present Wonder, a general-purpose video world model for real-time, camera-controllable world exploration. Given an image or a conditional video, Wonder constructs a playable world where users can navigate interactively by moving the camera, discovering unseen regions, and revisiting previously observed areas in real time and over a long-term horizon. Achieving this capability requires a system-level co-design of control method, memory mechanism, and training strategy. We introduce a novel cam",
+        "body": "We present Wonder, a general-purpose video world model for real-time, camera-controllable world exploration. Given an image or a conditional video, Wonder constructs a playable world where users can navigate interactively by moving the camera, discovering unseen regions, and revisiting previously observed areas in real time and over a long-term horizon. Achieving this capability requires a system-level co-design of control method, memory mechanism, and training strategy. We introduce a novel camera conditioning with a dense coordinate field whose renderings provide spatially aligned motion and orientation cues, allowing the model to interpret camera motion directly as visual evidence. To support fast and precise memory retrieval over a growing generation context, we propose an efficient sp",
+        "url": "https://arxiv.org/abs/2607.26037",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25857",
+        "title": "Shieldstral",
+        "summary": "We introduce Shieldstral, a 3B-parameter policy-adaptive multimodal safety classifier that matches or outperforms models nearly 7times its size on text safety benchmarks and sets a new state of the art on multimodal safety classification. Shieldstral formulates content moderation as a binary question-answering task. This simple formulation unifies diverse moderation tasks into a single yes/no problem, enabling heterogeneous safety datasets with divergent taxonomies to be consolidated under one t",
+        "body": "We introduce Shieldstral, a 3B-parameter policy-adaptive multimodal safety classifier that matches or outperforms models nearly 7times its size on text safety benchmarks and sets a new state of the art on multimodal safety classification. Shieldstral formulates content moderation as a binary question-answering task. This simple formulation unifies diverse moderation tasks into a single yes/no problem, enabling heterogeneous safety datasets with divergent taxonomies to be consolidated under one training framework. We present the data construction recipe, covering curation and generation of approximately 54.1M samples and a fine-grained evaluation set to evaluate policy adaptability. Together, these enable a small adaptive model to match or outperform much larger models.",
+        "url": "https://arxiv.org/abs/2607.25857",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25537",
+        "title": "Visual prompt engineering for video models",
+        "summary": "In the age of foundation models, a model is only as good as its prompt. For this reason, prompt engineering has become an essential technique for improving language model performance. Since video models are currently becoming foundation models for visual tasks (e.g., visual reasoning), we here ask whether they similarly benefit from visual prompt engineering: automatically modifying the task image to improve model performance. For example, for a visual physics reasoning task (\"Where does the bal",
+        "body": "In the age of foundation models, a model is only as good as its prompt. For this reason, prompt engineering has become an essential technique for improving language model performance. Since video models are currently becoming foundation models for visual tasks (e.g., visual reasoning), we here ask whether they similarly benefit from visual prompt engineering: automatically modifying the task image to improve model performance. For example, for a visual physics reasoning task (\"Where does the ball land, after passing a set of obstacles?\"), an abstract sketch-like scene can be turned into a photorealistic version with a simple call to an image editing model. We find that visual prompt engineering, or VIPE for short, improves video reasoning performance across tasks. In fact, for video models",
+        "url": "https://arxiv.org/abs/2607.25537",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25669",
+        "title": "OmniDelta: Skill-Driven Budget Allocation for Token Compression in OmniLLMs",
+        "summary": "Emerging Omni-modal Large Language Models (OmniLLMs) enable unified understanding of text, audio, and video, but their long audio-video token sequences introduce substantial memory and inference costs. Existing compression methods mainly focus on selecting important tokens under fixed budgets, leaving the preceding budget-allocation problem underexplored. We show that direct query-to-audio/video similarity is unreliable for inter-modal budget allocation, and that uniform intra-modal budgets can ",
+        "body": "Emerging Omni-modal Large Language Models (OmniLLMs) enable unified understanding of text, audio, and video, but their long audio-video token sequences introduce substantial memory and inference costs. Existing compression methods mainly focus on selecting important tokens under fixed budgets, leaving the preceding budget-allocation problem underexplored. We show that direct query-to-audio/video similarity is unreliable for inter-modal budget allocation, and that uniform intra-modal budgets can miss key evidence while retaining redundant content. To address these limitations, we propose OmniDelta, a training-free, skill-driven framework that couples intent-aware inter-modal allocation with content-aware intra-modal allocation. OmniDelta first constructs audio and video skill pools to shift",
+        "url": "https://arxiv.org/abs/2607.25669",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25572",
+        "title": "Mapping CVEs to MITRE ATT&CK Techniques: A Curated Gold-Set Classifier and the Limits of LLM-Assisted Label Expansion",
+        "summary": "We present a reproducible pipeline for mapping Common Vulnerabilities and Exposures (CVEs) to MITRE ATT&amp;CK Enterprise techniques from free-text vulnerability descriptions. Rather than relying on the CWE->CAPEC->ATT&amp;CK derivation chain, whose table-expansion artifacts we quantify, we train a multi-label classifier on a curated gold dataset of 1,207 CVEs from expert MITRE Center for Threat-Informed Defense mappings. The resulting model approximately doubles recall@5 compared with a zero-sh",
+        "body": "We present a reproducible pipeline for mapping Common Vulnerabilities and Exposures (CVEs) to MITRE ATT&amp;CK Enterprise techniques from free-text vulnerability descriptions. Rather than relying on the CWE->CAPEC->ATT&amp;CK derivation chain, whose table-expansion artifacts we quantify, we train a multi-label classifier on a curated gold dataset of 1,207 CVEs from expert MITRE Center for Threat-Informed Defense mappings. The resulting model approximately doubles recall@5 compared with a zero-shot embedding-similarity baseline and improves every ranking metric. We then investigate whether LLM-assisted labeling can extend the gold dataset. Initial experiments suggest contradictory conclusions: a single run indicates degraded performance, while averaging over five random seeds suggests a sma",
+        "url": "https://arxiv.org/abs/2607.25572",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-27T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.24223",
+        "title": "A New Role for Relevance: Guiding Corpus Interaction in Agentic Search",
+        "summary": "Relevance is a query-dependent estimate of whether a document or excerpt contains useful evidence. Existing retrieval agents use relevance to select top-k content, but document relevance alone cannot localize, compose, or verify the evidence required by complex questions. Direct Corpus Interaction (DCI) enables such fine-grained operations through grep-style exploration, but its relevance-agnostic search can expose useful clues late and delay convergence. Recent advances use relevance to narrow ",
+        "body": "Relevance is a query-dependent estimate of whether a document or excerpt contains useful evidence. Existing retrieval agents use relevance to select top-k content, but document relevance alone cannot localize, compose, or verify the evidence required by complex questions. Direct Corpus Interaction (DCI) enables such fine-grained operations through grep-style exploration, but its relevance-agnostic search can expose useful clues late and delay convergence. Recent advances use relevance to narrow the corpus into a working space for interaction. Once interaction begins, however, relevance still does not directly guide which documents grep searches first or distinguish informative excerpts from a broad set of matches to let LLMs see them first. We introduce the Relevance-Aware RipGrep Search A",
+        "url": "https://arxiv.org/abs/2607.24223",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-26T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.24368",
+        "title": "Keep It InMind: Benchmarking the Implicit-Association Blind Spot in Agent Memory",
+        "summary": "Long-term memory systems store what a user says in an external store and retrieve it when a related query arrives. This interface rests on an assumption so natural that it is rarely stated: a memory that is needed will resemble the query that needs it. World knowledge breaks the assumption. A tree-nut allergy should change the answer to a macaron request through their almond-flour ingredient, yet the two texts share no cue a retriever can see. We call this failure mode the implicit-association b",
+        "body": "Long-term memory systems store what a user says in an external store and retrieve it when a related query arrives. This interface rests on an assumption so natural that it is rarely stated: a memory that is needed will resemble the query that needs it. World knowledge breaks the assumption. A tree-nut allergy should change the answer to a macaron request through their almond-flour ingredient, yet the two texts share no cue a retriever can see. We call this failure mode the implicit-association blind spot and introduce InMind, a 125-task, expert-verified benchmark spanning ten life domains, with 113 tasks grounded in citable public sources. Its paired controls separate three explanations that existing evaluations conflate: the fact was never stored, the model lacks the bridging knowledge, o",
+        "url": "https://arxiv.org/abs/2607.24368",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-26T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.24904",
+        "title": "Mage-VL: An Efficient Codec-Native Streaming Multimodal Foundation Model",
+        "summary": "Standard vision-language models (VLMs) suffer from Moravec's paradox: they excel at complex offline visual reasoning but struggle with simple streaming perception tasks and process them inefficiently. We present Mage-VL, an efficient codec-native streaming foundation model for real-time multimodal understanding and interaction. At its core, our custom tokenizer, Mage-ViT, replaces uniform frame sampling by selectively encoding dynamic, entropy-rich regions using motion vectors and residual energ",
+        "body": "Standard vision-language models (VLMs) suffer from Moravec's paradox: they excel at complex offline visual reasoning but struggle with simple streaming perception tasks and process them inefficiently. We present Mage-VL, an efficient codec-native streaming foundation model for real-time multimodal understanding and interaction. At its core, our custom tokenizer, Mage-ViT, replaces uniform frame sampling by selectively encoding dynamic, entropy-rich regions using motion vectors and residual energy across sparse anchor (I) and predicted (P) frames. Operating at a 16 x 16 patch level, this reduces visual token consumption by over 75% while preserving spatiotemporal context. Trained from scratch on approximately 560M unlabeled images and 100M unlabeled video frames, Mage-ViT matches or outperf",
+        "url": "https://arxiv.org/abs/2607.24904",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-26T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.24957",
+        "title": "PerceptionBench: Evaluating Atomic Visual Perception in Multimodal Large Language Models",
+        "summary": "We introduce PerceptionBench, a benchmark specifically designed to evaluate the atomic visual perception capabilities of Multimodal Large Language Models (MLLMs). Existing benchmarks often fail to isolate perception: holistic evaluations conflate perceptual errors with failures in reasoning or domain knowledge, while application-driven benchmarks only cover narrow, fragmented domains shaped by heuristic designs. To address these limitations, PerceptionBench adopts a bottom-up approach: by diagno",
+        "body": "We introduce PerceptionBench, a benchmark specifically designed to evaluate the atomic visual perception capabilities of Multimodal Large Language Models (MLLMs). Existing benchmarks often fail to isolate perception: holistic evaluations conflate perceptual errors with failures in reasoning or domain knowledge, while application-driven benchmarks only cover narrow, fragmented domains shaped by heuristic designs. To address these limitations, PerceptionBench adopts a bottom-up approach: by diagnosing the earliest failure points in the responses of frontier MLLMs across 42 existing benchmarks, we construct an error taxonomy whose perception branch defines ten atomic perceptual capabilities. Guided by this taxonomy, we construct 3,000 verified questions with short, unambiguous answers, each i",
+        "url": "https://arxiv.org/abs/2607.24957",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-26T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.25091",
+        "title": "Towards Robust Reinforcement Learning for Small-Scale Language Model Agents",
+        "summary": "The alignment of Small Language Models (SLMs) in the 70--500M parameter range using reinforcement learning is often considered unstable, though the underlying failure mechanisms have not been systematically investigated. In the State-of-the-Art (SOTA) research, fifteen (model, corpus) configurations were trained using Proximal Policy Optimization (PPO). The experiments included Pythia-70M, 160M, 410M and SmolLM2-135M, 360M on the TinyStories, CNN/DailyMail, and Wikitext-103 corpora. Three reprod",
+        "body": "The alignment of Small Language Models (SLMs) in the 70--500M parameter range using reinforcement learning is often considered unstable, though the underlying failure mechanisms have not been systematically investigated. In the State-of-the-Art (SOTA) research, fifteen (model, corpus) configurations were trained using Proximal Policy Optimization (PPO). The experiments included Pythia-70M, 160M, 410M and SmolLM2-135M, 360M on the TinyStories, CNN/DailyMail, and Wikitext-103 corpora. Three reproducible failure modes were identified in small-scale language models: silent LoRA parameter freezing in standard PEFT/TRL pipelines, numerical overflow in importance ratios when using bfloat16, and catastrophic policy collapse due to reward-model error. These issues were addressed using a merge-and-r",
+        "url": "https://arxiv.org/abs/2607.25091",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-26T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
         }
       }
     ],
     "errors": [
-      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
       "Gwern: HTTP 403",
-      "Hacker News AI: This operation was aborted",
-      "HuggingFace Papers: This operation was aborted"
+      "Hacker News AI: HTTP 502"
     ]
   }
 ]
