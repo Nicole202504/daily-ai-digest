@@ -1,0 +1,1355 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-08-03T03:01:15.331Z",
+    "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmscldw820c4kroeu7bw1kb27",
+        "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+        "summary": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
+        "body": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
+        "url": "https://qwen.ai/blog?id=qwen3.8",
+        "sourceName": "Qwen：Blog Retrieval（API）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-08-03T02:00:00.000Z",
+        "rawJson": {
+          "id": "cmscldw820c4kroeu7bw1kb27",
+          "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+          "title_en": "Qwen3.8-Max： A New Bar for Coding and Cowork",
+          "url": "https://qwen.ai/blog?id=qwen3.8",
+          "permalink": "https://aihot.virxact.com/items/cmscldw820c4kroeu7bw1kb27",
+          "source": "Qwen：Blog Retrieval（API）",
+          "publishedAt": "2026-08-03T02:00:00.000Z",
+          "discoveredAt": "2026-08-03T02:10:26.416Z",
+          "summary": "Qwen 正式发布 Qwen3.8-Max，这是 Qwen 家族迄今最强的模型，拥有 2.4T 参数（95B 激活），并首次开源 Qwen-Max 级权重，开放权重将于下周发布。",
+          "category": "ai-models",
+          "score": 89,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmscldw820c4kroeu7bw1kb27"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmscc62eo033broeusw72isi0",
+        "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+        "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+        "body": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+        "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+        "sourceName": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-02T21:25:27.000Z",
+        "rawJson": {
+          "id": "cmscc62eo033broeusw72isi0",
+          "title": "OpenAI 新模型 Astra 数学表现出色，但被过度吹捧",
+          "title_en": "OpenAI's amazing - but vastly oversold - new model Astra",
+          "url": "https://garymarcus.substack.com/p/openais-amazing-but-vastly-oversold",
+          "permalink": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "publishedAt": "2026-08-02T21:25:27.000Z",
+          "discoveredAt": "2026-08-02T21:52:26.909Z",
+          "summary": "OpenAI 内部测试的新模型 Astra 在数学问题上表现惊艳，但 Gary Marcus 指出相关讨论犯了\"合成谬误\"：擅长某类数学不等于擅长所有数学、科学乃至一切认知任务。数学之所以成为突破口，是因为它便于用符号工具验证且能廉价生成海量合成数据，而开放世界问题无法如此模拟。此外，OpenAI 未公布方法细节，尚无法评估其真实意义。",
+          "category": "tip",
+          "score": 66,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmscc62eo033broeusw72isi0"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsbowa0l0m77rohvw8s15ia1",
+        "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+        "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+        "body": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+        "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+        "sourceName": "X：阿易 AI Notes (@AYi_AInotes)",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-02T10:47:27.000Z",
+        "rawJson": {
+          "id": "cmsbowa0l0m77rohvw8s15ia1",
+          "title": "Codex 用 Sol 指挥 Luna Max 省额度翻倍产出",
+          "title_en": "刚发的Codex Luna Max省钱tip，现在有进阶版了--而且是让Sol自己帮你配好，现在Codex圈中高阶玩家都在用。 思路很简单：别让Sol什么都自己干，Sol很贵，额度烧得快，但它规划和…",
+          "url": "https://x.com/AYi_AInotes/status/2083867265179537565",
+          "permalink": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "publishedAt": "2026-08-02T10:47:27.000Z",
+          "discoveredAt": "2026-08-02T11:00:58.177Z",
+          "summary": "Codex 高阶玩法：让 Sol 在 `~/.codex/agents/` 下创建 `luna-worker.toml` 子代理，模型设 `gpt-5.6-luna`、reasoning effort 设 max，Sol 负责拆任务与审代码，具体实现自动委托给 Luna Max。",
+          "category": "tip",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsbowa0l0m77rohvw8s15ia1"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsbf9by90dq7rohvp1oggqmk",
+        "title": "Grok 支持分析任意视频",
+        "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+        "body": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+        "url": "https://x.com/elonmusk/status/2083800942927839307",
+        "sourceName": "X：Elon Musk (@elonmusk, xAI)",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-02T06:23:54.000Z",
+        "rawJson": {
+          "id": "cmsbf9by90dq7rohvp1oggqmk",
+          "title": "Grok 支持分析任意视频",
+          "title_en": "Grok can analyze any video https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+          "url": "https://x.com/elonmusk/status/2083800942927839307",
+          "permalink": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "publishedAt": "2026-08-02T06:23:54.000Z",
+          "discoveredAt": "2026-08-02T06:31:11.917Z",
+          "summary": "Grok 可以分析任何视频 https://grok.com/share/bGVnYWN5_8013f7a3-f604-4351-8cd7-acecf3ef165b",
+          "category": "ai-products",
+          "score": 72,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsbf9by90dq7rohvp1oggqmk"
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-08-03T03:01:15.587Z",
+    "sourceGeneratedAt": "2026-08-01",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211631",
+        "title": "DeepSeek-V4-Flash-0731",
+        "summary": "Frontier agent intelligence at Flash prices",
+        "body": "DeepSeek-V4-Flash-0731 is the official release of V4-Flash, featuring a massive leap in agentic capabilities. It outperforms V4-Pro (Preview) on key benchmarks, natively supports the Responses API, and is fully adapted for Codex CLI.",
+        "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/DHPDMPFRNHBRJQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 327,
+          "comments": 10,
+          "rank": 2,
+          "score": 327
+        },
+        "metadata": {
+          "slug": "deepseek-v4-flash-0731",
+          "topics": [
+            "API",
+            "Open Source",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1211631",
+          "name": "DeepSeek-V4-Flash-0731",
+          "slug": "deepseek-v4-flash-0731",
+          "tagline": "Frontier agent intelligence at Flash prices",
+          "description": "DeepSeek-V4-Flash-0731 is the official release of V4-Flash, featuring a massive leap in agentic capabilities. It outperforms V4-Pro (Preview) on key benchmarks, natively supports the Responses API, and is fully adapted for Codex CLI.",
+          "url": "https://www.producthunt.com/products/deepseek?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/DHPDMPFRNHBRJQ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 327,
+          "commentsCount": 10,
+          "dailyRank": 2,
+          "latestScore": 327,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
+              {
+                "node": {
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211493",
+        "title": "NudgeForMe",
+        "summary": "AI follow-up agent for missed email opportunities",
+        "body": "NudgeForMe scans your sent conversations, finds threads where someone never replied, and drafts natural follow-ups inside your own mailbox. It starts in draft mode, so you stay in control. You can review each opportunity, select the useful ones, and send from Gmail, Outlook, or IMAP/SMTP. Built by the Snoooz team after processing millions of emails, NudgeForMe is focused on one painful workflow: making sure leads, deals, partnerships, and customer conversations do not quietly go cold.",
+        "url": "https://www.producthunt.com/products/nudgeforme?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/G2YNDDYM6FTUFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 326,
+          "comments": 66,
+          "rank": 1,
+          "score": 326
+        },
+        "metadata": {
+          "slug": "nudgeforme",
+          "topics": [
+            "Email",
+            "Productivity",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1211493",
+          "name": "NudgeForMe",
+          "slug": "nudgeforme",
+          "tagline": "AI follow-up agent for missed email opportunities",
+          "description": "NudgeForMe scans your sent conversations, finds threads where someone never replied, and drafts natural follow-ups inside your own mailbox. It starts in draft mode, so you stay in control. You can review each opportunity, select the useful ones, and send from Gmail, Outlook, or IMAP/SMTP. Built by the Snoooz team after processing millions of emails, NudgeForMe is focused on one painful workflow: making sure leads, deals, partnerships, and customer conversations do not quietly go cold.",
+          "url": "https://www.producthunt.com/products/nudgeforme?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/G2YNDDYM6FTUFG?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 326,
+          "commentsCount": 66,
+          "dailyRank": 1,
+          "latestScore": 326,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Email",
+                  "slug": "email"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1210161",
+        "title": "Port22",
+        "summary": "Claude Code, Codex & more on your phone ",
+        "body": "I'd start a long agent run, walk away, and come back to find it had spent 20 minutes waiting on me to approve one file edit. Port22 puts every coding agent running on your Mac onto your phone. See which are working and which are stuck. When one needs permission your phone buzzes and you tap the actual option it offered, not a guessed keystroke. It attaches to what you already run. No wrapper, no config, no new terminal. Free for one Mac and two sessions, every feature on.",
+        "url": "https://www.producthunt.com/products/port22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/Z426QGPUISUCBK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 265,
+          "comments": 32,
+          "rank": 3,
+          "score": 265
+        },
+        "metadata": {
+          "slug": "port22",
+          "topics": [
+            "iOS",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1210161",
+          "name": "Port22",
+          "slug": "port22",
+          "tagline": "Claude Code, Codex & more on your phone ",
+          "description": "I'd start a long agent run, walk away, and come back to find it had spent 20 minutes waiting on me to approve one file edit. Port22 puts every coding agent running on your Mac onto your phone. See which are working and which are stuck. When one needs permission your phone buzzes and you tap the actual option it offered, not a guessed keystroke. It attaches to what you already run. No wrapper, no config, no new terminal. Free for one Mac and two sessions, every feature on.",
+          "url": "https://www.producthunt.com/products/port22?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/Z426QGPUISUCBK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 265,
+          "commentsCount": 32,
+          "dailyRank": 3,
+          "latestScore": 265,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "iOS",
+                  "slug": "ios"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211380",
+        "title": "AgentMicro",
+        "summary": "Live Codex task status in your macOS menu bar",
+        "body": "AgentMicro is a local-first macOS menu-bar companion for supervising parallel Codex Desktop and CLI tasks. It surfaces task state, project, elapsed time, and results at a glance, then opens the matching Codex Desktop task with one click. It observes local metadata only and never uploads prompts, responses, source code, or task history.",
+        "url": "https://www.producthunt.com/products/agentmicro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/OQQQ3Q6OSVD35Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 171,
+          "comments": 7,
+          "rank": 4,
+          "score": 171
+        },
+        "metadata": {
+          "slug": "agentmicro",
+          "topics": [
+            "Open Source",
+            "Developer Tools",
+            "Menu Bar Apps"
+          ]
+        },
+        "rawJson": {
+          "id": "1211380",
+          "name": "AgentMicro",
+          "slug": "agentmicro",
+          "tagline": "Live Codex task status in your macOS menu bar",
+          "description": "AgentMicro is a local-first macOS menu-bar companion for supervising parallel Codex Desktop and CLI tasks. It surfaces task state, project, elapsed time, and results at a glance, then opens the matching Codex Desktop task with one click. It observes local metadata only and never uploads prompts, responses, source code, or task history.",
+          "url": "https://www.producthunt.com/products/agentmicro?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/OQQQ3Q6OSVD35Q?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 171,
+          "commentsCount": 7,
+          "dailyRank": 4,
+          "latestScore": 171,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211399",
+        "title": "Yamanote 3D",
+        "summary": "Ride Tokyo’s Yamanote Line in a 3D world",
+        "body": "Yamanote 3D is a free browser experience inspired by Tokyo’s Yamanote Line. Walk through an E235 carriage, sit down, watch the city, listen to announcements, and get off at stations. I built it to have realistic train sounds and city ambience in the background while studying or working. Feedback is very welcome.",
+        "url": "https://www.producthunt.com/products/yamanote-3d?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/QXXUS2XPEIPOLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 154,
+          "comments": 19,
+          "rank": 5,
+          "score": 154
+        },
+        "metadata": {
+          "slug": "yamanote-3d",
+          "topics": [
+            "Web App",
+            "Simulation Games",
+            "GitHub",
+            "Animation"
+          ]
+        },
+        "rawJson": {
+          "id": "1211399",
+          "name": "Yamanote 3D",
+          "slug": "yamanote-3d",
+          "tagline": "Ride Tokyo’s Yamanote Line in a 3D world",
+          "description": "Yamanote 3D is a free browser experience inspired by Tokyo’s Yamanote Line. Walk through an E235 carriage, sit down, watch the city, listen to announcements, and get off at stations. I built it to have realistic train sounds and city ambience in the background while studying or working. Feedback is very welcome.",
+          "url": "https://www.producthunt.com/products/yamanote-3d?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/QXXUS2XPEIPOLZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 154,
+          "commentsCount": 19,
+          "dailyRank": 5,
+          "latestScore": 154,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Web App",
+                  "slug": "web-app"
+                }
+              },
+              {
+                "node": {
+                  "name": "Simulation Games",
+                  "slug": "simulation-games"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Animation",
+                  "slug": "animation"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211111",
+        "title": "TerminalWidget",
+        "summary": "Put script output in your Desktop/Home screen widgets.",
+        "body": "Display command output, progress, sparklines, and images in customizable widgets for macOS, iOS, and iPadOS. Universal app, one-time purchase.",
+        "url": "https://www.producthunt.com/products/terminalwidget?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/UKIMX63EX5ST2R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 143,
+          "comments": 16,
+          "rank": 6,
+          "score": 143
+        },
+        "metadata": {
+          "slug": "terminalwidget",
+          "topics": [
+            "Productivity",
+            "Developer Tools",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1211111",
+          "name": "TerminalWidget",
+          "slug": "terminalwidget",
+          "tagline": "Put script output in your Desktop/Home screen widgets.",
+          "description": "Display command output, progress, sparklines, and images in customizable widgets for macOS, iOS, and iPadOS. Universal app, one-time purchase.",
+          "url": "https://www.producthunt.com/products/terminalwidget?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/UKIMX63EX5ST2R?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 143,
+          "commentsCount": 16,
+          "dailyRank": 6,
+          "latestScore": 143,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1200935",
+        "title": "Terminal Candy",
+        "summary": "A native macOS terminal you can skin and theme",
+        "body": "Terminal Candy is a real, native macOS terminal you live inside. Pick a skin — Game Boy, cassette deck, Pip-Boy, or your own art — and draw the terminal square right on it. It pings you (sound + dock bounce) when Claude Code or Codex actually needs input, so you stop babysitting the window. The Skin Builder turns any image into a terminal; 84 palettes, CRT effects, ⌥Space hotkey, community skin marketplace. 14-day free trial, then $10 once — no subscription. macOS 14+, Apple Silicon.",
+        "url": "https://www.producthunt.com/products/terminal-candy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/LF7L5WEVZODLXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 127,
+          "comments": 9,
+          "rank": 7,
+          "score": 127
+        },
+        "metadata": {
+          "slug": "terminal-candy",
+          "topics": [
+            "Mac",
+            "Productivity",
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1200935",
+          "name": "Terminal Candy",
+          "slug": "terminal-candy",
+          "tagline": "A native macOS terminal you can skin and theme",
+          "description": "Terminal Candy is a real, native macOS terminal you live inside. Pick a skin — Game Boy, cassette deck, Pip-Boy, or your own art — and draw the terminal square right on it. It pings you (sound + dock bounce) when Claude Code or Codex actually needs input, so you stop babysitting the window. The Skin Builder turns any image into a terminal; 84 palettes, CRT effects, ⌥Space hotkey, community skin marketplace. 14-day free trial, then $10 once — no subscription. macOS 14+, Apple Silicon.",
+          "url": "https://www.producthunt.com/products/terminal-candy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/LF7L5WEVZODLXZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 127,
+          "commentsCount": 9,
+          "dailyRank": 7,
+          "latestScore": 127,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211927",
+        "title": "Basedash Audit Logs",
+        "summary": "Every action in your BI tool, on the record.",
+        "body": "Native audit logs for Basedash — every sign-in, query, and configuration change is on the record, including every query the AI runs, attributed and traceable. Answer who saw what, when with one filter, stream events to your SIEM, set retention to match your policy, and pull the log through the API. Built for security reviews and enterprise rollouts, alongside SSO, SCIM, and RBAC. Your BI tool finally has a memory. Every action, on the record.",
+        "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/4BFYBSUOLNVBUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 113,
+          "comments": 9,
+          "rank": 8,
+          "score": 113
+        },
+        "metadata": {
+          "slug": "basedash-audit-logs",
+          "topics": [
+            "Artificial Intelligence",
+            "Data & Analytics",
+            "Business Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1211927",
+          "name": "Basedash Audit Logs",
+          "slug": "basedash-audit-logs",
+          "tagline": "Every action in your BI tool, on the record.",
+          "description": "Native audit logs for Basedash — every sign-in, query, and configuration change is on the record, including every query the AI runs, attributed and traceable. Answer who saw what, when with one filter, stream events to your SIEM, set retention to match your policy, and pull the log through the API. Built for security reviews and enterprise rollouts, alongside SSO, SCIM, and RBAC. Your BI tool finally has a memory. Every action, on the record.",
+          "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/4BFYBSUOLNVBUR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 113,
+          "commentsCount": 9,
+          "dailyRank": 8,
+          "latestScore": 113,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Data & Analytics",
+                  "slug": "data-analytics"
+                }
+              },
+              {
+                "node": {
+                  "name": "Business Intelligence",
+                  "slug": "business-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1210288",
+        "title": "SyncStaq",
+        "summary": "Stripe billing data, always current in Google Sheets",
+        "body": "SyncStaq syncs Stripe billing data into Google Sheets — charges, invoices, invoice line items, customers, subscriptions, payouts and disputes, each in its own structured tab. What's different: most exports and scripts pull by created date, so records that change later (refunds, subscription updates, disputes) quietly go stale. SyncStaq syncs from Stripe's event stream, so your sheet updates when the data changes. Read-only Stripe access. Hourly sync. 14-day free trial.",
+        "url": "https://www.producthunt.com/products/syncstaq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/7AJ3R66DDJFLAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 108,
+          "comments": 12,
+          "rank": 9,
+          "score": 108
+        },
+        "metadata": {
+          "slug": "syncstaq",
+          "topics": [
+            "Productivity",
+            "Fintech",
+            "Spreadsheets"
+          ]
+        },
+        "rawJson": {
+          "id": "1210288",
+          "name": "SyncStaq",
+          "slug": "syncstaq",
+          "tagline": "Stripe billing data, always current in Google Sheets",
+          "description": "SyncStaq syncs Stripe billing data into Google Sheets — charges, invoices, invoice line items, customers, subscriptions, payouts and disputes, each in its own structured tab. What's different: most exports and scripts pull by created date, so records that change later (refunds, subscription updates, disputes) quietly go stale. SyncStaq syncs from Stripe's event stream, so your sheet updates when the data changes. Read-only Stripe access. Hourly sync. 14-day free trial.",
+          "url": "https://www.producthunt.com/products/syncstaq?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/7AJ3R66DDJFLAR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 108,
+          "commentsCount": 12,
+          "dailyRank": 9,
+          "latestScore": 108,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Fintech",
+                  "slug": "fintech"
+                }
+              },
+              {
+                "node": {
+                  "name": "Spreadsheets",
+                  "slug": "spreadsheets"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1211804",
+        "title": "EssayKraft",
+        "summary": "Native essay writing app for Mac and iPad ",
+        "body": "EssayKraft is a native Swift Mac and iPad writing app built for students who are tired of wrestling with reference managers. Write essays, papers and dissertations with a built-in reference manager, automatic citations, rich text formatting and PDF or DOCX export, all in one place. No subscriptions, no accounts, no juggling citation tools. Just a fast, distraction-free writing experience designed specifically for academic work. Buy once, own it forever.",
+        "url": "https://www.producthunt.com/products/essaykraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/Z6QVYVVWL3T2ZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-01T07:01:00Z",
+        "metrics": {
+          "votes": 107,
+          "comments": 13,
+          "rank": 10,
+          "score": 107
+        },
+        "metadata": {
+          "slug": "essaykraft",
+          "topics": [
+            "Writing",
+            "Education",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1211804",
+          "name": "EssayKraft",
+          "slug": "essaykraft",
+          "tagline": "Native essay writing app for Mac and iPad ",
+          "description": "EssayKraft is a native Swift Mac and iPad writing app built for students who are tired of wrestling with reference managers. Write essays, papers and dissertations with a built-in reference manager, automatic citations, rich text formatting and PDF or DOCX export, all in one place. No subscriptions, no accounts, no juggling citation tools. Just a fast, distraction-free writing experience designed specifically for academic work. Buy once, own it forever.",
+          "url": "https://www.producthunt.com/products/essaykraft?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/Z6QVYVVWL3T2ZZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 107,
+          "commentsCount": 13,
+          "dailyRank": 10,
+          "latestScore": 107,
+          "featuredAt": "2026-08-01T07:01:00Z",
+          "createdAt": "2026-08-01T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Writing",
+                  "slug": "writing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Education",
+                  "slug": "education"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-08-03T03:01:15.686Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:permissionlesstech/bitchat",
+        "title": "permissionlesstech/bitchat",
+        "summary": "bluetooth mesh chat, IRC vibes bitchat A decentralized peer-to-peer messaging app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach.",
+        "url": "https://github.com/permissionlesstech/bitchat",
+        "publishedAt": "2026-08-03T03:01:15.651Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:diegosouzapw/OmniRoute",
+        "title": "diegosouzapw/OmniRoute",
+        "summary": "Never stop coding.",
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "publishedAt": "2026-08-03T03:01:15.658Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:stablyai/orca",
+        "title": "stablyai/orca",
+        "summary": "Orca is the ADE for working with a fleet of parallel agents.",
+        "url": "https://github.com/stablyai/orca",
+        "publishedAt": "2026-08-03T03:01:15.659Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:emilkowalski/skills",
+        "title": "emilkowalski/skills",
+        "summary": "Skills for Designers and Engineers.",
+        "url": "https://github.com/emilkowalski/skills",
+        "publishedAt": "2026-08-03T03:01:15.659Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:tt-a1i/archify",
+        "title": "tt-a1i/archify",
+        "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "url": "https://github.com/tt-a1i/archify",
+        "publishedAt": "2026-08-03T03:01:15.661Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Nutlope/hallmark",
+        "title": "Nutlope/hallmark",
+        "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "url": "https://github.com/Nutlope/hallmark",
+        "publishedAt": "2026-08-03T03:01:15.661Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:koala73/worldmonitor",
+        "title": "koala73/worldmonitor",
+        "summary": "Real-time global intelligence dashboard.",
+        "url": "https://github.com/koala73/worldmonitor",
+        "publishedAt": "2026-08-03T03:01:15.662Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:bradautomates/claude-video",
+        "title": "bradautomates/claude-video",
+        "summary": "Give Claude the ability to watch any video.",
+        "url": "https://github.com/bradautomates/claude-video",
+        "publishedAt": "2026-08-03T03:01:15.663Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Zackriya-Solutions/meetily",
+        "title": "Zackriya-Solutions/meetily",
+        "summary": "Privacy first, AI meeting assistant with 4x faster Parakeet/Whisper live transcription, speaker diarization, and Ollama summarization built on Rust.",
+        "url": "https://github.com/Zackriya-Solutions/meetily",
+        "publishedAt": "2026-08-03T03:01:15.664Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:iOfficeAI/OfficeCLI",
+        "title": "iOfficeAI/OfficeCLI",
+        "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.",
+        "url": "https://github.com/iOfficeAI/OfficeCLI",
+        "publishedAt": "2026-08-03T03:01:15.667Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:asgeirtj/system_prompts_leaks",
+        "title": "asgeirtj/system_prompts_leaks",
+        "summary": "Extracted system prompts from Anthropic - Claude Fable 5, Opus 5, Claude Design, Claude Code.",
+        "url": "https://github.com/asgeirtj/system_prompts_leaks",
+        "publishedAt": "2026-08-03T03:01:15.669Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:openai/codex-plugin-cc",
+        "title": "openai/codex-plugin-cc",
+        "summary": "Use Codex from Claude Code to review code or delegate tasks.",
+        "url": "https://github.com/openai/codex-plugin-cc",
+        "publishedAt": "2026-08-03T03:01:15.669Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:facebook/astryx",
+        "title": "facebook/astryx",
+        "summary": "An open source design system that's fully customizable and agent ready Astryx An open source design system that's fully customizable and built for how we build now: by people and the agents working alongside them.",
+        "url": "https://github.com/facebook/astryx",
+        "publishedAt": "2026-08-03T03:01:15.670Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:huggingface/speech-to-speech",
+        "title": "huggingface/speech-to-speech",
+        "summary": "Build local voice agents with open-source models &nbsp; Speech To Speech: Build voice agents with open-source models A low-latency, fully modular voice-agent pipeline: VAD -> STT -> LLM -> TTS , exposed through an OpenAI Realtime-compatible WebSocket API .",
+        "url": "https://github.com/huggingface/speech-to-speech",
+        "publishedAt": "2026-08-03T03:01:15.671Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:wonderwhy-er/DesktopCommanderMCP",
+        "title": "wonderwhy-er/DesktopCommanderMCP",
+        "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities Desktop Commander MCP Search, update, manage files and run terminal commands with AI Work with code and text, run processes, and automate tas...",
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+        "publishedAt": "2026-08-03T03:01:15.674Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:usestrix/strix",
+        "title": "usestrix/strix",
+        "summary": "Open-source AI penetration testing tool to find and fix your app’s vulnerabilities.",
+        "url": "https://github.com/usestrix/strix",
+        "publishedAt": "2026-08-03T03:01:15.675Z",
+        "metrics": {
+          "rank": 16
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:1jehuang/jcode",
+        "title": "1jehuang/jcode",
+        "summary": "The most RAM efficient harness jcode The most RAM efficient harness The most most intelligent harness Website · Docs · Benchmarks · Features · Install · Quick Start · Further Reading · Contributing Installation # macOS & Linux curl -fsSL https://jcode.sh/in...",
+        "url": "https://github.com/1jehuang/jcode",
+        "publishedAt": "2026-08-03T03:01:15.677Z",
+        "metrics": {
+          "rank": 17
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Shubhamsaboo/awesome-llm-apps",
+        "title": "Shubhamsaboo/awesome-llm-apps",
+        "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "publishedAt": "2026-08-03T03:01:15.678Z",
+        "metrics": {
+          "rank": 18
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pbakaus/impeccable",
+        "title": "pbakaus/impeccable",
+        "summary": "The design language that makes your AI harness better at design.",
+        "url": "https://github.com/pbakaus/impeccable",
+        "publishedAt": "2026-08-03T03:01:15.679Z",
+        "metrics": {
+          "rank": 19
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:OpenCut-app/OpenCut",
+        "title": "OpenCut-app/OpenCut",
+        "summary": "The open-source CapCut alternative OpenCut A free and open source video editor for web, desktop, and mobile.",
+        "url": "https://github.com/OpenCut-app/OpenCut",
+        "publishedAt": "2026-08-03T03:01:15.679Z",
+        "metrics": {
+          "rank": 20
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-08-03T03:01:24.961Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/ten-advances-in-mathematics",
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "summary": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+        "body": "OpenAI shares new results on long-standing open problems in mathematics and theoretical computer science, including advances in geometry, cryptography, and complexity.",
+        "url": "https://openai.com/index/ten-advances-in-mathematics",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-01T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/advancing-responsible-ai-across-europe",
+        "title": "Advancing responsible AI across Europe",
+        "summary": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+        "body": "OpenAI shares how its safety, security, transparency, and provenance practices support responsible AI governance in Europe. The work will continue as the EU AI Act advances.",
+        "url": "https://openai.com/index/advancing-responsible-ai-across-europe",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-31T15:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/building-abundant-intelligence",
+        "title": "Building abundant intelligence",
+        "summary": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+        "body": "A full-stack approach to making advanced AI more capable, more affordable, and more widely useful.",
+        "url": "https://openai.com/index/building-abundant-intelligence",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-31T15:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/unive",
+        "title": "Univé builds an AI-ready workforce",
+        "summary": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+        "body": "See how Univé built an AI-ready workforce with ChatGPT Enterprise by combining leadership, responsible governance, and employee-led innovation to transform work at scale.",
+        "url": "https://openai.com/index/unive",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-07-31T07:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+        "title": "condense-json 1.0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.0\">condense-json 1.0</a></p> <p>I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.</p> <p>Here's an example of what it can do, lifted from the README:</p> <div class=\"highlight highlight-source-json\"><pre>{ <span class=\"pl-ent\">\"foo\"</span>: { <span class=\"pl-ent\">\"bar\"<",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.0\">condense-json 1.0</a></p> <p>I'm trying to get braver at releasing 1.0 versions. This little library is a year and a half old now - I've applied some sensible and non-disruptive fixes and shipped the big 1.0 for it.</p> <p>Here's an example of what it can do, lifted from the README:</p> <div class=\"highlight highlight-source-json\"><pre>{ <span class=\"pl-ent\">\"foo\"</span>: { <span class=\"pl-ent\">\"bar\"</span>: { <span class=\"pl-ent\">\"string\"</span>: <span class=\"pl-s\"><span class=\"pl-pds\">\"</span>This is a string with foxes in it<span class=\"pl-pds\">\"</span></span>, <span class=\"pl-ent\">\"nested\"</span>: { <span class=\"pl-ent\">\"more\"</span>: [<span class=\"pl-s\"><span class=\"pl-pds\">\"</span>Here is ",
+        "url": "https://simonwillison.net/2026/Aug/2/condense-json/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-02T22:19:59.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+        "title": "Open letters about AI development",
+        "summary": "<h4>Open letters about AI development</h4> <p><em>I wrote this summary of the past few weeks of open letters as a section of <a href=\"https://simonwillison.net/2026/Aug/2/july-newsletter/\">my sponsors-only newsletter</a> but I've decided to share it here as well.</em></p> <p><strong><a href=\"https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\">Open Weights and American AI Leadership</a></strong> was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent ",
+        "body": "<h4>Open letters about AI development</h4> <p><em>I wrote this summary of the past few weeks of open letters as a section of <a href=\"https://simonwillison.net/2026/Aug/2/july-newsletter/\">my sponsors-only newsletter</a> but I've decided to share it here as well.</em></p> <p><strong><a href=\"https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\">Open Weights and American AI Leadership</a></strong> was shepherded by Microsoft, dated July 24th, and signed by 235 AI-adjacent companies including NVIDIA (see Jensen's <a href=\"https://twitter.com/jensenhuang/status/2080643682408321103\">first ever tweet</a>), Amazon, Y Combinator, The Linux Foundation, and (a later signer) OpenAI.</p> <p>It's clearly an argument designed to counter <a href=\"https://www.axios.com/2026/07/20/",
+        "url": "https://simonwillison.net/2026/Aug/2/open-letters/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-02T04:16:52.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+        "title": "July 2026 newsletter",
+        "summary": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-07-july.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>Accidental cyberattacks by OpenAl and Anthropic models under test</li> <li>GPT-5.6 Sol, Terra, and Luna</li> <li>Claude Opus 5</li> <li>Kimi K3 and DeepSeek-V4-Flash-0731</li> <li>Open let",
+        "body": "<p>The June edition of my <a href=\"https://github.com/sponsors/simonw/\">sponsors-only monthly newsletter</a> is out. If you are a sponsor (or if you start a sponsorship now) you can <a href=\"https://github.com/simonw-private/monthly/blob/main/2026-07-july.md\">access it here</a>.</p> <p>This month:</p> <ul> <li>Accidental cyberattacks by OpenAl and Anthropic models under test</li> <li>GPT-5.6 Sol, Terra, and Luna</li> <li>Claude Opus 5</li> <li>Kimi K3 and DeepSeek-V4-Flash-0731</li> <li>Open letters about Al development</li> <li>A fireside chat and a podcast</li> <li>Reigniting my interest in MCP</li> <li>Other model releases</li> <li>My projects</li> <li>What I'm using at the moment</li> </ul> <p>Here's <a href=\"https://github.com/simonw/monthly-newsletter-archive/blob/main/2026-06-june.m",
+        "url": "https://simonwillison.net/2026/Aug/2/july-newsletter/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-02T04:12:41.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+        "title": "Quoting Greg Brockman",
+        "summary": "<blockquote cite=\"https://twitter.com/gdb/status/2083435180392673714\"><p>at openai, many people hook their chatgpt up to slack.</p> <p>people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.</p> <p>reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating p",
+        "body": "<blockquote cite=\"https://twitter.com/gdb/status/2083435180392673714\"><p>at openai, many people hook their chatgpt up to slack.</p> <p>people really don't like when a coworker's chatgpt contacts them asking for help with a task, even when they'd be perfectly happy doing that same work if asked by that coworker.</p> <p>reinforces how much people care about human relationships and helping each other, and want AI to give time back — or enhance time together — rather than become a layer separating people.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/gdb/status/2083435180392673714\">Greg Brockman</a>, President and Co-Founder, OpenAI</p> <p>Tags: <a href=\"https://simonwillison.net/tags/ai-ethics\">ai-ethics</a>, <a href=\"https://simonwillison.net/tags/ai-misuse\">ai-misuse",
+        "url": "https://simonwillison.net/2026/Aug/1/greg-brockman/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-01T22:29:44.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+        "title": "datasette-apps 0.2a0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.2a0\">datasette-apps 0.2a0</a></p> <blockquote> <p>Changes that improve Datasette Apps when created and edited using <a href=\"https://agent.datasette.io/\">Datasette Agent</a>:</p> <ul> <li>New <code>app_debug()</code> tool allowing agent to open an app (invisibly) and test it using JavaScript. <a href=\"https://github.com/datasette/datasette-apps/pull/33\">#33</a></li> <li>New <code>app_list()</code> to",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-apps/releases/tag/0.2a0\">datasette-apps 0.2a0</a></p> <blockquote> <p>Changes that improve Datasette Apps when created and edited using <a href=\"https://agent.datasette.io/\">Datasette Agent</a>:</p> <ul> <li>New <code>app_debug()</code> tool allowing agent to open an app (invisibly) and test it using JavaScript. <a href=\"https://github.com/datasette/datasette-apps/pull/33\">#33</a></li> <li>New <code>app_list()</code> tool for listing apps the user has permission to edit, so the agent can edit them. <a href=\"https://github.com/datasette/datasette-apps/issues/36\">#36</a></li> </ul> </blockquote> <p>The <code>app_debug()</code> tool is pretty neat: it works by displaying the app in a <code>opacity: 0</code> iframe wi",
+        "url": "https://simonwillison.net/2026/Aug/1/datasette-apps/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-01T21:23:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+        "title": "Ten advances in mathematics and theoretical computer science",
+        "summary": "<p><strong><a href=\"https://openai.com/index/ten-advances-in-mathematics/\">Ten advances in mathematics and theoretical computer science</a></strong></p> A few days ago it was Anthropic <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">discovering cryptographic weaknesses with Claude</a> using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find ge",
+        "body": "<p><strong><a href=\"https://openai.com/index/ten-advances-in-mathematics/\">Ten advances in mathematics and theoretical computer science</a></strong></p> A few days ago it was Anthropic <a href=\"https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/\">discovering cryptographic weaknesses with Claude</a> using Mythos Preview, spending $100,000 on tokens and with prompts that included \"again we are not looking for low hanging fruit, we want proper research to find genuinly hard findings.\"</p> <p>Now it's OpenAI's turn to flex. They set \"an internal version of Astra, our next major model\" on finding solutions to ten mathematical problems that \"have seen no progress on the main result for at least a decade\". They claim to have spent less than $2,000 at GPT-5.6 So",
+        "url": "https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-01T20:34:49.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+        "title": "deepseek-ai/DeepSeek-V4-Flash-0731",
+        "summary": "<p><strong><a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\">deepseek-ai/DeepSeek-V4-Flash-0731</a></strong></p> The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch <em>well</em> above its weight.</p> <p>Artificial Analysis <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash\">rank it</a> ahead of MiniMax M3 - a 428B model. It's $0.14/million inpu",
+        "body": "<p><strong><a href=\"https://huggingface.co/deepseek-ai/DeepSeek-V4-Flash-0731\">deepseek-ai/DeepSeek-V4-Flash-0731</a></strong></p> The latest release in DeepSeek's V4 family, \"with substantially enhanced agentic capabilities\". It's 304 billion parameters - 167GB on Hugging Face - but it appears to punch <em>well</em> above its weight.</p> <p>Artificial Analysis <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash\">rank it</a> ahead of MiniMax M3 - a 428B model. It's $0.14/million input and $0.27/million output pricing means this may currently be the best value-per-intelligence model out there. It's looking very good on the <a href=\"https://artificialanalysis.ai/models/deepseek-v4-flash#intelligence-comparison-tabs\">Intelligence Index vs. Cost per Intelligence Index Task</a> char",
+        "url": "https://simonwillison.net/2026/Jul/31/deepseek-v4-flash-0731/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T23:59:44.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+        "title": "Stateless MCP has recaptured my interest (and inspired mcp-explorer and datasette-mcp)",
+        "summary": "<p>Tuesday was <a href=\"https://x.com/ade_oshineye/status/2082129440943866149\">Stateless MCP day</a> - the rollout of MCP 2.0, or <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28/\">the 2026-07-28 Model Context Protocol specification</a> to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol.</p> <p>For background: MCP is the Model Context Protoc",
+        "body": "<p>Tuesday was <a href=\"https://x.com/ade_oshineye/status/2082129440943866149\">Stateless MCP day</a> - the rollout of MCP 2.0, or <a href=\"https://blog.modelcontextprotocol.io/posts/2026-07-28/\">the 2026-07-28 Model Context Protocol specification</a> to use the more formal but less memorable name. This is the most significant change to the MCP spec since it first launched, and has also served to reignite my personal interest in the protocol.</p> <p>For background: MCP is the Model Context Protocol, which describes a standard way to expose new tools to LLM-powered agent frameworks. It was introduced by Anthropic back <a href=\"https://www.anthropic.com/news/model-context-protocol\">in November 2024</a>, had a <em>huge</em> spike of interest through much of 2025, and then became somewhat eclip",
+        "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T23:13:22.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+        "title": "llm-mcp-client 0.1a0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mcp-client/releases/tag/0.1a0\">llm-mcp-client 0.1a0</a></p> <p>See <a href=\"https://simonwillison.net/2026/Jul/31/stateless-mcp/#llm-mcp-client\">this blog entry</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-mcp-client/releases/tag/0.1a0\">llm-mcp-client 0.1a0</a></p> <p>See <a href=\"https://simonwillison.net/2026/Jul/31/stateless-mcp/#llm-mcp-client\">this blog entry</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a>, <a href=\"https://simonwillison.net/tags/model-context-protocol\">model-context-protocol</a></p>",
+        "url": "https://simonwillison.net/2026/Jul/31/llm-mcp-client/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T23:03:47.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+        "title": "Oxide and Friends: The Open Weight Revolution with Simon Willison",
+        "summary": "<p><strong><a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison\">Oxide and Friends: The Open Weight Revolution with Simon Willison</a></strong></p> On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the <em>wild</em> week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">accidental cy",
+        "body": "<p><strong><a href=\"https://oxide-and-friends.transistor.fm/episodes/the-open-weight-revolution-with-simon-willison\">Oxide and Friends: The Open Weight Revolution with Simon Willison</a></strong></p> On Monday Bryan Cantrill and Adam Leventhal invited me to join their podcast to talk about the <em>wild</em> week we've had - with Kimi K3 showing open weight models can stand toe-to-toe with proprietary frontier ones, <a href=\"https://simonwillison.net/2026/Jul/22/openai-cyberattack/\">accidental cybersecurity attacks</a>, and public letters about <a href=\"https://www.microsoft.com/en-us/corporate-responsibility/topics/open-weight/\">Open Weights and American AI Leadership</a> signed by almost every big name in AI (with one <a href=\"https://www.anthropic.com/news/position-open-weights-models\">n",
+        "url": "https://simonwillison.net/2026/Jul/31/oxide-and-friends/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T21:33:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+        "title": "smevals - a small eval suite for evaluating models, prompts, and harnesses",
+        "summary": "<p><strong><a href=\"https://primeradiant.com/blog/2026/smevals.html\">smevals - a small eval suite for evaluating models, prompts, and harnesses</a></strong></p> I've been working with Jesse Vincent's <a href=\"https://primeradiant.com\">Prime Radiant</a> applied AI research lab building out this evals framework to help answer questions about the capabilities of different models.</p> <p>The result is <strong><a href=\"https://github.com/prime-radiant-inc/smevals\">smevals</a></strong>, a new tool for",
+        "body": "<p><strong><a href=\"https://primeradiant.com/blog/2026/smevals.html\">smevals - a small eval suite for evaluating models, prompts, and harnesses</a></strong></p> I've been working with Jesse Vincent's <a href=\"https://primeradiant.com\">Prime Radiant</a> applied AI research lab building out this evals framework to help answer questions about the capabilities of different models.</p> <p>The result is <strong><a href=\"https://github.com/prime-radiant-inc/smevals\">smevals</a></strong>, a new tool for running small eval suites across different model configurations and grading the results.</p> <p>The <a href=\"https://primeradiant.com/blog/2026/smevals.html\">blog entry</a> describes the tool in detail. Here's the 10 second version:</p> <ol> <li>Tell your coding agent to <code>run uvx smevals docs<",
+        "url": "https://simonwillison.net/2026/Jul/31/smevals/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T21:15:23.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+        "title": "Slack Emoji Maker",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/slack-emoji-maker\">Slack Emoji Maker</a></p> <p>I wanted to create a new Slack emoji, and their tool recommends a square that's 128x128 and has a transparent background... so I <a href=\"https://github.com/simonw/tools/pull/305\">had Fable build me</a> this simple image editor against those requirements.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/slack\">slack</a></",
+        "body": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/slack-emoji-maker\">Slack Emoji Maker</a></p> <p>I wanted to create a new Slack emoji, and their tool recommends a square that's 128x128 and has a transparent background... so I <a href=\"https://github.com/simonw/tools/pull/305\">had Fable build me</a> this simple image editor against those requirements.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/tools\">tools</a>, <a href=\"https://simonwillison.net/tags/slack\">slack</a></p>",
+        "url": "https://simonwillison.net/2026/Jul/31/slack-emoji-maker/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T20:18:05.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+        "title": "datasette-agent 0.4a0",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.4a0\">datasette-agent 0.4a0</a></p> <blockquote> <ul> <li>New <code>await context.browser_task()</code> mechanism allowing agent tools to run code directly in the user's browser. <a href=\"https://github.com/datasette/datasette-agent/pull/33\">#33</a></li> </ul> </blockquote> <p>This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScr",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-agent/releases/tag/0.4a0\">datasette-agent 0.4a0</a></p> <blockquote> <ul> <li>New <code>await context.browser_task()</code> mechanism allowing agent tools to run code directly in the user's browser. <a href=\"https://github.com/datasette/datasette-agent/pull/33\">#33</a></li> </ul> </blockquote> <p>This is an exciting new capability: it makes it easy for Datasette Agent plugins to provide tools that execute custom JavaScript <em>in the user's browser</em>.</p> <p>I used this to add a debug loop to Datasette Apps in <a href=\"https://simonwillison.net/2026/Aug/1/datasette-apps/\">datasette-apps 0.2a0</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/t",
+        "url": "https://simonwillison.net/2026/Jul/31/datasette-agent/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T14:14:23.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://localai.io/blog/why-we-write-our-own-engines/",
+        "title": "Why we write our own C and C++ inference engines",
+        "summary": "<p><a href=\"https://lobste.rs/s/t7zdif/why_we_write_our_own_c_c_inference_engines\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/t7zdif/why_we_write_our_own_c_c_inference_engines\">Comments</a></p>",
+        "url": "https://localai.io/blog/why-we-write-our-own-engines/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-07-31T16:17:44.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      }
+    ],
+    "errors": [
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403",
+      "Hacker News AI: HTTP 502"
+    ]
+  }
+]
