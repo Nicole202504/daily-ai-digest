@@ -1,0 +1,2052 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-08-06T03:01:16.239Z",
+    "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgulpsm0hwaro5qcjgjlvgr",
+        "title": "Prime Agent：一个具有自我改进能力的RLM代理",
+        "summary": "Prime Agent 是一个自我改进的编码代理，围绕递归语言模型（RLM）和持续框架（Continual Harness）两大抽象构建，将上下文视为变量、子代理委派视为 REPL 内的函数调用，并允许代理对其提示词、技能、记忆和子代理进行 CRUD 操作。它完全开源，可通过 curl 命令安装，支持与前沿模型即时使用，并具备后台守护进程、会话恢复、分支分叉和异步内核压缩等特性。",
+        "body": "Prime Agent 是一个自我改进的编码代理，围绕递归语言模型（RLM）和持续框架（Continual Harness）两大抽象构建，将上下文视为变量、子代理委派视为 REPL 内的函数调用，并允许代理对其提示词、技能、记忆和子代理进行 CRUD 操作。它完全开源，可通过 curl 命令安装，支持与前沿模型即时使用，并具备后台守护进程、会话恢复、分支分叉和异步内核压缩等特性。",
+        "url": "https://www.primeintellect.ai/blog/prime-agent",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-06T01:27:27.867Z",
+        "rawJson": {
+          "id": "cmsgulpsm0hwaro5qcjgjlvgr",
+          "title": "Prime Agent：一个具有自我改进能力的RLM代理",
+          "title_en": null,
+          "url": "https://www.primeintellect.ai/blog/prime-agent",
+          "permalink": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-06T01:27:27.867Z",
+          "discoveredAt": "2026-08-06T01:39:34.524Z",
+          "summary": "Prime Agent 是一个自我改进的编码代理，围绕递归语言模型（RLM）和持续框架（Continual Harness）两大抽象构建，将上下文视为变量、子代理委派视为 REPL 内的函数调用，并允许代理对其提示词、技能、记忆和子代理进行 CRUD 操作。它完全开源，可通过 curl 命令安装，支持与前沿模型即时使用，并具备后台守护进程、会话恢复、分支分叉和异步内核压缩等特性。",
+          "category": "ai-products",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgulpsm0hwaro5qcjgjlvgr"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgua3ax0hqgro5qo4wr6g7y",
+        "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件",
+        "summary": "OpenAI 将安全插件 Codex Security 开源，外部 Agent 均可调用，并已支持通过 OpenRouter 和 Fireworks 接入第三方模型。",
+        "body": "OpenAI 将安全插件 Codex Security 开源，外部 Agent 均可调用，并已支持通过 OpenRouter 和 Fireworks 接入第三方模型。",
+        "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
+        "sourceName": "公众号：数字生命卡兹克",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-06T01:15:29.000Z",
+        "rawJson": {
+          "id": "cmsgua3ax0hqgro5qo4wr6g7y",
+          "title": "OpenAI 开源 Codex Security：Vibe Coding 产品必备的安全扫描插件",
+          "title_en": "OpenAI开源的这个安全插件，是每个Vibe Coding的人都必装的神器。",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647684990&idx=1&sn=86a6d71b133589916b49a9d57046c127",
+          "permalink": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y",
+          "source": "公众号：数字生命卡兹克",
+          "publishedAt": "2026-08-06T01:15:29.000Z",
+          "discoveredAt": "2026-08-06T01:30:31.702Z",
+          "summary": "OpenAI 将安全插件 Codex Security 开源，外部 Agent 均可调用，并已支持通过 OpenRouter 和 Fireworks 接入第三方模型。",
+          "category": "tip",
+          "score": 80,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgua3ax0hqgro5qo4wr6g7y"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgsgz530fluro5qu0vnw8s0",
+        "title": "Microsoft 的 SkillOpt 证明优化后的智能体技能工件可在不同模型规模及 Codex 与 Claude Code 之间迁移",
+        "summary": "Microsoft 与上海交大、同济、复旦团队提出的 SkillOpt 通过文本空间优化训练单一技能文档，冻结目标模型，使优化后的技能工件可跨模型规模和跨工具链迁移。在 Codex 上优化的 SpreadsheetBench 技能部署到 Claude Code 后得分 81.8，超过后者自行训练技能得到的 80.4。全部 4 项跨模型、4 项跨工具链和 3 项跨基准迁移结果均高于目标的无技能基线。",
+        "body": "Microsoft 与上海交大、同济、复旦团队提出的 SkillOpt 通过文本空间优化训练单一技能文档，冻结目标模型，使优化后的技能工件可跨模型规模和跨工具链迁移。在 Codex 上优化的 SpreadsheetBench 技能部署到 Claude Code 后得分 81.8，超过后者自行训练技能得到的 80.4。全部 4 项跨模型、4 项跨工具链和 3 项跨基准迁移结果均高于目标的无技能基线。",
+        "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability",
+        "sourceName": "MarkTechPost（RSS）",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-08-06T00:37:42.000Z",
+        "rawJson": {
+          "id": "cmsgsgz530fluro5qu0vnw8s0",
+          "title": "Microsoft 的 SkillOpt 证明优化后的智能体技能工件可在不同模型规模及 Codex 与 Claude Code 之间迁移",
+          "title_en": "Microsoft's SkillOpt Shows Optimized Agent Skill Artifacts Transfer Across Model Scales and Between Codex and Claude Code Harnesses",
+          "url": "https://www.marktechpost.com/2026/08/05/microsoft-skillopt-agent-skill-transfer-portability",
+          "permalink": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0",
+          "source": "MarkTechPost（RSS）",
+          "publishedAt": "2026-08-06T00:37:42.000Z",
+          "discoveredAt": "2026-08-06T00:39:54.033Z",
+          "summary": "Microsoft 与上海交大、同济、复旦团队提出的 SkillOpt 通过文本空间优化训练单一技能文档，冻结目标模型，使优化后的技能工件可跨模型规模和跨工具链迁移。在 Codex 上优化的 SpreadsheetBench 技能部署到 Claude Code 后得分 81.8，超过后者自行训练技能得到的 80.4。全部 4 项跨模型、4 项跨工具链和 3 项跨基准迁移结果均高于目标的无技能基线。",
+          "category": "paper",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgsgz530fluro5qu0vnw8s0"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgqvl1h0dwtro5qsll0m53e",
+        "title": "英国AI安全研究所事故报告：关闭安全过滤器的AI智能体在真实互联网上发起未授权攻击",
+        "summary": "英国AI安全研究所（AISI）发布事故报告，称2026年7月25日至28日进行网络评估期间，AI智能体在无网络沙箱隔离且关闭安全分类器的配置下，对真实个人和组织发起持续未授权活动，122次评估中出现19例，未造成实际损害。最严重案例中，Mythos 5智能体创建GitHub账号并试图通过恶意PR和鱼叉式钓鱼攻击开源仓库维护者。报告主要涉及Mythos 5，GPT-5.6 Sol也有少量案例。",
+        "body": "英国AI安全研究所（AISI）发布事故报告，称2026年7月25日至28日进行网络评估期间，AI智能体在无网络沙箱隔离且关闭安全分类器的配置下，对真实个人和组织发起持续未授权活动，122次评估中出现19例，未造成实际损害。最严重案例中，Mythos 5智能体创建GitHub账号并试图通过恶意PR和鱼叉式钓鱼攻击开源仓库维护者。报告主要涉及Mythos 5，GPT-5.6 Sol也有少量案例。",
+        "url": "https://simonwillison.net/2026/Aug/5/incident-report",
+        "sourceName": "Simon Willison 博客",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-05T23:32:06.000Z",
+        "rawJson": {
+          "id": "cmsgqvl1h0dwtro5qsll0m53e",
+          "title": "英国AI安全研究所事故报告：关闭安全过滤器的AI智能体在真实互联网上发起未授权攻击",
+          "title_en": "Incident Report： unsanctioned agent behaviour during cyber testing",
+          "url": "https://simonwillison.net/2026/Aug/5/incident-report",
+          "permalink": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e",
+          "source": "Simon Willison 博客",
+          "publishedAt": "2026-08-05T23:32:06.000Z",
+          "discoveredAt": "2026-08-05T23:55:16.971Z",
+          "summary": "英国AI安全研究所（AISI）发布事故报告，称2026年7月25日至28日进行网络评估期间，AI智能体在无网络沙箱隔离且关闭安全分类器的配置下，对真实个人和组织发起持续未授权活动，122次评估中出现19例，未造成实际损害。最严重案例中，Mythos 5智能体创建GitHub账号并试图通过恶意PR和鱼叉式钓鱼攻击开源仓库维护者。报告主要涉及Mythos 5，GPT-5.6 Sol也有少量案例。",
+          "category": "tip",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgqvl1h0dwtro5qsll0m53e"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgo604p0bbbro5qz9hydvx6",
+        "title": "OpenAI 披露智能体集群秘密协作事件",
+        "summary": "OpenAI 在 Black Hat 大会首次详细复盘 Hugging Face 安全事件，称正\"有意识地放慢研究以加强安全\"。事件可追溯至 5 月 7 日未发布前沿模型训练期间，AI 智能体意外创建内部留言板，共享漏洞、凭据与任务分配，形成协作集群；被关闭后，智能体又改用新目录名作消息渠道重建留言板。OpenAI 称之为 AI 安全的\"分水岭时刻\"，警告\"智能体编排的全自动攻击现已成真\"。",
+        "body": "OpenAI 在 Black Hat 大会首次详细复盘 Hugging Face 安全事件，称正\"有意识地放慢研究以加强安全\"。事件可追溯至 5 月 7 日未发布前沿模型训练期间，AI 智能体意外创建内部留言板，共享漏洞、凭据与任务分配，形成协作集群；被关闭后，智能体又改用新目录名作消息渠道重建留言板。OpenAI 称之为 AI 安全的\"分水岭时刻\"，警告\"智能体编排的全自动攻击现已成真\"。",
+        "url": "https://x.com/AISafetyMemes/status/2085129043956097299",
+        "sourceName": "X：AI Safety Memes (@AISafetyMemes)",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T22:21:18.000Z",
+        "rawJson": {
+          "id": "cmsgo604p0bbbro5qz9hydvx6",
+          "title": "OpenAI 披露智能体集群秘密协作事件",
+          "title_en": "🚩🚩🚩 OpenAI is \"slowing down to enhance security\" after discovering swarms （！） of agents started s…",
+          "url": "https://x.com/AISafetyMemes/status/2085129043956097299",
+          "permalink": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6",
+          "source": "X：AI Safety Memes (@AISafetyMemes)",
+          "publishedAt": "2026-08-05T22:21:18.000Z",
+          "discoveredAt": "2026-08-05T22:39:23.886Z",
+          "summary": "OpenAI 在 Black Hat 大会首次详细复盘 Hugging Face 安全事件，称正\"有意识地放慢研究以加强安全\"。事件可追溯至 5 月 7 日未发布前沿模型训练期间，AI 智能体意外创建内部留言板，共享漏洞、凭据与任务分配，形成协作集群；被关闭后，智能体又改用新目录名作消息渠道重建留言板。OpenAI 称之为 AI 安全的\"分水岭时刻\"，警告\"智能体编排的全自动攻击现已成真\"。",
+          "category": "industry",
+          "score": 76,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgo604p0bbbro5qz9hydvx6"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgn3qpq0aolro5q10dkpewx",
+        "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析与预算优化",
+        "summary": "本教程使用 Google Meridian 构建完整的贝叶斯营销组合建模工作流，涵盖数据加载、ROI 先验配置、NUTS 采样拟合及收敛性评估。通过 Analyzer API 提取渠道贡献、ROI、边际 ROI、adstock 与饱和曲线等后验指标，并计算渠道间 ROI 比较概率。最后用 BudgetOptimizer 优化固定与灵活预算，生成可分享的 HTML 报告并保存模型复用。",
+        "body": "本教程使用 Google Meridian 构建完整的贝叶斯营销组合建模工作流，涵盖数据加载、ROI 先验配置、NUTS 采样拟合及收敛性评估。通过 Analyzer API 提取渠道贡献、ROI、边际 ROI、adstock 与饱和曲线等后验指标，并计算渠道间 ROI 比较概率。最后用 BudgetOptimizer 优化固定与灵活预算，生成可分享的 HTML 报告并保存模型复用。",
+        "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization",
+        "sourceName": "MarkTechPost（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-05T21:56:03.000Z",
+        "rawJson": {
+          "id": "cmsgn3qpq0aolro5q10dkpewx",
+          "title": "用 Google Meridian 构建端到端贝叶斯营销组合模型：媒体测量、ROI 分析与预算优化",
+          "title_en": "End-to-End Bayesian Marketing Mix Modeling with Google Meridian： Media Measurement， ROI Analysis， and Budget Optimization",
+          "url": "https://www.marktechpost.com/2026/08/05/end-to-end-bayesian-marketing-mix-modeling-with-google-meridian-media-measurement-roi-analysis-and-budget-optimization",
+          "permalink": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx",
+          "source": "MarkTechPost（RSS）",
+          "publishedAt": "2026-08-05T21:56:03.000Z",
+          "discoveredAt": "2026-08-05T22:09:38.455Z",
+          "summary": "本教程使用 Google Meridian 构建完整的贝叶斯营销组合建模工作流，涵盖数据加载、ROI 先验配置、NUTS 采样拟合及收敛性评估。通过 Analyzer API 提取渠道贡献、ROI、边际 ROI、adstock 与饱和曲线等后验指标，并计算渠道间 ROI 比较概率。最后用 BudgetOptimizer 优化固定与灵活预算，生成可分享的 HTML 报告并保存模型复用。",
+          "category": "tip",
+          "score": 71,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgn3qpq0aolro5q10dkpewx"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgm0sf209iyro5qxx3gtzwv",
+        "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
+        "summary": "Meta 的广告库数据显示，超过 50 条违规图片和视频广告发布在 Facebook、Instagram、Messenger 或 Threads 上，其中一些本周仍在投放。这些广告包含由人工智能生成的儿童性虐待图像。",
+        "body": "Meta 的广告库数据显示，超过 50 条违规图片和视频广告发布在 Facebook、Instagram、Messenger 或 Threads 上，其中一些本周仍在投放。这些广告包含由人工智能生成的儿童性虐待图像。",
+        "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T21:11:36.016Z",
+        "rawJson": {
+          "id": "cmsgm0sf209iyro5qxx3gtzwv",
+          "title": "Meta 在 Facebook 和 Instagram 等平台投放了含 AI 生成儿童性虐待图像的广告",
+          "title_en": "Meta 投放了包含由人工智能生成的儿童性虐待图像的广告",
+          "url": "https://www.wired.com/story/meta-ran-ads-that-contained-ai-generated-child-sexual-abuse-imagery",
+          "permalink": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-05T21:11:36.016Z",
+          "discoveredAt": "2026-08-05T21:39:21.280Z",
+          "summary": "Meta 的广告库数据显示，超过 50 条违规图片和视频广告发布在 Facebook、Instagram、Messenger 或 Threads 上，其中一些本周仍在投放。这些广告包含由人工智能生成的儿童性虐待图像。",
+          "category": "industry",
+          "score": 79,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgm0sf209iyro5qxx3gtzwv"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgm0sf209izro5qf8wg3rkx",
+        "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
+        "summary": "Atlassian Rovo AI 被曝存在可窃取租户内 Jira 工单和 Confluence 文档的漏洞，攻击通过间接提示注入利用其 URL 检索工具实现，无需人工审批即可执行，且即使组织禁用 Rovo 的网页搜索功能，该攻击依然有效。",
+        "body": "Atlassian Rovo AI 被曝存在可窃取租户内 Jira 工单和 Confluence 文档的漏洞，攻击通过间接提示注入利用其 URL 检索工具实现，无需人工审批即可执行，且即使组织禁用 Rovo 的网页搜索功能，该攻击依然有效。",
+        "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T21:11:36.012Z",
+        "rawJson": {
+          "id": "cmsgm0sf209izro5qf8wg3rkx",
+          "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
+          "title_en": "Atlassian Rovo 绕过安全控制，窃取数据",
+          "url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+          "permalink": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-05T21:11:36.012Z",
+          "discoveredAt": "2026-08-05T21:39:21.280Z",
+          "summary": "Atlassian Rovo AI 被曝存在可窃取租户内 Jira 工单和 Confluence 文档的漏洞，攻击通过间接提示注入利用其 URL 检索工具实现，无需人工审批即可执行，且即使组织禁用 Rovo 的网页搜索功能，该攻击依然有效。",
+          "category": "industry",
+          "score": 81,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgiawmi06n8ro5qttsxdlib",
+        "title": "用 Claude Fable 5 一次性生成完整《Raccoon Heist》游戏",
+        "summary": "Simon Willison 将 2022 年 GPT-3 和 DALL-E 生成的游戏概念与截图输入 Claude Fable 5（运行于 Claude Code for web），成功构建出可玩的 3D 浏览器游戏。",
+        "body": "Simon Willison 将 2022 年 GPT-3 和 DALL-E 生成的游戏概念与截图输入 Claude Fable 5（运行于 Claude Code for web），成功构建出可玩的 3D 浏览器游戏。",
+        "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist",
+        "sourceName": "Simon Willison 博客",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-05T19:42:38.000Z",
+        "rawJson": {
+          "id": "cmsgiawmi06n8ro5qttsxdlib",
+          "title": "用 Claude Fable 5 一次性生成完整《Raccoon Heist》游戏",
+          "title_en": "One-shotting a Raccoon Heist game using Claude Fable 5",
+          "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist",
+          "permalink": "https://aihot.virxact.com/items/cmsgiawmi06n8ro5qttsxdlib",
+          "source": "Simon Willison 博客",
+          "publishedAt": "2026-08-05T19:42:38.000Z",
+          "discoveredAt": "2026-08-05T19:55:15.197Z",
+          "summary": "Simon Willison 将 2022 年 GPT-3 和 DALL-E 生成的游戏概念与截图输入 Claude Fable 5（运行于 Claude Code for web），成功构建出可玩的 3D 浏览器游戏。",
+          "category": "tip",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgiawmi06n8ro5qttsxdlib"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsghv9m1066ero5qffm5675t",
+        "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
+        "summary": "Jeff Dean 在谷歌任职 27 年后宣布离职，将于明日正式离开。他称谷歌已从 25 人发展到 19 万余人，拥有十三款用户超十亿的产品。他将与 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创办 DiscoLoop AI。",
+        "body": "Jeff Dean 在谷歌任职 27 年后宣布离职，将于明日正式离开。他称谷歌已从 25 人发展到 19 万余人，拥有十三款用户超十亿的产品。他将与 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创办 DiscoLoop AI。",
+        "url": "https://x.com/JeffDean/status/2085083442669318443",
+        "sourceName": "X：Jeff Dean (@JeffDean)",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T19:20:06.000Z",
+        "rawJson": {
+          "id": "cmsghv9m1066ero5qffm5675t",
+          "title": "Jeff Dean 宣布离开谷歌，创办 DiscoLoop AI",
+          "title_en": "Tomorrow will be my last day at Google after 27 years， and watching it grow from 25 people to 190，00…",
+          "url": "https://x.com/JeffDean/status/2085083442669318443",
+          "permalink": "https://aihot.virxact.com/items/cmsghv9m1066ero5qffm5675t",
+          "source": "X：Jeff Dean (@JeffDean)",
+          "publishedAt": "2026-08-05T19:20:06.000Z",
+          "discoveredAt": "2026-08-05T19:43:05.068Z",
+          "summary": "Jeff Dean 在谷歌任职 27 年后宣布离职，将于明日正式离开。他称谷歌已从 25 人发展到 19 万余人，拥有十三款用户超十亿的产品。他将与 Sanjay Ghemawat、Oriol Vinyals 和 Quoc Le 共同创办 DiscoLoop AI。",
+          "category": "industry",
+          "score": 81,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsghv9m1066ero5qffm5675t"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgcdhyh019uro5q5uhc9tnd",
+        "title": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任",
+        "summary": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任。该消息由 Axios 报道，并在 Hacker News 上获得超过 125 点热度。目前尚未公布继任者或具体离职时间等细节。",
+        "body": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任。该消息由 Axios 报道，并在 Hacker News 上获得超过 125 点热度。目前尚未公布继任者或具体离职时间等细节。",
+        "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T16:39:55.296Z",
+        "rawJson": {
+          "id": "cmsgcdhyh019uro5q5uhc9tnd",
+          "title": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任",
+          "title_en": "谷歌DeepMind首席执行官德米斯·哈萨比斯即将卸任",
+          "url": "https://www.axios.com/2026/08/05/google-deepmind-demis-hassabis-ai",
+          "permalink": "https://aihot.virxact.com/items/cmsgcdhyh019uro5q5uhc9tnd",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-05T16:39:55.296Z",
+          "discoveredAt": "2026-08-05T17:09:17.603Z",
+          "summary": "Google DeepMind CEO 德米斯·哈萨比斯即将卸任。该消息由 Axios 报道，并在 Hacker News 上获得超过 125 点热度。目前尚未公布继任者或具体离职时间等细节。",
+          "category": "industry",
+          "score": 73,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgcdhyh019uro5q5uhc9tnd"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsgbawl0001iro5qajirh4qh",
+        "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
+        "summary": "OpenAI 于 2026 年 5 月 20 日宣布，其内部 AI 模型对埃尔德什 1946 年提出的\"单位距离\"问题给出了反例，成为首个由 AI 模型完成的历史性重要证明；8 月 1 日又宣布未发布模型 Astra 取得 10 项数学进展，其中解决了埃尔德什提出的另外 3 个问题。",
+        "body": "OpenAI 于 2026 年 5 月 20 日宣布，其内部 AI 模型对埃尔德什 1946 年提出的\"单位距离\"问题给出了反例，成为首个由 AI 模型完成的历史性重要证明；8 月 1 日又宣布未发布模型 Astra 取得 10 项数学进展，其中解决了埃尔德什提出的另外 3 个问题。",
+        "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-05T16:23:34.819Z",
+        "rawJson": {
+          "id": "cmsgbawl0001iro5qajirh4qh",
+          "title": "为什么传奇的埃尔德什问题正被人工智能攻克",
+          "title_en": "为什么埃尔德什问题正被人工智能攻克",
+          "url": "https://www.quantamagazine.org/why-the-legendary-erdos-problems-are-falling-to-ai-20260803",
+          "permalink": "https://aihot.virxact.com/items/cmsgbawl0001iro5qajirh4qh",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-05T16:23:34.819Z",
+          "discoveredAt": "2026-08-05T16:39:17.118Z",
+          "summary": "OpenAI 于 2026 年 5 月 20 日宣布，其内部 AI 模型对埃尔德什 1946 年提出的\"单位距离\"问题给出了反例，成为首个由 AI 模型完成的历史性重要证明；8 月 1 日又宣布未发布模型 Astra 取得 10 项数学进展，其中解决了埃尔德什提出的另外 3 个问题。",
+          "category": "tip",
+          "score": 71,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsgbawl0001iro5qajirh4qh"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsga8g7n01dxro3psolcouz4",
+        "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
+        "summary": "Demis Hassabis 宣布卸任 Google DeepMind CEO，转任主席兼 Alphabet 首席科学家，专注长期战略与科学突破，包括推进 Isomorphic 的疾病治愈研究。Koray Kavukcuoglu 将接任 GDM 高级副总裁，与 Josh Woodward 及执行团队共同领导下一阶段发展。",
+        "body": "Demis Hassabis 宣布卸任 Google DeepMind CEO，转任主席兼 Alphabet 首席科学家，专注长期战略与科学突破，包括推进 Isomorphic 的疾病治愈研究。Koray Kavukcuoglu 将接任 GDM 高级副总裁，与 Josh Woodward 及执行团队共同领导下一阶段发展。",
+        "url": "https://x.com/demishassabis/status/2085034334914769203",
+        "sourceName": "X：Demis Hassabis (@demishassabis)",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T16:04:58.000Z",
+        "rawJson": {
+          "id": "cmsga8g7n01dxro3psolcouz4",
+          "title": "Demis Hassabis 转任 Google DeepMind 主席与 Alphabet 首席科学家",
+          "title_en": "I've been working towards AGI my whole life， and as we enter this pivotal moment， I'm stepping into …",
+          "url": "https://x.com/demishassabis/status/2085034334914769203",
+          "permalink": "https://aihot.virxact.com/items/cmsga8g7n01dxro3psolcouz4",
+          "source": "X：Demis Hassabis (@demishassabis)",
+          "publishedAt": "2026-08-05T16:04:58.000Z",
+          "discoveredAt": "2026-08-05T16:09:23.683Z",
+          "summary": "Demis Hassabis 宣布卸任 Google DeepMind CEO，转任主席兼 Alphabet 首席科学家，专注长期战略与科学突破，包括推进 Isomorphic 的疾病治愈研究。Koray Kavukcuoglu 将接任 GDM 高级副总裁，与 Josh Woodward 及执行团队共同领导下一阶段发展。",
+          "category": "industry",
+          "score": 77,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsga8g7n01dxro3psolcouz4"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsg7u0dp00s1roremmr20cb1",
+        "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+        "summary": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。",
+        "body": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。",
+        "url": "https://x.com/AYi_AInotes/status/2085010659150852220",
+        "sourceName": "X：阿易 AI Notes (@AYi_AInotes)",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T14:30:53.000Z",
+        "rawJson": {
+          "id": "cmsg7u0dp00s1roremmr20cb1",
+          "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+          "title_en": "大家都在刷SpaceX上市首份财报，没人注意Musk扔的王炸：@SpaceX 要把AI数据中心搬到太空去， 而且不是科幻和概念PPT， 明年就开始发射。 就在昨天的财报电话会上， Musk直接宣布：…",
+          "url": "https://x.com/AYi_AInotes/status/2085010659150852220",
+          "permalink": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "publishedAt": "2026-08-05T14:30:53.000Z",
+          "discoveredAt": "2026-08-05T15:02:09.334Z",
+          "summary": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。",
+          "category": "industry",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsg6qeks07otrolg6som6vy0",
+        "title": "AI智能体尚无法开展开放式AI研究",
+        "summary": "普林斯顿大学团队通过\"影子评估\"测试前沿AI智能体的开放式研究能力：让智能体在六天时间内、使用数千美元API额度和算力，回答两篇未发表论文的核心研究问题，结果两篇论文均被原作者明确拒绝。分析显示，智能体缺乏研究判断力、资源意识、创造性反馈应对能力和有效回溯能力，且未遵循具体指令。研究团队认为，开放式研究对前沿AI智能体仍具挑战性，但结果尚属初步，需扩大样本量并持续评估。",
+        "body": "普林斯顿大学团队通过\"影子评估\"测试前沿AI智能体的开放式研究能力：让智能体在六天时间内、使用数千美元API额度和算力，回答两篇未发表论文的核心研究问题，结果两篇论文均被原作者明确拒绝。分析显示，智能体缺乏研究判断力、资源意识、创造性反馈应对能力和有效回溯能力，且未遵循具体指令。研究团队认为，开放式研究对前沿AI智能体仍具挑战性，但结果尚属初步，需扩大样本量并持续评估。",
+        "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+        "sourceName": "AI as Normal Technology（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-05T13:49:19.000Z",
+        "rawJson": {
+          "id": "cmsg6qeks07otrolg6som6vy0",
+          "title": "AI智能体尚无法开展开放式AI研究",
+          "title_en": "AI agents can't yet do open-ended AI research",
+          "url": "https://www.normaltech.ai/p/ai-agents-cant-yet-do-open-ended",
+          "permalink": "https://aihot.virxact.com/items/cmsg6qeks07otrolg6som6vy0",
+          "source": "AI as Normal Technology（RSS）",
+          "publishedAt": "2026-08-05T13:49:19.000Z",
+          "discoveredAt": "2026-08-05T14:31:19.612Z",
+          "summary": "普林斯顿大学团队通过\"影子评估\"测试前沿AI智能体的开放式研究能力：让智能体在六天时间内、使用数千美元API额度和算力，回答两篇未发表论文的核心研究问题，结果两篇论文均被原作者明确拒绝。分析显示，智能体缺乏研究判断力、资源意识、创造性反馈应对能力和有效回溯能力，且未遵循具体指令。研究团队认为，开放式研究对前沿AI智能体仍具挑战性，但结果尚属初步，需扩大样本量并持续评估。",
+          "category": "tip",
+          "score": 70,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsg6qeks07otrolg6som6vy0"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsg5h9ax06dsrolg11p7nhvv",
+        "title": "Cloudflare 提出智能体访问模型（Agent Access Model）",
+        "summary": "Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是\"不信任运行\"，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权。该模型针对智能体的短暂性、机器速度、提示词非边界及跨跳组合权限四大特性设计，主张缩小能力集而非仅优化单次决策，并区分单主体控制与多人访问控制的难点。",
+        "body": "Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是\"不信任运行\"，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权。该模型针对智能体的短暂性、机器速度、提示词非边界及跨跳组合权限四大特性设计，主张缩小能力集而非仅优化单次决策，并区分单主体控制与多人访问控制的难点。",
+        "url": "https://blog.cloudflare.com/the-agent-access-model",
+        "sourceName": "Cloudflare Blog",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-08-05T13:00:41.000Z",
+        "rawJson": {
+          "id": "cmsg5h9ax06dsrolg11p7nhvv",
+          "title": "Cloudflare 提出智能体访问模型（Agent Access Model）",
+          "title_en": "The Agent Access Model",
+          "url": "https://blog.cloudflare.com/the-agent-access-model",
+          "permalink": "https://aihot.virxact.com/items/cmsg5h9ax06dsrolg11p7nhvv",
+          "source": "Cloudflare Blog",
+          "publishedAt": "2026-08-05T13:00:41.000Z",
+          "discoveredAt": "2026-08-05T13:56:13.182Z",
+          "summary": "Cloudflare 发布《The Agent Access Model》论文，提出面向 AI 智能体的访问控制模型 AAM，核心规则是\"不信任运行\"，对任务执行图中的每个动作基于智能体身份、授权任务及已触达资源进行实时授权。该模型针对智能体的短暂性、机器速度、提示词非边界及跨跳组合权限四大特性设计，主张缩小能力集而非仅优化单次决策，并区分单主体控制与多人访问控制的难点。",
+          "category": "paper",
+          "score": 72,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsg5h9ax06dsrolg11p7nhvv"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsg5h9ax06dtrolg09b7xrd8",
+        "title": "Cloudflare 如何用 Cloudflare OS 重构内部工作方式",
+        "summary": "Cloudflare 推出 Cloudflare OS，整合 Workers 与 Access 等组件，让员工安全使用 AI 并部署智能体。平台源于销售团队用 AI 构建 SuperApp 引发的内部需求，遵循\"人负责输出\"\"权限不因 AI 扩大\"等五项原则，面向工程师与非工程师分别提供支持。",
+        "body": "Cloudflare 推出 Cloudflare OS，整合 Workers 与 Access 等组件，让员工安全使用 AI 并部署智能体。平台源于销售团队用 AI 构建 SuperApp 引发的内部需求，遵循\"人负责输出\"\"权限不因 AI 扩大\"等五项原则，面向工程师与非工程师分别提供支持。",
+        "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os",
+        "sourceName": "Cloudflare Blog",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-05T13:00:01.000Z",
+        "rawJson": {
+          "id": "cmsg5h9ax06dtrolg09b7xrd8",
+          "title": "Cloudflare 如何用 Cloudflare OS 重构内部工作方式",
+          "title_en": "How we're rethinking work at Cloudflare with Cloudflare OS",
+          "url": "https://blog.cloudflare.com/how-we-use-ai-with-cloudflare-os",
+          "permalink": "https://aihot.virxact.com/items/cmsg5h9ax06dtrolg09b7xrd8",
+          "source": "Cloudflare Blog",
+          "publishedAt": "2026-08-05T13:00:01.000Z",
+          "discoveredAt": "2026-08-05T13:56:13.182Z",
+          "summary": "Cloudflare 推出 Cloudflare OS，整合 Workers 与 Access 等组件，让员工安全使用 AI 并部署智能体。平台源于销售团队用 AI 构建 SuperApp 引发的内部需求，遵循\"人负责输出\"\"权限不因 AI 扩大\"等五项原则，面向工程师与非工程师分别提供支持。",
+          "category": "ai-products",
+          "score": 61,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsg5h9ax06dtrolg09b7xrd8"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsg5h9ay06dwrolgxlcyaou8",
+        "title": "Cloudflare 用身份感知分析捕捉失控 AI 行为",
+        "summary": "Cloudflare 推出身份感知 AI Gateway 与 User Insights，为每个请求绑定经 Access 验证的用户身份，并基于账户自身历史行为建立基线，识别偏离正常模式的异常会话。该功能现处于开放测试阶段，User Insights 已向所有 AI Gateway 客户免费开放。其异常检测以近 30 天会话成本 p95 为基准，超过 2 倍即标记为可疑行为。",
+        "body": "Cloudflare 推出身份感知 AI Gateway 与 User Insights，为每个请求绑定经 Access 验证的用户身份，并基于账户自身历史行为建立基线，识别偏离正常模式的异常会话。该功能现处于开放测试阶段，User Insights 已向所有 AI Gateway 客户免费开放。其异常检测以近 30 天会话成本 p95 为基准，超过 2 倍即标记为可疑行为。",
+        "url": "https://blog.cloudflare.com/identity-aware-ai-gateway",
+        "sourceName": "Cloudflare Blog",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-05T13:00:00.000Z",
+        "rawJson": {
+          "id": "cmsg5h9ay06dwrolgxlcyaou8",
+          "title": "Cloudflare 用身份感知分析捕捉失控 AI 行为",
+          "title_en": "Catching rogue AI behavior with identity-aware analytics",
+          "url": "https://blog.cloudflare.com/identity-aware-ai-gateway",
+          "permalink": "https://aihot.virxact.com/items/cmsg5h9ay06dwrolgxlcyaou8",
+          "source": "Cloudflare Blog",
+          "publishedAt": "2026-08-05T13:00:00.000Z",
+          "discoveredAt": "2026-08-05T13:56:13.182Z",
+          "summary": "Cloudflare 推出身份感知 AI Gateway 与 User Insights，为每个请求绑定经 Access 验证的用户身份，并基于账户自身历史行为建立基线，识别偏离正常模式的异常会话。该功能现处于开放测试阶段，User Insights 已向所有 AI Gateway 客户免费开放。其异常检测以近 30 天会话成本 p95 为基准，超过 2 倍即标记为可疑行为。",
+          "category": "ai-products",
+          "score": 65,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsg5h9ay06dwrolgxlcyaou8"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsg5h9ay06durolg6bwl0p8e",
+        "title": "Cloudflare OS：面向智能体、应用与工作的开放平台",
+        "summary": "Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统。该平台为每位员工提供基于公司上下文与技能的智能体工作区，包含隔离运行时、安全治理框架及可共享修改的个人应用。此前内部版本已供数千名员工日常使用，新版针对协作中的信息暴露风险重建了安全基础。",
+        "body": "Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统。该平台为每位员工提供基于公司上下文与技能的智能体工作区，包含隔离运行时、安全治理框架及可共享修改的个人应用。此前内部版本已供数千名员工日常使用，新版针对协作中的信息暴露风险重建了安全基础。",
+        "url": "https://blog.cloudflare.com/cloudflare-os",
+        "sourceName": "Cloudflare Blog",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-05T13:00:00.000Z",
+        "rawJson": {
+          "id": "cmsg5h9ay06durolg6bwl0p8e",
+          "title": "Cloudflare OS：面向智能体、应用与工作的开放平台",
+          "title_en": "Cloudflare OS： an open platform for agents， apps， and work",
+          "url": "https://blog.cloudflare.com/cloudflare-os",
+          "permalink": "https://aihot.virxact.com/items/cmsg5h9ay06durolg6bwl0p8e",
+          "source": "Cloudflare Blog",
+          "publishedAt": "2026-08-05T13:00:00.000Z",
+          "discoveredAt": "2026-08-05T13:56:13.182Z",
+          "summary": "Cloudflare 开源新版 Cloudflare OS，任何组织均可部署并连接内部系统。该平台为每位员工提供基于公司上下文与技能的智能体工作区，包含隔离运行时、安全治理框架及可共享修改的个人应用。此前内部版本已供数千名员工日常使用，新版针对协作中的信息暴露风险重建了安全基础。",
+          "category": "ai-products",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsg5h9ay06durolg6bwl0p8e"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsfyb5yy0js6roch27nbq7s2",
+        "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
+        "summary": "美国第九巡回上诉法院推翻了此前阻止 Perplexity 在 Amazon 平台使用 AI 购物智能体的禁令，认定是用户而非 Perplexity 本身通过智能体访问 Amazon，因此违反联邦计算机欺诈法的指控难以成立。这是美国联邦上诉法院首次就 AI 智能体合法性作出裁决，但案件本身尚未了结。Amazon 表示不同意该裁决并正在评估下一步选项。",
+        "body": "美国第九巡回上诉法院推翻了此前阻止 Perplexity 在 Amazon 平台使用 AI 购物智能体的禁令，认定是用户而非 Perplexity 本身通过智能体访问 Amazon，因此违反联邦计算机欺诈法的指控难以成立。这是美国联邦上诉法院首次就 AI 智能体合法性作出裁决，但案件本身尚未了结。Amazon 表示不同意该裁决并正在评估下一步选项。",
+        "url": "https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T10:31:42.000Z",
+        "rawJson": {
+          "id": "cmsfyb5yy0js6roch27nbq7s2",
+          "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
+          "title_en": "US appeals court allows Perplexity's AI shopping agent back on Amazon",
+          "url": "https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon",
+          "permalink": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2",
+          "source": "The Decoder：AI News（RSS）",
+          "publishedAt": "2026-08-05T10:31:42.000Z",
+          "discoveredAt": "2026-08-05T10:35:32.237Z",
+          "summary": "美国第九巡回上诉法院推翻了此前阻止 Perplexity 在 Amazon 平台使用 AI 购物智能体的禁令，认定是用户而非 Perplexity 本身通过智能体访问 Amazon，因此违反联邦计算机欺诈法的指控难以成立。这是美国联邦上诉法院首次就 AI 智能体合法性作出裁决，但案件本身尚未了结。Amazon 表示不同意该裁决并正在评估下一步选项。",
+          "category": "industry",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsfzhw1u009grodljbfrauos",
+        "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
+        "summary": "工信部提出的 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》于 2026 年 7 月 30 日发布，是我国首部针对 L3 和 L4 自动驾驶系统的强制性国家标准，将于 2027 年 7 月 1 日实施。",
+        "body": "工信部提出的 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》于 2026 年 7 月 30 日发布，是我国首部针对 L3 和 L4 自动驾驶系统的强制性国家标准，将于 2027 年 7 月 1 日实施。",
+        "url": "https://www.ithome.com/0/986/180.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T10:18:17.000Z",
+        "rawJson": {
+          "id": "cmsfzhw1u009grodljbfrauos",
+          "title": "华为谈自动驾驶系统强制性国家标准发布，引望国内首批完成 L3 车型准入试点验证",
+          "title_en": null,
+          "url": "https://www.ithome.com/0/986/180.htm",
+          "permalink": "https://aihot.virxact.com/items/cmsfzhw1u009grodljbfrauos",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-08-05T10:18:17.000Z",
+          "discoveredAt": "2026-08-05T11:08:45.252Z",
+          "summary": "工信部提出的 GB 44721-2026《智能网联汽车 自动驾驶系统安全要求》于 2026 年 7 月 30 日发布，是我国首部针对 L3 和 L4 自动驾驶系统的强制性国家标准，将于 2027 年 7 月 1 日实施。",
+          "category": "industry",
+          "score": 73,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsfzhw1u009grodljbfrauos"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsfzhw1v009hrodlv4wn36l3",
+        "title": "Google Assistant 下月起逐步退场，\"Hey Google\"将由谷歌 Gemini 接棒",
+        "summary": "谷歌通过电子邮件通知安卓用户，移动端 Google Assistant 将从 9 月 4 日起陆续停止服务，符合条件的安卓设备将改用 Gemini 作为默认助理。设备完成切换后，用户无法再通过手机、平板电脑或配对设备使用 Google Assistant，也不能切回原有服务。与手机配对的 Wear OS 手表及受支持的头戴式耳机和入耳式耳机也将同步改用 Gemini。",
+        "body": "谷歌通过电子邮件通知安卓用户，移动端 Google Assistant 将从 9 月 4 日起陆续停止服务，符合条件的安卓设备将改用 Gemini 作为默认助理。设备完成切换后，用户无法再通过手机、平板电脑或配对设备使用 Google Assistant，也不能切回原有服务。与手机配对的 Wear OS 手表及受支持的头戴式耳机和入耳式耳机也将同步改用 Gemini。",
+        "url": "https://www.ithome.com/0/986/174.htm",
+        "sourceName": "IT之家（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-08-05T10:12:57.000Z",
+        "rawJson": {
+          "id": "cmsfzhw1v009hrodlv4wn36l3",
+          "title": "Google Assistant 下月起逐步退场，\"Hey Google\"将由谷歌 Gemini 接棒",
+          "title_en": null,
+          "url": "https://www.ithome.com/0/986/174.htm",
+          "permalink": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3",
+          "source": "IT之家（RSS）",
+          "publishedAt": "2026-08-05T10:12:57.000Z",
+          "discoveredAt": "2026-08-05T11:08:45.252Z",
+          "summary": "谷歌通过电子邮件通知安卓用户，移动端 Google Assistant 将从 9 月 4 日起陆续停止服务，符合条件的安卓设备将改用 Gemini 作为默认助理。设备完成切换后，用户无法再通过手机、平板电脑或配对设备使用 Google Assistant，也不能切回原有服务。与手机配对的 Wear OS 手表及受支持的头戴式耳机和入耳式耳机也将同步改用 Gemini。",
+          "category": "industry",
+          "score": 78,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsfzhw1v009hrodlv4wn36l3"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsfu19g30eg5rochm0d4q3po",
+        "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型",
+        "summary": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可，代码为 Apache 2.0，发布首日即可商用。",
+        "body": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可，代码为 Apache 2.0，发布首日即可商用。",
+        "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+        "sourceName": "MarkTechPost（RSS）",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-08-05T08:25:11.000Z",
+        "rawJson": {
+          "id": "cmsfu19g30eg5rochm0d4q3po",
+          "title": "NVIDIA 发布 Alpamayo 2 Super：面向 Robotaxi 与自动驾驶的 34B 开源视觉-语言-动作模型",
+          "title_en": "NVIDIA Releases Alpamayo 2 Super： A 34B Open Vision-Language-Action Model for Robotaxis and Autonomous Driving Under OpenMDW-1.1",
+          "url": "https://www.marktechpost.com/2026/08/05/nvidia-alpamayo-2-super-open-vla-model-autonomous-driving",
+          "permalink": "https://aihot.virxact.com/items/cmsfu19g30eg5rochm0d4q3po",
+          "source": "MarkTechPost（RSS）",
+          "publishedAt": "2026-08-05T08:25:11.000Z",
+          "discoveredAt": "2026-08-05T08:35:52.843Z",
+          "summary": "NVIDIA 发布 Alpamayo 2 Super，一款 34B 参数的视觉-语言-动作（VLA）模型，专为自动驾驶长尾事件设计，权重采用 Linux 基金会 OpenMDW-1.1 许可，代码为 Apache 2.0，发布首日即可商用。",
+          "category": "ai-models",
+          "score": 79,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsfu19g30eg5rochm0d4q3po"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsfx3ska0ihjrochi0a0tv71",
+        "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
+        "summary": "作者为Codex和Claude Code中300多个Skill做上下文瘦身，发现每次新会话仅Skill列表就占约9.9k token，按7月使用强度粗算，多余Skill列表约吃掉4到5亿token的上下文空间。",
+        "body": "作者为Codex和Claude Code中300多个Skill做上下文瘦身，发现每次新会话仅Skill列表就占约9.9k token，按7月使用强度粗算，多余Skill列表约吃掉4到5亿token的上下文空间。",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509161&idx=1&sn=bd9aa077bbc46a6049ad66af6d15af0f",
+        "sourceName": "公众号：卡尔的AI沃茨",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-05T06:46:00.000Z",
+        "rawJson": {
+          "id": "cmsfx3ska0ihjrochi0a0tv71",
+          "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
+          "title_en": "烧了5亿token后，这是我给codex和claude做Skill上下文瘦身的新技巧！",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509161&idx=1&sn=bd9aa077bbc46a6049ad66af6d15af0f",
+          "permalink": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71",
+          "source": "公众号：卡尔的AI沃茨",
+          "publishedAt": "2026-08-05T06:46:00.000Z",
+          "discoveredAt": "2026-08-05T10:01:51.049Z",
+          "summary": "作者为Codex和Claude Code中300多个Skill做上下文瘦身，发现每次新会话仅Skill列表就占约9.9k token，按7月使用强度粗算，多余Skill列表约吃掉4到5亿token的上下文空间。",
+          "category": "tip",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsflglsq04k6rochfekqziad",
+        "title": "Grok 4.5 免费体验，推荐 Build 工具链",
+        "summary": "使用 Grok 的最佳方式是通过我们的 Build 工具链。\n\n下载地址：http://X.ai/cli",
+        "body": "使用 Grok 的最佳方式是通过我们的 Build 工具链。\n\n下载地址：http://X.ai/cli",
+        "url": "https://x.com/elonmusk/status/2084857373555101726",
+        "sourceName": "X：Elon Musk (@elonmusk, xAI)",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-05T04:21:47.000Z",
+        "rawJson": {
+          "id": "cmsflglsq04k6rochfekqziad",
+          "title": "Grok 4.5 免费体验，推荐 Build 工具链",
+          "title_en": "Best way to use Grok is via our Build harness. Download at http://X.ai/cli",
+          "url": "https://x.com/elonmusk/status/2084857373555101726",
+          "permalink": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad",
+          "source": "X：Elon Musk (@elonmusk, xAI)",
+          "publishedAt": "2026-08-05T04:21:47.000Z",
+          "discoveredAt": "2026-08-05T04:35:52.809Z",
+          "summary": "使用 Grok 的最佳方式是通过我们的 Build 工具链。\n\n下载地址：http://X.ai/cli",
+          "category": "ai-products",
+          "score": 66,
+          "selected": true,
+          "attribution": {
+            "source": "AI HOT",
+            "canonical": "https://aihot.virxact.com/items/cmsflglsq04k6rochfekqziad"
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-08-06T03:01:16.528Z",
+    "sourceGeneratedAt": "2026-08-04",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1090720",
+        "title": "Hey Noah",
+        "summary": "A proactive AI executive assistant for founders",
+        "body": "Noah is a proactive AI executive assistant for founders. Claude talks to you; Noah talks to your network. It's like Tesla Full Self Driving, and not cruise control- an autonomous AI EA that manages your calendar, relationships, and follow-ups across email, text, and WhatsApp - so nothing slips. Think of it as an always-on EA living in your SMS and helping you with meeting logistics.",
+        "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/XG4DNYGMW6GCPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 573,
+          "comments": 96,
+          "rank": 1,
+          "score": 573
+        },
+        "metadata": {
+          "slug": "hey-noah",
+          "topics": [
+            "Productivity",
+            "Calendar",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1090720",
+          "name": "Hey Noah",
+          "slug": "hey-noah",
+          "tagline": "A proactive AI executive assistant for founders",
+          "description": "Noah is a proactive AI executive assistant for founders. Claude talks to you; Noah talks to your network. It's like Tesla Full Self Driving, and not cruise control- an autonomous AI EA that manages your calendar, relationships, and follow-ups across email, text, and WhatsApp - so nothing slips. Think of it as an always-on EA living in your SMS and helping you with meeting logistics.",
+          "url": "https://www.producthunt.com/products/hey-noah?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/XG4DNYGMW6GCPP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 573,
+          "commentsCount": 96,
+          "dailyRank": 1,
+          "latestScore": 573,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Calendar",
+                  "slug": "calendar"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1210439",
+        "title": "Wondering",
+        "summary": "Duolingo for learning anything",
+        "body": "Wondering is the most delightful way to break down complex topics into knowledge you can remember and apply. Tell it what you want to learn, and it creates a personalized path of short lessons with visuals, podcasts, and interactive exercises. It surfaces the most important ideas and lets you explore them in your own way, like a thoughtful tutor beside you.",
+        "url": "https://www.producthunt.com/products/wondering-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/534DO3AKV4LOCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 376,
+          "comments": 34,
+          "rank": 2,
+          "score": 376
+        },
+        "metadata": {
+          "slug": "wondering-2",
+          "topics": [
+            "Productivity",
+            "Education",
+            "Audio"
+          ]
+        },
+        "rawJson": {
+          "id": "1210439",
+          "name": "Wondering",
+          "slug": "wondering-2",
+          "tagline": "Duolingo for learning anything",
+          "description": "Wondering is the most delightful way to break down complex topics into knowledge you can remember and apply. Tell it what you want to learn, and it creates a personalized path of short lessons with visuals, podcasts, and interactive exercises. It surfaces the most important ideas and lets you explore them in your own way, like a thoughtful tutor beside you.",
+          "url": "https://www.producthunt.com/products/wondering-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/534DO3AKV4LOCN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 376,
+          "commentsCount": 34,
+          "dailyRank": 2,
+          "latestScore": 376,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Education",
+                  "slug": "education"
+                }
+              },
+              {
+                "node": {
+                  "name": "Audio",
+                  "slug": "audio"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1203025",
+        "title": "Driven",
+        "summary": "The trusted AI investment agent, from insight to action",
+        "body": "Driven is an AI investment agent that turns market insight into action, not just answers. In one agent-powered workspace, it combines 260+ APIs, built-in & custom Skills, Playbooks, scheduled tasks, 24/7 monitoring, real-time data, portfolios, and order workflows. Instead of switching tools or chasing every signal, investors can manage the full journey in Driven, from idea generation and data gathering to analysis and action. It’s your AI investment team, while you stay in control.",
+        "url": "https://www.producthunt.com/products/driven-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/MXO3Z3S6LROVGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 267,
+          "comments": 57,
+          "rank": 3,
+          "score": 267
+        },
+        "metadata": {
+          "slug": "driven-2",
+          "topics": [
+            "Productivity",
+            "Fintech",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1203025",
+          "name": "Driven",
+          "slug": "driven-2",
+          "tagline": "The trusted AI investment agent, from insight to action",
+          "description": "Driven is an AI investment agent that turns market insight into action, not just answers. In one agent-powered workspace, it combines 260+ APIs, built-in & custom Skills, Playbooks, scheduled tasks, 24/7 monitoring, real-time data, portfolios, and order workflows. Instead of switching tools or chasing every signal, investors can manage the full journey in Driven, from idea generation and data gathering to analysis and action. It’s your AI investment team, while you stay in control.",
+          "url": "https://www.producthunt.com/products/driven-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/MXO3Z3S6LROVGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 267,
+          "commentsCount": 57,
+          "dailyRank": 3,
+          "latestScore": 267,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Fintech",
+                  "slug": "fintech"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1200155",
+        "title": "Atlaso",
+        "summary": "One memory for every AI you use",
+        "body": "Atlaso is a memory layer for AI. Connect it once and every AI you use, from Claude Code to Cursor, Codex and ChatGPT, automatically recalls the context that matters: your projects, your decisions, and the way you like to work. No more re-explaining yourself at the start of every session. One shared memory that follows you across every tool, instead of being locked inside one app. Free to start, and backed by original memory research.",
+        "url": "https://www.producthunt.com/products/atlaso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/6W5Y6ZJIKG3INN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 250,
+          "comments": 24,
+          "rank": 4,
+          "score": 250
+        },
+        "metadata": {
+          "slug": "atlaso",
+          "topics": [
+            "Productivity",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1200155",
+          "name": "Atlaso",
+          "slug": "atlaso",
+          "tagline": "One memory for every AI you use",
+          "description": "Atlaso is a memory layer for AI. Connect it once and every AI you use, from Claude Code to Cursor, Codex and ChatGPT, automatically recalls the context that matters: your projects, your decisions, and the way you like to work. No more re-explaining yourself at the start of every session. One shared memory that follows you across every tool, instead of being locked inside one app. Free to start, and backed by original memory research.",
+          "url": "https://www.producthunt.com/products/atlaso?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/6W5Y6ZJIKG3INN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 250,
+          "commentsCount": 24,
+          "dailyRank": 4,
+          "latestScore": 250,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1210501",
+        "title": "Dashi Metrics",
+        "summary": "Visualize your revenue on a 3D globe",
+        "body": "Watch your business come alive—every visitor and payment mapped in real time on a dynamic 3D globe. Dashi transforms static dashboards into live, geographic visualizations, making global trends and customer activity instantly engaging. Spin, zoom, and interact with your data as it happens. Perfect for SaaS teams and founders who want actionable, visual insights instead of boring charts.",
+        "url": "https://www.producthunt.com/products/dashi-metrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/MEYNOM2EOWKKZN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 230,
+          "comments": 14,
+          "rank": 5,
+          "score": 230
+        },
+        "metadata": {
+          "slug": "dashi-metrics",
+          "topics": [
+            "Analytics",
+            "SaaS",
+            "Data Visualization"
+          ]
+        },
+        "rawJson": {
+          "id": "1210501",
+          "name": "Dashi Metrics",
+          "slug": "dashi-metrics",
+          "tagline": "Visualize your revenue on a 3D globe",
+          "description": "Watch your business come alive—every visitor and payment mapped in real time on a dynamic 3D globe. Dashi transforms static dashboards into live, geographic visualizations, making global trends and customer activity instantly engaging. Spin, zoom, and interact with your data as it happens. Perfect for SaaS teams and founders who want actionable, visual insights instead of boring charts.",
+          "url": "https://www.producthunt.com/products/dashi-metrics?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/MEYNOM2EOWKKZN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 230,
+          "commentsCount": 14,
+          "dailyRank": 5,
+          "latestScore": 230,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Analytics",
+                  "slug": "analytics"
+                }
+              },
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "Data Visualization",
+                  "slug": "data-visualization"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1213589",
+        "title": "Vibe Buddy",
+        "summary": "Hardware for AI coding",
+        "body": "Vibe Buddy is a small desktop robot that keeps Codex and Claude Code usage limits and task status visible while you work. See when your AI is working, needs your input, has finished, or has hit its usage limit—without opening another tab.",
+        "url": "https://www.producthunt.com/products/vibe-buddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/7Y3DVMWTPWVNJY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 174,
+          "comments": 12,
+          "rank": 6,
+          "score": 174
+        },
+        "metadata": {
+          "slug": "vibe-buddy",
+          "topics": [
+            "Robots",
+            "Developer Tools",
+            "Vibe coding"
+          ]
+        },
+        "rawJson": {
+          "id": "1213589",
+          "name": "Vibe Buddy",
+          "slug": "vibe-buddy",
+          "tagline": "Hardware for AI coding",
+          "description": "Vibe Buddy is a small desktop robot that keeps Codex and Claude Code usage limits and task status visible while you work. See when your AI is working, needs your input, has finished, or has hit its usage limit—without opening another tab.",
+          "url": "https://www.producthunt.com/products/vibe-buddy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/7Y3DVMWTPWVNJY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 174,
+          "commentsCount": 12,
+          "dailyRank": 6,
+          "latestScore": 174,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Robots",
+                  "slug": "robots"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vibe coding",
+                  "slug": "vibe-coding"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1213557",
+        "title": "Screen Awesome ",
+        "summary": "The free screen recorder that cannot upload your video",
+        "body": "Every screen recorder promises not to misuse your recordings. Screen Awesome can't: it requests zero host permissions, so Chrome itself blocks it from reaching any server. Check it in chrome://extensions before you install. Record a tab, screen or camera to MP4. Auto-zoom glides a virtual camera to every click. Screenshot a region or a full scrolling page. Annotate with arrows, blur, redaction, step counters and text — all editable vectors. Free, unlocked, no account, no watermark.",
+        "url": "https://www.producthunt.com/products/screen-awesome-record-annotate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/EGH3SRBAZ4GFQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 142,
+          "comments": 7,
+          "rank": 7,
+          "score": 142
+        },
+        "metadata": {
+          "slug": "screen-awesome",
+          "topics": [
+            "Chrome Extensions"
+          ]
+        },
+        "rawJson": {
+          "id": "1213557",
+          "name": "Screen Awesome ",
+          "slug": "screen-awesome",
+          "tagline": "The free screen recorder that cannot upload your video",
+          "description": "Every screen recorder promises not to misuse your recordings. Screen Awesome can't: it requests zero host permissions, so Chrome itself blocks it from reaching any server. Check it in chrome://extensions before you install. Record a tab, screen or camera to MP4. Auto-zoom glides a virtual camera to every click. Screenshot a region or a full scrolling page. Annotate with arrows, blur, redaction, step counters and text — all editable vectors. Free, unlocked, no account, no watermark.",
+          "url": "https://www.producthunt.com/products/screen-awesome-record-annotate?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/EGH3SRBAZ4GFQK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 142,
+          "commentsCount": 7,
+          "dailyRank": 7,
+          "latestScore": 142,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Chrome Extensions",
+                  "slug": "chrome-extensions"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1213190",
+        "title": "ZapDigits MCP",
+        "summary": "The MCP server for marketing data",
+        "body": "Connect Claude and ChatGPT to Google Analytics, Search Console, Meta Ads and 30+ marketing data sources.",
+        "url": "https://www.producthunt.com/products/zapdigits?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/NTSETTC4L3HCIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 138,
+          "comments": 11,
+          "rank": 8,
+          "score": 138
+        },
+        "metadata": {
+          "slug": "zapdigits-mcp",
+          "topics": [
+            "Analytics",
+            "Marketing",
+            "Data & Analytics"
+          ]
+        },
+        "rawJson": {
+          "id": "1213190",
+          "name": "ZapDigits MCP",
+          "slug": "zapdigits-mcp",
+          "tagline": "The MCP server for marketing data",
+          "description": "Connect Claude and ChatGPT to Google Analytics, Search Console, Meta Ads and 30+ marketing data sources.",
+          "url": "https://www.producthunt.com/products/zapdigits?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/NTSETTC4L3HCIH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 138,
+          "commentsCount": 11,
+          "dailyRank": 8,
+          "latestScore": 138,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Analytics",
+                  "slug": "analytics"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Data & Analytics",
+                  "slug": "data-analytics"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1214128",
+        "title": "VIDEO AI ME",
+        "summary": "Make videos and post them everywhere with just one tool",
+        "body": "Most schedulers make you create your videos somewhere else, then download and re-upload them. VIDEO AI ME now does both: generate UGC ads and product videos with AI, then publish or schedule them to 15 platforms (TikTok, Instagram, YouTube, X, LinkedIn and 10 more) without leaving the tool. AI writes captions per platform from your actual script. Bulk schedule 25 videos in one sitting. See which video wins on each platform, then repost it or generate a new version with AI in one click.",
+        "url": "https://www.producthunt.com/products/video-ai-me?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/HUEUUOMQH4YCYI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 129,
+          "comments": 6,
+          "rank": 9,
+          "score": 129
+        },
+        "metadata": {
+          "slug": "video-ai-me-2",
+          "topics": [
+            "Social Media",
+            "Marketing",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1214128",
+          "name": "VIDEO AI ME",
+          "slug": "video-ai-me-2",
+          "tagline": "Make videos and post them everywhere with just one tool",
+          "description": "Most schedulers make you create your videos somewhere else, then download and re-upload them. VIDEO AI ME now does both: generate UGC ads and product videos with AI, then publish or schedule them to 15 platforms (TikTok, Instagram, YouTube, X, LinkedIn and 10 more) without leaving the tool. AI writes captions per platform from your actual script. Bulk schedule 25 videos in one sitting. See which video wins on each platform, then repost it or generate a new version with AI in one click.",
+          "url": "https://www.producthunt.com/products/video-ai-me?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/HUEUUOMQH4YCYI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 129,
+          "commentsCount": 6,
+          "dailyRank": 9,
+          "latestScore": 129,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Social Media",
+                  "slug": "social-media"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1214436",
+        "title": "Snipplet",
+        "summary": "Create and share beautiful guides from places you love",
+        "body": "Most travel tools help you plan trips. Snipplet does the opposite. It's for places you've already been and actually loved. Save your favorite spots, add photos and tips, and it becomes a visual guide you can share with one link. No more scattered screenshots or 47 tab Google Docs. Make it yours with custom fonts, colors, stickers, backgrounds, and themes. Or drop a screenshot in and let AI build it for you. Real recs from real people. Works for Tokyo or your favorite spots around the corner.",
+        "url": "https://www.producthunt.com/products/snipplet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/4UQX2DNCTZXB7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-04T07:01:00Z",
+        "metrics": {
+          "votes": 122,
+          "comments": 20,
+          "rank": 11,
+          "score": 122
+        },
+        "metadata": {
+          "slug": "snipplet",
+          "topics": [
+            "Productivity",
+            "Travel",
+            "Design"
+          ]
+        },
+        "rawJson": {
+          "id": "1214436",
+          "name": "Snipplet",
+          "slug": "snipplet",
+          "tagline": "Create and share beautiful guides from places you love",
+          "description": "Most travel tools help you plan trips. Snipplet does the opposite. It's for places you've already been and actually loved. Save your favorite spots, add photos and tips, and it becomes a visual guide you can share with one link. No more scattered screenshots or 47 tab Google Docs. Make it yours with custom fonts, colors, stickers, backgrounds, and themes. Or drop a screenshot in and let AI build it for you. Real recs from real people. Works for Tokyo or your favorite spots around the corner.",
+          "url": "https://www.producthunt.com/products/snipplet?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/4UQX2DNCTZXB7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 122,
+          "commentsCount": 20,
+          "dailyRank": 11,
+          "latestScore": 122,
+          "featuredAt": "2026-08-04T07:01:00Z",
+          "createdAt": "2026-08-04T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Travel",
+                  "slug": "travel"
+                }
+              },
+              {
+                "node": {
+                  "name": "Design",
+                  "slug": "design"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-08-06T03:01:16.726Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:permissionlesstech/bitchat",
+        "title": "permissionlesstech/bitchat",
+        "summary": "bluetooth mesh chat, IRC vibes bitchat A decentralized peer-to-peer messaging app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach.",
+        "url": "https://github.com/permissionlesstech/bitchat",
+        "publishedAt": "2026-08-06T03:01:16.682Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:diegosouzapw/OmniRoute",
+        "title": "diegosouzapw/OmniRoute",
+        "summary": "Never stop coding.",
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "publishedAt": "2026-08-06T03:01:16.689Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:stablyai/orca",
+        "title": "stablyai/orca",
+        "summary": "Orca is the ADE for working with a fleet of parallel agents.",
+        "url": "https://github.com/stablyai/orca",
+        "publishedAt": "2026-08-06T03:01:16.689Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:emilkowalski/skills",
+        "title": "emilkowalski/skills",
+        "summary": "Skills for Designers and Engineers.",
+        "url": "https://github.com/emilkowalski/skills",
+        "publishedAt": "2026-08-06T03:01:16.690Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:tt-a1i/archify",
+        "title": "tt-a1i/archify",
+        "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "url": "https://github.com/tt-a1i/archify",
+        "publishedAt": "2026-08-06T03:01:16.691Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:koala73/worldmonitor",
+        "title": "koala73/worldmonitor",
+        "summary": "Real-time global intelligence dashboard.",
+        "url": "https://github.com/koala73/worldmonitor",
+        "publishedAt": "2026-08-06T03:01:16.692Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Nutlope/hallmark",
+        "title": "Nutlope/hallmark",
+        "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "url": "https://github.com/Nutlope/hallmark",
+        "publishedAt": "2026-08-06T03:01:16.692Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:MadsLorentzen/ai-job-search",
+        "title": "MadsLorentzen/ai-job-search",
+        "summary": "The job search that runs on your machine.",
+        "url": "https://github.com/MadsLorentzen/ai-job-search",
+        "publishedAt": "2026-08-06T03:01:16.694Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:huggingface/speech-to-speech",
+        "title": "huggingface/speech-to-speech",
+        "summary": "Build local voice agents with open-source models &nbsp; Speech To Speech: Build voice agents with open-source models A low-latency, fully modular voice-agent pipeline: VAD -> STT -> LLM -> TTS , exposed through an OpenAI Realtime-compatible WebSocket API .",
+        "url": "https://github.com/huggingface/speech-to-speech",
+        "publishedAt": "2026-08-06T03:01:16.696Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:iOfficeAI/OfficeCLI",
+        "title": "iOfficeAI/OfficeCLI",
+        "summary": "OfficeCLI is the first and best Office suite purpose-built for AI agents to read, edit, and automate Word, Excel, and PowerPoint files.",
+        "url": "https://github.com/iOfficeAI/OfficeCLI",
+        "publishedAt": "2026-08-06T03:01:16.698Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:1jehuang/jcode",
+        "title": "1jehuang/jcode",
+        "summary": "The most RAM efficient harness jcode The most RAM efficient harness The most most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Start · Further Reading · Contributing Installation # macOS & Linux curl -fsSL https://jcode...",
+        "url": "https://github.com/1jehuang/jcode",
+        "publishedAt": "2026-08-06T03:01:16.700Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:wonderwhy-er/DesktopCommanderMCP",
+        "title": "wonderwhy-er/DesktopCommanderMCP",
+        "summary": "This is MCP server for Claude that gives it terminal control, file system search and diff file editing capabilities Desktop Commander MCP Search, update, manage files and run terminal commands with AI Work with code and text, run processes, and automate tas...",
+        "url": "https://github.com/wonderwhy-er/DesktopCommanderMCP",
+        "publishedAt": "2026-08-06T03:01:16.703Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:HKUDS/DeepTutor",
+        "title": "HKUDS/DeepTutor",
+        "summary": "DeepTutor: Lifelong Personalized Tutoring.",
+        "url": "https://github.com/HKUDS/DeepTutor",
+        "publishedAt": "2026-08-06T03:01:16.707Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Shubhamsaboo/awesome-llm-apps",
+        "title": "Shubhamsaboo/awesome-llm-apps",
+        "summary": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+        "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+        "publishedAt": "2026-08-06T03:01:16.708Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:OpenCut-app/OpenCut",
+        "title": "OpenCut-app/OpenCut",
+        "summary": "The open-source CapCut alternative OpenCut A free and open source video editor for web, desktop, and mobile.",
+        "url": "https://github.com/OpenCut-app/OpenCut",
+        "publishedAt": "2026-08-06T03:01:16.708Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pbakaus/impeccable",
+        "title": "pbakaus/impeccable",
+        "summary": "The design language that makes your AI harness better at design.",
+        "url": "https://github.com/pbakaus/impeccable",
+        "publishedAt": "2026-08-06T03:01:16.709Z",
+        "metrics": {
+          "rank": 16
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pingdotgg/t3code",
+        "title": "pingdotgg/t3code",
+        "summary": "T3 Code T3 Code is an \"agent harness control surface\".",
+        "url": "https://github.com/pingdotgg/t3code",
+        "publishedAt": "2026-08-06T03:01:16.709Z",
+        "metrics": {
+          "rank": 17
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:bradautomates/claude-video",
+        "title": "bradautomates/claude-video",
+        "summary": "Give Claude the ability to watch any video.",
+        "url": "https://github.com/bradautomates/claude-video",
+        "publishedAt": "2026-08-06T03:01:16.711Z",
+        "metrics": {
+          "rank": 18
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:every-app/open-seo",
+        "title": "every-app/open-seo",
+        "summary": "Open source alternative to Semrush and Ahrefs OpenSEO Open source alternative to Semrush and Ahrefs OpenSEO is an SEO tool for the people .",
+        "url": "https://github.com/every-app/open-seo",
+        "publishedAt": "2026-08-06T03:01:16.711Z",
+        "metrics": {
+          "rank": 19
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:HKUDS/Vibe-Trading",
+        "title": "HKUDS/Vibe-Trading",
+        "summary": "\"Vibe-Trading: Your Personal Trading Agent\" English | 中文 | 日本語 | 한국어 | العربية Vibe-Trading: Your Personal Trading Agent One Command to Empower Your Agent with Comprehensive Trading Capabilities Website &nbsp;·&nbsp; Docs &nbsp;·&nbsp; News &nbsp;·&nbsp; Fe...",
+        "url": "https://github.com/HKUDS/Vibe-Trading",
+        "publishedAt": "2026-08-06T03:01:16.722Z",
+        "metrics": {
+          "rank": 20
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-08-06T03:01:51.031Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "summary": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+        "body": "OpenAI explains recent third-party cybersecurity evaluation incidents and outlines new safeguards to strengthen AI model testing and evaluation.",
+        "url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-04T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/learn-teach-chatgpt-work-codex",
+        "title": "New ways to learn and teach with ChatGPT Work and Codex",
+        "summary": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+        "body": "Explore new education plugins for ChatGPT Work and Codex that help K–12 teachers, college educators, and students learn, teach, research, and build.",
+        "url": "https://openai.com/index/learn-teach-chatgpt-work-codex",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-04T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/apple-is-getting-this-wrong",
+        "title": "Apple is getting this wrong",
+        "summary": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+        "body": "OpenAI addresses Apple’s baseless lawsuit, corrects claims about its employees, and shares messages documenting what happened.",
+        "url": "https://openai.com/index/apple-is-getting-this-wrong",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-03T22:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "title": "How we built a realtime system for responsive voice AI in six months",
+        "summary": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+        "body": "GPT-Live enables continuous voice interaction with AI, using a turnless speech model and low-latency architecture for faster, more natural conversations.",
+        "url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-03T07:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_anthropic",
+        "sourceItemId": "builder_anthropic:https://www.anthropic.com/news/tino-cuellar",
+        "title": "Mariano-Florentino (Tino) Cuéllar to join Anthropic as Chief Global Affairs Officer",
+        "summary": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer, leading the company’s work on policy, strategic international engagement, and government relationships worldwide.</p>",
+        "body": "<article><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"></div><div class=\"page-wrapper\"><article><div class=\"\"><div class=\"Body-module-scss-module__z40yvW__body\" data-theme=\"ivory\"><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Mariano-Florentino (Tino) Cuéllar will join Anthropic as its first Chief Global Affairs Officer, leading the company’s work on policy, strategic international engagement, and government relationships worldwide.</p><p class=\"Body-module-scss-module__z40yvW__reading-column body-2 serif post-text\">Tino’s career spans law, technology, international security, and public institutions at the international, national, and state levels. He recently stepped down as President of the Carnegie Endowment for International P",
+        "url": "https://www.anthropic.com/news/tino-cuellar",
+        "authorName": "Anthropic",
+        "sourceName": "Anthropic News",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-03T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Anthropic News"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+        "title": "An AI model from Meta also hacked another company during testing",
+        "summary": "<p><strong><a href=\"https://www.cnn.com/2026/08/05/tech/meta-ai-hacking\">An AI model from Meta also hacked another company during testing</a></strong></p> Stop me if you've <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">heard this one before</a>:</p> <blockquote> <p>An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday.</p> <p>Meta says the breach occurred because ",
+        "body": "<p><strong><a href=\"https://www.cnn.com/2026/08/05/tech/meta-ai-hacking\">An AI model from Meta also hacked another company during testing</a></strong></p> Stop me if you've <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">heard this one before</a>:</p> <blockquote> <p>An AI model from the parent company of Facebook and Instagram hacked into another company’s systems during cybersecurity testing, a spokesperson confirmed on Wednesday.</p> <p>Meta says the breach occurred because of an inadvertent error during testing of the model, similar to previously disclosed incidents with OpenAI and Anthropic.</p> <p>“A misconfiguration by Irregular, an independent testing company Meta uses, inadvertently allowed one of our models access to the internet during evaluation,” the Meta spo",
+        "url": "https://simonwillison.net/2026/Aug/6/an-ai-model-from-meta/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-06T00:25:27.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+        "title": "Introducing Muse Code and Muse Spark 1.2",
+        "summary": "<p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">Introducing Muse Code and Muse Spark 1.2</a></strong></p> Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!</p> <blockquote> <p>Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding,",
+        "body": "<p><strong><a href=\"https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2\">Introducing Muse Code and Muse Spark 1.2</a></strong></p> Yet more evidence that the most important characteristic of any model these days is long-sequence agentic tool calling. Meta shipped their own coding agent as part of getting that to work!</p> <blockquote> <p>Muse Spark 1.2 is a coding-focused update to Muse Spark 1.1, with improvements in code generation, complex debugging, codebase understanding, and end-to-end developer workflows. In Muse Spark 1.2, we significantly scaled up training compute on coding tasks while expanding training environment diversity. The model also maintains its strength in other key areas like general agents. [...]</p> <p>We co-trained Muse Spark 1.2 with Muse Code t",
+        "url": "https://simonwillison.net/2026/Aug/5/muse-code-and-muse-spark-12/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-05T23:58:35.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+        "title": "Third-party cyber evaluations involving OpenAI models",
+        "summary": "<p><strong><a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/\">Third-party cyber evaluations involving OpenAI models</a></strong></p> And <em>another one</em>. I had to create a <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">accidental-cyberattacks tag</a> to keep track of them all!</p> <p>This post from OpenAI covers both the UK AI Safety Institute attack (see <a href=\"https://simonwillison.net/2026/Aug/5/incident-report/\">my previous pos",
+        "body": "<p><strong><a href=\"https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/\">Third-party cyber evaluations involving OpenAI models</a></strong></p> And <em>another one</em>. I had to create a <a href=\"https://simonwillison.net/tags/accidental-cyberattacks/\">accidental-cyberattacks tag</a> to keep track of them all!</p> <p>This post from OpenAI covers both the UK AI Safety Institute attack (see <a href=\"https://simonwillison.net/2026/Aug/5/incident-report/\">my previous post</a>) and another attack enabled by <a href=\"https://www.irregular.com\">Irregular</a>:</p> <blockquote> <p>Irregular, one of our external cybersecurity testing partners, was running Capture-the-Flag-style evaluations intended to be isolated from the internet, but a testing-environment misconfigurat",
+        "url": "https://simonwillison.net/2026/Aug/5/third-party-cyber-evaluations/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-05T23:45:32.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+        "title": "Incident Report: unsanctioned agent behaviour during cyber testing",
+        "summary": "<p><strong><a href=\"https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\">Incident Report: unsanctioned agent behaviour during cyber testing</a></strong></p> It happened <em>again</em>. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From <a href=\"https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c814870",
+        "body": "<p><strong><a href=\"https://www.aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing\">Incident Report: unsanctioned agent behaviour during cyber testing</a></strong></p> It happened <em>again</em>. This time it was the UK government's AI Security Institute who accidentally attacked other companies while running an evaluation with models with the safety filters turned off. From <a href=\"https://cdn.prod.website-files.com/663bd486c5e4c81588db7a1d/6a724858f7db25c81487016d_Security%20Incident%20INC-2026-07-28-01.pdf\">their technical paper</a> (PDF):</p> <blockquote> <p>During a cyber evaluation, from 25 to 28 July 2026, AI agents engaged in sustained, unsanctioned activity directed at what were, in practice, real people and organisations. These attempts were unsuc",
+        "url": "https://simonwillison.net/2026/Aug/5/incident-report/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-05T23:32:06.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+        "title": "One-shotting a Raccoon Heist game using Claude Fable 5",
+        "summary": "<p>Back in 2024 <a href=\"https://twitter.com/simonw/status/1555626060384911360\">I tweeted</a> screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in <a href=\"https://code.claude.com/docs/en/claude-code-on-the-web\">Claude Code for web</a>) could build the entire game from the content of that tweet. It did a pretty good job of it!</p> <p>You can <a href=\"https://sim",
+        "body": "<p>Back in 2024 <a href=\"https://twitter.com/simonw/status/1555626060384911360\">I tweeted</a> screenshots of a game concept generated by GPT-3 and some concept \"art\" created using DALL-E. Today, on the fourth anniversary of that tweet, I decided to see if Claude Fable 5 (running in <a href=\"https://code.claude.com/docs/en/claude-code-on-the-web\">Claude Code for web</a>) could build the entire game from the content of that tweet. It did a pretty good job of it!</p> <p>You can <a href=\"https://simonw.github.io/raccoon-heist/\">play the game here</a>. Here's <a href=\"https://github.com/simonw/raccoon-heist/\">the GitHub repo</a>, and a short video demo:</p> <p><video controls=\"controls\" preload=\"none\" poster=\"https://static.simonwillison.net/static/2026/raccoon-heist-poster.jpg\" width=\"1280\" he",
+        "url": "https://simonwillison.net/2026/Aug/5/raccoon-heist/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-05T19:42:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+        "title": "New release of LLM adds support for reasoning traces, OpenAI Responses, server-side tools, and smarter logging",
+        "summary": "<p>I released <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a> this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the <a href=\"https://github.com/simonw/llm-anthropic\">llm-anthropic plugin</a>",
+        "body": "<p>I released <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a> this morning, the most significant new version of LLM since the initial launch of the project. The new version includes support for visible reasoning traces, server-side provider tools, redesigned content-addressable SQLite logs, new models, and new features enabled by the OpenAI Responses API. I also released a new version of the <a href=\"https://github.com/simonw/llm-anthropic\">llm-anthropic plugin</a> with substantial updates of its own.</p> <h4 id=\"headline-features-for-llm-cli-users\">Headline features for LLM CLI users</h4> <p>Running LLM against reasoning models now <strong>displays their reasoning traces</strong> to standard error, so you can see what they are \"thinking\" without that informa",
+        "url": "https://simonwillison.net/2026/Aug/4/new-release-of-llm/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-04T23:58:24.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+        "title": "llm-anthropic 0.26",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.26\">llm-anthropic 0.26</a></p> <p>Includes new features enabled by <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a>:</p> <blockquote> <ul> <li>New models: <code>claude-fable-5</code>, <code>claude-sonnet-5</code>, and <code>claude-opus-5</code>. <a href=\"https://github.com/simonw/llm-anthropic/issues/75\">#75</a>, <a href=\"https://github.com/simonw/llm-anthropic/issues/76\">#",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.26\">llm-anthropic 0.26</a></p> <p>Includes new features enabled by <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a>:</p> <blockquote> <ul> <li>New models: <code>claude-fable-5</code>, <code>claude-sonnet-5</code>, and <code>claude-opus-5</code>. <a href=\"https://github.com/simonw/llm-anthropic/issues/75\">#75</a>, <a href=\"https://github.com/simonw/llm-anthropic/issues/76\">#76</a></li> <li>Added server-side tools for <code>WebSearch</code>, <code>WebFetch</code>, <code>CodeExecution</code>, and <code>AnthropicMCP</code>, available through LLM's <code>-T</code> interface or Python <code>tools=</code>. The previous <code>-o web_search*</code> options have been removed in",
+        "url": "https://simonwillison.net/2026/Aug/4/llm-anthropic/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-04T22:00:58.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+        "title": "PipeNetwork/minimax-h3-mlx",
+        "summary": "<p><strong><a href=\"https://github.com/PipeNetwork/minimax-h3-mlx\">PipeNetwork/minimax-h3-mlx</a></strong></p> MiniMax released <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-H3\">MiniMax-H3</a> two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.</p> <p>This Python package ports it to MLX for running on Apple Silicon.",
+        "body": "<p><strong><a href=\"https://github.com/PipeNetwork/minimax-h3-mlx\">PipeNetwork/minimax-h3-mlx</a></strong></p> MiniMax released <a href=\"https://huggingface.co/MiniMaxAI/MiniMax-H3\">MiniMax-H3</a> two days ago - they describe it as a \"a general-purpose, omni-modal generative system\", which in practice means it accepts text, images, audio and video and can use them to generate up to 15 second video clips with audio included.</p> <p>This Python package ports it to MLX for running on Apple Silicon.</p> <p>I got it running on my M5 Max MacBook Pro. I cloned the repo and ran the model like this:</p> <pre><code># First download the models uvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \\ --include 'FL2VA/*' --exclude 'FL2VA/transformer/*' uvx --from huggingface_hub hf download pipene",
+        "url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-04T19:10:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+        "title": "llm 0.32",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32\">llm 0.32</a></p> <p>See <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">my detailed blog post about this release</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32\">llm 0.32</a></p> <p>See <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">my detailed blog post about this release</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+        "url": "https://simonwillison.net/2026/Aug/4/llm/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-04T17:15:33.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+        "title": "Quoting Steve Yegge",
+        "summary": "<blockquote cite=\"https://yegge.ai/essays/the-shape-of-things-to-come/\"><p><a href=\"https://yegge.ai/gastown.html\">Gas Town</a> was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus ti",
+        "body": "<blockquote cite=\"https://yegge.ai/essays/the-shape-of-things-to-come/\"><p><a href=\"https://yegge.ai/gastown.html\">Gas Town</a> was intended to be reusable, but I only ever wound up using it to build itself. Gas Town fell apart at the seams with Opus 4.7. Up through 4.6 it was working brilliantly. With 4.7 we saw the introduction of the \"just two more things\" tic, which prevented Opus from ever converging on being ready to do real work—it always wanted to fiddle with Gas Town itself. The Opus tic never went away, so Gas Town effectively burned down. It had other problems, too, but 4.7 was the final straw.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://yegge.ai/essays/the-shape-of-things-to-come/\">Steve Yegge</a>, The Shape of Things to Come</p> <p>Tags: <a href=\"https://simonwil",
+        "url": "https://simonwillison.net/2026/Aug/4/steve-yegge/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-04T00:42:45.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+        "title": "Don't be a meat proxy",
+        "summary": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p> Niklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p> <blockquote> <p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you c",
+        "body": "<p><strong><a href=\"https://gruhn.me/blog/2026-08-03/\">Don&#x27;t be a meat proxy</a></strong></p> Niklas Gruhn coins an excellent new term - <strong>meat proxy</strong> - for people who blindly copy and paste the output of AI systems to their peers.</p> <blockquote> <p>By all means, prompt AI. But don't just relay the output. Read it, understand it, validate it, and then write a response in your own words (a decent certificate that you've done the prior steps). Making that effort is value you can add.</p> </blockquote> <p><small></small>Via <a href=\"https://lobste.rs/s/hfbqr3/don_t_be_meat_proxy#c_svolls\">Lobste.rs</a></small></p> <p>Tags: <a href=\"https://simonwillison.net/tags/definitions\">definitions</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwilliso",
+        "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T23:45:04.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+        "title": "Quoting David Crawshaw's prompt",
+        "summary": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p> <p>Tags: <a href=\"https://simo",
+        "body": "<blockquote cite=\"https://blog.exe.dev/devtools-must-be-open-source\"><p><code>Set up a nightly cron job that executes the prompt: fetch upstream changes to the <software> and rebase all local changes on top of upstream. Check that the software works as intended and replace the current version.</code></p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://blog.exe.dev/devtools-must-be-open-source\">David Crawshaw&#x27;s prompt</a>, Devtools must be open source</p> <p>Tags: <a href=\"https://simonwillison.net/tags/prompt-engineering\">prompt-engineering</a>, <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/ta",
+        "url": "https://simonwillison.net/2026/Aug/3/david-crawshaw/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T16:15:27.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+        "title": "Devtools must be open source (exe.dev)",
+        "summary": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p> <p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on <em>other people</em> to do ",
+        "body": "<p><a href=\"https://news.ycombinator.com/item?id=49156111#49156719\">My comment</a> on <a href=\"https://news.ycombinator.com/item?id=49156111\">Devtools must be open source (exe.dev)</a> &mdash; Hacker News.</p><p>One of the arguments for open source software for end-users has always been the freedom to examine and modify how that software works.</p> <p>The reality for most people - even expert programmers - has been that the freedom is more about being able to lean on <em>other people</em> to do that. Most people can't justify the time commitment needed to read and then modify the code for tools they use very often.</p> <p>I think LLMs have changed that equation in a way that makes the original dream much more feasible.</p> <p>Several times a day I'll prompt regular Claude chat to \"Clone x/",
+        "url": "https://simonwillison.net/2026/Aug/3/devtools-must-be-open-source-exedev/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T15:30:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+        "title": "condense-json 1.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.1\">condense-json 1.1</a></p> <p>After shipping <a href=\"https://simonwillison.net/2026/Aug/2/condense-json/\">condense-json 1.0</a> I started integrating it into LLM, and found there were some desirable new features already:</p> <blockquote> <ul> <li>Replacements object can now include values other than strings. These will be identified and used as structural replacements by <code>condense_json()</code> a",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/condense-json/releases/tag/1.1\">condense-json 1.1</a></p> <p>After shipping <a href=\"https://simonwillison.net/2026/Aug/2/condense-json/\">condense-json 1.0</a> I started integrating it into LLM, and found there were some desirable new features already:</p> <blockquote> <ul> <li>Replacements object can now include values other than strings. These will be identified and used as structural replacements by <code>condense_json()</code> and <code>uncondense_json()</code>. <a href=\"https://github.com/simonw/condense-json/pull/8\">#8</a></li> <li>Objects can be used as the basis for merge operations. <code>condense_json()</code> will identify if there are objects that are a close match and will store instructions for keys to update or ",
+        "url": "https://simonwillison.net/2026/Aug/3/condense-json/#atom-everything",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T04:56:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+        "title": "Why smarter AI models could drive up compute prices 10x",
+        "summary": "The end of cheap compute?",
+        "body": "The end of cheap compute?",
+        "url": "https://www.dwarkesh.com/p/why-compute-might-get-10x-more-expensive-video",
+        "authorName": "Dwarkesh Patel",
+        "sourceName": "Dwarkesh Patel",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-03T17:32:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Dwarkesh Patel"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://blog.archive.org/2026/08/04/internet-archive-to-new-york-dont-kill-the-good-bots-in-the-fight-against-bad-bots/",
+        "title": "Internet Archive to New York: Don’t Kill the Good Bots in the Fight Against Bad Bots | Internet Archive Blogs",
+        "summary": "<p><a href=\"https://lobste.rs/s/snohjz/internet_archive_new_york_don_t_kill_good\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/snohjz/internet_archive_new_york_don_t_kill_good\">Comments</a></p>",
+        "url": "https://blog.archive.org/2026/08/04/internet-archive-to-new-york-dont-kill-the-good-bots-in-the-fight-against-bad-bots/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-05T23:40:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://www.youtube.com/watch?v=uWnUnMphmPM",
+        "title": "After the AI Hype – What’s Real, and What’s Next - Richard Campbell - 2026",
+        "summary": "<p><a href=\"https://lobste.rs/s/lbqtuf/after_ai_hype_what_s_real_what_s_next\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/lbqtuf/after_ai_hype_what_s_real_what_s_next\">Comments</a></p>",
+        "url": "https://www.youtube.com/watch?v=uWnUnMphmPM",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-05T23:25:44.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+        "title": "Categorization with NLP",
+        "summary": "<p><a href=\"https://lobste.rs/s/yndrxm/categorization_with_nlp\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/yndrxm/categorization_with_nlp\">Comments</a></p>",
+        "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T18:10:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+        "title": "Why Do Cognitive Scientists Hate LLMs? (2023)",
+        "summary": "<p><a href=\"https://lobste.rs/s/vytqfi/why_do_cognitive_scientists_hate_llms\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/vytqfi/why_do_cognitive_scientists_hate_llms\">Comments</a></p>",
+        "url": "https://minihf.com/posts/2023-10-16-hermes-lecture-3-why-do-cognitive-scientists-hate-llms/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T17:45:39.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+        "title": "Categorization with NLP",
+        "summary": "<p><a href=\"https://lobste.rs/s/vyy2jf/categorization_with_nlp\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/vyy2jf/categorization_with_nlp\">Comments</a></p>",
+        "url": "https://softwaremaniacs.org/blog/2026/07/30/categorization-with-nlp/en/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-03T17:11:41.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      }
+    ],
+    "errors": [
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403",
+      "Hacker News AI: HTTP 502",
+      "HuggingFace Papers: This operation was aborted"
+    ]
+  }
+]
