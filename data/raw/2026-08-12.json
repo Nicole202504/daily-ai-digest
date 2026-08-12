@@ -1,7 +1,7 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-08-12T03:01:07.172Z",
+    "fetchedAt": "2026-08-12T04:53:19.899Z",
     "items": [
       {
         "source": "aihot",
@@ -29,6 +29,35 @@
           "attribution": {
             "source": "AIHOT",
             "canonical": "https://aihot.virxact.com/items/cmspc30un0e4xrorts1kax9zg"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmsp3o23e04vnrortt7twvx4v",
+        "title": "Mojo 1.0 正式发布：为生态系统增长提供稳定基础",
+        "summary": "Mojo 语言正式发布 1.0 版本，提供稳定、可用于生产环境的语言基础，自 2023 年首次发布以来已发展成通用语言。自开源标准库以来，近 200 名贡献者合入超 1，100 个拉取请求，改动超 200，000 行代码。",
+        "body": "Mojo 语言正式发布 1.0 版本，提供稳定、可用于生产环境的语言基础，自 2023 年首次发布以来已发展成通用语言。自开源标准库以来，近 200 名贡献者合入超 1，100 个拉取请求，改动超 200，000 行代码。",
+        "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-11T19:52:14.184Z",
+        "rawJson": {
+          "id": "cmsp3o23e04vnrortt7twvx4v",
+          "title": "Mojo 1.0 正式发布：为生态系统增长提供稳定基础",
+          "title_en": "Mojo 1.0",
+          "url": "https://www.modular.com/blog/modular-26-5-mojo-1-0-is-here",
+          "permalink": "https://aihot.virxact.com/items/cmsp3o23e04vnrortt7twvx4v",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-11T19:52:14.184Z",
+          "discoveredAt": "2026-08-11T20:15:29.618Z",
+          "summary": "Mojo 语言正式发布 1.0 版本，提供稳定、可用于生产环境的语言基础，自 2023 年首次发布以来已发展成通用语言。自开源标准库以来，近 200 名贡献者合入超 1，100 个拉取请求，改动超 200，000 行代码。",
+          "category": "ai-products",
+          "score": 73,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmsp3o23e04vnrortt7twvx4v"
           }
         }
       },
@@ -353,6 +382,35 @@
       },
       {
         "source": "aihot",
+        "sourceItemId": "aihot:cmspk9ofu02cbrojej28w43eh",
+        "title": "跨会话传消息后，Codex 和 Claude 如何重构 vibe coding 工作流",
+        "summary": "Codex 和 Claude 新增跨 Session 传消息功能后，新对话可从之前所有对话中选择可用消息，省去交接文档和 git 备份。作者据此重构工作流：主对话守住目标与决策，分支对话独立探索新想法，完成后由主对话读取完整记录。Codex 通过复制会话 ID 精确寻址，Claude Code 则用内置 session management 搜索对话历史，但桌面端只能搜索当前可访问的会话记录。",
+        "body": "Codex 和 Claude 新增跨 Session 传消息功能后，新对话可从之前所有对话中选择可用消息，省去交接文档和 git 备份。作者据此重构工作流：主对话守住目标与决策，分支对话独立探索新想法，完成后由主对话读取完整记录。Codex 通过复制会话 ID 精确寻址，Claude Code 则用内置 session management 搜索对话历史，但桌面端只能搜索当前可访问的会话记录。",
+        "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
+        "sourceName": "公众号：卡尔的AI沃茨",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-11T14:15:07.000Z",
+        "rawJson": {
+          "id": "cmspk9ofu02cbrojej28w43eh",
+          "title": "跨会话传消息后，Codex 和 Claude 如何重构 vibe coding 工作流",
+          "title_en": "这两天正在重构vibe coding工作流，codex和claude都能跨会话互传消息后，我就不用写交接文档，不用每一步都用git备份，完全能探索所有可行路径还不丢上下文。 以前对话中途有个新想法，我面临三种选择👇 1️⃣ 继续在当前对话聊，主线容易被带偏。 2️⃣ 重新开一个对话，又得把背景、进度和之前踩过的坑解释一遍。为了不让新对话失忆，我还要维护一份交接文档，把重要信息复制过去。 3️⃣把当前对话完整复制下来做一个新对话，也就是对话分支功能，这样就既不影响主线还可以尝试新想法。但仅限于新想法跟原来想法相差不大的情况，不然上下文还是会污染新想法的实现。 新功能跨Session传消息就是，Claude和Codex的新对话可以从之前的所有对话里面选择自己能用的消息。 那可以直接换一种工作方式了，不用把一个Session当成必须从头聊到尾的总对话，而是把每一次Agent任务都当成一条可以随时分叉的工作线。主对话负责目标和最终决策；遇到一个需要认真展开的新想法，就另外开一条分支对话，让它独立研究尝试和推演。等支线跑完，再让主对话读取它的完整记录，决定该用哪些结论。 比方说我最近在优化AI热点Skill ai news radar，中途想到是否要加一个新域名重新做定位。这种任务不是一句话能回答的，这时单开一条分支对话就很合适。能跨Session传消息首先就省掉了做大量重复交接文档的时间。新对话不用只依赖我临时写的总结，可以读取旧对话里的决策、失败尝试和执行结果。 Codex和Claude用了两种不同的实现方式。Codex是精确寻址。打开我们要给新对话读取的目标对话，从左上角三个点里复制会话ID，再告诉主任务：读取 ID 为 xxx 的分支对话，提取核心结论、做过的尝试和待决策项，然后更新当前计划。 Claude Code不支持id搜索，而是做了一个能搜索对话历史的工具，通过内置的session management 查找旧对话，所以关键是把线索说清楚。刚开始的时候说【找一下上次某某网站对话】，基本都是噪音。现在已经换成了【搜索ai news radar项目在8月10日前后的会话，主题是新域名和产品定位。列出候选会话的时间、标题和首条任务，我确认后再读取完整记录。】 有一个我踩过的坑，Claude Code桌面端搜索的是它当前能够访问的会话记录。网页端URL 后面的 `session_…` 不能直接当成ID来搜索用。 总的来说， 我现在的工作流就是， 用一个主对话守住方向， 十几个甚至几十个分支对话负责把每个值得追下去的念头，认真走一遍。",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509276&idx=1&sn=675b64d514b1179c8f2362941144bbb4",
+          "permalink": "https://aihot.virxact.com/items/cmspk9ofu02cbrojej28w43eh",
+          "source": "公众号：卡尔的AI沃茨",
+          "publishedAt": "2026-08-11T14:15:07.000Z",
+          "discoveredAt": "2026-08-12T04:00:11.403Z",
+          "summary": "Codex 和 Claude 新增跨 Session 传消息功能后，新对话可从之前所有对话中选择可用消息，省去交接文档和 git 备份。作者据此重构工作流：主对话守住目标与决策，分支对话独立探索新想法，完成后由主对话读取完整记录。Codex 通过复制会话 ID 精确寻址，Claude Code 则用内置 session management 搜索对话历史，但桌面端只能搜索当前可访问的会话记录。",
+          "category": "tip",
+          "score": 72,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmspk9ofu02cbrojej28w43eh"
+          }
+        }
+      },
+      {
+        "source": "aihot",
         "sourceItemId": "aihot:cmsopyoum028vrohd4dgeksz9",
         "title": "统一 Radix 缓存：为混合模型前缀缓存构建单一树结构",
         "summary": "LMSYS 团队提出 Unified Radix Cache，用单一 token 键控 radix 拓扑统一管理混合模型的 FULL、SWA 和 MAMBA 组件缓存，各组件独立执行路径、滑动窗口和检查点复用语义。",
@@ -582,42 +640,13 @@
             "canonical": "https://aihot.virxact.com/items/cmso7i0al0dlsrofwivmpsjh1"
           }
         }
-      },
-      {
-        "source": "aihot",
-        "sourceItemId": "aihot:cmso58oqr0b7trofwl3dcmz7y",
-        "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
-        "summary": "Anthropic 正与潜在投资者接触，为可能成为史上规模最大的 IPO 做准备，计划今年 9 月或 10 月初正式上市。公司估值高达 9，650 亿美元，年化收入已超 470 亿美元，并淡化来自中国 AI 企业的竞争影响。Anthropic 还计划拓展 AI 在医疗和生物学领域的应用，但尚未公布具体 IPO 定价方案。",
-        "body": "Anthropic 正与潜在投资者接触，为可能成为史上规模最大的 IPO 做准备，计划今年 9 月或 10 月初正式上市。公司估值高达 9，650 亿美元，年化收入已超 470 亿美元，并淡化来自中国 AI 企业的竞争影响。Anthropic 还计划拓展 AI 在医疗和生物学领域的应用，但尚未公布具体 IPO 定价方案。",
-        "url": "https://www.ithome.com/0/988/239.htm",
-        "sourceName": "IT之家（RSS）",
-        "sourceCategory": "industry",
-        "publishedAt": "2026-08-11T03:57:53.000Z",
-        "rawJson": {
-          "id": "cmso58oqr0b7trofwl3dcmz7y",
-          "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
-          "title_en": null,
-          "url": "https://www.ithome.com/0/988/239.htm",
-          "permalink": "https://aihot.virxact.com/items/cmso58oqr0b7trofwl3dcmz7y",
-          "source": "IT之家（RSS）",
-          "publishedAt": "2026-08-11T03:57:53.000Z",
-          "discoveredAt": "2026-08-11T04:11:43.726Z",
-          "summary": "Anthropic 正与潜在投资者接触，为可能成为史上规模最大的 IPO 做准备，计划今年 9 月或 10 月初正式上市。公司估值高达 9，650 亿美元，年化收入已超 470 亿美元，并淡化来自中国 AI 企业的竞争影响。Anthropic 还计划拓展 AI 在医疗和生物学领域的应用，但尚未公布具体 IPO 定价方案。",
-          "category": "industry",
-          "score": 79,
-          "selected": true,
-          "attribution": {
-            "source": "AIHOT",
-            "canonical": "https://aihot.virxact.com/items/cmso58oqr0b7trofwl3dcmz7y"
-          }
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-08-12T03:01:07.599Z",
+    "fetchedAt": "2026-08-12T04:53:20.057Z",
     "sourceGeneratedAt": "2026-08-10",
     "items": [
       {
@@ -630,10 +659,10 @@
         "externalUrl": "https://www.producthunt.com/r/HURZKMJEK6FWXH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-08-10T07:01:00Z",
         "metrics": {
-          "votes": 365,
+          "votes": 366,
           "comments": 37,
           "rank": 1,
-          "score": 365
+          "score": 366
         },
         "metadata": {
           "slug": "oqoqo",
@@ -651,10 +680,10 @@
           "description": "Run eval experiments at scale in realistic environments. Define custom task sets to build your private benchmarks, measure how well agents can use any product, and find best models for your use cases. Generate dynamic insights to detect frictions in product interfaces or token inefficiencies.",
           "url": "https://www.producthunt.com/products/oqoqo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/HURZKMJEK6FWXH?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 365,
+          "votesCount": 366,
           "commentsCount": 37,
           "dailyRank": 1,
-          "latestScore": 365,
+          "latestScore": 366,
           "featuredAt": "2026-08-10T07:01:00Z",
           "createdAt": "2026-08-10T07:01:00Z",
           "topics": {
@@ -691,10 +720,10 @@
         "externalUrl": "https://www.producthunt.com/r/O2BNSCSAU5BUCP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-08-10T07:01:00Z",
         "metrics": {
-          "votes": 319,
+          "votes": 318,
           "comments": 32,
           "rank": 2,
-          "score": 319
+          "score": 318
         },
         "metadata": {
           "slug": "portfolio-lab-2",
@@ -712,10 +741,10 @@
           "description": "AI made building investment strategies easy. Telling a good one from a lucky one still takes expertise. Portfolio Lab is the responsible AI investing platform: every strategy is tested on unseen data and in live markets. Connect your agent to deploy only vetted strategies in your own brokerage account. SEC-registered.",
           "url": "https://www.producthunt.com/products/portfolio-lab?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/O2BNSCSAU5BUCP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 319,
+          "votesCount": 318,
           "commentsCount": 32,
           "dailyRank": 2,
-          "latestScore": 319,
+          "latestScore": 318,
           "featuredAt": "2026-08-10T07:01:00Z",
           "createdAt": "2026-08-10T07:01:00Z",
           "topics": {
@@ -1256,7 +1285,7 @@
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-08-12T03:01:07.805Z",
+    "fetchedAt": "2026-08-12T04:53:20.122Z",
     "items": [
       {
         "source": "github_trending",
@@ -1264,7 +1293,7 @@
         "title": "diegosouzapw/OmniRoute",
         "summary": "Never stop coding.",
         "url": "https://github.com/diegosouzapw/OmniRoute",
-        "publishedAt": "2026-08-12T03:01:07.782Z",
+        "publishedAt": "2026-08-12T04:53:20.099Z",
         "metrics": {
           "rank": 1
         },
@@ -1279,7 +1308,7 @@
         "title": "koala73/worldmonitor",
         "summary": "Real-time global intelligence dashboard.",
         "url": "https://github.com/koala73/worldmonitor",
-        "publishedAt": "2026-08-12T03:01:07.782Z",
+        "publishedAt": "2026-08-12T04:53:20.100Z",
         "metrics": {
           "rank": 2
         },
@@ -1294,7 +1323,7 @@
         "title": "Nutlope/hallmark",
         "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "url": "https://github.com/Nutlope/hallmark",
-        "publishedAt": "2026-08-12T03:01:07.783Z",
+        "publishedAt": "2026-08-12T04:53:20.100Z",
         "metrics": {
           "rank": 3
         },
@@ -1309,7 +1338,7 @@
         "title": "1jehuang/jcode",
         "summary": "The most RAM efficient harness jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Start · Further Reading · Contributing Installation # macOS & Linux curl -fsSL https://jcode.sh/i...",
         "url": "https://github.com/1jehuang/jcode",
-        "publishedAt": "2026-08-12T03:01:07.786Z",
+        "publishedAt": "2026-08-12T04:53:20.103Z",
         "metrics": {
           "rank": 4
         },
@@ -1324,7 +1353,7 @@
         "title": "zhaoxuya520/reverse-skill",
         "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技...",
         "url": "https://github.com/zhaoxuya520/reverse-skill",
-        "publishedAt": "2026-08-12T03:01:07.787Z",
+        "publishedAt": "2026-08-12T04:53:20.104Z",
         "metrics": {
           "rank": 5
         },
@@ -1339,7 +1368,7 @@
         "title": "HKUDS/DeepTutor",
         "summary": "DeepTutor: Lifelong Personalized Tutoring.",
         "url": "https://github.com/HKUDS/DeepTutor",
-        "publishedAt": "2026-08-12T03:01:07.791Z",
+        "publishedAt": "2026-08-12T04:53:20.108Z",
         "metrics": {
           "rank": 6
         },
@@ -1354,7 +1383,7 @@
         "title": "stablyai/orca",
         "summary": "Orca is the ADE for working with a fleet of parallel agents.",
         "url": "https://github.com/stablyai/orca",
-        "publishedAt": "2026-08-12T03:01:07.792Z",
+        "publishedAt": "2026-08-12T04:53:20.109Z",
         "metrics": {
           "rank": 7
         },
@@ -1369,7 +1398,7 @@
         "title": "pingdotgg/t3code",
         "summary": "T3 Code T3 Code is an \"agent harness control surface\".",
         "url": "https://github.com/pingdotgg/t3code",
-        "publishedAt": "2026-08-12T03:01:07.792Z",
+        "publishedAt": "2026-08-12T04:53:20.109Z",
         "metrics": {
           "rank": 8
         },
@@ -1384,7 +1413,7 @@
         "title": "TencentCloud/TencentDB-Agent-Memory",
         "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
         "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
-        "publishedAt": "2026-08-12T03:01:07.794Z",
+        "publishedAt": "2026-08-12T04:53:20.110Z",
         "metrics": {
           "rank": 9
         },
@@ -1399,7 +1428,7 @@
         "title": "mattpocock/skills",
         "summary": "Skills for Real Engineers.",
         "url": "https://github.com/mattpocock/skills",
-        "publishedAt": "2026-08-12T03:01:07.794Z",
+        "publishedAt": "2026-08-12T04:53:20.111Z",
         "metrics": {
           "rank": 10
         },
@@ -1414,7 +1443,7 @@
         "title": "every-app/open-seo",
         "summary": "Open source alternative to Semrush and Ahrefs OpenSEO Open source alternative to Semrush and Ahrefs OpenSEO is an SEO tool for the people .",
         "url": "https://github.com/every-app/open-seo",
-        "publishedAt": "2026-08-12T03:01:07.795Z",
+        "publishedAt": "2026-08-12T04:53:20.111Z",
         "metrics": {
           "rank": 11
         },
@@ -1429,7 +1458,7 @@
         "title": "tt-a1i/archify",
         "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
         "url": "https://github.com/tt-a1i/archify",
-        "publishedAt": "2026-08-12T03:01:07.796Z",
+        "publishedAt": "2026-08-12T04:53:20.112Z",
         "metrics": {
           "rank": 12
         },
@@ -1444,7 +1473,7 @@
         "title": "earendil-works/pi",
         "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.",
         "url": "https://github.com/earendil-works/pi",
-        "publishedAt": "2026-08-12T03:01:07.796Z",
+        "publishedAt": "2026-08-12T04:53:20.113Z",
         "metrics": {
           "rank": 13
         },
@@ -1459,7 +1488,7 @@
         "title": "kangarooking/cangjie-skill",
         "summary": "把书、长视频、播客等高价值内容蒸馏成可执行的 Agent Skills Cangjie Skill 把书、长视频、播客里的方法论，蒸馏成可调用的 AI Skills 读完、看完、听完之后，带走一套能调用的方法论。",
         "url": "https://github.com/kangarooking/cangjie-skill",
-        "publishedAt": "2026-08-12T03:01:07.797Z",
+        "publishedAt": "2026-08-12T04:53:20.113Z",
         "metrics": {
           "rank": 14
         },
@@ -1474,7 +1503,7 @@
         "title": "virgiliojr94/book-to-skill",
         "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
         "url": "https://github.com/virgiliojr94/book-to-skill",
-        "publishedAt": "2026-08-12T03:01:07.798Z",
+        "publishedAt": "2026-08-12T04:53:20.114Z",
         "metrics": {
           "rank": 15
         },
@@ -1489,7 +1518,7 @@
         "title": "tirth8205/code-review-graph",
         "summary": "Local-first code intelligence graph for MCP and CLI.",
         "url": "https://github.com/tirth8205/code-review-graph",
-        "publishedAt": "2026-08-12T03:01:07.800Z",
+        "publishedAt": "2026-08-12T04:53:20.116Z",
         "metrics": {
           "rank": 16
         },
@@ -1504,7 +1533,7 @@
         "title": "huggingface/speech-to-speech",
         "summary": "Build local voice agents with open-source models &nbsp; Speech To Speech: Build voice agents with open-source models A low-latency, fully modular voice-agent pipeline: VAD -> STT -> LLM -> TTS , exposed through an OpenAI Realtime-compatible WebSocket API .",
         "url": "https://github.com/huggingface/speech-to-speech",
-        "publishedAt": "2026-08-12T03:01:07.802Z",
+        "publishedAt": "2026-08-12T04:53:20.118Z",
         "metrics": {
           "rank": 17
         },
@@ -1519,7 +1548,7 @@
         "title": "agegr/pi-web",
         "summary": "Web UI for the pi coding agent Pi Web 中文文档 | 日本語 | Русский Local browser UI for the pi coding agent .",
         "url": "https://github.com/agegr/pi-web",
-        "publishedAt": "2026-08-12T03:01:07.802Z",
+        "publishedAt": "2026-08-12T04:53:20.118Z",
         "metrics": {
           "rank": 18
         },
@@ -1534,7 +1563,7 @@
         "title": "OpenCut-app/OpenCut",
         "summary": "The open-source CapCut alternative OpenCut A free and open source video editor for web, desktop, and mobile.",
         "url": "https://github.com/OpenCut-app/OpenCut",
-        "publishedAt": "2026-08-12T03:01:07.803Z",
+        "publishedAt": "2026-08-12T04:53:20.119Z",
         "metrics": {
           "rank": 19
         },
@@ -1545,11 +1574,11 @@
       },
       {
         "source": "github_trending",
-        "sourceItemId": "github:MoonshotAI/kimi-code",
-        "title": "MoonshotAI/kimi-code",
-        "summary": "Kimi Code CLI — The Starting Point for Next-Gen Agents Kimi Code CLI Documentation · Issues · 中文 What is Kimi Code CLI Kimi Code CLI is an AI coding agent that runs in your terminal — it can read and edit code, run shell commands, search files, fetch web pa...",
-        "url": "https://github.com/MoonshotAI/kimi-code",
-        "publishedAt": "2026-08-12T03:01:07.803Z",
+        "sourceItemId": "github:kunchenguid/firstmate",
+        "title": "kunchenguid/firstmate",
+        "summary": "Talk to one agent.",
+        "url": "https://github.com/kunchenguid/firstmate",
+        "publishedAt": "2026-08-12T04:53:20.119Z",
         "metrics": {
           "rank": 20
         },
@@ -1563,7 +1592,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-08-12T03:01:14.648Z",
+    "fetchedAt": "2026-08-12T04:53:23.655Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1870,6 +1899,231 @@
         }
       },
       {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+        "title": "Company Offering '100% Human-Written, Never AI' Medical Research Is 100% AI",
+        "summary": "Article URL: https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/ Comments URL: https://news.ycombinator.com/item?id=49267057 Points: 79 # Comments: 16",
+        "body": "Article URL: https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/ Comments URL: https://news.ycombinator.com/item?id=49267057 Points: 79 # Comments: 16",
+        "url": "https://www.404media.co/company-offering-100-human-written-never-ai-peer-review-is-entirely-ai/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-12T02:05:42.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.suzanne3d.com/",
+        "title": "Suzanne: AI tool for designing and manufacturing physical products",
+        "summary": "Article URL: https://www.suzanne3d.com/ Comments URL: https://news.ycombinator.com/item?id=49264755 Points: 45 # Comments: 31",
+        "body": "Article URL: https://www.suzanne3d.com/ Comments URL: https://news.ycombinator.com/item?id=49264755 Points: 45 # Comments: 31",
+        "url": "https://www.suzanne3d.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T21:28:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+        "title": "Go is an ideal language for AI-assisted software engineering",
+        "summary": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 309 # Comments: 366",
+        "body": "Article URL: https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/ Comments URL: https://news.ycombinator.com/item?id=49261133 Points: 309 # Comments: 366",
+        "url": "https://developers.googleblog.com/why-go-is-an-ideal-language-for-ai-assisted-software-engineering/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T16:57:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+        "title": "Apple Silicon and macOS VMs: Faster LLM Inference with llama.cpp",
+        "summary": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 289 # Comments: 43",
+        "body": "Article URL: https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md Comments URL: https://news.ycombinator.com/item?id=49259339 Points: 289 # Comments: 43",
+        "url": "https://github.com/trycua/cua/blob/main/blog/gpu-passthrough-macos-vms.md",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T14:50:33.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/anthropics/claude-code/issues/78431",
+        "title": "Claude Code is leaking real email address as a User-Agent string in curl command",
+        "summary": "Article URL: https://github.com/anthropics/claude-code/issues/78431 Comments URL: https://news.ycombinator.com/item?id=49258881 Points: 37 # Comments: 29",
+        "body": "Article URL: https://github.com/anthropics/claude-code/issues/78431 Comments URL: https://news.ycombinator.com/item?id=49258881 Points: 37 # Comments: 29",
+        "url": "https://github.com/anthropics/claude-code/issues/78431",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T14:21:47.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://stolen-thoughts.com/",
+        "title": "Stealing Reasoning Traces from Proprietary LLM APIs",
+        "summary": "Article URL: https://stolen-thoughts.com/ Comments URL: https://news.ycombinator.com/item?id=49257876 Points: 554 # Comments: 237",
+        "body": "Article URL: https://stolen-thoughts.com/ Comments URL: https://news.ycombinator.com/item?id=49257876 Points: 554 # Comments: 237",
+        "url": "https://stolen-thoughts.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T13:22:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theaithinker.com/p/how-to-organize-claude-code-for-product",
+        "title": "How to organize Claude Code for product work",
+        "summary": "Article URL: https://www.theaithinker.com/p/how-to-organize-claude-code-for-product Comments URL: https://news.ycombinator.com/item?id=49256258 Points: 35 # Comments: 26",
+        "body": "Article URL: https://www.theaithinker.com/p/how-to-organize-claude-code-for-product Comments URL: https://news.ycombinator.com/item?id=49256258 Points: 35 # Comments: 26",
+        "url": "https://www.theaithinker.com/p/how-to-organize-claude-code-for-product",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T11:02:34.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://doi.org/10.1016/j.watres.2026.125866",
+        "title": "The Water Footprint of AI",
+        "summary": "Article URL: https://doi.org/10.1016/j.watres.2026.125866 Comments URL: https://news.ycombinator.com/item?id=49254351 Points: 45 # Comments: 70",
+        "body": "Article URL: https://doi.org/10.1016/j.watres.2026.125866 Comments URL: https://news.ycombinator.com/item?id=49254351 Points: 45 # Comments: 70",
+        "url": "https://doi.org/10.1016/j.watres.2026.125866",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-11T07:00:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://thewalrus.ca/google-search-is-dying/",
+        "title": "As AI eats the web, the internet’s collective memory is disappearing",
+        "summary": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 879 # Comments: 894",
+        "body": "Article URL: https://thewalrus.ca/google-search-is-dying/ Comments URL: https://news.ycombinator.com/item?id=49250836 Points: 879 # Comments: 894",
+        "url": "https://thewalrus.ca/google-search-is-dying/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T22:36:30.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+        "title": "How Claude marks AI-generated content",
+        "summary": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 426 # Comments: 391",
+        "body": "Article URL: https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content Comments URL: https://news.ycombinator.com/item?id=49250109 Points: 426 # Comments: 391",
+        "url": "https://support.claude.com/en/articles/16266773-how-claude-marks-ai-generated-content",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T21:36:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://twitter.com/jarredsumner/status/2086869681785500011",
+        "title": "Claude moves bound of the Riemann Hypothesis from 41.6% to 67.2%",
+        "summary": "Article URL: https://twitter.com/jarredsumner/status/2086869681785500011 Comments URL: https://news.ycombinator.com/item?id=49247362 Points: 56 # Comments: 2",
+        "body": "Article URL: https://twitter.com/jarredsumner/status/2086869681785500011 Comments URL: https://news.ycombinator.com/item?id=49247362 Points: 56 # Comments: 2",
+        "url": "https://twitter.com/jarredsumner/status/2086869681785500011",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T18:04:17.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.anthropic.com/research/riemann-zeta",
+        "title": "Learning more about Claude's mathematical capabilities",
+        "summary": "Article URL: https://www.anthropic.com/research/riemann-zeta Comments URL: https://news.ycombinator.com/item?id=49247070 Points: 264 # Comments: 170",
+        "body": "Article URL: https://www.anthropic.com/research/riemann-zeta Comments URL: https://news.ycombinator.com/item?id=49247070 Points: 264 # Comments: 170",
+        "url": "https://www.anthropic.com/research/riemann-zeta",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T17:41:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://cactuscompute.com/needle",
+        "title": "Show HN: Needle2: 14MB agentic LLM for phones, wearables, smart home and robots",
+        "summary": "Hey HN, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2. The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits betwee",
+        "body": "Hey HN, Henry from Cactus here! We previously released Cactus Needle, a 14MB agentic LLM for tool call, device use, and structured extraction for phones, wearables, smart homes, small robots and microcontrollers. We got really great feedback here, and have now incorporated the suggestions to release Needle 2. The whole model is a single 14MB binary that runs a full session in 28MB of RAM; 45m parameters at 2bit compression. Needle hits 500 tokens/sec decode speed on a Raspberry Pi 5, sits between 400-1,500 tokens/sec on VR devices like Meta Quest 3S and Apple Vision Pro, and ranges 300-700 on sub-$200 phones such as the Samsung A-Series. On the tool call and mobile device use benchmarks, Needle 2 trades wins with closest small models like LFM2.5 230M and Apple Foundation Model, at 5x to 70",
+        "url": "https://cactuscompute.com/needle",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T17:22:07.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "title": "GPT 5.6 Cyber",
+        "summary": "Article URL: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ Comments URL: https://news.ycombinator.com/item?id=49246704 Points: 128 # Comments: 69",
+        "body": "Article URL: https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/ Comments URL: https://news.ycombinator.com/item?id=49246704 Points: 128 # Comments: 69",
+        "url": "https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T17:14:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.stoaexchange.com",
+        "title": "Launch HN: Stoa Markets (YC S26) – A Marketplace for GPUs and AI Servers",
+        "summary": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa ( https://www.stoaexchange.com ), a marketplace for new and used GPUs and AI servers. GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute. If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller cloud or startup, terms get expensive fast, even with the same hardware as collateral. The lender’s ",
+        "body": "Hi HN, we’re Eren, Berat and Kaan. We’re building Stoa ( https://www.stoaexchange.com ), a marketplace for new and used GPUs and AI servers. GPUs are the collateral in the data center buildout. Today, financing terms mostly depend on the offtaker, meaning the company that has committed to use the compute. If that company is a hyperscaler, the financing can look investment grade. If it’s a smaller cloud or startup, terms get expensive fast, even with the same hardware as collateral. The lender’s problem is pretty reasonable. If the borrower defaults and we need to sell these servers, what can we actually get for them? There isn’t a good answer today. We started brokering GPU deals to understand why. It was much more manual than we expected. The hardware is still traded through phone calls, ",
+        "url": "https://www.stoaexchange.com",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-10T16:35:27.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
         "source": "builder_lobsters",
         "sourceItemId": "builder_lobsters:https://blog.gaborkoos.com/posts/2026-08-12-Text-Watermarking-for-Non-Academics/",
         "title": "Text Watermarking for Non-Academics",
@@ -1931,6 +2185,51 @@
       },
       {
         "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.10915",
+        "title": "ComBodied Agents: a New Paradigm of Human-Centric Agentic AI",
+        "summary": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication. Yet neither explains whether the person forgot, is confused, has side effects, or deliberately refused, nor what support is appropriate. This reveals a structural gap in Agentic AI: Digital Agents primarily transform software states, while Embodied Agents transform physical states; neither makes a person's evolving state and agency the primary object of modeli",
+        "body": "After an older adult misses a medication dose, a software agent can send another reminder and an embodied agent can bring the medication. Yet neither explains whether the person forgot, is confused, has side effects, or deliberately refused, nor what support is appropriate. This reveals a structural gap in Agentic AI: Digital Agents primarily transform software states, while Embodied Agents transform physical states; neither makes a person's evolving state and agency the primary object of modeling, intervention, and evaluation. We introduce Combodied Agents, a human-centered paradigm that perceives, models, predicts, and supports individual human-state trajectories over time, using software tools, sensors, wearables, robots, and human services as action channels rather than end goals. We u",
+        "url": "https://arxiv.org/abs/2608.10915",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-10T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.10720",
+        "title": "Ex-Omni-2D: Expressive Omni-Modal Dialogue Models with Native Visual Presence",
+        "summary": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain visually disembodied. We introduce Ex-Omni-2D, an omni-modal dialogue framework that generates a coordinated response comprising text, personalized speech, and reference-conditioned video. Given a multimodal query, reference image, and reference audio, the model predicts a structured Visual Thought Plan (VTP) describing scene, emotion, and motion, followed by response text and na",
+        "body": "Omni-modal dialogue models can understand multimodal inputs and synthesize spoken replies, yet their responses remain visually disembodied. We introduce Ex-Omni-2D, an omni-modal dialogue framework that generates a coordinated response comprising text, personalized speech, and reference-conditioned video. Given a multimodal query, reference image, and reference audio, the model predicts a structured Visual Thought Plan (VTP) describing scene, emotion, and motion, followed by response text and native multi-codebook speech units. These units form a shared acoustic-temporal interface: they are decoded into speech and aligned online with video frames. This interface enables the response and avatar pathways to be learned from heterogeneous speech, dialogue, and avatar-video data, avoiding the n",
+        "url": "https://arxiv.org/abs/2608.10720",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-10T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.11079",
+        "title": "SkillZip: Evaluation-Free Skill Compression for Self-Evolving Agents by Discovering Reusable Structure",
+        "summary": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Over time, the same requirement is often restated in several branches, examples, and warnings, while common action sequences are copied rather than reused. The resulting skill becomes expensive to inject and difficult to maintain. Generic prompt compression is ill-suited to this setting because a skill is not a flat passage: its name and description define when it applies, its workflow controls ",
+        "body": "Self-evolving agents accumulate reusable skills by appending successful procedures and failure fixes. Over time, the same requirement is often restated in several branches, examples, and warnings, while common action sequences are copied rather than reused. The resulting skill becomes expensive to inject and difficult to maintain. Generic prompt compression is ill-suited to this setting because a skill is not a flat passage: its name and description define when it applies, its workflow controls execution, its tool and output contracts constrain validity, and rare exceptions may remain essential even when no sampled task activates them. Evaluation-guided compression can test these behaviors, but it introduces rollouts, cost, and dependence on the compression-time evaluation set. We present ",
+        "url": "https://arxiv.org/abs/2608.11079",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-10T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
         "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.10875",
         "title": "VibeLifeBench: Can Your Life Agent Be Proactive and Persistent in a Living World?",
         "summary": "Large language model (LLM) agents are increasingly deployed as personal assistants. Existing evaluations, however, mostly use short, self-contained requests in static environments. Everyday life assistance is different. A task runs for weeks rather than minutes. The world keeps changing while the agent is not being prompted. Many constraints are never stated outright. An agent that merely answers the request in front of it will fail at such a task. What is needed instead is an agent that stays p",
@@ -1973,12 +2272,56 @@
         "metadata": {
           "feedSource": "HuggingFace Papers"
         }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.10812",
+        "title": "Reference-Free Post-Training of Open Large Language Models for Multilingual Machine Translation",
+        "summary": "We study reference-free post-training for multilingual machine translation with open large language models. Starting from the supervised-finetuned MiLMMT-46-v0.1 models, we apply Group Relative Policy Optimization (GRPO) with a reward that averages two reference-free quality estimation models and is gated by language identification. We then linearly interpolate the supervised fine-tuning (SFT) and reinforcement learning (RL) model checkpoints to obtain MiLMMT-46-v1.0. Across 46 languages, the re",
+        "body": "We study reference-free post-training for multilingual machine translation with open large language models. Starting from the supervised-finetuned MiLMMT-46-v0.1 models, we apply Group Relative Policy Optimization (GRPO) with a reward that averages two reference-free quality estimation models and is gated by language identification. We then linearly interpolate the supervised fine-tuning (SFT) and reinforcement learning (RL) model checkpoints to obtain MiLMMT-46-v1.0. Across 46 languages, the resulting models consistently improve translation quality over their SFT counterparts, outperform strong recent open baselines, including Seed-X, HY-MT2, and TranslateGemma, and achieve leading reference-free scores against evaluated proprietary systems such as Google Translate, Gemini 3 Pro, and GPT-",
+        "url": "https://arxiv.org/abs/2608.10812",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-10T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.10366",
+        "title": "DSAgentBench: Can Agents Automate End-to-End Data-Science Workflows in Real Computer Environments?",
+        "summary": "Real-world data science involves long-horizon workflows that span data wrangling, exploration, modeling, visualization, and validation, and require coordinated use of tools such as notebooks, IDEs, terminals, browsers, and databases within real operating environments. Yet existing benchmarks lack real-computer interaction and do not evaluate whether agents can execute complete end-to-end data-science workflows in realistic computing environments, failing to capture the multi-stage, multi-tool na",
+        "body": "Real-world data science involves long-horizon workflows that span data wrangling, exploration, modeling, visualization, and validation, and require coordinated use of tools such as notebooks, IDEs, terminals, browsers, and databases within real operating environments. Yet existing benchmarks lack real-computer interaction and do not evaluate whether agents can execute complete end-to-end data-science workflows in realistic computing environments, failing to capture the multi-stage, multi-tool nature of data-science practice. We introduce DSAgentBench, the first benchmark to evaluate whether agents can automate full data-science workflows inside real computer environments. DSAgentBench contains 275 diverse tasks covering the entire data-science life-cycle, reflecting the complexity and tool",
+        "url": "https://arxiv.org/abs/2608.10366",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-10T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.10299",
+        "title": "Co-Evolution in Agentic Systems: Toward Self-Directed Evolution Beyond Human Design",
+        "summary": "Agentic systems are increasingly expected to improve after deployment, yet single-entity self-evolution is often bounded by a static learning context, such as fixed tasks and feedback. This survey focuses on co-evolution in agentic systems, a multi-component form of self-evolution in which multiple agents and their environment impose adaptive pressure on one another. To organize existing papers, we propose a progressive three-stage taxonomy that traces how the system gradually sheds human-engine",
+        "body": "Agentic systems are increasingly expected to improve after deployment, yet single-entity self-evolution is often bounded by a static learning context, such as fixed tasks and feedback. This survey focuses on co-evolution in agentic systems, a multi-component form of self-evolution in which multiple agents and their environment impose adaptive pressure on one another. To organize existing papers, we propose a progressive three-stage taxonomy that traces how the system gradually sheds human-engineered constraints. Agent--Agent Co-Evolution studies how agents adapt through dynamic peers, including adversarial, collaborative, and organizational adaptation. Agent--Environment Co-Evolution extends this loop to adaptive tasks, feedback, and interaction spaces that change with the agents. Meta Co-",
+        "url": "https://arxiv.org/abs/2608.10299",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-09T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
       }
     ],
     "errors": [
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502"
+      "Gwern: HTTP 403"
     ]
   }
 ]
