@@ -1,132 +1,351 @@
 {
   "date": "2026-08-18",
-  "generatedAt": "2026-08-18T03:50:26.710Z",
+  "generatedAt": "2026-08-18T04:26:20.304Z",
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
-      "items": []
+      "items": [
+        {
+          "title": "HarnessRouter Community Edition",
+          "url": "https://www.producthunt.com/products/epsilla",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "367 votes / 57 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。",
+          "why": "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。",
+          "summary": "Open-source unified interface for agent harnesses",
+          "keyPoints": [
+            "Plug-and-play managed agent harnesses in your product: Codex, Claude Code and Hermes through one API on your infrastructure, now open sourced under Apache 2.0."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Open-source unified interface for agent harnesses",
+          "features": "Plug-and-play managed agent harnesses in your product: Codex, Claude Code and Hermes through one API on your infrastructure, now open sourced under Apache 2.0.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Blume",
+          "url": "https://www.producthunt.com/products/blume-3",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "304 votes / 12 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。",
+          "why": "面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。",
+          "summary": "AI-ready, Markdown-first documentation framework",
+          "keyPoints": [
+            "Ship beautiful, fast, AI-ready documentation from plain markdown."
+          ],
+          "audience": "创作者、创业者、独立开发者和早期产品团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "AI-ready, Markdown-first documentation framework",
+          "features": "Ship beautiful, fast, AI-ready documentation from plain markdown.",
+          "targetUsers": "创作者、创业者、独立开发者和早期产品团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Expeditione",
+          "url": "https://www.producthunt.com/products/expeditione",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "265 votes / 44 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Created by a single person, Expeditione is an Interactive 3D Encyclopedia built to make learning fun and memorable.",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "The Interactive 3D Encyclopedia",
+          "keyPoints": [
+            "Created by a single person, Expeditione is an Interactive 3D Encyclopedia built to make learning fun and memorable."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "The Interactive 3D Encyclopedia",
+          "features": "Created by a single person, Expeditione is an Interactive 3D Encyclopedia built to make learning fun and memorable.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Chert",
+          "url": "https://www.producthunt.com/products/chert",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "215 votes / 28 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Chert is Vapi for FaceTime.",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "Vapi for FaceTime: AI video agents in a few lines",
+          "keyPoints": [
+            "Chert is Vapi for FaceTime."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Vapi for FaceTime: AI video agents in a few lines",
+          "features": "Chert is Vapi for FaceTime.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "AirAlarm",
+          "url": "https://www.producthunt.com/products/airalarm",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "124 votes / 8 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "用自然语言分析业务数据并生成 dashboard，把分散在产品、收入和运营工具里的指标集中到一个视图。",
+          "why": "面向增长、运营、销售和创始人，解决不会 SQL、等数据团队排期太慢、业务问题无法及时自查的问题。",
+          "summary": "Wake at the end of your sleep cycle",
+          "keyPoints": [
+            "AirAlarm turns your iPhone and AirPods into a gentler sleep alarm."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Wake at the end of your sleep cycle",
+          "features": "AirAlarm turns your iPhone and AirPods into a gentler sleep alarm.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "CostLogic",
+          "url": "https://www.producthunt.com/products/costlogic",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "117 votes / 3 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。",
+          "why": "面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。",
+          "summary": "AI-powered construction takeoffs, estimates, and invoices",
+          "keyPoints": [
+            "CostLogic is a construction takeoff and job-costing workspace with a powerful agent called Onyx."
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "AI-powered construction takeoffs, estimates, and invoices",
+          "features": "CostLogic is a construction takeoff and job-costing workspace with a powerful agent called Onyx.",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Vaaya",
+          "url": "https://www.producthunt.com/products/vaaya",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "54 votes / 12 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Turn your Github profile into Credit Card for your agents",
+          "keyPoints": [
+            "Build your agentic credit score from your github profile credit profile and give your agents money to spend."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Turn your Github profile into Credit Card for your agents",
+          "features": "Build your agentic credit score from your github profile credit profile and give your agents money to spend.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Mac Developer Bridge",
+          "url": "https://www.producthunt.com/products/mac-developer-bridge",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "19 votes / 4 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Give ChatGPT a real terminal on your Mac",
+          "keyPoints": [
+            "Open-source MCP bridge that lets ChatGPT operate your actual Mac: shell, files, real PTY sessions, background jobs, and read-only Codex history."
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Give ChatGPT a real terminal on your Mac",
+          "features": "Open-source MCP bridge that lets ChatGPT operate your actual Mac: shell, files, real PTY sessions, background jobs, and read-only Codex history.",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Assetli.app",
+          "url": "https://www.producthunt.com/products/assetli-app",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "20 votes / 1 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Personal finance & net worth, wired to your AI",
+          "keyPoints": [
+            "Most finance apps just show you a dashboard."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Personal finance & net worth, wired to your AI",
+          "features": "Most finance apps just show you a dashboard.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+          "url": "https://cursor.com/changelog/origin-code-hosting",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "tags": [
+            "ai-products"
+          ],
+          "what": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+          "keyPoints": [
+            "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。"
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+          "features": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        }
+      ]
     },
     {
       "key": "github",
       "title": "开源热门",
       "items": [
         {
-          "title": "diegosouzapw/OmniRoute",
-          "url": "https://github.com/diegosouzapw/OmniRoute",
+          "title": "ayghri/i-have-adhd",
+          "url": "https://github.com/ayghri/i-have-adhd",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Never stop coding.",
+          "what": "A skill to stop your coding agent from burying the answer.",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Never stop coding.",
+          "summary": "A skill to stop your coding agent from burying the answer.",
           "keyPoints": [
-            "Never stop coding."
+            "A skill to stop your coding agent from burying the answer."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Never stop coding.",
-          "features": "Never stop coding.",
+          "oneLiner": "A skill to stop your coding agent from burying the answer.",
+          "features": "A skill to stop your coding agent from burying the answer.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "TencentCloud/TencentDB-Agent-Memory",
-          "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+          "title": "koala73/worldmonitor",
+          "url": "https://github.com/koala73/worldmonitor",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) ",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) ",
+          "what": "Real-time global intelligence dashboard.",
+          "why": "开发者、开源项目维护者、技术团队。把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "summary": "Real-time global intelligence dashboard.",
           "keyPoints": [
-            "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) "
+            "Real-time global intelligence dashboard."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "pain": "把分散数据集中起来，降低查数、分析和做报表的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) ",
-          "features": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) ",
+          "oneLiner": "Real-time global intelligence dashboard.",
+          "features": "Real-time global intelligence dashboard.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "userNeed": "把分散数据集中起来，降低查数、分析和做报表的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "earendil-works/pi",
-          "url": "https://github.com/earendil-works/pi",
+          "title": "1jehuang/jcode",
+          "url": "https://github.com/1jehuang/jcode",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.",
+          "what": "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Sta",
+          "why": "开发者、开源项目维护者、技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Sta",
           "keyPoints": [
-            "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default."
+            "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Sta"
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.",
-          "features": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.",
+          "oneLiner": "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Sta",
+          "features": "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Sta",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "virgiliojr94/book-to-skill",
-          "url": "https://github.com/virgiliojr94/book-to-skill",
+          "title": "microsoft/AI-For-Beginners",
+          "url": "https://github.com/microsoft/AI-For-Beginners",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-          "keyPoints": [
-            "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-          "features": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "mattpocock/skills",
-          "url": "https://github.com/mattpocock/skills",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "Skills for Real Engineers.",
+          "what": "12 Weeks, 24 Lessons, AI for All!",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Skills for Real Engineers.",
+          "summary": "12 Weeks, 24 Lessons, AI for All!",
           "keyPoints": [
-            "Skills for Real Engineers."
+            "12 Weeks, 24 Lessons, AI for All!"
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Skills for Real Engineers.",
-          "features": "Skills for Real Engineers.",
+          "oneLiner": "12 Weeks, 24 Lessons, AI for All!",
+          "features": "12 Weeks, 24 Lessons, AI for All!",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
@@ -136,67 +355,121 @@
     {
       "key": "company",
       "title": "公司动态",
-      "items": []
+      "items": [
+        {
+          "title": "OpenAI joins PORTS-Pike project",
+          "url": "https://openai.com/index/openai-joins-ports-pike-project",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "keyPoints": [
+            "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "features": "OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "New policy ideas for the Intelligence Age",
+          "url": "https://openai.com/index/new-policy-ideas-for-the-intelligence-age",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "keyPoints": [
+            "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "features": "OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        }
+      ]
     },
     {
       "key": "technical",
       "title": "技术前沿",
       "items": [
         {
-          "title": "An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models",
-          "url": "https://arxiv.org/abs/2608.16887",
+          "title": "Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index",
+          "url": "https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52",
           "sources": [
-            "builder_huggingface"
+            "builder_blog"
           ],
           "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
+          "sourceLabel": "Simon Willison",
           "tags": [
             "technical"
           ],
-          "what": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models.",
+          "what": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models.",
+          "summary": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as",
           "keyPoints": [
-            "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models."
+            "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models.",
-          "features": "This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models.",
+          "oneLiner": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as",
+          "features": "<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs",
-          "url": "https://arxiv.org/abs/2608.16391",
+          "title": "We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility",
+          "url": "https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra",
           "sources": [
-            "builder_huggingface"
+            "builder_blog",
+            "builder_lobsters"
           ],
           "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
+          "sourceLabel": "Simon Willison",
           "tags": [
             "technical"
           ],
-          "what": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem.",
+          "what": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books.",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem.",
+          "summary": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books.",
           "keyPoints": [
-            "As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem."
+            "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books."
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem.",
-          "features": "As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem.",
+          "oneLiner": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books.",
+          "features": "<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books.",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Improving the matrix multiplication exponent with modern optimization and AlphaEvolve",
-          "url": "https://arxiv.org/abs/2608.16884",
+          "title": "HarnessEval-W: Agentifying the Evaluation of Visual Worlds",
+          "url": "https://arxiv.org/abs/2608.16859",
           "sources": [
             "builder_huggingface"
           ],
@@ -205,69 +478,121 @@
           "tags": [
             "technical"
           ],
-          "what": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams ",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams ",
-          "keyPoints": [
-            "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams "
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams ",
-          "features": "The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams ",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations",
-          "url": "https://arxiv.org/abs/2608.15930",
-          "sources": [
-            "builder_huggingface"
-          ],
-          "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
-          "tags": [
-            "technical"
-          ],
-          "what": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution.",
-          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
-          "summary": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution.",
-          "keyPoints": [
-            "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution."
-          ],
-          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
-          "pain": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution.",
-          "features": "Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution.",
-          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
-          "userNeed": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval",
-          "url": "https://arxiv.org/abs/2608.15698",
-          "sources": [
-            "builder_huggingface"
-          ],
-          "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
-          "tags": [
-            "technical"
-          ],
-          "what": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is ",
+          "what": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score.",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is ",
+          "summary": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score.",
           "keyPoints": [
-            "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is "
+            "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score."
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is ",
-          "features": "Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is ",
+          "oneLiner": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score.",
+          "features": "A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "ClawGym II: Exploring Black-Box RL on Agent Harness",
+          "url": "https://arxiv.org/abs/2608.16798",
+          "sources": [
+            "builder_huggingface"
+          ],
+          "metricsText": "",
+          "sourceLabel": "HuggingFace Papers",
+          "tags": [
+            "technical"
+          ],
+          "what": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment.",
+          "keyPoints": [
+            "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment.",
+          "features": "Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "GenRouter: Unified Workflow Routing for Agentic Image Generation",
+          "url": "https://arxiv.org/abs/2608.16721",
+          "sources": [
+            "builder_huggingface"
+          ],
+          "metricsText": "",
+          "sourceLabel": "HuggingFace Papers",
+          "tags": [
+            "technical"
+          ],
+          "what": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfill",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfill",
+          "keyPoints": [
+            "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfill"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfill",
+          "features": "The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfill",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets",
+          "url": "https://arxiv.org/abs/2608.16033",
+          "sources": [
+            "builder_huggingface"
+          ],
+          "metricsText": "",
+          "sourceLabel": "HuggingFace Papers",
+          "tags": [
+            "technical"
+          ],
+          "what": "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value.",
+          "keyPoints": [
+            "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value.",
+          "features": "In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency",
+          "url": "https://arxiv.org/abs/2608.16003",
+          "sources": [
+            "builder_huggingface"
+          ],
+          "metricsText": "",
+          "sourceLabel": "HuggingFace Papers",
+          "tags": [
+            "technical"
+          ],
+          "what": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer.",
+          "keyPoints": [
+            "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer.",
+          "features": "Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer.",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
@@ -279,217 +604,220 @@
       "title": "行业观点",
       "items": [
         {
-          "title": "GPT-5.6 Sol Pricing Cut by 50%",
-          "url": "https://openrouter.ai/openai/gpt-5.6-sol",
+          "title": "一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4",
           "sources": [
-            "builder_hackernews"
+            "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News AI",
+          "sourceLabel": "公众号：数字生命卡兹克",
           "tags": [
-            "news"
+            "tip"
           ],
-          "what": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 208 # Comments: 122",
+          "what": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 208 # Comments: 122",
+          "summary": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。",
           "keyPoints": [
-            "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 208 # Comments: 122"
+            "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 208 # Comments: 122",
-          "features": "Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 208 # Comments: 122",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。",
+          "features": "作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Israel creates fake think tank in likely attempt to dupe AI chatbots",
-          "url": "https://responsiblestatecraft.org/israel-influence-chatgpt",
+          "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+          "url": "https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit",
           "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Google Developers Blog（RSS）",
+          "tags": [
+            "tip"
+          ],
+          "what": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
+          "keyPoints": [
+            "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
+          "features": "Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁",
+          "url": "https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility",
+          "sources": [
+            "aihot",
             "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News AI",
+          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
           "tags": [
-            "news"
+            "industry"
           ],
-          "what": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 197 # Comments: 80",
+          "what": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 197 # Comments: 80",
+          "summary": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
           "keyPoints": [
-            "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 197 # Comments: 80"
+            "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 197 # Comments: 80",
-          "features": "Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 197 # Comments: 80",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
+          "features": "404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "AI;DR (AI; Didn't Read)",
-          "url": "https://www.rickmanelius.com/p/aidr-ai-didnt-read",
+          "title": "如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南",
+          "url": "https://www.librarian.net/notoai",
           "sources": [
+            "aihot",
             "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News AI",
+          "sourceLabel": "Hacker News 热门（buzzing.cc 中文翻译）",
           "tags": [
-            "news"
+            "tip"
           ],
-          "what": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 669 # Comments: 420",
+          "what": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 669 # Comments: 420",
+          "summary": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
           "keyPoints": [
-            "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 669 # Comments: 420"
+            "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 669 # Comments: 420",
-          "features": "Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 669 # Comments: 420",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
+          "features": "一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "AirTag reveals Amazon is trashing rare books to train AI",
-          "url": "https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai",
+          "title": "黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂",
+          "url": "https://x.com/JensenHuang/status/2089331487342829862",
           "sources": [
-            "builder_hackernews"
+            "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News AI",
+          "sourceLabel": "X：Jensen Huang (@JensenHuang)",
           "tags": [
-            "news"
+            "industry"
           ],
-          "what": "Article URL: https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/ Comments URL: https://news.ycombinator.com/item?id=4933605",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/ Comments URL: https://news.ycombinator.com/item?id=4933605",
+          "what": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总",
           "keyPoints": [
-            "Article URL: https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/ Comments URL: https://news.ycombinator.com/item?id=4933605"
+            "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总",
+          "features": "黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+          "url": "https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "NVIDIA Blog（RSS）",
+          "tags": [
+            "industry"
+          ],
+          "what": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+          "keyPoints": [
+            "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+          "features": "NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+        },
+        {
+          "title": "A 股迎来\"人形机器人第一股\"，宇树科技官宣 8 月 19 日科创板上市",
+          "url": "https://www.ithome.com/0/990/812.htm",
+          "sources": [
+            "aihot"
+          ],
+          "metricsText": "",
+          "sourceLabel": "IT之家（RSS）",
+          "tags": [
+            "industry"
+          ],
+          "what": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通",
+          "keyPoints": [
+            "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/ Comments URL: https://news.ycombinator.com/item?id=4933605",
-          "features": "Article URL: https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/ Comments URL: https://news.ycombinator.com/item?id=4933605",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通",
+          "features": "宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         },
         {
-          "title": "Amazon, which started off selling books, is destroying rare texts to train AI",
-          "url": "https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models",
+          "title": "OpenAI 如何用前沿智能加固自身防御：The Defender's Window",
+          "url": "https://openai.com/index/the-defenders-window",
           "sources": [
-            "builder_hackernews"
+            "aihot",
+            "builder_openai"
           ],
           "metricsText": "",
-          "sourceLabel": "Hacker News AI",
+          "sourceLabel": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
           "tags": [
-            "news"
+            "tip"
           ],
-          "what": "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=4933",
+          "what": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=4933",
+          "summary": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。",
           "keyPoints": [
-            "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=4933"
+            "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=4933",
-          "features": "Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=4933",
+          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
+          "oneLiner": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。",
+          "features": "OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Apple AirTag reveals how Amazon destroys rare books for AI training",
-          "url": "https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=49335009 Points: 34 # Comment",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
-          "summary": "Article URL: https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=49335009 Points: 34 # Comment",
-          "keyPoints": [
-            "Article URL: https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=49335009 Points: 34 # Comment"
-          ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "提升代码理解、开发自动化或工程协作效率。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=49335009 Points: 34 # Comment",
-          "features": "Article URL: https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=49335009 Points: 34 # Comment",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Launch HN: Speko (YC S26) – OpenRouter for Voice AI",
-          "url": "https://speko.ai/",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Hi HN!",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Hi HN!",
-          "keyPoints": [
-            "Hi HN!"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Hi HN!",
-          "features": "Hi HN!",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Anthropic's War on open source AI",
-          "url": "https://twitter.com/TheAhmadOsman/status/2065307070044234186",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 137 # Comments: 57",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 137 # Comments: 57",
-          "keyPoints": [
-            "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 137 # Comments: 57"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 137 # Comments: 57",
-          "features": "Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 137 # Comments: 57",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
         }
       ]
     }
   ],
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-08-18\n\n## 产品上新\n\n暂无值得单列的条目。\n\n## 开源热门\n\n1. [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute)\n   - 信号：GitHub Trending\n   - 做什么：Never stop coding.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n2. [TencentCloud/TencentDB-Agent-Memory](https://github.com/TencentCloud/TencentDB-Agent-Memory)\n   - 信号：GitHub Trending\n   - 做什么：TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph)\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n3. [earendil-works/pi](https://github.com/earendil-works/pi)\n   - 信号：GitHub Trending\n   - 做什么：AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n4. [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)\n   - 信号：GitHub Trending\n   - 做什么：Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n5. [mattpocock/skills](https://github.com/mattpocock/skills)\n   - 信号：GitHub Trending\n   - 做什么：Skills for Real Engineers.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n1. [An Empirical Study of Training Pixel-Space Text-to-Image Diffusion Models](https://arxiv.org/abs/2608.16887)\n   - 信号：HuggingFace Papers\n   - 做什么：This paper investigates an increasingly important topic in generative modeling: pixel-space diffusion models.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [Ventor-QTest: Threat-Model-Driven Verification of Vendor-Hosted LLM APIs](https://arxiv.org/abs/2608.16391)\n   - 信号：HuggingFace Papers\n   - 做什么：As large language models become increasingly widespread, third-party providers that deploy open-weight models have become an important part of the ecosystem.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [Improving the matrix multiplication exponent with modern optimization and AlphaEvolve](https://arxiv.org/abs/2608.16884)\n   - 信号：HuggingFace Papers\n   - 做什么：The current best bounds on the matrix multiplication exponent ω are obtained through a refinement of the laser method called combination loss analysis (Duan et al., 2022; Williams\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [UI-Mate: Advancing Open-Weight Foundation GUI Agents with In-Context Demonstrations](https://arxiv.org/abs/2608.15930)\n   - 信号：HuggingFace Papers\n   - 做什么：Foundation GUI agents can automate complex digital tasks, but deployment is hindered by scarce and biased training data, ambiguous prompts, and unreliable execution.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [ConceptFormer: Learning Adaptive Latent Concepts for Query-Document Alignment in Visual Document Retrieval](https://arxiv.org/abs/2608.15698)\n   - 信号：HuggingFace Papers\n   - 做什么：Visual document retrieval is a critical component of multimodal retrieval-augmented generation, aiming to identify query-relevant pages from document collections where evidence is\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [GPT-5.6 Sol Pricing Cut by 50%](https://openrouter.ai/openai/gpt-5.6-sol)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://openrouter.ai/openai/gpt-5.6-sol Comments URL: https://news.ycombinator.com/item?id=49337602 Points: 208 # Comments: 122\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [Israel creates fake think tank in likely attempt to dupe AI chatbots](https://responsiblestatecraft.org/israel-influence-chatgpt)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://responsiblestatecraft.org/israel-influence-chatgpt/ Comments URL: https://news.ycombinator.com/item?id=49337392 Points: 197 # Comments: 80\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [AI;DR (AI; Didn't Read)](https://www.rickmanelius.com/p/aidr-ai-didnt-read)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.rickmanelius.com/p/aidr-ai-didnt-read Comments URL: https://news.ycombinator.com/item?id=49336573 Points: 669 # Comments: 420\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [AirTag reveals Amazon is trashing rare books to train AI](https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://arstechnica.com/tech-policy/2026/08/hidden-airtag-reveals-amazon-is-trashing-rare-books-to-train-ai/ Comments URL: https://news.ycombinator.com/item?id=4933605\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Amazon, which started off selling books, is destroying rare texts to train AI](https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://techcrunch.com/2026/08/17/amazon-once-an-online-bookseller-is-destroying-rare-books-to-train-ai-models/ Comments URL: https://news.ycombinator.com/item?id=4933\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [Apple AirTag reveals how Amazon destroys rare books for AI training](https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://the-decoder.com/airtag-reveals-how-amazon-destroys-rare-books-for-ai-training/ Comments URL: https://news.ycombinator.com/item?id=49335009 Points: 34 # Comment\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [Launch HN: Speko (YC S26) – OpenRouter for Voice AI](https://speko.ai/)\n   - 信号：Hacker News AI\n   - 做什么：Hi HN!\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [Anthropic's War on open source AI](https://twitter.com/TheAhmadOsman/status/2065307070044234186)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://twitter.com/TheAhmadOsman/status/2065307070044234186 Comments URL: https://news.ycombinator.com/item?id=49332564 Points: 137 # Comments: 57\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-08-18\n\n## 产品上新\n\n1. [HarnessRouter Community Edition](https://www.producthunt.com/products/epsilla)\n   - 信号：Product Hunt · 367 votes / 57 comments\n   - 做什么：提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。\n   - 为什么需要：面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。\n\n2. [Blume](https://www.producthunt.com/products/blume-3)\n   - 信号：Product Hunt · 304 votes / 12 comments\n   - 做什么：把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。\n   - 为什么需要：面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。\n\n3. [Expeditione](https://www.producthunt.com/products/expeditione)\n   - 信号：Product Hunt · 265 votes / 44 comments\n   - 做什么：Created by a single person, Expeditione is an Interactive 3D Encyclopedia built to make learning fun and memorable.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n4. [Chert](https://www.producthunt.com/products/chert)\n   - 信号：Product Hunt · 215 votes / 28 comments\n   - 做什么：Chert is Vapi for FaceTime.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n5. [AirAlarm](https://www.producthunt.com/products/airalarm)\n   - 信号：Product Hunt · 124 votes / 8 comments\n   - 做什么：用自然语言分析业务数据并生成 dashboard，把分散在产品、收入和运营工具里的指标集中到一个视图。\n   - 为什么需要：面向增长、运营、销售和创始人，解决不会 SQL、等数据团队排期太慢、业务问题无法及时自查的问题。\n\n6. [CostLogic](https://www.producthunt.com/products/costlogic)\n   - 信号：Product Hunt · 117 votes / 3 comments\n   - 做什么：观察文件、消息和工作流中的重复模式，把常见任务转成应用、自动化或轻量内部工具。\n   - 为什么需要：面向运营团队、创始人和重复流程很多的小团队，解决流程没人梳理、内部工具开发成本又偏高的问题。\n\n7. [Vaaya](https://www.producthunt.com/products/vaaya)\n   - 信号：Product Hunt · 54 votes / 12 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n8. [Mac Developer Bridge](https://www.producthunt.com/products/mac-developer-bridge)\n   - 信号：Product Hunt · 19 votes / 4 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n9. [Assetli.app](https://www.producthunt.com/products/assetli-app)\n   - 信号：Product Hunt · 20 votes / 1 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n10. [Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案](https://cursor.com/changelog/origin-code-hosting)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。\n   - 为什么需要：开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。\n\n## 开源热门\n\n1. [ayghri/i-have-adhd](https://github.com/ayghri/i-have-adhd)\n   - 信号：GitHub Trending\n   - 做什么：A skill to stop your coding agent from burying the answer.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n2. [koala73/worldmonitor](https://github.com/koala73/worldmonitor)\n   - 信号：GitHub Trending\n   - 做什么：Real-time global intelligence dashboard.\n   - 为什么需要：开发者、开源项目维护者、技术团队。把分散数据集中起来，降低查数、分析和做报表的成本。\n\n3. [1jehuang/jcode](https://github.com/1jehuang/jcode)\n   - 信号：GitHub Trending\n   - 做什么：The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Sta\n   - 为什么需要：开发者、开源项目维护者、技术团队。提升代码理解、开发自动化或工程协作效率。\n\n4. [microsoft/AI-For-Beginners](https://github.com/microsoft/AI-For-Beginners)\n   - 信号：GitHub Trending\n   - 做什么：12 Weeks, 24 Lessons, AI for All!\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n## 公司动态\n\n1. [OpenAI joins PORTS-Pike project](https://openai.com/index/openai-joins-ports-pike-project)\n   - 信号：OpenAI\n   - 做什么：OpenAI joins PORTS-Pike project, expanding community investment and supporting thousands of Southern Ohio jobs\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n2. [New policy ideas for the Intelligence Age](https://openai.com/index/new-policy-ideas-for-the-intelligence-age)\n   - 信号：OpenAI\n   - 做什么：OpenAI funds 14 independent projects exploring new AI policy ideas to expand economic opportunity and strengthen societal resilience in the Intelligence Age.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 技术前沿\n\n1. [Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index](https://simonwillison.net/2026/Aug/17/qwen-38-27b-scores-52)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://artificialanalysis.ai/models/qwen3-8-27b\">Qwen 3.8 27B scores 52 on the Artificial Analysis Intelligence Index</a></strong></p> That's the same score as\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [We Tracked a Shipment of Rare Books. It Ended at an Amazon AI Training Facility](https://simonwillison.net/2026/Aug/17/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-tra)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility/\">We Tracked a Shipment of Rare Books.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [HarnessEval-W: Agentifying the Evaluation of Visual Worlds](https://arxiv.org/abs/2608.16859)\n   - 信号：HuggingFace Papers\n   - 做什么：A benchmark should deliver more than a scalar score: what makes an evaluation trustworthy is the reasoning that justifies the score.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [ClawGym II: Exploring Black-Box RL on Agent Harness](https://arxiv.org/abs/2608.16798)\n   - 信号：HuggingFace Papers\n   - 做什么：Agent harnesses have substantially improved performance on long-horizon tasks by coordinating agent interactions with the environment.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [GenRouter: Unified Workflow Routing for Agentic Image Generation](https://arxiv.org/abs/2608.16721)\n   - 信号：HuggingFace Papers\n   - 做什么：The rapid evolution of text-to-image (T2I) generation models has effectively solved the foundational challenge of raw pixel synthesis, shifting the community's focus toward fulfill\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [R^3-Bench: LLMs Struggle with Resource-Rational Reasoning under Shared Budgets](https://arxiv.org/abs/2608.16033)\n   - 信号：HuggingFace Papers\n   - 做什么：In cognitive science, resource rationality asks how an agent should allocate limited computation to maximize expected value.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [Prior Audit-Repair Context Shifts LLM Verifier Thresholds Toward Leniency](https://arxiv.org/abs/2608.16003)\n   - 信号：HuggingFace Papers\n   - 做什么：Automated checking pipelines increasingly place one language model as the checker and another (or the same one) as the fixer.\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [一个实用的深度思考Prompt：用\"双向钢人论证\"让AI帮你挖出最本质的答案](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685329&idx=1&sn=9471278dc489641c097b228912965ed4)\n   - 信号：公众号：数字生命卡兹克\n   - 做什么：作者基于Reddit上\"让Claude真正开始思考\"的帖子，引入逻辑学中的\"钢人论证\"（steelman）概念，并自创了一个\"双向钢人Prompt\"。该Prompt通过重述真实问题、强化正反双方观点、找出关键变量、逼AI给出明确判断四步，旨在避免模型谄媚，帮助用户找到问题最本质的答案。作者以自己选择公司司庆日的真实案例演示了使用效果。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [用 Google 的 Agent Development Kit 构建零信任 AI 智能体](https://developers.googleblog.com/build-zero-trust-ai-agents-with-googles-agent-development-kit)\n   - 信号：Google Developers Blog（RSS）\n   - 做什么：Google 开源了基于 ADK 和 Gemini 的零信任客服与退货智能体示例，演示如何防御提示注入等攻击。该架构在 LLM 上下文之外通过三层硬性安全机制保障：硬件支持的加密签名确保数据库写入不可抵赖、gVisor 沙箱隔离动态代码执行、确定性语义网关校验业务逻辑。系统提示词只是软约束，无法作为安全边界。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [404 Media 追踪珍本图书流向：亚马逊批量购书扫描用于 AI 训练后销毁](https://www.404media.co/we-tracked-a-shipment-of-rare-books-it-ended-at-an-amazon-ai-training-facility)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：404 Media 通过在一本珍本图书中放置追踪设备，首次揭露亚马逊未公开的购书行动：批量购入大量书籍，扫描用于 AI 训练数据，随后销毁。追踪显示这些书最终被送往亚马逊的一处人工智能训练中心。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [如何禁用或避免侵入式 AI：一份覆盖 Windows、Chrome、Edge、Firefox 及主流应用的实用指南](https://www.librarian.net/notoai)\n   - 信号：Hacker News 热门（buzzing.cc 中文翻译）\n   - 做什么：一份面向希望减少技术环境中侵入式 AI 的用户的操作指南，涵盖 Adobe Acrobat、Android/Gemini、Apple Intelligence、Chrome、Edge、Firefox、DuckDuckGo、Google Workspace、Slack、WhatsApp 及 Windows 11/Copilot 等平台。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n5. [黄仁勋宣布与SB Energy合作，为OpenAI建AI工厂](https://x.com/JensenHuang/status/2089331487342829862)\n   - 信号：X：Jensen Huang (@JensenHuang)\n   - 做什么：黄仁勋宣布NVIDIA与SB Energy合作，在俄亥俄州PORTS-Pike科技园区锁定LPS容量，专供NVIDIA AI工厂使用，OpenAI将作为租户。初始部署预计提供4.25吉瓦AI工厂容量，每代系统约150万块NVIDIA GPU，对应1500亿至2000亿美元收入。OpenAI已承诺至2030年部署约12吉瓦NVIDIA算力，可扩展至16吉瓦，总\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n6. [NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻](https://blogs.nvidia.com/blog/securing-the-infrastructure-of-intelligence)\n   - 信号：NVIDIA Blog（RSS）\n   - 做什么：NVIDIA 宣布与 SB Energy 合作，锁定俄亥俄州 PORTS-Pike 科技园区的电力容量（LPS）以独家部署 NVIDIA 算力，OpenAI 将成为租户。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n7. [A 股迎来\"人形机器人第一股\"，宇树科技官宣 8 月 19 日科创板上市](https://www.ithome.com/0/990/812.htm)\n   - 信号：IT之家（RSS）\n   - 做什么：宇树科技宣布股票将于 2026 年 8 月 19 日在科创板上市，发行价 150.80 元/股，对应市值约 609.93 亿元，预计募资约 60.99 亿元。该公司 2023 至 2025 年营收分别为 1.59 亿元、3.93 亿元和 16.99 亿元，净利润分别为-1114.51 万元、9547.47 万元和 2.78 亿元，是全球少数实现盈利的高性能通\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n8. [OpenAI 如何用前沿智能加固自身防御：The Defender's Window](https://openai.com/index/the-defenders-window)\n   - 信号：OpenAI：官网动态（RSS · 排除企业/客户案例）\n   - 做什么：OpenAI 在 OpenAI-Hugging Face 事件后反思低估了模型真实网络攻击能力，正通过四大支柱强化自身安全：用 Codex 验证代码漏洞、用智能体优先分流安全告警、持续枚举攻击路径，并仅向可信防御者开放网络能力。文中演示 ChatGPT Work（基于 GPT-5.6 Sol）15 分钟发现个人网站 13 个问题并在一小时内完成修复。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n",
   "editor": "rules",
-  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20260818115026565848520UwsnyT9w)\",\"param\":\"\","
+  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[sk-1Dw***S1O] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 202608181226201459957885VdBa9ws)\",\"param\":\"\","
 }
