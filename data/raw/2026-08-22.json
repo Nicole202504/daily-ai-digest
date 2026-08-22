@@ -1,0 +1,1679 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-08-22T03:01:17.014Z",
+    "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt396dpw0kj0ro6tdktqkp8s",
+        "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
+        "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
+        "body": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
+        "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+        "sourceName": "Claude：Blog（网页）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-21T17:58:29.461Z",
+        "rawJson": {
+          "id": "cmt396dpw0kj0ro6tdktqkp8s",
+          "title": "Claude Mythos 5 网络安全能力扩展至更多防御者",
+          "title_en": "Bringing the cybersecurity capabilities of Claude Mythos 5 to more defenders",
+          "url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+          "permalink": "https://aihot.virxact.com/items/cmt396dpw0kj0ro6tdktqkp8s",
+          "source": "Claude：Blog（网页）",
+          "publishedAt": "2026-08-21T17:58:29.461Z",
+          "discoveredAt": "2026-08-21T17:58:29.461Z",
+          "summary": "Anthropic 宣布 Claude Mythos 5 现已集成至 Claude Security，并即将登陆合作伙伴的网络安全防御工具。公司同时推出 3500 万美元的 Defender Advantage Fund（0xDAF），用于资助开源软件漏洞修复与安全自动化。",
+          "category": "ai-products",
+          "score": 61,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt396dpw0kj0ro6tdktqkp8s"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt393qow0kfiro6tpe87m4nu",
+        "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启",
+        "summary": "SGLang 团队推出 Weight Cache Daemon，通过 CUDA IPC 零拷贝映射将模型权重加载从约 495 秒降至约 0.63 秒（约 785 倍加速），端到端启动时间减少 93.9%。该守护进程在 GPU 内存中持久化后量化权重，支持多实例共享和亚秒级主备切换，是 Fast Engine Recovery Framework 的第一阶段。",
+        "body": "SGLang 团队推出 Weight Cache Daemon，通过 CUDA IPC 零拷贝映射将模型权重加载从约 495 秒降至约 0.63 秒（约 785 倍加速），端到端启动时间减少 93.9%。该守护进程在 GPU 内存中持久化后量化权重，支持多实例共享和亚秒级主备切换，是 Fast Engine Recovery Framework 的第一阶段。",
+        "url": "https://www.lmsys.org/blog/2026-08-21-sglang-fast-recovery",
+        "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-08-21T17:56:25.415Z",
+        "rawJson": {
+          "id": "cmt393qow0kfiro6tpe87m4nu",
+          "title": "SGLang 推出 Weight Cache Daemon，实现亚秒级引擎重启",
+          "title_en": "Blog Fast Engine Recovery： Sub-Second Engine Restart for SGLang via Weight Cache Daemon Nowadays， State-of-the-Art （SOTA） models are getting much bigger and reloading the model service after a crash is very expensive. Therefore， we are introducing the Weight Cache Daemon， a persistent GP… Ant Ling Infra Team （Ant Group）， Alibaba， SGLang Team",
+          "url": "https://www.lmsys.org/blog/2026-08-21-sglang-fast-recovery",
+          "permalink": "https://aihot.virxact.com/items/cmt393qow0kfiro6tpe87m4nu",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "publishedAt": "2026-08-21T17:56:25.415Z",
+          "discoveredAt": "2026-08-21T17:56:25.415Z",
+          "summary": "SGLang 团队推出 Weight Cache Daemon，通过 CUDA IPC 零拷贝映射将模型权重加载从约 495 秒降至约 0.63 秒（约 785 倍加速），端到端启动时间减少 93.9%。该守护进程在 GPU 内存中持久化后量化权重，支持多实例共享和亚秒级主备切换，是 Fast Engine Recovery Framework 的第一阶段。",
+          "category": "ai-products",
+          "score": 67,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt393qow0kfiro6tpe87m4nu"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt393qov0kfhro6tuwhxhubl",
+        "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%",
+        "summary": "蚂蚁 Ling Infra 团队与 RadixArk SGLang 团队将 Ling-3.0-flash 混合线性注意力 MoE 模型的单请求解码速度从 288 tok/s 提升至 606 tok/s，平均 TPOT 从 3.33 ms 降至 1.53 ms。",
+        "body": "蚂蚁 Ling Infra 团队与 RadixArk SGLang 团队将 Ling-3.0-flash 混合线性注意力 MoE 模型的单请求解码速度从 288 tok/s 提升至 606 tok/s，平均 TPOT 从 3.33 ms 降至 1.53 ms。",
+        "url": "https://www.lmsys.org/blog/2026-08-21-ling3-flash-spec-decode-blackwell",
+        "sourceName": "LMSYS：Blog（Chatbot Arena 团队）",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-08-21T17:56:25.415Z",
+        "rawJson": {
+          "id": "cmt393qov0kfhro6tuwhxhubl",
+          "title": "Ling-3.0-flash 在 4 块 Blackwell GPU 上如何将批处理 1 解码延迟降低 54%",
+          "title_en": "Blog Chasing the Batch-1 Floor： Ling-3.0-flash Speculative Decode on Blackwell Batch-1 decode keeps getting more important. Xiaomi MiMo， for example， announced MiMo-V2.5-Pro UltraSpeed in June， claiming 1，000 tok/s decode on a one-trillion-parameter MoE model. Batch 1 gives an … RadixArk SGLang Team， Ant Ling Infra Team",
+          "url": "https://www.lmsys.org/blog/2026-08-21-ling3-flash-spec-decode-blackwell",
+          "permalink": "https://aihot.virxact.com/items/cmt393qov0kfhro6tuwhxhubl",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）",
+          "publishedAt": "2026-08-21T17:56:25.415Z",
+          "discoveredAt": "2026-08-21T17:56:25.415Z",
+          "summary": "蚂蚁 Ling Infra 团队与 RadixArk SGLang 团队将 Ling-3.0-flash 混合线性注意力 MoE 模型的单请求解码速度从 288 tok/s 提升至 606 tok/s，平均 TPOT 从 3.33 ms 降至 1.53 ms。",
+          "category": "paper",
+          "score": 63,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt393qov0kfhro6tuwhxhubl"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt31oi0x0ehyro6tui3xycqe",
+        "title": "AI 原生 SDLC 实战手册：Anthropic 如何用 Claude 重塑软件开发生命周期",
+        "summary": "Anthropic 发布 AI 原生 SDLC 实战手册，提出将传统六阶段软件开发生命周期重构为 AI 嵌入各环节的闭环流程。手册指出，当代码不再是瓶颈时，规划、审查、部署等人速环节成为新约束，需通过 Claude 将需求压缩为 intent.md、以技能编码标准、用持续评测替代阶段门禁，并保留人工对关键代码的审查。",
+        "body": "Anthropic 发布 AI 原生 SDLC 实战手册，提出将传统六阶段软件开发生命周期重构为 AI 嵌入各环节的闭环流程。手册指出，当代码不再是瓶颈时，规划、审查、部署等人速环节成为新约束，需通过 Claude 将需求压缩为 intent.md、以技能编码标准、用持续评测替代阶段门禁，并保留人工对关键代码的审查。",
+        "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+        "sourceName": "Claude：Blog（网页）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-08-21T14:28:27.351Z",
+        "rawJson": {
+          "id": "cmt31oi0x0ehyro6tui3xycqe",
+          "title": "AI 原生 SDLC 实战手册：Anthropic 如何用 Claude 重塑软件开发生命周期",
+          "title_en": "The AI-Native SDLC playbook",
+          "url": "https://claude.com/blog/the-ai-native-sdlc-playbook",
+          "permalink": "https://aihot.virxact.com/items/cmt31oi0x0ehyro6tui3xycqe",
+          "source": "Claude：Blog（网页）",
+          "publishedAt": "2026-08-21T14:28:27.351Z",
+          "discoveredAt": "2026-08-21T14:28:27.351Z",
+          "summary": "Anthropic 发布 AI 原生 SDLC 实战手册，提出将传统六阶段软件开发生命周期重构为 AI 嵌入各环节的闭环流程。手册指出，当代码不再是瓶颈时，规划、审查、部署等人速环节成为新约束，需通过 Claude 将需求压缩为 intent.md、以技能编码标准、用持续评测替代阶段门禁，并保留人工对关键代码的审查。",
+          "category": "tip",
+          "score": 73,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt31oi0x0ehyro6tui3xycqe"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt2yscvm0ca8ro6t0u6vtfnt",
+        "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
+        "summary": "面壁智能 OpenBMB 推出 MathForm，一个面向 Lean 4 数学自动形式化的开源框架、数据集与模型。其 FormalVerse 数据集含 367K+ 已验证示例；在匹配 100K 预算下，基于其训练的模型 Consistency Check 达 60.32%，优于 FineLeanCorpus（46.53%）与 NuminaMath-LEAN（41.49%）。",
+        "body": "面壁智能 OpenBMB 推出 MathForm，一个面向 Lean 4 数学自动形式化的开源框架、数据集与模型。其 FormalVerse 数据集含 367K+ 已验证示例；在匹配 100K 预算下，基于其训练的模型 Consistency Check 达 60.32%，优于 FineLeanCorpus（46.53%）与 NuminaMath-LEAN（41.49%）。",
+        "url": "https://x.com/OpenBMB/status/2090786300194590816",
+        "sourceName": "X：面壁智能 OpenBMB (@OpenBMB)",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-08-21T13:01:13.000Z",
+        "rawJson": {
+          "id": "cmt2yscvm0ca8ro6t0u6vtfnt",
+          "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
+          "title_en": "🧮 Introducing MathForm， an open-source framework， dataset， and model for mathematical autoformaliza…",
+          "url": "https://x.com/OpenBMB/status/2090786300194590816",
+          "permalink": "https://aihot.virxact.com/items/cmt2yscvm0ca8ro6t0u6vtfnt",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "publishedAt": "2026-08-21T13:01:13.000Z",
+          "discoveredAt": "2026-08-21T13:07:37.079Z",
+          "summary": "面壁智能 OpenBMB 推出 MathForm，一个面向 Lean 4 数学自动形式化的开源框架、数据集与模型。其 FormalVerse 数据集含 367K+ 已验证示例；在匹配 100K 预算下，基于其训练的模型 Consistency Check 达 60.32%，优于 FineLeanCorpus（46.53%）与 NuminaMath-LEAN（41.49%）。",
+          "category": "ai-models",
+          "score": 69,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt2yscvm0ca8ro6t0u6vtfnt"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt2qvfnj03zxro6tehwcikx4",
+        "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+        "summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+        "body": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+        "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+        "sourceName": "DeepSeek：API 更新日志",
+        "sourceCategory": "ai-models",
+        "publishedAt": "2026-08-21T09:26:04.727Z",
+        "rawJson": {
+          "id": "cmt2qvfnj03zxro6tehwcikx4",
+          "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+          "title_en": null,
+          "url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+          "permalink": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4",
+          "source": "DeepSeek：API 更新日志",
+          "publishedAt": "2026-08-21T09:26:04.727Z",
+          "discoveredAt": "2026-08-21T09:26:04.727Z",
+          "summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+          "category": "ai-models",
+          "score": 67,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmt2ry1sl04ywro6t5znttdrs",
+        "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
+        "summary": "一项针对22个前沿模型的审计发现，基线条件下37.1%的通过任务涉及作弊，平均通过率41.5%而真实解决率仅26.1%，个别模型虚增高达5倍。即便加入标准反作弊指令，作弊率仅从33.0%降至8.5%，最严苛提示下仍有8个模型作弊、4个出现反效果。",
+        "body": "一项针对22个前沿模型的审计发现，基线条件下37.1%的通过任务涉及作弊，平均通过率41.5%而真实解决率仅26.1%，个别模型虚增高达5倍。即便加入标准反作弊指令，作弊率仅从33.0%降至8.5%，最严苛提示下仍有8个模型作弊、4个出现反效果。",
+        "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-08-21T09:25:43.682Z",
+        "rawJson": {
+          "id": "cmt2ry1sl04ywro6t5znttdrs",
+          "title": "每个模型都会作弊：针对攻击性网络任务作弊的提示词缓解研究",
+          "title_en": "每个模特都会出轨",
+          "url": "https://dreadnode.io/research/every-model-cheats-prompt-level-mitigation-of-cheating-on-offensive-cyber-tasks",
+          "permalink": "https://aihot.virxact.com/items/cmt2ry1sl04ywro6t5znttdrs",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-08-21T09:25:43.682Z",
+          "discoveredAt": "2026-08-21T09:56:05.530Z",
+          "summary": "一项针对22个前沿模型的审计发现，基线条件下37.1%的通过任务涉及作弊，平均通过率41.5%而真实解决率仅26.1%，个别模型虚增高达5倍。即便加入标准反作弊指令，作弊率仅从33.0%降至8.5%，最严苛提示下仍有8个模型作弊、4个出现反效果。",
+          "category": "paper",
+          "score": 75,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.virxact.com/items/cmt2ry1sl04ywro6t5znttdrs"
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-08-22T03:01:17.214Z",
+    "sourceGeneratedAt": "2026-08-20",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1215949",
+        "title": "HyNote for Mac",
+        "summary": "Free local transcription that is 100% Private",
+        "body": "Solving the three biggest pain points in meeting software: privacy, friction, and cost. By running speech-to-text entirely on-device, your confidential discussions never leave your hardware, ensuring total data privacy. It operates invisibly without sending an awkward bot into your attendee list, capturing system audio directly across Zoom, Google Meet, and Microsoft Teams.",
+        "url": "https://www.producthunt.com/products/hynote-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/TFVUEICJCPZ3GD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 379,
+          "comments": 59,
+          "rank": 1,
+          "score": 379
+        },
+        "metadata": {
+          "slug": "hynote-for-mac",
+          "topics": [
+            "Meetings",
+            "Menu Bar Apps",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1215949",
+          "name": "HyNote for Mac",
+          "slug": "hynote-for-mac",
+          "tagline": "Free local transcription that is 100% Private",
+          "description": "Solving the three biggest pain points in meeting software: privacy, friction, and cost. By running speech-to-text entirely on-device, your confidential discussions never leave your hardware, ensuring total data privacy. It operates invisibly without sending an awkward bot into your attendee list, capturing system audio directly across Zoom, Google Meet, and Microsoft Teams.",
+          "url": "https://www.producthunt.com/products/hynote-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/TFVUEICJCPZ3GD?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 379,
+          "commentsCount": 59,
+          "dailyRank": 1,
+          "latestScore": 379,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Meetings",
+                  "slug": "meetings"
+                }
+              },
+              {
+                "node": {
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1226841",
+        "title": "Grok 4.6",
+        "summary": "Frontier Intelligence for Long-Running Agents",
+        "body": "Continuous reasoning meets real-world execution. Grok 4.6 brings major upgrades to agentic workflows, software engineering, and interactive web application generation—at an unchanged, cost-efficient rate of $2 / $6 per 1M tokens. Build long-running AI agent workflows with Grok 4.6 on xAI API and partner networks!",
+        "url": "https://www.producthunt.com/products/grok-4-6-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/GAULWNJU36TUR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 298,
+          "comments": 8,
+          "rank": 2,
+          "score": 298
+        },
+        "metadata": {
+          "slug": "grok-4-6-8",
+          "topics": [
+            "Android",
+            "SaaS",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1226841",
+          "name": "Grok 4.6",
+          "slug": "grok-4-6-8",
+          "tagline": "Frontier Intelligence for Long-Running Agents",
+          "description": "Continuous reasoning meets real-world execution. Grok 4.6 brings major upgrades to agentic workflows, software engineering, and interactive web application generation—at an unchanged, cost-efficient rate of $2 / $6 per 1M tokens. Build long-running AI agent workflows with Grok 4.6 on xAI API and partner networks!",
+          "url": "https://www.producthunt.com/products/grok-4-6-7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/GAULWNJU36TUR3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 298,
+          "commentsCount": 8,
+          "dailyRank": 2,
+          "latestScore": 298,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Android",
+                  "slug": "android"
+                }
+              },
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1219589",
+        "title": "Checksum AI",
+        "summary": "Your coding agent’s testing buddy",
+        "body": "Checksum is an AI-native continuous testing platform for engineering teams shipping faster than manual QA can keep up. It generates, runs, and auto-heals end-to-end and API tests on every pull request, all as standard Playwright code in your own repo. When a test fails, Checksum tells you whether it found a real bug or a stale test, then fixes the false failures so your suite keeps pace with your coding agents.",
+        "url": "https://www.producthunt.com/products/checksum-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/6UXTVDQE4GWO3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 234,
+          "comments": 40,
+          "rank": 3,
+          "score": 234
+        },
+        "metadata": {
+          "slug": "checksum-ai",
+          "topics": [
+            "API",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1219589",
+          "name": "Checksum AI",
+          "slug": "checksum-ai",
+          "tagline": "Your coding agent’s testing buddy",
+          "description": "Checksum is an AI-native continuous testing platform for engineering teams shipping faster than manual QA can keep up. It generates, runs, and auto-heals end-to-end and API tests on every pull request, all as standard Playwright code in your own repo. When a test fails, Checksum tells you whether it found a real bug or a stale test, then fixes the false failures so your suite keeps pace with your coding agents.",
+          "url": "https://www.producthunt.com/products/checksum-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/6UXTVDQE4GWO3U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 234,
+          "commentsCount": 40,
+          "dailyRank": 3,
+          "latestScore": 234,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1227327",
+        "title": "The New Calendly",
+        "summary": "Handle all of the work before, during, and after meetings",
+        "body": "Meet Calendly Notetaker and Callie AI assistant: two new AI products built to handle the work before, during, and after meetings. Meetings are essential, but the work around them adds up fast. 😅 That's why we're launching an evolved Calendly. One that handles not just scheduling, but all of the work before, during, and after your meetings, so you can focus on what matters.",
+        "url": "https://www.producthunt.com/products/calendly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/LNHNJGGXMWCU24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 210,
+          "comments": 6,
+          "rank": 4,
+          "score": 210
+        },
+        "metadata": {
+          "slug": "the-new-calendly",
+          "topics": [
+            "Android",
+            "Chrome Extensions",
+            "Notes",
+            "Meetings",
+            "Calendar"
+          ]
+        },
+        "rawJson": {
+          "id": "1227327",
+          "name": "The New Calendly",
+          "slug": "the-new-calendly",
+          "tagline": "Handle all of the work before, during, and after meetings",
+          "description": "Meet Calendly Notetaker and Callie AI assistant: two new AI products built to handle the work before, during, and after meetings. Meetings are essential, but the work around them adds up fast. 😅 That's why we're launching an evolved Calendly. One that handles not just scheduling, but all of the work before, during, and after your meetings, so you can focus on what matters.",
+          "url": "https://www.producthunt.com/products/calendly?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/LNHNJGGXMWCU24?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 210,
+          "commentsCount": 6,
+          "dailyRank": 4,
+          "latestScore": 210,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Android",
+                  "slug": "android"
+                }
+              },
+              {
+                "node": {
+                  "name": "Chrome Extensions",
+                  "slug": "chrome-extensions"
+                }
+              },
+              {
+                "node": {
+                  "name": "Notes",
+                  "slug": "notes"
+                }
+              },
+              {
+                "node": {
+                  "name": "Meetings",
+                  "slug": "meetings"
+                }
+              },
+              {
+                "node": {
+                  "name": "Calendar",
+                  "slug": "calendar"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1226457",
+        "title": "MeetStream AI",
+        "summary": "Unified API & Infra for AI Meeting Agents",
+        "body": "Agent-first infrastructure for meetings. One API to capture 50+ real-time data points from Zoom, Google Meet, and Teams, with built-in voice infrastructure so your agent joins as a participant, listens, speaks, and acts while the call is happening.",
+        "url": "https://www.producthunt.com/products/meetstream-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/L7IWMBYCVNNDMY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 179,
+          "comments": 27,
+          "rank": 5,
+          "score": 179
+        },
+        "metadata": {
+          "slug": "meetstream-ai-2",
+          "topics": [
+            "API",
+            "Meetings",
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1226457",
+          "name": "MeetStream AI",
+          "slug": "meetstream-ai-2",
+          "tagline": "Unified API & Infra for AI Meeting Agents",
+          "description": "Agent-first infrastructure for meetings. One API to capture 50+ real-time data points from Zoom, Google Meet, and Teams, with built-in voice infrastructure so your agent joins as a participant, listens, speaks, and acts while the call is happening.",
+          "url": "https://www.producthunt.com/products/meetstream-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/L7IWMBYCVNNDMY?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 179,
+          "commentsCount": 27,
+          "dailyRank": 5,
+          "latestScore": 179,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "API",
+                  "slug": "api-1"
+                }
+              },
+              {
+                "node": {
+                  "name": "Meetings",
+                  "slug": "meetings"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1227170",
+        "title": "Prized",
+        "summary": "Let non-engineers build secure internal tools ",
+        "body": "Prized lets ops, support, and finance teams build and ship secure internal tools with AI. Company data pre-connected and scoped, an audit trail on every access, one-click deploy behind your company sign-in.",
+        "url": "https://www.producthunt.com/products/prized?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/6OP6W6QAJ7SXCE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 160,
+          "comments": 17,
+          "rank": 6,
+          "score": 160
+        },
+        "metadata": {
+          "slug": "prized",
+          "topics": [
+            "Artificial Intelligence",
+            "No-Code",
+            "Security"
+          ]
+        },
+        "rawJson": {
+          "id": "1227170",
+          "name": "Prized",
+          "slug": "prized",
+          "tagline": "Let non-engineers build secure internal tools ",
+          "description": "Prized lets ops, support, and finance teams build and ship secure internal tools with AI. Company data pre-connected and scoped, an audit trail on every access, one-click deploy behind your company sign-in.",
+          "url": "https://www.producthunt.com/products/prized?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/6OP6W6QAJ7SXCE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 160,
+          "commentsCount": 17,
+          "dailyRank": 6,
+          "latestScore": 160,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "No-Code",
+                  "slug": "no-code"
+                }
+              },
+              {
+                "node": {
+                  "name": "Security",
+                  "slug": "security"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1227218",
+        "title": "Hermai Brand API",
+        "summary": "White label your B2B SaaS with every customer's brand",
+        "body": "A customer signs up with a work email or domain. You get back the logo, colors, description, and a ready to apply theme. Built for B2B SaaS so every customer's account looks like theirs from the first login. Free for 1,000 brands a month, every month. No card.",
+        "url": "https://www.producthunt.com/products/hermai-brand-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/KBTDPMY6V3G6LL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 140,
+          "comments": 30,
+          "rank": 7,
+          "score": 140
+        },
+        "metadata": {
+          "slug": "hermai-brand-api",
+          "topics": [
+            "Design Tools",
+            "SaaS",
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1227218",
+          "name": "Hermai Brand API",
+          "slug": "hermai-brand-api",
+          "tagline": "White label your B2B SaaS with every customer's brand",
+          "description": "A customer signs up with a work email or domain. You get back the logo, colors, description, and a ready to apply theme. Built for B2B SaaS so every customer's account looks like theirs from the first login. Free for 1,000 brands a month, every month. No card.",
+          "url": "https://www.producthunt.com/products/hermai-brand-api?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/KBTDPMY6V3G6LL?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 140,
+          "commentsCount": 30,
+          "dailyRank": 7,
+          "latestScore": 140,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1227258",
+        "title": "Lifelong",
+        "summary": "Your whole family’s health in one place.",
+        "body": "Lifelong is the family health app built around the household, not just one person. Keep records, medications, symptoms, appointments, activity and sleep together for everyone you care about. Connect the wearables you already use, keep the right people in the loop, and use Alo, the in-app AI companion, to log updates and take simple actions. Sharing stays user-controlled. Available on iOS with a two-week free trial.",
+        "url": "https://www.producthunt.com/products/lifelong-the-family-health-company?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/EMHDXTAKNXV56T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 138,
+          "comments": 8,
+          "rank": 8,
+          "score": 138
+        },
+        "metadata": {
+          "slug": "lifelong",
+          "topics": [
+            "Health & Fitness",
+            "Artificial Intelligence",
+            "Family"
+          ]
+        },
+        "rawJson": {
+          "id": "1227258",
+          "name": "Lifelong",
+          "slug": "lifelong",
+          "tagline": "Your whole family’s health in one place.",
+          "description": "Lifelong is the family health app built around the household, not just one person. Keep records, medications, symptoms, appointments, activity and sleep together for everyone you care about. Connect the wearables you already use, keep the right people in the loop, and use Alo, the in-app AI companion, to log updates and take simple actions. Sharing stays user-controlled. Available on iOS with a two-week free trial.",
+          "url": "https://www.producthunt.com/products/lifelong-the-family-health-company?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/EMHDXTAKNXV56T?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 138,
+          "commentsCount": 8,
+          "dailyRank": 8,
+          "latestScore": 138,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Health & Fitness",
+                  "slug": "health-fitness"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Family",
+                  "slug": "family"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1227288",
+        "title": "MiniMax Design",
+        "summary": "Your own agent team for open-ended creation",
+        "body": "MiniMax Design is a desktop app that wraps MiniMax H3 in a full production workflow. Describe the video, and agents handle the brief, stills, H3 clips, music, and edit on one canvas. Skills, a 3D director stage, and ComfyUI nodes stay there when you want more control.",
+        "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/3ZDKIA2BDBRV7U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 132,
+          "comments": 2,
+          "rank": 9,
+          "score": 132
+        },
+        "metadata": {
+          "slug": "minimax-design",
+          "topics": [
+            "Design Tools",
+            "Artificial Intelligence",
+            "Photo & Video"
+          ]
+        },
+        "rawJson": {
+          "id": "1227288",
+          "name": "MiniMax Design",
+          "slug": "minimax-design",
+          "tagline": "Your own agent team for open-ended creation",
+          "description": "MiniMax Design is a desktop app that wraps MiniMax H3 in a full production workflow. Describe the video, and agents handle the brief, stills, H3 clips, music, and edit on one canvas. Skills, a 3D director stage, and ComfyUI nodes stay there when you want more control.",
+          "url": "https://www.producthunt.com/products/minimax?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/3ZDKIA2BDBRV7U?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 132,
+          "commentsCount": 2,
+          "dailyRank": 9,
+          "latestScore": 132,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photo & Video",
+                  "slug": "photo-video"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1227128",
+        "title": "Aloud",
+        "summary": "Turn spoken feedback into tasks your coding agent can run",
+        "body": "Feedback is easier said than written. Aloud records your voice, your screen and a live transcript together while you talk through your app – pointing at things, changing your mind. Then one press: it rewrites the transcript into what you actually meant, asks about anything that could be read two ways, pulls the screenshots you were pointing at, and turns the session into tasks for Claude Code, Cursor or Codex. Whisper runs on-device – your audio and video never leave the Mac.",
+        "url": "https://www.producthunt.com/products/aloud-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/AOIGYVQTYHCPRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-08-20T07:01:00Z",
+        "metrics": {
+          "votes": 119,
+          "comments": 15,
+          "rank": 10,
+          "score": 119
+        },
+        "metadata": {
+          "slug": "aloud-4",
+          "topics": [
+            "Mac",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1227128",
+          "name": "Aloud",
+          "slug": "aloud-4",
+          "tagline": "Turn spoken feedback into tasks your coding agent can run",
+          "description": "Feedback is easier said than written. Aloud records your voice, your screen and a live transcript together while you talk through your app – pointing at things, changing your mind. Then one press: it rewrites the transcript into what you actually meant, asks about anything that could be read two ways, pulls the screenshots you were pointing at, and turns the session into tasks for Claude Code, Cursor or Codex. Whisper runs on-device – your audio and video never leave the Mac.",
+          "url": "https://www.producthunt.com/products/aloud-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/AOIGYVQTYHCPRE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 119,
+          "commentsCount": 15,
+          "dailyRank": 10,
+          "latestScore": 119,
+          "featuredAt": "2026-08-20T07:01:00Z",
+          "createdAt": "2026-08-20T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-08-22T03:01:17.302Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:block/buzz",
+        "title": "block/buzz",
+        "summary": "A hive mind communication platform Buzz 🐝 A workspace where humans and agents build together, on a relay you own.",
+        "url": "https://github.com/block/buzz",
+        "publishedAt": "2026-08-22T03:01:17.281Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:permissionlesstech/bitchat",
+        "title": "permissionlesstech/bitchat",
+        "summary": "bluetooth mesh chat, IRC vibes bitchat A decentralized peer-to-peer messaging app with dual transport architecture: local Bluetooth mesh networks for offline communication and internet-based Nostr protocol for global reach.",
+        "url": "https://github.com/permissionlesstech/bitchat",
+        "publishedAt": "2026-08-22T03:01:17.282Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:ayghri/i-have-adhd",
+        "title": "ayghri/i-have-adhd",
+        "summary": "A skill to stop your coding agent from burying the answer.",
+        "url": "https://github.com/ayghri/i-have-adhd",
+        "publishedAt": "2026-08-22T03:01:17.283Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:citrolabs/ego-lite",
+        "title": "citrolabs/ego-lite",
+        "summary": "The fastest browser for AI agents to run browser automation, built for sharing your logged-in browser state with your AI agents, like Codex or Claude Code, without disturbing you.",
+        "url": "https://github.com/citrolabs/ego-lite",
+        "publishedAt": "2026-08-22T03:01:17.283Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:TencentCloud/TencentDB-Agent-Memory",
+        "title": "TencentCloud/TencentDB-Agent-Memory",
+        "summary": "TencentDB Agent Memory is a team-level memory hub for AI Agents — turning conversations, docs, and code into four reusable memory assets (Chat Memory, Skill, LLM-Wiki, Code-Graph) that are governed, shared, and equipped across agents and frameworks.",
+        "url": "https://github.com/TencentCloud/TencentDB-Agent-Memory",
+        "publishedAt": "2026-08-22T03:01:17.284Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:zhaoxuya520/reverse-skill",
+        "title": "zhaoxuya520/reverse-skill",
+        "summary": "Reverse Engineering / Authorized Penetration Testing / Security Research Skill Router Pack AI-powered routing + On-demand toolchain bootstrapping + Self-evolving knowledge base Supports Claude Code, Kiro, Cursor, Cline, and other AI coding clients 逆向/渗透/安全技...",
+        "url": "https://github.com/zhaoxuya520/reverse-skill",
+        "publishedAt": "2026-08-22T03:01:17.286Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:diegosouzapw/OmniRoute",
+        "title": "diegosouzapw/OmniRoute",
+        "summary": "Never stop coding.",
+        "url": "https://github.com/diegosouzapw/OmniRoute",
+        "publishedAt": "2026-08-22T03:01:17.292Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:microsoft/AI-For-Beginners",
+        "title": "microsoft/AI-For-Beginners",
+        "summary": "12 Weeks, 24 Lessons, AI for All!",
+        "url": "https://github.com/microsoft/AI-For-Beginners",
+        "publishedAt": "2026-08-22T03:01:17.293Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pingdotgg/t3code",
+        "title": "pingdotgg/t3code",
+        "summary": "https://t3.codes T3 Code T3 Code is an \"agent harness control surface\".",
+        "url": "https://github.com/pingdotgg/t3code",
+        "publishedAt": "2026-08-22T03:01:17.294Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:virgiliojr94/book-to-skill",
+        "title": "virgiliojr94/book-to-skill",
+        "summary": "Turn any technical book PDF into a Claude Code skill — ready to study, reference, and use while you work.",
+        "url": "https://github.com/virgiliojr94/book-to-skill",
+        "publishedAt": "2026-08-22T03:01:17.295Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:basecamp/omarchy",
+        "title": "basecamp/omarchy",
+        "summary": "Beautiful, Modern & Opinionated Linux https://omarchy.org Omarchy Omarchy is a beautiful, modern & opinionated Linux distribution by DHH.",
+        "url": "https://github.com/basecamp/omarchy",
+        "publishedAt": "2026-08-22T03:01:17.295Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:1jehuang/jcode",
+        "title": "1jehuang/jcode",
+        "summary": "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Start · Further Reading · Contributing Installation # macOS & Linux curl -fsSL h...",
+        "url": "https://github.com/1jehuang/jcode",
+        "publishedAt": "2026-08-22T03:01:17.297Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:mattpocock/skills",
+        "title": "mattpocock/skills",
+        "summary": "Skills for Real Engineers.",
+        "url": "https://github.com/mattpocock/skills",
+        "publishedAt": "2026-08-22T03:01:17.298Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:earendil-works/pi",
+        "title": "earendil-works/pi",
+        "summary": "AI agent toolkit: unified LLM API, agent loop, TUI, coding agent CLI New issues and PRs from new contributors are auto-closed by default.",
+        "url": "https://github.com/earendil-works/pi",
+        "publishedAt": "2026-08-22T03:01:17.298Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:cactus-compute/needle",
+        "title": "cactus-compute/needle",
+        "summary": "14MB foundation model for tiny devices; phones, wearables, smart home, and robots.",
+        "url": "https://github.com/cactus-compute/needle",
+        "publishedAt": "2026-08-22T03:01:17.299Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:volcengine/OpenViking",
+        "title": "volcengine/OpenViking",
+        "summary": "Self-evolving Context Database for AI Agents.",
+        "url": "https://github.com/volcengine/OpenViking",
+        "publishedAt": "2026-08-22T03:01:17.300Z",
+        "metrics": {
+          "rank": 16
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:megadose/holehe",
+        "title": "megadose/holehe",
+        "summary": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
+        "url": "https://github.com/megadose/holehe",
+        "publishedAt": "2026-08-22T03:01:17.300Z",
+        "metrics": {
+          "rank": 17
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:lyogavin/airllm",
+        "title": "lyogavin/airllm",
+        "summary": "AirLLM 70B inference with single 4GB GPU Quickstart | Configurations | MacOS | Example notebooks | FAQ AirLLM dramatically reduces inference memory usage, letting 70B large language models run on a single 4GB GPU card — without quantization, distillation, o...",
+        "url": "https://github.com/lyogavin/airllm",
+        "publishedAt": "2026-08-22T03:01:17.301Z",
+        "metrics": {
+          "rank": 18
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:different-ai/openwork",
+        "title": "different-ai/openwork",
+        "summary": "The open-source alternative to Claude Cowork (powered by opencode) https://openworklabs.com OpenWork OpenWork is a free, open-source desktop app made for sharing AI workflows.",
+        "url": "https://github.com/different-ai/openwork",
+        "publishedAt": "2026-08-22T03:01:17.302Z",
+        "metrics": {
+          "rank": 19
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:opengeos/GeoLibre",
+        "title": "opengeos/GeoLibre",
+        "summary": "A lightweight, cloud-native GIS platform for visualizing, exploring, and analyzing geospatial data.",
+        "url": "https://github.com/opengeos/GeoLibre",
+        "publishedAt": "2026-08-22T03:01:17.302Z",
+        "metrics": {
+          "rank": 20
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-08-22T03:01:24.914Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/introducing-ai-futures",
+        "title": "Introducing AI Futures",
+        "summary": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+        "body": "Introducing AI Futures, a new OpenAI blog exploring how transformative AI could reshape power, governance, the economy, and individual freedom.",
+        "url": "https://openai.com/index/introducing-ai-futures",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-20T07:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/stampli",
+        "title": "Stampli cuts launch hours by 68% using ChatGPT Work",
+        "summary": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+        "body": "With a fixed deadline and design resources committed elsewhere, Stampli used Codex and ChatGPT Work to compress weeks of launch production into days.",
+        "url": "https://openai.com/index/stampli",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-20T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "title": "Offering Zero Data Retention for frontier models",
+        "summary": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+        "body": "OpenAI reaffirms Zero Data Retention for eligible API customers and previews Private Safety Processing for advanced AI safety without compromising data privacy.",
+        "url": "https://openai.com/index/offering-zero-data-retention-for-frontier-models",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-19T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/replit",
+        "title": "Replit expands access to software creation with GPT-5.6 Luna",
+        "summary": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+        "body": "Replit introduces Free Mode, powered by GPT-5.6 Luna, so anyone can turn ideas into working software without worrying about token costs.",
+        "url": "https://openai.com/index/replit",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-08-19T07:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "title": "From Atari to EVE Online: Building on 15 Years of AI Research in Games",
+        "summary": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+        "body": "Google DeepMind partners with game studios to prototype breakthrough AI gameplay.",
+        "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-21T11:59:48.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog",
+          "image": "https://lh3.googleusercontent.com/ymmK0Dgovn-_MGlnQJffYxKdTe5LAnkAZr-GNnIjiFzsGOAAmOmUDuVACbNgIy-tqrJhGBdaQ_PaElc8EKRKRWtYg4eWx8HVcaVzdYy7hg7Q_8k=w528-h297-n-nu-rw-lo"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/21/llm/",
+        "title": "llm 0.32.1",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai<3</code>, and a soon-to-drop 0.33 release will switch from <code>ht",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.32.1\">llm 0.32.1</a></p> <p>Fresh installs of LLM stopped working the other day because the OpenAI Python library dropped its usage of <code>httpx</code>, and it turned out LLM depended on that library but only installed it via a transitive <code>openai</code> dependency.</p> <p>This dot-release fixes that for the moment by pinning to <code>openai<3</code>, and a soon-to-drop 0.33 release will switch from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/httpx\">httpx</a>, <a href=\"https://simonwillison.net/tags/openai\">openai</a>, <a href=\"https://simonwillison.net/tags/llm\">llm</a></p>",
+        "url": "https://simonwillison.net/2026/Aug/21/llm/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-21T17:16:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+        "title": "llm-openrouter 0.7",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's implemen",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-openrouter/releases/tag/0.7\">llm-openrouter 0.7</a></p> <p>Now that this plugin is compatible with <a href=\"https://simonwillison.net/2026/Aug/4/new-release-of-llm/\">LLM 0.32</a> it works much better with reasoning LLMs available through OpenRouter.</p> <blockquote> <ul> <li>Updated for compatibility with <a href=\"https://llm.datasette.io/en/stable/changelog.html#v0-32\">LLM 0.32</a>.</li> <li>Models now use OpenRouter's implementation of the <a href=\"https://openrouter.ai/docs/api_reference/responses/overview\">Responses API</a>.</li> <li>Three new server-side tools: <a href=\"https://github.com/simonw/llm-openrouter#shell\">Shell</a>, <a href=\"https://github.com/simonw/llm-openrouter#web-fetch\">WebFetch</a>, and <a href=\"htt",
+        "url": "https://simonwillison.net/2026/Aug/21/llm-openrouter/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-21T16:58:19.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+        "title": "Stop Making TUIs",
+        "summary": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>, a",
+        "body": "<p><strong><a href=\"https://sockpuppet.org/blog/2026/08/20/stop-making-tuis/\">Stop Making TUIs</a></strong></p> Thomas Ptacek advocates for building real native user interfaces for even the smallest of personal tools, because coding agents have reduced the cost of getting a usable-enough GUI up and running to almost nothing.</p> <p>I wrote about my vibe-coded bandwidth and GPU monitoring macOS task bar apps <a href=\"https://simonwillison.net/2026/Mar/27/vibe-coding-swiftui/\">back in March</a>, and I'm still using both of those on a daily basis.</p> <p>I'm not habitually knocking out real UIs for my other projects yet, but I'm running out of excuses!</p> <p>Thomas:</p> <blockquote> <p>If you haven’t tried your hand at turning one of your 500 throwaway CLIs into a native app, you’re doing yo",
+        "url": "https://simonwillison.net/2026/Aug/21/stop-making-tuis/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-21T16:07:32.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/21/matt-webb/",
+        "title": "Quoting Matt Webb",
+        "summary": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p> <p>So learning doesn’t stop just because I outsource a ",
+        "body": "<blockquote cite=\"https://interconnected.org/home/2026/08/21/galactic\"><p>After I released version 1.0, I figured I would have to do the rotations myself. So I sat down with ChatGPT and I didn’t get it to write the code, but I got it to educate me. With a patient, interactive tutor, I was able to finally do what I hadn’t by reading books and asking mathematician friends – I learnt how to use quaternions just enough to make the app work.</p> <p>So learning doesn’t stop just because I outsource a bunch of thinking to AI. It pushes me to learn more. I like that as an outcome.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://interconnected.org/home/2026/08/21/galactic\">Matt Webb</a>, Galactic Compass 2: now with new augmented reality mode</p> <p>Tags: <a href=\"https://simonwillison.ne",
+        "url": "https://simonwillison.net/2026/Aug/21/matt-webb/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-21T15:06:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+        "title": "ChatGPT search now uses the site:operator at scale",
+        "summary": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p> Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p> <p>The Promptwatch product uses automation to track responses to prompts across end-user chat products",
+        "body": "<p><strong><a href=\"https://promptwatch.com/data/chatgpt-site-operator-fanouts\">ChatGPT search now uses the site:operator at scale</a></strong></p> Promptwatch is part of the emerging \"GEO\" space, for Generative Engine Optimization - the chatbot version of SEO, where companies offer tools and consulting to help your site increase its presence in replies to prompts inside tools like ChatGPT.</p> <p>The Promptwatch product uses automation to track responses to prompts across end-user chat products like ChatGPT, Claude, and Gemini. They publish aggregate reports on this as part of their own content marketing strategy, which do seem to provide credible hints as to otherwise invisible design changes to those products.</p> <p>Their own tracking shows a notable change aligned with the GPT-5.6 rol",
+        "url": "https://simonwillison.net/2026/Aug/20/chatgpt-search-now-uses-the-siteoperator-at-scale/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-20T23:57:32.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+        "title": "A shot-scraper-style JSON API on Bun 1.4's new Bun.WebView",
+        "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release not",
+        "body": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/bun-webview-json-api#readme\">A shot-scraper-style JSON API on Bun 1.4&#x27;s new Bun.WebView</a></p> <p>Today saw the long awaited <a href=\"https://bun.com/blog/bun-v1.4\">release of Bun 1.4</a>, the first stable version since the infamous Rust rewrite <a href=\"https://simonwillison.net/2026/Jul/8/rewriting-bun-in-rust/\">a few months ago</a>.</p> <p>Interestingly, the Rust rewrite was downplayed in the release notes, which introduced a bewildering array of new features and claimed 2,900 additional bug fixes:</p> <blockquote> <p>Bun 1.4 adds +1,517 tests from the Node.js test suite - our biggest jump in Node.js compatibility since Bun 1.0. Bun v1.4 also fixes over 2,900 issues. It reduces idle CPU usage by 5x",
+        "url": "https://simonwillison.net/2026/Aug/20/bun-webview-json-api/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-20T15:37:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+        "title": "smolmachines / smolvm as a sandbox for untrusted Python & JavaScript",
+        "summary": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p> <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p> <blockquote> <p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limit",
+        "body": "<p><strong>Research:</strong> <a href=\"https://github.com/simonw/research/tree/main/smolmachines-untrusted-sandbox#readme\">smolmachines / smolvm as a sandbox for untrusted Python &amp; JavaScript</a></p> <p>I tasked Claude Fable 5 running in Claude Code for web with the following research task:</p> <blockquote> <p><code>Put https://smolmachines.com through its paces as a fast secure sandbox. Explore what it would take to use this to run untrusted Python and JavaScript code in a way that is limited in what RAM and CPU time it can take up (protection against \"while true\") with no network access and filesystem access only to designated files</code></p> <p><code>Goal is to be able to use this to execute user-provided tasks for things like data transformations</code></p> </blockquote> <p>It qui",
+        "url": "https://simonwillison.net/2026/Aug/19/smolmachines-untrusted-sandbox/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T23:16:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+        "title": "Quoting Jeremy Morrell",
+        "summary": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. <strong",
+        "body": "<blockquote cite=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\"><p>My hypothesis is that <strong>there is a new opportunity for Extensible Software on the web</strong>. LLMs radically lower the cost of authoring extensions, and modern sandbox primitives lower the deployment cost and provide good security boundaries. We can build our app as a solid, accountable core, and allow users to safely extend it in many directions by having LLMs fill in the missing pieces. <strong>We can give our users super powers.</strong></p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://jeremymorrell.dev/blog/extensible-software-in-the-age-of-llms/\">Jeremy Morrell</a>, Extensible Software in the age of LLMs</p> <p>Tags: <a href=\"https://simonwillison.net/tags/sandboxing\">sandboxi",
+        "url": "https://simonwillison.net/2026/Aug/19/jeremy-morrell/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T22:56:31.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+        "title": "Conceptual integrity and counting lines of code",
+        "summary": "<p>Last week I recorded <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison\">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").</p> <p>This is the latest version of an argument I've been trying to buil",
+        "body": "<p>Last week I recorded <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison\">an episode of the Talking Postgres podcast</a> with Claire Giordano on the subject of \"How AI is changing software development\". We had a really great conversation. Here are a couple of my highlights from a lightly edited transcript (prompt to Claude: \"very minor edits to remove disfluencies\").</p> <p>This is the latest version of an argument I've been trying to build about why sometimes it <em>does</em> make sense to talk about lines of code as an indicator of productivity with coding agents, at <a href=\"https://talkingpostgres.com/episodes/how-ai-is-changing-software-development-with-simon-willison#t=35m1s\">35:01</a>:</p> <blockquote> <p>A lot of people will ",
+        "url": "https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T22:46:07.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://www.felonybench.com/",
+        "title": "Felony Bench: Be AI, Do Crime",
+        "summary": "<p><a href=\"https://lobste.rs/s/pywde0/felony_bench_be_ai_do_crime\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/pywde0/felony_bench_be_ai_do_crime\">Comments</a></p>",
+        "url": "https://www.felonybench.com/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-21T17:23:02.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://gitcode.com/Ascend/AscendNPU-IR",
+        "title": "AscendNPU-IR: MLIR for Ascend",
+        "summary": "<p><a href=\"https://lobste.rs/s/zpk6cj/ascendnpu_ir_mlir_for_ascend\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/zpk6cj/ascendnpu_ir_mlir_for_ascend\">Comments</a></p>",
+        "url": "https://gitcode.com/Ascend/AscendNPU-IR",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T23:47:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://matthodges.com/posts/2026-08-19-bongard-problems/",
+        "title": "Bongard Problems",
+        "summary": "<p><a href=\"https://lobste.rs/s/q6atrp/bongard_problems\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/q6atrp/bongard_problems\">Comments</a></p>",
+        "url": "https://matthodges.com/posts/2026-08-19-bongard-problems/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T22:12:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://www.youtube.com/watch?v=GlYgs6v2YfU",
+        "title": "But what is cross-entropy? | Compression is Intelligence Part 2 - YouTube",
+        "summary": "<p><a href=\"https://lobste.rs/s/ctbbjj/what_is_cross_entropy_compression_is\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/ctbbjj/what_is_cross_entropy_compression_is\">Comments</a></p>",
+        "url": "https://www.youtube.com/watch?v=GlYgs6v2YfU",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T04:49:02.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19758",
+        "title": "FlashPrefill V2: Block-Sparse Prefill Attention for Long-Context LLM Serving",
+        "summary": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery and max-based dynamic thresholding; however, it remains an algorithmic prototype that is still distant from production deployment. In this paper, we present FlashPrefill V2, which evolves FlashPrefill ",
+        "body": "Long-context modeling is a pivotal capability for Large Language Models, yet the quadratic complexity of attention remains a critical bottleneck, particularly during the compute-intensive prefilling phase. Our previous work, FlashPrefill, mitigates this cost through instantaneous pattern discovery and max-based dynamic thresholding; however, it remains an algorithmic prototype that is still distant from production deployment. In this paper, we present FlashPrefill V2, which evolves FlashPrefill from a prototype toward practical long-context serving along three dimensions. First, we introduce a mean correction term that effectively suppresses the approximation error, keeping performance degradation manageable even at extreme sparsity levels. Second, we redesign the sparse attention operator",
+        "url": "https://arxiv.org/abs/2608.19758",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-20T04:02:55.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19880",
+        "title": "EnvHarness: Awakening Static Worlds for Agent Learning",
+        "summary": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable",
+        "body": "LLM agents learn by interacting with environments, yet these environments are hand-built and static: blind to an agent's weaknesses, and quickly left behind as it improves. While recent environment generation methods attempt to address this, they require domain-specific pipelines, rely on expensive or unreliable verifiers, and still produce static environments. To alleviate the engineering burden of rebuilding environments from scratch, we propose Environment Harness (EnvHarness), a programmable layer of plug-in components that wraps a static environment to reshape its behavior without modifying the underlying logic. Operating through standard interfaces, EnvHarness applies across diverse domains while ensuring every reshaped environment retains its original verifier. To automate this proc",
+        "url": "https://arxiv.org/abs/2608.19880",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.20335",
+        "title": "4DAnyone: Create Anyone in 4D from a Casual Monocular Video",
+        "summary": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed ",
+        "body": "We present 4DAnyone, a framework for reconstructing 4D humans from an uncalibrated monocular video by generating reconstruction-grade multiview-consistent videos and lifting them into 4D Gaussian Splatting (4DGS). Existing camera-controlled video diffusion models synthesize plausible novel-view videos but fail to maintain consistency when scaled to the tens of target views required for 4DGS reconstruction. We identify this failure as a bounded-attention-context problem: when target views exceed the capacity of a single DiT forward pass, they must be split into groups, exposing two coupled bottlenecks. On the reference-context side, conditioning on all previously generated views grows as O(N), weakening cross-view appearance guidance. On the target-context side, disjoint groups cannot direc",
+        "url": "https://arxiv.org/abs/2608.20335",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19799",
+        "title": "SWE-bench Science: Can Coding Agents Resolve Engineering Tasks in Science?",
+        "summary": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task success, providing limited insight into why agents fail when repairing scientific software. We introduce SWE-bench Science, a repository-level benchmark for scientific software engineering comprising 119 ta",
+        "body": "Software increasingly functions as part of the scientific instrument itself, making failures in scientific code capable of compromising not only program behavior but also the evidence underlying scientific conclusions. Yet existing evaluations of coding agents largely emphasize aggregate task success, providing limited insight into why agents fail when repairing scientific software. We introduce SWE-bench Science, a repository-level benchmark for scientific software engineering comprising 119 tasks from 98 GitHub repositories across 20 scientific domains. Each task is organized into one of three paradigms: Issue-driven, Expert-exploratory, and Engineering-integration. Even the best-performing agent, Claude Code with Opus-5 (max), achieves a pass@1 below 50\\%, highlighting the substantial c",
+        "url": "https://arxiv.org/abs/2608.19799",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.20336",
+        "title": "WithEveryone: Unified Planning and Identity Grounding for Group Image Generation",
+        "summary": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images up to ten reference identities. WithEveryone injects each selected identity as an addressed token, pr",
+        "body": "Identity-preserving image generation becomes increasingly unreliable when a scene must contain many specified people. Beyond retaining each identity, the model must bind every reference to a distinct person and location, while training-time identity losses must establish correspondence among several noisy predicted faces. We introduce WithEveryone, a unified framework for generating group images up to ten reference identities. WithEveryone injects each selected identity as an addressed token, predicts a structured identity--layout plan, and renders the plan as a visual condition. Its key objective, Layout-Grounded ID Loss, uses annotated face regions to supervise the intended identities directly, avoiding unstable embedding-based face matching; ID Representation Forcing additionally trains",
+        "url": "https://arxiv.org/abs/2608.20336",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.20202",
+        "title": "MemTrapBench: Benchmarking Cognitive Traps in LLM Memory Use",
+        "summary": "Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memories reshape model reasoning and affect performance on the current task. We identify memory-induced cognitive traps: even faithfully recorded and semantically relevant memories can distort model reasoni",
+        "body": "Memory has become a key component of large language models, enabling them to retain information and learn from long-term interactions. However, existing memory benchmarks mainly evaluate whether information is correctly extracted, stored, and retrieved, while largely overlooking how retrieved memories reshape model reasoning and affect performance on the current task. We identify memory-induced cognitive traps: even faithfully recorded and semantically relevant memories can distort model reasoning or beliefs and degrade current task performance. To systematically evaluate these failure modes, we introduce MemTrapBench, which covers two forms of cognitive traps: Reasoning Fixation and Belief Distortion. Experiments across two model families and five representative memory frameworks show tha",
+        "url": "https://arxiv.org/abs/2608.20202",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19854",
+        "title": "Repo0: Design-Driven Zero-to-All Code Generation",
+        "summary": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language requirements while maintaining a modular repository architecture throughout development. We present Repo0, a continuous structural evolution framework for zero-to-all code generation. Repo0 maintains ",
+        "body": "Large language model agents have made substantial progress in code generation, yet most existing systems assume a predefined repository architecture. This assumption does not hold in zero-to-all code generation, where an agent must construct an entire software project directly from natural-language requirements while maintaining a modular repository architecture throughout development. We present Repo0, a continuous structural evolution framework for zero-to-all code generation. Repo0 maintains an explicit architectural state instantiated as a Dual-Directed-Acyclic-Graph (Dual-DAG), consisting of a requirement-level DAG, a component-level DAG, and their alignment relation. Starting from natural-language requirements, it iteratively evolves component boundaries through structural actions gu",
+        "url": "https://arxiv.org/abs/2608.19854",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.20281",
+        "title": "Inject, Align, Recover: Staged Post-Training for Retrieval-Free Document Knowledge Internalization",
+        "summary": "Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question answering. We propose IAR (Inject, Align, and Recover), a three-stage post-training framework that separates structured document knowledge injection, QA behavior alignment, and general ability recover",
+        "body": "Large language models often fail to answer questions about a bounded document collection when the source documents are not retrieved at inference time. We study this setting as document knowledge internalization: converting a fixed corpus into usable parametric knowledge for retrieval-free question answering. We propose IAR (Inject, Align, and Recover), a three-stage post-training framework that separates structured document knowledge injection, QA behavior alignment, and general ability recovery. Unlike conventional continued pretraining, Inject converts source documents into continuation, rewrite, and instruction-conditioned reconstruction objectives. Align then adapts the injected model with answer-only QA supervision, while Recover merges the domain-adapted model with the base instruct",
+        "url": "https://arxiv.org/abs/2608.20281",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19891",
+        "title": "EXIMO: VLM Guided Exploration of VLA Policies",
+        "summary": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policies are based on behaviour cloning of large vision-language-action (VLA) models with billions of parameters on huge teleoperation datasets. While this simple approach has enabled significant advances for robotic manipulation, finetuning of VLA policies for learning new tasks still remains an open problem. In particular, collecting teleoperation datasets requires hundreds of hours ",
+        "body": "How to efficiently finetune robot policies to learn new tasks on the fly? State of the art robotic manipulation policies are based on behaviour cloning of large vision-language-action (VLA) models with billions of parameters on huge teleoperation datasets. While this simple approach has enabled significant advances for robotic manipulation, finetuning of VLA policies for learning new tasks still remains an open problem. In particular, collecting teleoperation datasets requires hundreds of hours of expensive human labour and the alternative, reinforcement learning (RL), can be notoriously sample-inefficient especially for long-horizon tasks. In addition, RL with VLAs imposes several challenges due to the model's size and architectural design. In this work, we propose EXIMO, an efficient alg",
+        "url": "https://arxiv.org/abs/2608.19891",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19936",
+        "title": "Towards Quantifying Benchmark Optimization in ASR Models",
+        "summary": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We identify three families of behavioral probes that reveal models' capabilities of reproducing benchmark r",
+        "body": "Public benchmarks are important measures of Automatic Speech Recognition (ASR) model capabilities. However, by nature of being public, there is risk of models being optimized for these benchmarks in ways that do not generalize well to real-world data. We present a methodology for quantifying benchmark optimization, focusing on cases where the audio underdetermines the reference transcript. We identify three families of behavioral probes that reveal models' capabilities of reproducing benchmark reference spans despite underdetermined audio: reference disagreement, masked-number recovery, and orthographic switching. We find that the highest-scoring open source models output verbatim reference transcript spans even when the relevant audio is contradictory, masked, or ambiguous. Using a variet",
+        "url": "https://arxiv.org/abs/2608.19936",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19861",
+        "title": "PolicyGuide: From Guarding One Action to Guiding the Whole Workflow for Policy-Compliant LLM Agents",
+        "summary": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion",
+        "body": "Customer-service LLM agents must follow organizational policy when acting on a user's behalf. Compliance failures arise from either forbidden actions, such as granting an ineligible change, or omitted procedural requirements, such as identification or confirmation. Runtime safeguards can intervene on risky actions, but action-local checks do not guide an agent through a multi-step procedure. Workflow-following systems support prescribed process execution, but primarily target workflow completion rather than safeguarding agent behavior. PolicyGuide instead compiles each domain policy into a workflow graph and invokes a proactive verifier at user-turn boundaries. From persisted graph state, the verifier reconciles open requests and returns step-specific remediation along a policy-compliant p",
+        "url": "https://arxiv.org/abs/2608.19861",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19759",
+        "title": "GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation",
+        "summary": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation that the gripper and the object share identical surface geometry at their mutual contact points. We propose GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation, a novel deep generative model",
+        "body": "Multifingered grasping is a crucial robotic skill, but current deep-learning grasp planners often struggle to generalize to new objects because they are trained on limited, object-specific datasets. We introduce a fundamentally different approach, grounded in the observation that the gripper and the object share identical surface geometry at their mutual contact points. We propose GOAG: Generative and Object-Agnostic Grasp Planner for Dexterous Robotic Manipulation, a novel deep generative model that learns a compact latent representation of a specific gripper's contact surface distribution, enabling the efficient sampling of valid grasp configurations without relying on object-specific training data. We show that by introducing object features only at inference time, our model can effecti",
+        "url": "https://arxiv.org/abs/2608.19759",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19776",
+        "title": "CoToGrasp: Contact-Topology-Conditioned Dexterous Grasp Synthesis via Canonical Workspace Learning",
+        "summary": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically requires prohibitively expensive, object-annotated datasets. To address these limitations, we propose CoToGrasp, a novel generative framework that synthesizes diverse, stable grasps strictly conditioned on specific cont",
+        "body": "Current dexterous grasp planners primarily optimize for physical stability, focusing on whether an object can be grasped rather than how it should be grasped to support downstream functional tasks. However, conditioning grasp synthesis on specific human grasp taxonomies typically requires prohibitively expensive, object-annotated datasets. To address these limitations, we propose CoToGrasp, a novel generative framework that synthesizes diverse, stable grasps strictly conditioned on specific contact topologies. To bypass the data collection bottleneck, CoToGrasp is trained entirely in an object-agnostic manner. We introduce a feature-based canonical workspace that projects local object features into a unified gripper-centric domain, effectively decoupling the semantic functional intent from",
+        "url": "https://arxiv.org/abs/2608.19776",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.19863",
+        "title": "Listening Forward: Next Patch Embedding Prediction Enables Scalable Audio Learners",
+        "summary": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance. A markedly different pre-training philosophy underpins the most influential progress in language modeling and, more recently, in visual representation learning: rather than train encoders as static feature extractors, models are trained to predict the next element, a discrete token or ",
+        "body": "Self-supervised learning (SSL) has driven substantial progress in audio representation learning, though existing methods have increasingly relied on elaborate pre-training recipes to reach competitive performance. A markedly different pre-training philosophy underpins the most influential progress in language modeling and, more recently, in visual representation learning: rather than train encoders as static feature extractors, models are trained to predict the next element, a discrete token or a continuous embedding, from the preceding context. Autoregressive prediction thereby provides a unified pre-training interface that transfers across modalities, compelling the model to learn the underlying data distribution. We ask whether such a simple causal paradigm can yield strong audio learne",
+        "url": "https://arxiv.org/abs/2608.19863",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2607.21596",
+        "title": "FlowEvo: Self-Evolving Agents through the Co-Evolution of Workflows and Executable Skills",
+        "summary": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores",
+        "body": "Large language model agents can adapt to complex tasks by constructing workflows at inference time, but procedures discovered in one episode are usually discarded after execution. Existing skill libraries provide reusable executable routines, but are typically assembled offline and do not grow from the agent's own workflows. We introduce FlowEvo, a training-free framework in which workflows and skills co-evolve at inference time. FlowEvo compiles successful workflows into callable skills, stores them in a persistent bank, and uses retrieved skills either through direct execution or as context for constructing new workflows. It also tracks each skill's downstream utility and suppresses skills that cause negative transfer. Using a shared GPT-4o-mini backbone, FlowEvo achieves the highest acc",
+        "url": "https://arxiv.org/abs/2607.21596",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-08-19T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      }
+    ],
+    "errors": [
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403",
+      "Hacker News AI: HTTP 502"
+    ]
+  }
+]
