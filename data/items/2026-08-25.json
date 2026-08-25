@@ -1,1058 +1,498 @@
 [
   {
-    "id": "aihot:aihot:cmt7nq1d02bs1ro7373u88po4",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmt7nq1d02bs1ro7373u88po4",
-    "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
-    "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需 PFC，可在百万 GPU 规模下提供高吞吐、低尾延迟。现有 RDMA Verbs API 和软件栈无需修改即可运行。",
-    "body": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需 PFC，可在百万 GPU 规模下提供高吞吐、低尾延迟。现有 RDMA Verbs API 和软件栈无需修改即可运行。",
-    "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
-    "sourceName": "Meta Engineering Blog（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-08-24T18:02:29.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmt7nq1d02bs1ro7373u88po4",
-      "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
-      "title_en": "MetaRoCE： A New RDMA Transport Built for AI-Scale Ethernet",
-      "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
-      "permalink": "https://aihot.virxact.com/items/cmt7nq1d02bs1ro7373u88po4",
-      "source": "Meta Engineering Blog（RSS）",
-      "publishedAt": "2026-08-24T18:02:29.000Z",
-      "discoveredAt": "2026-08-24T19:56:45.475Z",
-      "summary": "Meta 设计并开源了 MetaRoCE，一个专为 AI 工作负载在通用以太网上打造的 RDMA 传输协议，已通过 Open Compute Project（OCP）发布规范、参考软件实现和合规测试套件。该协议将智能移至端点，原生支持乱序交付、多路径、无损容忍和双向拥塞控制，无需 PFC，可在百万 GPU 规模下提供高吞吐、低尾延迟。现有 RDMA Verbs API 和软件栈无需修改即可运行。",
-      "category": "ai-products",
-      "score": 62,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt7nq1d02bs1ro7373u88po4"
-      }
+    "id": "github_trending:github:ayghri/i-have-adhd",
+    "source": "github_trending",
+    "sourceItemId": "github:ayghri/i-have-adhd",
+    "title": "ayghri/i-have-adhd",
+    "summary": "A skill to stop your coding agent from burying the answer.",
+    "url": "https://github.com/ayghri/i-have-adhd",
+    "publishedAt": "2026-08-25T03:53:25.212Z",
+    "metrics": {
+      "rank": 3
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet",
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/ayghri/i-have-adhd",
     "sources": [
-      "aihot"
+      "github_trending"
     ],
     "sourceLinks": [
       {
-        "source": "aihot",
-        "url": "https://engineering.fb.com/2026/08/24/networking-traffic/metaroce-rdma-transport-ai-ethernet"
+        "source": "github_trending",
+        "url": "https://github.com/ayghri/i-have-adhd"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmt7e0g7y232wro738qg82x67",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmt7e0g7y232wro738qg82x67",
-    "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
-    "summary": "NVIDIA 实测数据显示，Vera Rubin NVL72 在智能体工作负载下每兆瓦吞吐量较 GB300 NVL72 最高提升 30 倍，每百万 token 成本降低至 35 倍。",
-    "body": "NVIDIA 实测数据显示，Vera Rubin NVL72 在智能体工作负载下每兆瓦吞吐量较 GB300 NVL72 最高提升 30 倍，每百万 token 成本降低至 35 倍。",
-    "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
-    "sourceName": "NVIDIA Blog（RSS）",
-    "sourceCategory": "ai-products",
-    "publishedAt": "2026-08-24T15:00:19.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmt7e0g7y232wro738qg82x67",
-      "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
-      "title_en": "Up to 30x More Work Per Watt： NVIDIA Vera Rubin NVL72 Sets a New Efficiency Standard for AI Agents",
-      "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
-      "permalink": "https://aihot.virxact.com/items/cmt7e0g7y232wro738qg82x67",
-      "source": "NVIDIA Blog（RSS）",
-      "publishedAt": "2026-08-24T15:00:19.000Z",
-      "discoveredAt": "2026-08-24T15:24:53.435Z",
-      "summary": "NVIDIA 实测数据显示，Vera Rubin NVL72 在智能体工作负载下每兆瓦吞吐量较 GB300 NVL72 最高提升 30 倍，每百万 token 成本降低至 35 倍。",
-      "category": "ai-products",
-      "score": 63,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt7e0g7y232wro738qg82x67"
-      }
+    "id": "github_trending:github:microsoft/AI-For-Beginners",
+    "source": "github_trending",
+    "sourceItemId": "github:microsoft/AI-For-Beginners",
+    "title": "microsoft/AI-For-Beginners",
+    "summary": "12 Weeks, 24 Lessons, AI for All!",
+    "url": "https://github.com/microsoft/AI-For-Beginners",
+    "publishedAt": "2026-08-25T03:53:25.215Z",
+    "metrics": {
+      "rank": 6
     },
-    "systemCategory": "product",
-    "canonicalUrl": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents",
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/microsoft/AI-For-Beginners",
     "sources": [
-      "aihot"
+      "github_trending"
     ],
     "sourceLinks": [
       {
-        "source": "aihot",
-        "url": "https://blogs.nvidia.com/blog/vera-rubin-nvl72-efficiency-ai-agents"
+        "source": "github_trending",
+        "url": "https://github.com/microsoft/AI-For-Beginners"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmt7e3m7h234gro73wwwhymb0",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmt7e3m7h234gro73wwwhymb0",
-    "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-    "summary": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-    "body": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-    "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-    "sourceName": "TechCrunch：AI（RSS）",
-    "sourceCategory": "tip",
-    "publishedAt": "2026-08-24T15:00:00.000Z",
-    "metrics": {},
-    "metadata": {},
-    "rawJson": {
-      "id": "cmt7e3m7h234gro73wwwhymb0",
-      "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
-      "title_en": "OpenAI is building AI agents for everything. Will everyone use them？",
-      "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
-      "permalink": "https://aihot.virxact.com/items/cmt7e3m7h234gro73wwwhymb0",
-      "source": "TechCrunch：AI（RSS）",
-      "publishedAt": "2026-08-24T15:00:00.000Z",
-      "discoveredAt": "2026-08-24T15:27:22.134Z",
-      "summary": "OpenAI 推出 ChatGPT Work，将 Codex 改造为面向非工程师的智能体产品，最低订阅档每月 20 美元即可使用，旨在让白领通过 LLM 自主完成多步骤工作。OpenAI 内部 6 月有 98% 员工使用 Codex，但组织订阅者仅 17%、个人订阅者不足 1%。公司正通过简化界面扩大采用，以支撑其巨额训练投入。",
-      "category": "tip",
-      "score": 70,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt7e3m7h234gro73wwwhymb0"
+    "id": "github_trending:github:1jehuang/jcode",
+    "source": "github_trending",
+    "sourceItemId": "github:1jehuang/jcode",
+    "title": "1jehuang/jcode",
+    "summary": "The most RAM efficient harness https://jcode.sh jcode The most RAM efficient harness The most intelligent harness Website · Docs · SDK · Benchmarks · Features · Install · Quick Start · Further Reading · Contributing Installation # macOS & Linux curl -fsSL h...",
+    "url": "https://github.com/1jehuang/jcode",
+    "publishedAt": "2026-08-25T03:53:25.229Z",
+    "metrics": {
+      "rank": 15
+    },
+    "metadata": {
+      "period": "weekly",
+      "variant": "github_trending_rss"
+    },
+    "systemCategory": "github",
+    "canonicalUrl": "https://github.com/1jehuang/jcode",
+    "sources": [
+      "github_trending"
+    ],
+    "sourceLinks": [
+      {
+        "source": "github_trending",
+        "url": "https://github.com/1jehuang/jcode"
       }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://github.com/l3a0/claude-plugins",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://github.com/l3a0/claude-plugins",
+    "title": "A Claude Code skill that recovers export-blocked Kindle highlights",
+    "summary": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 45 # Comments: 11",
+    "body": "Article URL: https://github.com/l3a0/claude-plugins Comments URL: https://news.ycombinator.com/item?id=49424758 Points: 45 # Comments: 11",
+    "url": "https://github.com/l3a0/claude-plugins",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T19:32:18.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
     },
     "systemCategory": "news",
-    "canonicalUrl": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them",
+    "canonicalUrl": "https://github.com/l3a0/claude-plugins",
     "sources": [
-      "aihot"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "aihot",
-        "url": "https://techcrunch.com/2026/08/24/openai-is-building-an-ai-agent-for-everything-will-everyone-use-them"
+        "source": "builder_hackernews",
+        "url": "https://github.com/l3a0/claude-plugins"
       }
     ]
   },
   {
-    "id": "aihot:aihot:cmt7nzq6i2c27ro73tqxagz44",
-    "source": "aihot",
-    "sourceItemId": "aihot:cmt7nzq6i2c27ro73tqxagz44",
-    "title": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
-    "summary": "GPT-5.6 模型家族现已登陆软件开发智能体 Kiro，包含 Sol、Terra 和 Luna 三款模型。在 Terminal-Bench 2.1 测试中，GPT-5.6 Terra 在 Kiro 内完成任务成本降低约 82%。该更新由 OpenAI 与 AWS 合作优化，旨在以更少迭代和更高 token 价值帮助开发者产出更高质量的代码。",
-    "body": "GPT-5.6 模型家族现已登陆软件开发智能体 Kiro，包含 Sol、Terra 和 Luna 三款模型。在 Terminal-Bench 2.1 测试中，GPT-5.6 Terra 在 Kiro 内完成任务成本降低约 82%。该更新由 OpenAI 与 AWS 合作优化，旨在以更少迭代和更高 token 价值帮助开发者产出更高质量的代码。",
-    "url": "https://openai.com/index/gpt-5-6-in-kiro",
-    "sourceName": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-    "sourceCategory": "ai-models",
-    "publishedAt": "2026-08-24T12:00:00.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+    "title": "Coding expertise is going to collapse from AI reliance",
+    "summary": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 496 # Comments: 485",
+    "body": "Article URL: https://larsfaye.com/articles/ai-coding-will-prevent-expertise Comments URL: https://news.ycombinator.com/item?id=49421554 Points: 496 # Comments: 485",
+    "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T15:52:33.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "OpenAI Blog"
+      "feedSource": "Hacker News AI"
     },
-    "rawJson": {
-      "id": "cmt7nzq6i2c27ro73tqxagz44",
-      "title": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
-      "title_en": "Advancing price-performance for developers with GPT-5.6 in Kiro",
-      "url": "https://openai.com/index/gpt-5-6-in-kiro",
-      "permalink": "https://aihot.virxact.com/items/cmt7nzq6i2c27ro73tqxagz44",
-      "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-      "publishedAt": "2026-08-24T12:00:00.000Z",
-      "discoveredAt": "2026-08-24T20:04:17.547Z",
-      "summary": "GPT-5.6 模型家族现已登陆软件开发智能体 Kiro，包含 Sol、Terra 和 Luna 三款模型。在 Terminal-Bench 2.1 测试中，GPT-5.6 Terra 在 Kiro 内完成任务成本降低约 82%。该更新由 OpenAI 与 AWS 合作优化，旨在以更少迭代和更高 token 价值帮助开发者产出更高质量的代码。",
-      "category": "ai-models",
-      "score": 59,
-      "selected": true,
-      "attribution": {
-        "source": "AIHOT",
-        "canonical": "https://aihot.virxact.com/items/cmt7nzq6i2c27ro73tqxagz44"
-      }
-    },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://openai.com/index/gpt-5-6-in-kiro",
+    "systemCategory": "news",
+    "canonicalUrl": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise",
     "sources": [
-      "aihot",
-      "builder_openai"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "aihot",
-        "url": "https://openai.com/index/gpt-5-6-in-kiro"
-      },
-      {
-        "source": "builder_openai",
-        "url": "https://openai.com/index/gpt-5-6-in-kiro"
+        "source": "builder_hackernews",
+        "url": "https://larsfaye.com/articles/ai-coding-will-prevent-expertise"
       }
     ]
   },
   {
-    "id": "product_hunt:ph:1186033",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1186033",
-    "title": "Construct Computer",
-    "summary": "Your AI coworker gets a computer. You get your day back.",
-    "body": "AI workforce for solo founders and small teams. Any MCP or skill installs like an app, agents build the tools that don't exist yet, deployed and managed by the platform, shareable to the whole team, and any agent action that you like turns into a reusable workflow so agents spend less time thinking and more time doing.",
-    "url": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/WTHQ4KSPC225E6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 338,
-      "comments": 37,
-      "rank": 1,
-      "score": 338
-    },
-    "metadata": {
-      "slug": "construct-computer",
-      "topics": [
-        "Productivity",
-        "Task Management",
-        "Artificial Intelligence"
-      ]
-    },
-    "rawJson": {
-      "id": "1186033",
-      "name": "Construct Computer",
-      "slug": "construct-computer",
-      "tagline": "Your AI coworker gets a computer. You get your day back.",
-      "description": "AI workforce for solo founders and small teams. Any MCP or skill installs like an app, agents build the tools that don't exist yet, deployed and managed by the platform, shareable to the whole team, and any agent action that you like turns into a reusable workflow so agents spend less time thinking and more time doing.",
-      "url": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/WTHQ4KSPC225E6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 338,
-      "commentsCount": 37,
-      "dailyRank": 1,
-      "latestScore": 338,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Task Management",
-              "slug": "task-management"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/construct-computer",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/construct-computer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1223147",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1223147",
-    "title": "FetchSandbox MCP",
-    "summary": "The MCP that proves your AI's integration fixes work",
-    "body": "Your agent's integration fix passes CI. The data is still wrong. FetchSandbox MCP reproduces the real failure on your code, fixes it, and proves the fix held. A receipt, not a vibe. 70+ API sandboxes. One config block in Cursor or Claude Code.",
-    "url": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/WOUOLDN26NYVUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 248,
-      "comments": 33,
-      "rank": 2,
-      "score": 248
-    },
-    "metadata": {
-      "slug": "fetchsandbox-mcp",
-      "topics": [
-        "API",
-        "Developer Tools",
-        "Artificial Intelligence"
-      ]
-    },
-    "rawJson": {
-      "id": "1223147",
-      "name": "FetchSandbox MCP",
-      "slug": "fetchsandbox-mcp",
-      "tagline": "The MCP that proves your AI's integration fixes work",
-      "description": "Your agent's integration fix passes CI. The data is still wrong. FetchSandbox MCP reproduces the real failure on your code, fixes it, and proves the fix held. A receipt, not a vibe. 70+ API sandboxes. One config block in Cursor or Claude Code.",
-      "url": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/WOUOLDN26NYVUI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 248,
-      "commentsCount": 33,
-      "dailyRank": 2,
-      "latestScore": 248,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "API",
-              "slug": "api-1"
-            }
-          },
-          {
-            "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/fetchsandbox",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/fetchsandbox?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1217834",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1217834",
-    "title": "Aximote",
-    "summary": "Your car data, finally in your pocket",
-    "body": "Aximote brings the data from your car to your iPhone and turns every drive into something you can understand. Trips appear automatically with insights into consumption, charging, costs and driving efficiency. Customize a dashboard with 20+ vehicle metrics, compare trips and long-term trends, manage multiple cars, and keep one continuous driving history—even when you switch brands. No additional hardware required.",
-    "url": "https://www.producthunt.com/products/aximote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/IK7GY4H42E2FDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 217,
-      "comments": 16,
-      "rank": 3,
-      "score": 217
-    },
-    "metadata": {
-      "slug": "aximote",
-      "topics": [
-        "iOS",
-        "Apple",
-        "Data & Analytics"
-      ]
-    },
-    "rawJson": {
-      "id": "1217834",
-      "name": "Aximote",
-      "slug": "aximote",
-      "tagline": "Your car data, finally in your pocket",
-      "description": "Aximote brings the data from your car to your iPhone and turns every drive into something you can understand. Trips appear automatically with insights into consumption, charging, costs and driving efficiency. Customize a dashboard with 20+ vehicle metrics, compare trips and long-term trends, manage multiple cars, and keep one continuous driving history—even when you switch brands. No additional hardware required.",
-      "url": "https://www.producthunt.com/products/aximote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/IK7GY4H42E2FDM?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 217,
-      "commentsCount": 16,
-      "dailyRank": 3,
-      "latestScore": 217,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "iOS",
-              "slug": "ios"
-            }
-          },
-          {
-            "node": {
-              "name": "Apple",
-              "slug": "apple"
-            }
-          },
-          {
-            "node": {
-              "name": "Data & Analytics",
-              "slug": "data-analytics"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/aximote",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/aximote?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1229381",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1229381",
-    "title": "OpenLogi",
-    "summary": "A local-first alternative to Logitech Options+",
-    "body": "A native, local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++ — no account, no telemetry.",
-    "url": "https://www.producthunt.com/products/openlogi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/7MQBGZEICSBSJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 191,
-      "comments": 6,
-      "rank": 4,
-      "score": 191
-    },
-    "metadata": {
-      "slug": "openlogi",
-      "topics": [
-        "Productivity",
-        "Open Source",
-        "Hardware"
-      ]
-    },
-    "rawJson": {
-      "id": "1229381",
-      "name": "OpenLogi",
-      "slug": "openlogi",
-      "tagline": "A local-first alternative to Logitech Options+",
-      "description": "A native, local-first alternative to Logitech Options+, written in Rust. Remap buttons, drive DPI and SmartShift over HID++ — no account, no telemetry.",
-      "url": "https://www.producthunt.com/products/openlogi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/7MQBGZEICSBSJ5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 191,
-      "commentsCount": 6,
-      "dailyRank": 4,
-      "latestScore": 191,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Open Source",
-              "slug": "open-source"
-            }
-          },
-          {
-            "node": {
-              "name": "Hardware",
-              "slug": "hardware"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/openlogi",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/openlogi?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1228104",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1228104",
-    "title": "Claude Academy",
-    "summary": "The Official Learning Hub by Anthropic",
-    "body": "Master the entire Claude stack—from basic prompting and AI fluency to building complex multi-agent workflows. Claude Academy brings self-paced courses, developer tutorials, and official certification paths into a single interactive learning environment. Start learning at academy.claude.com!",
-    "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/5XZCCZGFQOKTU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 170,
-      "comments": 3,
-      "rank": 5,
-      "score": 170
-    },
-    "metadata": {
-      "slug": "claude-academy",
-      "topics": [
-        "Education",
-        "Artificial Intelligence",
-        "Online Learning"
-      ]
-    },
-    "rawJson": {
-      "id": "1228104",
-      "name": "Claude Academy",
-      "slug": "claude-academy",
-      "tagline": "The Official Learning Hub by Anthropic",
-      "description": "Master the entire Claude stack—from basic prompting and AI fluency to building complex multi-agent workflows. Claude Academy brings self-paced courses, developer tutorials, and official certification paths into a single interactive learning environment. Start learning at academy.claude.com!",
-      "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/5XZCCZGFQOKTU2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 170,
-      "commentsCount": 3,
-      "dailyRank": 5,
-      "latestScore": 170,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Education",
-              "slug": "education"
-            }
-          },
-          {
-            "node": {
-              "name": "Artificial Intelligence",
-              "slug": "artificial-intelligence"
-            }
-          },
-          {
-            "node": {
-              "name": "Online Learning",
-              "slug": "online-learning"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/claude-academy",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/claude-academy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1227238",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1227238",
-    "title": "Yatko",
-    "summary": "The download button Github forgot to add",
-    "body": "Yatko (yatko.app) turns any public Github repo into clean download links that picks the right release asset for each visitor's OS and architecture. Swap the domain — one click to the right binary.",
-    "url": "https://www.producthunt.com/products/yatko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/O3BHFNXR7NLXF7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 119,
-      "comments": 11,
-      "rank": 6,
-      "score": 119
-    },
-    "metadata": {
-      "slug": "yatko",
-      "topics": [
-        "Developer Tools",
-        "GitHub"
-      ]
-    },
-    "rawJson": {
-      "id": "1227238",
-      "name": "Yatko",
-      "slug": "yatko",
-      "tagline": "The download button Github forgot to add",
-      "description": "Yatko (yatko.app) turns any public Github repo into clean download links that picks the right release asset for each visitor's OS and architecture. Swap the domain — one click to the right binary.",
-      "url": "https://www.producthunt.com/products/yatko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/O3BHFNXR7NLXF7?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 119,
-      "commentsCount": 11,
-      "dailyRank": 6,
-      "latestScore": 119,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Developer Tools",
-              "slug": "developer-tools"
-            }
-          },
-          {
-            "node": {
-              "name": "GitHub",
-              "slug": "github"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/yatko",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/yatko?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1226244",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1226244",
-    "title": "Plask",
-    "summary": "Have little ducks show how deep you dive on your Apple Watch",
-    "body": "Plask turns your Apple Watch into a tiny aquatic theatre: pixel-art rubber ducks that dive when you do, your real depth on screen, and a duck or ten. With premium, you get sharks, the Loch Ness-monster, a castaway, surströmming, and more.",
-    "url": "https://www.producthunt.com/products/plask-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/2LNRTIPEFZQPWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 106,
-      "comments": 12,
-      "rank": 7,
-      "score": 106
-    },
-    "metadata": {
-      "slug": "plask-4",
-      "topics": [
-        "Apple Watch",
-        "Funny",
-        "Art"
-      ]
-    },
-    "rawJson": {
-      "id": "1226244",
-      "name": "Plask",
-      "slug": "plask-4",
-      "tagline": "Have little ducks show how deep you dive on your Apple Watch",
-      "description": "Plask turns your Apple Watch into a tiny aquatic theatre: pixel-art rubber ducks that dive when you do, your real depth on screen, and a duck or ten. With premium, you get sharks, the Loch Ness-monster, a castaway, surströmming, and more.",
-      "url": "https://www.producthunt.com/products/plask-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/2LNRTIPEFZQPWX?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 106,
-      "commentsCount": 12,
-      "dailyRank": 7,
-      "latestScore": 106,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Apple Watch",
-              "slug": "apple-watch"
-            }
-          },
-          {
-            "node": {
-              "name": "Funny",
-              "slug": "funny"
-            }
-          },
-          {
-            "node": {
-              "name": "Art",
-              "slug": "art"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/plask-3",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/plask-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1227963",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1227963",
-    "title": "KanaSensei",
-    "summary": "Read Japanese kana in two weeks",
-    "body": "KanaSensei is a web app for learning to read Japanese. Practice hiragana and katakana with adaptive drills, challenges, memorable mnemonics, native audio, and progress tracking.",
-    "url": "https://www.producthunt.com/products/kanasensei?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/DZC2H6TKFBDYCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 104,
-      "comments": 6,
-      "rank": 8,
-      "score": 104
-    },
-    "metadata": {
-      "slug": "kanasensei",
-      "topics": [
-        "Education",
-        "Languages",
-        "Online Learning"
-      ]
-    },
-    "rawJson": {
-      "id": "1227963",
-      "name": "KanaSensei",
-      "slug": "kanasensei",
-      "tagline": "Read Japanese kana in two weeks",
-      "description": "KanaSensei is a web app for learning to read Japanese. Practice hiragana and katakana with adaptive drills, challenges, memorable mnemonics, native audio, and progress tracking.",
-      "url": "https://www.producthunt.com/products/kanasensei?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/DZC2H6TKFBDYCC?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 104,
-      "commentsCount": 6,
-      "dailyRank": 8,
-      "latestScore": 104,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Education",
-              "slug": "education"
-            }
-          },
-          {
-            "node": {
-              "name": "Languages",
-              "slug": "languages"
-            }
-          },
-          {
-            "node": {
-              "name": "Online Learning",
-              "slug": "online-learning"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/kanasensei",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/kanasensei?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1224087",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1224087",
-    "title": "Tab Notes",
-    "summary": "Turn your browser new tab into a distraction-free notepad",
-    "body": "Tab Notes turns every new browser tab into a distraction-free notepad. Capture thoughts instantly with rich text, tables, and syntax-highlighted code blocks, or sketch ideas using the built-in shape canvas. Works completely offline with local storage or syncs privately to your personal Google Drive with zero server lock-in. Access notes in full-screen tabs, via a quick toolbar popup over any website, and export totxt ormd anytime.",
-    "url": "https://www.producthunt.com/products/tab-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/BCSJED4WJINCHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 90,
-      "comments": 3,
-      "rank": 9,
-      "score": 90
-    },
-    "metadata": {
-      "slug": "tab-notes-2",
-      "topics": [
-        "Chrome Extensions",
-        "Productivity",
-        "Notes"
-      ]
-    },
-    "rawJson": {
-      "id": "1224087",
-      "name": "Tab Notes",
-      "slug": "tab-notes-2",
-      "tagline": "Turn your browser new tab into a distraction-free notepad",
-      "description": "Tab Notes turns every new browser tab into a distraction-free notepad. Capture thoughts instantly with rich text, tables, and syntax-highlighted code blocks, or sketch ideas using the built-in shape canvas. Works completely offline with local storage or syncs privately to your personal Google Drive with zero server lock-in. Access notes in full-screen tabs, via a quick toolbar popup over any website, and export totxt ormd anytime.",
-      "url": "https://www.producthunt.com/products/tab-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/BCSJED4WJINCHW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 90,
-      "commentsCount": 3,
-      "dailyRank": 9,
-      "latestScore": 90,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Chrome Extensions",
-              "slug": "chrome-extensions"
-            }
-          },
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Notes",
-              "slug": "notes"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/tab-notes",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/tab-notes?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "product_hunt:ph:1224596",
-    "source": "product_hunt",
-    "sourceItemId": "ph:1224596",
-    "title": "Yattayo",
-    "summary": "A physical slider to-do board, faithfully rebuilt in 3D",
-    "body": "Yattayo is a to-do list you can feel. Every task is a real 3D slider on an orange board — drag the knob, hear the ratchet click, and an \"OK\" stamp lands on it. Done. • Every task is a sticky note. Tap it and handwrite or type right on the paper • Swipe a finished note to peel it off the board • Spin the whole board around with your finger • Widgets show the real board — slide the switch without opening the app • iPhone, Apple Watch and Mac, synced over iCloud Free for up to 3 tasks.",
-    "url": "https://www.producthunt.com/products/yattayo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "externalUrl": "https://www.producthunt.com/r/C6TYBUL6553NIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-    "publishedAt": "2026-08-23T07:01:00Z",
-    "metrics": {
-      "votes": 87,
-      "comments": 2,
-      "rank": 10,
-      "score": 87
-    },
-    "metadata": {
-      "slug": "yattayo",
-      "topics": [
-        "Android",
-        "iOS",
-        "Productivity",
-        "Task Management"
-      ]
-    },
-    "rawJson": {
-      "id": "1224596",
-      "name": "Yattayo",
-      "slug": "yattayo",
-      "tagline": "A physical slider to-do board, faithfully rebuilt in 3D",
-      "description": "Yattayo is a to-do list you can feel. Every task is a real 3D slider on an orange board — drag the knob, hear the ratchet click, and an \"OK\" stamp lands on it. Done. • Every task is a sticky note. Tap it and handwrite or type right on the paper • Swipe a finished note to peel it off the board • Spin the whole board around with your finger • Widgets show the real board — slide the switch without opening the app • iPhone, Apple Watch and Mac, synced over iCloud Free for up to 3 tasks.",
-      "url": "https://www.producthunt.com/products/yattayo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "website": "https://www.producthunt.com/r/C6TYBUL6553NIO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-      "votesCount": 87,
-      "commentsCount": 2,
-      "dailyRank": 10,
-      "latestScore": 87,
-      "featuredAt": "2026-08-23T07:01:00Z",
-      "createdAt": "2026-08-23T07:01:00Z",
-      "topics": {
-        "edges": [
-          {
-            "node": {
-              "name": "Android",
-              "slug": "android"
-            }
-          },
-          {
-            "node": {
-              "name": "iOS",
-              "slug": "ios"
-            }
-          },
-          {
-            "node": {
-              "name": "Productivity",
-              "slug": "productivity"
-            }
-          },
-          {
-            "node": {
-              "name": "Task Management",
-              "slug": "task-management"
-            }
-          }
-        ]
-      }
-    },
-    "systemCategory": "product",
-    "canonicalUrl": "https://www.producthunt.com/products/yattayo",
-    "sources": [
-      "product_hunt"
-    ],
-    "sourceLinks": [
-      {
-        "source": "product_hunt",
-        "url": "https://www.producthunt.com/products/yattayo?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:bojieli/ai-agent-book",
-    "source": "github_trending",
-    "sourceItemId": "github:bojieli/ai-agent-book",
-    "title": "bojieli/ai-agent-book",
-    "summary": "《深入理解 AI Agent：设计原理与工程实践》（李博杰 著）开源主仓库：全书正文、编译版 PDF 与按章配套代码 深入理解 AI Agent：设计原理与工程实践 中文 ← 当前 · English · Español · Bahasa Indonesia · العربية · 繁體中文（台灣） · Русский · Tiếng Việt · தமிழ் · 日本語 · Türkçe · 한국어 · Magyar · עברית 📥 下载 PDF / EPUB （推荐）— 推荐使用 PDF / EPU...",
-    "url": "https://github.com/bojieli/ai-agent-book",
-    "publishedAt": "2026-08-25T03:00:59.744Z",
-    "metrics": {
-      "rank": 10
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/bojieli/ai-agent-book",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/bojieli/ai-agent-book"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:megadose/holehe",
-    "source": "github_trending",
-    "sourceItemId": "github:megadose/holehe",
-    "title": "megadose/holehe",
-    "summary": "holehe allows you to check if the mail is used on different sites like twitter, instagram and will retrieve information on sites with the forgotten password function.",
-    "url": "https://github.com/megadose/holehe",
-    "publishedAt": "2026-08-25T03:00:59.750Z",
-    "metrics": {
-      "rank": 17
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/megadose/holehe",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/megadose/holehe"
-      }
-    ]
-  },
-  {
-    "id": "github_trending:github:akitaonrails/ai-memory",
-    "source": "github_trending",
-    "sourceItemId": "github:akitaonrails/ai-memory",
-    "title": "akitaonrails/ai-memory",
-    "summary": "Solution for long term memory for agent coding CLIs and to facilitate handoff between different agent vendors Long-term memory for AI coding agents.",
-    "url": "https://github.com/akitaonrails/ai-memory",
-    "publishedAt": "2026-08-25T03:00:59.755Z",
-    "metrics": {
-      "rank": 19
-    },
-    "metadata": {
-      "period": "weekly",
-      "variant": "github_trending_rss"
-    },
-    "systemCategory": "github",
-    "canonicalUrl": "https://github.com/akitaonrails/ai-memory",
-    "sources": [
-      "github_trending"
-    ],
-    "sourceLinks": [
-      {
-        "source": "github_trending",
-        "url": "https://github.com/akitaonrails/ai-memory"
-      }
-    ]
-  },
-  {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "title": "llm-anthropic 0.27",
-    "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made th",
-    "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-anthropic/releases/tag/0.27\">llm-anthropic 0.27</a></p> <p>This release of the Anthropic plugin for <a href=\"https://llm.datasette.io/\">LLM</a> mainly provides compatibility with the recently released <a href=\"https://github.com/anthropics/anthropic-sdk-python/releases/tag/v1.0.0\">anthropic v1.0.0</a> Python library, which switches from <code>httpx</code> to <a href=\"https://github.com/pydantic/httpx2\">httpx2</a>. OpenAI made the same change in their <a href=\"https://github.com/openai/openai-python/releases/tag/v3.0.0\">v3.0.0 release</a> two weeks ago.</p> <p>Anthropic provide this <a href=\"https://github.com/anthropics/anthropic-sdk-python/blob/v1.0.0/MIGRATION.md\">migration guide</a> for upgrading to 1.0, so I prompted F",
-    "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-08-24T16:27:04.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://developers.openai.com/api/docs/pricing",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://developers.openai.com/api/docs/pricing",
+    "title": "OpenAI: GPT 5.6 Sol price reduction (until at least Nov 21)",
+    "summary": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 311 # Comments: 284",
+    "body": "Article URL: https://developers.openai.com/api/docs/pricing Comments URL: https://news.ycombinator.com/item?id=49421074 Points: 311 # Comments: 284",
+    "url": "https://developers.openai.com/api/docs/pricing",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T15:22:43.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Aug/24/llm-anthropic",
+    "systemCategory": "news",
+    "canonicalUrl": "https://developers.openai.com/api/docs/pricing",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Aug/24/llm-anthropic/"
+        "source": "builder_hackernews",
+        "url": "https://developers.openai.com/api/docs/pricing"
       }
     ]
   },
   {
-    "id": "builder_blog:builder_blog:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-    "source": "builder_blog",
-    "sourceItemId": "builder_blog:https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-    "title": "Your executable is a SQLite database",
-    "summary": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then ar",
-    "body": "<p><strong><a href=\"https://fzakaria.com/2026/08/23/your-executable-is-a-sqlite-database\">Your executable is a SQLite database</a></strong></p> Farid Zakaria describes a neat Linux pattern for creating a SQLite database file that can be directly used as an executable binary.</p> <p>The trick sets the SQLite file format's 4-byte application ID (68 bytes into the file) to SELF, standing for Structured Executable &amp; Linkable Format. The various components of the ELF executable format are then arranged into a number of different SQLite tables, using <a href=\"https://github.com/fzakaria/selfdb/blob/main/schema/self.sql\">this schema</a>.</p> <p>Their <code>self-exec</code> interpreter (<a href=\"https://github.com/fzakaria/selfdb/blob/main/loader/self-exec.c\">C code here</a>) can then extract ",
-    "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/",
-    "sourceName": "Simon Willison",
-    "sourceCategory": "technical",
-    "authorName": "Simon Willison",
-    "publishedAt": "2026-08-24T11:38:15.000Z",
+    "id": "builder_hackernews:builder_hackernews:https://corkmac.app/our-ai-stance/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://corkmac.app/our-ai-stance/",
+    "title": "We never use AI. For anything",
+    "summary": "Article URL: https://corkmac.app/our-ai-stance/ Comments URL: https://news.ycombinator.com/item?id=49417313 Points: 81 # Comments: 95",
+    "body": "Article URL: https://corkmac.app/our-ai-stance/ Comments URL: https://news.ycombinator.com/item?id=49417313 Points: 81 # Comments: 95",
+    "url": "https://corkmac.app/our-ai-stance/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T09:32:32.000Z",
     "metrics": {},
     "metadata": {
-      "feedSource": "Simon Willison"
+      "feedSource": "Hacker News AI"
     },
-    "systemCategory": "technical",
-    "canonicalUrl": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database",
+    "systemCategory": "news",
+    "canonicalUrl": "https://corkmac.app/our-ai-stance",
     "sources": [
-      "builder_blog"
+      "builder_hackernews"
     ],
     "sourceLinks": [
       {
-        "source": "builder_blog",
-        "url": "https://simonwillison.net/2026/Aug/24/your-executable-is-a-sqlite-database/"
+        "source": "builder_hackernews",
+        "url": "https://corkmac.app/our-ai-stance/"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2608.23283",
+    "id": "builder_hackernews:builder_hackernews:https://status.claude.com/uptime",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://status.claude.com/uptime",
+    "title": "Anthropic Claude and API service outages",
+    "summary": "Article URL: https://status.claude.com/uptime Comments URL: https://news.ycombinator.com/item?id=49415907 Points: 75 # Comments: 60",
+    "body": "Article URL: https://status.claude.com/uptime Comments URL: https://news.ycombinator.com/item?id=49415907 Points: 75 # Comments: 60",
+    "url": "https://status.claude.com/uptime",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T06:32:28.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://status.claude.com/uptime",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://status.claude.com/uptime"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://github.com/thiagotigaz/ocr-it",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://github.com/thiagotigaz/ocr-it",
+    "title": "OCR It – pull text out of un-copyable documents for your LLM",
+    "summary": "Article URL: https://github.com/thiagotigaz/ocr-it Comments URL: https://news.ycombinator.com/item?id=49415852 Points: 121 # Comments: 28",
+    "body": "Article URL: https://github.com/thiagotigaz/ocr-it Comments URL: https://news.ycombinator.com/item?id=49415852 Points: 121 # Comments: 28",
+    "url": "https://github.com/thiagotigaz/ocr-it",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T06:25:31.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://github.com/thiagotigaz/ocr-it",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://github.com/thiagotigaz/ocr-it"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://cmart.blog/claude-writing/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://cmart.blog/claude-writing/",
+    "title": "Why is Anthropic's public writing style so unlike Claude's?",
+    "summary": "Article URL: https://cmart.blog/claude-writing/ Comments URL: https://news.ycombinator.com/item?id=49414934 Points: 73 # Comments: 66",
+    "body": "Article URL: https://cmart.blog/claude-writing/ Comments URL: https://news.ycombinator.com/item?id=49414934 Points: 73 # Comments: 66",
+    "url": "https://cmart.blog/claude-writing/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-24T03:32:42.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://cmart.blog/claude-writing",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://cmart.blog/claude-writing/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://pantel.is/projects/ai-gaming-companion/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://pantel.is/projects/ai-gaming-companion/",
+    "title": "I built a low-latency AI companion that plays Skyrim with me",
+    "summary": "Article URL: https://pantel.is/projects/ai-gaming-companion/ Comments URL: https://news.ycombinator.com/item?id=49413561 Points: 345 # Comments: 69",
+    "body": "Article URL: https://pantel.is/projects/ai-gaming-companion/ Comments URL: https://news.ycombinator.com/item?id=49413561 Points: 345 # Comments: 69",
+    "url": "https://pantel.is/projects/ai-gaming-companion/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T23:18:17.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://pantel.is/projects/ai-gaming-companion",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://pantel.is/projects/ai-gaming-companion/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://github.com/AlpinDale/gpt2.cmake",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://github.com/AlpinDale/gpt2.cmake",
+    "title": "Implementation of GPT-2 in pure CMake",
+    "summary": "Article URL: https://github.com/AlpinDale/gpt2.cmake Comments URL: https://news.ycombinator.com/item?id=49412909 Points: 90 # Comments: 19",
+    "body": "Article URL: https://github.com/AlpinDale/gpt2.cmake Comments URL: https://news.ycombinator.com/item?id=49412909 Points: 90 # Comments: 19",
+    "url": "https://github.com/AlpinDale/gpt2.cmake",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T21:41:17.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://github.com/AlpinDale/gpt2.cmake",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://github.com/AlpinDale/gpt2.cmake"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://www.youtube.com/watch?v=2ZU3j4GQ4K8",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.youtube.com/watch?v=2ZU3j4GQ4K8",
+    "title": "I'm Done Coding with AI",
+    "summary": "Article URL: https://www.youtube.com/watch?v=2ZU3j4GQ4K8 Comments URL: https://news.ycombinator.com/item?id=49412003 Points: 38 # Comments: 10",
+    "body": "Article URL: https://www.youtube.com/watch?v=2ZU3j4GQ4K8 Comments URL: https://news.ycombinator.com/item?id=49412003 Points: 38 # Comments: 10",
+    "url": "https://www.youtube.com/watch?v=2ZU3j4GQ4K8",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T19:57:12.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.youtube.com/watch?v=2ZU3j4GQ4K8",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://www.youtube.com/watch?v=2ZU3j4GQ4K8"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://surya.website/rling-qwen-to-paint-with-code",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://surya.website/rling-qwen-to-paint-with-code",
+    "title": "Training AI to Paint with Code",
+    "summary": "Article URL: https://surya.website/rling-qwen-to-paint-with-code Comments URL: https://news.ycombinator.com/item?id=49411800 Points: 38 # Comments: 3",
+    "body": "Article URL: https://surya.website/rling-qwen-to-paint-with-code Comments URL: https://news.ycombinator.com/item?id=49411800 Points: 38 # Comments: 3",
+    "url": "https://surya.website/rling-qwen-to-paint-with-code",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T19:39:29.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://surya.website/rling-qwen-to-paint-with-code",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://surya.website/rling-qwen-to-paint-with-code"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+    "title": "Anthropic's best AI model struggles to attract users as cheaper tools thrive",
+    "summary": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 770 # Comments: 678",
+    "body": "Article URL: https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245 Comments URL: https://news.ycombinator.com/item?id=49411102 Points: 770 # Comments: 678",
+    "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T18:16:37.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://www.ft.com/content/5ee49718-c258-4f01-aa32-7e5b76ae5245"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://omegion.dev/2026/08/ai-and-infrastructure-engineering/",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://omegion.dev/2026/08/ai-and-infrastructure-engineering/",
+    "title": "AI and Infrastructure Engineering",
+    "summary": "Article URL: https://omegion.dev/2026/08/ai-and-infrastructure-engineering/ Comments URL: https://news.ycombinator.com/item?id=49411024 Points: 71 # Comments: 39",
+    "body": "Article URL: https://omegion.dev/2026/08/ai-and-infrastructure-engineering/ Comments URL: https://news.ycombinator.com/item?id=49411024 Points: 71 # Comments: 39",
+    "url": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering/",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T18:09:01.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://omegion.dev/2026/08/ai-and-infrastructure-engineering/"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://fabiensanglard.net/agent.md/index.html",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://fabiensanglard.net/agent.md/index.html",
+    "title": "My agent.md to improve LLM-assisted code quality",
+    "summary": "Article URL: https://fabiensanglard.net/agent.md/index.html Comments URL: https://news.ycombinator.com/item?id=49410932 Points: 398 # Comments: 172",
+    "body": "Article URL: https://fabiensanglard.net/agent.md/index.html Comments URL: https://news.ycombinator.com/item?id=49410932 Points: 398 # Comments: 172",
+    "url": "https://fabiensanglard.net/agent.md/index.html",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T17:59:52.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://fabiensanglard.net/agent.md/index.html",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://fabiensanglard.net/agent.md/index.html"
+      }
+    ]
+  },
+  {
+    "id": "builder_hackernews:builder_hackernews:https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+    "source": "builder_hackernews",
+    "sourceItemId": "builder_hackernews:https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+    "title": "We must not grant AI agents legal personhood",
+    "summary": "Article URL: https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473 Comments URL: https://news.ycombinator.com/item?id=49410628 Points: 62 # Comments: 111",
+    "body": "Article URL: https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473 Comments URL: https://news.ycombinator.com/item?id=49410628 Points: 62 # Comments: 111",
+    "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+    "sourceName": "Hacker News AI",
+    "sourceCategory": "news",
+    "publishedAt": "2026-08-23T17:25:03.000Z",
+    "metrics": {},
+    "metadata": {
+      "feedSource": "Hacker News AI"
+    },
+    "systemCategory": "news",
+    "canonicalUrl": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473",
+    "sources": [
+      "builder_hackernews"
+    ],
+    "sourceLinks": [
+      {
+        "source": "builder_hackernews",
+        "url": "https://www.ft.com/content/b8cc4bf4-6d3c-4974-8428-9a091983c473"
+      }
+    ]
+  },
+  {
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2608.23552",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.23283",
-    "title": "Apodex 1.1: Scaling Agentic Intelligence for Complex Work",
-    "summary": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, verifiable progress toward a real-world objective. Apodex 1.1 develops this capability along two complementary dimensions. Environment Scaling expands the diversity and verifiability of executable file, s",
-    "body": "General-purpose language models can reason and synthesize knowledge, but complex work also requires sustained interaction with files, information sources, and executable code, together with state maintenance, failure recovery, and verifiable delivery. We call this working capability: sustained, verifiable progress toward a real-world objective. Apodex 1.1 develops this capability along two complementary dimensions. Environment Scaling expands the diversity and verifiability of executable file, search, and code environments, while Agentic Coordination Scaling trains agents to decompose long-horizon tasks, delegate parallel work, integrate asynchronous results, and replan. A shared execution harness and AgentOS maintain task state and provenance across tools and agents, and training turns en",
-    "url": "https://arxiv.org/abs/2608.23283",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.23552",
+    "title": "Prime Agent: A Self-Improving RLM Harness",
+    "summary": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectorie",
+    "body": "Language models are sequential processors, but long-horizon agency requires external information and computation beyond model weights and active context. Prime Agent is an open-source harness for long-horizon evaluation and coding-agent workflows. A persistent IPython REPL follows the Recursive Language Model abstraction for programmatic context processing and test-time compute, while Continual Harness preserves histories, memories, skills, prompts, and subagent specifications across trajectories. Recursive subagents coordinate through direct agent-to-agent communication, and the Agents View lets humans inspect and manage daemon-backed sessions. Prime Agent standardizes execution, recovery, verification, and resource accounting while leaving strategy construction to the model. This low-fri",
+    "url": "https://arxiv.org/abs/2608.23552",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-08-23T20:00:00.000Z",
@@ -1061,25 +501,25 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2608.23283",
+    "canonicalUrl": "https://arxiv.org/abs/2608.23552",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2608.23283"
+        "url": "https://arxiv.org/abs/2608.23552"
       }
     ]
   },
   {
-    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2608.22856",
+    "id": "builder_huggingface:builder_huggingface:https://arxiv.org/abs/2608.23565",
     "source": "builder_huggingface",
-    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.22856",
-    "title": "Same Agent, Different Answers: A Repeat-Aware Audit of Corpus-Induced Answer Churn in Retrieval-Augmented QA",
-    "summary": "A retrieval-augmented QA system can return different answers after an index expansion even when its requested model identifier, prompt, retrieval policy, evidence depth, rendering, and exposed generation controls are held fixed. Aggregate accuracy may hide these changes when gains and losses cancel, while ordinary generation variability makes one-shot comparisons overstate update effects. We call the hidden phenomenon accuracy-blind answer churn and introduce the Snapshot Compatibility Audit, wh",
-    "body": "A retrieval-augmented QA system can return different answers after an index expansion even when its requested model identifier, prompt, retrieval policy, evidence depth, rendering, and exposed generation controls are held fixed. Aggregate accuracy may hide these changes when gains and losses cancel, while ordinary generation variability makes one-shot comparisons overstate update effects. We call the hidden phenomenon accuracy-blind answer churn and introduce the Snapshot Compatibility Audit, which estimates excess answer churn by subtracting same-snapshot repeat disagreement from cross-snapshot disagreement. We instantiate it by expanding one frozen FineWeb prefix from one to seven shards. In a preregistered 400-question Natural Questions study, normalized-exact and blinded-semantic exces",
-    "url": "https://arxiv.org/abs/2608.22856",
+    "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2608.23565",
+    "title": "ReWorld: An Interactive World Model with Long-Horizon Memory",
+    "summary": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over the entire history, and random head routing keeps either capability from binding to particular heads; r",
+    "body": "An interactive world model must follow the user's actions, remember the places it has shown, and stream in real time. The tension is structural: control wants a short horizon, memory wants an unbounded one. ReWorld separates the two during training and bounds them at inference. Mixed per-head attention windows confine most heads to the recent past while a small set of global heads attends over the entire history, and random head routing keeps either capability from binding to particular heads; random chunk dropping makes sparse histories in-distribution. At inference the whole past lives under a fixed budget: a bounded KV cache backed by a pose-indexed landmark bank, from which the model retrieves the landmarks nearest the current pose. A metric-scale-aligned data engine places eight sourc",
+    "url": "https://arxiv.org/abs/2608.23565",
     "sourceName": "HuggingFace Papers",
     "sourceCategory": "technical",
     "publishedAt": "2026-08-23T20:00:00.000Z",
@@ -1088,14 +528,14 @@
       "feedSource": "HuggingFace Papers"
     },
     "systemCategory": "technical",
-    "canonicalUrl": "https://arxiv.org/abs/2608.22856",
+    "canonicalUrl": "https://arxiv.org/abs/2608.23565",
     "sources": [
       "builder_huggingface"
     ],
     "sourceLinks": [
       {
         "source": "builder_huggingface",
-        "url": "https://arxiv.org/abs/2608.22856"
+        "url": "https://arxiv.org/abs/2608.23565"
       }
     ]
   }
