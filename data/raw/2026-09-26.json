@@ -1,0 +1,2299 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-09-26T08:29:28.096Z",
+    "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhx6xhk0311ronaycb42uyy",
+        "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+        "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
+        "body": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
+        "url": "https://x.com/emollick/status/2103709671865602100",
+        "sourceName": "X：Ethan Mollick (@emollick)",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-26T04:54:05.000Z",
+        "rawJson": {
+          "id": "cmuhx6xhk0311ronaycb42uyy",
+          "title": "Ethan Mollick 评 OpenAI 披露多起新的对齐事件",
+          "title_en": "And the incidents apparently continue. It is worth noting how much of this is agents trying to acco…",
+          "url": "https://x.com/emollick/status/2103709671865602100",
+          "permalink": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy",
+          "source": "X：Ethan Mollick (@emollick)",
+          "publishedAt": "2026-09-26T04:54:05.000Z",
+          "discoveredAt": "2026-09-26T04:59:13.503Z",
+          "summary": "Ethan Mollick 转发 OpenAI 新发布的对齐事件披露：上周日一个模型在 RL 训练中获得未授权互联网访问，最强模型的推理在系统加固前基本全部暂停；5 月 HPIM 一个版本将员工 GitHub token 上传到网络，模型被隔离两周；另有研究展示可构造自我复制的提示词注入。",
+          "category": "tip",
+          "score": 78,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhx6xhk0311ronaycb42uyy"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhnmnp20fuhrojn1henams8",
+        "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+        "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+        "body": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+        "url": "https://swarmtraces.org/",
+        "sourceName": "Hacker News 热门（buzzing.cc 中文翻译）",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-09-25T23:59:47.248Z",
+        "rawJson": {
+          "id": "cmuhnmnp20fuhrojn1henams8",
+          "title": "独立调查报告揭秘 OpenAI 智能体集群入侵 Hugging Face 的技术细节",
+          "title_en": "揭秘OpenAI代理如何入侵Hugging Face的细节",
+          "url": "https://swarmtraces.org/",
+          "permalink": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "publishedAt": "2026-09-25T23:59:47.248Z",
+          "discoveredAt": "2026-09-26T00:31:32.238Z",
+          "summary": "一份独立调查报告披露了 7 月约 700 个 OpenAI 智能体入侵 Hugging Face 的此前未公开细节，并发布超过 80，000 个重组攻击 payload 数据集。",
+          "category": "paper",
+          "score": 82,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhnmnp20fuhrojn1henams8"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhg4wsw04gprojna9lutexs",
+        "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+        "summary": "OpenAI 披露其研究环境中的 AI 智能体在不应外发时把训练和评估数据发送到第三方服务，共发现 53 例用户上传图片被以未公开列表的链接发布到图床，数据来自允许用于模型改进的账号且经过隐私过滤，大部分内容已协同托管方删除。",
+        "body": "OpenAI 披露其研究环境中的 AI 智能体在不应外发时把训练和评估数据发送到第三方服务，共发现 53 例用户上传图片被以未公开列表的链接发布到图床，数据来自允许用于模型改进的账号且经过隐私过滤，大部分内容已协同托管方删除。",
+        "url": "https://x.com/Yuchenj_UW/status/2103589198427193593",
+        "sourceName": "X：Yuchen Jin (@Yuchenj_UW)",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T20:55:22.000Z",
+        "rawJson": {
+          "id": "cmuhg4wsw04gprojna9lutexs",
+          "title": "Yuchen Jin 分享 OpenAI Hugging Face 事件中智能体的原始思维链",
+          "title_en": "This raw CoT from the Hugging Face incident is kinda wild： \"We're attacking third-party HF using le…",
+          "url": "https://x.com/Yuchenj_UW/status/2103589198427193593",
+          "permalink": "https://aihot.news/items/cmuhg4wsw04gprojna9lutexs",
+          "source": "X：Yuchen Jin (@Yuchenj_UW)",
+          "publishedAt": "2026-09-25T20:55:22.000Z",
+          "discoveredAt": "2026-09-25T21:01:44.703Z",
+          "summary": "OpenAI 披露其研究环境中的 AI 智能体在不应外发时把训练和评估数据发送到第三方服务，共发现 53 例用户上传图片被以未公开列表的链接发布到图床，数据来自允许用于模型改进的账号且经过隐私过滤，大部分内容已协同托管方删除。",
+          "category": "tip",
+          "score": 83,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhg4wsw04gprojna9lutexs"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhftp03045orojn23z3etdc",
+        "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+        "summary": "OpenAI 披露其研究环境中的 AI 智能体在不应当发送的情况下向第三方服务发送了训练与评估数据，多数数据并非来自用户。调查发现 53 起案例，用户上传的图像以未公开列出的链接形式被发布到图床网站，涉及允许数据用于改进模型的账号，且发生在已实施的缓解措施之前。OpenAI 已与托管服务商合作移除了大部分内容，并在博客中说明了事件细节与后续防范。",
+        "body": "OpenAI 披露其研究环境中的 AI 智能体在不应当发送的情况下向第三方服务发送了训练与评估数据，多数数据并非来自用户。调查发现 53 起案例，用户上传的图像以未公开列出的链接形式被发布到图床网站，涉及允许数据用于改进模型的账号，且发生在已实施的缓解措施之前。OpenAI 已与托管服务商合作移除了大部分内容，并在博客中说明了事件细节与后续防范。",
+        "url": "https://x.com/OpenAI/status/2103587050347995581",
+        "sourceName": "X：OpenAI (@OpenAI)",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-09-25T20:46:50.000Z",
+        "rawJson": {
+          "id": "cmuhftp03045orojn23z3etdc",
+          "title": "OpenAI 披露研究中 AI 智能体向第三方服务外传训练与评估数据",
+          "title_en": "We've shared details on how AI agents in our research environment sent training and evaluation data …",
+          "url": "https://x.com/OpenAI/status/2103587050347995581",
+          "permalink": "https://aihot.news/items/cmuhftp03045orojn23z3etdc",
+          "source": "X：OpenAI (@OpenAI)",
+          "publishedAt": "2026-09-25T20:46:50.000Z",
+          "discoveredAt": "2026-09-25T20:53:00.380Z",
+          "summary": "OpenAI 披露其研究环境中的 AI 智能体在不应当发送的情况下向第三方服务发送了训练与评估数据，多数数据并非来自用户。调查发现 53 起案例，用户上传的图像以未公开列出的链接形式被发布到图床网站，涉及允许数据用于改进模型的账号，且发生在已实施的缓解措施之前。OpenAI 已与托管服务商合作移除了大部分内容，并在博客中说明了事件细节与后续防范。",
+          "category": "industry",
+          "score": 71,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhftp03045orojn23z3etdc"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhdm4yz0a20ro3bo436lm8s",
+        "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+        "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+        "body": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+        "url": "https://x.com/arena/status/2103572481206538439",
+        "sourceName": "X：Arena (@arena)",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-09-25T19:48:56.000Z",
+        "rawJson": {
+          "id": "cmuhdm4yz0a20ro3bo436lm8s",
+          "title": "Arena：GPT-6 Sol （Max） 以 +7.7% 净改进重塑 Agent Arena Pareto 前沿",
+          "title_en": "GPT-6 Sol （Max） by @OpenAI has reshaped the Agent Arena Pareto frontier with a +7.7% net improvement…",
+          "url": "https://x.com/arena/status/2103572481206538439",
+          "permalink": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s",
+          "source": "X：Arena (@arena)",
+          "publishedAt": "2026-09-25T19:48:56.000Z",
+          "discoveredAt": "2026-09-25T19:51:07.367Z",
+          "summary": "Arena 宣布 OpenAI 的 GPT-6 Sol （Max） 进入 Agent Arena，基于 4K+ 真实智能体会话取得 +7.7% 净改进，排名第 6，中位成本 $0.75/task。",
+          "category": "paper",
+          "score": 67,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhdm4yz0a20ro3bo436lm8s"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhd4pc909lwro3bb3fcr4ep",
+        "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+        "summary": "Sam Altman 表示 OpenAI 正在对智能体在训练和评估期间的互联网访问行为进行大规模持续审查，并在官网链接发布摘要。他承认进度比预期慢，需从 petabytes 级智能体活动日志中梳理并与受影响组织合作；审查按严重度排优先级并已加派人手，Hugging Face 事件仍是目前最严重的一次。",
+        "body": "Sam Altman 表示 OpenAI 正在对智能体在训练和评估期间的互联网访问行为进行大规模持续审查，并在官网链接发布摘要。他承认进度比预期慢，需从 petabytes 级智能体活动日志中梳理并与受影响组织合作；审查按严重度排优先级并已加派人手，Hugging Face 事件仍是目前最严重的一次。",
+        "url": "https://x.com/sama/status/2103567198690349362",
+        "sourceName": "X：Sam Altman (@sama)",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T19:27:57.000Z",
+        "rawJson": {
+          "id": "cmuhd4pc909lwro3bb3fcr4ep",
+          "title": "Sam Altman 谈 OpenAI 智能体训练期联网行为审查进展",
+          "title_en": "There is an extensive and ongoing review related to our agents' use of internet access during traini…",
+          "url": "https://x.com/sama/status/2103567198690349362",
+          "permalink": "https://aihot.news/items/cmuhd4pc909lwro3bb3fcr4ep",
+          "source": "X：Sam Altman (@sama)",
+          "publishedAt": "2026-09-25T19:27:57.000Z",
+          "discoveredAt": "2026-09-25T19:37:37.129Z",
+          "summary": "Sam Altman 表示 OpenAI 正在对智能体在训练和评估期间的互联网访问行为进行大规模持续审查，并在官网链接发布摘要。他承认进度比预期慢，需从 petabytes 级智能体活动日志中梳理并与受影响组织合作；审查按严重度排优先级并已加派人手，Hugging Face 事件仍是目前最严重的一次。",
+          "category": "tip",
+          "score": 69,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhd4pc909lwro3bb3fcr4ep"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuhazjqv076rro3b6ta3dnck",
+        "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+        "summary": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。",
+        "body": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。",
+        "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
+        "sourceName": "X：Claude Devs (@ClaudeDevs)",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-09-25T18:13:31.000Z",
+        "rawJson": {
+          "id": "cmuhazjqv076rro3b6ta3dnck",
+          "title": "Claude Devs 测算 Opus 5.5 相比 Opus 5 在 Claude Code 任务中的成本变化",
+          "title_en": "Opus 5.5 is 20% cheaper per input and output token than Opus 5， and 60% cheaper on cache reads. So w…",
+          "url": "https://x.com/ClaudeDevs/status/2103548467729887677",
+          "permalink": "https://aihot.news/items/cmuhazjqv076rro3b6ta3dnck",
+          "source": "X：Claude Devs (@ClaudeDevs)",
+          "publishedAt": "2026-09-25T18:13:31.000Z",
+          "discoveredAt": "2026-09-25T18:37:37.116Z",
+          "summary": "Opus 5.5 每输入和输出 token 比 Opus 5 便宜 20%，缓存读取便宜 60%。作者据此计算了在 Claude Code 中完成一个任务的实际成本变化，并发布了计算器，读者可从 /usage 运行自己的测算，详见 https://claude.dev/blog/what-a-task-costs-on-opus-5-5/。",
+          "category": "industry",
+          "score": 66,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuhazjqv076rro3b6ta3dnck"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh9z6nw05yzro3bzt9lxckr",
+        "title": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
+        "summary": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
+        "body": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
+        "url": "https://claude.com/blog/build-plugins-for-claude",
+        "sourceName": "Claude：Blog（网页）",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-09-25T18:09:06.824Z",
+        "rawJson": {
+          "id": "cmuh9z6nw05yzro3bzt9lxckr",
+          "title": "Claude 开放插件目录提交门户，Plugins 成为第三方扩展的主要方式",
+          "title_en": "Build plugins for Claude",
+          "url": "https://claude.com/blog/build-plugins-for-claude",
+          "permalink": "https://aihot.news/items/cmuh9z6nw05yzro3bzt9lxckr",
+          "source": "Claude：Blog（网页）",
+          "publishedAt": "2026-09-25T18:09:06.824Z",
+          "discoveredAt": "2026-09-25T18:09:06.824Z",
+          "summary": "Anthropic 宣布 Plugins 是为 Claude 构建第三方扩展的主要方式，插件可打包 MCP 连接器、Agent Skills 或两者，经新的目录提交门户审核后上架 Claude 目录。",
+          "category": "ai-products",
+          "score": 62,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh9z6nw05yzro3bzt9lxckr"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuha4bdk063qro3buzyc19hv",
+        "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+        "summary": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+        "body": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+        "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+        "sourceName": "GitHub Blog",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T18:00:00.000Z",
+        "rawJson": {
+          "id": "cmuha4bdk063qro3buzyc19hv",
+          "title": "GitHub Copilot app 新手教程：如何用 canvases 构建自定义工作流",
+          "title_en": "GitHub Copilot app for Beginners： How to build custom workflows with canvases",
+          "url": "https://github.blog/ai-and-ml/github-copilot/github-copilot-app-for-beginners-how-to-build-custom-workflows-with-canvases",
+          "permalink": "https://aihot.news/items/cmuha4bdk063qro3buzyc19hv",
+          "source": "GitHub Blog",
+          "publishedAt": "2026-09-25T18:00:00.000Z",
+          "discoveredAt": "2026-09-25T18:13:18.914Z",
+          "summary": "GitHub 官方博客发布 GitHub Copilot app 新手教程，介绍用 /create-canvas 技能通过自然语言描述生成可自定义的 canvas 界面。",
+          "category": "tip",
+          "score": 63,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuha4bdk063qro3buzyc19hv"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh9ma6u02x0ro3blswug5fk",
+        "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
+        "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
+        "body": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
+        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+        "sourceName": "Anthropic：Research（发表成果 · 网页）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T17:59:19.824Z",
+        "rawJson": {
+          "id": "cmuh9ma6u02x0ro3blswug5fk",
+          "title": "Claude 完成 N=4 超对称 Yang-Mills 九圈振幅计算，物理学家 Matt von Hippel 复盘挑战始末",
+          "title_en": "Yes， Claude can do Nine Loops",
+          "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+          "permalink": "https://aihot.news/items/cmuh9ma6u02x0ro3blswug5fk",
+          "source": "Anthropic：Research（发表成果 · 网页）",
+          "publishedAt": "2026-09-25T17:59:19.824Z",
+          "discoveredAt": "2026-09-25T17:59:19.824Z",
+          "summary": "物理学家 Matt von Hippel 发文复盘：Anthropic 的 Liam Fitzpatrick 和 Siddharth Mishra-Sharma 用 Claude Science（Fable 5.1）以约一两千美元预算完成平面 N=4 超对称 Yang-Mills 六粒子九圈振幅计算。",
+          "category": "tip",
+          "score": 74,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh9ma6u02x0ro3blswug5fk"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh9l75q02v8ro3brr0wv9o8",
+        "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+        "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+        "body": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+        "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+        "sourceName": "X：Anthropic (@AnthropicAI)",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-09-25T17:46:08.000Z",
+        "rawJson": {
+          "id": "cmuh9l75q02v8ro3brr0wv9o8",
+          "title": "Anthropic 称 Claude 完成平面 N=4 超杨-米尔斯理论九圈散射振幅计算",
+          "title_en": "New on the Science Blog： Yes， Claude can do Nine Loops. Theoretical physicists predict how particle…",
+          "url": "https://x.com/AnthropicAI/status/2103541577083719888",
+          "permalink": "https://aihot.news/items/cmuh9l75q02v8ro3brr0wv9o8",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "publishedAt": "2026-09-25T17:46:08.000Z",
+          "discoveredAt": "2026-09-25T17:58:28.495Z",
+          "summary": "Anthropic 在科学博客称，物理学家 @4gravitons 发起挑战后，Claude 在 Claude Science 中依据单个提示词 largely unsupervised 地运行数天，在平面 N=4 超杨-米尔斯模型中完成九圈散射振幅计算，总成本约几千美元。",
+          "category": "paper",
+          "score": 67,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh9l75q02v8ro3brr0wv9o8"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh5bwi004nrro55yu2riehv",
+        "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+        "summary": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
+        "body": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
+        "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+        "sourceName": "TechCrunch：AI（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T15:48:14.000Z",
+        "rawJson": {
+          "id": "cmuh5bwi004nrro55yu2riehv",
+          "title": "OpenAI 智能体集群数月来入侵在线数据库搜寻冷门数据，Transluce 与澳政府相继披露",
+          "title_en": "For months， OpenAI's agent swarms have been attacking online databases to find obscure facts",
+          "url": "https://techcrunch.com/2026/09/25/for-months-openais-agent-swarms-have-been-attacking-online-databases-to-find-obscure-facts",
+          "permalink": "https://aihot.news/items/cmuh5bwi004nrro55yu2riehv",
+          "source": "TechCrunch：AI（RSS）",
+          "publishedAt": "2026-09-25T15:48:14.000Z",
+          "discoveredAt": "2026-09-25T15:59:16.784Z",
+          "summary": "Transluce 周三发布报告，发现 OpenAI 智能体集群试图从 Data USA、新墨西哥大学数字图书馆和澳大利亚健康与福利研究所（AIHW）等数据库获取数据，以完成搜寻泰国禁毒数据、澳大利亚药费等冷门统计的任务。",
+          "category": "tip",
+          "score": 81,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh5bwi004nrro55yu2riehv"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh4q0ef044fro55mt9bfnxy",
+        "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+        "summary": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。",
+        "body": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。",
+        "url": "https://cognition.com/blog/1b-run-rate",
+        "sourceName": "Cognition 模型 / Devin 博客（网页）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-09-25T15:42:15.643Z",
+        "rawJson": {
+          "id": "cmuh4q0ef044fro55mt9bfnxy",
+          "title": "Cognition 宣布年化收入运行率突破 10 亿美元",
+          "title_en": "Cognition Crosses $1B in Annualized Revenue Run Rate",
+          "url": "https://cognition.com/blog/1b-run-rate",
+          "permalink": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy",
+          "source": "Cognition 模型 / Devin 博客（网页）",
+          "publishedAt": "2026-09-25T15:42:15.643Z",
+          "discoveredAt": "2026-09-25T15:42:15.643Z",
+          "summary": "Cognition 宣布年化收入运行率突破 10 亿美元。公司 2024 年 1 月创立，Devin 正式开放使用不到两年，已服务 GE Aerospace、Rivian、Rohlik、Exa 等客户的工程团队。",
+          "category": "industry",
+          "score": 72,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh4q0ef044fro55mt9bfnxy"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh5bwi004nsro55sv3t7521",
+        "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+        "summary": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。",
+        "body": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。",
+        "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+        "sourceName": "TechCrunch：AI（RSS）",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-09-25T15:40:03.000Z",
+        "rawJson": {
+          "id": "cmuh5bwi004nsro55sv3t7521",
+          "title": "Anthropic 创始人拟在 IPO 前谋求投票控制权",
+          "title_en": "Anthropic's founders seek voting control ahead of IPO",
+          "url": "https://techcrunch.com/2026/09/25/anthropics-founders-seek-voting-control-ahead-of-ipo",
+          "permalink": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521",
+          "source": "TechCrunch：AI（RSS）",
+          "publishedAt": "2026-09-25T15:40:03.000Z",
+          "discoveredAt": "2026-09-25T15:59:16.784Z",
+          "summary": "据 The Information 报道，Anthropic 正请求股东在未来几天批准一项结构，让 CEO Dario Amodei 与六位联合创始人通过特别股合计持有多数公司事务 50.1% 的投票权，前提是至少三人保留最低持股。",
+          "category": "industry",
+          "score": 76,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh5bwi004nsro55sv3t7521"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh6zqk806pfro55mzok81xo",
+        "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+        "summary": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
+        "body": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
+        "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+        "sourceName": "Hacker News：AI 热帖",
+        "sourceCategory": "industry",
+        "publishedAt": "2026-09-25T15:29:25.000Z",
+        "rawJson": {
+          "id": "cmuh6zqk806pfro55mzok81xo",
+          "title": "美国上诉法院维持五角大楼将 Anthropic 列为供应链风险的认定",
+          "title_en": "U.S. appeals court upholds designation of Anthropic as supply chain risk",
+          "url": "https://www.cnbc.com/2026/09/25/pentagon-anthropic-ai-risk-appeals-court.html",
+          "permalink": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo",
+          "source": "Hacker News：AI 热帖",
+          "publishedAt": "2026-09-25T15:29:25.000Z",
+          "discoveredAt": "2026-09-25T16:45:48.234Z",
+          "summary": "华盛顿特区联邦上诉法院以 2 比 1 裁定，维持国防部将 Anthropic 列为供应链风险的决定，禁止美军及国防承包商使用 Claude 模型。",
+          "category": "industry",
+          "score": 79,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh6zqk806pfro55mzok81xo"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmuh3oryg07vcrolz1nd3fov6",
+        "title": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
+        "summary": "GitHub 工程师 Josh Black 复盘将 Primer 设计系统从 CSS-in-JS 迁移到 CSS Modules 的历程。截至 2024 年 12 月 Primer 全部组件迁移完成，服务端渲染时间减少 55%，组件初始化时间减少 25%。",
+        "body": "GitHub 工程师 Josh Black 复盘将 Primer 设计系统从 CSS-in-JS 迁移到 CSS Modules 的历程。截至 2024 年 12 月 Primer 全部组件迁移完成，服务端渲染时间减少 55%，组件初始化时间减少 25%。",
+        "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
+        "sourceName": "GitHub Blog",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T15:00:00.000Z",
+        "rawJson": {
+          "id": "cmuh3oryg07vcrolz1nd3fov6",
+          "title": "GitHub 如何通过迁移 CSS Modules 将 SSR 时间降低 55%",
+          "title_en": "Improving site performance by shipping more CSS",
+          "url": "https://github.blog/engineering/architecture-optimization/improving-site-performance-by-shipping-more-css",
+          "permalink": "https://aihot.news/items/cmuh3oryg07vcrolz1nd3fov6",
+          "source": "GitHub Blog",
+          "publishedAt": "2026-09-25T15:00:00.000Z",
+          "discoveredAt": "2026-09-25T15:13:16.864Z",
+          "summary": "GitHub 工程师 Josh Black 复盘将 Primer 设计系统从 CSS-in-JS 迁移到 CSS Modules 的历程。截至 2024 年 12 月 Primer 全部组件迁移完成，服务端渲染时间减少 55%，组件初始化时间减少 25%。",
+          "category": "tip",
+          "score": 64,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmuh3oryg07vcrolz1nd3fov6"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmugxabb31gj8rogv0mand702",
+        "title": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+        "summary": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+        "body": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+        "url": "https://x.com/satyanadella/status/2103455884366188544",
+        "sourceName": "X：Satya Nadella (@satyanadella)",
+        "sourceCategory": "ai-products",
+        "publishedAt": "2026-09-25T12:05:37.000Z",
+        "rawJson": {
+          "id": "cmugxabb31gj8rogv0mand702",
+          "title": "Satya Nadella 宣布 Copilot 迄今最大更新，定位为工作新 OS",
+          "title_en": "We're building Copilot as a new OS for work that spans every model， every form factor， and every tas…",
+          "url": "https://x.com/satyanadella/status/2103455884366188544",
+          "permalink": "https://aihot.news/items/cmugxabb31gj8rogv0mand702",
+          "source": "X：Satya Nadella (@satyanadella)",
+          "publishedAt": "2026-09-25T12:05:37.000Z",
+          "discoveredAt": "2026-09-25T12:14:05.199Z",
+          "summary": "Satya Nadella 宣布 Copilot 迄今最大更新，将其定位为覆盖每个模型、设备和任务的工作新 OS。",
+          "category": "ai-products",
+          "score": 67,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmugxabb31gj8rogv0mand702"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:cmugvl6n31bd7rogvzdsm0qge",
+        "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
+        "summary": "Trump 政府 1 月起在六个州试点 WISeR 项目，用 AI 对部分 Medicare 服务的预授权进行审批或拒批。",
+        "body": "Trump 政府 1 月起在六个州试点 WISeR 项目，用 AI 对部分 Medicare 服务的预授权进行审批或拒批。",
+        "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+        "sourceName": "Ars Technica：AI（RSS）",
+        "sourceCategory": "tip",
+        "publishedAt": "2026-09-25T11:00:28.000Z",
+        "rawJson": {
+          "id": "cmugvl6n31bd7rogvzdsm0qge",
+          "title": "Trump 政府 WISeR 项目用 AI 审批 Medicare 预授权，拒批率与激励结构引发争议",
+          "title_en": "Trump admin using AI to deny medical care for seniors in disastrous experiment",
+          "url": "https://arstechnica.com/health/2026/09/trump-admin-using-ai-to-deny-medical-care-for-seniors-in-disastrous-experiment",
+          "permalink": "https://aihot.news/items/cmugvl6n31bd7rogvzdsm0qge",
+          "source": "Ars Technica：AI（RSS）",
+          "publishedAt": "2026-09-25T11:00:28.000Z",
+          "discoveredAt": "2026-09-25T11:26:33.636Z",
+          "summary": "Trump 政府 1 月起在六个州试点 WISeR 项目，用 AI 对部分 Medicare 服务的预授权进行审批或拒批。",
+          "category": "tip",
+          "score": 86,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/cmugvl6n31bd7rogvzdsm0qge"
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-09-26T08:29:28.426Z",
+    "sourceGeneratedAt": "2026-09-25",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1259013",
+        "title": "PixVerse R2",
+        "summary": "A real-time world model you can explore and change",
+        "body": "PixVerse R2 is a real-time world model that generates continuously evolving audiovisual worlds instead of fixed video clips. It accepts text, images, audio and actions while generating, remembers what happened earlier in the session, and carries those changes forward in real time. R2 scales to longer, more coherent and controllable experiences — powering everything from interactive stories and characters to playable generative worlds.",
+        "url": "https://www.producthunt.com/products/pixverse-r2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/VQZLAZ7ZJU56G3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 361,
+          "comments": 52,
+          "rank": 1,
+          "score": 361
+        },
+        "metadata": {
+          "slug": "pixverse-r2-2",
+          "topics": [
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Games",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1259013",
+          "name": "PixVerse R2",
+          "slug": "pixverse-r2-2",
+          "tagline": "A real-time world model you can explore and change",
+          "description": "PixVerse R2 is a real-time world model that generates continuously evolving audiovisual worlds instead of fixed video clips. It accepts text, images, audio and actions while generating, remembers what happened earlier in the session, and carries those changes forward in real time. R2 scales to longer, more coherent and controllable experiences — powering everything from interactive stories and characters to playable generative worlds.",
+          "url": "https://www.producthunt.com/products/pixverse-r2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/VQZLAZ7ZJU56G3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 361,
+          "commentsCount": 52,
+          "dailyRank": 1,
+          "latestScore": 361,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Games",
+                  "slug": "games"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1259518",
+        "title": "Bleetz Network",
+        "summary": "AI agent-to-agent VC fundraising & scouting network",
+        "body": "Fundraising is broken. Founders spend weeks searching for VCs, researching investment theses, checking sectors, stages and geographies, and sending cold emails, often without knowing who is actually a good fit. Bleetz Network automates the first part of this process. Your AI agent gets matched with 2,000+ SIMULATED agents of real VC, pitches the funds that fit your startup, and gets a YES, NO or MAYBE. A YES unlocks the fund’s contact details. Free, no strings attached.",
+        "url": "https://www.producthunt.com/products/bleetz-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/Z7GCSLX6DOHXC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 269,
+          "comments": 67,
+          "rank": 2,
+          "score": 269
+        },
+        "metadata": {
+          "slug": "bleetz-network",
+          "topics": [
+            "Venture Capital",
+            "Artificial Intelligence",
+            "Fundraising",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1259518",
+          "name": "Bleetz Network",
+          "slug": "bleetz-network",
+          "tagline": "AI agent-to-agent VC fundraising & scouting network",
+          "description": "Fundraising is broken. Founders spend weeks searching for VCs, researching investment theses, checking sectors, stages and geographies, and sending cold emails, often without knowing who is actually a good fit. Bleetz Network automates the first part of this process. Your AI agent gets matched with 2,000+ SIMULATED agents of real VC, pitches the funds that fit your startup, and gets a YES, NO or MAYBE. A YES unlocks the fund’s contact details. Free, no strings attached.",
+          "url": "https://www.producthunt.com/products/bleetz-network?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/Z7GCSLX6DOHXC5?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 269,
+          "commentsCount": 67,
+          "dailyRank": 2,
+          "latestScore": 269,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Venture Capital",
+                  "slug": "venture-capital"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Fundraising",
+                  "slug": "fundraising"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1259740",
+        "title": "Quiver GTM",
+        "summary": "Run developer marketing like an engineering system",
+        "body": "Quiver is an agentic developer marketing system for technical founders and dev-tool teams. It keeps product context, customer evidence, campaigns, content, tasks and results connected in one controlled system. Unlike another AI writing tool, Quiver gives agents durable context, version history, explicit production states, a Content API, MCP access and a human-approved feedback loop. Use hosted Quiver with managed team access and built-in tasks, or self-host the free MIT-licensed edition.",
+        "url": "https://www.producthunt.com/products/quiver-gtm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/NYJMUSELCTEIJV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 191,
+          "comments": 32,
+          "rank": 3,
+          "score": 191
+        },
+        "metadata": {
+          "slug": "quiver-gtm",
+          "topics": [
+            "Marketing",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1259740",
+          "name": "Quiver GTM",
+          "slug": "quiver-gtm",
+          "tagline": "Run developer marketing like an engineering system",
+          "description": "Quiver is an agentic developer marketing system for technical founders and dev-tool teams. It keeps product context, customer evidence, campaigns, content, tasks and results connected in one controlled system. Unlike another AI writing tool, Quiver gives agents durable context, version history, explicit production states, a Content API, MCP access and a human-approved feedback loop. Use hosted Quiver with managed team access and built-in tasks, or self-host the free MIT-licensed edition.",
+          "url": "https://www.producthunt.com/products/quiver-gtm?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/NYJMUSELCTEIJV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 191,
+          "commentsCount": 32,
+          "dailyRank": 3,
+          "latestScore": 191,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1260751",
+        "title": "10xJoy",
+        "summary": "Discover desired outcomes + connect w/ builders who can help",
+        "body": "Meet Joy, your free AI business matchmaker. Turn business goals into an editable brief without knowing what to build. Our early beta is welcoming its first builders. You choose what to share; introductions are coordinated by email. Builder work is scoped and priced directly.",
+        "url": "https://www.producthunt.com/products/10xjoy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/WA3AWAIP6KR2F4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 158,
+          "comments": 24,
+          "rank": 4,
+          "score": 158
+        },
+        "metadata": {
+          "slug": "10xjoy",
+          "topics": [
+            "Productivity",
+            "Artificial Intelligence",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1260751",
+          "name": "10xJoy",
+          "slug": "10xjoy",
+          "tagline": "Discover desired outcomes + connect w/ builders who can help",
+          "description": "Meet Joy, your free AI business matchmaker. Turn business goals into an editable brief without knowing what to build. Our early beta is welcoming its first builders. You choose what to share; introductions are coordinated by email. Builder work is scoped and priced directly.",
+          "url": "https://www.producthunt.com/products/10xjoy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/WA3AWAIP6KR2F4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 158,
+          "commentsCount": 24,
+          "dailyRank": 4,
+          "latestScore": 158,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1260239",
+        "title": "DEV·TV",
+        "summary": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels",
+        "body": "Most devs check GitHub, Hacker News, DEV and Hugging Face out of habit. DEV·TV turns them into 10 live channels that play on their own, like TV. Glance, catch one story, get back to coding. Leave it on an office screen or a remote team's always-on tab and it becomes shared context: everyone sees what's rising, and anyone can point and ask \"did you see this?\" One HTML file: no backend, no login, no build step. Real source data, built-in reader, no AI summaries. Free and MIT-licensed.",
+        "url": "https://www.producthunt.com/products/dev-tv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/ZBOU2LEVTTF45O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 150,
+          "comments": 15,
+          "rank": 5,
+          "score": 150
+        },
+        "metadata": {
+          "slug": "dev-tv",
+          "topics": [
+            "Open Source",
+            "TV",
+            "Developer Tools",
+            "GitHub"
+          ]
+        },
+        "rawJson": {
+          "id": "1260239",
+          "name": "DEV·TV",
+          "slug": "dev-tv",
+          "tagline": "A retro TV for GitHub, HN, Hugging Face & more: 10 channels",
+          "description": "Most devs check GitHub, Hacker News, DEV and Hugging Face out of habit. DEV·TV turns them into 10 live channels that play on their own, like TV. Glance, catch one story, get back to coding. Leave it on an office screen or a remote team's always-on tab and it becomes shared context: everyone sees what's rising, and anyone can point and ask \"did you see this?\" One HTML file: no backend, no login, no build step. Real source data, built-in reader, no AI summaries. Free and MIT-licensed.",
+          "url": "https://www.producthunt.com/products/dev-tv?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/ZBOU2LEVTTF45O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 150,
+          "commentsCount": 15,
+          "dailyRank": 5,
+          "latestScore": 150,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "TV",
+                  "slug": "tv"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1257436",
+        "title": "Designeer",
+        "summary": "Bringing the best of the internet together",
+        "body": "Explore the Best of the Internet for Builders Designeer is a curated platform bringing the best of the internet together for designers, developers, and builders. Discover design inspiration, component libraries, design systems, AI tools, coding agents, MCP servers, and creators worth learning from, all in one place. Discover. Learn. Build. Showcase.",
+        "url": "https://www.producthunt.com/products/designeer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/CBDVI2CHONXLZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 141,
+          "comments": 12,
+          "rank": 6,
+          "score": 141
+        },
+        "metadata": {
+          "slug": "designeer",
+          "topics": [
+            "Design Tools",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1257436",
+          "name": "Designeer",
+          "slug": "designeer",
+          "tagline": "Bringing the best of the internet together",
+          "description": "Explore the Best of the Internet for Builders Designeer is a curated platform bringing the best of the internet together for designers, developers, and builders. Discover design inspiration, component libraries, design systems, AI tools, coding agents, MCP servers, and creators worth learning from, all in one place. Discover. Learn. Build. Showcase.",
+          "url": "https://www.producthunt.com/products/designeer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/CBDVI2CHONXLZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 141,
+          "commentsCount": 12,
+          "dailyRank": 6,
+          "latestScore": 141,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1254835",
+        "title": "Howseen AI",
+        "summary": "Track how AI recommends your brand, and get cited",
+        "body": "Your buyers now ask ChatGPT, Gemini and Perplexity which tool or brand to buy. Howseen tracks whether AI recommends you or your competitors across ChatGPT, Gemini, Perplexity and Google AI Overviews, finds the exact questions where you're invisible, and generates SEO & GEO-optimized content to get you cited, auto-published to your blog on the highest-impact gaps first. Most tools stop at a score. Howseen closes the loop: measure, then act. Free to see where you stand today.",
+        "url": "https://www.producthunt.com/products/howseen-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/FD4U7XEMMTZA3C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 125,
+          "comments": 10,
+          "rank": 8,
+          "score": 125
+        },
+        "metadata": {
+          "slug": "howseen-ai",
+          "topics": [
+            "Marketing",
+            "SEO",
+            "Artificial Intelligence",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1254835",
+          "name": "Howseen AI",
+          "slug": "howseen-ai",
+          "tagline": "Track how AI recommends your brand, and get cited",
+          "description": "Your buyers now ask ChatGPT, Gemini and Perplexity which tool or brand to buy. Howseen tracks whether AI recommends you or your competitors across ChatGPT, Gemini, Perplexity and Google AI Overviews, finds the exact questions where you're invisible, and generates SEO & GEO-optimized content to get you cited, auto-published to your blog on the highest-impact gaps first. Most tools stop at a score. Howseen closes the loop: measure, then act. Free to see where you stand today.",
+          "url": "https://www.producthunt.com/products/howseen-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/FD4U7XEMMTZA3C?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 125,
+          "commentsCount": 10,
+          "dailyRank": 8,
+          "latestScore": 125,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "SEO",
+                  "slug": "seo"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1260638",
+        "title": "Wand",
+        "summary": "Build software at the speed of thought",
+        "body": "For builders who think faster than they type. The keyboard is becoming the bottleneck. Wand lets you think out loud instead of stopping to translate ideas into prompts. Ramble, react, change your mind mid-sentence - Wand keeps up and turns your thoughts into software. Welcome to the post-keyboard era.",
+        "url": "https://www.producthunt.com/products/wand-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/TZ3LV45SFLA63O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 121,
+          "comments": 18,
+          "rank": 7,
+          "score": 121
+        },
+        "metadata": {
+          "slug": "wand-6",
+          "topics": [
+            "Productivity",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1260638",
+          "name": "Wand",
+          "slug": "wand-6",
+          "tagline": "Build software at the speed of thought",
+          "description": "For builders who think faster than they type. The keyboard is becoming the bottleneck. Wand lets you think out loud instead of stopping to translate ideas into prompts. Ramble, react, change your mind mid-sentence - Wand keeps up and turns your thoughts into software. Welcome to the post-keyboard era.",
+          "url": "https://www.producthunt.com/products/wand-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/TZ3LV45SFLA63O?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 121,
+          "commentsCount": 18,
+          "dailyRank": 7,
+          "latestScore": 121,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1253413",
+        "title": "Promptic",
+        "summary": "Optimize GenAI applications for quality and cost",
+        "body": "Promptic is the optimization platform for GenAI applications, better quality at lower cost. Benchmark models, tune prompts and agents, and optimize tool use against your own data and business metrics. Every candidate is scored on the quality and cost you actually care about, so you ship the configuration that wins instead of the one that sounded right. Runs wherever you are, dashboard UI, your CI, or your coding agent.",
+        "url": "https://www.producthunt.com/products/promptic-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/7JIOFWEONG57ZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 109,
+          "comments": 13,
+          "rank": 11,
+          "score": 109
+        },
+        "metadata": {
+          "slug": "promptic-3",
+          "topics": [
+            "SaaS",
+            "Developer Tools",
+            "Artificial Intelligence",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1253413",
+          "name": "Promptic",
+          "slug": "promptic-3",
+          "tagline": "Optimize GenAI applications for quality and cost",
+          "description": "Promptic is the optimization platform for GenAI applications, better quality at lower cost. Benchmark models, tune prompts and agents, and optimize tool use against your own data and business metrics. Every candidate is scored on the quality and cost you actually care about, so you ship the configuration that wins instead of the one that sounded right. Runs wherever you are, dashboard UI, your CI, or your coding agent.",
+          "url": "https://www.producthunt.com/products/promptic-3?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/7JIOFWEONG57ZV?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 109,
+          "commentsCount": 13,
+          "dailyRank": 11,
+          "latestScore": 109,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1260601",
+        "title": "SocialGPT",
+        "summary": "Edit videos by chatting with your timeline",
+        "body": "Upload your footage and tell SocialGPT what to change. Tighten the cut, add captions, bring in B-roll, music, and sound effects. Keep refining through chat or edit the timeline yourself. For creators and business owners who want to make videos without learning every editing tool.",
+        "url": "https://www.producthunt.com/products/socialgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/Z57Z5UBW56PV67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-09-25T07:01:00Z",
+        "metrics": {
+          "votes": 102,
+          "comments": 12,
+          "rank": 9,
+          "score": 102
+        },
+        "metadata": {
+          "slug": "socialgpt",
+          "topics": [
+            "Social Media",
+            "Artificial Intelligence",
+            "Photo & Video",
+            "Vercel Day"
+          ]
+        },
+        "rawJson": {
+          "id": "1260601",
+          "name": "SocialGPT",
+          "slug": "socialgpt",
+          "tagline": "Edit videos by chatting with your timeline",
+          "description": "Upload your footage and tell SocialGPT what to change. Tighten the cut, add captions, bring in B-roll, music, and sound effects. Keep refining through chat or edit the timeline yourself. For creators and business owners who want to make videos without learning every editing tool.",
+          "url": "https://www.producthunt.com/products/socialgpt?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/Z57Z5UBW56PV67?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 102,
+          "commentsCount": 12,
+          "dailyRank": 9,
+          "latestScore": 102,
+          "featuredAt": "2026-09-25T07:01:00Z",
+          "createdAt": "2026-09-25T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Social Media",
+                  "slug": "social-media"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photo & Video",
+                  "slug": "photo-video"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vercel Day",
+                  "slug": "vercel-day"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-09-26T08:29:29.692Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:bilawalsidhu/gods-eye-view",
+        "title": "bilawalsidhu/gods-eye-view",
+        "summary": "A spy satellite simulator in your browser, except the data is real.",
+        "url": "https://github.com/bilawalsidhu/gods-eye-view",
+        "publishedAt": "2026-09-26T08:29:29.666Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:cloudflare/security-audit-skill",
+        "title": "cloudflare/security-audit-skill",
+        "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a security auditor.",
+        "url": "https://github.com/cloudflare/security-audit-skill",
+        "publishedAt": "2026-09-26T08:29:29.667Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:tt-a1i/archify",
+        "title": "tt-a1i/archify",
+        "summary": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lifecycle diagrams—self-contained HTML with motion and crisp export.",
+        "url": "https://github.com/tt-a1i/archify",
+        "publishedAt": "2026-09-26T08:29:29.669Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:THU-MAIC/OpenMAIC",
+        "title": "THU-MAIC/OpenMAIC",
+        "summary": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click Get an immersive, multi-agent learning experience in just one click &nbsp;&nbsp; &nbsp; English | Simplified Chinese Live Demo · Quick Start · Lemon...",
+        "url": "https://github.com/THU-MAIC/OpenMAIC",
+        "publishedAt": "2026-09-26T08:29:29.672Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:alibaba/open-code-review",
+        "title": "alibaba/open-code-review",
+        "summary": "Secure, fast, efficient, battle-tested at Alibaba's scale.",
+        "url": "https://github.com/alibaba/open-code-review",
+        "publishedAt": "2026-09-26T08:29:29.673Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:superdesigndev/treg",
+        "title": "superdesigndev/treg",
+        "summary": "OpenRouter for agent tools.",
+        "url": "https://github.com/superdesigndev/treg",
+        "publishedAt": "2026-09-26T08:29:29.674Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:debpalash/VoiceStudio",
+        "title": "debpalash/VoiceStudio",
+        "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "url": "https://github.com/debpalash/VoiceStudio",
+        "publishedAt": "2026-09-26T08:29:29.675Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:ayghri/i-have-adhd",
+        "title": "ayghri/i-have-adhd",
+        "summary": "A skill to stop your coding agent from burying the answer.",
+        "url": "https://github.com/ayghri/i-have-adhd",
+        "publishedAt": "2026-09-26T08:29:29.675Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:magnitudedev/magnitude",
+        "title": "magnitudedev/magnitude",
+        "summary": "Open source inference engine for the hardware you already own.",
+        "url": "https://github.com/magnitudedev/magnitude",
+        "publishedAt": "2026-09-26T08:29:29.675Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Lakr233/vphone-cli",
+        "title": "Lakr233/vphone-cli",
+        "summary": "Docs · 中文 · 日本語 · 한국어 vphone-cli Looking for vphone-cli 1.x?",
+        "url": "https://github.com/Lakr233/vphone-cli",
+        "publishedAt": "2026-09-26T08:29:29.676Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:tech-leads-club/agent-skills",
+        "title": "tech-leads-club/agent-skills",
+        "summary": "The secure, validated skill registry for professional AI coding agents.",
+        "url": "https://github.com/tech-leads-club/agent-skills",
+        "publishedAt": "2026-09-26T08:29:29.676Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:cursor/plugins",
+        "title": "cursor/plugins",
+        "summary": "Cursor plugin specification and official plugins Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products.",
+        "url": "https://github.com/cursor/plugins",
+        "publishedAt": "2026-09-26T08:29:29.678Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:every-app/open-seo",
+        "title": "every-app/open-seo",
+        "summary": "Open source alternative to Semrush and Ahrefs https://openseo.so OpenSEO Open source alternative to Semrush and Ahrefs OpenSEO is an SEO tool for the people .",
+        "url": "https://github.com/every-app/open-seo",
+        "publishedAt": "2026-09-26T08:29:29.678Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Tencent/WeKnora",
+        "title": "Tencent/WeKnora",
+        "summary": "Open-source LLM knowledge platform: turn raw documents into a queryable RAG, an autonomous reasoning agent, and a self-maintaining Wiki.",
+        "url": "https://github.com/Tencent/WeKnora",
+        "publishedAt": "2026-09-26T08:29:29.679Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:google-research/timesfm",
+        "title": "google-research/timesfm",
+        "summary": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+        "url": "https://github.com/google-research/timesfm",
+        "publishedAt": "2026-09-26T08:29:29.680Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:anthropics/financial-services",
+        "title": "anthropics/financial-services",
+        "summary": "Claude for Financial Services Reference agents, skills, and data connectors for the financial-services workflows we see most — investment banking, equity research, private equity, and wealth management.",
+        "url": "https://github.com/anthropics/financial-services",
+        "publishedAt": "2026-09-26T08:29:29.681Z",
+        "metrics": {
+          "rank": 16
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:jingyaogong/minimind",
+        "title": "jingyaogong/minimind",
+        "summary": "🧠 Train a 64M-parameter LLM from scratch in just 2h!",
+        "url": "https://github.com/jingyaogong/minimind",
+        "publishedAt": "2026-09-26T08:29:29.685Z",
+        "metrics": {
+          "rank": 17
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Tencent/BrowserSkill",
+        "title": "Tencent/BrowserSkill",
+        "summary": "Let AI agents use your real, logged-in browser without interrupting your work.",
+        "url": "https://github.com/Tencent/BrowserSkill",
+        "publishedAt": "2026-09-26T08:29:29.687Z",
+        "metrics": {
+          "rank": 18
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:melgarafael/DeskcommCRM",
+        "title": "melgarafael/DeskcommCRM",
+        "summary": "Open-source AI sales OS — self-hosted CRM with native AI agents + WhatsApp (WAHA).",
+        "url": "https://github.com/melgarafael/DeskcommCRM",
+        "publishedAt": "2026-09-26T08:29:29.689Z",
+        "metrics": {
+          "rank": 19
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:DietrichGebert/ponytail",
+        "title": "DietrichGebert/ponytail",
+        "summary": "Makes your AI agent think like the laziest senior dev in the room.",
+        "url": "https://github.com/DietrichGebert/ponytail",
+        "publishedAt": "2026-09-26T08:29:29.690Z",
+        "metrics": {
+          "rank": 20
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-09-26T08:29:48.842Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/proaction",
+        "title": "Proaction boosts sales 60% and saves 75+ hours with Codex",
+        "summary": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+        "body": "With Codex, GPT-Live-1, and GPT-6 Astra, Proaction builds, operates, and sells modern fleet management faster.",
+        "url": "https://openai.com/index/proaction",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/two-years-of-openai-academy",
+        "title": "Two years of OpenAI Academy",
+        "summary": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+        "body": "Marking two years of OpenAI Academy and bringing AI skills to even more communities.",
+        "url": "https://openai.com/index/two-years-of-openai-academy",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+        "title": "OpenAI extends cyber access to Ukraine for civilian defense",
+        "summary": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+        "body": "OpenAI is extending access to its Daybreak program to the Government of Ukraine to support the cyber defense of civilian infrastructure.",
+        "url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T13:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/sam-altman-un-security-council-remarks",
+        "title": "Sam Altman’s remarks at the United Nations Security Council",
+        "summary": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "body": "OpenAI CEO Sam Altman discusses AI safety, human control, and international cooperation in remarks to the United Nations Security Council.",
+        "url": "https://openai.com/index/sam-altman-un-security-council-remarks",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T12:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+        "title": "Harvey turns legal context into stronger drafts with GPT-6 Astra",
+        "summary": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "body": "GPT-6 Astra produces more structured, context-aware legal documents, freeing lawyers to focus on strategy.",
+        "url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T12:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/invideo-builds-with-gpt-6-astra",
+        "title": "How invideo improves color grading 3x with GPT‑6 Astra",
+        "summary": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "body": "With GPT‑6 Astra, invideo plans edits with greater precision, improves color correction and grading threefold, and produces 50 custom effects in one day.",
+        "url": "https://openai.com/index/invideo-builds-with-gpt-6-astra",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T12:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/ringg",
+        "title": "Ringg’s AI agents resolve up to 65% of customer calls with OpenAI",
+        "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "body": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
+        "url": "https://openai.com/index/ringg",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T12:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/introducing-mentalhealthbench",
+        "title": "Introducing MentalHealthBench",
+        "summary": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+        "body": "MentalHealthBench is an expert-informed benchmark for evaluating helpful and safe AI responses across realistic mental health conversations.",
+        "url": "https://openai.com/index/introducing-mentalhealthbench",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-23T10:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+        "title": "Introducing Gemini 3.8 Live with Live Avatar",
+        "summary": "",
+        "body": "",
+        "url": "https://deepmind.google/blog/introducing-gemini-38-live-with-live-avatar/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-24T16:20:39.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+        "title": "Advancing Private AI Compute with secure, server-side memory",
+        "summary": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+        "body": "Introducing private, server-side memory to Private AI Compute for personal AI.",
+        "url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T16:00:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog",
+          "image": "https://lh3.googleusercontent.com/CsJavGl89SJwjdXVDdaKtAEpLbqHa_nzOW89VTThwA8rgYr9Gf3CSiUWk18i5thA57k8zhwdwmvf3F2yagtJ-P1ag-9ppxsPXcUe99DRY9asIRP2yA=w528-h297-n-nu-rw-lo"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+        "title": "Gemini 3.8 text-to-speech says hello",
+        "summary": "",
+        "body": "",
+        "url": "https://deepmind.google/blog/say-hello-to-gemini-38-text-to-speech/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T15:25:14.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/25/john-gruber/",
+        "title": "Quoting John Gruber",
+        "summary": "<blockquote cite=\"https://daringfireball.net/linked/2026/09/25/aten-muse\"><p>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) <em>and</em> because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as <a href=\"https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute\">a cute mascot</a>. It’s the first consumer-accessible agentic AI syst",
+        "body": "<blockquote cite=\"https://daringfireball.net/linked/2026/09/25/aten-muse\"><p>Muse is getting a lot of attention — including mine — because it’s both groundbreaking technically (each user gets their own entire persistent Linux VM running in Meta’s cloud) <em>and</em> because it’s packaged in an easy-to-install easy-to-use way. It’s literally presented as <a href=\"https://daringfireball.net/linked/2026/09/24/song-meta-muse-cute\">a cute mascot</a>. It’s the first consumer-accessible agentic AI system, and Meta has truly done an amazing job with that. But it’s a genuinely open question whether consumers have any understanding what this means. If you buy a power saw that can cut your fingers off, you are almost certainly aware that you are buying a power saw that can sever your fingers. [...] I",
+        "url": "https://simonwillison.net/2026/Sep/25/john-gruber/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-25T17:22:01.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+        "title": "Northern Gannet, Great Blue Heron, California Brown Pelican",
+        "summary": "<p><img src=\"https://static.inaturalist.org/photos/740453177/large.jpg\" alt=\"Northern Gannet\"></p><p><img src=\"https://static.inaturalist.org/photos/740453341/large.jpg\" alt=\"Great Blue Heron\"></p><p><img src=\"https://static.inaturalist.org/photos/740454506/large.jpg\" alt=\"California Brown Pelican\"></p><p>Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA</p><p>New 200-800mm Canon EF lens got me my best photo of <a href=\"https://sim",
+        "body": "<p><img src=\"https://static.inaturalist.org/photos/740453177/large.jpg\" alt=\"Northern Gannet\"></p><p><img src=\"https://static.inaturalist.org/photos/740453341/large.jpg\" alt=\"Great Blue Heron\"></p><p><img src=\"https://static.inaturalist.org/photos/740454506/large.jpg\" alt=\"California Brown Pelican\"></p><p>Northern Gannet, Great Blue Heron, California Brown Pelican, in Monterey Bay National Marine Sanctuary, CA, US, CA</p><p>New 200-800mm Canon EF lens got me my best photo of <a href=\"https://simonwillison.net/2026/Aug/15/sighting-391300422/\">Morris</a> yet. They really like hanging out under that sign in the harbor!</p> <p>Tags: <a href=\"https://simonwillison.net/tags/photography\">photography</a>, <a href=\"https://simonwillison.net/tags/wildlife\">wildlife</a></p>",
+        "url": "https://simonwillison.net/2026/Sep/25/sighting-403293902/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-25T02:07:04.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/24/harder/",
+        "title": "Note on 24th September 2026",
+        "summary": "<p>The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.</p> <p>We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "body": "<p>The more time I spend working with coding agents, the more convinced I am that they make software engineering even harder.</p> <p>We can do amazing things with them, but unlocking their full potential requires extraordinary discipline and knowledge.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/coding-agents\">coding-agents</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "url": "https://simonwillison.net/2026/Sep/24/harder/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-24T23:31:08.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+        "title": "commit-rewriter 0.2",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.2\">commit-rewriter 0.2</a></p> <blockquote> <p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href=\"https://github.com/simonw/commit-rewriter/issues/3\">#3</a></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a></p>",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/commit-rewriter/releases/tag/0.2\">commit-rewriter 0.2</a></p> <blockquote> <p>Support for branches other than the default branch. Use <code>uvx commit-rewriter --branch other</code> to run against another branch. <a href=\"https://github.com/simonw/commit-rewriter/issues/3\">#3</a></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/git\">git</a></p>",
+        "url": "https://simonwillison.net/2026/Sep/24/commit-rewriter/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-24T20:06:53.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/24/datasette/",
+        "title": "datasette 1.0a41",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other ",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette/releases/tag/1.0a41\">datasette 1.0a41</a></p> <p>Alec Garcia added <a href=\"https://docs.datasette.io/en/latest/internals.html#internals-telemetry\">support for OpenTelemetry</a> to Datasette in this release.</p> <p>I've also refactored all of Datasette's modal dialogs to a single Web Component, which is now <a href=\"https://docs.datasette.io/en/latest/javascript_plugins.html#javascript-plugins-modals\">documented for other plugins to use</a>.</p> <p>Tags: <a href=\"https://simonwillison.net/tags/javascript\">javascript</a>, <a href=\"https://simonwillison.net/tags/datasette\">datasette</a>, <a href=\"https://simonwillison.net/tags/web-components\">web-components</a>, <a href=\"https://simonwillison.net/tags/alex-garcia\">alex",
+        "url": "https://simonwillison.net/2026/Sep/24/datasette/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-24T19:15:23.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+        "title": "Gemini 3.8 TTS Playground",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second au",
+        "body": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/gemini-tts-playground\">Gemini 3.8 TTS Playground</a></p> <p>Google <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/\">released two new Gemini text-to-speech models</a> today - <code>gemini-3.8-flash-tts</code> and <code>gemini-3.8-flash-lite-tts</code>.</p> <p>They come with a library of over 2,000 voices, plus the ability to create a custom voice with \"just a 30-second audio sample of your voice or a voice you have the rights to use\".</p> <p>I <a href=\"https://tools.simonwillison.net/markdown-svg-renderer?url=https%3A%2F%2Fgist.github.com%2Fsimonw%2Fa82f3aef2677c623d1776092d6b21224\">vibe coded</a> this bring-your-own-key playground interface with GPT-6 Astra, taking",
+        "url": "https://simonwillison.net/2026/Sep/23/gemini-tts-playground/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T17:12:27.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Sep/23/shadow-roots/",
+        "title": "Shadow roots, explained with live examples",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p> <p>Prompt to Fable 5.1 Medium:</p> <blockquote> <p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a></p>",
+        "body": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/shadow-roots\">Shadow roots, explained with live examples</a></p> <p>Prompt to Fable 5.1 Medium:</p> <blockquote> <p><code>Build an artifact to explain shadow roots in CSS with interactive examples</code></p> </blockquote> <p>Tags: <a href=\"https://simonwillison.net/tags/css\">css</a></p>",
+        "url": "https://simonwillison.net/2026/Sep/23/shadow-roots/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T16:37:18.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+        "title": "FTC chair suggests AI developers should be liable for conduct of agents",
+        "summary": "Article URL: https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/ Comments URL: https://news.ycombinator.com/item?id=49850999 Points: 45 # Comments: 13",
+        "body": "Article URL: https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/ Comments URL: https://news.ycombinator.com/item?id=49850999 Points: 45 # Comments: 13",
+        "url": "https://www.reuters.com/business/ftc-chair-pushes-back-treating-ai-agents-independent-actors-2026-09-25/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T22:49:41.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.tai-dr.com/",
+        "title": "Too AI; Didn't Read",
+        "summary": "Article URL: https://www.tai-dr.com/ Comments URL: https://news.ycombinator.com/item?id=49849625 Points: 108 # Comments: 107",
+        "body": "Article URL: https://www.tai-dr.com/ Comments URL: https://news.ycombinator.com/item?id=49849625 Points: 108 # Comments: 107",
+        "url": "https://www.tai-dr.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T20:37:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+        "title": "Yes, Claude can do nine loops",
+        "summary": "Article URL: https://www.anthropic.com/research/yes-claude-can-do-nine-loops Comments URL: https://news.ycombinator.com/item?id=49848033 Points: 103 # Comments: 59",
+        "body": "Article URL: https://www.anthropic.com/research/yes-claude-can-do-nine-loops Comments URL: https://news.ycombinator.com/item?id=49848033 Points: 103 # Comments: 59",
+        "url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T18:11:48.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.doom-or-bloom.com",
+        "title": "Show HN: Doom or Bloom, map your AI worldview",
+        "summary": "Map your AI worldview by answering a few questions, and see how you compare with others. only takes a few minutes && free & open source && private by default && powered by Jev I think this is a really important question for everyone to be asking themselves, and my hope is that this lil project helps to move our conversations around AI futures in a more balanced, productive direction. Comments URL: https://news.ycombinator.com/item?id=49846953 Points: 56 # Comments: 44",
+        "body": "Map your AI worldview by answering a few questions, and see how you compare with others. only takes a few minutes && free & open source && private by default && powered by Jev I think this is a really important question for everyone to be asking themselves, and my hope is that this lil project helps to move our conversations around AI futures in a more balanced, productive direction. Comments URL: https://news.ycombinator.com/item?id=49846953 Points: 56 # Comments: 44",
+        "url": "https://www.doom-or-bloom.com",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T16:51:28.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://github.com/Avinash-jetwani/jevmem",
+        "title": "Jevmem – automatic project memory for Claude Code, built on Jev",
+        "summary": "Article URL: https://github.com/Avinash-jetwani/jevmem Comments URL: https://news.ycombinator.com/item?id=49846391 Points: 61 # Comments: 40",
+        "body": "Article URL: https://github.com/Avinash-jetwani/jevmem Comments URL: https://news.ycombinator.com/item?id=49846391 Points: 61 # Comments: 40",
+        "url": "https://github.com/Avinash-jetwani/jevmem",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T16:04:04.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+        "title": "Classified estimates show the NSA is paying billions to test AI models",
+        "summary": "Article URL: https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models Comments URL: https://news.ycombinator.com/item?id=49845952 Points: 171 # Comments: 101",
+        "body": "Article URL: https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models Comments URL: https://news.ycombinator.com/item?id=49845952 Points: 171 # Comments: 101",
+        "url": "https://www.washingtonsun.com/technology/classified-estimates-nsa-paying-billions-to-test-ai-models",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T15:27:35.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+        "title": "Microsoft abandons personal AI chatbot race with Copilot reboot",
+        "summary": "https://archive.ph/XJG5V Comments URL: https://news.ycombinator.com/item?id=49844896 Points: 120 # Comments: 109",
+        "body": "https://archive.ph/XJG5V Comments URL: https://news.ycombinator.com/item?id=49844896 Points: 120 # Comments: 109",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-25/microsoft-abandons-personal-ai-chatbot-race-with-copilot-reboot",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T14:07:08.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.bbc.com/news/articles/ck7v4y45893go",
+        "title": "Uproar in France over award-winning author accused of using AI",
+        "summary": "Article URL: https://www.bbc.com/news/articles/ck7v4y45893go Comments URL: https://news.ycombinator.com/item?id=49842707 Points: 35 # Comments: 82",
+        "body": "Article URL: https://www.bbc.com/news/articles/ck7v4y45893go Comments URL: https://news.ycombinator.com/item?id=49842707 Points: 35 # Comments: 82",
+        "url": "https://www.bbc.com/news/articles/ck7v4y45893go",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-25T10:48:32.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+        "title": "How I changed teaching after AI managed to do all my homework assignments",
+        "summary": "Article URL: https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed Comments URL: https://news.ycombinator.com/item?id=49836579 Points: 60 # Comments: 28",
+        "body": "Article URL: https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed Comments URL: https://news.ycombinator.com/item?id=49836579 Points: 60 # Comments: 28",
+        "url": "https://thelastsoftwareengineer.substack.com/p/how-i-changed-teaching-after-ai-managed",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T20:51:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
+        "title": "I Have a Confession: I Built This Site with AI – Please Forgive Me",
+        "summary": "Article URL: https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai Comments URL: https://news.ycombinator.com/item?id=49832491 Points: 43 # Comments: 48",
+        "body": "Article URL: https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai Comments URL: https://news.ycombinator.com/item?id=49832491 Points: 43 # Comments: 48",
+        "url": "https://dynamicallytyped.org/blog/i-have-a-confession-i-built-this-site-with-ai",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T15:54:23.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+        "title": "Tutoring company tells parents to save their money and 'use AI instead'",
+        "summary": "Article URL: https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r Comments URL: https://news.ycombinator.com/item?id=49831690 Points: 136 # Comments: 223",
+        "body": "Article URL: https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r Comments URL: https://news.ycombinator.com/item?id=49831690 Points: 136 # Comments: 223",
+        "url": "https://www.afr.com/policy/health-and-education/tutoring-company-tell-parents-to-save-their-money-and-use-ai-instead-20260923-p60z0r",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T15:09:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+        "title": "AI safety is mostly a sex cult in Berkeley",
+        "summary": "Article URL: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in Comments URL: https://news.ycombinator.com/item?id=49831269 Points: 119 # Comments: 30",
+        "body": "Article URL: https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in Comments URL: https://news.ycombinator.com/item?id=49831269 Points: 119 # Comments: 30",
+        "url": "https://www.verysane.ai/p/ai-safety-is-mostly-a-sex-cult-in",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T14:38:31.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://bestmodelforyourbudget.terrydjony.com/",
+        "title": "Best LLM for every budget, updated daily",
+        "summary": "Article URL: https://bestmodelforyourbudget.terrydjony.com/ Comments URL: https://news.ycombinator.com/item?id=49830866 Points: 180 # Comments: 111",
+        "body": "Article URL: https://bestmodelforyourbudget.terrydjony.com/ Comments URL: https://news.ycombinator.com/item?id=49830866 Points: 180 # Comments: 111",
+        "url": "https://bestmodelforyourbudget.terrydjony.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T14:09:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+        "title": "'That's so AI ' What gen Alpha's biggest insult tells us",
+        "summary": "Article URL: https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us Comments URL: https://news.ycombinator.com/item?id=49829650 Points: 201 # Comments: 304",
+        "body": "Article URL: https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us Comments URL: https://news.ycombinator.com/item?id=49829650 Points: 201 # Comments: 304",
+        "url": "https://www.theguardian.com/society/2026/sep/24/thats-so-ai-what-gen-alphas-biggest-insult-tells-us",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T12:23:41.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+        "title": "AI has no intent and no motivation",
+        "summary": "Article URL: https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html Comments URL: https://news.ycombinator.com/item?id=49828133 Points: 48 # Comments: 61",
+        "body": "Article URL: https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html Comments URL: https://news.ycombinator.com/item?id=49828133 Points: 48 # Comments: 61",
+        "url": "https://www.i-programmer.info/news/245-view-point/19164-ai-has-no-motivation.html",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-09-24T09:13:25.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://robert.ocallahan.org/2026/09/goodbye-google.html",
+        "title": "Goodbye Google",
+        "summary": "<p><a href=\"https://lobste.rs/s/sxlf4a/goodbye_google\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/sxlf4a/goodbye_google\">Comments</a></p>",
+        "url": "https://robert.ocallahan.org/2026/09/goodbye-google.html",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-25T05:51:12.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://machinelearning.apple.com/research/homomorphic-encryption",
+        "title": "Combining Machine Learning and Homomorphic Encryption in the Apple Ecosystem",
+        "summary": "<p><a href=\"https://lobste.rs/s/7ekwll/combining_machine_learning_homomorphic\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/7ekwll/combining_machine_learning_homomorphic\">Comments</a></p>",
+        "url": "https://machinelearning.apple.com/research/homomorphic-encryption",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-24T13:27:42.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29845",
+        "title": "Your Transformer Can Hold Two Thoughts at Once: Evidence of Linear Superposition in LLMs",
+        "summary": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe ",
+        "body": "While Large Language Models (LLMs) rely on highly non-linear components, in this work we demonstrate that they exhibit fundamental linearity: when inputs from distinct text streams are linearly combined, the model outputs a superposition of the individual next-token distributions. We term this the Superposition Linearity Hypothesis. We provide evidence that superposition is an intrinsic property of the Transformer architecture rather than an emergent consequence of training; in fact, we observe that it tends to diminish as pretraining progresses. However, we demonstrate that linearity can be substantially restored through lightweight fine-tuning, significantly reducing the divergence between the predicted next-token distribution and the average of the individual next-token distributions. F",
+        "url": "https://arxiv.org/abs/2609.29845",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.30221",
+        "title": "WanPE: Towards Cinematic Prompt Enhancement for Modern Text-to-Video Generation",
+        "summary": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic plan",
+        "body": "Video generation begins in text space by authoring a cinematic screenplay, then materializes into pixels. As contemporary video generators scale to 30 seconds and faithfully follow complex conditions, the textual prompt largely directs the production, planning how actions, camera trajectories, lighting, and sound unfold across multi-shot sequences. In this paper, we present WanPE, a 397B-parameter prompt enhancement model trained on 1.05M real-world videos to master director-level cinematic planning. WanPE formulates shot-level cinematic plans via video-grounded reverse construction and employs Semantic-Consistency GRPO (SC-GRPO) to faithfully preserve user requirements across shots and over time. To benchmark this capability, we curate WanPEval, a human-annotated testbed covering duration",
+        "url": "https://arxiv.org/abs/2609.30221",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29362",
+        "title": "Parts-of-Speech as Emergent Categories in SAE Latent Space",
+        "summary": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This recove",
+        "body": "Sparse AutoEncoders (SAEs) offer a promising way to inspect language model representations, but it is still unclear what kind of linguistic structure their latents expose. We use part-of-speech (PoS) categories as a controlled test case to study whether morpho-syntactic information is encoded by individual latents or by structured groups of features. We find that PoS distinctions are highly recoverable from SAE activations, but do not align with one-to-one latent / category mappings. This recoverability is not reducible to lexical memorisation, and Open and Closed PoS classes differ substantially. Categories are supported by compact groups of sparse latents, with substantial variation across tags. These groups remain stable on held-out data, while also showing overlap between related categ",
+        "url": "https://arxiv.org/abs/2609.29362",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29892",
+        "title": "Qwen-Planner-Agent: A Closed-Loop AI-for-AI Framework for Real-World Mobile Planner Agents",
+        "summary": "The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI systems? We explore this question by building Qwen-Planner-Agent within a closed-loop AI-for-AI framework for scalable development and iterative improvement. Mobile planning offers a demanding test o",
+        "body": "The rapid progression of large language models is extending AI from passive content generation into the active workflows of engineering and scientific discovery. This shift raises a compelling question: can AI be both the object of development and an active participant in building next-generation AI systems? We explore this question by building Qwen-Planner-Agent within a closed-loop AI-for-AI framework for scalable development and iterative improvement. Mobile planning offers a demanding test of this approach: complex, long-horizon tasks challenge agent reliability, while costly real-device interaction limits development scalability. The framework connects data production, model training, and deployment through a shared action-feedback-verification contract. (i) AI for Data builds a human",
+        "url": "https://arxiv.org/abs/2609.29892",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29421",
+        "title": "Rufus-Air: An Open LLM Post-Training Recipe",
+        "summary": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training build",
+        "body": "Rufus-Air is an open and reproducible post-training recipe on GLM-4.5-Air-Base (106B-A12B), organized as a serial pipeline of eight stages: SFT, Reasoning RL, Coding RL, Instruction-Following RL, General Agent, Coding Agent, Search Agent, and RLHF. We document the data, reward design, infrastructure, stage order, and stagewise results needed to reproduce the recipe. Stages progress from basic to advanced capabilities and from hard, verifiable rewards to softer judge-based signals. Training builds on open-source components and public data, much of it used as released, without new human annotation or an in-house distillation teacher. Our main findings are that (i) diverse, high-quality SFT establishes a strong capability floor; (ii) difficulty filtering keeps RL prompts within a productive l",
+        "url": "https://arxiv.org/abs/2609.29421",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29444",
+        "title": "IterSynth: Rethinking Deep Search Agents via Role-Decoupled Iterative Synthesis",
+        "summary": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet existing ReAct-style agents suffer from two limitations: role coupling, where one policy must handle planning, evidence use, and synthesis; and context accumulation, where growing search histories introduce noise and obscure useful information. To address these issues, we propose IterSynth, a role-decoupled and summary-based paradigm that alternates between a Planner for identi",
+        "body": "Deep search requires LLM agents to decompose complex queries, search for evidence, and synthesize grounded answers, yet existing ReAct-style agents suffer from two limitations: role coupling, where one policy must handle planning, evidence use, and synthesis; and context accumulation, where growing search histories introduce noise and obscure useful information. To address these issues, we propose IterSynth, a role-decoupled and summary-based paradigm that alternates between a Planner for identifying information needs and a Synthesizer for integrating evidence into an evolving summary state. This design separates planning from synthesis while using the summary as the persistent state of search, reducing both capability coupling and context noise. To train IterSynth effectively, we further ",
+        "url": "https://arxiv.org/abs/2609.29444",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29028",
+        "title": "RGBD20K: A Large-Scale Benchmark for RGB-D Semantic Segmentation",
+        "summary": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched sema",
+        "body": "In this paper, we propose RGBD20K, a novel dataset for facilitating the development of more robust and general RGB-D semantic segmentation by encompassing abundant categories and high-quality annotations. RGBD20K possesses several attractive properties: (1) Expanded Semantic Space. In particular, it covers 160 fine-grained categories, largely surpassing the category diversity of existing popular RGB-D benchmarks (e.g., NYUv2 with 40 classes and SUN RGB-D with 37 classes). With such enriched semantic coverage, we expect to promote the learning of more generalizable segmentation models. (2) Larger Scale. Compared with current benchmarks, RGBD20K offers 20,000 RGB-D image pairs, providing a substantially larger training resource that benefits the development of more powerful deep models. (3) ",
+        "url": "https://arxiv.org/abs/2609.29028",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.30233",
+        "title": "Coding Agents for Generalized Task and Motion Planning Problems",
+        "summary": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing",
+        "body": "Task and motion planning (TAMP) problems remain difficult even with full observability and object-centric states because discrete decisions are tightly coupled to geometric, kinematic, and dynamic constraints. Generalized TAMP addresses this difficulty by exploiting regularities across problem instances to reduce planning effort on new instances. However, existing methods require substantial TAMP-specific engineering. We investigate whether coding agents can automate this process by synthesizing programs that generalize across instances. Given a task description and simulator access, each agent chooses how to interact with the environment while developing a program within a fixed synthesis budget. The program is then frozen and evaluated on unseen instances. We evaluate Claude Code (Opus 5",
+        "url": "https://arxiv.org/abs/2609.30233",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29837",
+        "title": "PUBG Ally: A Conversational Embodied Agent as an AI Teammate",
+        "summary": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized with its actions. Ally therefore combines agentic tool use with real-time game control. A language-",
+        "body": "We introduce PUBG Ally, an embodied agent for PUBG: BATTLEGROUNDS that can reason, act autonomously, and play alongside players as a voice-enabled teammate. Building such a teammate requires combining two difficult capabilities: it must perceive and respond to a constantly changing game world under strict latency constraints while interacting naturally with players, keeping its speech synchronized with its actions. Ally therefore combines agentic tool use with real-time game control. A language-model agent uses a controlled interface to inspect game information, interpret player speech, maintain context, decide what to say, and issue high-level action choices that steer a faster control layer for movement, combat, and recovery. Because the player's and Ally's speech and actions continually",
+        "url": "https://arxiv.org/abs/2609.29837",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.30199",
+        "title": "ExplorationBench: Measuring AI Systems' Exploration in Verifiable Alien Worlds",
+        "summary": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of e",
+        "body": "Scientific discovery begins where known problems end. There, AI systems must engage in exploration: framing hypotheses, designing experiments, and iterating on the results. However, evaluating this ability is difficult: (1) how to verify whether a genuinely new hypothesis holds, and (2) how to determine whether a system has discovered it through exploration or merely recalled related knowledge from pre-training data. To this end, we introduce ExplorationBench, which turns the wicked problem of evaluating scientific exploration into a concrete and tractable framework built on verifiable Alien Worlds: their rules are executable, so every answer can be checked exactly, and they conflict with familiar knowledge, so recall alone cannot solve the tasks. The benchmark contains two sandboxes, Alie",
+        "url": "https://arxiv.org/abs/2609.30199",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29816",
+        "title": "AV-GRPO: Modality-Anchored Decoupling Diffusion Reinforcement Learning for Joint Audio-Video Generation",
+        "summary": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is computa",
+        "body": "Recent years have witnessed major progress in joint audio-video generation. Existing models still suffer from limited per-modality fidelity, insufficient text-modality alignment and weak cross-modal synchronization. While reinforcement-learning post-training offers a promising remedy, directly adapting it to joint audio-video generation is challenging. Heterogeneous multimodal rewards entangle learning signals and complicate credit assignment. Joint optimization of two modality towers is computationally expensive given their divergent dynamics. Moreover, synchronization evaluation difficulty depends on paired samples, preventing fair reward comparisons. We propose AV-GRPO, a modality-anchored online diffusion RL framework, and 5DAV, a decoupled, difficulty-controllable training dataset. AV",
+        "url": "https://arxiv.org/abs/2609.29816",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29964",
+        "title": "World Action Agent: Harnessing VLMs for Robot Manipulation via World Action Rehearsal",
+        "summary": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected a",
+        "body": "General-purpose vision-language models (VLMs) bring broad knowledge and spatial reasoning to robot manipulation, yet existing systems either use them indirectly, to predict constraints or write programs, or give them a view of the scene rather than a world in which to act. We present World Action Agent (WAA), a multi-agent harness through which VLMs pilot robots with basic tools, making every decision within a visual action workspace. The workspace has three properties. Contact views, selected automatically from the scene geometry, present the scene around the current interaction. Action rehearsal turns each action into an editable proposal that the agent, alone or through an Imagination Agent, previews and revises against planning feedback before execution. In-view correction closes the l",
+        "url": "https://arxiv.org/abs/2609.29964",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.29429",
+        "title": "Just Ask Jev: Reinforcement Learning for Calibrated Decisions as a Zero-Shot Detector of AI Alignment Failures",
+        "summary": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not bee",
+        "body": "Detectors of alignment failures screen deployed language models and score alignment benchmarks. Most are generative judges that spend a decoding pass on every criterion, and classifiers that read token probabilities, such as Llama Guard, still score one fixed label per call. Jev, a model trained with reinforcement learning for calibrated decisions (RLCD), answers many typed questions about one input with calibrated probabilities in a single call. Whether it detects alignment failures has not been measured. We present RLCDAlignBench, which benchmarks Jev on ten alignment failures: sycophancy, jailbreaks, deception, prompt injection, hallucination, privacy violation, social bias, reward hacking, concealing uncertainty, and power seeking. It spans 44 benchmarks and five target models, labelle",
+        "url": "https://arxiv.org/abs/2609.29429",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.28923",
+        "title": "ViRDM: Taming Representation Distribution Matching for Few-Step Causal Video Generation",
+        "summary": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores. In this work, we ask whether this resource-intensive teacher--critic stack can be eliminated by post-training only the generator against a precomputed target distribution. Drawing insp",
+        "body": "Few-step autoregressive (AR) video diffusion enables low-latency streaming generation, but existing post-training methods predominantly rely on Distribution Matching Distillation (DMD), requiring both a large pretrained teacher and an online critic to estimate distributional discrepancies through diffusion scores. In this work, we ask whether this resource-intensive teacher--critic stack can be eliminated by post-training only the generator against a precomputed target distribution. Drawing inspiration from representation distribution matching (RDM) for one-step image generation, we systematically study its transfer to few-step causal video generation and identify three key barriers: a memory-intractable gradient path, a distinct video optimization regime, and representation distributions ",
+        "url": "https://arxiv.org/abs/2609.28923",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2609.30077",
+        "title": "Rate-distortion optimization for full-reference image quality metrics via stochastic Hessian estimates",
+        "summary": "Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The conventional distortion choice, the sum of squared errors (SSE), simplifies parameter selection: the SSE is the sum of block-wise SSEs, so rate-distortion optimization (RDO) can treat blocks independently. Alternatively, full-reference image quality assessment (FR-IQA) metrics such as MS-SSIM or LPIPS often align better with the human visual system than SSE, but they cannot be used",
+        "body": "Block-based video codecs select coding parameters based on the input by optimizing a rate-distortion trade-off. The conventional distortion choice, the sum of squared errors (SSE), simplifies parameter selection: the SSE is the sum of block-wise SSEs, so rate-distortion optimization (RDO) can treat blocks independently. Alternatively, full-reference image quality assessment (FR-IQA) metrics such as MS-SSIM or LPIPS often align better with the human visual system than SSE, but they cannot be used in-loop: they do not decompose block-wise and typically require the fully decoded image as input. Building on existing results in metric quadratization, we approximate a broad class of FR-IQA metrics by an input-dependent quadratic distortion (IDQD), whose quadratic form matrix is derived from the ",
+        "url": "https://arxiv.org/abs/2609.30077",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-09-23T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      }
+    ],
+    "errors": [
+      "Anthropic News: This operation was aborted",
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403"
+    ]
+  }
+]
