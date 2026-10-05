@@ -1,33 +1,33 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-10-04T09:35:01.893Z",
-    "itemCount": 2,
-    "errors": []
+    "fetchedAt": "2026-10-05T10:16:33.481Z",
+    "itemCount": 0,
+    "errors": [
+      "Fetch timed out after 10000ms"
+    ]
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-10-04T09:35:02.601Z",
-    "sourceGeneratedAt": "2026-10-03",
+    "fetchedAt": "2026-10-05T10:16:33.918Z",
+    "sourceGeneratedAt": "2026-10-04",
     "itemCount": 10,
     "errors": []
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-10-04T09:35:02.773Z",
+    "fetchedAt": "2026-10-05T10:16:34.154Z",
     "itemCount": 20,
     "errors": []
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-10-04T09:35:34.608Z",
-    "itemCount": 10,
+    "fetchedAt": "2026-10-05T10:16:39.844Z",
+    "itemCount": 7,
     "errors": [
-      "Anthropic News: This operation was aborted",
       "Gary Marcus: HTTP 403",
       "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502",
-      "HuggingFace Papers: This operation was aborted"
+      "Hacker News AI: HTTP 502"
     ]
   }
 ]
