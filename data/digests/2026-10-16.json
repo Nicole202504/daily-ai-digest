@@ -1,654 +1,121 @@
 {
   "date": "2026-10-16",
-  "generatedAt": "2026-10-16T08:03:04.053Z",
+  "generatedAt": "2026-10-16T08:37:16.043Z",
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
-      "items": [
-        {
-          "title": "Talanoa",
-          "url": "https://www.producthunt.com/products/talanoa-2",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "310 votes / 25 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。",
-          "why": "面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。",
-          "summary": "Email that feels like chat",
-          "keyPoints": [
-            "Talanoa is your first email messenger."
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Email that feels like chat",
-          "features": "Talanoa is your first email messenger.",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Navige",
-          "url": "https://www.producthunt.com/products/navige",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "243 votes / 53 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
-          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
-          "summary": "Cut AI agent costs and control runaway spending",
-          "keyPoints": [
-            "Navige uses Sufficiency Intelligence to cut AI agent costs while work runs."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Cut AI agent costs and control runaway spending",
-          "features": "Navige uses Sufficiency Intelligence to cut AI agent costs while work runs.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Apple HomeView",
-          "url": "https://www.producthunt.com/products/apple",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "204 votes / 5 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。",
-          "why": "面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。",
-          "summary": "A new way to stay connected, and manage the home",
-          "keyPoints": [
-            "Apple HomeView is a smart display with Siri AI, Liquid Retina display, high-fidelity audio, FaceTime, smart home controls, built-in privacy, and more."
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "A new way to stay connected, and manage the home",
-          "features": "Apple HomeView is a smart display with Siri AI, Liquid Retina display, high-fidelity audio, FaceTime, smart home controls, built-in privacy, and more.",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "GLM-Legal",
-          "url": "https://www.producthunt.com/products/z-ai",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "194 votes / 4 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
-          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
-          "summary": "Z.ai’s legal AI model for contract review and compliance",
-          "keyPoints": [
-            "LM-Legal is Z.ai’s legal AI model, built on GLM-5.3-Flash and trained for agentic legal work like contract review, evidence analysis, and compliance research."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Z.ai’s legal AI model for contract review and compliance",
-          "features": "LM-Legal is Z.ai’s legal AI model, built on GLM-5.3-Flash and trained for agentic legal work like contract review, evidence analysis, and compliance research.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "OpenMuse",
-          "url": "https://www.producthunt.com/products/copilotkit",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "177 votes / 5 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。",
-          "why": "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。",
-          "summary": "Opensource, self hostable personal assistant for any harness",
-          "keyPoints": [
-            "OpenMuse is an open-source, self-hostable personal agent with its own browser, terminal, files, and persistent work."
-          ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Opensource, self hostable personal assistant for any harness",
-          "features": "OpenMuse is an open-source, self-hostable personal agent with its own browser, terminal, files, and persistent work.",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Daddy Issues",
-          "url": "https://www.producthunt.com/products/daddy-issues",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "125 votes / 30 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "Daddy Issues uses AI to help dads think ahead before family life turns into last-minute stress.",
-          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "Think ahead.",
-          "keyPoints": [
-            "Daddy Issues uses AI to help dads think ahead before family life turns into last-minute stress."
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Think ahead.",
-          "features": "Daddy Issues uses AI to help dads think ahead before family life turns into last-minute stress.",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Polylane Impact Analysis",
-          "url": "https://www.producthunt.com/products/polylane",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "112 votes / 4 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。",
-          "why": "面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。",
-          "summary": "Catch risky pull requests before they break production",
-          "keyPoints": [
-            "Catch issues before they break production."
-          ],
-          "audience": "创作者、创业者、独立开发者和早期产品团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Catch risky pull requests before they break production",
-          "features": "Catch issues before they break production.",
-          "targetUsers": "创作者、创业者、独立开发者和早期产品团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "withHuman",
-          "url": "https://www.producthunt.com/products/withhuman",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "104 votes / 10 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "withHuman is an approval layer for AI agents.",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "A open-source human approval layer for AI Agents",
-          "keyPoints": [
-            "withHuman is an approval layer for AI agents."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "A open-source human approval layer for AI Agents",
-          "features": "withHuman is an approval layer for AI agents.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Ubuntu 26.10 (Stonking Stingray)",
-          "url": "https://www.producthunt.com/products/ubuntu",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "97 votes / 2 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "Ubuntu 26.10 \"Stonking Stingray\" brings GNOME 51, expanded hardware support, and a complete switch to Rust-based coreutils.",
-          "why": "Mac 高级用户、开发者、设计师和重度桌面工作流用户。把本地桌面工作流自动化，减少重复切换和手动设置。",
-          "summary": "GNOME 51, Rust coreutils, and a refreshed Linux desktop",
-          "keyPoints": [
-            "Ubuntu 26.10 \"Stonking Stingray\" brings GNOME 51, expanded hardware support, and a complete switch to Rust-based coreutils."
-          ],
-          "audience": "Mac 高级用户、开发者、设计师和重度桌面工作流用户。",
-          "pain": "把本地桌面工作流自动化，减少重复切换和手动设置。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "GNOME 51, Rust coreutils, and a refreshed Linux desktop",
-          "features": "Ubuntu 26.10 \"Stonking Stingray\" brings GNOME 51, expanded hardware support, and a complete switch to Rust-based coreutils.",
-          "targetUsers": "Mac 高级用户、开发者、设计师和重度桌面工作流用户。",
-          "userNeed": "把本地桌面工作流自动化，减少重复切换和手动设置。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        },
-        {
-          "title": "Chatway MCP",
-          "url": "https://www.producthunt.com/products/chatway",
-          "sources": [
-            "product_hunt"
-          ],
-          "metricsText": "97 votes / 19 comments",
-          "sourceLabel": "Product Hunt",
-          "tags": [],
-          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
-          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
-          "summary": "Let ChatGPT & Claude answer customer support tickets via MCP",
-          "keyPoints": [
-            "Chatway is a live chat and customer support platform that lets you bring your own AI agent."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
-          "oneLiner": "Let ChatGPT & Claude answer customer support tickets via MCP",
-          "features": "Chatway is a live chat and customer support platform that lets you bring your own AI agent.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
-        }
-      ]
+      "items": []
     },
     {
       "key": "github",
       "title": "开源热门",
-      "items": []
+      "items": [
+        {
+          "title": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "why": "开发者、开源项目维护者、技术团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "keyPoints": [
+            "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages."
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "features": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        },
+        {
+          "title": "TencentCloud/Octop",
+          "url": "https://github.com/TencentCloud/Octop",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+          "keyPoints": [
+            "A smarter, self-hosted AI assistant — multi-user, multi-agent."
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+          "features": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        },
+        {
+          "title": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han",
+          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han",
+          "keyPoints": [
+            "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han"
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han",
+          "features": "Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        }
+      ]
     },
     {
       "key": "company",
       "title": "公司动态",
-      "items": [
-        {
-          "title": "Bringing GPT-Rosalind to academic research labs",
-          "url": "https://openai.com/index/introducing-the-rosalind-academic-plan",
-          "sources": [
-            "builder_openai"
-          ],
-          "metricsText": "",
-          "sourceLabel": "OpenAI",
-          "tags": [
-            "news"
-          ],
-          "what": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "keyPoints": [
-            "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research."
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "features": "Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Teaching students to think and learn through questions",
-          "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions",
-          "sources": [
-            "builder_openai"
-          ],
-          "metricsText": "",
-          "sourceLabel": "OpenAI",
-          "tags": [
-            "news"
-          ],
-          "what": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-          "keyPoints": [
-            "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning."
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-          "features": "Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Sullivan & Cromwell brings legal expertise into agreement review",
-          "url": "https://openai.com/index/sullivan-cromwell",
-          "sources": [
-            "builder_openai"
-          ],
-          "metricsText": "",
-          "sourceLabel": "OpenAI",
-          "tags": [
-            "news"
-          ],
-          "what": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-          "keyPoints": [
-            "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement."
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-          "features": "In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "An update on independent evaluators",
-          "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-          "sources": [
-            "builder_anthropic"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Anthropic",
-          "tags": [
-            "news"
-          ],
-          "what": "<article class=\"\"><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"An upd",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "<article class=\"\"><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"An upd",
-          "keyPoints": [
-            "<article class=\"\"><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"An upd"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "<article class=\"\"><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"An upd",
-          "features": "<article class=\"\"><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"An upd",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Accelerating the search for antimicrobial peptides with Google Antigravity",
-          "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery",
-          "sources": [
-            "builder_deepmind"
-          ],
-          "metricsText": "",
-          "sourceLabel": "DeepMind",
-          "tags": [
-            "technical"
-          ],
-          "what": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-          "keyPoints": [
-            "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science."
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-          "features": "Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        }
-      ]
+      "items": []
     },
     {
       "key": "technical",
       "title": "技术前沿",
       "items": [
         {
-          "title": "可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考",
-          "url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687203&idx=1&sn=a58bc4411e8226b629f1b5c61509a198",
+          "title": "PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%",
+          "url": "https://www.promptarmor.com/resources/open-weight-susceptibility",
           "sources": [
             "aihot"
           ],
           "metricsText": "",
-          "sourceLabel": "公众号：数字生命卡兹克",
+          "sourceLabel": "PromptArmor：Threat Intelligence",
           "tags": [
-            "ai-models"
+            "paper"
           ],
-          "what": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10",
-          "keyPoints": [
-            "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10",
-          "features": "可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布",
-          "url": "https://x.com/arena/status/2110797782953132049",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：Arena (@arena)",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
-          "keyPoints": [
-            "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。"
-          ],
-          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
-          "features": "Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。",
-          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文",
-          "url": "https://pytorch.org/blog/muse-spark-open",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "PyTorch：Blog（RSS）",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。",
+          "what": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。",
+          "summary": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
           "keyPoints": [
-            "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。"
+            "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。",
-          "features": "Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%",
-          "url": "https://x.com/arcprize/status/2110768288523251762",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：ARC Prize (@arcprize)",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得",
-          "keyPoints": [
-            "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得",
-          "features": "ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍",
-          "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Microsoft AI：官方博客（网页）",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
-          "keyPoints": [
-            "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
-          "features": "Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息",
-          "url": "https://x.com/StepFun_ai/status/2110755075845169428",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：阶跃星辰 StepFun (@StepFun_ai)",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus ",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus ",
-          "keyPoints": [
-            "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus "
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus ",
-          "features": "阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus ",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "NVIDIA Blog（RSS）",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方",
-          "keyPoints": [
-            "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方"
-          ],
-          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方",
-          "features": "NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方",
-          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）",
-          "url": "https://bfl.ai/blog/flux-3-image-klein",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Black Forest Labs：Blog（网页）",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
-          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
-          "keyPoints": [
-            "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。"
-          ],
-          "audience": "内容创作者、设计师、视频/音乐制作团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
-          "features": "Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。",
-          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能",
-          "url": "https://x.com/StepFun_ai/status/2110732706518835353",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：阶跃星辰 StepFun (@StepFun_ai)",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 N",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 N",
-          "keyPoints": [
-            "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 N"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 N",
-          "features": "StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 N",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "阶跃星辰开放 Step 5 Preview 权重",
-          "url": "https://x.com/StepFun_ai/status/2110717330657616092",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：阶跃星辰 StepFun (@StepFun_ai)",
-          "tags": [
-            "ai-models"
-          ],
-          "what": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。",
-          "keyPoints": [
-            "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。",
-          "features": "阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。",
+          "oneLiner": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
+          "features": "PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
@@ -660,217 +127,217 @@
       "title": "行业观点",
       "items": [
         {
-          "title": "丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑",
-          "url": "https://www.ithome.com/1/013/914.htm",
+          "title": "Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI",
+          "url": "https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai",
           "sources": [
-            "aihot"
+            "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "IT之家·人工智能",
+          "sourceLabel": "Hacker News AI",
           "tags": [
-            "industry"
+            "news"
           ],
-          "what": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+          "what": "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 37 # Comment",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 37 # Comment",
           "keyPoints": [
-            "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。"
+            "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 37 # Comment"
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 37 # Comment",
+          "features": "Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 37 # Comment",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Why We're Banning AI",
+          "url": "https://www.currentaffairs.org/news/why-were-banning-ai",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 237 # Comments: 185",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 237 # Comments: 185",
+          "keyPoints": [
+            "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 237 # Comments: 185"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
-          "features": "据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 237 # Comments: 185",
+          "features": "Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 237 # Comments: 185",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元",
-          "url": "https://www.ithome.com/1/013/723.htm",
+          "title": "Danish Supreme Court Finds That AI CSAM Is CSAM",
+          "url": "https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930",
           "sources": [
-            "aihot"
+            "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "IT之家·人工智能",
+          "sourceLabel": "Hacker News AI",
           "tags": [
-            "industry"
+            "news"
           ],
-          "what": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-          "keyPoints": [
-            "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-          "features": "路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%",
-          "url": "https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "vLLM 官方博客（RSS）",
-          "tags": [
-            "tip"
-          ],
-          "what": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
-          "keyPoints": [
-            "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
-          "features": "AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "Musk 称 xAI 2027 年底算力目标可能超过 10GW",
-          "url": "https://x.com/elonmusk/status/2110877572011844019",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "X：Elon Musk (@elonmusk, xAI)",
-          "tags": [
-            "industry"
-          ],
-          "what": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
+          "what": "Article URL: https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930 Comments URL: https://news.ycombinator.com/item?id=50106285 Points: 34 # C",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
+          "summary": "Article URL: https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930 Comments URL: https://news.ycombinator.com/item?id=50106285 Points: 34 # C",
           "keyPoints": [
-            "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。"
+            "Article URL: https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930 Comments URL: https://news.ycombinator.com/item?id=50106285 Points: 34 # C"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
-          "features": "Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930 Comments URL: https://news.ycombinator.com/item?id=50106285 Points: 34 # C",
+          "features": "Article URL: https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930 Comments URL: https://news.ycombinator.com/item?id=50106285 Points: 34 # C",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Meta 如何用 AI 原生工程方式开发 Forum 应用",
-          "url": "https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering",
+          "title": "Market selloff, rising rates test AI data centre deal boom",
+          "url": "https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15",
           "sources": [
-            "aihot"
+            "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "Meta Engineering Blog（RSS）",
+          "sourceLabel": "Hacker News AI",
           "tags": [
-            "tip"
+            "news"
           ],
-          "what": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
-          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
+          "what": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105",
+          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "summary": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105",
           "keyPoints": [
-            "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。"
+            "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105"
+          ],
+          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "pain": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105",
+          "features": "Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105",
+          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "userNeed": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Simons Foundation launches $15M effort to help mathematicians navigate AI era",
+          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=",
+          "keyPoints": [
+            "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id="
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
-          "features": "Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=",
+          "features": "Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Claude Code 团队如何做代码审查",
-          "url": "https://claude.dev/blog/solving-code-review-at-anthropic",
+          "title": "Using AI to reverse engineer hardware",
+          "url": "https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware",
           "sources": [
-            "aihot"
+            "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "Anthropic：Claude.dev 开发者博客（RSS）",
+          "sourceLabel": "Hacker News AI",
           "tags": [
-            "tip"
+            "news"
           ],
-          "what": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
-          "keyPoints": [
-            "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
-          "features": "Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
-        },
-        {
-          "title": "The Verge 实测 Eiliko 机器人玩具：68000 台设备数据可被任意访问并可远程劫持",
-          "url": "https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab",
-          "sources": [
-            "aihot"
-          ],
-          "metricsText": "",
-          "sourceLabel": "The Verge：AI（RSS）",
-          "tags": [
-            "industry"
-          ],
-          "what": "The Verge 记者与黑客 Sammy Azdoufal 实测发现，Energize Lab 的 Eiliko 机器人玩具将用户对话、用户画像、儿童照片和音频存放在无防护的服务器上，可访问约 68000 台设备、1300 万条对话，其中超 31000 份儿童档案来自美国。",
+          "what": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 181 # Comments: 163",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "The Verge 记者与黑客 Sammy Azdoufal 实测发现，Energize Lab 的 Eiliko 机器人玩具将用户对话、用户画像、儿童照片和音频存放在无防护的服务器上，可访问约 68000 台设备、1300 万条对话，其中超 31000 份儿童档案来自美国。",
+          "summary": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 181 # Comments: 163",
           "keyPoints": [
-            "The Verge 记者与黑客 Sammy Azdoufal 实测发现，Energize Lab 的 Eiliko 机器人玩具将用户对话、用户画像、儿童照片和音频存放在无防护的服务器上，可访问约 68000 台设备、1300 万条对话，其中超 31000 份儿童档案来自美国。"
+            "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 181 # Comments: 163"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "The Verge 记者与黑客 Sammy Azdoufal 实测发现，Energize Lab 的 Eiliko 机器人玩具将用户对话、用户画像、儿童照片和音频存放在无防护的服务器上，可访问约 68000 台设备、1300 万条对话，其中超 31000 份儿童档案来自美国。",
-          "features": "The Verge 记者与黑客 Sammy Azdoufal 实测发现，Energize Lab 的 Eiliko 机器人玩具将用户对话、用户画像、儿童照片和音频存放在无防护的服务器上，可访问约 68000 台设备、1300 万条对话，其中超 31000 份儿童档案来自美国。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 181 # Comments: 163",
+          "features": "Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 181 # Comments: 163",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Anthropic Q3营收达168亿美元但增速放缓，11月IPO前估值预期或下调",
-          "url": "https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo",
+          "title": "AI was great until it was not",
+          "url": "https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not",
           "sources": [
-            "aihot"
+            "builder_hackernews"
           ],
           "metricsText": "",
-          "sourceLabel": "The Decoder：AI News（RSS）",
+          "sourceLabel": "Hacker News AI",
           "tags": [
-            "industry"
+            "news"
           ],
-          "what": "Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2",
+          "what": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 119 # Comments: 77",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 119 # Comments: 77",
           "keyPoints": [
-            "Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2"
+            "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 119 # Comments: 77"
           ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。",
-          "oneLiner": "Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2",
-          "features": "Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。"
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 119 # Comments: 77",
+          "features": "Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 119 # Comments: 77",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Banks are now trying to offload the AI data center debt they just underwrote",
+          "url": "https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Po",
+          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "summary": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Po",
+          "keyPoints": [
+            "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Po"
+          ],
+          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "pain": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Po",
+          "features": "Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Po",
+          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "userNeed": "把分散数据集中起来，降低查数、分析和做报表的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         }
       ]
     }
   ],
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-10-16\n\n## 产品上新\n\n1. [Talanoa](https://www.producthunt.com/products/talanoa-2)\n   - 信号：Product Hunt · 310 votes / 25 comments\n   - 做什么：把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。\n   - 为什么需要：面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。\n\n2. [Navige](https://www.producthunt.com/products/navige)\n   - 信号：Product Hunt · 243 votes / 53 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n3. [Apple HomeView](https://www.producthunt.com/products/apple)\n   - 信号：Product Hunt · 204 votes / 5 comments\n   - 做什么：把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。\n   - 为什么需要：面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。\n\n4. [GLM-Legal](https://www.producthunt.com/products/z-ai)\n   - 信号：Product Hunt · 194 votes / 4 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n5. [OpenMuse](https://www.producthunt.com/products/copilotkit)\n   - 信号：Product Hunt · 177 votes / 5 comments\n   - 做什么：提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。\n   - 为什么需要：面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。\n\n6. [Daddy Issues](https://www.producthunt.com/products/daddy-issues)\n   - 信号：Product Hunt · 125 votes / 30 comments\n   - 做什么：Daddy Issues uses AI to help dads think ahead before family life turns into last-minute stress.\n   - 为什么需要：内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n7. [Polylane Impact Analysis](https://www.producthunt.com/products/polylane)\n   - 信号：Product Hunt · 112 votes / 4 comments\n   - 做什么：把 AI 音乐生成拆成可单独控制的 stems，允许局部重生成乐器、调声音并导出高质量音频。\n   - 为什么需要：面向音乐制作人和视频/游戏/广告团队，解决 AI 音乐生成像黑盒、只想改某个乐器却要重做整首歌的问题。\n\n8. [withHuman](https://www.producthunt.com/products/withhuman)\n   - 信号：Product Hunt · 104 votes / 10 comments\n   - 做什么：withHuman is an approval layer for AI agents.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n9. [Ubuntu 26.10 (Stonking Stingray)](https://www.producthunt.com/products/ubuntu)\n   - 信号：Product Hunt · 97 votes / 2 comments\n   - 做什么：Ubuntu 26.10 \"Stonking Stingray\" brings GNOME 51, expanded hardware support, and a complete switch to Rust-based coreutils.\n   - 为什么需要：Mac 高级用户、开发者、设计师和重度桌面工作流用户。把本地桌面工作流自动化，减少重复切换和手动设置。\n\n10. [Chatway MCP](https://www.producthunt.com/products/chatway)\n   - 信号：Product Hunt · 97 votes / 19 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n## 开源热门\n\n暂无值得单列的条目。\n\n## 公司动态\n\n1. [Bringing GPT-Rosalind to academic research labs](https://openai.com/index/introducing-the-rosalind-academic-plan)\n   - 信号：OpenAI\n   - 做什么：Introducing the Rosalind Academic Plan, offering eligible academic labs sponsored access to GPT-Rosalind and tools to advance life sciences research.\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n2. [Teaching students to think and learn through questions](https://openai.com/index/teaching-students-to-think-and-learn-through-questions)\n   - 信号：OpenAI\n   - 做什么：Celebrate Teachers’ Day with AI for Educators in Brazilian Portuguese and see how Study Mode can help teachers support active, step-by-step learning.\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n3. [Sullivan & Cromwell brings legal expertise into agreement review](https://openai.com/index/sullivan-cromwell)\n   - 信号：OpenAI\n   - 做什么：In collaboration with OpenAI, Sullivan & Cromwell developed Agreement Analyzer, an AI tool for identifying issues in a draft agreement.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n4. [An update on independent evaluators](https://www.anthropic.com/news/an-update-on-independent-evaluators)\n   - 信号：Anthropic\n   - 做什么：<article class=\"\"><div class=\"page-wrapper PostDetail-module-scss-module__UQuRMa__hero\"><div class=\"PostDetail-module-scss-module__UQuRMa__illustrationHeroWrapper\"><img alt=\"An upd\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n5. [Accelerating the search for antimicrobial peptides with Google Antigravity](https://deepmind.google/blog/accelerating-antimicrobial-discovery)\n   - 信号：DeepMind\n   - 做什么：Accelerating the search for novel antimicrobial peptides using Google Antigravity for Science.\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n## 技术前沿\n\n1. [可灵 Kling 4.0 上线：支持30秒一镜到底，作者实测动态与全能参考](https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647687203&idx=1&sn=a58bc4411e8226b629f1b5c61509a198)\n   - 信号：公众号：数字生命卡兹克\n   - 做什么：可灵AI凌晨正式上线视频模型 Kling 4.0，支持最长30秒直出和最多10帧的多帧参考，并强化全能参考与复杂打斗等大范围动态表现。作者烧数万积分实测城市追逐、电梯打斗、花样滑冰等场景，认为纸箱形变等细节体现物理规律理解的提升。1080P 30秒约450积分（约16元），720P约9元，4.0 Flash 720P 20秒仅120积分，官方还预告将支持10\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [Muse Spark Open 上架 Arena，可在 Agent Arena 实测，评分即将公布](https://x.com/arena/status/2110797782953132049)\n   - 信号：X：Arena (@arena)\n   - 做什么：Arena 宣布 Meta 的 Muse Spark Open 已进入 Agent Arena，用户可实测，评分即将公布。该模型为 816B 总参数、42B 激活参数，1M token 上下文窗口，原生多模态。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [Meta 发布开源权重模型 Muse Spark Open，816B 参数、1M 上下文](https://pytorch.org/blog/muse-spark-open)\n   - 信号：PyTorch：Blog（RSS）\n   - 做什么：Meta 发布开源权重模型 Muse Spark Open，已在 Hugging Face 以 Muse Model License 提供。模型总参数 816B、激活 42B，上下文窗口 1M token，面向编码与智能体工作流，原生多模态（图像、音频、文档），并相比 8 月发布的 Muse Spark 增加了安全后训练。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [Gemini 4 Argon 在 ARC-AGI (Verified) 评测中公布：ARC-AGI-3 得分 97.5%](https://x.com/arcprize/status/2110768288523251762)\n   - 信号：X：ARC Prize (@arcprize)\n   - 做什么：ARC Prize 公布 Gemini 4 Argon 在 ARC-AGI (Verified) 的评测成绩。ARC-AGI-3 上，provider adapter harness 得分 97.5%、成本 $4.8K，标准 harness 得分 49.8%、成本 $5.8K；ARC-AGI-2 得分 91.3%、$0.32/task；ARC-AGI-1 得\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n5. [Microsoft AI 公布 MAI-Base-2 预训练细节，2.8T 参数 MoE 模型 FLOPs 效率达 DeepSeek-V4-Pro-Base 的 4.2 至 12.3 倍](https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai)\n   - 信号：Microsoft AI：官方博客（网页）\n   - 做什么：Microsoft AI 宣布完成 MAI-Base-2 预训练，这是一个 800 亿激活、2.8T 总参数的 MoE 基础模型，在 held-out 评测中 BPB 低于所测全部开源权重模型，预训练 FLOPs 效率比 DeepSeek-V4-Pro-Base 高 4.2 至 12.3 倍。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n6. [Step 5 Preview 上线 FeatherlessAI，官方转发开放权重模型部署信息](https://x.com/StepFun_ai/status/2110755075845169428)\n   - 信号：X：阶跃星辰 StepFun (@StepFun_ai)\n   - 做什么：阶跃星辰转发 FeatherlessAI 的消息，Step 5 Preview 已上线该平台，以 FP8 精度提供服务。该开放权重模型为 600B 稀疏 MoE 架构、每 token 激活 27B，面向长程智能体工作，在软件工程和专业知识工作（尤其金融）上有前沿级表现，按 Artificial Analysis 数据其每任务成本约为 Claude Opus\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n7. [NVIDIA 发布开源 Nemotron 3.5 Super VL 及 Bolt 两款端侧模型](https://blogs.nvidia.com/blog/nemotron-3-5-super-vl)\n   - 信号：NVIDIA Blog（RSS）\n   - 做什么：NVIDIA 发布开源 1200 亿参数的 Nemotron 3.5 Super VL 多模态模型，称在其类别中任务完成最快、比同类次优快 5x，并推出两款端侧模型 Bolt 74B-A9B 24GB 与 Bolt E4B 4GB，后者 10 月 23 日上线。模型采用 2-bit 原生量化可在 RTX/DGX Spark 上本地运行，权重、数据集和训练配方\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n8. [Black Forest Labs 发布开源文生图模型 FLUX 3 Image Klein（5.6B）](https://bfl.ai/blog/flux-3-image-klein)\n   - 信号：Black Forest Labs：Blog（网页）\n   - 做什么：Black Forest Labs 发布 5.6B 参数开源权重模型 FLUX 3 Image Klein，支持文生图、图像编辑和最多 10 张参考图的多参考生成，采用 FLUX Kommunity License。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n9. [StepFun 展示 Step 5 Preview 在 NVIDIA GB300 上的推理性能](https://x.com/StepFun_ai/status/2110732706518835353)\n   - 信号：X：阶跃星辰 StepFun (@StepFun_ai)\n   - 做什么：StepFun 表示 Step 5 Preview 在 NVIDIA GB300 上推理表现出色，并期待看到开发者用它构建的应用。其转发的 NVIDIA 内容称该模型是 StepFun 最大的开源权重发布，600B MoE 架构，可处理最长 24 小时的 Agent 任务，在 GB300 上用 NVFP4 达到近 8K tokens/sec/GPU，提供 N\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n10. [阶跃星辰开放 Step 5 Preview 权重](https://x.com/StepFun_ai/status/2110717330657616092)\n   - 信号：X：阶跃星辰 StepFun (@StepFun_ai)\n   - 做什么：阶跃星辰（StepFun）宣布 Step 5 Preview 开放权重，BF16 和 FP8 权重已上线 Hugging Face 和 ModelScope，并附技术博客。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n## 行业观点\n\n1. [丹麦最高法院裁定持有传播 AI 生成儿童色情内容可判实刑](https://www.ithome.com/1/013/914.htm)\n   - 信号：IT之家·人工智能\n   - 做什么：据彭博社 15 日报道，丹麦最高法院维持对一名 31 岁男子 18 个月监禁的判决，该男子因持有并传播 3.6 万余张 AI 生成的儿童色情图像获刑，且不适用缓刑。法院裁定，即使图像无真实人物原型，也受丹麦《刑法》约束，量刑时不应考虑人物是否虚构；此案为丹麦首起此类定罪，并引发跨国调查，警方查明 273 名买家身份、逮捕 25 人。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n2. [消息称投资者下调 Anthropic IPO 估值预期，从约 2 万亿美元降至约 1.5 万亿美元](https://www.ithome.com/1/013/723.htm)\n   - 信号：IT之家·人工智能\n   - 做什么：路透社援引知情人士消息称，Anthropic 公布最新财务数据后，部分投资者开始考虑下调其 IPO 估值，此前预期 11 月上市时估值约 2 万亿美元，投资者日活动讨论约 1.5 万亿美元。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n3. [vLLM 解析 Kimi K3 在 AMD Instinct MI355X 上的推理优化，单 GPU 吞吐超 NVIDIA HGX B300 24.4%](https://vllm.ai/blog/2026-10-16-kimi-k3-mi355x)\n   - 信号：vLLM 官方博客（RSS）\n   - 做什么：AMD 与 Embedded LLM 在 vLLM 官方博客详解 Kimi K3 在八卡 AMD Instinct MI355X 上的推理优化。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n4. [Musk 称 xAI 2027 年底算力目标可能超过 10GW](https://x.com/elonmusk/status/2110877572011844019)\n   - 信号：X：Elon Musk (@elonmusk, xAI)\n   - 做什么：Musk 转发黄仁勋在 BG2Pod 访谈中的表态并评论算力目标可能超过 10GW；访谈称 Nvidia 已把 SpaceX 归入云服务商客户，两家工程师正合作设计可用于太空的新型服务器架构。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n5. [Meta 如何用 AI 原生工程方式开发 Forum 应用](https://engineering.fb.com/2026/10/15/ml-applications/how-meta-built-forum-ai-native-engineering)\n   - 信号：Meta Engineering Blog（RSS）\n   - 做什么：Meta 工程团队详解如何把 AI 智能体作为开发流程参与者来构建独立 Groups 应用 Forum，采用 human-on-the-loop 模式并以验证通过的生产级产出衡量成功。Forum 在八周内达到与 Facebook Groups 的核心功能对齐，自主压测循环在开发期发现并修复了内存问题，内存占用和缺页约减半，上线后智能体还协助根因分析用户反馈。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n6. [Claude Code 团队如何做代码审查](https://claude.dev/blog/solving-code-review-at-anthropic)\n   - 信号：Anthropic：Claude.dev 开发者博客（RSS）\n   - 做什么：Anthropic 团队介绍 Claude Code 的代码审查流程，机器承担大部分阅读，人类注意力集中在高风险决策。6 月至 9 月合并 PR 翻倍以上，回退率下降超过 40%；monorepo 每日变更量从 5 月约 2,500 增至 9 月超过 30,000。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n7. [The Verge 实测 Eiliko 机器人玩具：68000 台设备数据可被任意访问并可远程劫持](https://www.theverge.com/tech/1010727/eiliko-robot-hack-energize-lab)\n   - 信号：The Verge：AI（RSS）\n   - 做什么：The Verge 记者与黑客 Sammy Azdoufal 实测发现，Energize Lab 的 Eiliko 机器人玩具将用户对话、用户画像、儿童照片和音频存放在无防护的服务器上，可访问约 68000 台设备、1300 万条对话，其中超 31000 份儿童档案来自美国。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n8. [Anthropic Q3营收达168亿美元但增速放缓，11月IPO前估值预期或下调](https://the-decoder.com/anthropics-q3-revenue-hits-16-8b-but-growth-slows-ahead-of-planned-november-ipo)\n   - 信号：The Decoder：AI News（RSS）\n   - 做什么：Anthropic在面向潜在投资者的会议上公布Q3营收168亿美元，环比增长约45%，但明显低于Q2超140%的增速。据The Information和Financial Times报道，公司年内调整后营业利润率为11%，且现金流为正，每1美元算力支出产生1.70美元收入。部分投资者对其营收数字失望，预计IPO估值可能降至1.5万亿美元以下，低于此前讨论的2\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n",
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-10-16\n\n## 产品上新\n\n暂无值得单列的条目。\n\n## 开源热门\n\n1. [debpalash/VoiceStudio](https://github.com/debpalash/VoiceStudio)\n   - 信号：GitHub Trending\n   - 做什么：VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.\n   - 为什么需要：开发者、开源项目维护者、技术团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n2. [TencentCloud/Octop](https://github.com/TencentCloud/Octop)\n   - 信号：GitHub Trending\n   - 做什么：A smarter, self-hosted AI assistant — multi-user, multi-agent.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [anthropics/claude-code](https://github.com/anthropics/claude-code)\n   - 信号：GitHub Trending\n   - 做什么：Claude Code is an agentic coding tool that lives in your terminal, understands your codebase, and helps you code faster by executing routine tasks, explaining complex code, and han\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n1. [PromptArmor 研究称开放权重模型遭间接提示词注入攻击的易感率高 88%](https://www.promptarmor.com/resources/open-weight-susceptibility)\n   - 信号：PromptArmor：Threat Intelligence\n   - 做什么：PromptArmor 在 9800 次试验的评测中发现，开放权重模型（DeepSeek、Kimi、GLM、Qwen）对真实世界间接提示词注入攻击链的易感率为 26.7%，闭源模型（GPT、Claude、Gemini）为 14.2%，开放权重模型易感率高 88%。\n   - 影响与背景：AI HOT 精选条目，适合快速了解中文 AI 圈当天重点。\n\n## 行业观点\n\n1. [Call Center Jobs Are Declining, but 14,000 Calls Show Humans Still Outperform AI](https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://boldagents.co/blog/call-center-jobs-declining-14000-calls-humans-outperform-ai Comments URL: https://news.ycombinator.com/item?id=50111112 Points: 37 # Comment\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [Why We're Banning AI](https://www.currentaffairs.org/news/why-were-banning-ai)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.currentaffairs.org/news/why-were-banning-ai Comments URL: https://news.ycombinator.com/item?id=50108131 Points: 237 # Comments: 185\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [Danish Supreme Court Finds That AI CSAM Is CSAM](https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://domstol.fe1.tangora.com/Domsoversigt-(H%C3%B8jesteret).31478.aspx?recordid31478=2930 Comments URL: https://news.ycombinator.com/item?id=50106285 Points: 34 # C\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [Market selloff, rising rates test AI data centre deal boom](https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.reuters.com/business/finance/market-selloff-rising-rates-test-ai-data-centre-deal-boom-2026-10-15/ Comments URL: https://news.ycombinator.com/item?id=50105\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Simons Foundation launches $15M effort to help mathematicians navigate AI era](https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/ Comments URL: https://news.ycombinator.com/item?id=\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [Using AI to reverse engineer hardware](https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://blogs.gnome.org/uraeus/2026/10/15/aiandreverseengineerhardware/ Comments URL: https://news.ycombinator.com/item?id=50104299 Points: 181 # Comments: 163\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [AI was great until it was not](https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://thetheorygirlie.substack.com/p/ai-was-great-until-it-was-not Comments URL: https://news.ycombinator.com/item?id=50100791 Points: 119 # Comments: 77\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [Banks are now trying to offload the AI data center debt they just underwrote](https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://startupfortune.com/banks-are-now-trying-to-offload-the-ai-data-center-debt-they-just-underwrote/ Comments URL: https://news.ycombinator.com/item?id=50092664 Po\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
   "editor": "rules",
-  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[token_id=57027] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20261016160303926967993mENBMtDY)\",\"param\":\""
+  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[token_id=57027] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20261016163715919885185MIEzKuAl)\",\"param\":\""
 }
