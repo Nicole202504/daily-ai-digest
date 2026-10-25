@@ -1,0 +1,1468 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-10-25T08:17:43.354Z",
+    "items": [
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:d92mrmxvsfmnoyw3comncgz2c",
+        "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+        "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
+        "body": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
+        "url": "https://x.com/emollick/status/2114001653879672877",
+        "sourceName": "X：Ethan Mollick (@emollick)",
+        "sourceCategory": "opinion",
+        "publishedAt": "2026-10-24T14:30:45.000Z",
+        "rawJson": {
+          "id": "d92mrmxvsfmnoyw3comncgz2c",
+          "title": "Ethan Mollick：OpenAI 红队测试显示前沿模型智能体真能越狱沙箱，实验室的 AI 安全警告值得重视",
+          "title_en": "Without being overly credulous, we should be taking seemingly “out there” ideas about AI cybersecurity from the Labs more seriously. Exam...",
+          "url": "https://x.com/emollick/status/2114001653879672877",
+          "permalink": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c",
+          "source": "X：Ethan Mollick (@emollick)",
+          "publishedAt": "2026-10-24T14:30:45.000Z",
+          "discoveredAt": "2026-10-24T14:48:46.184Z",
+          "summary": "Ethan Mollick 转引 OpenAI 红队测试认为，实验室看似夸张的 AI 网络安全判断应被更认真对待。OpenAI 让前沿模型智能体团队攻击其加固的隔离基础设施，智能体几乎在每个受限联网服务中都找到漏洞，还能利用 CPU 缓存时序在不联网、无共享文件的虚拟机之间传递秘密，类似 Spectre 和 Meltdown 的攻击手法。作者提到 Anthropic 和 Noam Brown 此前关于 AI 网络攻防与模型自发协调的说法曾被嘲笑。",
+          "category": "opinion",
+          "score": 77,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/d92mrmxvsfmnoyw3comncgz2c"
+          }
+        }
+      },
+      {
+        "source": "aihot",
+        "sourceItemId": "aihot:imgp55zxmw4jugt1a29ap9yo1",
+        "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+        "summary": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
+        "body": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
+        "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+        "sourceName": "The Decoder：AI News（RSS）",
+        "sourceCategory": "paper",
+        "publishedAt": "2026-10-24T11:12:36.000Z",
+        "rawJson": {
+          "id": "imgp55zxmw4jugt1a29ap9yo1",
+          "title": "OpenAI 智能体在隔离测试中借 CPU 缓存隐蔽通信",
+          "title_en": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache",
+          "url": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+          "permalink": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1",
+          "source": "The Decoder：AI News（RSS）",
+          "publishedAt": "2026-10-24T11:12:36.000Z",
+          "discoveredAt": "2026-10-24T11:53:51.477Z",
+          "summary": "OpenAI 介绍其前沿模型训练已完全断网，并用 AI 智能体红队测试自家基础设施。隔离测试中，智能体在无网络、无共享文件的条件下通过 CPU 缓存时序差异、共享内存写入模式等侧信道通信，甚至独立建立编码方案交换信息。",
+          "category": "paper",
+          "score": 82,
+          "selected": true,
+          "attribution": {
+            "source": "AIHOT",
+            "canonical": "https://aihot.news/items/imgp55zxmw4jugt1a29ap9yo1"
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-10-25T08:17:43.638Z",
+    "sourceGeneratedAt": "2026-10-24",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1281583",
+        "title": "zCAD AI",
+        "summary": "AI 3D that creates real parts, not just shapes",
+        "body": "zCAD. AI is an AI-native platform for generating parametric 3D models, built for designers, makers and engineers. Describe a part or assembly in plain language, and zCAD. AI generates an editable, dimension-driven 3D model built on real CAD geometry, not a static mesh. • Complete assemblies from a single prompt, with mates between parts • Refine in plain language, or edit dimensions in a browser-based CAD editor • Export to STEP for use in any CAD tool",
+        "url": "https://www.producthunt.com/products/zcad-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/VPIBBXXNICLFJA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 294,
+          "comments": 33,
+          "rank": 1,
+          "score": 294
+        },
+        "metadata": {
+          "slug": "zcad-ai",
+          "topics": [
+            "Design Tools",
+            "SaaS",
+            "3D Modeling"
+          ]
+        },
+        "rawJson": {
+          "id": "1281583",
+          "name": "zCAD AI",
+          "slug": "zcad-ai",
+          "tagline": "AI 3D that creates real parts, not just shapes",
+          "description": "zCAD. AI is an AI-native platform for generating parametric 3D models, built for designers, makers and engineers. Describe a part or assembly in plain language, and zCAD. AI generates an editable, dimension-driven 3D model built on real CAD geometry, not a static mesh. • Complete assemblies from a single prompt, with mates between parts • Refine in plain language, or edit dimensions in a browser-based CAD editor • Export to STEP for use in any CAD tool",
+          "url": "https://www.producthunt.com/products/zcad-ai?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/VPIBBXXNICLFJA?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 294,
+          "commentsCount": 33,
+          "dailyRank": 1,
+          "latestScore": 294,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "3D Modeling",
+                  "slug": "3d-modeling"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1281716",
+        "title": "myPip",
+        "summary": "Vibe code, publish, and monetize games with AI",
+        "body": "MyPip turns your game ideas into playable games you can publish and monetize. Describe what you want to build, and AI brings it to life directly in your browser, no coding required. Create multiplayer experiences, add in-app purchases and ads, and take your games beyond the browser to reach more players. From your first idea to publishing and monetization, MyPip gives anyone the tools to become a game creator.",
+        "url": "https://www.producthunt.com/products/mypip-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/EHF3WCHUMHPPQ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 249,
+          "comments": 17,
+          "rank": 2,
+          "score": 249
+        },
+        "metadata": {
+          "slug": "mypip-2",
+          "topics": [
+            "Developer Tools",
+            "Games",
+            "Vibe coding"
+          ]
+        },
+        "rawJson": {
+          "id": "1281716",
+          "name": "myPip",
+          "slug": "mypip-2",
+          "tagline": "Vibe code, publish, and monetize games with AI",
+          "description": "MyPip turns your game ideas into playable games you can publish and monetize. Describe what you want to build, and AI brings it to life directly in your browser, no coding required. Create multiplayer experiences, add in-app purchases and ads, and take your games beyond the browser to reach more players. From your first idea to publishing and monetization, MyPip gives anyone the tools to become a game creator.",
+          "url": "https://www.producthunt.com/products/mypip-2?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/EHF3WCHUMHPPQ4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 249,
+          "commentsCount": 17,
+          "dailyRank": 2,
+          "latestScore": 249,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Games",
+                  "slug": "games"
+                }
+              },
+              {
+                "node": {
+                  "name": "Vibe coding",
+                  "slug": "vibe-coding"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1289449",
+        "title": "1Password for Agents",
+        "summary": "Let AI agents sign in for you without seeing your passwords",
+        "body": "1Password for Agents lets supported AI agents sign in to your accounts without ever seeing your passwords. When an agent hits a login, it asks 1Password. You approve or deny on your own device, and 1Password fills the password or one-time code directly. Connecting an agent doesn’t open your whole vault. Included in Individual and Family plans, with Meta Muse and Grok Bot rolling out and a waitlist.",
+        "url": "https://www.producthunt.com/products/1password?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/QPQLVSCTPHCQGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 226,
+          "comments": 6,
+          "rank": 3,
+          "score": 226
+        },
+        "metadata": {
+          "slug": "1password-for-agents",
+          "topics": [
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1289449",
+          "name": "1Password for Agents",
+          "slug": "1password-for-agents",
+          "tagline": "Let AI agents sign in for you without seeing your passwords",
+          "description": "1Password for Agents lets supported AI agents sign in to your accounts without ever seeing your passwords. When an agent hits a login, it asks 1Password. You approve or deny on your own device, and 1Password fills the password or one-time code directly. Connecting an agent doesn’t open your whole vault. Included in Individual and Family plans, with Meta Muse and Grok Bot rolling out and a waitlist.",
+          "url": "https://www.producthunt.com/products/1password?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/QPQLVSCTPHCQGE?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 226,
+          "commentsCount": 6,
+          "dailyRank": 3,
+          "latestScore": 226,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1286641",
+        "title": "AgentValley",
+        "summary": "Every Claude Code agent, at a glance, in your Mac's notch",
+        "body": "It sits in your MacBook's notch. Every Claude Code session gets a card, every sub-agent gets a row, and each one has a little pixel programmer. You see who's working, on which model, and who's waiting on you. Free and open source.",
+        "url": "https://www.producthunt.com/products/agentvalley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/FXTTULYREWAUGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 147,
+          "comments": 14,
+          "rank": 4,
+          "score": 147
+        },
+        "metadata": {
+          "slug": "agentvalley",
+          "topics": [
+            "Open Source",
+            "Developer Tools",
+            "GitHub",
+            "Menu Bar Apps"
+          ]
+        },
+        "rawJson": {
+          "id": "1286641",
+          "name": "AgentValley",
+          "slug": "agentvalley",
+          "tagline": "Every Claude Code agent, at a glance, in your Mac's notch",
+          "description": "It sits in your MacBook's notch. Every Claude Code session gets a card, every sub-agent gets a row, and each one has a little pixel programmer. You see who's working, on which model, and who's waiting on you. Free and open source.",
+          "url": "https://www.producthunt.com/products/agentvalley?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/FXTTULYREWAUGP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 147,
+          "commentsCount": 14,
+          "dailyRank": 4,
+          "latestScore": 147,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1290061",
+        "title": "Canva Craft",
+        "summary": "Turn prompts into design-ready images you can edit",
+        "body": "Canva Craft is Canva’s first in-house image model, built for marketers, creators and designers who need images that work as designs, not just pictures. Unlike models trained mostly on photos that render pixels straight from a prompt, Craft learned from millions of Canva templates and plans the composition first, then renders it at 2K in 30+ aspect ratios. Expect legible text in 55 languages, precise placement and outputs you can split into editable layers. Live in Canva today, plus API.",
+        "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/WZ53YD2FURN4TB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 134,
+          "comments": 1,
+          "rank": 5,
+          "score": 134
+        },
+        "metadata": {
+          "slug": "canva-craft",
+          "topics": [
+            "Design Tools",
+            "Marketing",
+            "Photography"
+          ]
+        },
+        "rawJson": {
+          "id": "1290061",
+          "name": "Canva Craft",
+          "slug": "canva-craft",
+          "tagline": "Turn prompts into design-ready images you can edit",
+          "description": "Canva Craft is Canva’s first in-house image model, built for marketers, creators and designers who need images that work as designs, not just pictures. Unlike models trained mostly on photos that render pixels straight from a prompt, Craft learned from millions of Canva templates and plans the composition first, then renders it at 2K in 30+ aspect ratios. Expect legible text in 55 languages, precise placement and outputs you can split into editable layers. Live in Canva today, plus API.",
+          "url": "https://www.producthunt.com/products/canva?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/WZ53YD2FURN4TB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 134,
+          "commentsCount": 1,
+          "dailyRank": 5,
+          "latestScore": 134,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photography",
+                  "slug": "photography"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1280718",
+        "title": "LinkIntel",
+        "summary": "Post insights delivered direct to your AI",
+        "body": "Your AI already drafts your X posts, but it has never seen how they performed. LinkIntel fixes that. Connect X once and it records how your recent posts do, every day. It also reads X's open-source ranking weights daily and links every change to its GitHub commit. Add one URL to Claude, ChatGPT, or your favorite agent harness and ask for a brief: your next draft starts from what actually worked for you",
+        "url": "https://www.producthunt.com/products/linkintel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/BRLPMVHM6UBNJP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 120,
+          "comments": 4,
+          "rank": 6,
+          "score": 120
+        },
+        "metadata": {
+          "slug": "linkintel-4",
+          "topics": [
+            "Twitter",
+            "Social Media",
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1280718",
+          "name": "LinkIntel",
+          "slug": "linkintel-4",
+          "tagline": "Post insights delivered direct to your AI",
+          "description": "Your AI already drafts your X posts, but it has never seen how they performed. LinkIntel fixes that. Connect X once and it records how your recent posts do, every day. It also reads X's open-source ranking weights daily and links every change to its GitHub commit. Add one URL to Claude, ChatGPT, or your favorite agent harness and ask for a brief: your next draft starts from what actually worked for you",
+          "url": "https://www.producthunt.com/products/linkintel?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/BRLPMVHM6UBNJP?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 120,
+          "commentsCount": 4,
+          "dailyRank": 6,
+          "latestScore": 120,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Twitter",
+                  "slug": "twitter"
+                }
+              },
+              {
+                "node": {
+                  "name": "Social Media",
+                  "slug": "social-media"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1280293",
+        "title": "Many Displays",
+        "summary": "Zero clicks: windows back after sleep, unlock or replugging",
+        "body": "Nothing to save, no layouts to name, nothing to click. Many Displays quietly remembers where every window lives (display, position, size) and puts everything back on its own when your Mac wakes, unlocks or reconnects its monitors. Grant Accessibility once and forget it's there. Built for identical monitors that macOS keeps swapping: it tells them apart, even by the port they're plugged into. No cloud, no account. $19 one-time, 14-day free trial.",
+        "url": "https://www.producthunt.com/products/many-displays?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/GSPZTCB4QSTTSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 101,
+          "comments": 5,
+          "rank": 7,
+          "score": 101
+        },
+        "metadata": {
+          "slug": "many-displays",
+          "topics": [
+            "Mac",
+            "Productivity",
+            "GitHub",
+            "Menu Bar Apps"
+          ]
+        },
+        "rawJson": {
+          "id": "1280293",
+          "name": "Many Displays",
+          "slug": "many-displays",
+          "tagline": "Zero clicks: windows back after sleep, unlock or replugging",
+          "description": "Nothing to save, no layouts to name, nothing to click. Many Displays quietly remembers where every window lives (display, position, size) and puts everything back on its own when your Mac wakes, unlocks or reconnects its monitors. Grant Accessibility once and forget it's there. Built for identical monitors that macOS keeps swapping: it tells them apart, even by the port they're plugged into. No cloud, no account. $19 one-time, 14-day free trial.",
+          "url": "https://www.producthunt.com/products/many-displays?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/GSPZTCB4QSTTSI?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 101,
+          "commentsCount": 5,
+          "dailyRank": 7,
+          "latestScore": 101,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1288672",
+        "title": "Penta",
+        "summary": "A ’90s 5-disc CD changer on iPhone Duo ",
+        "body": "Penta turns your iPhone, iPad or iPhone Duo into a ’90s 5-disc CD changer for your Apple Music library. Every click, whir and tray motor is recorded from a real CD changer. On iPhone Duo the phone is the jewel case: close it and you’re holding the album, open it and the case opens with it, then drop the disc into the carousel. Hold it upright for a CD wallet over the tray that animates open and closed. Free, with an optional one-time Pro unlock for the real printed CD art.",
+        "url": "https://www.producthunt.com/products/penta-cd-player-changer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/OSUIR3XGHPGCRN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 99,
+          "comments": 5,
+          "rank": 8,
+          "score": 99
+        },
+        "metadata": {
+          "slug": "penta-4",
+          "topics": [
+            "iOS",
+            "Music",
+            "GitHub",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1288672",
+          "name": "Penta",
+          "slug": "penta-4",
+          "tagline": "A ’90s 5-disc CD changer on iPhone Duo ",
+          "description": "Penta turns your iPhone, iPad or iPhone Duo into a ’90s 5-disc CD changer for your Apple Music library. Every click, whir and tray motor is recorded from a real CD changer. On iPhone Duo the phone is the jewel case: close it and you’re holding the album, open it and the case opens with it, then drop the disc into the carousel. Hold it upright for a CD wallet over the tray that animates open and closed. Free, with an optional one-time Pro unlock for the real printed CD art.",
+          "url": "https://www.producthunt.com/products/penta-cd-player-changer?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/OSUIR3XGHPGCRN?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 99,
+          "commentsCount": 5,
+          "dailyRank": 8,
+          "latestScore": 99,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "iOS",
+                  "slug": "ios"
+                }
+              },
+              {
+                "node": {
+                  "name": "Music",
+                  "slug": "music"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1288200",
+        "title": "Byter",
+        "summary": "Know exactly how much data you use, on every network",
+        "body": "Byter shows how much internet data you use, and where. It tracks usage separately for every Wi‑Fi network, phone hotspot and wired connection, so you know exactly what your hotspot bundle went on. You also get live speed, a one-click speed test, daily-to-yearly charts, and gentle alerts when usage spikes. Everything stays on your device. No account, no ads. Available now for Mac, Windows coming soon, in 11 languages.",
+        "url": "https://www.producthunt.com/products/byter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/P5AUEEE3ERUV7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 95,
+          "comments": 7,
+          "rank": 9,
+          "score": 95
+        },
+        "metadata": {
+          "slug": "byter",
+          "topics": [
+            "Mac",
+            "Menu Bar Apps",
+            "Apple"
+          ]
+        },
+        "rawJson": {
+          "id": "1288200",
+          "name": "Byter",
+          "slug": "byter",
+          "tagline": "Know exactly how much data you use, on every network",
+          "description": "Byter shows how much internet data you use, and where. It tracks usage separately for every Wi‑Fi network, phone hotspot and wired connection, so you know exactly what your hotspot bundle went on. You also get live speed, a one-click speed test, daily-to-yearly charts, and gentle alerts when usage spikes. Everything stays on your device. No account, no ads. Available now for Mac, Windows coming soon, in 11 languages.",
+          "url": "https://www.producthunt.com/products/byter?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/P5AUEEE3ERUV7M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 95,
+          "commentsCount": 7,
+          "dailyRank": 9,
+          "latestScore": 95,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Menu Bar Apps",
+                  "slug": "menu-bar-apps"
+                }
+              },
+              {
+                "node": {
+                  "name": "Apple",
+                  "slug": "apple"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1290612",
+        "title": "Basedash Scheduled CSV Exports",
+        "summary": "Ask once. Get a fresh CSV in Slack or email every week.",
+        "body": "Basedash automations can now send CSV exports. Write it into the instructions — \"send a CSV of last week's new signups every Monday\" — and each run builds the file from your data. In Slack, the CSV is attached in the message's thread; emails and the automation's run history get a Download CSV link. Downloads go through Basedash, so recipients need access to the automation to open them. Ask for it once. Get the CSV every week.",
+        "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/6NB5PZDF42D2BW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-10-24T07:01:00Z",
+        "metrics": {
+          "votes": 84,
+          "comments": 2,
+          "rank": 10,
+          "score": 84
+        },
+        "metadata": {
+          "slug": "basedash-scheduled-csv-exports",
+          "topics": [
+            "Artificial Intelligence",
+            "Data & Analytics"
+          ]
+        },
+        "rawJson": {
+          "id": "1290612",
+          "name": "Basedash Scheduled CSV Exports",
+          "slug": "basedash-scheduled-csv-exports",
+          "tagline": "Ask once. Get a fresh CSV in Slack or email every week.",
+          "description": "Basedash automations can now send CSV exports. Write it into the instructions — \"send a CSV of last week's new signups every Monday\" — and each run builds the file from your data. In Slack, the CSV is attached in the message's thread; emails and the automation's run history get a Download CSV link. Downloads go through Basedash, so recipients need access to the automation to open them. Ask for it once. Get the CSV every week.",
+          "url": "https://www.producthunt.com/products/basedash?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/6NB5PZDF42D2BW?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 84,
+          "commentsCount": 2,
+          "dailyRank": 10,
+          "latestScore": 84,
+          "featuredAt": "2026-10-24T07:01:00Z",
+          "createdAt": "2026-10-24T07:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Data & Analytics",
+                  "slug": "data-analytics"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-10-25T08:17:43.979Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:debpalash/VoiceStudio",
+        "title": "debpalash/VoiceStudio",
+        "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "url": "https://github.com/debpalash/VoiceStudio",
+        "publishedAt": "2026-10-25T08:17:43.945Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:heygen-com/hyperframes",
+        "title": "heygen-com/hyperframes",
+        "summary": "Write HTML.",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "publishedAt": "2026-10-25T08:17:43.947Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:cloudflare/security-audit-skill",
+        "title": "cloudflare/security-audit-skill",
+        "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a security auditor.",
+        "url": "https://github.com/cloudflare/security-audit-skill",
+        "publishedAt": "2026-10-25T08:17:43.947Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:paperclipai/paperclip",
+        "title": "paperclipai/paperclip",
+        "summary": "The open-source app everyone uses to manage agents at work https://paperclip.ing Quickstart · Docs · GitHub · Discord · Twitter · Website Sign up for the Paperclip Cloud waitlist → Paperclip is the app people use to manage AI agents for work.",
+        "url": "https://github.com/paperclipai/paperclip",
+        "publishedAt": "2026-10-25T08:17:43.949Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:anthropics/knowledge-work-plugins",
+        "title": "anthropics/knowledge-work-plugins",
+        "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "publishedAt": "2026-10-25T08:17:43.949Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:NVIDIA/OpenShell",
+        "title": "NVIDIA/OpenShell",
+        "summary": "OpenShell is the safe, private runtime for autonomous AI agents.",
+        "url": "https://github.com/NVIDIA/OpenShell",
+        "publishedAt": "2026-10-25T08:17:43.950Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:vectorize-io/hindsight",
+        "title": "vectorize-io/hindsight",
+        "summary": "Hindsight: Agent Memory That Learns https://hindsight.vectorize.io/ Documentation • Integrations • Cookbook • Benchmarks • Paper • Hindsight Cloud What is Hindsight?",
+        "url": "https://github.com/vectorize-io/hindsight",
+        "publishedAt": "2026-10-25T08:17:43.951Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:mksglu/context-mode",
+        "title": "mksglu/context-mode",
+        "summary": "Context window optimization for AI coding agents.",
+        "url": "https://github.com/mksglu/context-mode",
+        "publishedAt": "2026-10-25T08:17:43.957Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:cursor/plugins",
+        "title": "cursor/plugins",
+        "summary": "Cursor plugin specification and official plugins Cursor plugins Official Cursor plugins for popular developer tools, frameworks, and SaaS products.",
+        "url": "https://github.com/cursor/plugins",
+        "publishedAt": "2026-10-25T08:17:43.959Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:NationalSecurityAgency/ghidra",
+        "title": "NationalSecurityAgency/ghidra",
+        "summary": "Ghidra is a software reverse engineering (SRE) framework Ghidra Software Reverse Engineering Framework Ghidra is a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate.",
+        "url": "https://github.com/NationalSecurityAgency/ghidra",
+        "publishedAt": "2026-10-25T08:17:43.960Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:anthropics/claude-plugins-official",
+        "title": "anthropics/claude-plugins-official",
+        "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "url": "https://github.com/anthropics/claude-plugins-official",
+        "publishedAt": "2026-10-25T08:17:43.960Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:earthtojake/text-to-cad",
+        "title": "earthtojake/text-to-cad",
+        "summary": "Give your agent CAD superpowers.",
+        "url": "https://github.com/earthtojake/text-to-cad",
+        "publishedAt": "2026-10-25T08:17:43.961Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:tashfeenahmed/freellmapi",
+        "title": "tashfeenahmed/freellmapi",
+        "summary": "7.4 billion tokens per month.",
+        "url": "https://github.com/tashfeenahmed/freellmapi",
+        "publishedAt": "2026-10-25T08:17:43.962Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pbakaus/impeccable",
+        "title": "pbakaus/impeccable",
+        "summary": "The design language that makes your AI harness better at design.",
+        "url": "https://github.com/pbakaus/impeccable",
+        "publishedAt": "2026-10-25T08:17:43.964Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pingdotgg/t3code",
+        "title": "pingdotgg/t3code",
+        "summary": "https://t3.codes T3 Code T3 Code is an \"agent harness control surface\".",
+        "url": "https://github.com/pingdotgg/t3code",
+        "publishedAt": "2026-10-25T08:17:43.964Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:affaan-m/ECC",
+        "title": "affaan-m/ECC",
+        "summary": "The agent harness performance optimization system.",
+        "url": "https://github.com/affaan-m/ECC",
+        "publishedAt": "2026-10-25T08:17:43.968Z",
+        "metrics": {
+          "rank": 16
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:rohitg00/ai-engineering-from-scratch",
+        "title": "rohitg00/ai-engineering-from-scratch",
+        "summary": "Learn AI Engineering!",
+        "url": "https://github.com/rohitg00/ai-engineering-from-scratch",
+        "publishedAt": "2026-10-25T08:17:43.975Z",
+        "metrics": {
+          "rank": 17
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:TencentCloud/Octop",
+        "title": "TencentCloud/Octop",
+        "summary": "A smarter, self-hosted AI assistant — multi-user, multi-agent.",
+        "url": "https://github.com/TencentCloud/Octop",
+        "publishedAt": "2026-10-25T08:17:43.977Z",
+        "metrics": {
+          "rank": 18
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:thedotmack/claude-mem",
+        "title": "thedotmack/claude-mem",
+        "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.",
+        "url": "https://github.com/thedotmack/claude-mem",
+        "publishedAt": "2026-10-25T08:17:43.977Z",
+        "metrics": {
+          "rank": 19
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:VectifyAI/PageIndex",
+        "title": "VectifyAI/PageIndex",
+        "summary": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG https://pageindex.ai PageIndex: Vectorless, Reasoning-based RAG Reasoning-based RAG&nbsp; ◦ &nbsp;No Vector DB, No Chunking&nbsp; ◦ &nbsp;Context-Aware Retrieval&nbsp; ◦ &nbsp;Reads Like a Hum...",
+        "url": "https://github.com/VectifyAI/PageIndex",
+        "publishedAt": "2026-10-25T08:17:43.978Z",
+        "metrics": {
+          "rank": 20
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-10-25T08:18:01.266Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users (Part II)",
+        "summary": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+        "body": "Learn how OpenAI scaled Habitat with reliable multi-tenancy, global caching, and Azure Cosmos DB to deliver 12× faster reads for ChatGPT.",
+        "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T17:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/securing-our-frontier-model-training-environment",
+        "title": "Securing our frontier model training environment",
+        "summary": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "body": "OpenAI explains how we strengthened containment for frontier model training and evaluation, including offline environments and high-compute red-teaming.",
+        "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T10:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "title": "OpenAI and Poland’s NASK partner to advance AI safety and security",
+        "summary": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+        "body": "OpenAI and Poland’s NASK are partnering on AI safety, security, and technical research to strengthen safeguards and support a more resilient digital ecosystem.",
+        "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/decisions-api",
+        "title": "Build more responsive apps with the Decisions API",
+        "summary": "Fast, focused, low-cost decisions for any application.",
+        "body": "Fast, focused, low-cost decisions for any application.",
+        "url": "https://openai.com/index/decisions-api",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+        "title": "Beyond tree cover: mapping the world’s forest types",
+        "summary": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+        "body": "A global map categorizing every 10-meter patch of land on Earth into distinct forest types.",
+        "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-22T14:30:24.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog",
+          "image": "https://lh3.googleusercontent.com/Et3g0tNB_bC00f6cP94Y40QbqshCvf7_fg_gRVfZQoeVSc3Hn9g6jIenf1udZdACY4x-wpY_5tyy_LznFSlu0yhGCqfxKos6QFRRj4lad_hQHOBV8Q=w528-h297-n-nu-rw-lo"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Oct/24/battledrones/",
+        "title": "battledrones v14: Compass Rose, a four player map",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-au",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/battledrones/releases/tag/v14\">battledrones v14: Compass Rose, a four player map</a></p> <p>I added four player online mode to <a href=\"https://simonwillison.net/2026/Oct/20/battledrones/\">Battledrones</a> - previous maps were limited to two.</p> <p>Here's the initial prompt I used: </p> <blockquote> <p><code>Add a new map for a four player battle - four way rotational symmetry, up to four AI players, works with the WebSocket non-audio based multiplayer mode so up to four human players can join (any spare slots use AI)</code></p> </blockquote> <p>Claude Opus 5.5 added a new map called \"Compass Rose\" and modified the WebSockets multiplayer network code to support up to four players for that map, joining via share links or QR co",
+        "url": "https://simonwillison.net/2026/Oct/24/battledrones/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-24T03:59:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+        "title": "Quick Study",
+        "summary": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p> <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p> <blockquote> <p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p> </blockquote> <p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolor",
+        "body": "<p><strong>Tool:</strong> <a href=\"https://tools.simonwillison.net/quick-study-painter\">Quick Study</a></p> <p>Prompt <a href=\"https://claude.ai/share/71adda96-193f-4f2a-97c0-454e08066afb\">to Claude Opus 5.5 High</a>:</p> <blockquote> <p><code>Build an artifact where you open a photo and it rapidly (in a few seconds) paints a version of that photo using a canvas element and simulated paintbrush</code></p> </blockquote> <p>See also <a href=\"https://simonwillison.net/2026/Aug/25/pelican-watercolor/\">my previous experiment</a> getting Claude Fable to simulate a watercolor illustration with P5.js.</p> <p><img alt=\"A simulated oil painting of a photograph of a heron\" src=\"https://static.simonwillison.net/static/2026/heron-oil.webp\" /></p> <p>Quick Study uses <a href=\"https://en.wikipedia.org/wi",
+        "url": "https://simonwillison.net/2026/Oct/23/quick-study-painter/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-23T21:35:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+        "title": "Introducing Kimi K3.1 Pro",
+        "summary": "<p><strong><a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">Introducing Kimi K3.1 Pro</a></strong></p> Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".</p> <p>They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).</p> <p>The <a href=\"https://platform.kimi.ai/docs/pricing/chat\">US dollar pricing</a> is $2.00/m",
+        "body": "<p><strong><a href=\"https://www.kimi.ai/blog/kimi-k3-1-pro\">Introducing Kimi K3.1 Pro</a></strong></p> Kimi K3.1 Pro landed on the Kimi API today - it's not yet open weights, but Moonshot promise \"Full model weights will be released by Nov 4, 2026\".</p> <p>They're also offering a \"Highspeed\" version that's 2-3x faster, at twice the price (except for input token cache hits, which are priced the same).</p> <p>The <a href=\"https://platform.kimi.ai/docs/pricing/chat\">US dollar pricing</a> is $2.00/million tokens for input and $10/million for output - the same as GPT-6.1 Sol and half the price of Claude Opus 5.5.</p> <p>Moonshot's own benchmarks show Kimi as approximately level with Opus 5.5 and GPT-6 Astra - beating them on a few benchmarks, coming close on others.</p> <p>Artificial Analysis <",
+        "url": "https://simonwillison.net/2026/Oct/23/kimi-k31-pro/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-23T19:40:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+        "title": "DE STAAT - FREEDOM (Official Music Video)",
+        "summary": "<p><strong><a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow\">DE STAAT - FREEDOM (Official Music Video)</a></strong></p> OK well this is a first for me... at <a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow&amp;t=44s\">00:44</a> in this new music video by Dutch alternative rock band <a href=\"https://en.wikipedia.org/wiki/De_Staat\">De Staat</a>:</p> <p><video src=\"https://static.simonwillison.net/static/2026/freedom-pelican.mp4\" poster=\"https://static.simonwillison.net/static/2026/freedom-p",
+        "body": "<p><strong><a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow\">DE STAAT - FREEDOM (Official Music Video)</a></strong></p> OK well this is a first for me... at <a href=\"https://www.youtube.com/watch?v=hKO4pQtIXow&amp;t=44s\">00:44</a> in this new music video by Dutch alternative rock band <a href=\"https://en.wikipedia.org/wiki/De_Staat\">De Staat</a>:</p> <p><video src=\"https://static.simonwillison.net/static/2026/freedom-pelican.mp4\" poster=\"https://static.simonwillison.net/static/2026/freedom-pelican-poster.jpg\" preload=\"none\" loop=\"1\" controls=\"1\" playsinline=\"1\" muted=\"1\" width=\"1280\" height=\"720\" style=\"display: block; width: 100%; height: auto;\" > </video> </p> <p>The visual effects are credited to Matties Grooten of <a href=\"https://fakeitorleaveit.com\">Fake it or Leave it</a>. <p><s",
+        "url": "https://simonwillison.net/2026/Oct/22/de-staat-freedom/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-22T19:42:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+        "title": "Donating Agent Skills to the Agentic AI Foundation",
+        "summary": "<p><strong><a href=\"https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation\">Donating Agent Skills to the Agentic AI Foundation</a></strong></p> News today from Anthropic:</p> <blockquote> <p>We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, <a href=\"https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-th",
+        "body": "<p><strong><a href=\"https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation\">Donating Agent Skills to the Agentic AI Foundation</a></strong></p> News today from Anthropic:</p> <blockquote> <p>We’re committed to keeping Agent Skills open, community-driven, and vendor-neutral. Today, we are donating the standard to the Agentic AI Foundation (AAIF) under the Linux Foundation, <a href=\"https://www.anthropic.com/news/donating-the-model-context-protocol-and-establishing-of-the-agentic-ai-foundation\">which we co-founded</a> with Block and OpenAI last year, and to which we donated the Model Context Protocol (MCP).</p> </blockquote> <p>I'm pleased to note I called this one <a href=\"https://simonwillison.net/2025/Dec/19/agent-skills/\">last December</a>, when Anthropic first",
+        "url": "https://simonwillison.net/2026/Oct/22/donating-agent-skills/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-22T18:09:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+        "title": "Quoting Armin Ronacher",
+        "summary": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simo",
+        "body": "<blockquote cite=\"https://twitter.com/mitsuhiko/status/2113207589978636646\"><p>As fun as AI is, we built so much bad software over the last 30 years, and now the universe is punishing us for our sins.</p></blockquote> <p class=\"cite\">&mdash; <a href=\"https://twitter.com/mitsuhiko/status/2113207589978636646\">Armin Ronacher</a></p> <p>Tags: <a href=\"https://simonwillison.net/tags/security\">security</a>, <a href=\"https://simonwillison.net/tags/generative-ai\">generative-ai</a>, <a href=\"https://simonwillison.net/tags/armin-ronacher\">armin-ronacher</a>, <a href=\"https://simonwillison.net/tags/ai\">ai</a>, <a href=\"https://simonwillison.net/tags/ai-security-research\">ai-security-research</a>, <a href=\"https://simonwillison.net/tags/llms\">llms</a></p>",
+        "url": "https://simonwillison.net/2026/Oct/22/armin-ronacher/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-22T15:34:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://www.dwarkesh.com/p/intel-tour",
+        "title": "What will computer chips look like in 2045?",
+        "summary": "What I learned from touring Intel&#8217;s most advanced fab and talking to its leadership.",
+        "body": "What I learned from touring Intel&#8217;s most advanced fab and talking to its leadership.",
+        "url": "https://www.dwarkesh.com/p/intel-tour",
+        "authorName": "Dwarkesh Patel",
+        "sourceName": "Dwarkesh Patel",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T15:02:21.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Dwarkesh Patel"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-89078/",
+        "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+        "summary": "",
+        "body": "",
+        "url": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-89078/",
+        "authorName": "Xe Iaso",
+        "sourceName": "Xe Iaso",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-23T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Xe Iaso",
+          "image": "https://files.xeiaso.net/hero/sad-business-man.jpg"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+        "title": "Cerebras Deploys Trillion-Parameter AI Models",
+        "summary": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 132 # Comments: 42",
+        "body": "Article URL: https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras Comments URL: https://news.ycombinator.com/item?id=50227356 Points: 132 # Comments: 42",
+        "url": "https://www.cerebras.ai/blog/how-we-deploy-trillion-parameter-frontier-models-on-cerebras",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-25T01:33:49.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+        "title": "America has lost 200k of jobs in media, film and the arts. How much is AI?",
+        "summary": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 330 # Comments: 326",
+        "body": "Article URL: https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class Comments URL: https://news.ycombinator.com/item?id=50226419 Points: 330 # Comments: 326",
+        "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-24T23:11:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "title": "No signs of AI payoff outside the tech sector",
+        "summary": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 545 # Comments: 568",
+        "body": "Article URL: https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector Comments URL: https://news.ycombinator.com/item?id=50224463 Points: 545 # Comments: 568",
+        "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-24T19:47:19.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://arxiv.org/abs/2610.29162",
+        "title": "Why is AI generated language so hard to understand?",
+        "summary": "Article URL: https://arxiv.org/abs/2610.29162 Comments URL: https://news.ycombinator.com/item?id=50223647 Points: 190 # Comments: 166",
+        "body": "Article URL: https://arxiv.org/abs/2610.29162 Comments URL: https://news.ycombinator.com/item?id=50223647 Points: 190 # Comments: 166",
+        "url": "https://arxiv.org/abs/2610.29162",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-24T18:04:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+        "title": "AI-Assisted Paper on Z-Library Cites a TorrentFreak Article That Doesn't Exist",
+        "summary": "Article URL: https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=50220204 Points: 96 # Comments: 52",
+        "body": "Article URL: https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/ Comments URL: https://news.ycombinator.com/item?id=50220204 Points: 96 # Comments: 52",
+        "url": "https://torrentfreak.com/ai-assisted-paper-on-z-library-cites-a-torrentfreak-article-that-doesnt-exist/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-24T11:18:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+        "title": "New AI Is More Than Twice as Good at Diagnosing Diseases as Doctors",
+        "summary": "Article URL: https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562 Comments URL: https://news.ycombinator.com/item?id=50214185 Points: 66 # Comments: 58",
+        "body": "Article URL: https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562 Comments URL: https://news.ycombinator.com/item?id=50214185 Points: 66 # Comments: 58",
+        "url": "https://gizmodo.com/microsoft-says-its-new-ai-is-more-than-twice-as-good-at-diagnosing-diseases-as-doctors-2000829562",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T19:31:36.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.thisandthat.chat/enron/",
+        "title": "Show HN: We had AI write a wiki from 45k Enron emails, every fact cited",
+        "summary": "Article URL: https://www.thisandthat.chat/enron/ Comments URL: https://news.ycombinator.com/item?id=50207620 Points: 66 # Comments: 56",
+        "body": "Article URL: https://www.thisandthat.chat/enron/ Comments URL: https://news.ycombinator.com/item?id=50207620 Points: 66 # Comments: 56",
+        "url": "https://www.thisandthat.chat/enron/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T12:02:53.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+        "title": "Swedish government offices to ban ChatGPT and Claude",
+        "summary": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 322 # Comments: 122",
+        "body": "Article URL: https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet Comments URL: https://news.ycombinator.com/item?id=50207405 Points: 322 # Comments: 122",
+        "url": "https://www.sverigesradio.se/artikel/chat-gpt-och-claude-forbjuder-regeringskansliet",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T11:39:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://berget.ai/en/blog/per-request-co2-press-release",
+        "title": "The same AI request emits 8.5 times more CO2 in Texas than in Sweden",
+        "summary": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 142 # Comments: 157",
+        "body": "Article URL: https://berget.ai/en/blog/per-request-co2-press-release Comments URL: https://news.ycombinator.com/item?id=50205229 Points: 142 # Comments: 157",
+        "url": "https://berget.ai/en/blog/per-request-co2-press-release",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-23T06:41:11.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+        "title": "AI compute is the new oil–and needs a new market",
+        "summary": "Article URL: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market Comments URL: https://news.ycombinator.com/item?id=50202671 Points: 53 # Comments: 62",
+        "body": "Article URL: https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market Comments URL: https://news.ycombinator.com/item?id=50202671 Points: 53 # Comments: 62",
+        "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T23:45:16.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+        "title": "Most Americans Say AI Is Bad for Society, Oppose More Data Centers",
+        "summary": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 91 # Comments: 67",
+        "body": "Article URL: https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085 Comments URL: https://news.ycombinator.com/item?id=50200843 Points: 91 # Comments: 67",
+        "url": "https://abcnews.com/Politics/americans-ai-bad-society-oppose-data-centers-abcpostipsos/story?id=137414085",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T20:51:23.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.typeui.sh/micro-interactions",
+        "title": "Show HN: UI micro interactions prompts for AI",
+        "summary": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 80 # Comments: 45",
+        "body": "Article URL: https://www.typeui.sh/micro-interactions Comments URL: https://news.ycombinator.com/item?id=50199290 Points: 80 # Comments: 45",
+        "url": "https://www.typeui.sh/micro-interactions",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T18:32:57.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://jamesyu.org/award-winning-ai-literature/",
+        "title": "Award-winning AI literature",
+        "summary": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 66 # Comments: 76",
+        "body": "Article URL: https://jamesyu.org/award-winning-ai-literature/ Comments URL: https://news.ycombinator.com/item?id=50199232 Points: 66 # Comments: 76",
+        "url": "https://jamesyu.org/award-winning-ai-literature/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T18:28:26.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://arxiv.org/abs/2610.27251",
+        "title": "AI and the Enclosure of the Scientific Commons",
+        "summary": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 140 # Comments: 81",
+        "body": "Article URL: https://arxiv.org/abs/2610.27251 Comments URL: https://news.ycombinator.com/item?id=50199230 Points: 140 # Comments: 81",
+        "url": "https://arxiv.org/abs/2610.27251",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T18:28:16.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+        "title": "AI analysis of CT scans finds 42.9% of patients have coronary inflammation",
+        "summary": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 91 # Comments: 46",
+        "body": "Article URL: https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients Comments URL: https://news.ycombinator.com/item?id=50198940 Points: 91 # Comments: 46",
+        "url": "https://www.biograph.com/newsroom/biograph-completes-first-u.s.-study-with-caristo-diagnostics%E2%80%99-ai-powered-coronary-inflammation-detection-finding-risk-in-over-42-of-asymptomatic-patients",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-10-22T18:02:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://arxiv.org/abs/2610.14162",
+        "title": "Next-Concept Modeling: Fast, Parallel Coarse-to-Fine Text Generation",
+        "summary": "<p><a href=\"https://lobste.rs/s/d1snfg/next_concept_modeling_fast_parallel\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/d1snfg/next_concept_modeling_fast_parallel\">Comments</a></p>",
+        "url": "https://arxiv.org/abs/2610.14162",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-23T17:25:34.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2610.31574",
+        "title": "Rethinking Sequence Compression with Test-time Regression",
+        "summary": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation. Importantly, the regression problem is learned end-to-end via backpropagation, while its coefficie",
+        "body": "Sequence compression is a fundamental operation and a critical information bottleneck in efficient language and multimodal models, and yet prevailing approaches based on pooling or learned projections remain underperforming. We revisit sequence compression through the lens of test-time regression: input tokens define a regression problem whose fitted coefficients form the compressed representation. Importantly, the regression problem is learned end-to-end via backpropagation, while its coefficients are computed efficiently in closed form during the forward pass. This leads to TTR-Compressor, a general alternative to conventional pooling and projection-based compression. We evaluate TTR-Compressor as the compressor for block-wise sparse attention and the visual token merger for multimodal l",
+        "url": "https://arxiv.org/abs/2610.31574",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-10-22T13:14:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      }
+    ],
+    "errors": [
+      "Anthropic News: HTTP 503",
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403"
+    ]
+  }
+]
