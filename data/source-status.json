@@ -1,33 +1,34 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-11-05T11:44:00.833Z",
+    "fetchedAt": "2026-11-06T10:40:33.267Z",
     "itemCount": 0,
     "errors": [
-      "GET https://aihot.virxact.com/api/public/items?mode=selected&since=2026-11-04T11%3A43%3A57.957Z&take=100 failed: HTTP 404 {\"type\":\"/problems/not-found\",\"title\":\"Not found\",\"status\":404,\"detail\":\"/api/public/items 已于 2026 年 10 月 31 日（北京时间）停止服务；请改用 https://aihot.news/api/v1/items。take 改为 limit；since 改用覆盖 window 后按 publishe"
+      "GET https://aihot.virxact.com/api/public/items?mode=selected&since=2026-11-05T10%3A40%3A28.442Z&take=100 failed: HTTP 404 {\"type\":\"/problems/not-found\",\"title\":\"Not found\",\"status\":404,\"detail\":\"/api/public/items 已于 2026 年 10 月 31 日（北京时间）停止服务；请改用 https://aihot.news/api/v1/items。take 改为 limit；since 改用覆盖 window 后按 publishe"
     ]
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-11-05T11:44:01.414Z",
-    "sourceGeneratedAt": "2026-11-04",
+    "fetchedAt": "2026-11-06T10:40:33.710Z",
+    "sourceGeneratedAt": "2026-11-05",
     "itemCount": 10,
     "errors": []
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-11-05T11:44:01.463Z",
-    "itemCount": 15,
+    "fetchedAt": "2026-11-06T10:40:33.750Z",
+    "itemCount": 12,
     "errors": []
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-11-05T11:44:13.328Z",
-    "itemCount": 55,
+    "fetchedAt": "2026-11-06T10:40:59.597Z",
+    "itemCount": 38,
     "errors": [
       "Anthropic News: HTTP 503",
       "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403"
+      "Gwern: HTTP 403",
+      "HuggingFace Papers: This operation was aborted"
     ]
   }
 ]
