@@ -1,0 +1,1451 @@
+[
+  {
+    "source": "aihot",
+    "fetchedAt": "2026-11-14T10:02:48.466Z",
+    "items": [],
+    "errors": [
+      "GET https://aihot.virxact.com/api/public/items?mode=selected&since=2026-11-13T10%3A02%3A45.320Z&take=100 failed: HTTP 404 {\"type\":\"/problems/not-found\",\"title\":\"Not found\",\"status\":404,\"detail\":\"/api/public/items 已于 2026 年 10 月 31 日（北京时间）停止服务；请改用 https://aihot.news/api/v1/items。take 改为 limit；since 改用覆盖 window 后按 publishe"
+    ]
+  },
+  {
+    "source": "product_hunt",
+    "fetchedAt": "2026-11-14T10:02:48.823Z",
+    "sourceGeneratedAt": "2026-11-13",
+    "items": [
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1293281",
+        "title": "Templify AI",
+        "summary": "Powerful content editor for people who aren’t editors",
+        "body": "Templify is an all-in-one video, photo, and carousel editor for iPhone. With 1,200+ designer templates, it turns clips and photos into Reels, TikToks, YouTube Shorts, and collages in minutes, no timeline needed. Features include AI video editing, beat-synced transitions, auto captions, background removal, filters, and an AI Studio. Free to use, with an optional Pro subscription.",
+        "url": "https://www.producthunt.com/products/templify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/T53GXHFXDGAANJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 369,
+          "comments": 97,
+          "rank": 1,
+          "score": 369
+        },
+        "metadata": {
+          "slug": "templify-ai-2",
+          "topics": [
+            "Social Media",
+            "Photography",
+            "Photo & Video"
+          ]
+        },
+        "rawJson": {
+          "id": "1293281",
+          "name": "Templify AI",
+          "slug": "templify-ai-2",
+          "tagline": "Powerful content editor for people who aren’t editors",
+          "description": "Templify is an all-in-one video, photo, and carousel editor for iPhone. With 1,200+ designer templates, it turns clips and photos into Reels, TikToks, YouTube Shorts, and collages in minutes, no timeline needed. Features include AI video editing, beat-synced transitions, auto captions, background removal, filters, and an AI Studio. Free to use, with an optional Pro subscription.",
+          "url": "https://www.producthunt.com/products/templify?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/T53GXHFXDGAANJ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 369,
+          "commentsCount": 97,
+          "dailyRank": 1,
+          "latestScore": 369,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Social Media",
+                  "slug": "social-media"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photography",
+                  "slug": "photography"
+                }
+              },
+              {
+                "node": {
+                  "name": "Photo & Video",
+                  "slug": "photo-video"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1282575",
+        "title": "Filament by Galaxy",
+        "summary": "Move data using your terminal or agent. Fast & open source.",
+        "body": "Filament is a data replication engine written in Go. It supports full loads, incremental replication, and change data capture (CDC). As data moves through the engine, Filament verifies Arrow batches at the sink handoff and, where the sink supports it, checks the exact serialized payload. You can run Filament as a standalone binary or embed it in a Go application.",
+        "url": "https://www.producthunt.com/products/galaxy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/2VIY3N6BRL2YSZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 298,
+          "comments": 66,
+          "rank": 2,
+          "score": 298
+        },
+        "metadata": {
+          "slug": "filament-by-galaxy",
+          "topics": [
+            "Open Source",
+            "Developer Tools",
+            "Data"
+          ]
+        },
+        "rawJson": {
+          "id": "1282575",
+          "name": "Filament by Galaxy",
+          "slug": "filament-by-galaxy",
+          "tagline": "Move data using your terminal or agent. Fast & open source.",
+          "description": "Filament is a data replication engine written in Go. It supports full loads, incremental replication, and change data capture (CDC). As data moves through the engine, Filament verifies Arrow batches at the sink handoff and, where the sink supports it, checks the exact serialized payload. You can run Filament as a standalone binary or embed it in a Go application.",
+          "url": "https://www.producthunt.com/products/galaxy?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/2VIY3N6BRL2YSZ?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 298,
+          "commentsCount": 66,
+          "dailyRank": 2,
+          "latestScore": 298,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Open Source",
+                  "slug": "open-source"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Data",
+                  "slug": "data"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1314781",
+        "title": "Claude Meetings",
+        "summary": "Add Claude to your call and get work started as you talk",
+        "body": "Claude Meetings lets you add Claude to a Google Meet call as a visible participant. The team can ask questions out loud or in chat, and Claude writes the notes and action items so no one on the call has to. It builds docs, whiteboards, and other artifacts during the call, and teammates on the invite can edit them as you talk. After the call, the notes, transcript, and anything Claude made are on the meeting page in Claude. It is in beta on Team and Enterprise plans, starting with Google Meet.",
+        "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/BBCWQILYWRBAP6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:00:00Z",
+        "metrics": {
+          "votes": 277,
+          "comments": 13,
+          "rank": 3,
+          "score": 277
+        },
+        "metadata": {
+          "slug": "claude-meetings",
+          "topics": [
+            "Productivity",
+            "Meetings",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1314781",
+          "name": "Claude Meetings",
+          "slug": "claude-meetings",
+          "tagline": "Add Claude to your call and get work started as you talk",
+          "description": "Claude Meetings lets you add Claude to a Google Meet call as a visible participant. The team can ask questions out loud or in chat, and Claude writes the notes and action items so no one on the call has to. It builds docs, whiteboards, and other artifacts during the call, and teammates on the invite can edit them as you talk. After the call, the notes, transcript, and anything Claude made are on the meeting page in Claude. It is in beta on Team and Enterprise plans, starting with Google Meet.",
+          "url": "https://www.producthunt.com/products/claude?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/BBCWQILYWRBAP6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 277,
+          "commentsCount": 13,
+          "dailyRank": 3,
+          "latestScore": 277,
+          "featuredAt": "2026-11-13T08:00:00Z",
+          "createdAt": "2026-11-13T08:00:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Meetings",
+                  "slug": "meetings"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1314761",
+        "title": "Replicate",
+        "summary": "Turn Webflow/Framer app into a Claude/Codex project for free",
+        "body": "Replicate a Webflow, Framer, or any website-builder project into a NextJS app with 1:1 parity. Migrating off of website builders is difficult due to image CDNs, CMS parity, and minified JS code. Replicate handles all of these problems and commits your code to a GitHub repository. The best part? It's entirely free.",
+        "url": "https://www.producthunt.com/products/replicate-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/RENYHO4NIPEVIS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 214,
+          "comments": 13,
+          "rank": 4,
+          "score": 214
+        },
+        "metadata": {
+          "slug": "replicate-3",
+          "topics": [
+            "Website Builder",
+            "GitHub"
+          ]
+        },
+        "rawJson": {
+          "id": "1314761",
+          "name": "Replicate",
+          "slug": "replicate-3",
+          "tagline": "Turn Webflow/Framer app into a Claude/Codex project for free",
+          "description": "Replicate a Webflow, Framer, or any website-builder project into a NextJS app with 1:1 parity. Migrating off of website builders is difficult due to image CDNs, CMS parity, and minified JS code. Replicate handles all of these problems and commits your code to a GitHub repository. The best part? It's entirely free.",
+          "url": "https://www.producthunt.com/products/replicate-10?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/RENYHO4NIPEVIS?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 214,
+          "commentsCount": 13,
+          "dailyRank": 4,
+          "latestScore": 214,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Website Builder",
+                  "slug": "website-builder"
+                }
+              },
+              {
+                "node": {
+                  "name": "GitHub",
+                  "slug": "github"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1313622",
+        "title": "Trainn MCP",
+        "summary": "Create product videos and courses from any AI chat",
+        "body": "Give your AI tools the power to create training content, not just plan it. Connect Trainn MCP to Claude, ChatGPT, or any AI agent to turn recordings into product videos, write help articles and build courses through chat. When your product changes, update content through the same conversation. Nothing ships, without your permission.",
+        "url": "https://www.producthunt.com/products/trainn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/BYPQ26JPIEII6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 174,
+          "comments": 46,
+          "rank": 5,
+          "score": 174
+        },
+        "metadata": {
+          "slug": "trainn-mcp",
+          "topics": [
+            "Productivity",
+            "Artificial Intelligence",
+            "Video"
+          ]
+        },
+        "rawJson": {
+          "id": "1313622",
+          "name": "Trainn MCP",
+          "slug": "trainn-mcp",
+          "tagline": "Create product videos and courses from any AI chat",
+          "description": "Give your AI tools the power to create training content, not just plan it. Connect Trainn MCP to Claude, ChatGPT, or any AI agent to turn recordings into product videos, write help articles and build courses through chat. When your product changes, update content through the same conversation. Nothing ships, without your permission.",
+          "url": "https://www.producthunt.com/products/trainn?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/BYPQ26JPIEII6M?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 174,
+          "commentsCount": 46,
+          "dailyRank": 5,
+          "latestScore": 174,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Video",
+                  "slug": "video"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1314458",
+        "title": "Gemini 4 Hydrogen",
+        "summary": "Fast agentic development for coders",
+        "body": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+        "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/A2CQHZMKSW455X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 142,
+          "comments": 2,
+          "rank": 6,
+          "score": 142
+        },
+        "metadata": {
+          "slug": "gemini-4-hydrogen",
+          "topics": [
+            "Artificial Intelligence",
+            "Development"
+          ]
+        },
+        "rawJson": {
+          "id": "1314458",
+          "name": "Gemini 4 Hydrogen",
+          "slug": "gemini-4-hydrogen",
+          "tagline": "Fast agentic development for coders",
+          "description": "Build faster with Gemini 4 Hydrogen, Google’s new model for cost-efficient agentic coding and debugging. Start building in Google AI Studio today.",
+          "url": "https://www.producthunt.com/products/gemini-6?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/A2CQHZMKSW455X?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 142,
+          "commentsCount": 2,
+          "dailyRank": 6,
+          "latestScore": 142,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              },
+              {
+                "node": {
+                  "name": "Development",
+                  "slug": "development"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1284660",
+        "title": "qorqbot",
+        "summary": "Proactive agent for business work",
+        "body": "qorqbot is proactive qorqbot runs on subscriptions you already pay for - Claude, Codex, and more. It is provider-agnostic and built for business workflows and complex, long-running tasks qorqbot manages your attention, and gets work done in the background. it learns from you, without you actively teaching it, and synthesizes your preferences, workflows, and context naturally qorqbot is not a harness - it sits around your harness, providing operational, context, UX, and self-adjustment layers",
+        "url": "https://www.producthunt.com/products/qorqbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/NYNNNLD7RHSCVR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 113,
+          "comments": 11,
+          "rank": 7,
+          "score": 113
+        },
+        "metadata": {
+          "slug": "qorqbot",
+          "topics": [
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1284660",
+          "name": "qorqbot",
+          "slug": "qorqbot",
+          "tagline": "Proactive agent for business work",
+          "description": "qorqbot is proactive qorqbot runs on subscriptions you already pay for - Claude, Codex, and more. It is provider-agnostic and built for business workflows and complex, long-running tasks qorqbot manages your attention, and gets work done in the background. it learns from you, without you actively teaching it, and synthesizes your preferences, workflows, and context naturally qorqbot is not a harness - it sits around your harness, providing operational, context, UX, and self-adjustment layers",
+          "url": "https://www.producthunt.com/products/qorqbot?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/NYNNNLD7RHSCVR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 113,
+          "commentsCount": 11,
+          "dailyRank": 7,
+          "latestScore": 113,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1314567",
+        "title": "Paxper",
+        "summary": "Create cloud infrastructure visually and review every change",
+        "body": "Visual infrastructure as code: design cloud resources on a diagram, review every change, and apply it in your own AWS account.",
+        "url": "https://www.producthunt.com/products/paxper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/AHT6BFH3RQ27QR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 108,
+          "comments": 23,
+          "rank": 9,
+          "score": 108
+        },
+        "metadata": {
+          "slug": "paxper",
+          "topics": [
+            "Design Tools",
+            "SaaS",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1314567",
+          "name": "Paxper",
+          "slug": "paxper",
+          "tagline": "Create cloud infrastructure visually and review every change",
+          "description": "Visual infrastructure as code: design cloud resources on a diagram, review every change, and apply it in your own AWS account.",
+          "url": "https://www.producthunt.com/products/paxper?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/AHT6BFH3RQ27QR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 108,
+          "commentsCount": 23,
+          "dailyRank": 9,
+          "latestScore": 108,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Design Tools",
+                  "slug": "design-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "SaaS",
+                  "slug": "saas"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1312991",
+        "title": "Ganella",
+        "summary": "Your Mac Dock, with live widgets for the apps you use",
+        "body": "Ganella replaces the macOS Dock with a native one where the apps you choose become live widgets: Spotify and Music controls, your calendar, open browser tabs, Xcode builds, terminals and AI agents like Claude, Codex and ChatGPT. Plus clipboard history, app folders, a position per display and four styles including Liquid Glass. 7-day free trial, no signup. $9.99 once.",
+        "url": "https://www.producthunt.com/products/ganella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/723AUCMMDVZ3TU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:00:00Z",
+        "metrics": {
+          "votes": 106,
+          "comments": 14,
+          "rank": 8,
+          "score": 106
+        },
+        "metadata": {
+          "slug": "ganella",
+          "topics": [
+            "Mac",
+            "Productivity",
+            "Developer Tools"
+          ]
+        },
+        "rawJson": {
+          "id": "1312991",
+          "name": "Ganella",
+          "slug": "ganella",
+          "tagline": "Your Mac Dock, with live widgets for the apps you use",
+          "description": "Ganella replaces the macOS Dock with a native one where the apps you choose become live widgets: Spotify and Music controls, your calendar, open browser tabs, Xcode builds, terminals and AI agents like Claude, Codex and ChatGPT. Plus clipboard history, app folders, a position per display and four styles including Liquid Glass. 7-day free trial, no signup. $9.99 once.",
+          "url": "https://www.producthunt.com/products/ganella?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/723AUCMMDVZ3TU?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 106,
+          "commentsCount": 14,
+          "dailyRank": 8,
+          "latestScore": 106,
+          "featuredAt": "2026-11-13T08:00:00Z",
+          "createdAt": "2026-11-13T08:00:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Mac",
+                  "slug": "mac"
+                }
+              },
+              {
+                "node": {
+                  "name": "Productivity",
+                  "slug": "productivity"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
+        "sourceItemId": "ph:1314471",
+        "title": "GAtrends",
+        "summary": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+        "body": "GAtrends is a trend radar for your own keywords. It watches 7 sources (Google News, Hacker News, Wikipedia, Steam, Google Trends, GitHub, Product Hunt), learns the usual level of each keyword and alerts you the moment one spikes. Alerts land in Telegram on every plan. Connect Claude or ChatGPT and ask what is rising. Dashboard with charts, signal history, CSV export, webhook and API. Free plan: 3 keywords, no card.",
+        "url": "https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/KGFXAXOXP52YCO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-13T08:01:00Z",
+        "metrics": {
+          "votes": 101,
+          "comments": 17,
+          "rank": 11,
+          "score": 101
+        },
+        "metadata": {
+          "slug": "gatrends",
+          "topics": [
+            "Analytics",
+            "Marketing",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1314471",
+          "name": "GAtrends",
+          "slug": "gatrends",
+          "tagline": "Spike alerts for your keywords in Telegram, Claude, ChatGPT",
+          "description": "GAtrends is a trend radar for your own keywords. It watches 7 sources (Google News, Hacker News, Wikipedia, Steam, Google Trends, GitHub, Product Hunt), learns the usual level of each keyword and alerts you the moment one spikes. Alerts land in Telegram on every plan. Connect Claude or ChatGPT and ask what is rising. Dashboard with charts, signal history, CSV export, webhook and API. Free plan: 3 keywords, no card.",
+          "url": "https://www.producthunt.com/products/gatrends?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/KGFXAXOXP52YCO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 101,
+          "commentsCount": 17,
+          "dailyRank": 11,
+          "latestScore": 101,
+          "featuredAt": "2026-11-13T08:01:00Z",
+          "createdAt": "2026-11-13T08:01:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Analytics",
+                  "slug": "analytics"
+                }
+              },
+              {
+                "node": {
+                  "name": "Marketing",
+                  "slug": "marketing"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "github_trending",
+    "fetchedAt": "2026-11-14T10:02:48.885Z",
+    "items": [
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Nutlope/hallmark",
+        "title": "Nutlope/hallmark",
+        "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
+        "url": "https://github.com/Nutlope/hallmark",
+        "publishedAt": "2026-11-14T10:02:48.866Z",
+        "metrics": {
+          "rank": 1
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:morluto/rea",
+        "title": "morluto/rea",
+        "summary": "Reverse engineer anything with agents, from app behavior down to native binaries.",
+        "url": "https://github.com/morluto/rea",
+        "publishedAt": "2026-11-14T10:02:48.868Z",
+        "metrics": {
+          "rank": 2
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:cloudflare/security-audit-skill",
+        "title": "cloudflare/security-audit-skill",
+        "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a security auditor.",
+        "url": "https://github.com/cloudflare/security-audit-skill",
+        "publishedAt": "2026-11-14T10:02:48.869Z",
+        "metrics": {
+          "rank": 3
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:thedotmack/claude-mem",
+        "title": "thedotmack/claude-mem",
+        "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.",
+        "url": "https://github.com/thedotmack/claude-mem",
+        "publishedAt": "2026-11-14T10:02:48.871Z",
+        "metrics": {
+          "rank": 4
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pingdotgg/t3code",
+        "title": "pingdotgg/t3code",
+        "summary": "The best way to control Claude Code, Codex and more from any computer or phone https://t3.codes T3 Code The open-source control plane for coding agents.",
+        "url": "https://github.com/pingdotgg/t3code",
+        "publishedAt": "2026-11-14T10:02:48.871Z",
+        "metrics": {
+          "rank": 5
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:pbakaus/impeccable",
+        "title": "pbakaus/impeccable",
+        "summary": "The design vocabulary for your coding agent.",
+        "url": "https://github.com/pbakaus/impeccable",
+        "publishedAt": "2026-11-14T10:02:48.873Z",
+        "metrics": {
+          "rank": 6
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:heygen-com/hyperframes",
+        "title": "heygen-com/hyperframes",
+        "summary": "Write HTML.",
+        "url": "https://github.com/heygen-com/hyperframes",
+        "publishedAt": "2026-11-14T10:02:48.874Z",
+        "metrics": {
+          "rank": 7
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:HKUDS/DeepTutor",
+        "title": "HKUDS/DeepTutor",
+        "summary": "DeepTutor: Lifelong Personalized Tutoring.",
+        "url": "https://github.com/HKUDS/DeepTutor",
+        "publishedAt": "2026-11-14T10:02:48.880Z",
+        "metrics": {
+          "rank": 8
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:anthropics/skills",
+        "title": "anthropics/skills",
+        "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.",
+        "url": "https://github.com/anthropics/skills",
+        "publishedAt": "2026-11-14T10:02:48.880Z",
+        "metrics": {
+          "rank": 9
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:AgriciDaniel/claude-seo",
+        "title": "AgriciDaniel/claude-seo",
+        "summary": "Universal SEO skill for Claude Code.",
+        "url": "https://github.com/AgriciDaniel/claude-seo",
+        "publishedAt": "2026-11-14T10:02:48.882Z",
+        "metrics": {
+          "rank": 10
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:debpalash/VoiceStudio",
+        "title": "debpalash/VoiceStudio",
+        "summary": "VoiceStudio is the open-source, fully-local ElevenLabs alternative — voice cloning, voice design, video dubbing, dictation, transcription & audiobook creation in 646 languages.",
+        "url": "https://github.com/debpalash/VoiceStudio",
+        "publishedAt": "2026-11-14T10:02:48.883Z",
+        "metrics": {
+          "rank": 11
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:Leonxlnx/taste-skill",
+        "title": "Leonxlnx/taste-skill",
+        "summary": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors interfaces.dev · A design engineering magazine by Jakub Krehel React Bits · anim...",
+        "url": "https://github.com/Leonxlnx/taste-skill",
+        "publishedAt": "2026-11-14T10:02:48.884Z",
+        "metrics": {
+          "rank": 12
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:anthropics/knowledge-work-plugins",
+        "title": "anthropics/knowledge-work-plugins",
+        "summary": "Open source repository of plugins primarily intended for knowledge workers to use in Claude Cowork Knowledge Work Plugins Plugins that turn Claude into a specialist for your role, team, and company.",
+        "url": "https://github.com/anthropics/knowledge-work-plugins",
+        "publishedAt": "2026-11-14T10:02:48.884Z",
+        "metrics": {
+          "rank": 13
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:anthropics/claude-plugins-official",
+        "title": "anthropics/claude-plugins-official",
+        "summary": "Official, Anthropic-managed directory of high quality Claude Code Plugins.",
+        "url": "https://github.com/anthropics/claude-plugins-official",
+        "publishedAt": "2026-11-14T10:02:48.885Z",
+        "metrics": {
+          "rank": 14
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      },
+      {
+        "source": "github_trending",
+        "sourceItemId": "github:vercel-labs/agent-browser",
+        "title": "vercel-labs/agent-browser",
+        "summary": "Browser automation CLI for AI agents https://agent-browser.dev agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
+        "url": "https://github.com/vercel-labs/agent-browser",
+        "publishedAt": "2026-11-14T10:02:48.885Z",
+        "metrics": {
+          "rank": 15
+        },
+        "metadata": {
+          "period": "weekly",
+          "variant": "github_trending_rss"
+        }
+      }
+    ],
+    "errors": []
+  },
+  {
+    "source": "builder_feeds",
+    "fetchedAt": "2026-11-14T10:03:06.731Z",
+    "items": [
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/introducing-chatgpt-wallet",
+        "title": "Introducing ChatGPT Wallet",
+        "summary": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "body": "Introducing ChatGPT Wallet, a secure way for agents in ChatGPT Work, Codex, and dots to complete purchases with user approval and existing card protections.",
+        "url": "https://openai.com/index/introducing-chatgpt-wallet",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T15:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/business/customer-stories/shield",
+        "title": "Shield helps technicians hand off legacy portal work with OpenAI",
+        "summary": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "body": "Shield uses OpenAI to help IT technicians hand off work in legacy portals. Its Forge agents navigate systems so technicians can focus on issues needing their judgment.",
+        "url": "https://openai.com/business/customer-stories/shield",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T08:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/business/customer-stories/amplitude",
+        "title": "How Amplitude ships product improvements in 1–2 days with OpenAI",
+        "summary": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+        "body": "Built primarily on OpenAI models, Amplitude’s proactive product agent, Wave, identifies what to build, helps teams ship changes with coding agents, and measures the impact.",
+        "url": "https://openai.com/business/customer-stories/amplitude",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-12T20:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/business/customer-stories/gondola",
+        "title": "Gondola doubles revenue as its team builds more with Codex",
+        "summary": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+        "body": "Gondola helps creatives get credit and get hired, with Codex raising its lead engineer’s output by 50% and ChatGPT simplifying daily work.",
+        "url": "https://openai.com/business/customer-stories/gondola",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-12T12:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/business/customer-stories/holidays-extras-codex",
+        "title": "Holiday Extras is rethinking what it can build with Codex",
+        "summary": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+        "body": "With Codex, Holiday Extras is turning customer expertise into better apps, higher booking conversion and new possibilities for growth.",
+        "url": "https://openai.com/business/customer-stories/holidays-extras-codex",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-12T09:30:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/children-first-declaration",
+        "title": "Supporting research on AI and children’s safety",
+        "summary": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+        "body": "OpenAI commits $2 million to research on AI and children’s safety. The work supports shared tools to measure risks and opportunities for young people.",
+        "url": "https://openai.com/index/children-first-declaration",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-12T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_openai",
+        "sourceItemId": "builder_openai:https://openai.com/index/gilbert-tobin-sam-nickless",
+        "title": "Gilbert + Tobin rethinks the business of law with AI",
+        "summary": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+        "body": "A conversation with Sam Nickless, Partner and Chief Executive Officer at Gilbert + Tobin.",
+        "url": "https://openai.com/index/gilbert-tobin-sam-nickless",
+        "authorName": "OpenAI",
+        "sourceName": "OpenAI Blog",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-12T00:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "OpenAI Blog"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "summary": "",
+        "body": "",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-12T18:00:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog"
+        }
+      },
+      {
+        "source": "builder_deepmind",
+        "sourceItemId": "builder_deepmind:https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "title": "AlphaGenome 2: Deciphering how cells read DNA to better understand disease",
+        "summary": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+        "body": "Predicting how DNA sequences and their variations impact specific human cell types and disease.",
+        "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+        "authorName": "DeepMind",
+        "sourceName": "DeepMind Blog",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T15:00:15.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "DeepMind Blog",
+          "image": "https://lh3.googleusercontent.com/VPOhADdGu1T7kK_gWBiGzyVawQbKCjpL3-B0L0wxpYCyr8cHxviYmo9Hghy4f1laeIo2YKwuz8E07TR9HWWk2b0EONi0uvju-8TDLHX6YWHG4dXe3w=w528-h297-n-nu-rw-lo"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+        "title": "datasette-cluster-map 0.19",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-cluster-map/releases/tag/0.19\">datasette-cluster-map 0.19</a></p> <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href=\"https://simonwillison.net/2026/Nov/13/datasette-leaflet/\">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p> <p>Here's <a href=\"https://datasette.io/global-power-plants/global-po",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-cluster-map/releases/tag/0.19\">datasette-cluster-map 0.19</a></p> <p>One of the oldest Datasette plugins, and still one of my favorites. It now works with Datasette 1.0a42, and depends on <a href=\"https://simonwillison.net/2026/Nov/13/datasette-leaflet/\">the new datasette-leaflet</a> to ensure OpenStreetMap tiles are requested with a referrer header.</p> <p>Here's <a href=\"https://datasette.io/global-power-plants/global-power-plants?owner=Pacific+Gas+%26+Electric+Co.\">a map of power plants owned by California's PG&amp;E</a>, also demonstrating Datasette's recently <a href=\"https://github.com/simonw/datasette/pull/3032\">redesigned facets</a>:</p> <p><img alt=\"Screenshot of a faceted map interface. Three facet panels a",
+        "url": "https://simonwillison.net/2026/Nov/13/datasette-cluster-map/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-13T23:02:45.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+        "title": "datasette-leaflet 0.3",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-leaflet/releases/tag/0.3\">datasette-leaflet 0.3</a></p> <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href=\"https://wiki.openstreetmap.org/wiki/Referer\">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p> <p><code>datasette-leaflet</c",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/datasette-leaflet/releases/tag/0.3\">datasette-leaflet 0.3</a></p> <p>OpenStreetMap have a very reasonable policy that hits to their hosted tile server <a href=\"https://wiki.openstreetmap.org/wiki/Referer\">should send a referrer header</a>. Datasette table pages used the <code>Referrer-Policy: no-referrer</code> HTTP header, causing plugins that loaded tiles from OpenStreetMap to violate that policy.</p> <p><code>datasette-leaflet</code> is the plugin that loads a bundled Leaflet so other Datasette plugins can depend on it. It now sets the referrer policy on the tile requests themselves to <code>strict-origin-when-cross-origin</code>, passing the host but not the full path to the page.</p> <p>Tags: <a href=\"https://simonwilliso",
+        "url": "https://simonwillison.net/2026/Nov/13/datasette-leaflet/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-13T22:30:54.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/12/llm-gemini/",
+        "title": "llm-gemini 0.37",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.37\">llm-gemini 0.37</a></p> <p>Google launched <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p> <p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing sc",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.37\">llm-gemini 0.37</a></p> <p>Google launched <a href=\"https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/\">Gemini 4 Hydrogen</a> today - the lowest cost member of the Gemini 4 family.</p> <p>It's actually not too far off the price of its much bigger siblings, Carbon and Argon. I'm finding Gemini 4's pricing <em>really</em> confusing. Here's the pricing scheme:</p> <center><table> <thead> <tr> <th>Model</th> <th>Dates</th> <th>Input ($/M)</th> <th>Cached input</th> <th>Output</th> </tr> </thead> <tbody> <tr> <td rowspan=\"2\">Gemini 4 Carbon</td> <td>Through Nov 30, 2026</td> <td>$2.00</td> <td>$0.10</td> <td>$10.00</td> </tr> <tr> <td>From Dec 1, 2026",
+        "url": "https://simonwillison.net/2026/Nov/12/llm-gemini/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-12T22:55:19.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+        "title": "Gemini Decisions API",
+        "summary": "<p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Gemini Decisions API</a></strong></p> Google join <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">Jev</a> and <a href=\"https://simonwillison.net/2026/Oct/6/llm-openai-decisions/\">OpenAI</a> in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even ",
+        "body": "<p><strong><a href=\"https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/\">Gemini Decisions API</a></strong></p> Google join <a href=\"https://simonwillison.net/2026/Sep/21/jev/\">Jev</a> and <a href=\"https://simonwillison.net/2026/Oct/6/llm-openai-decisions/\">OpenAI</a> in the decision model category with \"Gemini Decision 1\". This new model API is almost identical to Jev: it supports the same three types of questions (yes/no, choice, and rubric-scoring) and even reuses Jev's term \"Noul\" for a yes/no question.</p> <p>It's priced the same as the GPT-6 Luna decision model: 10 cents per million input tokens, and output is free. Jev remains the cheapest of the three, at 4.2 cents per million.</p> <p>Jev is text (and JSON) only. OpenAI can handle text and images.",
+        "url": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T22:03:25.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/11/aws-emulator/",
+        "title": "aws-emulator",
+        "summary": "<p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong></p> Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.</p> <p>It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about <a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when",
+        "body": "<p><strong><a href=\"https://github.com/aws/aws-emulator\">aws-emulator</a></strong></p> Finally, an official emulator from AWS to run tests against a local clone of their many different services without having to provision a paid API key to do so.</p> <p>It's written in Rust by a huge swarm of agents - 29,684 commits in the first three weeks of the project. Swaminathan (Swami) Sivasubramanian wrote about <a href=\"https://www.allthingsdistributed.com/2026/11/aws-emulator-and-the-engineers-job-when-agents-write-the-code.html\">how it came to be</a> in a guest post on Werner Vogels' blog.</p> <p>It currently requires Docker to run on macOS or Windows. I'm hoping they fix that in the future - it would be great if you could download a single binary and use that as part of a standard test suite in",
+        "url": "https://simonwillison.net/2026/Nov/11/aws-emulator/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T21:18:30.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/11/tools-tags/",
+        "title": "Browse tools.simonwillison.net by tag",
+        "summary": "<p><strong><a href=\"https://tools.simonwillison.net/#tags\">Browse tools.simonwillison.net by tag</a></strong></p> I've been wanting a better way to browse my <a href=\"\">collection of vibe-coded tools</a> (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using <a href=\"https://github.com/tree-sitter/py-tree-sitter\">tree-sitter</a> to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool.</p> <p>The hom",
+        "body": "<p><strong><a href=\"https://tools.simonwillison.net/#tags\">Browse tools.simonwillison.net by tag</a></strong></p> I've been wanting a better way to browse my <a href=\"\">collection of vibe-coded tools</a> (244 and counting) for a while. I had a few Fable 5.2 credits left over before my weekly reset so I set it to work using <a href=\"https://github.com/tree-sitter/py-tree-sitter\">tree-sitter</a> to analyze the code for JavaScript APIs, libraries, and web API hosts used by each tool.</p> <p>The homepage now features tag clouds for browsing by each of those categories of tag:</p> <p><a href=\"https://tools.simonwillison.net/#tags\"><img alt=\"Screenshot of two tag cloud sections where tags are sized by count. Browse by JavaScript libraries - Libraries loaded from a CDN by two or more tools. Selec",
+        "url": "https://simonwillison.net/2026/Nov/11/tools-tags/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T18:42:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/11/llm/",
+        "title": "llm 0.37.2",
+        "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.2\">llm 0.37.2</a></p> <p>Fixes a security issue reported by <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> in <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> and <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a>.</p> <p>LLM has a mechanism called <a href=\"https://llm.datasette.io/en/stable",
+        "body": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm/releases/tag/0.37.2\">llm 0.37.2</a></p> <p>Fixes a security issue reported by <a href=\"https://github.com/BluePlexus\">Daniel de Araujo</a> in <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-v9h7-jj4g-f862\">GHSA-v9h7-jj4g-f862</a> and <a href=\"https://github.com/simonw/llm/security/advisories/GHSA-r639-rr7r-x72w\">GHSA-r639-rr7r-x72w</a>.</p> <p>LLM has a mechanism called <a href=\"https://llm.datasette.io/en/stable/other-models.html#configure-an-openai-compatible-model\">extra-openai-models.yaml</a> - now managed by the new-in-0.37 <a href=\"https://llm.datasette.io/en/stable/other-models.html#openai-endpoint-add\">llm openai endpoint add</a> command - for using LLM with OpenAI-compatible API endpoints from othe",
+        "url": "https://simonwillison.net/2026/Nov/11/llm/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T17:19:52.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+        "title": "Anthropic's IPO roadshow video",
+        "summary": "<p><strong><a href=\"https://ipo.anthropic.com/us/#roadshow-video\">Anthropic&#x27;s IPO roadshow video</a></strong></p> Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.</p> <p>The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs.</p> <p>I'm not sure wh",
+        "body": "<p><strong><a href=\"https://ipo.anthropic.com/us/#roadshow-video\">Anthropic&#x27;s IPO roadshow video</a></strong></p> Anthropic kicked off their IPO roadshow yesterday, and their roadshow video has some previously unreleased information about how their business works.</p> <p>The section on \"Approach to compute\" with co-founder Tom Brown is particularly interesting, describing how Anthropic train and serve Claude across AWS Trainium, Google TPUs, NVIDIA GPUs, and AMD GPUs.</p> <p>I'm not sure why there's no official video transcript, but here's <a href=\"https://gist.github.com/simonw/9806757fe8acec6221cb0a5cce4d720d\">one that I extracted</a> using MacWhisper. Highlights below:</p> <blockquote> <p>We train and serve Claude now across all four major chip families. That's only possible becaus",
+        "url": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+        "authorName": "Simon Willison",
+        "sourceName": "Simon Willison",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T15:11:59.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Simon Willison"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
+        "title": "First Strike",
+        "summary": "Internalize this graph, we post it on this blog a lot. If trends continue, China will have 10x the electricity of the US in 10 years. Whenever you think about geopolitical strategy, always keep it in mind, because whatever your plans are must consider this. Here’s a strategy that would make sense for America long term. Sell as many AI chips into China as possible, use the money to purchase solar panel and battery factories, and build out electricity capacity as quickly as possible. Fundamentally",
+        "body": "Internalize this graph, we post it on this blog a lot. If trends continue, China will have 10x the electricity of the US in 10 years. Whenever you think about geopolitical strategy, always keep it in mind, because whatever your plans are must consider this. Here’s a strategy that would make sense for America long term. Sell as many AI chips into China as possible, use the money to purchase solar panel and battery factories, and build out electricity capacity as quickly as possible. Fundamentally, compute is a function of electricity. That’s the sort of long term thinking that gives America a chance. With robotic labor, immigrants like Jensen and Elon, a business friendly culture, and an incredible chunk of land, it’s not so clear who is ahead in 50 years. Regardless, I do know this strateg",
+        "url": "https://geohot.github.io//blog/jekyll/update/2026/11/13/first-strike.html",
+        "authorName": "George Hotz",
+        "sourceName": "George Hotz",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-12T16:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "George Hotz",
+          "image": "/blog/assets/images/china_power_2025.png"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://www.dwarkesh.com/p/rsi",
+        "title": "The avalanche that hit math is coming for AI development",
+        "summary": "Why I now expect superintelligence by 2030",
+        "body": "Why I now expect superintelligence by 2030",
+        "url": "https://www.dwarkesh.com/p/rsi",
+        "authorName": "Dwarkesh Patel",
+        "sourceName": "Dwarkesh Patel",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T18:37:51.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Dwarkesh Patel",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/7dc29226-8d97-44fb-a2f3-5798522ed0df_1551x812.png"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+        "title": "Nvidia allegedly engineered scarcity by funding AI startups to buy its GPUs",
+        "summary": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 562 # Comments: 330",
+        "body": "Article URL: https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus Comments URL: https://news.ycombinator.com/item?id=50493251 Points: 562 # Comments: 330",
+        "url": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-14T02:52:59.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://claude.com/resources/articles/projects-redesigned",
+        "title": "Anthropic upgrades Claude Code Projects to run parallel AI workers",
+        "summary": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 88 # Comments: 81",
+        "body": "Article URL: https://claude.com/resources/articles/projects-redesigned Comments URL: https://news.ycombinator.com/item?id=50492141 Points: 88 # Comments: 81",
+        "url": "https://claude.com/resources/articles/projects-redesigned",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-14T00:28:11.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://claude.com/resources/articles/claude-meetings",
+        "title": "Claude Meetings",
+        "summary": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 98 # Comments: 73",
+        "body": "Article URL: https://claude.com/resources/articles/claude-meetings Comments URL: https://news.ycombinator.com/item?id=50491097 Points: 98 # Comments: 73",
+        "url": "https://claude.com/resources/articles/claude-meetings",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T22:39:15.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.slopmanifesto.com/",
+        "title": "No AI Slop: A Manifesto",
+        "summary": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 197 # Comments: 114",
+        "body": "Article URL: https://www.slopmanifesto.com/ Comments URL: https://news.ycombinator.com/item?id=50488769 Points: 197 # Comments: 114",
+        "url": "https://www.slopmanifesto.com/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T19:51:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.dwarkesh.com/p/rsi",
+        "title": "The avalanche that hit math is coming for AI development",
+        "summary": "Article URL: https://www.dwarkesh.com/p/rsi Comments URL: https://news.ycombinator.com/item?id=50487854 Points: 63 # Comments: 104",
+        "body": "Article URL: https://www.dwarkesh.com/p/rsi Comments URL: https://news.ycombinator.com/item?id=50487854 Points: 63 # Comments: 104",
+        "url": "https://www.dwarkesh.com/p/rsi",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T18:39:42.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/",
+        "title": "Are we just going to ignore that books are destroyed for AI?",
+        "summary": "Article URL: https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/ Comments URL: https://news.ycombinator.com/item?id=50487469 Points: 56 # Comments: 62",
+        "body": "Article URL: https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/ Comments URL: https://news.ycombinator.com/item?id=50487469 Points: 56 # Comments: 62",
+        "url": "https://www.forbes.com/sites/maryroeloffs/2026/08/17/ai-companies-are-buying-and-destroying-antique-books-heres-why/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T18:14:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+        "title": "AI unlocks Gödel's notebooks, said to contain hundreds of proved theorems",
+        "summary": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 393 # Comments: 98",
+        "body": "Article URL: https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths Comments URL: https://news.ycombinator.com/item?id=50486748 Points: 393 # Comments: 98",
+        "url": "https://www.theguardian.com/science/2026/nov/13/kurt-godel-notebooks-ai-helps-unlock-hidden-discoveries-man-who-transformed-maths",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T17:30:10.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://text.npr.org/nx-s1-6029408",
+        "title": "Why is Google cutting off Search from AI-free schools? Here are some theories",
+        "summary": "Article URL: https://text.npr.org/nx-s1-6029408 Comments URL: https://news.ycombinator.com/item?id=50484960 Points: 185 # Comments: 174",
+        "body": "Article URL: https://text.npr.org/nx-s1-6029408 Comments URL: https://news.ycombinator.com/item?id=50484960 Points: 185 # Comments: 174",
+        "url": "https://text.npr.org/nx-s1-6029408",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T15:29:10.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.youtube.com/watch?v=IRK8h67ol7Q",
+        "title": "Jonathan Blow – If AI solved coding, why is my software still the same? [video]",
+        "summary": "Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q Comments URL: https://news.ycombinator.com/item?id=50484658 Points: 295 # Comments: 339",
+        "body": "Article URL: https://www.youtube.com/watch?v=IRK8h67ol7Q Comments URL: https://news.ycombinator.com/item?id=50484658 Points: 295 # Comments: 339",
+        "url": "https://www.youtube.com/watch?v=IRK8h67ol7Q",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T15:08:44.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=50484426",
+        "title": "Ask HN: Can anyone name anything new that AI has done?",
+        "summary": "We're 2 years into this. Still looking for something that an AI did all by itself that is actually new. Everything I've seen so far still involves a human sussing out the new thing or the model is just aggregating data that is already there from disconnected sources that never got tied together. Comments URL: https://news.ycombinator.com/item?id=50484426 Points: 30 # Comments: 49",
+        "body": "We're 2 years into this. Still looking for something that an AI did all by itself that is actually new. Everything I've seen so far still involves a human sussing out the new thing or the model is just aggregating data that is already there from disconnected sources that never got tied together. Comments URL: https://news.ycombinator.com/item?id=50484426 Points: 30 # Comments: 49",
+        "url": "https://news.ycombinator.com/item?id=50484426",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T14:53:56.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+        "title": "Amodei Says AI Will Cure Cancer in a Decade. Doctors Are Skeptical",
+        "summary": "Article URL: https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11 Comments URL: https://news.ycombinator.com/item?id=50484110 Points: 33 # Comments: 70",
+        "body": "Article URL: https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11 Comments URL: https://news.ycombinator.com/item?id=50484110 Points: 33 # Comments: 70",
+        "url": "https://www.businessinsider.com/dario-amodei-anthropic-cancer-cure-ipo-roadshow-backlash-doctors-2026-11",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T14:34:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+        "title": "AI is destroying the trust between writers and readers",
+        "summary": "Article URL: https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/ Comments URL: https://news.ycombinator.com/item?id=50481870 Points: 341 # Comments: 206",
+        "body": "Article URL: https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/ Comments URL: https://news.ycombinator.com/item?id=50481870 Points: 341 # Comments: 206",
+        "url": "https://www.theatlantic.com/books/2026/11/ai-literary-scams-amazon/689391/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T11:13:46.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://status.claude.com/history",
+        "title": "Claude Is Down",
+        "summary": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 198 # Comments: 177",
+        "body": "Article URL: https://status.claude.com/history Comments URL: https://news.ycombinator.com/item?id=50481220 Points: 198 # Comments: 177",
+        "url": "https://status.claude.com/history",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T10:20:09.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://status.claude.com/incidents/nn11wk485zfn",
+        "title": "Elevated errors on claude.ai, Claude Code, and platform.claude.com",
+        "summary": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 488 # Comments: 384",
+        "body": "Article URL: https://status.claude.com/incidents/nn11wk485zfn Comments URL: https://news.ycombinator.com/item?id=50481187 Points: 488 # Comments: 384",
+        "url": "https://status.claude.com/incidents/nn11wk485zfn",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T10:18:13.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=50480909",
+        "title": "Tell HN: Claude Code Is Down",
+        "summary": "Comments URL: https://news.ycombinator.com/item?id=50480909 Points: 37 # Comments: 21",
+        "body": "Comments URL: https://news.ycombinator.com/item?id=50480909 Points: 37 # Comments: 21",
+        "url": "https://news.ycombinator.com/item?id=50480909",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-13T09:51:59.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://arxiv.org/abs/2605.29713",
+        "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+        "summary": "<p><a href=\"https://lobste.rs/s/0aungk/little_book_generative_ai_foundations\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/0aungk/little_book_generative_ai_foundations\">Comments</a></p>",
+        "url": "https://arxiv.org/abs/2605.29713",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-14T04:51:14.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://alexwang.ai/posts/associative-memory/",
+        "title": "You could have invented transformers from memory",
+        "summary": "<p><a href=\"https://lobste.rs/s/u2h9as/you_could_have_invented_transformers\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/u2h9as/you_could_have_invented_transformers\">Comments</a></p>",
+        "url": "https://alexwang.ai/posts/associative-memory/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-14T04:49:47.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://e-means.github.io/",
+        "title": "e-means: 10x faster k-means at equal loss",
+        "summary": "<p><a href=\"https://lobste.rs/s/rnmylu/e_means_10x_faster_k_means_at_equal_loss\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/rnmylu/e_means_10x_faster_k_means_at_equal_loss\">Comments</a></p>",
+        "url": "https://e-means.github.io/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-13T08:37:31.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://libreagi.com/",
+        "title": "libreagi - save OS models",
+        "summary": "<p><a href=\"https://lobste.rs/s/7c4iar/libreagi_save_os_models\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/7c4iar/libreagi_save_os_models\">Comments</a></p>",
+        "url": "https://libreagi.com/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-12T15:35:46.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      },
+      {
+        "source": "builder_lobsters",
+        "sourceItemId": "builder_lobsters:https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+        "title": "Writing a SIGGRAPH paper from scratch",
+        "summary": "<p><a href=\"https://lobste.rs/s/793ecg/writing_siggraph_paper_from_scratch\">Comments</a></p>",
+        "body": "<p><a href=\"https://lobste.rs/s/793ecg/writing_siggraph_paper_from_scratch\">Comments</a></p>",
+        "url": "https://alexandergoslin.me/writing-a-siggraph-paper-from-scratch/",
+        "sourceName": "Lobsters AI",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-11T16:34:08.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Lobsters AI"
+        }
+      }
+    ],
+    "errors": [
+      "Anthropic News: HTTP 503",
+      "Gary Marcus: HTTP 403",
+      "Gwern: HTTP 403",
+      "HuggingFace Papers: This operation was aborted"
+    ]
+  }
+]
