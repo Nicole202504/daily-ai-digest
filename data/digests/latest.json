@@ -1,134 +1,375 @@
 {
-  "date": "2026-11-19",
-  "generatedAt": "2026-11-19T12:20:23.125Z",
+  "date": "2026-11-20",
+  "generatedAt": "2026-11-20T11:15:34.427Z",
   "sections": [
     {
       "key": "product",
       "title": "产品上新",
-      "items": []
+      "items": [
+        {
+          "title": "TestSprite 4.0",
+          "url": "https://www.producthunt.com/products/testsprite",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "359 votes / 55 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。",
+          "why": "面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。",
+          "summary": "Fix one thing, break another?",
+          "keyPoints": [
+            "Your coding agent fixes one thing and breaks another."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Fix one thing, break another?",
+          "features": "Your coding agent fixes one thing and breaks another.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Verse Engine by Ctruh",
+          "url": "https://www.producthunt.com/products/verse-engine-by-ctruh",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "310 votes / 59 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Verse Engine by Ctruh is a browser-native 3D and XR engine that turns any 3D into one link.",
+          "why": "产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "summary": "Blender, Unity or Unreal to a live 3D link in one click",
+          "keyPoints": [
+            "Verse Engine by Ctruh is a browser-native 3D and XR engine that turns any 3D into one link."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Blender, Unity or Unreal to a live 3D link in one click",
+          "features": "Verse Engine by Ctruh is a browser-native 3D and XR engine that turns any 3D into one link.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Netlify Server",
+          "url": "https://www.producthunt.com/products/netlify",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "283 votes / 20 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Run WebSockets, multiplayer apps, and long-running agents",
+          "keyPoints": [
+            "Netlify Server gives your app a backend that stays alive while people are using it."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Run WebSockets, multiplayer apps, and long-running agents",
+          "features": "Netlify Server gives your app a backend that stays alive while people are using it.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Stripo Email Widgets",
+          "url": "https://www.producthunt.com/products/stripo-email",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "248 votes / 148 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
+          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
+          "summary": "Put a game, quiz or survey in your next email.",
+          "keyPoints": [
+            "Put a scratch card, quiz, poll, NPS survey or event agenda into your email."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Put a game, quiz or survey in your next email.",
+          "features": "Put a scratch card, quiz, poll, NPS survey or event agenda into your email.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Adside",
+          "url": "https://www.producthunt.com/products/adside",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "228 votes / 51 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。",
+          "why": "面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。",
+          "summary": "A team of specialized AI agents that manage paid ads for you",
+          "keyPoints": [
+            "A team of specialized AI agents that manage your paid ads on Google, Meta, LinkedIn, Reddit and Twitter."
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "A team of specialized AI agents that manage paid ads for you",
+          "features": "A team of specialized AI agents that manage your paid ads on Google, Meta, LinkedIn, Reddit and Twitter.",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Spellar for Chrome",
+          "url": "https://www.producthunt.com/products/spellar",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "195 votes / 41 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Free, no-bot meeting notes with memory, now in your browser",
+          "keyPoints": [
+            "Spellar for Chrome takes no-bot meeting notes on Windows and Mac, right in your browser, with no desktop app to install."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Free, no-bot meeting notes with memory, now in your browser",
+          "features": "Spellar for Chrome takes no-bot meeting notes on Windows and Mac, right in your browser, with no desktop app to install.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Manufact",
+          "url": "https://www.producthunt.com/products/manufact",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "199 votes / 56 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。",
+          "why": "面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。",
+          "summary": "Ship and test your MCP to every plugin marketplace",
+          "keyPoints": [
+            "Manufact helps teams publish MCP servers and plugins, understand how agents use them, and test releases across clients."
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Ship and test your MCP to every plugin marketplace",
+          "features": "Manufact helps teams publish MCP servers and plugins, understand how agents use them, and test releases across clients.",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Tabstack by Mozilla",
+          "url": "https://www.producthunt.com/products/tabstack",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "187 votes / 18 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。",
+          "why": "面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。",
+          "summary": "Give your model the web without giving up your privacy",
+          "keyPoints": [
+            "Research, extract, and automate the web from one managed API."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Give your model the web without giving up your privacy",
+          "features": "Research, extract, and automate the web from one managed API.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        },
+        {
+          "title": "Teaflask",
+          "url": "https://www.producthunt.com/products/teaflask",
+          "sources": [
+            "product_hunt"
+          ],
+          "metricsText": "171 votes / 14 comments",
+          "sourceLabel": "Product Hunt",
+          "tags": [],
+          "what": "Turn your existing SaaS into an AI-native product without rebuilding your backend.",
+          "why": "产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "summary": "Self-improving AI copilot for your app.",
+          "keyPoints": [
+            "Turn your existing SaaS into an AI-native product without rebuilding your backend."
+          ],
+          "audience": "产品经理、设计师、前端开发者、原型设计团队。",
+          "pain": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "insight": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。",
+          "oneLiner": "Self-improving AI copilot for your app.",
+          "features": "Turn your existing SaaS into an AI-native product without rebuilding your backend.",
+          "targetUsers": "产品经理、设计师、前端开发者、原型设计团队。",
+          "userNeed": "更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。",
+          "whyItMatters": "Product Hunt 前一天高票产品，适合作为新产品和需求趋势信号。"
+        }
+      ]
     },
     {
       "key": "github",
       "title": "开源热门",
       "items": [
         {
-          "title": "anthropics/skills",
-          "url": "https://github.com/anthropics/skills",
+          "title": "cloudflare/security-audit-skill",
+          "url": "https://github.com/cloudflare/security-audit-skill",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.",
-          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.",
-          "keyPoints": [
-            "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude."
-          ],
-          "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.",
-          "features": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.",
-          "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
-        },
-        {
-          "title": "pbakaus/impeccable",
-          "url": "https://github.com/pbakaus/impeccable",
-          "sources": [
-            "github_trending"
-          ],
-          "metricsText": "",
-          "sourceLabel": "GitHub Trending",
-          "tags": [],
-          "what": "The design vocabulary for your coding agent.",
+          "what": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a securit",
           "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "The design vocabulary for your coding agent.",
+          "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a securit",
           "keyPoints": [
-            "The design vocabulary for your coding agent."
+            "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a securit"
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "The design vocabulary for your coding agent.",
-          "features": "The design vocabulary for your coding agent.",
+          "oneLiner": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a securit",
+          "features": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a securit",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "sherlock-project/sherlock",
-          "url": "https://github.com/sherlock-project/sherlock",
+          "title": "milind-soni/OpenMausBot",
+          "url": "https://github.com/milind-soni/OpenMausBot",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation ",
-          "why": "开发者、开源项目维护者、技术团队。更快建立可展示、可转化、可分析的个人主页。",
-          "summary": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation ",
+          "what": "Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a ",
+          "why": "开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a ",
           "keyPoints": [
-            "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation "
+            "Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a "
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "更快建立可展示、可转化、可分析的个人主页。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation ",
-          "features": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation ",
+          "oneLiner": "Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a ",
+          "features": "Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a ",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "更快建立可展示、可转化、可分析的个人主页。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "AgriciDaniel/claude-seo",
-          "url": "https://github.com/AgriciDaniel/claude-seo",
+          "title": "Jakeschincariol/instagram-agent-skill",
+          "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Universal SEO skill for Claude Code.",
+          "what": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer.",
           "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Universal SEO skill for Claude Code.",
+          "summary": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer.",
           "keyPoints": [
-            "Universal SEO skill for Claude Code."
+            "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Universal SEO skill for Claude Code.",
-          "features": "Universal SEO skill for Claude Code.",
+          "oneLiner": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer.",
+          "features": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         },
         {
-          "title": "Leonxlnx/taste-skill",
-          "url": "https://github.com/Leonxlnx/taste-skill",
+          "title": "google-labs-code/stitch-skills",
+          "url": "https://github.com/google-labs-code/stitch-skills",
           "sources": [
             "github_trending"
           ],
           "metricsText": "",
           "sourceLabel": "GitHub Trending",
           "tags": [],
-          "what": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors int",
-          "why": "开发者、开源项目维护者、技术团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
-          "summary": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors int",
+          "what": "A library of Agent Skills designed to work with the Stitch MCP server.",
+          "why": "开发者、开源项目维护者、技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "A library of Agent Skills designed to work with the Stitch MCP server.",
           "keyPoints": [
-            "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors int"
+            "A library of Agent Skills designed to work with the Stitch MCP server."
           ],
           "audience": "开发者、开源项目维护者、技术团队。",
-          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
           "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
-          "oneLiner": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors int",
-          "features": "Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors int",
+          "oneLiner": "A library of Agent Skills designed to work with the Stitch MCP server.",
+          "features": "A library of Agent Skills designed to work with the Stitch MCP server.",
           "targetUsers": "开发者、开源项目维护者、技术团队。",
-          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        },
+        {
+          "title": "elementalsouls/Claude-BugHunter",
+          "url": "https://github.com/elementalsouls/Claude-BugHunter",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl",
+          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl",
+          "keyPoints": [
+            "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl"
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl",
+          "features": "A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
+        },
+        {
+          "title": "kajisho5/ffmpeg-skill",
+          "url": "https://github.com/kajisho5/ffmpeg-skill",
+          "sources": [
+            "github_trending"
+          ],
+          "metricsText": "",
+          "sourceLabel": "GitHub Trending",
+          "tags": [],
+          "what": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex.",
+          "why": "开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex.",
+          "keyPoints": [
+            "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex."
+          ],
+          "audience": "开发者、开源项目维护者、技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。",
+          "oneLiner": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex.",
+          "features": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex.",
+          "targetUsers": "开发者、开源项目维护者、技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "本周 GitHub Trending 项目，能反映开发者正在关注的工具和技术方向。"
         }
       ]
@@ -136,34 +377,527 @@
     {
       "key": "company",
       "title": "公司动态",
-      "items": []
+      "items": [
+        {
+          "title": "How OpenAI’s Performance Factory keeps ChatGPT fast",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "keyPoints": [
+            "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "features": "Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Deploying Daybreak Red",
+          "url": "https://openai.com/business/learn/deploying-daybreak-red",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "keyPoints": [
+            "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring."
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "features": "Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "See PR scans in action",
+          "url": "https://openai.com/business/learn/pr-scans-demo",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+          "keyPoints": [
+            "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow."
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+          "features": "Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Explore the Codex Security Plugin",
+          "url": "https://openai.com/business/learn/codex-security-plugin-demo",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "keyPoints": [
+            "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording."
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "features": "Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Get started with Daybreak Blue",
+          "url": "https://openai.com/business/learn/daybreak-blue-onboarding-demo",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+          "keyPoints": [
+            "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started."
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+          "features": "Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "The Silent Consensus",
+          "url": "https://openai.com/index/the-silent-consensus",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "keyPoints": [
+            "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "features": "Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Research acceleration: The jagged frontier",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "keyPoints": [
+            "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "features": "OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise",
+          "url": "https://openai.com/business/customer-stories/sumitomo-life",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis.",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis.",
+          "keyPoints": [
+            "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis."
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis.",
+          "features": "Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis.",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Inside the Codex sandbox",
+          "url": "https://openai.com/index/inside-the-codex-sandbox",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "keyPoints": [
+            "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows."
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "features": "See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Managing frontier AI risk: From training to deployment",
+          "url": "https://openai.com/index/managing-frontier-ai-risk",
+          "sources": [
+            "builder_openai"
+          ],
+          "metricsText": "",
+          "sourceLabel": "OpenAI",
+          "tags": [
+            "news"
+          ],
+          "what": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "keyPoints": [
+            "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring."
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "features": "OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        }
+      ]
     },
     {
       "key": "technical",
       "title": "技术前沿",
       "items": [
         {
-          "title": "StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model",
-          "url": "https://arxiv.org/abs/2611.24408",
+          "title": "Token fraud is here and it’s BAD (YouTube)",
+          "url": "https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad",
           "sources": [
-            "builder_huggingface"
+            "builder_blog"
           ],
           "metricsText": "",
-          "sourceLabel": "HuggingFace Papers",
+          "sourceLabel": "Simon Willison",
           "tags": [
             "technical"
           ],
-          "what": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action t",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action t",
+          "what": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD",
           "keyPoints": [
-            "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action t"
+            "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD"
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD",
+          "features": "<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "PostgreSQL 19 Released",
+          "url": "https://simonwillison.net/2026/Nov/19/postgresql-19",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in Septemb",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in Septemb",
+          "keyPoints": [
+            "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in Septemb"
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in Septemb",
+          "features": "<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in Septemb",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "llm-gemini 0.38",
+          "url": "https://simonwillison.net/2026/Nov/18/llm-gemini",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai",
+          "keyPoints": [
+            "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action t",
-          "features": "Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action t",
+          "oneLiner": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai",
+          "features": "<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "datasette-arrows 0.1a0",
+          "url": "https://simonwillison.net/2026/Nov/18/datasette-arrows",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/late",
+          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "summary": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/late",
+          "keyPoints": [
+            "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/late"
+          ],
+          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "pain": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/late",
+          "features": "<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/late",
+          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "userNeed": "减少重复补充上下文，让 AI 或团队工具更持续地理解工作背景。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Quoting Daniel Stenberg",
+          "url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust",
+          "keyPoints": [
+            "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust"
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust",
+          "features": "<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "The PSF end-of-year fundraiser",
+          "url": "https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Simon Willison",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-y",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-y",
+          "keyPoints": [
+            "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-y"
+          ],
+          "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-y",
+          "features": "<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-y",
+          "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "\"No way to prevent this\" say users of only language where this regularly happens",
+          "url": "https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-123633",
+          "sources": [
+            "builder_blog"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Xe Iaso",
+          "tags": [
+            "technical"
+          ],
+          "what": "",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "",
+          "keyPoints": [],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "",
+          "features": "",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Rebuilding my local voice assistant pipeline",
+          "url": "https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline",
+          "sources": [
+            "builder_lobsters"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Lobsters AI",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><a href=\"https://lobste.rs/s/gn5qb1/rebuilding_my_local_voice_assistant\">Comments</a></p>",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "<p><a href=\"https://lobste.rs/s/gn5qb1/rebuilding_my_local_voice_assistant\">Comments</a></p>",
+          "keyPoints": [
+            "<p><a href=\"https://lobste.rs/s/gn5qb1/rebuilding_my_local_voice_assistant\">Comments</a></p>"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/gn5qb1/rebuilding_my_local_voice_assistant\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/gn5qb1/rebuilding_my_local_voice_assistant\">Comments</a></p>",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "The sleep framework: A new way for LLMs to retain knowledge in continual learning",
+          "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning",
+          "sources": [
+            "builder_lobsters"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Lobsters AI",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><a href=\"https://lobste.rs/s/svneem/sleep_framework_new_way_for_llms_retain\">Comments</a></p>",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<p><a href=\"https://lobste.rs/s/svneem/sleep_framework_new_way_for_llms_retain\">Comments</a></p>",
+          "keyPoints": [
+            "<p><a href=\"https://lobste.rs/s/svneem/sleep_framework_new_way_for_llms_retain\">Comments</a></p>"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/svneem/sleep_framework_new_way_for_llms_retain\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/svneem/sleep_framework_new_way_for_llms_retain\">Comments</a></p>",
+          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model",
+          "url": "https://energy-based-reasoners.github.io/",
+          "sources": [
+            "builder_lobsters"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Lobsters AI",
+          "tags": [
+            "technical"
+          ],
+          "what": "<p><a href=\"https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent\">Comments</a></p>",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "<p><a href=\"https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent\">Comments</a></p>",
+          "keyPoints": [
+            "<p><a href=\"https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent\">Comments</a></p>"
+          ],
+          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
+          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "<p><a href=\"https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent\">Comments</a></p>",
+          "features": "<p><a href=\"https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent\">Comments</a></p>",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
@@ -175,8 +909,8 @@
       "title": "行业观点",
       "items": [
         {
-          "title": "AI will not make you rich (2025)",
-          "url": "https://colossus.com/article/ai-will-not-make-you-rich",
+          "title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+          "url": "https://architectlabs.com/blog/frostbite",
           "sources": [
             "builder_hackernews"
           ],
@@ -185,24 +919,24 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 99 # Comments: 62",
+          "what": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 66 # Comments: 48",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 99 # Comments: 62",
+          "summary": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 66 # Comments: 48",
           "keyPoints": [
-            "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 99 # Comments: 62"
+            "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 66 # Comments: 48"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 99 # Comments: 62",
-          "features": "Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 99 # Comments: 62",
+          "oneLiner": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 66 # Comments: 48",
+          "features": "Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 66 # Comments: 48",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction",
-          "url": "https://arxiv.org/abs/2607.29378",
+          "title": "Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'",
+          "url": "https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause",
           "sources": [
             "builder_hackernews"
           ],
@@ -211,50 +945,24 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 46 # Comments: 8",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 46 # Comments: 8",
-          "keyPoints": [
-            "Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 46 # Comments: 8"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 46 # Comments: 8",
-          "features": "Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 46 # Comments: 8",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Black high school students sue after AI mistakes Doritos bag for gun",
-          "url": "https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-a",
+          "what": "Article URL: https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/ Comments URL: https://news.ycombinator.com/item?i",
           "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-a",
+          "summary": "Article URL: https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/ Comments URL: https://news.ycombinator.com/item?i",
           "keyPoints": [
-            "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-a"
+            "Article URL: https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/ Comments URL: https://news.ycombinator.com/item?i"
           ],
           "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-a",
-          "features": "Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-a",
+          "oneLiner": "Article URL: https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/ Comments URL: https://news.ycombinator.com/item?i",
+          "features": "Article URL: https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/ Comments URL: https://news.ycombinator.com/item?i",
           "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "Fable: Written, painted and directed by Claude Fable 5.2",
-          "url": "https://claudia.gallery/fable",
+          "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
+          "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
           "sources": [
             "builder_hackernews"
           ],
@@ -263,24 +971,50 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 60 # Comments: 59",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 60 # Comments: 59",
+          "what": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 107 # Comments: 218",
+          "why": "内容创作者、设计师、视频/音乐制作团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "summary": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 107 # Comments: 218",
           "keyPoints": [
-            "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 60 # Comments: 59"
+            "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 107 # Comments: 218"
+          ],
+          "audience": "内容创作者、设计师、视频/音乐制作团队。",
+          "pain": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 107 # Comments: 218",
+          "features": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 107 # Comments: 218",
+          "targetUsers": "内容创作者、设计师、视频/音乐制作团队。",
+          "userNeed": "更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "No Bailout for the AI Bubble, Anthropic IPO Protesters Say",
+          "url": "https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 47 # Commen",
+          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
+          "summary": "Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 47 # Commen",
+          "keyPoints": [
+            "Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 47 # Commen"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 60 # Comments: 59",
-          "features": "Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 60 # Comments: 59",
+          "oneLiner": "Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 47 # Commen",
+          "features": "Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 47 # Commen",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "LLM assisted reverse engineering",
-          "url": "https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering",
+          "title": "AI came for the coders. Understanding why tells us who's next",
+          "url": "https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html",
           "sources": [
             "builder_hackernews"
           ],
@@ -289,50 +1023,24 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50553225 Points: 242 # Comments: 61",
-          "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50553225 Points: 242 # Comments: 61",
+          "what": "Article URL: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html Comments URL: https://news.ycombinator.com/item?id=5056332",
+          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。",
+          "summary": "Article URL: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html Comments URL: https://news.ycombinator.com/item?id=5056332",
           "keyPoints": [
-            "Article URL: https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50553225 Points: 242 # Comments: 61"
-          ],
-          "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50553225 Points: 242 # Comments: 61",
-          "features": "Article URL: https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50553225 Points: 242 # Comments: 61",
-          "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
-          "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
-        },
-        {
-          "title": "Launch HN: Maritime (YC F26) – A managed cloud for production AI agents",
-          "url": "https://news.ycombinator.com/item?id=50549188",
-          "sources": [
-            "builder_hackernews"
-          ],
-          "metricsText": "",
-          "sourceLabel": "Hacker News AI",
-          "tags": [
-            "news"
-          ],
-          "what": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ).",
-          "why": "开发者、AI 工具重度用户、agent builder 和技术团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ).",
-          "keyPoints": [
-            "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh )."
+            "Article URL: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html Comments URL: https://news.ycombinator.com/item?id=5056332"
           ],
           "audience": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "pain": "提升代码理解、开发自动化或工程协作效率。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ).",
-          "features": "Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ).",
+          "oneLiner": "Article URL: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html Comments URL: https://news.ycombinator.com/item?id=5056332",
+          "features": "Article URL: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html Comments URL: https://news.ycombinator.com/item?id=5056332",
           "targetUsers": "开发者、AI 工具重度用户、agent builder 和技术团队。",
-          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "userNeed": "提升代码理解、开发自动化或工程协作效率。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety",
-          "url": "https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO",
+          "title": "Claude solves two open problems in the physics of black holes",
+          "url": "https://www.anthropic.com/research/claude-black-hole-physics",
           "sources": [
             "builder_hackernews"
           ],
@@ -341,24 +1049,24 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-A",
+          "what": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 507 # Comments: 236",
           "why": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。",
-          "summary": "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-A",
+          "summary": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 507 # Comments: 236",
           "keyPoints": [
-            "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-A"
+            "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 507 # Comments: 236"
           ],
           "audience": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "pain": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-A",
-          "features": "Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-A",
+          "oneLiner": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 507 # Comments: 236",
+          "features": "Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 507 # Comments: 236",
           "targetUsers": "AI app 开发者、agent builder、需要稳定模型调用链的技术团队。",
           "userNeed": "降低模型选择、调用失败和多供应商容灾的复杂度。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         },
         {
-          "title": "AI agents ask better questions than KPMG accountants in audit trial",
-          "url": "https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg",
+          "title": "Chrome AI features wasting much bandwidth",
+          "url": "https://perishablepress.com/chrome-ai-wasting-much-bandwidth",
           "sources": [
             "builder_hackernews"
           ],
@@ -367,27 +1075,53 @@
           "tags": [
             "news"
           ],
-          "what": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 467 # Comments: 225",
-          "why": "创始人、运营、增长、销售和数据资源紧张的业务团队。降低信息获取、工具搭建或重复工作的成本。",
-          "summary": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 467 # Comments: 225",
+          "what": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 129 # Comments: 49",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 129 # Comments: 49",
           "keyPoints": [
-            "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 467 # Comments: 225"
+            "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 129 # Comments: 49"
           ],
-          "audience": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
           "pain": "降低信息获取、工具搭建或重复工作的成本。",
           "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
-          "oneLiner": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 467 # Comments: 225",
-          "features": "Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 467 # Comments: 225",
-          "targetUsers": "创始人、运营、增长、销售和数据资源紧张的业务团队。",
+          "oneLiner": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 129 # Comments: 49",
+          "features": "Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 129 # Comments: 49",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
+          "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
+          "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
+        },
+        {
+          "title": "AI isn't replacing your job. It's turning it into low-paid gig work",
+          "url": "https://restofworld.org/2026/ai-jobs-skills-gig-work",
+          "sources": [
+            "builder_hackernews"
+          ],
+          "metricsText": "",
+          "sourceLabel": "Hacker News AI",
+          "tags": [
+            "news"
+          ],
+          "what": "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 137 # Comments: 69",
+          "why": "AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。",
+          "summary": "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 137 # Comments: 69",
+          "keyPoints": [
+            "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 137 # Comments: 69"
+          ],
+          "audience": "AI 行业观察者、产品经理、创业者和开发者。",
+          "pain": "降低信息获取、工具搭建或重复工作的成本。",
+          "insight": "AI 行业一线博客/论文，反映前沿技术和产品动态。",
+          "oneLiner": "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 137 # Comments: 69",
+          "features": "Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 137 # Comments: 69",
+          "targetUsers": "AI 行业观察者、产品经理、创业者和开发者。",
           "userNeed": "降低信息获取、工具搭建或重复工作的成本。",
           "whyItMatters": "AI 行业一线博客/论文，反映前沿技术和产品动态。"
         }
       ]
     }
   ],
-  "markdown": "# 每日 AI/产品/开源动态 - 2026-11-19\n\n## 产品上新\n\n暂无值得单列的条目。\n\n## 开源热门\n\n1. [anthropics/skills](https://github.com/anthropics/skills)\n   - 信号：GitHub Trending\n   - 做什么：Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n2. [pbakaus/impeccable](https://github.com/pbakaus/impeccable)\n   - 信号：GitHub Trending\n   - 做什么：The design vocabulary for your coding agent.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [sherlock-project/sherlock](https://github.com/sherlock-project/sherlock)\n   - 信号：GitHub Trending\n   - 做什么：Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation\n   - 为什么需要：开发者、开源项目维护者、技术团队。更快建立可展示、可转化、可分析的个人主页。\n\n4. [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo)\n   - 信号：GitHub Trending\n   - 做什么：Universal SEO skill for Claude Code.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n5. [Leonxlnx/taste-skill](https://github.com/Leonxlnx/taste-skill)\n   - 信号：GitHub Trending\n   - 做什么：Agent skills that give coding agents taste: art direction, reference images and a browser check instead of generic AI pages https://tasteskill.dev &nbsp; &nbsp; &nbsp; Sponsors int\n   - 为什么需要：开发者、开源项目维护者、技术团队。更可控地生成和编辑多媒体内容，减少黑盒式生成的返工。\n\n## 公司动态\n\n暂无值得单列的条目。\n\n## 技术前沿\n\n1. [StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model](https://arxiv.org/abs/2611.24408)\n   - 信号：HuggingFace Papers\n   - 做什么：Interactive video world models turn user commands into the exploration of a generated scene, which requires the scene to keep its 3D structure as the camera moves and each action t\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [AI will not make you rich (2025)](https://colossus.com/article/ai-will-not-make-you-rich)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://colossus.com/article/ai-will-not-make-you-rich/ Comments URL: https://news.ycombinator.com/item?id=50555093 Points: 99 # Comments: 62\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [Previous-Token Prediction Based LLM Inversion for Prompt Reconstruction](https://arxiv.org/abs/2607.29378)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://arxiv.org/abs/2607.29378 Comments URL: https://news.ycombinator.com/item?id=50554908 Points: 46 # Comments: 8\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [Black high school students sue after AI mistakes Doritos bag for gun](https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-as-a-firearm)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.lawyerscommittee.org/lawyers-committee-files-lawsuit-on-behalf-of-black-students-detained-and-searched-due-to-ai-alert-falsely-identifying-a-bag-of-chips-a\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [Fable: Written, painted and directed by Claude Fable 5.2](https://claudia.gallery/fable)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://claudia.gallery/fable/ Comments URL: https://news.ycombinator.com/item?id=50554269 Points: 60 # Comments: 59\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [LLM assisted reverse engineering](https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.slowchronicle.com/posts/llm-assisted-reverse-engineering Comments URL: https://news.ycombinator.com/item?id=50553225 Points: 242 # Comments: 61\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [Launch HN: Maritime (YC F26) – A managed cloud for production AI agents](https://news.ycombinator.com/item?id=50549188)\n   - 信号：Hacker News AI\n   - 做什么：Hi HN, we're Ary and Maria, co-founders of Maritime ( https://maritime.sh ).\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [\"Anthropic Is Not a Safe AI Company\" – Coalition Challenges Anthropic Safety](https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-Anthropics-Safety-Branding-Ahead-of-IPO)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.businesswire.com/news/home/20261118974464/en/Anthropic-is-Not-a-Safe-AI-Company---Broad-Coalition-of-Scientists-Legal-Scholars-and-Tech-Leaders-Challenge-A\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [AI agents ask better questions than KPMG accountants in audit trial](https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://europeanbusinessmagazine.com/ai-agents-better-questions-kpmg/ Comments URL: https://news.ycombinator.com/item?id=50547777 Points: 467 # Comments: 225\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
+  "markdown": "# 每日 AI/产品/开源动态 - 2026-11-20\n\n## 产品上新\n\n1. [TestSprite 4.0](https://www.producthunt.com/products/testsprite)\n   - 信号：Product Hunt · 359 votes / 55 comments\n   - 做什么：提供一个可扩展的 terminal coding-agent harness，支持 extensions、skills、prompt templates 和主题定制。\n   - 为什么需要：面向喜欢定制开发流的工程师和 agent hacker，解决现成 coding agent 太重、不够可改、难分发个人工作流的问题。\n\n2. [Verse Engine by Ctruh](https://www.producthunt.com/products/verse-engine-by-ctruh)\n   - 信号：Product Hunt · 310 votes / 59 comments\n   - 做什么：Verse Engine by Ctruh is a browser-native 3D and XR engine that turns any 3D into one link.\n   - 为什么需要：产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。\n\n3. [Netlify Server](https://www.producthunt.com/products/netlify)\n   - 信号：Product Hunt · 283 votes / 20 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n4. [Stripo Email Widgets](https://www.producthunt.com/products/stripo-email)\n   - 信号：Product Hunt · 248 votes / 148 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n5. [Adside](https://www.producthunt.com/products/adside)\n   - 信号：Product Hunt · 228 votes / 51 comments\n   - 做什么：把 X/Twitter 帖子和长 thread 转成干净 Markdown，方便保存、研究整理、喂给 LLM 或 agent。\n   - 为什么需要：面向研究员、内容创作者和 agent 开发者，解决社媒内容结构乱、thread 难归档、复制给模型容易丢上下文的问题。\n\n6. [Spellar for Chrome](https://www.producthunt.com/products/spellar)\n   - 信号：Product Hunt · 195 votes / 41 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n7. [Manufact](https://www.producthunt.com/products/manufact)\n   - 信号：Product Hunt · 199 votes / 56 comments\n   - 做什么：连接日常使用的应用，自动抽取、结构化并更新个人或团队上下文，再通过 MCP 提供给不同 AI 工具使用。\n   - 为什么需要：面向重度 AI 工具用户、开发者和知识工作者，解决反复向不同 AI 解释项目背景、个人偏好和当前状态的问题。\n\n8. [Tabstack by Mozilla](https://www.producthunt.com/products/tabstack)\n   - 信号：Product Hunt · 187 votes / 18 comments\n   - 做什么：为 AI 应用提供模型选择和 fallback 层，在 provider 失败、过载或输出不合规时自动切换。\n   - 为什么需要：面向 AI app 开发者，解决模型选择、成本速度权衡、供应商故障和结构化输出不稳定带来的工程负担。\n\n9. [Teaflask](https://www.producthunt.com/products/teaflask)\n   - 信号：Product Hunt · 171 votes / 14 comments\n   - 做什么：Turn your existing SaaS into an AI-native product without rebuilding your backend.\n   - 为什么需要：产品经理、设计师、前端开发者、原型设计团队。更快从文字想法生成可迭代的 UI 原型，并衔接设计/开发工具。\n\n## 开源热门\n\n1. [cloudflare/security-audit-skill](https://github.com/cloudflare/security-audit-skill)\n   - 信号：GitHub Trending\n   - 做什么：A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a securit\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n2. [milind-soni/OpenMausBot](https://github.com/milind-soni/OpenMausBot)\n   - 信号：GitHub Trending\n   - 做什么：Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低信息获取、工具搭建或重复工作的成本。\n\n3. [Jakeschincariol/instagram-agent-skill](https://github.com/Jakeschincariol/instagram-agent-skill)\n   - 信号：GitHub Trending\n   - 做什么：Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n4. [google-labs-code/stitch-skills](https://github.com/google-labs-code/stitch-skills)\n   - 信号：GitHub Trending\n   - 做什么：A library of Agent Skills designed to work with the Stitch MCP server.\n   - 为什么需要：开发者、开源项目维护者、技术团队。提升代码理解、开发自动化或工程协作效率。\n\n5. [elementalsouls/Claude-BugHunter](https://github.com/elementalsouls/Claude-BugHunter)\n   - 信号：GitHub Trending\n   - 做什么：A Claude Code skill bundle for bug hunting and external red-team work - 82 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, pl\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n6. [kajisho5/ffmpeg-skill](https://github.com/kajisho5/ffmpeg-skill)\n   - 信号：GitHub Trending\n   - 做什么：Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex.\n   - 为什么需要：开发者、开源项目维护者、技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 公司动态\n\n1. [How OpenAI’s Performance Factory keeps ChatGPT fast](https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast)\n   - 信号：OpenAI\n   - 做什么：Learn how OpenAI built the Performance Factory, a system of Codex-powered workflows that finds and fixes performance issues to help keep ChatGPT fast.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n2. [Deploying Daybreak Red](https://openai.com/business/learn/deploying-daybreak-red)\n   - 信号：OpenAI\n   - 做什么：Explore a reference architecture for supervised security investigations with Daybreak Red, including safety controls, setup, and monitoring.\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n3. [See PR scans in action](https://openai.com/business/learn/pr-scans-demo)\n   - 信号：OpenAI\n   - 做什么：Watch a walkthrough of PR scans and see how the presenter reviews scan results in a pull request workflow.\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n4. [Explore the Codex Security Plugin](https://openai.com/business/learn/codex-security-plugin-demo)\n   - 信号：OpenAI\n   - 做什么：Watch a demo of the Codex Security Plugin and see the workflow in action, from getting started to reviewing the results shown in the recording.\n   - 为什么需要：开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。\n\n5. [Get started with Daybreak Blue](https://openai.com/business/learn/daybreak-blue-onboarding-demo)\n   - 信号：OpenAI\n   - 做什么：Watch a walkthrough of onboarding to Daybreak Blue, with a closer look at the setup experience and how to get started.\n   - 为什么需要：AI 行业观察者、产品经理、创业者和开发者。降低信息获取、工具搭建或重复工作的成本。\n\n6. [The Silent Consensus](https://openai.com/index/the-silent-consensus)\n   - 信号：OpenAI\n   - 做什么：Dean Ball, Head of Strategic Futures at OpenAI, examines how more capable AI could reshape society and how people can retain control of their institutions.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n7. [Research acceleration: The jagged frontier](https://openai.com/index/research-acceleration-jagged-frontier)\n   - 信号：OpenAI\n   - 做什么：OpenAI measures how coding agents are accelerating AI research, where their performance remains uneven, and what this signals about recursive self-improvement.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n8. [How Sumitomo Life’s leaders helped teams adopt ChatGPT Enterprise](https://openai.com/business/customer-stories/sumitomo-life)\n   - 信号：OpenAI\n   - 做什么：Sumitomo Life uses ChatGPT Enterprise to research insurers, prepare proposals, and draft code for investment analysis.\n   - 为什么需要：开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。\n\n9. [Inside the Codex sandbox](https://openai.com/index/inside-the-codex-sandbox)\n   - 信号：OpenAI\n   - 做什么：See how Codex runs commands on your machine while enforcing the filesystem and network limits you control across macOS, Linux, and Windows.\n   - 为什么需要：开发者、AI 工具重度用户、agent builder 和技术团队。提升代码理解、开发自动化或工程协作效率。\n\n10. [Managing frontier AI risk: From training to deployment](https://openai.com/index/managing-frontier-ai-risk)\n   - 信号：OpenAI\n   - 做什么：OpenAI explains how it manages frontier AI risk from training through deployment with model alignment, sandboxing, blocking safeguards, and monitoring.\n   - 为什么需要：AI app 开发者、agent builder、需要稳定模型调用链的技术团队。降低模型选择、调用失败和多供应商容灾的复杂度。\n\n## 技术前沿\n\n1. [Token fraud is here and it’s BAD (YouTube)](https://simonwillison.net/2026/Nov/20/token-fraud-is-here-and-its-bad)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://www.youtube.com/watch?v=ZDpP7JXPlhc\">Token fraud is here and it’s BAD (YouTube)</a></strong></p> Claire Vo runs <a href=\"https://www.chatprd.ai\">ChatPRD\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [PostgreSQL 19 Released](https://simonwillison.net/2026/Nov/19/postgresql-19)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://www.postgresql.org/about/news/postgresql-19-released-3449/\">PostgreSQL 19 Released</a></strong></p> Most years PostgreSQL ships a new release in Septemb\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [llm-gemini 0.38](https://simonwillison.net/2026/Nov/18/llm-gemini)\n   - 信号：Simon Willison\n   - 做什么：<p><strong>Release:</strong> <a href=\"https://github.com/simonw/llm-gemini/releases/tag/0.38\">llm-gemini 0.38</a></p> <p>Today Google <a href=\"https://blog.google/innovation-and-ai\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [datasette-arrows 0.1a0](https://simonwillison.net/2026/Nov/18/datasette-arrows)\n   - 信号：Simon Willison\n   - 做什么：<p><strong>Release:</strong> <a href=\"https://github.com/datasette/datasette-arrows/releases/tag/0.1a0\">datasette-arrows 0.1a0</a></p> <p><a href=\"https://docs.datasette.io/en/late\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [Quoting Daniel Stenberg](https://simonwillison.net/2026/Nov/18/daniel-stenberg)\n   - 信号：Simon Willison\n   - 做什么：<blockquote cite=\"https://daniel.haxx.se/blog/2026/11/17/actual-curl-rewrites-in-rust/\"><p>During the time these agents converted 185,000 lines of C code into 340,000 lines of Rust\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [The PSF end-of-year fundraiser](https://simonwillison.net/2026/Nov/18/psf-end-of-year-fundraiser)\n   - 信号：Simon Willison\n   - 做什么：<p><strong><a href=\"https://donate.python.org\">The PSF end-of-year fundraiser</a></strong></p> With my Python Software Foundation board director hat on: we've launched our end-of-y\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [\"No way to prevent this\" say users of only language where this regularly happens](https://xeiaso.net/shitposts/no-way-to-prevent-this/memory-safety/CVE-2026-123633)\n   - 信号：Xe Iaso\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [Rebuilding my local voice assistant pipeline](https://blog.platypush.tech/article/Rewriting-my-voice-assistant-pipeline)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/gn5qb1/rebuilding_my_local_voice_assistant\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n9. [The sleep framework: A new way for LLMs to retain knowledge in continual learning](https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/svneem/sleep_framework_new_way_for_llms_retain\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n10. [Energy-Based Reasoners: Your Recurrent Reasoner Should Be an Energy-Based Model](https://energy-based-reasoners.github.io/)\n   - 信号：Lobsters AI\n   - 做什么：<p><a href=\"https://lobste.rs/s/8mbnbd/energy_based_reasoners_your_recurrent\">Comments</a></p>\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n## 行业观点\n\n1. [Frostbite: A new CPU architecture discovered, designed and verified by AI](https://architectlabs.com/blog/frostbite)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://architectlabs.com/blog/frostbite Comments URL: https://news.ycombinator.com/item?id=50572503 Points: 66 # Comments: 48\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n2. [Court: 4th Amendment Disallows Use Of AI-Generated 'Probable Cause'](https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.techdirt.com/2026/11/19/court-tells-cops-that-the-4th-amendment-doesnt-cover-ai-generated-probable-cause/ Comments URL: https://news.ycombinator.com/item?i\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n3. [Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]](https://www.youtube.com/watch?v=lwfewYL7X0o)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 107 # Comments: 218\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n4. [No Bailout for the AI Bubble, Anthropic IPO Protesters Say](https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.techpolicy.press/no-bailout-for-the-ai-bubble-anthropic-ipo-protesters-say/ Comments URL: https://news.ycombinator.com/item?id=50564282 Points: 47 # Commen\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n5. [AI came for the coders. Understanding why tells us who's next](https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.robertpeake.com/archives/104254-ai-came-for-the-coders-understanding-why-tells-us-whos-next.html Comments URL: https://news.ycombinator.com/item?id=5056332\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n6. [Claude solves two open problems in the physics of black holes](https://www.anthropic.com/research/claude-black-hole-physics)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://www.anthropic.com/research/claude-black-hole-physics Comments URL: https://news.ycombinator.com/item?id=50563148 Points: 507 # Comments: 236\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n7. [Chrome AI features wasting much bandwidth](https://perishablepress.com/chrome-ai-wasting-much-bandwidth)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://perishablepress.com/chrome-ai-wasting-much-bandwidth/ Comments URL: https://news.ycombinator.com/item?id=50562636 Points: 129 # Comments: 49\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n\n8. [AI isn't replacing your job. It's turning it into low-paid gig work](https://restofworld.org/2026/ai-jobs-skills-gig-work)\n   - 信号：Hacker News AI\n   - 做什么：Article URL: https://restofworld.org/2026/ai-jobs-skills-gig-work/ Comments URL: https://news.ycombinator.com/item?id=50562500 Points: 137 # Comments: 69\n   - 影响与背景：AI 行业一线博客/论文，反映前沿技术和产品动态。\n",
   "editor": "rules",
-  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[token_id=57027] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20261119202023234279169CWMERNe)\",\"param\":\"\"",
+  "editorWarning": "LLM editor HTTP 402: {\"error\":{\"code\":\"\",\"message\":\"[token_id=57027] insufficient balance (current: 0.000000 USD, required: 0.050000 USD). Please top up to continue (request id: 20261120191534266748165VkZfGWeZ)\",\"param\":\"",
   "sourceWarnings": [
     "aihot: 无数据或采集失败"
   ]
