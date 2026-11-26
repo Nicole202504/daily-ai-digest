@@ -1,15 +1,15 @@
 [
   {
     "source": "aihot",
-    "fetchedAt": "2026-11-26T12:09:58.876Z",
+    "fetchedAt": "2026-11-26T13:22:58.944Z",
     "items": [],
     "errors": [
-      "GET https://aihot.virxact.com/api/public/items?mode=selected&since=2026-11-25T12%3A09%3A54.364Z&take=100 failed: HTTP 404 {\"type\":\"/problems/not-found\",\"title\":\"Not found\",\"status\":404,\"detail\":\"/api/public/items 已于 2026 年 10 月 31 日（北京时间）停止服务；请改用 https://aihot.news/api/v1/items。take 改为 limit；since 改用覆盖 window 后按 publishe"
+      "GET https://aihot.virxact.com/api/public/items?mode=selected&since=2026-11-25T13%3A22%3A55.742Z&take=100 failed: HTTP 404 {\"type\":\"/problems/not-found\",\"title\":\"Not found\",\"status\":404,\"detail\":\"/api/public/items 已于 2026 年 10 月 31 日（北京时间）停止服务；请改用 https://aihot.news/api/v1/items。take 改为 limit；since 改用覆盖 window 后按 publishe"
     ]
   },
   {
     "source": "product_hunt",
-    "fetchedAt": "2026-11-26T12:09:59.068Z",
+    "fetchedAt": "2026-11-26T13:22:59.449Z",
     "sourceGeneratedAt": "2026-11-25",
     "items": [
       {
@@ -23,7 +23,7 @@
         "publishedAt": "2026-11-25T08:01:00Z",
         "metrics": {
           "votes": 328,
-          "comments": 69,
+          "comments": 65,
           "rank": 1,
           "score": 328
         },
@@ -44,7 +44,7 @@
           "url": "https://www.producthunt.com/products/myclaw-3-0?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/I5P5AWTAYY2JLB?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "votesCount": 328,
-          "commentsCount": 69,
+          "commentsCount": 65,
           "dailyRank": 1,
           "latestScore": 328,
           "featuredAt": "2026-11-25T08:01:00Z",
@@ -144,10 +144,10 @@
         "externalUrl": "https://www.producthunt.com/r/PX2A4HLUDBWHZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
         "publishedAt": "2026-11-25T08:01:00Z",
         "metrics": {
-          "votes": 194,
+          "votes": 196,
           "comments": 29,
           "rank": 3,
-          "score": 194
+          "score": 196
         },
         "metadata": {
           "slug": "hiring-right-now",
@@ -165,10 +165,10 @@
           "description": "Paste your LinkedIn. Backdoor reads your work, searches growing startups and shows you the ones that fit, the founder to write to, and the email to send them. Free, no signup required, takes about two minutes.",
           "url": "https://www.producthunt.com/products/hiring-right-now?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/PX2A4HLUDBWHZK?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 194,
+          "votesCount": 196,
           "commentsCount": 29,
           "dailyRank": 3,
-          "latestScore": 194,
+          "latestScore": 196,
           "featuredAt": "2026-11-25T08:01:00Z",
           "createdAt": "2026-11-25T08:01:00Z",
           "topics": {
@@ -366,6 +366,67 @@
       },
       {
         "source": "product_hunt",
+        "sourceItemId": "ph:1329270",
+        "title": "QA.tech MCP",
+        "summary": "Verify every change from your IDE with QA agents",
+        "body": "QA.tech MCP gives Claude Code, Cursor or Codex an external QA agent to check their work. It runs E2E tests on what each change does to your product and finds the bugs and edge cases your coding agent missed, so they get fixed before the PR goes to review. Stay in your IDE: QA.tech explores your app, writes the tests and runs them. Your coding agent reads the results and fixes what broke. Works with any MCP client. New to QA.tech? One prompt maps your app and kicks off your first test.",
+        "url": "https://www.producthunt.com/products/qa-tech?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "externalUrl": "https://www.producthunt.com/r/AAE5I2SEYZUMZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+        "publishedAt": "2026-11-26T08:00:00Z",
+        "metrics": {
+          "votes": 112,
+          "comments": 11,
+          "rank": 2,
+          "score": 112
+        },
+        "metadata": {
+          "slug": "qa-tech-mcp-2",
+          "topics": [
+            "Software Engineering",
+            "Developer Tools",
+            "Artificial Intelligence"
+          ]
+        },
+        "rawJson": {
+          "id": "1329270",
+          "name": "QA.tech MCP",
+          "slug": "qa-tech-mcp-2",
+          "tagline": "Verify every change from your IDE with QA agents",
+          "description": "QA.tech MCP gives Claude Code, Cursor or Codex an external QA agent to check their work. It runs E2E tests on what each change does to your product and finds the bugs and edge cases your coding agent missed, so they get fixed before the PR goes to review. Stay in your IDE: QA.tech explores your app, writes the tests and runs them. Your coding agent reads the results and fixes what broke. Works with any MCP client. New to QA.tech? One prompt maps your app and kicks off your first test.",
+          "url": "https://www.producthunt.com/products/qa-tech?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "website": "https://www.producthunt.com/r/AAE5I2SEYZUMZR?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
+          "votesCount": 112,
+          "commentsCount": 11,
+          "dailyRank": 2,
+          "latestScore": 112,
+          "featuredAt": "2026-11-26T08:00:00Z",
+          "createdAt": "2026-11-26T08:00:00Z",
+          "topics": {
+            "edges": [
+              {
+                "node": {
+                  "name": "Software Engineering",
+                  "slug": "software-engineering"
+                }
+              },
+              {
+                "node": {
+                  "name": "Developer Tools",
+                  "slug": "developer-tools"
+                }
+              },
+              {
+                "node": {
+                  "name": "Artificial Intelligence",
+                  "slug": "artificial-intelligence"
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "source": "product_hunt",
         "sourceItemId": "ph:1328887",
         "title": "Koed",
         "summary": "Supercharged Agents!",
@@ -436,7 +497,7 @@
         "publishedAt": "2026-11-25T08:01:00Z",
         "metrics": {
           "votes": 106,
-          "comments": 11,
+          "comments": 14,
           "rank": 8,
           "score": 106
         },
@@ -457,7 +518,7 @@
           "url": "https://www.producthunt.com/products/hai-4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "website": "https://www.producthunt.com/r/UXWKKW5IL44KD4?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
           "votesCount": 106,
-          "commentsCount": 11,
+          "commentsCount": 14,
           "dailyRank": 8,
           "latestScore": 106,
           "featuredAt": "2026-11-25T08:01:00Z",
@@ -546,74 +607,13 @@
             ]
           }
         }
-      },
-      {
-        "source": "product_hunt",
-        "sourceItemId": "ph:1323229",
-        "title": "RelayRunner",
-        "summary": "Swap between CI runners on-demand with zero code changes.",
-        "body": "RelayRunner is a router for your existing CI runners, so you can use multiple providers or self-hosted options at the same time. Send each GitHub Actions job to the first free runner in your order: your own Mac, self-hosted runners, GitHub's default runners, or providers like Blacksmith and Boat. Change the order any time without touching your workflows. Open source, with a Mac app and a CLI that turn any machine into a runner on-demand.",
-        "url": "https://www.producthunt.com/products/relayrunner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "externalUrl": "https://www.producthunt.com/r/WNBSVSS2YZDUYO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-        "publishedAt": "2026-11-25T08:01:00Z",
-        "metrics": {
-          "votes": 91,
-          "comments": 9,
-          "rank": 10,
-          "score": 91
-        },
-        "metadata": {
-          "slug": "relayrunner",
-          "topics": [
-            "Open Source",
-            "Developer Tools",
-            "GitHub"
-          ]
-        },
-        "rawJson": {
-          "id": "1323229",
-          "name": "RelayRunner",
-          "slug": "relayrunner",
-          "tagline": "Swap between CI runners on-demand with zero code changes.",
-          "description": "RelayRunner is a router for your existing CI runners, so you can use multiple providers or self-hosted options at the same time. Send each GitHub Actions job to the first free runner in your order: your own Mac, self-hosted runners, GitHub's default runners, or providers like Blacksmith and Boat. Change the order any time without touching your workflows. Open source, with a Mac app and a CLI that turn any machine into a runner on-demand.",
-          "url": "https://www.producthunt.com/products/relayrunner?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "website": "https://www.producthunt.com/r/WNBSVSS2YZDUYO?utm_campaign=producthunt-api&utm_medium=api-v2&utm_source=Application%3A+Daily+New+Products+%28ID%3A+285843%29",
-          "votesCount": 91,
-          "commentsCount": 9,
-          "dailyRank": 10,
-          "latestScore": 91,
-          "featuredAt": "2026-11-25T08:01:00Z",
-          "createdAt": "2026-11-25T08:01:00Z",
-          "topics": {
-            "edges": [
-              {
-                "node": {
-                  "name": "Open Source",
-                  "slug": "open-source"
-                }
-              },
-              {
-                "node": {
-                  "name": "Developer Tools",
-                  "slug": "developer-tools"
-                }
-              },
-              {
-                "node": {
-                  "name": "GitHub",
-                  "slug": "github"
-                }
-              }
-            ]
-          }
-        }
       }
     ],
     "errors": []
   },
   {
     "source": "github_trending",
-    "fetchedAt": "2026-11-26T12:09:59.197Z",
+    "fetchedAt": "2026-11-26T13:22:59.506Z",
     "items": [
       {
         "source": "github_trending",
@@ -621,7 +621,7 @@
         "title": "Nutlope/hallmark",
         "summary": "Anti-AI-slop design skill for Claude Code, Cursor, and Codex.",
         "url": "https://github.com/Nutlope/hallmark",
-        "publishedAt": "2026-11-26T12:09:59.161Z",
+        "publishedAt": "2026-11-26T13:22:59.478Z",
         "metrics": {
           "rank": 1
         },
@@ -636,7 +636,7 @@
         "title": "cloudflare/security-audit-skill",
         "summary": "A coding-agent skill for multi-phase security audits with independently verified, machine-readable findings security-audit A coding-agent skill that turns your agent into a security auditor.",
         "url": "https://github.com/cloudflare/security-audit-skill",
-        "publishedAt": "2026-11-26T12:09:59.163Z",
+        "publishedAt": "2026-11-26T13:22:59.479Z",
         "metrics": {
           "rank": 2
         },
@@ -651,7 +651,7 @@
         "title": "milind-soni/OpenMausBot",
         "summary": "Open-source Grok Bot alternative with a virtual machine that bots can use https://www.mausbot.com/ OpenMausBot The open-source Grok Bot alternative: your own team of AI bots, in a chat app.",
         "url": "https://github.com/milind-soni/OpenMausBot",
-        "publishedAt": "2026-11-26T12:09:59.165Z",
+        "publishedAt": "2026-11-26T13:22:59.481Z",
         "metrics": {
           "rank": 3
         },
@@ -666,7 +666,7 @@
         "title": "pingdotgg/t3code",
         "summary": "The best way to control Claude Code, Codex and more from any computer or phone https://t3.codes T3 Code The open-source control plane for coding agents.",
         "url": "https://github.com/pingdotgg/t3code",
-        "publishedAt": "2026-11-26T12:09:59.166Z",
+        "publishedAt": "2026-11-26T13:22:59.482Z",
         "metrics": {
           "rank": 4
         },
@@ -681,7 +681,7 @@
         "title": "anthropics/skills",
         "summary": "Public repository for Agent Skills Note: This repository contains Anthropic's implementation of skills for Claude.",
         "url": "https://github.com/anthropics/skills",
-        "publishedAt": "2026-11-26T12:09:59.166Z",
+        "publishedAt": "2026-11-26T13:22:59.482Z",
         "metrics": {
           "rank": 5
         },
@@ -696,7 +696,7 @@
         "title": "thedotmack/claude-mem",
         "summary": "Persistent Context Across Sessions for Every Agent – Captures everything your agent does during sessions, compresses it with AI, and injects relevant context back into future sessions.",
         "url": "https://github.com/thedotmack/claude-mem",
-        "publishedAt": "2026-11-26T12:09:59.168Z",
+        "publishedAt": "2026-11-26T13:22:59.483Z",
         "metrics": {
           "rank": 6
         },
@@ -711,7 +711,7 @@
         "title": "Jakeschincariol/instagram-agent-skill",
         "summary": "Thirteen Claude skills that run an Instagram account: Reels off 26 scored hook formulas, a viral research skill, a caption linter, and a humanizer.",
         "url": "https://github.com/Jakeschincariol/instagram-agent-skill",
-        "publishedAt": "2026-11-26T12:09:59.169Z",
+        "publishedAt": "2026-11-26T13:22:59.484Z",
         "metrics": {
           "rank": 7
         },
@@ -726,7 +726,7 @@
         "title": "backnotprop/plannotator",
         "summary": "The workspace to stay in the loop and on top of agents - shape, decide, plan, annotate, review code, share with team, and send all feedback to agents with one click.",
         "url": "https://github.com/backnotprop/plannotator",
-        "publishedAt": "2026-11-26T12:09:59.171Z",
+        "publishedAt": "2026-11-26T13:22:59.485Z",
         "metrics": {
           "rank": 8
         },
@@ -741,7 +741,7 @@
         "title": "Ebony-Vinyl/dsh-our-free-model",
         "summary": "在 dsh 里装上这个插件即可，无需登录、注册或填 API Key，就能使用包括 DeepSeek V4.1 Flash、Kimi K3 在内的前沿模型——完全免费，不限量。",
         "url": "https://github.com/Ebony-Vinyl/dsh-our-free-model",
-        "publishedAt": "2026-11-26T12:09:59.174Z",
+        "publishedAt": "2026-11-26T13:22:59.488Z",
         "metrics": {
           "rank": 9
         },
@@ -756,7 +756,7 @@
         "title": "HKUDS/DeepTutor",
         "summary": "DeepTutor: Lifelong Personalized Tutoring.",
         "url": "https://github.com/HKUDS/DeepTutor",
-        "publishedAt": "2026-11-26T12:09:59.180Z",
+        "publishedAt": "2026-11-26T13:22:59.492Z",
         "metrics": {
           "rank": 10
         },
@@ -771,7 +771,7 @@
         "title": "yetone/magpie",
         "summary": "Every agent's model.",
         "url": "https://github.com/yetone/magpie",
-        "publishedAt": "2026-11-26T12:09:59.181Z",
+        "publishedAt": "2026-11-26T13:22:59.493Z",
         "metrics": {
           "rank": 11
         },
@@ -786,7 +786,7 @@
         "title": "pbakaus/impeccable",
         "summary": "The design vocabulary for your coding agent.",
         "url": "https://github.com/pbakaus/impeccable",
-        "publishedAt": "2026-11-26T12:09:59.183Z",
+        "publishedAt": "2026-11-26T13:22:59.494Z",
         "metrics": {
           "rank": 12
         },
@@ -801,7 +801,7 @@
         "title": "sherlock-project/sherlock",
         "summary": "Hunt down social media accounts by username across social networks https://sherlockproject.xyz Hunt down social media accounts by username across 400+ social networks Installation &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&nbsp; Usage &nbsp;&nbsp;&nbsp;•&nbsp;&nbsp;&n...",
         "url": "https://github.com/sherlock-project/sherlock",
-        "publishedAt": "2026-11-26T12:09:59.183Z",
+        "publishedAt": "2026-11-26T13:22:59.495Z",
         "metrics": {
           "rank": 13
         },
@@ -816,7 +816,7 @@
         "title": "AgriciDaniel/claude-seo",
         "summary": "Universal SEO skill for Claude Code.",
         "url": "https://github.com/AgriciDaniel/claude-seo",
-        "publishedAt": "2026-11-26T12:09:59.184Z",
+        "publishedAt": "2026-11-26T13:22:59.495Z",
         "metrics": {
           "rank": 14
         },
@@ -831,7 +831,7 @@
         "title": "google-labs-code/stitch-skills",
         "summary": "A library of Agent Skills designed to work with the Stitch MCP server.",
         "url": "https://github.com/google-labs-code/stitch-skills",
-        "publishedAt": "2026-11-26T12:09:59.185Z",
+        "publishedAt": "2026-11-26T13:22:59.496Z",
         "metrics": {
           "rank": 15
         },
@@ -846,7 +846,7 @@
         "title": "heygen-com/hyperframes",
         "summary": "Open-source AI video editor: edit your own footage, or create and remake any video with Claude Code, Codex or the free Studio app.",
         "url": "https://github.com/heygen-com/hyperframes",
-        "publishedAt": "2026-11-26T12:09:59.186Z",
+        "publishedAt": "2026-11-26T13:22:59.497Z",
         "metrics": {
           "rank": 16
         },
@@ -861,7 +861,7 @@
         "title": "elementalsouls/Claude-BugHunter",
         "summary": "A Claude Code skill bundle for bug hunting and external red-team work - 85 skills, 16 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
         "url": "https://github.com/elementalsouls/Claude-BugHunter",
-        "publishedAt": "2026-11-26T12:09:59.187Z",
+        "publishedAt": "2026-11-26T13:22:59.498Z",
         "metrics": {
           "rank": 17
         },
@@ -876,7 +876,7 @@
         "title": "kajisho5/ffmpeg-skill",
         "summary": "Local video editor for coding agents: 42 FFmpeg tools with a machine-readable contract and an MCP server, for Claude Code, Cursor and Codex.",
         "url": "https://github.com/kajisho5/ffmpeg-skill",
-        "publishedAt": "2026-11-26T12:09:59.197Z",
+        "publishedAt": "2026-11-26T13:22:59.505Z",
         "metrics": {
           "rank": 18
         },
@@ -891,7 +891,7 @@
         "title": "vercel-labs/agent-browser",
         "summary": "Browser automation CLI for AI agents https://agent-browser.dev agent-browser Browser automation for AI agents: open pages, read them as an accessibility tree, and act on elements from the shell.",
         "url": "https://github.com/vercel-labs/agent-browser",
-        "publishedAt": "2026-11-26T12:09:59.197Z",
+        "publishedAt": "2026-11-26T13:22:59.506Z",
         "metrics": {
           "rank": 19
         },
@@ -905,7 +905,7 @@
   },
   {
     "source": "builder_feeds",
-    "fetchedAt": "2026-11-26T12:10:33.488Z",
+    "fetchedAt": "2026-11-26T13:23:34.717Z",
     "items": [
       {
         "source": "builder_openai",
@@ -1199,6 +1199,74 @@
       },
       {
         "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://garymarcus.substack.com/p/breaking-employees-at-openai-and",
+        "title": "BREAKING: Employees at OpenAI and Anthropic are panicking",
+        "summary": "And it&#8217;s not about stock prices",
+        "body": "And it&#8217;s not about stock prices",
+        "url": "https://garymarcus.substack.com/p/breaking-employees-at-openai-and",
+        "authorName": "Gary Marcus",
+        "sourceName": "Gary Marcus",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T16:06:27.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Gary Marcus",
+          "image": "https://substack-post-media.s3.amazonaws.com/public/images/4b7f24e8-679d-4133-9d6f-2b5420fb0b3f_1580x1792.jpeg"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://garymarcus.substack.com/p/breaking-when-it-comes-to-generative",
+        "title": "Breaking: When it comes to generative AI, the bump from rehiring Jensen doesn’t appear to be holding",
+        "summary": "And Anthropic has dropped below its IPO price",
+        "body": "And Anthropic has dropped below its IPO price",
+        "url": "https://garymarcus.substack.com/p/breaking-when-it-comes-to-generative",
+        "authorName": "Gary Marcus",
+        "sourceName": "Gary Marcus",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T15:06:30.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Gary Marcus",
+          "image": "https://substackcdn.com/image/fetch/$s_!aL0S!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8928e867-e0a8-4715-8444-46bffb2dce80_574x1128.jpeg"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://garymarcus.substack.com/p/could-jensengate-take-down-the-president",
+        "title": "Could Jensengate take down the President?",
+        "summary": "Some cynical speculations have already been confirmed, and you can bet your last dollar the incoming Congress is going to take an interest",
+        "body": "Some cynical speculations have already been confirmed, and you can bet your last dollar the incoming Congress is going to take an interest",
+        "url": "https://garymarcus.substack.com/p/could-jensengate-take-down-the-president",
+        "authorName": "Gary Marcus",
+        "sourceName": "Gary Marcus",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-23T18:46:14.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Gary Marcus",
+          "image": "https://substackcdn.com/image/fetch/$s_!twoK!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F__ss-rehost__tw-video-preview-13_2124898979632795648.jpg"
+        }
+      },
+      {
+        "source": "builder_blog",
+        "sourceItemId": "builder_blog:https://garymarcus.substack.com/p/breaking-jensen-is-back-and-the-market",
+        "title": "Breaking: Jensen is back. And the market is way up. But things will never be the same.",
+        "summary": "In lieu of writing about the stunning news, here&#8217;s a 5 minute guest appearance that I just did on CNN International.",
+        "body": "In lieu of writing about the stunning news, here&#8217;s a 5 minute guest appearance that I just did on CNN International.",
+        "url": "https://garymarcus.substack.com/p/breaking-jensen-is-back-and-the-market",
+        "authorName": "Gary Marcus",
+        "sourceName": "Gary Marcus",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-23T16:38:04.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Gary Marcus",
+          "image": "https://substackcdn.com/image/fetch/$s_!a6lM!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fa943f98c-0ff6-473f-b2e7-ecb32640b160_1622x1023.png"
+        }
+      },
+      {
+        "source": "builder_blog",
         "sourceItemId": "builder_blog:https://www.dwarkesh.com/p/rsiobjections",
         "title": "Responding to objections to recursive self-improvement",
         "summary": "What the skeptics get right about superintelligence",
@@ -1211,6 +1279,231 @@
         "metrics": {},
         "metadata": {
           "feedSource": "Dwarkesh Patel"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+        "title": "Google Will Make AI Agents Use Its MCP Servers. The Gmail One Can't Send Email",
+        "summary": "Article URL: https://techstackups.com/articles/google-workspace-ai-agents-mcp/ Comments URL: https://news.ycombinator.com/item?id=50653477 Points: 77 # Comments: 86",
+        "body": "Article URL: https://techstackups.com/articles/google-workspace-ai-agents-mcp/ Comments URL: https://news.ycombinator.com/item?id=50653477 Points: 77 # Comments: 86",
+        "url": "https://techstackups.com/articles/google-workspace-ai-agents-mcp/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-26T09:44:23.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://twitter.com/thsottiaux/status/2125784147889393806",
+        "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+        "summary": "Article URL: https://twitter.com/thsottiaux/status/2125784147889393806 Comments URL: https://news.ycombinator.com/item?id=50651117 Points: 339 # Comments: 187",
+        "body": "Article URL: https://twitter.com/thsottiaux/status/2125784147889393806 Comments URL: https://news.ycombinator.com/item?id=50651117 Points: 339 # Comments: 187",
+        "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-26T03:36:58.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+        "title": "The New York Times warns photographers not to update Photoshop over AI features",
+        "summary": "https://archive.ph/pcUgy Comments URL: https://news.ycombinator.com/item?id=50647673 Points: 457 # Comments: 382",
+        "body": "https://archive.ph/pcUgy Comments URL: https://news.ycombinator.com/item?id=50647673 Points: 457 # Comments: 382",
+        "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-25T21:18:02.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+        "title": "New York bans AI toys, including those using internet to talk to children",
+        "summary": "Article URL: https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys Comments URL: https://news.ycombinator.com/item?id=50644909 Points: 53 # Comments: 13",
+        "body": "Article URL: https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys Comments URL: https://news.ycombinator.com/item?id=50644909 Points: 53 # Comments: 13",
+        "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-25T17:27:05.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.marginalia.nu/log/a_141_marginalia_update/",
+        "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
+        "summary": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/ Comments URL: https://news.ycombinator.com/item?id=50638220 Points: 221 # Comments: 83",
+        "body": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/ Comments URL: https://news.ycombinator.com/item?id=50638220 Points: 221 # Comments: 83",
+        "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-25T03:47:42.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.proofatlas.ai/open-problems/",
+        "title": "Top open problems in mathematics ranked by LLM-assessed importance",
+        "summary": "Article URL: https://www.proofatlas.ai/open-problems/ Comments URL: https://news.ycombinator.com/item?id=50637871 Points: 103 # Comments: 53",
+        "body": "Article URL: https://www.proofatlas.ai/open-problems/ Comments URL: https://news.ycombinator.com/item?id=50637871 Points: 103 # Comments: 53",
+        "url": "https://www.proofatlas.ai/open-problems/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-25T03:01:36.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+        "title": "New York Ban AI Toys for 5 Years",
+        "summary": "Article URL: https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot Comments URL: https://news.ycombinator.com/item?id=50635246 Points: 38 # Comments: 3",
+        "body": "Article URL: https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot Comments URL: https://news.ycombinator.com/item?id=50635246 Points: 38 # Comments: 3",
+        "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T21:49:50.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://www.anthropic.com/research/working-with-ai",
+        "title": "Working with AI",
+        "summary": "Article URL: https://www.anthropic.com/research/working-with-ai Comments URL: https://news.ycombinator.com/item?id=50634734 Points: 89 # Comments: 76",
+        "body": "Article URL: https://www.anthropic.com/research/working-with-ai Comments URL: https://news.ycombinator.com/item?id=50634734 Points: 89 # Comments: 76",
+        "url": "https://www.anthropic.com/research/working-with-ai",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T21:07:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+        "summary": "Article URL: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ Comments URL: https://news.ycombinator.com/item?id=50634658 Points: 354 # Comments: 97",
+        "body": "Article URL: https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/ Comments URL: https://news.ycombinator.com/item?id=50634658 Points: 354 # Comments: 97",
+        "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T21:02:22.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://claude.com/resources/articles/install-as-app",
+        "title": "Claude artifacts can now be installed as desktop apps on Mac and Windows",
+        "summary": "Article URL: https://claude.com/resources/articles/install-as-app Comments URL: https://news.ycombinator.com/item?id=50634369 Points: 30 # Comments: 3",
+        "body": "Article URL: https://claude.com/resources/articles/install-as-app Comments URL: https://news.ycombinator.com/item?id=50634369 Points: 30 # Comments: 3",
+        "url": "https://claude.com/resources/articles/install-as-app",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T20:39:15.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://news.ycombinator.com/item?id=50633601",
+        "title": "Ask HN: Am I the only one whose AI hype is cooling down a lot?",
+        "summary": "I am in the industry for 15+ years, studied CS, and actually, never really \"liked\" programming. It was a means to an end. I have written about programming (and published books), so don't get me wrong: I like the craft and I miss the sense of accomplishment after hours and days of struggling and fixing a problem with 2 lines of code. What I see in my personal spending and habits: I get free tokens from my company, and I spent between 3k-5k a month at the start of the year. Models got cheaper, but",
+        "body": "I am in the industry for 15+ years, studied CS, and actually, never really \"liked\" programming. It was a means to an end. I have written about programming (and published books), so don't get me wrong: I like the craft and I miss the sense of accomplishment after hours and days of struggling and fixing a problem with 2 lines of code. What I see in my personal spending and habits: I get free tokens from my company, and I spent between 3k-5k a month at the start of the year. Models got cheaper, but also: The usefullness ran its course a little bit for me. I still don't write code by hand, but when doing research, finding solutions, even some decisions (using Opus 5.5 and Astra 6.2 for example) are more and more questionable. I handed large research tasks to models, but even small questions li",
+        "url": "https://news.ycombinator.com/item?id=50633601",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T19:51:01.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://protocolis.co/paper/",
+        "title": "Compiling web applications into verified operations for AI agents",
+        "summary": "Article URL: https://protocolis.co/paper/ Comments URL: https://news.ycombinator.com/item?id=50632998 Points: 34 # Comments: 14",
+        "body": "Article URL: https://protocolis.co/paper/ Comments URL: https://news.ycombinator.com/item?id=50632998 Points: 34 # Comments: 14",
+        "url": "https://protocolis.co/paper/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T19:12:02.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+        "title": "Tidal bans AI-generated music",
+        "summary": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/ Comments URL: https://news.ycombinator.com/item?id=50630309 Points: 336 # Comments: 333",
+        "body": "Article URL: https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/ Comments URL: https://news.ycombinator.com/item?id=50630309 Points: 336 # Comments: 333",
+        "url": "https://variety.com/2026/music/news/tidal-bans-ai-generated-music-1236956924/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T16:12:38.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+        "title": "LLM agents work for their parent companies, not for you",
+        "summary": "Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/ Comments URL: https://news.ycombinator.com/item?id=50627340 Points: 1018 # Comments: 411",
+        "body": "Article URL: https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/ Comments URL: https://news.ycombinator.com/item?id=50627340 Points: 1018 # Comments: 411",
+        "url": "https://michaelharley.net/posts/2026/11/01/llm-agents-work-for-their-parent-companies-not-for-you/",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T12:40:15.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
+        }
+      },
+      {
+        "source": "builder_hackernews",
+        "sourceItemId": "builder_hackernews:https://nomagicpill.substack.com/p/quit-internet-videos-before-ai-perfects",
+        "title": "Quit Internet Videos Before AI Perfects Them",
+        "summary": "Article URL: https://nomagicpill.substack.com/p/quit-internet-videos-before-ai-perfects Comments URL: https://news.ycombinator.com/item?id=50627131 Points: 38 # Comments: 18",
+        "body": "Article URL: https://nomagicpill.substack.com/p/quit-internet-videos-before-ai-perfects Comments URL: https://news.ycombinator.com/item?id=50627131 Points: 38 # Comments: 18",
+        "url": "https://nomagicpill.substack.com/p/quit-internet-videos-before-ai-perfects",
+        "sourceName": "Hacker News AI",
+        "sourceCategory": "news",
+        "publishedAt": "2026-11-24T12:20:15.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "Hacker News AI"
         }
       },
       {
@@ -1257,14 +1550,235 @@
         "metadata": {
           "feedSource": "Lobsters AI"
         }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34849",
+        "title": "Real2SimLab: A Unified Platform for Real-to-Simulation Transfer",
+        "summary": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2Sim",
+        "body": "Real-to-simulation transfer, which builds simulations from real-world observations, has long been studied in research and industry. Recently, coding agents have become capable of generating simulation programs from video recordings, and several benchmarks have been proposed to evaluate them. However, each individual benchmark defines its own inputs, deliverables, and scoring pipeline. This leads to N times M integrations when evaluating N methods on M benchmarks. To this end, we present Real2SimLab, a unified platform for real-to-simulation transfer. It evaluates a method by running its written program and scoring the output simulation with the original scorer of each benchmark. Moreover, Real2SimLab provides a pipeline to create training data and reward annotations for real-to-simulation ",
+        "url": "https://arxiv.org/abs/2611.34849",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34575",
+        "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+        "summary": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in",
+        "body": "Establishing effective scaling laws for medical multimodal large language models (MLLMs) remains a persistent and fundamental challenge. Our systematic evaluation shows that existing medical MLLMs tend to underperform frontier general-purpose MLLMs across a range of medical tasks, while scaling model size primarily improves text capabilities rather than multimodal perception, and enabling reasoning modes fails to close this visual gap. To investigate how medical multimodal intelligence scales in practice, we introduce Sage-Med-Preview, a 35B-parameter medical multimodal model with 3B activated parameters, built by combining stage-specific curation over 322.7 million candidate records with a progressive training curriculum spanning medical pretraining, staged supervised fine-tuning, and ada",
+        "url": "https://arxiv.org/abs/2611.34575",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34923",
+        "title": "Mixture-of-Loops Transformer",
+        "summary": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and r",
+        "body": "Looped Transformers boost expressivity by reusing shared layers across loops, yet at the cost of efficiency. Pushing their expressivity-efficiency frontier requires rethinking the core mechanism connecting adjacent loops: What should be passed as a Transformer loops? We introduce Mixture-of-Loops Transformer (MoLT), whose Mixture-of-Loops Attention (MoLA) uses keys and values (KV) as memory for selective reuse across depths and loops. Under loop residual, MoLT-R retains the residual stream and reads local KV across loops for expressivity. Under loop KV, MoLT-KV instead restarts from embeddings and reads current-loop local KV with preceding-loop memory KV at earlier positions for efficiency. MoLT-KV eliminates same-position cross-loop dependence and, paired with loop forcing for parallel tr",
+        "url": "https://arxiv.org/abs/2611.34923",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34237",
+        "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+        "summary": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding ",
+        "body": "Code-driven video generation asks a coding agent to write and run rendering programs. This gives exact control over typography, data visualizations, synchronized audio, and multi-shot scenes, and it leaves an editable project behind. A program that exits cleanly can still render overlapping labels, a camera aimed away from its subject, broken object interactions, or narration that drifts out of sync, and none of these raise a runtime error. Feeding rendered frames and audio back into the coding session bloats its long-horizon context, while critiquing only the finished full-resolution render turns early design mistakes into costly rewrites. We introduce VibeVideoAgent, a training-free framework that lets coding agents inspect their drafts throughout production. Multimodal perception runs i",
+        "url": "https://arxiv.org/abs/2611.34237",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34941",
+        "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+        "summary": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural chan",
+        "body": "Image editing models can follow a wide range of instructions, but video editing models still lag behind, limited in part by the difficulty of collecting paired source and edited videos. Is it possible to transfer advanced image editing capabilities to video editors without new paired videos? We introduce Image-to-Video Transfer (I2VT), which improves pretrained video editors and expands them to new editing tasks using an image editor. It enables efficient post-training with no architectural changes and no new videos, using only individual images. Our key idea is to let the video editor role-play as an image editor: it edits an image as a one-frame video, with the image editor guiding the video editor's predictions at each denoising step. Although the video editor sees only single images du",
+        "url": "https://arxiv.org/abs/2611.34941",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34420",
+        "title": "DocSEAM: Bidirectional Cross-Page Encoding for Multi-Page Document Understanding",
+        "summary": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted between a pretrained vision encoder and the language model that injects the inductive bias of local cro",
+        "body": "Multi-page document vision-language models encode each page independently, creating a feature-level discontinuity at page boundaries: visual tokens are formed without access to content on adjacent pages, and the language model must reason over these page representations formed in isolation. We introduce DocSEAM (Document Selective Enrichment via Anchored Masking), a lightweight module inserted between a pretrained vision encoder and the language model that injects the inductive bias of local cross-page context into visual representations. For each page, DocSEAM forms a local triplet with its two neighbors, applies center-anchored masked self-attention with directional salience gates to fuse information from neighbor pages, and returns only the enriched center-page tokens, leaving the visua",
+        "url": "https://arxiv.org/abs/2611.34420",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34811",
+        "title": "HOG-WAM: Improving Visual Robustness through Future Gradient Prediction",
+        "summary": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT) module reads RGB features through asymmetric attention, allowing its objective to shape the visual representation used for control. The module is used only during training and rem",
+        "body": "World-action models jointly predict future observations and actions, yet visual corruption can disrupt the resulting policies. We introduce HOG-WAM, which adds future Histograms of Oriented Gradients (HOG) as structural supervision derived directly from demonstration images. An auxiliary HOG diffusion transformer (DiT) module reads RGB features through asymmetric attention, allowing its objective to shape the visual representation used for control. The module is used only during training and removed at inference, preserving FastWAM's RGB-to-action architecture. We evaluate four controlled observation corruptions through a visual-corruption extension of RoboTwin, termed RoboTwin-Plus; HOG-WAM achieves the highest success among the compared policies under all four. Mixed-noise success increa",
+        "url": "https://arxiv.org/abs/2611.34811",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34347",
+        "title": "AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos",
+        "summary": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal streaming benchmark that formulates social embodied intelligence as a time-anchored chain of Attention, Inten",
+        "body": "Embodied agents operating around people must not only recognize social cues, but also decide when the available evidence is sufficient, whether to intervene, and how to respond without violating social norms. Existing benchmarks typically evaluate these abilities in isolation or with access to completed videos, obscuring where an online social decision fails. We introduce AIRIS, a causal streaming benchmark that formulates social embodied intelligence as a time-anchored chain of Attention, Intention, Reaction, and Interaction (A-I-R-I). AIRIS contains 8,000 expert-curated questions grounded in 357 egocentric clips across 11 context categories and 36 capability dimensions. At each query, models receive only the observation prefix available at that time; decision-aware metrics reward calibra",
+        "url": "https://arxiv.org/abs/2611.34347",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34466",
+        "title": "EgoUseBench: Benchmarking Computer-Use Agents under Evolving First-Person Contexts",
+        "summary": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context. We call this interaction paradigm Ego Use. However, first-person observations a",
+        "body": "AI wearables, such as smart glasses, extend the context available to agents beyond digital environments to users' physical surroundings. With these devices, computer tasks can originate from users' ongoing activities rather than solely from explicit instructions. Through first-person observations, agents can identify objects and activities relevant to user requests and ground digital tasks in the surrounding context. We call this interaction paradigm Ego Use. However, first-person observations are limited by the wearer's viewpoint and may provide incomplete or ambiguous evidence of ongoing activities. As new observations arrive, agents may need to revise their understanding of the physical context and user intent, and reassess whether prior digital actions remain valid. Whether current age",
+        "url": "https://arxiv.org/abs/2611.34466",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34929",
+        "title": "High-Fidelity Image Matting with Pixel-Space Diffusion Transformers",
+        "summary": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-cond",
+        "body": "Diffusion models have shown strong potential for image matting by transferring generative priors learned from large-scale pretraining. However, existing approaches largely rely on latent diffusion models, whose compressed representations and VAE-based reconstruction introduce a mismatch with the high-frequency precision required for matting. We present PixelMatte, a framework that adapts pretrained pixel-space diffusion transformers for high-fidelity image matting. We show that strong image-conditioned matting capabilities can be acquired even from a pure text-to-image model without paired image-to-image pretraining. Our approach reuses the backbone's native patch embedding to jointly process the input image, trimap, and noisy alpha matte as spatially aligned tokens, enabling direct pixel-",
+        "url": "https://arxiv.org/abs/2611.34929",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34128",
+        "title": "FoundSurface: Feedforward Ray-Based 3D Scene Surface Reconstruction from Unposed Images",
+        "summary": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable pipeline that directly recovers continuous, high-fidelity 3D surfaces from unposed images by seamlessly integrating pointmap- and ray-based representations. Our approach first extracts explicit geometric priors using a pr",
+        "body": "Accurate 3D surface reconstruction from unposed images remains a fundamental challenge in computer vision. Recent feed-forward pointmap methods eliminate the need for camera poses but inherently produce discrete, sparse representations. In this paper, we present a generalizable pipeline that directly recovers continuous, high-fidelity 3D surfaces from unposed images by seamlessly integrating pointmap- and ray-based representations. Our approach first extracts explicit geometric priors using a pre-trained pointmap model. A query-view-centric selection module then identifies geometrically relevant reference views via a robust surfel voting mechanism. Next, a cross-attention regressor bridges target query rays with reference features to estimate a continuous coarse surface. Lastly, a raylet-b",
+        "url": "https://arxiv.org/abs/2611.34128",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.34907",
+        "title": "Agentic LongLive: Asynchronous Agentic Memory for Long Video Generation",
+        "summary": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow. We present Agentic LongLive, an asynchronous agentic memory for long video generation. A memor",
+        "body": "Real-time autoregressive video generators stream minutes of video and accept new prompts on the fly, but struggle to keep people, objects, and places consistent over a long interactive story. Agent systems provide such memory for offline multi-shot generation, yet they read the whole script in advance, plan each shot before generating it, and regenerate failed shots, which a live stream does not allow. We present Agentic LongLive, an asynchronous agentic memory for long video generation. A memory agent on separate GPUs reads only the prompts revealed so far, never the generated video, and keeps a text state and evolving images for every person, object, and scene. From this entity memory it composes a global image and a per-shot memory image, which an auxiliary GPU prefills into the generat",
+        "url": "https://arxiv.org/abs/2611.34907",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.33636",
+        "title": "What Is Redundant at High Resolution? Efficient Attention and Feed-Forward Design for All-in-One Image Restoration",
+        "summary": "Multi-scale architectures are widely adopted in all-in-one image restoration (AIO-IR) to capture larger-scale context at low-resolution stages and refine details at high-resolution (HR) stages. However, processing spatially large feature maps at HR stages incurs substantial computational costs and memory traffic, making efficient HR processing challenging. To address this challenge, we propose High-resolution Global-Local Restoration (HiGLR), an efficient multi-scale AIO-IR network grounded in a",
+        "body": "Multi-scale architectures are widely adopted in all-in-one image restoration (AIO-IR) to capture larger-scale context at low-resolution stages and refine details at high-resolution (HR) stages. However, processing spatially large feature maps at HR stages incurs substantial computational costs and memory traffic, making efficient HR processing challenging. To address this challenge, we propose High-resolution Global-Local Restoration (HiGLR), an efficient multi-scale AIO-IR network grounded in an analysis of spatial redundancy in self-attention and convolutional feed-forward networks (ConvFFNs). Specifically, this analysis identifies three key redundancies: per-query readout at the finest-scale stage, key routing across neighboring queries at intermediate stages, and spatial mixing in the ",
+        "url": "https://arxiv.org/abs/2611.33636",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.33925",
+        "title": "Beyond the Happy Path: Generalizing Robot World Models from Simulated Failures",
+        "summary": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down. Across five pretrained action-conditioned models, object-motion error is at most 10.4% lower than that of a static baseline that copies the first frame, and two models are worse than this baseline. We present WorldReforge, whic",
+        "body": "Robot world models are increasingly used to evaluate and plan policies, yet robot training data are dominated by successful demonstrations. Off the happy path, when a grasp is misaligned or mistimed and the object is pushed, tilted, or slips, their predictions break down. Across five pretrained action-conditioned models, object-motion error is at most 10.4% lower than that of a static baseline that copies the first frame, and two models are worse than this baseline. We present WorldReforge, which teaches world models what happens when manipulation goes wrong. We construct the Reforge dataset of 62k simulated trajectories by perturbing reference grasps in position, orientation, and closure timing, recording each resulting push, slip, or failed pickup with ground-truth object pose, contact, ",
+        "url": "https://arxiv.org/abs/2611.33925",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
+      },
+      {
+        "source": "builder_huggingface",
+        "sourceItemId": "builder_huggingface:https://arxiv.org/abs/2611.33915",
+        "title": "SEEK: Self-Evolution through Execution Knowledge for Agentic Robot Manipulation",
+        "summary": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot retains what it learns only in the model's working context. Once the task ends, it loses this execution knowledge, such as how to carry a bowl between two grippers. On the next attempt at the task, the robot may take just as long and repeat the same mistakes. To avoid this repetition, robots must retai",
+        "body": "General-purpose multimodal foundation models enable robots to adapt during deployment from observations and execution feedback, without task-specific demonstrations or training. However, the robot retains what it learns only in the model's working context. Once the task ends, it loses this execution knowledge, such as how to carry a bowl between two grippers. On the next attempt at the task, the robot may take just as long and repeat the same mistakes. To avoid this repetition, robots must retain execution knowledge across attempts. Yet replaying past actions is insufficient, because their effects depend on the current conditions. Procedures that determine actions from the current scene address this, but when they meet conditions that earlier attempts did not cover, revising them requires ",
+        "url": "https://arxiv.org/abs/2611.33915",
+        "sourceName": "HuggingFace Papers",
+        "sourceCategory": "technical",
+        "publishedAt": "2026-11-24T19:00:00.000Z",
+        "metrics": {},
+        "metadata": {
+          "feedSource": "HuggingFace Papers"
+        }
       }
     ],
     "errors": [
-      "Anthropic News: This operation was aborted",
-      "Gary Marcus: HTTP 403",
-      "Gwern: HTTP 403",
-      "Hacker News AI: HTTP 502",
-      "HuggingFace Papers: This operation was aborted"
+      "Anthropic News: This operation was aborted"
     ]
   }
 ]
